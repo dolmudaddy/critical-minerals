@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Critical Minerals Weekly | 조성준</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #f7f6f2;
+  --paper: #ffffff;
+  --ink: #1a1a1a;
+  --muted: #6b6b6b;
+  --accent: #8b2332;       /* 짙은 자홍 (KIGAM 톤) */
+  --accent-light: #f5e8ea;
+  --tier1: #2d5a3d;        /* 정부·기관 - 짙은 녹색 */
+  --tier2: #1f4e79;        /* 학술·산업 - 짙은 청색 */
+  --tier3: #6b6b6b;        /* 검색 - 회색 */
+  --border: #e0ddd5;
+  --shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'Inter', 'Noto Serif KR', serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 헤더 */
+.header {
+  background: var(--paper);
+  border-bottom: 1px solid var(--border);
+  padding: 32px 24px 28px;
+  text-align: center;
+}
+
+.header h1 {
+  font-family: 'Noto Serif KR', serif;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 6px;
+  color: var(--accent);
+}
+
+.header .subtitle {
+  font-size: 13px;
+  color: var(--muted);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.header .meta {
+  margin-top: 14px;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.header .meta strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+/* 카테고리 필터 */
+.filters {
+  max-width: 900px;
+  margin: 24px auto 0;
+  padding: 0 16px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.filter-btn {
+  background: var(--paper);
+  border: 1px solid var(--border);
+  padding: 6px 14px;
+  font-size: 13px;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: all 0.15s;
+  font-family: inherit;
+  color: var(--ink);
+}
+
+.filter-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.filter-btn.active {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+
+/* 카드 그리드 */
+.cards-container {
+  max-width: 900px;
+  margin: 32px auto 80px;
+  padding: 0 16px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media (min-width: 720px) {
+  .cards-container { grid-template-columns: 1fr 1fr; }
+}
+
+.card {
+  background: var(--paper);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+.card-header {
+  padding: 12px 18px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+}
+
+.tier-badge {
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.tier-1 { color: var(--tier1); }
+.tier-2 { color: var(--tier2); }
+.tier-3 { color: var(--tier3); }
+
+.card-date {
+  color: var(--muted);
+}
+
+.card-body {
+  padding: 18px 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-source {
+  font-size: 11px;
+  color: var(--muted);
+  letter-spacing: 0.03em;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+
+.card-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.35;
+  margin-bottom: 12px;
+  color: var(--ink);
+}
+
+.card-summary {
+  font-family: 'Noto Serif KR', serif;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.7;
+  margin-bottom: 14px;
+  flex: 1;
+}
+
+.card-summary.hidden { display: none; }
+
+.card-phrases {
+  background: var(--accent-light);
+  border-radius: 4px;
+  padding: 12px 14px;
+  margin-bottom: 14px;
+  display: none;
+}
+
+.card-phrases.visible { display: block; }
+
+.card-phrases h4 {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--accent);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.phrase-item {
+  font-size: 13px;
+  margin-bottom: 6px;
+  line-height: 1.5;
+}
+
+.phrase-item:last-child { margin-bottom: 0; }
+
+.phrase-item .en {
+  font-weight: 500;
+  color: var(--ink);
+}
+
+.phrase-item .ko {
+  color: var(--muted);
+  margin-left: 6px;
+}
+
+.card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.tag {
+  font-size: 11px;
+  background: #f0ede4;
+  color: #555;
+  padding: 2px 8px;
+  border-radius: 3px;
+}
+
+.card-footer {
+  display: flex;
+  gap: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+}
+
+.btn {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid var(--border);
+  background: var(--paper);
+  color: var(--ink);
+  font-family: inherit;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.15s;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+}
+
+.btn:hover {
+  background: var(--ink);
+  color: white;
+  border-color: var(--ink);
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+
+.btn-primary:hover {
+  background: #6e1a26;
+  border-color: #6e1a26;
+}
+
+.empty {
+  text-align: center;
+  padding: 80px 20px;
+  color: var(--muted);
+}
+
+footer {
+  text-align: center;
+  padding: 24px;
+  font-size: 12px;
+  color: var(--muted);
+  border-top: 1px solid var(--border);
+}
+
+footer a {
+  color: var(--accent);
+  text-decoration: none;
+}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <h1>Critical Minerals Weekly</h1>
+  <div class="subtitle">중요광물 탐사·정책 주간 동향</div>
+  <div class="meta">
+    Week of <strong id="week-of">—</strong> · 
+    <span id="card-count">—</span> cards · 
+    Curated by 조성준 (KIGAM)
+  </div>
+</header>
+
+<div class="filters">
+  <button class="filter-btn active" data-cat="all">전체</button>
+  <button class="filter-btn" data-cat="policy_market">정책·시장</button>
+  <button class="filter-btn" data-cat="exploration_tech">탐사기술</button>
+  <button class="filter-btn" data-cat="discovery">발견·매장지</button>
+  <button class="filter-btn" data-cat="supply_chain">공급망</button>
+  <button class="filter-btn" data-cat="research">연구</button>
+</div>
+
+<main class="cards-container" id="cards"></main>
+
+<footer>
+  <a href="https://github.com/chodolmu" target="_blank">GitHub</a> · 
+  Built with GitHub Actions + Claude API · 
+  <span id="generated-at">—</span>
+</footer>
+
+<script>
+const TIER_LABEL = {5: 'Tier 1 · Government', 4: 'Tier 2 · Academic', 3: 'Tier 2 · Industry', 1: 'Tier 3 · News Search'};
+const TIER_CLASS = {5: 'tier-1', 4: 'tier-2', 3: 'tier-2', 1: 'tier-3'};
+
+let allArticles = [];
+let currentFilter = 'all';
+
+async function loadData() {
+  try {
+    const res = await fetch('./data/latest.json?t=' + Date.now());
+    const data = await res.json();
+    
+    document.getElementById('week-of').textContent = data.week_of;
+    document.getElementById('card-count').textContent = data.total_cards;
+    document.getElementById('generated-at').textContent = 
+      'Last update: ' + new Date(data.generated_at).toLocaleString('ko-KR');
+    
+    allArticles = data.articles;
+    render();
+  } catch (e) {
+    document.getElementById('cards').innerHTML = 
+      '<div class="empty">데이터를 불러올 수 없습니다.<br>아직 첫 번째 수집이 실행되지 않았을 수 있습니다.</div>';
+  }
+}
+
+function render() {
+  const container = document.getElementById('cards');
+  const filtered = currentFilter === 'all' 
+    ? allArticles 
+    : allArticles.filter(a => a.category === currentFilter);
+  
+  if (filtered.length === 0) {
+    container.innerHTML = '<div class="empty">해당 카테고리에 카드가 없습니다.</div>';
+    return;
+  }
+  
+  container.innerHTML = filtered.map((a, idx) => {
+    const tierLabel = TIER_LABEL[a.tier_weight] || 'Source';
+    const tierClass = TIER_CLASS[a.tier_weight] || 'tier-3';
+    const date = new Date(a.published).toLocaleDateString('ko-KR', 
+      {year: 'numeric', month: 'short', day: 'numeric'});
+    
+    const phrasesHtml = (a.english_phrases || []).map(p =>
+      `<div class="phrase-item"><span class="en">"${p.phrase}"</span><span class="ko">— ${p.meaning}</span></div>`
+    ).join('');
+    
+    const tagsHtml = (a.tags || []).map(t => `<span class="tag">#${t}</span>`).join('');
+    
+    return `
+      <article class="card" data-idx="${idx}">
+        <div class="card-header">
+          <span class="tier-badge ${tierClass}">${tierLabel}</span>
+          <span class="card-date">${date}</span>
+        </div>
+        <div class="card-body">
+          <div class="card-source">${a.source}</div>
+          <h2 class="card-title">${a.title}</h2>
+          <div class="card-summary" data-mode="ko">${a.korean_summary || ''}</div>
+          <div class="card-summary hidden" data-mode="en">${a.summary_raw || ''}</div>
+          ${phrasesHtml ? `<div class="card-phrases"><h4>📚 영어 표현</h4>${phrasesHtml}</div>` : ''}
+          <div class="card-tags">${tagsHtml}</div>
+          <div class="card-footer">
+            <button class="btn toggle-lang" onclick="toggleLang(${idx})">EN/KO</button>
+            <button class="btn toggle-phrases" onclick="togglePhrases(${idx})">표현 보기</button>
+            <a class="btn btn-primary" href="${a.url}" target="_blank">원문 →</a>
+          </div>
+        </div>
+      </article>
+    `;
+  }).join('');
+}
+
+function toggleLang(idx) {
+  const card = document.querySelector(`.card[data-idx="${idx}"]`);
+  card.querySelectorAll('.card-summary').forEach(el => el.classList.toggle('hidden'));
+}
+
+function togglePhrases(idx) {
+  const card = document.querySelector(`.card[data-idx="${idx}"]`);
+  card.querySelector('.card-phrases')?.classList.toggle('visible');
+}
+
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    currentFilter = btn.dataset.cat;
+    render();
+  });
+});
+
+loadData();
+</script>
+
+</body>
+</html>

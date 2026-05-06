@@ -1,0 +1,121 @@
+{
+  "week_of": "2026-05-06",
+  "generated_at": "2026-05-06T08:00:00+09:00",
+  "total_cards": 6,
+  "articles": [
+    {
+      "id": "a1b2c3d4e5",
+      "title": "EU Adopts Critical Raw Materials Act Implementation Regulation",
+      "source": "European Commission - Energy",
+      "tier_weight": 5,
+      "url": "https://example.com/eu-crma",
+      "published": "2026-05-04T10:00:00+00:00",
+      "score": 18,
+      "summary_raw": "The European Commission today adopted the implementing regulation for the Critical Raw Materials Act (CRMA), establishing detailed criteria for Strategic Project designation. The regulation specifies that projects must contribute to domestic extraction, processing, or recycling capacity for one of 17 strategic raw materials, including lithium, cobalt, and rare earth elements. Member States have 90 days to submit project applications. The Commission expects to designate the first batch of Strategic Projects by Q4 2026, which will benefit from streamlined permitting and access to dedicated financing instruments under InvestEU.",
+      "korean_summary": "EU 집행위원회가 핵심원자재법(CRMA) 시행규정을 채택하여 전략 프로젝트 지정 기준을 확립하였음. 리튬·코발트·희토류 등 17종 전략 원자재의 역내 채굴·가공·재활용 역량 강화에 기여하는 프로젝트가 대상이며, 회원국은 90일 내 신청 가능함. 2026년 4분기 첫 지정이 예정되어 있으며, 인허가 간소화 및 InvestEU 자금 접근 혜택이 부여될 전망임.",
+      "english_phrases": [
+        {"phrase": "implementing regulation", "meaning": "시행규정"},
+        {"phrase": "Strategic Project designation", "meaning": "전략 프로젝트 지정"},
+        {"phrase": "streamlined permitting", "meaning": "인허가 간소화"}
+      ],
+      "tags": ["CRMA", "EU 정책", "전략광물"],
+      "category": "policy_market",
+      "ai_processed": true
+    },
+    {
+      "id": "b2c3d4e5f6",
+      "title": "China Tightens Export Controls on Antimony and Germanium Concentrates",
+      "source": "Reuters Commodities",
+      "tier_weight": 3,
+      "url": "https://example.com/china-export",
+      "published": "2026-05-03T14:30:00+00:00",
+      "score": 16,
+      "summary_raw": "China's Ministry of Commerce announced expanded export licensing requirements for antimony and germanium concentrates, effective June 1. The new rules require end-use verification and customer due diligence documentation. Industry analysts estimate the move could affect approximately 35% of global supply, with downstream impacts expected on semiconductor manufacturing and flame-retardant production. Korean and Japanese buyers are reportedly accelerating diversification efforts, with new sourcing agreements under negotiation in Australia and Bolivia.",
+      "korean_summary": "중국 상무부가 6월 1일부로 안티모니·게르마늄 정광에 대한 수출허가 요건을 확대 시행함. 최종 사용처 검증 및 수요자 실사 서류 제출이 의무화되며, 글로벌 공급량의 약 35%에 영향을 미칠 것으로 분석됨. 반도체 제조 및 난연재 생산에 파급효과가 예상되며, 한·일 수요자는 호주·볼리비아 다변화 계약을 가속화하고 있음.",
+      "english_phrases": [
+        {"phrase": "end-use verification", "meaning": "최종 사용처 검증"},
+        {"phrase": "customer due diligence", "meaning": "수요자 실사"},
+        {"phrase": "downstream impacts", "meaning": "후방 산업 파급효과"}
+      ],
+      "tags": ["중국", "수출통제", "공급망"],
+      "category": "policy_market",
+      "ai_processed": true
+    },
+    {
+      "id": "c3d4e5f6g7",
+      "title": "Hyperspectral Drone Survey Identifies New Lithium-Bearing Pegmatite in Western Australia",
+      "source": "arXiv Geophysics",
+      "tier_weight": 4,
+      "url": "https://example.com/hyperspectral-li",
+      "published": "2026-05-02T09:00:00+00:00",
+      "score": 15,
+      "summary_raw": "A research team led by CSIRO published findings from a UAV-mounted hyperspectral imaging campaign over the Pilbara region. Using SWIR (short-wave infrared) absorption features at 1410 nm and 2200 nm, combined with random forest classification, they identified a previously undocumented spodumene-bearing pegmatite zone covering 4.2 km². Ground truth sampling confirmed Li2O grades of 1.2-1.8%. The study demonstrates that drone-based hyperspectral surveys can provide cost-effective reconnaissance over remote terrain, with detection accuracy of 87% compared to conventional ground mapping.",
+      "korean_summary": "CSIRO 연구진이 필바라 지역 UAV 초분광 영상 조사 결과를 발표함. SWIR 영역 1410·2200nm 흡수 특성과 랜덤 포레스트 분류 기법을 결합하여 4.2km² 규모의 미발견 스포듀민 함유 페그마타이트대를 식별하였음. 지상 시료 분석 결과 Li2O 1.2-1.8% 품위가 확인되었으며, 기존 지질도화 대비 87% 검출 정확도로 원격지 광역탐사의 비용 효율성을 입증함.",
+      "english_phrases": [
+        {"phrase": "hyperspectral imaging campaign", "meaning": "초분광 영상 조사"},
+        {"phrase": "ground truth sampling", "meaning": "지상 검증 시료채취"},
+        {"phrase": "cost-effective reconnaissance", "meaning": "비용 효율적 광역탐사"}
+      ],
+      "tags": ["리튬", "초분광탐사", "호주"],
+      "category": "exploration_tech",
+      "ai_processed": true
+    },
+    {
+      "id": "d4e5f6g7h8",
+      "title": "USGS Releases 2026 Mineral Commodity Summaries with Updated Critical Mineral List",
+      "source": "USGS Mineral Resources",
+      "tier_weight": 5,
+      "url": "https://example.com/usgs-mcs",
+      "published": "2026-05-01T15:00:00+00:00",
+      "score": 14,
+      "summary_raw": "The U.S. Geological Survey released its annual Mineral Commodity Summaries report, with 50 minerals now classified as critical to U.S. economic and national security. New additions include silicon and copper, reflecting their growing importance in semiconductors and electrification infrastructure. The report notes that U.S. import reliance increased for 12 commodities, with rare earth elements still 100% import-dependent. Domestic production of lithium grew 8% year-over-year, primarily from Nevada operations.",
+      "korean_summary": "USGS가 2026년 광물자원 요약 보고서를 발간하였으며, 50종을 미국 경제·국가안보 관점의 중요광물로 지정함. 반도체·전동화 인프라 수요를 반영하여 규소·구리가 신규 편입되었으며, 12종에서 수입의존도가 상승하였음. 희토류는 여전히 100% 수입의존 상태이나, 국내 리튬 생산은 네바다 사업장을 중심으로 전년 대비 8% 증가하였음.",
+      "english_phrases": [
+        {"phrase": "import reliance", "meaning": "수입의존도"},
+        {"phrase": "electrification infrastructure", "meaning": "전동화 인프라"},
+        {"phrase": "year-over-year", "meaning": "전년 대비"}
+      ],
+      "tags": ["USGS", "중요광물 목록", "미국"],
+      "category": "policy_market",
+      "ai_processed": true
+    },
+    {
+      "id": "e5f6g7h8i9",
+      "title": "Major Cobalt Discovery Announced in Tanzania's Kabanga Project",
+      "source": "Mining.com",
+      "tier_weight": 3,
+      "url": "https://example.com/kabanga-co",
+      "published": "2026-04-30T11:00:00+00:00",
+      "score": 14,
+      "summary_raw": "Lifezone Metals announced an updated mineral resource estimate for the Kabanga nickel-cobalt project in northwestern Tanzania, increasing measured and indicated resources to 58 million tonnes at 2.1% nickel and 0.16% cobalt. The expansion is supported by 18 new diamond drill holes completed in late 2025. The project, which uses hydrometallurgical processing rather than smelting, is positioned as a key non-Chinese source of battery-grade nickel and cobalt sulphate. First production remains targeted for late 2027.",
+      "korean_summary": "Lifezone Metals가 탄자니아 북서부 카방가 니켈-코발트 프로젝트의 자원량 평가를 갱신하여, 측정·지시 자원량을 5,800만톤(니켈 2.1%, 코발트 0.16%)으로 상향 조정하였음. 2025년 말 완료된 18개 다이아몬드 시추공 결과가 반영되었으며, 제련 대신 습식제련 공정을 채택하여 비중국계 배터리급 니켈·코발트 황산염 공급원으로 자리매김할 전망임. 초도 생산은 2027년 말 예정.",
+      "english_phrases": [
+        {"phrase": "measured and indicated resources", "meaning": "측정·지시 자원량"},
+        {"phrase": "hydrometallurgical processing", "meaning": "습식제련 공정"},
+        {"phrase": "battery-grade", "meaning": "배터리급"}
+      ],
+      "tags": ["탄자니아", "코발트", "니켈"],
+      "category": "discovery",
+      "ai_processed": true
+    },
+    {
+      "id": "f6g7h8i9j0",
+      "title": "Korea-Australia Critical Minerals MoU Establishes Joint Exploration Fund",
+      "source": "S&P Global Commodity Insights",
+      "tier_weight": 3,
+      "url": "https://example.com/kr-au-mou",
+      "published": "2026-04-29T08:30:00+00:00",
+      "score": 13,
+      "summary_raw": "Korea and Australia signed a memorandum of understanding establishing a joint critical minerals exploration fund worth USD 200 million over five years. The fund will support upstream exploration projects for lithium, rare earths, and high-purity alumina in Western Australia and South Australia, with co-investment from KOMIR (Korea Mine Rehabilitation and Mineral Resources Corporation) and Australian state governments. The agreement also includes provisions for technology transfer in geophysical exploration and processing.",
+      "korean_summary": "한국과 호주가 5년간 2억 달러 규모의 공동 중요광물 탐사기금 조성을 골자로 하는 MoU를 체결하였음. 호주 서부·남부의 리튬·희토류·고순도 알루미나 상류 탐사 프로젝트를 지원하며, 한국광해광업공단(KOMIR)과 호주 주정부가 공동 투자함. 지구물리 탐사 및 가공 기술이전 조항도 포함되어 있어 양국 협력의 새로운 단계로 평가됨.",
+      "english_phrases": [
+        {"phrase": "upstream exploration", "meaning": "상류 탐사"},
+        {"phrase": "co-investment", "meaning": "공동 투자"},
+        {"phrase": "technology transfer", "meaning": "기술이전"}
+      ],
+      "tags": ["한-호주", "MoU", "탐사기금"],
+      "category": "supply_chain",
+      "ai_processed": true
+    }
+  ]
+}

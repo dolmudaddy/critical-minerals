@@ -1,0 +1,127 @@
+# Critical Minerals News - Source Configuration
+# 신뢰도 가중치(tier_weight): Tier 1=5, Tier 2=3, Tier 3=1
+
+# Tier 1: 정부·국제기구 (가장 신뢰도 높음)
+tier1_government:
+  - name: "USGS Mineral Resources"
+    url: "https://www.usgs.gov/programs/mineral-resources-program/news/feed"
+    type: "rss"
+    tier_weight: 5
+
+  - name: "IEA News"
+    url: "https://www.iea.org/rss/news"
+    type: "rss"
+    tier_weight: 5
+
+  - name: "European Commission - Energy"
+    url: "https://ec.europa.eu/commission/presscorner/api/rss?language=en&service=press&topic=energy"
+    type: "rss"
+    tier_weight: 5
+
+  - name: "Geoscience Australia"
+    url: "https://www.ga.gov.au/news-events/news/feed"
+    type: "rss"
+    tier_weight: 5
+
+# Tier 2: 학술·산업 전문 매체
+tier2_industry:
+  - name: "Mining.com"
+    url: "https://www.mining.com/feed/"
+    type: "rss"
+    tier_weight: 3
+
+  - name: "S&P Global Commodity Insights"
+    url: "https://www.spglobal.com/commodity-insights/en/rss-feed/metals"
+    type: "rss"
+    tier_weight: 3
+
+  - name: "Reuters Commodities"
+    url: "https://www.reutersagency.com/feed/?best-topics=commodities&post_type=best"
+    type: "rss"
+    tier_weight: 3
+
+  - name: "arXiv Geophysics"
+    url: "http://export.arxiv.org/rss/physics.geo-ph"
+    type: "rss"
+    tier_weight: 4
+
+  - name: "Mining Weekly"
+    url: "https://www.miningweekly.com/page/rss-feeds"
+    type: "rss"
+    tier_weight: 3
+
+# Tier 3: Google News 검색 RSS (광범위 모니터링)
+tier3_search:
+  - name: "Google News - Critical Minerals Exploration"
+    url: 'https://news.google.com/rss/search?q=%22critical+minerals%22+exploration+when:7d&hl=en&gl=US&ceid=US:en'
+    type: "rss"
+    tier_weight: 1
+
+  - name: "Google News - Lithium Discovery"
+    url: 'https://news.google.com/rss/search?q=lithium+(discovery+OR+deposit+OR+resource)+when:7d&hl=en&gl=US&ceid=US:en'
+    type: "rss"
+    tier_weight: 1
+
+  - name: "Google News - Rare Earth Elements"
+    url: 'https://news.google.com/rss/search?q=%22rare+earth%22+(deposit+OR+exploration+OR+mining)+when:7d&hl=en&gl=US&ceid=US:en'
+    type: "rss"
+    tier_weight: 1
+
+  - name: "Google News - IRA CRMA Policy"
+    url: 'https://news.google.com/rss/search?q=(IRA+OR+CRMA+OR+%22critical+raw+materials%22)+supply+chain+when:7d&hl=en&gl=US&ceid=US:en'
+    type: "rss"
+    tier_weight: 1
+
+# 점수화 키워드
+keywords:
+  # 핵심 광종 (이 중 하나는 반드시 포함되어야 함)
+  core_minerals:
+    - lithium
+    - cobalt
+    - nickel
+    - graphite
+    - rare earth
+    - REE
+    - critical mineral
+    - critical raw material
+    - manganese
+    - tungsten
+    - vanadium
+    - platinum group
+
+  # 탐사 기술 (가중치)
+  exploration_tech:
+    geophysical: 4
+    magnetotelluric: 5
+    "MT survey": 5
+    seismic: 3
+    gravity: 3
+    magnetic: 3
+    "remote sensing": 4
+    hyperspectral: 5
+    satellite: 2
+    drilling: 3
+    "machine learning": 3
+    "AI exploration": 4
+    geochemistry: 3
+    exploration: 2
+
+  # 정책·시장 (가중치)
+  policy_market:
+    IRA: 4
+    CRMA: 4
+    "supply chain": 3
+    "export restriction": 4
+    tariff: 2
+    ODA: 3
+    Tanzania: 3   # 박사님 ODA 프로젝트
+    "value chain": 3
+    refining: 2
+    smelting: 2
+    processing: 2
+
+# 카드뉴스 발행 설정
+publication:
+  max_cards_per_week: 12
+  min_score_threshold: 5
+  dedup_similarity_threshold: 0.7
