@@ -41,7 +41,7 @@ cd critical-minerals
 
 Actions 탭 → `Weekly Critical Minerals Digest` → `Run workflow` 버튼
 
-3-5분 후 `https://chodolmu.github.io/critical-minerals/` 에서 확인 가능합니다.
+3-5분 후 `https://dolmudaddy.github.io/critical-minerals/` 에서 확인 가능합니다.
 
 ## 일상 운영
 
