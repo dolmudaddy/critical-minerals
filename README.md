@@ -21,7 +21,7 @@
 
 ```bash
 # GitHub에서 'critical-minerals' 저장소 생성 후
-git clone https://github.com/chodolmu/critical-minerals.git
+git clone https://github.com/dolmudaddy/critical-minerals.git
 cd critical-minerals
 # 이 폴더 내용을 모두 복사
 ```
