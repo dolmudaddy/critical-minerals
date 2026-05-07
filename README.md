@@ -13,7 +13,7 @@
 2. 키워드·소스 신뢰도·최신성 기반 **점수화 및 상위 12개 선별**
 3. 제목 유사도 기반 **중복 제거**
 4. **Claude API로 한국어 요약 + 영어 학습 표현 3개 자동 추출**
-5. `chodolmu.github.io/critical-minerals/`에 자동 배포
+5. `dolmudaddy.github.io/critical-minerals/`에 자동 배포
 
 ## 초기 설정 (1회만)
 
