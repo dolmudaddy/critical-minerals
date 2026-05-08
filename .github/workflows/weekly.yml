@@ -36,11 +36,14 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/summarize.py
 
+      - name: Generate RSS feed
+        run: python scripts/generate_rss.py
+
       - name: Commit and push results
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/
+          git add data/ rss.xml          # ← rss.xml 추가
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
