@@ -21,10 +21,14 @@ DATA_DIR = ROOT / "data"
 # Claude Haiku 4.5 — 비용 효율적 (요약 작업에 충분)
 MODEL = "claude-haiku-4-5-20251001"
 
-PROMPT_TEMPLATE = """당신은 중요광물(critical minerals) 분야의 전문 큐레이터입니다.
+PROMPT_TEMPLATE = """당신은 핵심광물(critical minerals) 분야의 전문 큐레이터입니다.
 다음 영문 기사를 한국 자원공학 연구자(KIGAM 책임연구원, 한국자원공학회장)를 위한
 주간 카드뉴스용으로 가공해 주십시오.
 
+[번역 지침]
+- "critical minerals" 또는 "critical raw materials"는 반드시 "핵심광물"로 번역
+- "중요광물"이라는 표현은 사용하지 말 것
+- "전략광물"도 가급적 "핵심광물"로 통일 (단, 원문이 strategic mineral인 경우는 전략광물 유지)
 [기사 정보]
 제목: {title}
 출처: {source}
