@@ -93,7 +93,7 @@ def score_article(article: dict) -> int:
     kw = CONFIG["keywords"]
 
     # 1. 핵심 광종 필터 (없으면 탈락)
-    if not any(m.lower() in text for m in kw["core_minerals"]):
+    if not any(m.lower() in text for m in kw["critical_minerals"]):
         return 0
 
     score = article["tier_weight"]  # Tier 가중치 기본 점수
