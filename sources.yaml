@@ -29,16 +29,56 @@ tier2_industry:
     url: "https://www.mining.com/feed/"
     type: "rss"
     tier_weight: 3
-
-  - name: "S&P Global Commodity Insights"
-    url: "https://www.spglobal.com/commodity-insights/en/rss-feed/metals"
+    
+  - name: "S&P Global - Metals & Mining"
+    url: "https://www.spglobal.com/commodityinsights/en/market-insights/rss-feed"
     type: "rss"
-    tier_weight: 3
+    tier_weight: 4
 
+  - name: "Wood Mackenzie - via Google News"
+    url: 'https://news.google.com/rss/search?q=site:woodmac.com+(critical+minerals+OR+lithium+OR+cobalt+OR+nickel+OR+rare+earth)&hl=en&gl=US&ceid=US:en'
+    type: "rss"
+    tier_weight: 4
+
+  - name: "McKinsey - via Google News"
+    url: 'https://news.google.com/rss/search?q=site:mckinsey.com+(critical+minerals+OR+mining+OR+metals)&hl=en&gl=US&ceid=US:en'
+    type: "rss"
+    tier_weight: 4
+
+  - name: "Deloitte - via Google News"
+    url: 'https://news.google.com/rss/search?q=site:deloitte.com+(critical+minerals+OR+mining+OR+%22energy+transition%22)&hl=en&gl=US&ceid=US:en'
+    type: "rss"
+    tier_weight: 4
+
+  - name: "BCG - via Google News"
+    url: 'https://news.google.com/rss/search?q=site:bcg.com+(critical+minerals+OR+mining+OR+battery+materials)&hl=en&gl=US&ceid=US:en'
+    type: "rss"
+    tier_weight: 4
+    
   - name: "Reuters Commodities"
     url: "https://www.reutersagency.com/feed/?best-topics=commodities&post_type=best"
     type: "rss"
     tier_weight: 3
+    
+  - name: "Fastmarkets - via Google News"
+    url: 'https://news.google.com/rss/search?q=site:fastmarkets.com+(lithium+OR+cobalt+OR+nickel+OR+%22rare+earth%22+OR+graphite+OR+tungsten)&hl=en&gl=US&ceid=US:en'
+    type: "rss"
+    tier_weight: 5
+
+  - name: "Benchmark Mineral Intelligence - via Google News"
+    url: 'https://news.google.com/rss/search?q=site:benchmarkminerals.com+OR+site:source.benchmarkminerals.com&hl=en&gl=US&ceid=US:en'
+    type: "rss"
+    tier_weight: 5
+
+  - name: "Project Blue - via Google News"
+    url: 'https://news.google.com/rss/search?q=site:projectblue.com+(critical+OR+rare+earth+OR+lithium+OR+cobalt+OR+vanadium+OR+graphite)&hl=en&gl=US&ceid=US:en'
+    type: "rss"
+    tier_weight: 5
+
+  - name: "Project Blue Mentions in Industry News"
+    url: 'https://news.google.com/rss/search?q=%22Project+Blue%22+(critical+minerals+OR+rare+earth+OR+lithium+OR+cobalt)&hl=en&gl=US&ceid=US:en'
+    type: "rss"
+    tier_weight: 4
 
   - name: "arXiv Geophysics"
     url: "http://export.arxiv.org/rss/physics.geo-ph"
@@ -75,19 +115,34 @@ tier3_search:
 # 점수화 키워드
 keywords:
   # 핵심 광종 (이 중 하나는 반드시 포함되어야 함)
-  core_minerals:
-    - lithium
-    - cobalt
-    - nickel
-    - graphite
-    - rare earth
-    - REE
-    - critical mineral
-    - critical raw material
-    - manganese
-    - tungsten
-    - vanadium
-    - platinum group
+  critical_minerals:
+  # 배터리·에너지 전환
+  - lithium
+  - cobalt
+  - nickel
+  - graphite
+  - manganese
+  
+  # 영구자석·고기능
+  - rare earth
+  - REE
+  
+  # 반도체·전자
+  - gallium
+  - germanium
+  - indium       # 추가 권장
+  - tellurium    # 추가 권장
+  
+  # 군수·고온
+  - tungsten
+  - vanadium
+  - antimony     # 추가 권장 (최근 중국 수출통제 핵심)
+  - platinum group
+  
+  # 일반
+  - critical mineral
+  - critical raw material
+  - strategic mineral   # 추가 권장
 
   # 탐사 기술 (가중치)
   exploration_tech:
@@ -119,9 +174,12 @@ keywords:
     refining: 2
     smelting: 2
     processing: 2
+    "price floor": 4            # ← 추가 (최근 미국 정책 핵심 용어)
+  stockpile: 3                # ← 추가 (전략비축)
+  "trade bloc": 3             # ← 추가 (Critical Minerals Ministerial 핵심)
 
 # 카드뉴스 발행 설정
 publication:
   max_cards_per_week: 12
-  min_score_threshold: 5
+  min_score_threshold: 10
   dedup_similarity_threshold: 0.7
