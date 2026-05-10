@@ -1,39 +1,68 @@
 # Critical Minerals News - Source Configuration
 # 신뢰도 가중치(tier_weight): Tier 1=5, Tier 2=3, Tier 3=1
 
-# Tier 1: 정부·국제기구 (가장 신뢰도 높음)
 tier1_government:
-  - name: "USGS Mineral Resources"
-    url: "https://www.usgs.gov/programs/mineral-resources-program/news/feed"
+  # USGS - 검증된 공식 RSS (Mineral Industry Surveys + Yearbook 발행)
+  - name: "USGS Minerals Periodicals"
+    url: "https://minerals.usgs.gov/rss/mineral-commodity-periodicals.rss"
     type: "rss"
     tier_weight: 5
 
-  - name: "IEA News"
-    url: "https://www.iea.org/rss/news"
+  # IEA - Google News 우회 (자체 RSS는 봇 차단)
+  - name: "IEA - via Google News"
+    url: 'https://news.google.com/rss/search?q=site:iea.org+(critical+minerals+OR+%22energy+transition%22+OR+lithium+OR+cobalt+OR+%22rare+earth%22)&hl=en&gl=US&ceid=US:en'
     type: "rss"
     tier_weight: 5
 
+  # European Commission - 박사님 시스템에서 정상 동작 중 (그대로 유지)
   - name: "European Commission - Energy"
     url: "https://ec.europa.eu/commission/presscorner/api/rss?language=en&service=press&topic=energy"
     type: "rss"
     tier_weight: 5
 
-  - name: "Geoscience Australia"
-    url: "https://www.ga.gov.au/news-events/news/feed"
+  # Geoscience Australia - Google News 우회 (자체 RSS는 URL 변경됨)
+  - name: "Geoscience Australia - via Google News"
+    url: 'https://news.google.com/rss/search?q=site:ga.gov.au+(mineral+OR+critical+OR+exploration+OR+resource)&hl=en&gl=US&ceid=US:en'
+    type: "rss"
+    tier_weight: 5
+
+  # 보너스: BGS (영국 지질조사소) - 박사님 분야 권위
+  - name: "BGS - via Google News"
+    url: 'https://news.google.com/rss/search?q=site:bgs.ac.uk+(critical+minerals+OR+lithium+OR+cobalt+OR+%22rare+earth%22)&hl=en&gl=US&ceid=US:en'
+    type: "rss"
+    tier_weight: 5
+
+  # 보너스: NRCan (캐나다 자연자원부) - 핵심광물 정책 선도국
+  - name: "NRCan - via Google News"
+    url: 'https://news.google.com/rss/search?q=site:nrcan-rncan.gc.ca+(critical+minerals+OR+%22minerals+strategy%22)&hl=en&gl=US&ceid=US:en'
     type: "rss"
     tier_weight: 5
 
 # Tier 2: 학술·산업 전문 매체
 tier2_industry:
+  # Mining.com - RSS 정상 동작 (일시 오류였을 가능성)
   - name: "Mining.com"
     url: "https://www.mining.com/feed/"
     type: "rss"
     tier_weight: 3
-    
-  - name: "S&P Global - Metals & Mining"
-    url: "https://www.spglobal.com/commodityinsights/en/market-insights/rss-feed"
+
+  # S&P Global - Google News 우회 (자체 RSS 페이지 변경됨)
+  - name: "S&P Global - via Google News"
+    url: 'https://news.google.com/rss/search?q=site:spglobal.com+(critical+minerals+OR+lithium+OR+cobalt+OR+nickel+OR+%22rare+earth%22+OR+graphite)&hl=en&gl=US&ceid=US:en'
     type: "rss"
     tier_weight: 4
+
+  # Reuters - Google News 우회 (URL 변경됨)
+  - name: "Reuters - via Google News"
+    url: 'https://news.google.com/rss/search?q=site:reuters.com+(%22critical+minerals%22+OR+lithium+OR+cobalt+OR+%22rare+earth%22)&hl=en&gl=US&ceid=US:en'
+    type: "rss"
+    tier_weight: 3
+
+  # Mining Weekly - Google News 우회 (자체 RSS 페이지 아니었음)
+  - name: "Mining Weekly - via Google News"
+    url: 'https://news.google.com/rss/search?q=site:miningweekly.com+(critical+minerals+OR+lithium+OR+cobalt+OR+%22rare+earth%22+OR+exploration)&hl=en&gl=US&ceid=US:en'
+    type: "rss"
+    tier_weight: 3
 
   - name: "Wood Mackenzie - via Google News"
     url: 'https://news.google.com/rss/search?q=site:woodmac.com+(critical+minerals+OR+lithium+OR+cobalt+OR+nickel+OR+rare+earth)&hl=en&gl=US&ceid=US:en'
@@ -55,11 +84,7 @@ tier2_industry:
     type: "rss"
     tier_weight: 4
     
-  - name: "Reuters Commodities"
-    url: "https://www.reutersagency.com/feed/?best-topics=commodities&post_type=best"
-    type: "rss"
-    tier_weight: 3
-    
+   
   - name: "Fastmarkets - via Google News"
     url: 'https://news.google.com/rss/search?q=site:fastmarkets.com+(lithium+OR+cobalt+OR+nickel+OR+%22rare+earth%22+OR+graphite+OR+tungsten)&hl=en&gl=US&ceid=US:en'
     type: "rss"
@@ -85,10 +110,7 @@ tier2_industry:
     type: "rss"
     tier_weight: 4
 
-  - name: "Mining Weekly"
-    url: "https://www.miningweekly.com/page/rss-feeds"
-    type: "rss"
-    tier_weight: 3
+
 
 # Tier 3: Google News 검색 RSS (광범위 모니터링)
 tier3_search:
