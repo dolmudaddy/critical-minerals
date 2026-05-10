@@ -92,11 +92,15 @@ def score_article(article: dict) -> int:
     text = (article["title"] + " " + article["summary_raw"]).lower()
     kw = CONFIG["keywords"]
 
-    # 1. 핵심 광종 필터 (없으면 탈락)
-    if not any(m.lower() in text for m in kw["critical_minerals"]):
+    # 1. 핵심 광종 필터 (없으면 탈락) + 점수 가산
+    matched_minerals = [m for m in kw["critical_minerals"] if m.lower() in text]
+    if not matched_minerals:
         return 0
 
     score = article["tier_weight"]  # Tier 가중치 기본 점수
+    
+    # 광종 매칭 보너스: 매칭된 광종 1개당 +2점 (최대 +6)
+    score += min(len(matched_minerals) * 2, 6)
 
     # 2. 탐사 기술 키워드
     for keyword, weight in kw["exploration_tech"].items():
