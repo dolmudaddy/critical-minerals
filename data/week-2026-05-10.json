@@ -1,6 +1,6 @@
 {
   "week_of": "2026-05-10",
-  "generated_at": "2026-05-10T14:32:18.397789+00:00",
+  "generated_at": "2026-05-10T23:45:16.951657+00:00",
   "total_cards": 12,
   "articles": [
     {
@@ -12,61 +12,29 @@
       "published": "2026-05-08T05:40:23+00:00",
       "score": 12,
       "id": "a097e96607",
-      "korean_summary": "유럽연합이 폴란드와 체결한 SAFE 차입금 협약은 EU 역사상 첫 사례로, 핵심광물 공급망 확보를 위한 전략적 금융 메커니즘의 출범을 의미합니다. 이 협약은 유럽의 에너지 전환 및 전략적 자율성 강화를 위해 핵심광물 채굴·가공 인프라 구축에 재정 지원을 제공할 전망입니다. EU의 이러한 정책 추진은 글로벌 핵심광물 수급 경쟁 심화 속에서 자체 자원 기반 확보의 중요성을 여실히 드러냅니다.",
+      "korean_summary": "유럽연합이 폴란드와 체결한 첫 번째 SAFE 차입금 협정으로 핵심광물 확보 전략을 본격화하고 있으며, 이는 유럽의 에너지 자립과 공급망 안정화를 위한 정책적 전환점으로 평가됩니다. 유럽 위원회는 폴란드 등 회원국과의 협력을 통해 녹색 전환에 필수적인 핵심광물의 안정적 수급 체계를 구축할 방침입니다. 한국을 포함한 자원 부존국과의 국제 협력 강화 필요성이 대두되고 있음을 시사합니다.",
       "english_phrases": [
         {
-          "phrase": "first SAFE loan agreement in the European Union",
-          "meaning": "유럽연합 역사상 첫 SAFE(Sustainable Aquaculture and Fisheries Enhancement) 차입금 협약 - 여기서는 핵심광물 확보를 위한 금융 지원 메커니즘"
+          "phrase": "SAFE loan agreement for critical minerals",
+          "meaning": "핵심광물 확보를 위한 SAFE 차입금 협정"
         },
         {
-          "phrase": "strategic autonomy in critical minerals",
-          "meaning": "핵심광물 공급망에서의 전략적 자율성 확보"
+          "phrase": "supply chain resilience",
+          "meaning": "공급망 탄력성 및 안정성"
         },
         {
-          "phrase": "monumental occasion for securing supply chain resilience",
-          "meaning": "공급망 회복탄력성 강화를 위한 획기적 협력의 계기"
+          "phrase": "strategic autonomy in raw materials sourcing",
+          "meaning": "원자재 수급에서의 전략적 자립"
+        },
+        {
+          "phrase": "EU-Member State partnership framework",
+          "meaning": "유럽연합-회원국 협력 체계"
         }
       ],
       "tags": [
         "핵심광물",
         "공급망 정책",
-        "유럽연합·폴란드"
-      ],
-      "category": "policy_market",
-      "ai_processed": true
-    },
-    {
-      "title": "Chile moves to formalize critical minerals strategy",
-      "url": "https://www.mining.com/chile-moves-to-formalize-critical-minerals-strategy/",
-      "source": "Mining.com",
-      "tier_weight": 3,
-      "summary_raw": "The initiative would create a special legal regime covering the full value chain of critical minerals, including rare earths.",
-      "published": "2026-05-06T13:03:00+00:00",
-      "score": 10,
-      "id": "2f04d37e02",
-      "korean_summary": "칠레가 희토류를 포함한 핵심광물의 전체 가치사슬을 아우르는 특별 법적 체계 구축을 추진 중으로 확인되었습니다. 본 이니셔티브는 핵심광물 전략의 공식화를 통해 국가 차원의 체계적 관리 기반을 마련할 전망입니다. 세계적 공급망 재편 속에서 주요 생산국인 칠레의 정책적 움직임은 글로벌 핵심광물 시장에 중대한 영향을 미칠 것으로 예상됩니다.",
-      "english_phrases": [
-        {
-          "phrase": "formalize critical minerals strategy",
-          "meaning": "핵심광물 전략의 공식화·제도화"
-        },
-        {
-          "phrase": "special legal regime",
-          "meaning": "특별 법적 체계 또는 규제 체계"
-        },
-        {
-          "phrase": "full value chain coverage",
-          "meaning": "가치사슬 전 단계 포괄"
-        },
-        {
-          "phrase": "rare earth elements (REEs)",
-          "meaning": "희토류 원소"
-        }
-      ],
-      "tags": [
-        "희토류",
-        "핵심광물 전략",
-        "칠레"
+        "폴란드·유럽연합"
       ],
       "category": "policy_market",
       "ai_processed": true
@@ -80,25 +48,25 @@
       "published": "2026-05-08T07:48:01+00:00",
       "score": 9,
       "id": "231cb9b1d1",
-      "korean_summary": "유럽연합(EU) 회원국에 대한 국민 지지도가 역사적 수준에 도달했으며, 약 75%의 유럽인이 EU 시민으로서의 정체성을 느끼는 것으로 확인되었습니다. 글로벌 불확실성이 심화되는 가운데 EU는 안정성과 안보의 중요한 기둥으로 인식되고 있으며, 공동 방위 및 안보 정책에 대한 지지율도 사상 최고 수준을 기록했습니다. 이러한 추세는 핵심광물 등 전략적 자원의 유럽 내 안정적 공급과 자립적 산업 기반 구축 논의와도 맞물려 EU의 통합적 자원 정책 추진이 강화될 전망입니다.",
+      "korean_summary": "유럽연합 집행위원회가 발표한 유로바로미터 조사에 따르면, 유럽 국민의 약 4분의 3(75%)이 EU 회원국 소속이 자국에 이득이 되었다고 평가하고 있는 것으로 확인되었습니다. 글로벌 불안정성이 심화되는 가운데 유럽 시민들은 EU를 안정성과 안보의 핵심 기둥으로 인식하고 있으며, 공동 방위·안보 정책에 대한 지지도가 역대 최고 수준에 도달한 것으로 나타났습니다. 이러한 조사 결과는 자원·에너지 자급률 강화 및 핵심광물 확보를 위한 EU의 전략적 연대 강화 필요성을 뒷받침하는 것으로 평가됩니다.",
       "english_phrases": [
         {
-          "phrase": "Eurobarometer survey",
-          "meaning": "유럽연합의 공식 여론조사 도구로, 회원국 국민들의 정책 만족도와 정치적 신뢰도를 정기적으로 측정하는 조사"
+          "phrase": "critical minerals security through EU strategic autonomy",
+          "meaning": "EU 전략적 자율성을 통한 핵심광물 수급 안보"
         },
         {
-          "phrase": "a pillar of stability and security",
-          "meaning": "안정성과 안보의 중추적 역할을 하는 존재 또는 기구 (자원 정책 맥락에서는 공급망 안정화의 핵심 기관을 의미)"
+          "phrase": "Eurobarometer survey on resource security perception",
+          "meaning": "자원 안보 인식도에 관한 유로바로미터 조사"
         },
         {
-          "phrase": "common defence and security policy",
-          "meaning": "회원국들이 공동으로 추진하는 방위 및 안보 정책으로, 전략광물 확보 및 순환경제 구축을 포함한 경제적 자립성 강화와 연계됨"
+          "phrase": "common defence and security policy framework",
+          "meaning": "공동 방위·안보 정책 체계"
         }
       ],
       "tags": [
-        "EU 자원정책",
-        "핵심광물 공급망",
-        "유럽연합"
+        "EU 핵심광물",
+        "에너지 안보 정책",
+        "유럽"
       ],
       "category": "policy_market",
       "ai_processed": true
@@ -112,28 +80,28 @@
       "published": "2026-05-08T09:31:12+00:00",
       "score": 9,
       "id": "dce20b7290",
-      "korean_summary": "Fastmarkets가 인도네시아 니켈광석 평가에 정부 설정 벤치마크 가격 포함을 명확히 함으로써 시장 투명성을 강화하였습니다. 이는 핵심광물 공급망의 가격 결정 메커니즘에 정부 정책이 미치는 영향을 보여주는 사례입니다. 향후 니켈을 포함한 핵심광물의 국제 거래에서 정부 기준가의 역할이 더욱 중요해질 것으로 전망됩니다.",
+      "korean_summary": "Fastmarkets는 인도네시아 니켈광석 가격평가에 정부 벤치마크 가격 포함 기준을 명확히 하였습니다. 이는 니켈 시장의 투명성 강화와 공정한 가격발견 메커니즘 구축에 기여할 것으로 평가됩니다. 핵심광물 공급망 안정화를 위한 국제 가격지표 정립의 중요성이 한층 부각되고 있습니다.",
       "english_phrases": [
         {
           "phrase": "government-set benchmark pricing",
-          "meaning": "정부가 설정한 벤치마크 가격 책정"
+          "meaning": "정부가 설정한 벤치마크 가격책정"
         },
         {
           "phrase": "nickel ore assessment",
-          "meaning": "니켈광석 평가/가격 결정"
+          "meaning": "니켈광석 가격평가/광물평가"
         },
         {
-          "phrase": "clarifies inclusion",
-          "meaning": "포함 범위를 명확히 하다"
+          "phrase": "price discovery mechanism",
+          "meaning": "가격발견 메커니즘"
         },
         {
-          "phrase": "price transparency in critical minerals markets",
-          "meaning": "핵심광물 시장의 가격 투명성"
+          "phrase": "transparent pricing methodology",
+          "meaning": "투명한 가격책정 방식"
         }
       ],
       "tags": [
         "니켈",
-        "가격결정메커니즘",
+        "가격평가",
         "인도네시아"
       ],
       "category": "policy_market",
@@ -148,69 +116,33 @@
       "published": "2026-05-08T20:53:41+00:00",
       "score": 9,
       "id": "7423ef3b02",
-      "korean_summary": "미국의 핵심광물 산업 주도 기업이 중동 지역 분쟁을 핵심광물 수요 증대의 촉매제로 평가하고 있는 것으로 확인되었습니다. 지정학적 긴장이 에너지 안보 및 방위산업용 희토류와 핵심광물에 대한 전략적 수요를 급증시킬 것으로 전망되고 있습니다. 이러한 수요 증가는 미국의 자주적 핵심광물 공급망 구축 및 채굴·가공 산업의 확대에 정책적 정당성을 제공할 것으로 예상됩니다.",
+      "korean_summary": "미국 희토류 산업 주도 기업이 이란 정세 불안을 핵심광물 수요 증대의 촉매제로 평가하고 있음이 확인되었습니다. 중동 지역 갈등이 방위산업 및 첨단기술 분야의 핵심광물 공급망 재편을 가속화할 것으로 전망되고 있습니다. 이는 미국의 희토류 자급화 및 동맹국과의 공급망 다원화 전략 강화의 필요성을 더욱 부각시키고 있습니다.",
       "english_phrases": [
         {
-          "phrase": "critical minerals demand accelerant",
-          "meaning": "핵심광물 수요 가속화 요인"
+          "phrase": "demand accelerant",
+          "meaning": "수요 증가 촉매제, 가속 요인"
         },
         {
-          "phrase": "geopolitical tension and strategic minerals supply chain",
-          "meaning": "지정학적 긴장과 전략광물 공급망"
+          "phrase": "rare earth supply chain resilience",
+          "meaning": "희토류 공급망 복원력, 공급망 안정성"
+        },
+        {
+          "phrase": "geopolitical risk premium on critical minerals",
+          "meaning": "핵심광물의 지정학적 위험 프리미엄"
         },
         {
           "phrase": "domestic rare earth production capacity",
-          "meaning": "국내 희토류 생산 역량"
+          "meaning": "국내 희토류 생산 능력"
         },
         {
-          "phrase": "supply chain resilience of critical raw materials",
-          "meaning": "핵심광물 공급망의 회복력"
+          "phrase": "allied supply chain diversification",
+          "meaning": "동맹국과의 공급망 다원화"
         }
       ],
       "tags": [
         "희토류",
-        "핵심광물 공급망",
-        "미국"
-      ],
-      "category": "policy_market",
-      "ai_processed": true
-    },
-    {
-      "title": "CERA Consulting | Critical Minerals Advisory - S&P Global",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbENFZ0lDNkdmenA3Qnl6djF1NGRmTEF5TVJ4eGUwTFljbW1LbkZaakRXZnMyb2hPM0YteVFZWVdZU3JJMVJnUHJhSndjX1N4d240cjNtRnhuZnRmS3lMYnJ3SGZodDUxdWpsMFJyWl9QdDV1TU5vNms4QTFMd016VTl5VFlzbUlUUGc?oc=5",
-      "source": "S&P Global - via Google News",
-      "tier_weight": 4,
-      "summary_raw": "CERA Consulting | Critical Minerals Advisory&nbsp;&nbsp;S&amp;P Global",
-      "published": "2026-05-08T01:36:34+00:00",
-      "score": 8,
-      "id": "7529563469",
-      "korean_summary": "S&P Global의 CERA Consulting이 제공하는 핵심광물 자문 서비스는 글로벌 에너지 전환과 첨단산업 수요 증대에 따른 공급망 리스크를 분석하고 있습니다. 핵심광물의 지정학적 편중, 채산성 악화, 환경규제 강화 등 다층적 도전과제에 대한 전략적 대응이 필수적인 것으로 확인되었습니다. 국내 산업계와 정부의 선제적 자원외교 및 기술혁신을 통한 핵심광물 수급 안정화가 시급할 전망입니다.",
-      "english_phrases": [
-        {
-          "phrase": "critical minerals advisory",
-          "meaning": "핵심광물 자문 서비스 (공급 리스크 평가 및 정책 수립 지원)"
-        },
-        {
-          "phrase": "supply chain resilience",
-          "meaning": "공급망 복원력 (지정학적 리스크 대비)"
-        },
-        {
-          "phrase": "energy transition minerals",
-          "meaning": "에너지전환 핵심광물 (재생에너지·EV용 광물)"
-        },
-        {
-          "phrase": "geopolitical concentration risk",
-          "meaning": "지정학적 편중 리스크 (특정국가 의존도)"
-        },
-        {
-          "phrase": "mine economics deterioration",
-          "meaning": "채산성 악화 (개발비용 상승, 품위 저하)"
-        }
-      ],
-      "tags": [
-        "리튬·코발트·니켈",
-        "공급망 전략·자원외교",
-        "글로벌"
+        "공급망 안보",
+        "미국-중동 정세"
       ],
       "category": "policy_market",
       "ai_processed": true
@@ -224,25 +156,133 @@
       "published": "2026-05-06T13:15:25+00:00",
       "score": 8,
       "id": "bb74b5bcc0",
-      "korean_summary": "레어어스 아메리카스(Rare Earths Americas)가 뉴욕증권거래소에 상장하며 탐사 단계의 희토류 기업으로서 시장의 주목을 받고 있습니다. 북미 지역의 핵심광물 공급망 다각화 필요성이 높아지는 가운데, 본 기업의 주가 움직임이 희토류 산업 투자 심리를 반영하는 지표로 평가될 전망입니다. 글로벌 에너지 전환 시대에 희토류 탐사 및 개발 프로젝트의 상업화 가능성이 자원산업의 중요한 이슈로 대두되고 있음을 시사합니다.",
+      "korean_summary": "희토류 광물 탐사 기업인 Rare Earths Americas가 NYSE에 상장되며 탐사 단계 기업의 주가 변동이 시장에서 주목받을 전망입니다. 본 상장은 미주 지역 희토류 공급 확보의 중요성이 증대되는 가운데 핵심광물 산업 내 자본 이동의 신호로 해석됩니다. 미국을 중심으로 한 핵심광물 공급망 자주화 정책이 본격화되는 추세를 반영하고 있습니다.",
       "english_phrases": [
         {
           "phrase": "exploration stage firm",
-          "meaning": "탐사 단계 기업 (광물 자원의 탐사·평가 초기 단계에 있는 회사)"
+          "meaning": "탐사 단계 기업 (상업 생산 이전의 광물 부존량 평가·개발 단계 회사)"
         },
         {
-          "phrase": "critical minerals supply chain diversification",
-          "meaning": "핵심광물 공급망 다각화 (특정 국가 의존도 감소를 위한 공급처 확보)"
+          "phrase": "critical minerals supply security",
+          "meaning": "핵심광물 공급 보안 (국가 전략 자원의 안정적 수급 확보)"
         },
         {
-          "phrase": "rare earth elements commercialization pathway",
-          "meaning": "희토류 원소 상업화 경로 (탐사에서 생산 단계까지의 프로젝트 발전 과정)"
+          "phrase": "domestic rare earth production capacity",
+          "meaning": "국내 희토류 생산 역량 (지역 공급망 자립도 제고)"
         }
       ],
       "tags": [
         "희토류",
-        "기업공개(IPO)/투자",
+        "자본시장·상장",
         "북미"
+      ],
+      "category": "policy_market",
+      "ai_processed": true
+    },
+    {
+      "title": "G7 trade talks target critical minerals as US-EU tariff rift strains unity - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZDhmSW9wWHFrOHF6RnFCMUpGMGlpcTRybjVjZE9oTGltUmpRY2M3MHFsTmgxcy04TVcyanBJa2tGbUMyR1V1c3lsWkJRVE5tYWEwLWdqdXo1TGhwZnQ3bUpxNmZQZERjaDZQQ09WUkhxcWZwMTQ5NTZCeU9kVjBIVDlwX19MUWlTa2F1bE9nNzN1QXNPc2RDb0xWSFFnSF9tOVJJVmtNXzJBdV8tdmk1MlF1dEdvV2FkNU4xM3hEbUhtR2Zf?oc=5",
+      "source": "Reuters - via Google News",
+      "tier_weight": 3,
+      "summary_raw": "G7 trade talks target critical minerals as US-EU tariff rift strains unity&nbsp;&nbsp;Reuters",
+      "published": "2026-05-06T14:08:54+00:00",
+      "score": 7,
+      "id": "f09672dc17",
+      "korean_summary": "G7 정상들이 미-EU 관세 갈등 속에서도 핵심광물 공급망 안정화에 합의했으며, 이는 중국 의존도 감소 및 우방국 간 협력 강화를 목표로 하고 있음이 확인되었습니다. 미국의 보호주의 정책과 EU의 개방 입장의 충돌 속에서도 핵심광물 확보는 양측 모두의 전략적 우선순위로 대두되었습니다. 향후 G7 회원국들 간 핵심광물 자원 협력 메커니즘 강화 및 공급망 다변화가 추진될 전망입니다.",
+      "english_phrases": [
+        {
+          "phrase": "critical minerals supply chain diversification",
+          "meaning": "핵심광물 공급망 다변화"
+        },
+        {
+          "phrase": "de-risking from China dependency",
+          "meaning": "중국 의존도 감소 및 리스크 완화"
+        },
+        {
+          "phrase": "strategic cooperation framework among allies",
+          "meaning": "우방국 간 전략적 협력 체계 구축"
+        },
+        {
+          "phrase": "trade tensions amid tariff disputes",
+          "meaning": "관세 분쟁으로 인한 무역 긴장"
+        },
+        {
+          "phrase": "mineral-critical industries resilience",
+          "meaning": "핵심광물 의존 산업의 강건성 강화"
+        }
+      ],
+      "tags": [
+        "핵심광물",
+        "공급망 안보",
+        "G7·미국·EU"
+      ],
+      "category": "policy_market",
+      "ai_processed": true
+    },
+    {
+      "title": "Critical minerals surge places infrastructure and energy at the centre of DRC’s mining future - Mining Weekly",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPa3JldndoY05mMmNyQm9lZ0RmZTY0bFJSblFtdlU3eHFkdkNZMERaeXVOemxFNnozRzZhU2dzNWJLcE9UZDNjVDh4V1VzLWZ1OWl0aTNqeGtwQ2didHAyc3I1b2pHcDh6czJ5cnRpbTZobFhsWVlqSWtTOXJxZE83aTFDLXlraVVzeXhkZ1V6TWIxNUlWVTExNFlaSGw2Xzc0c0pHRnZIWkVqaURzTC1BenI2Zml2Zm5iSVlfUVgtV1pyLW80amhlSDRGcXZ2eExXZjhaVmZkWQ?oc=5",
+      "source": "Mining Weekly - via Google News",
+      "tier_weight": 3,
+      "summary_raw": "Critical minerals surge places infrastructure and energy at the centre of DRC’s mining future&nbsp;&nbsp;Mining Weekly",
+      "published": "2026-05-07T06:00:00+00:00",
+      "score": 7,
+      "id": "f8945a3d01",
+      "korean_summary": "콩고민주공화국(DRC)의 핵심광물 수요 급증이 인프라 및 에너지 부문을 중심으로 광업의 미래 방향을 재편하고 있습니다. DRC는 세계 코발트 매장량의 70% 이상을 보유한 핵심광물 공급국으로서 에너지 전환 시대의 전략적 중요성이 크게 부각되고 있습니다. 향후 지속가능한 광물 개발과 기반시설 투자가 DRC 광업의 지속적 성장을 위한 핵심 과제로 대두될 것으로 전망됩니다.",
+      "english_phrases": [
+        {
+          "phrase": "critical minerals surge",
+          "meaning": "핵심광물 수요의 급증"
+        },
+        {
+          "phrase": "infrastructure and energy transition",
+          "meaning": "인프라 개발과 에너지 전환의 연계"
+        },
+        {
+          "phrase": "supply chain security for critical minerals",
+          "meaning": "핵심광물 공급망 안보"
+        },
+        {
+          "phrase": "sustainable mining development",
+          "meaning": "지속가능한 광물 개발"
+        }
+      ],
+      "tags": [
+        "코발트",
+        "핵심광물 공급망",
+        "콩고민주공화국(DRC)"
+      ],
+      "category": "policy_market",
+      "ai_processed": true
+    },
+    {
+      "title": "India's Critical Minerals Push: Oil India, Hindustan Copper Join Forces For Exploration - MSN",
+      "url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxQc1lFeUFNNmdfYnFIQTRiT2Rnd0tSdk1OMk8wWk5ydDMxdWgwNDg1ZDRLNGs5bUtZYzBnRzdRaVZBTWthMjFqY2RvUVk1RVZrY1NxbldJMGtzNFZTeW1wdV94M0lzTTZiSTFxNERpdDhIcEJsUFlKbmZyUUt0Qkk5Y05LME0xcy1KNEZpYndJcGNUSUNpQ1F4YnlYX28xWldDdGVJT25EMUNBV1c1T3VMcjRMc1ctQlZORUphYlVISlpBNVVtQ29BSHFfZTZOeFFjZmNKY0ZQTUhRRXhRUjdZNWo4MERrQ3VFcGdUMDdzZjNERWJvVm1SNTJ0MUZtbnRYSktFOVdqZVFsbVFfN1RPSmhMZDRuNTI1T1dERXBnWkh4WGpvZkxPMkVBRDN2LXpjaUxuamRmYTI4VDBCX3BmT2ZMLWQ5YUZxOVU0dnd0dkk3MHotTEprRl8xNEZTb0cybkRn?oc=5",
+      "source": "Google News - Critical Minerals Exploration",
+      "tier_weight": 1,
+      "summary_raw": "India's Critical Minerals Push: Oil India, Hindustan Copper Join Forces For Exploration&nbsp;&nbsp;MSN",
+      "published": "2026-05-07T23:02:16+00:00",
+      "score": 7,
+      "id": "940cc6fc09",
+      "korean_summary": "인도의 국영 석유기업 Oil India와 동인도 구리기업 Hindustan Copper가 핵심광물 탐사를 위해 전략적 협력을 추진 중으로 확인되었습니다. 본 협력은 인도 정부의 핵심광물 자급화 정책의 일환으로, 국내 자원 부족을 해결하고 글로벌 공급망 위험을 완화할 전망입니다. 이는 에너지·광물 기업 간 시너지를 통해 인도의 핵심광물 확보 경쟁력을 강화할 것으로 예상됩니다.",
+      "english_phrases": [
+        {
+          "phrase": "Critical minerals exploration consortium",
+          "meaning": "핵심광물 탐사 컨소시엄"
+        },
+        {
+          "phrase": "Strategic resource security",
+          "meaning": "전략적 자원안보"
+        },
+        {
+          "phrase": "Public sector synergy for mineral supply chain resilience",
+          "meaning": "공공부문 협력을 통한 광물 공급망 강화"
+        }
+      ],
+      "tags": [
+        "구리(동)",
+        "핵심광물 정책",
+        "인도"
       ],
       "category": "policy_market",
       "ai_processed": true
@@ -256,173 +296,129 @@
       "published": "2026-05-06T12:14:37+00:00",
       "score": 8,
       "id": "d1309c23e0",
-      "korean_summary": "Total Metals사가 Electrolode 핵심광물 프로젝트에서 25개 공(hole)을 대상으로 8,408미터 규모의 탐사 시추 프로그램을 완료하였음이 보고되었습니다. 본 프로그램은 핵심광물 부존 확인 및 자원량 평가를 위한 중요한 단계로 평가됩니다. 이는 북미 지역의 핵심광물 공급 확보 전략의 일환으로서 의미 있는 탐사 성과로 판단됩니다.",
+      "korean_summary": "Total Metals사가 Electrolode 핵심광물 프로젝트에서 25개 공의 8,408미터 규모 탐사 시추 프로그램을 완료했으며, 이는 프로젝트의 광물화 잠재력을 평가하기 위한 중요한 단계로 평가되고 있습니다. 대규모 시추 프로그램의 완료는 향후 광체 해석 및 자원량 평가를 위한 핵심 데이터를 확보했음을 의미합니다. 이러한 탐사 성과는 핵심광물 개발 프로젝트의 단계적 진전과 글로벌 공급망 확보 움직임의 일환으로 주목됩니다.",
       "english_phrases": [
         {
-          "phrase": "exploration drilling program",
-          "meaning": "탐사 시추 프로그램"
+          "phrase": "exploration drilling program completion",
+          "meaning": "탐사 시추 프로그램 완료"
         },
         {
-          "phrase": "critical minerals project",
-          "meaning": "핵심광물 프로젝트"
+          "phrase": "critical minerals project advancement",
+          "meaning": "핵심광물 프로젝트 진행"
         },
         {
-          "phrase": "resource delineation",
-          "meaning": "광체 확정(자원량 평가)"
-        },
-        {
-          "phrase": "drilling metre footage",
-          "meaning": "시추 미터링 (누적 시추 거리)"
+          "phrase": "mineralization assessment and resource estimation",
+          "meaning": "광물화 평가 및 자원량 추정"
         }
       ],
       "tags": [
-        "다중 핵심광물",
-        "탐사 시추",
-        "북미"
+        "핵심광물",
+        "시추탐사",
+        "North America"
       ],
       "category": "exploration_tech",
       "ai_processed": true
     },
     {
-      "title": "Rare Earths Americas surges after debut, bets on US discovery",
-      "url": "https://www.mining.com/rare-earths-americas-surges-after-nyse-debut-bets-on-us-heavy-rare-earth-discovery/",
-      "source": "Mining.com",
-      "tier_weight": 3,
-      "summary_raw": "Company says its the Shiloh exploration district in Georgia could fundamentally alter the US’ rare earth supply.",
-      "published": "2026-05-08T18:59:51+00:00",
-      "score": 9,
-      "id": "9c1f91088d",
-      "korean_summary": "미국 조지아주 쉴로 탐광지역의 희토류 발견이 미국의 핵심광물 공급망을 근본적으로 변화시킬 수 있을 것으로 예상되고 있습니다. 레어어스 아메리카스 사가 뉴욕증권거래소 상장 이후 급등세를 보이며 이 프로젝트에 대한 시장의 높은 기대감을 반영하고 있습니다. 국내 희토류 자급도 제고 및 대미 광물 공급망 협력 강화 차원에서 이 발견의 의의를 주목할 필요가 있습니다.",
-      "english_phrases": [
-        {
-          "phrase": "rare earth supply chain",
-          "meaning": "희토류 공급망"
-        },
-        {
-          "phrase": "exploration district",
-          "meaning": "탐광지역/탐사권역"
-        },
-        {
-          "phrase": "domestic mineral security",
-          "meaning": "국내 광물 자급 안보"
-        },
-        {
-          "phrase": "critical mineral discovery",
-          "meaning": "핵심광물 발견"
-        },
-        {
-          "phrase": "supply diversification",
-          "meaning": "공급처 다변화"
-        }
-      ],
-      "tags": [
-        "희토류",
-        "탐광·발견",
-        "미국"
-      ],
-      "category": "discovery",
-      "ai_processed": true
-    },
-    {
-      "title": "Anson Resources Lifts Green River Lithium Resource by 650% After New Drilling - TipRanks",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSnFHMVJwMEQyV0Fwd29QR0trUGIybjVQVDh6ckFXbl92YnpuVmlVbWhkQ0s1WHNqbGZIV0U1Rzk3bGxRU1M2OW9yMEVvS2VxNFhqR3VqeDZiSExBS2l3TjBrMjA5ajluM3M4UDhmMXVFLUYweHNvVkxGM3hpbi1oQUE2T0h2M0VZcGNNVnhFMkRKbXRPQlBrS004YXJIV09aYVoxSHBCVWpjc2xiQXJXbVR6MkNSOFFzaGxEeGZjblkzNGxNc1Zz?oc=5",
-      "source": "Google News - Lithium Discovery",
+      "title": "Adamera Minerals Stakes Third Tungsten Property In Washington State - Exploration Program Underway - Junior Mining Network",
+      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPeDJORi1CMFdjN3pGeXREblQ1Y2FhYXZ0X2EzYjhXblJLcHctX250VnUwWF9yRXl6QTJjV1F3MWw1SkhRdzhJV1hJcFdseEVkcHJveE1lLWJUUFRqYTRjb2piQzJvNExpRGROWTk2M1VVdGVLNEZaSTZyQ0lEaGFyM2VwZG9RckxDMzhIMHBDTWMzZVhwR1prZDI0QzlMOHBUM0ZVMWJkR0ZhQ21yN05ENDd1dXhkTk9QVmpFcEZ6TEtDYW1QUEhfWEwwd0dVT2lJRlFLZTJUTHBoOTRkOGtKbXlrUXF6RDVUTXB3NFd5QmoyUEc4S2xKRUUzejk0QzM1WWpyTnM5Q1h5QVM2RWJOeXlUbEpHVW8?oc=5",
+      "source": "Google News - Critical Minerals Exploration",
       "tier_weight": 1,
-      "summary_raw": "Anson Resources Lifts Green River Lithium Resource by 650% After New Drilling&nbsp;&nbsp;TipRanks",
-      "published": "2026-05-03T23:11:12+00:00",
-      "score": 8,
-      "id": "5fc479473c",
-      "korean_summary": "앤슨 리소시스가 그린 리버 지역 신규 시추 결과를 바탕으로 리튬 광물자원량을 650% 증가시킨 것으로 확인되었음. 이는 핵심광물인 리튬의 공급 확보를 위한 탐사 활동이 실질적 성과를 거두고 있음을 보여주는 사례임. 향후 미국 내 핵심광물 개발 프로젝트의 가속화가 전 세계 리튬 수급 안정화에 긍정적 영향을 미칠 전망임.",
+      "summary_raw": "Adamera Minerals Stakes Third Tungsten Property In Washington State - Exploration Program Underway&nbsp;&nbsp;Junior Mining Network",
+      "published": "2026-05-07T14:04:07+00:00",
+      "score": 7,
+      "id": "9d408d84cd",
+      "korean_summary": "미국 워싱턴주에서 Adamera Minerals가 세 번째 텅스텐 광상을 신규 확보하고 탐사 사업을 추진 중인 것으로 확인되었습니다. 이는 북미 지역 핵심광물 탐사 활동의 확대를 시사하며, 특히 텅스텐의 공급망 다변화 측면에서 의미 있는 움직임으로 평가됩니다. 주니어 광업사의 적극적인 탐사 투자는 향후 핵심광물 자급 확대에 기여할 전망입니다.",
       "english_phrases": [
         {
-          "phrase": "resource upgrade",
-          "meaning": "광물자원량 상향 평가"
+          "phrase": "stake a claim on a property",
+          "meaning": "광상(광물자원 부존지)에 대해 채광권을 확보하다"
         },
         {
-          "phrase": "drilling campaign",
-          "meaning": "시추 캠페인/체계적 시추 사업"
+          "phrase": "exploration program underway",
+          "meaning": "탐사 사업이 진행 중인 상태"
         },
         {
-          "phrase": "resource estimate revision",
-          "meaning": "광물자원 추정량 재평가"
-        },
-        {
-          "phrase": "lithium resource expansion",
-          "meaning": "리튬 자원량 확대"
-        },
-        {
-          "phrase": "critical mineral supply security",
-          "meaning": "핵심광물 공급 안보"
+          "phrase": "junior mining company",
+          "meaning": "중소 규모 광산개발사, 탐사광산사"
         }
       ],
       "tags": [
-        "리튬",
-        "광물탐사",
-        "미국"
+        "텅스텐",
+        "광상탐사",
+        "미국(워싱턴주)"
       ],
-      "category": "discovery",
+      "category": "exploration_tech",
       "ai_processed": true
     },
     {
-      "title": "Focus Graphite in Quebec boasts world’s fifth-largest resource",
-      "url": "https://www.mining.com/focus-graphite-in-quebec-boasts-worlds-fifth-largest-resource/",
-      "source": "Mining.com",
+      "title": "Australia and Japan sign agreements on energy and critical minerals - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQU0wzUlpuQnYyaGtkTHl4WGtxVEhBVVdrN2ZKbTV4OURsY1l4SnFwcXl4YkxEQkg3dEpCQ2RpOWZhbWVndTU1di03bTh5WUZaVnFlai00Z0hpWTNCUUtTNHplM0U4LW1uc3hwdjJMMkhFcjhMMU5TRUptS1lfWksyYmNnRW9MQzkwSFhHNDFwNHRWRHYtemM0U05RWjVtLTNsTzJjVUdqN05OeWhHbWx0eFlKMFY0aWtadVNKRA?oc=5",
+      "source": "Reuters - via Google News",
       "tier_weight": 3,
-      "summary_raw": "The update boosts the global contained graphite to 14.7 million tonnes over the 2022 resource, an 86% increase.",
-      "published": "2026-05-08T15:54:58+00:00",
+      "summary_raw": "Australia and Japan sign agreements on energy and critical minerals&nbsp;&nbsp;Reuters",
+      "published": "2026-05-04T01:19:00+00:00",
       "score": 7,
-      "id": "989b0e00b1",
-      "korean_summary": "캐나다 퀘벡주의 포커스 그래파이트(Focus Graphite)가 보유한 흑연 광물자원이 세계 5위 규모로 확인되었으며, 2022년 자원량 대비 86% 증가한 1,470만 톤의 흑연을 포함하고 있는 것으로 업데이트되었습니다. 이는 핵심광물로서의 흑연 공급 확보에 있어 북미 지역의 전략적 중요성을 강화하는 결과입니다. 향후 배터리 및 전자산업 수요 증가에 대응하는 주요 자원 기지로의 역할이 기대됩니다.",
+      "id": "aca924e60e",
+      "korean_summary": "호주와 일본이 에너지 및 핵심광물 분야의 협력 강화를 위한 양자 협정을 체결함으로써 인도-태평양 지역의 공급망 안정화를 도모하고 있습니다. 본 협정은 재생에너지 전환과 첨단기술 산업에 필수적인 핵심광물의 안정적 수급을 보장하기 위한 전략적 파트너십으로 평가됩니다. 이는 글로벌 에너지 시장의 지정학적 리스크에 대응하기 위한 민주주의 국가 간의 자원외교 강화 추세를 반영하고 있습니다.",
       "english_phrases": [
         {
-          "phrase": "contained graphite resource",
-          "meaning": "함유 흑연 광물자원 (광체에 포함된 흑연의 총량)"
+          "phrase": "critical minerals supply chain",
+          "meaning": "핵심광물 공급망"
         },
         {
-          "phrase": "world's fifth-largest resource",
-          "meaning": "세계 5위 규모의 자원 (자원량 기준 국제 순위)"
+          "phrase": "bilateral cooperation framework",
+          "meaning": "양자 협력 체계"
         },
         {
-          "phrase": "resource update",
-          "meaning": "자원량 재평가 또는 업데이트 (탐사 성과에 따른 자원량 개정)"
+          "phrase": "energy transition and decarbonization",
+          "meaning": "에너지 전환 및 탈탄소화"
+        },
+        {
+          "phrase": "strategic minerals partnership",
+          "meaning": "전략적 자원 파트너십"
+        },
+        {
+          "phrase": "Indo-Pacific supply security",
+          "meaning": "인도-태평양 지역 공급 안정성"
         }
       ],
       "tags": [
-        "흑연",
-        "자원량 평가",
-        "캐나다"
+        "리튬·코발트·희토류",
+        "자원외교·공급망",
+        "호주·일본"
       ],
-      "category": "discovery",
+      "category": "supply_chain",
       "ai_processed": true
     },
     {
-      "title": "Freeport delays Grasberg full restart to early 2028",
-      "url": "https://www.mining.com/freeport-delays-grasberg-full-restart-to-early-2028/",
-      "source": "Mining.com",
-      "tier_weight": 3,
-      "summary_raw": "Freeport now aims for 65% capacity in the second half of 2026, 80% by mid-2027, and near full capacity by the end of 2027.",
-      "published": "2026-05-08T15:34:41+00:00",
+      "title": "Glencore Q1: African copper cathode surges 68%, cobalt production falls 39% y-o-y - Fastmarkets",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTWNQX28zYmdWNzRqSEFGMjJCZUtSbEU4VEN1OTIyQk1odGE4RGhoMUNVSmVuZTBEeFR5cUtfUkpFWDBmbHFQNk5HckxRMFQxS28wTWQ3aHl1cC02ZUlvRXk1VWNvYjlYRFVIZHpiM19yTjl3VktvOW1YX1pHV0MtY1hVNE8xZWNiNmpDMGlFY2l0YUUwX1ZhU19jd3lQcnFxb3ZkWHBERHpEc21HN3dGczQ0Nk01QQ?oc=5",
+      "source": "Fastmarkets - via Google News",
+      "tier_weight": 5,
+      "summary_raw": "Glencore Q1: African copper cathode surges 68%, cobalt production falls 39% y-o-y&nbsp;&nbsp;Fastmarkets",
+      "published": "2026-05-06T10:02:33+00:00",
       "score": 7,
-      "id": "6547f0dae1",
-      "korean_summary": "Freeport-McMoRan이 인도네시아 Grasberg 광산의 전면 가동 재개를 2028년 초로 연기했으며, 2026년 하반기 65% 가동률, 2027년 중반 80%, 2027년 말 거의 완전 가동에 도달할 것으로 확인되었습니다. 이는 Grasberg 광산이 세계 주요 구리·금·핵심광물 공급원으로서 생산 정상화 일정의 지연이 글로벌 광물 수급에 미칠 영향을 시사합니다. 인도네시아 정부와의 협상 진행 중인 상황에서 향후 생산 일정 변동 추이에 주목할 필요가 있을 것으로 판단됩니다.",
+      "id": "17e4a715b6",
+      "korean_summary": "글렌코어의 1분기 실적에서 아프리카 지역 구리 음극재 생산이 전년 동기 대비 68% 증가한 것으로 확인되었습니다. 반면 코발트 생산은 39% 감소하여 핵심광물 생산의 불균형이 심화되는 양상을 보이고 있습니다. 이는 글로벌 핵심광물 공급망 재편 과정에서 지역별·광종별 생산 변동성이 확대되고 있음을 시사합니다.",
       "english_phrases": [
         {
-          "phrase": "full restart to early 2028",
-          "meaning": "2028년 초까지의 전면 가동 재개"
+          "phrase": "African copper cathode production surge",
+          "meaning": "아프리카 지역 구리 음극재 생산의 급증"
         },
         {
-          "phrase": "capacity ramp-up trajectory",
-          "meaning": "가동률 상향 추이/일정표"
+          "phrase": "year-on-year decline in cobalt output",
+          "meaning": "코발트 산출량의 전년 동기 대비 감소"
         },
         {
-          "phrase": "critical minerals supply security",
-          "meaning": "핵심광물 공급 안정성"
+          "phrase": "critical minerals supply volatility",
+          "meaning": "핵심광물 공급의 변동성"
         }
       ],
       "tags": [
-        "구리·금",
-        "광산 운영·가동 일정",
-        "인도네시아"
+        "구리·코발트",
+        "대형광산 생산실적",
+        "아프리카"
       ],
       "category": "supply_chain",
       "ai_processed": true
