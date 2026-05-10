@@ -181,5 +181,5 @@ keywords:
 # 카드뉴스 발행 설정
 publication:
   max_cards_per_week: 12
-  min_score_threshold: 8
+  min_score_threshold: 5
   dedup_similarity_threshold: 0.7
