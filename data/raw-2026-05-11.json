@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-11T02:03:24.809079+00:00",
+  "collected_at": "2026-05-11T06:08:40.824037+00:00",
   "week_of": "2026-05-11",
   "articles": [
     {
@@ -13,6 +13,16 @@
       "id": "a097e96607"
     },
     {
+      "title": "Chile moves to formalize critical minerals strategy",
+      "url": "https://www.mining.com/chile-moves-to-formalize-critical-minerals-strategy/",
+      "source": "Mining.com",
+      "tier_weight": 3,
+      "summary_raw": "The initiative would create a special legal regime covering the full value chain of critical minerals, including rare earths.",
+      "published": "2026-05-06T13:03:00+00:00",
+      "score": 10,
+      "id": "2f04d37e02"
+    },
+    {
       "title": "Eurobarometer shows great majority of Europeans see benefits from EU membership and the EU as a pillar of stability and security",
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1041",
       "source": "European Commission - Energy",
@@ -21,6 +31,16 @@
       "published": "2026-05-08T07:48:01+00:00",
       "score": 9,
       "id": "231cb9b1d1"
+    },
+    {
+      "title": "Rare Earths Americas surges after debut, bets on US discovery",
+      "url": "https://www.mining.com/rare-earths-americas-surges-after-nyse-debut-bets-on-us-heavy-rare-earth-discovery/",
+      "source": "Mining.com",
+      "tier_weight": 3,
+      "summary_raw": "Company says its the Shiloh exploration district in Georgia could fundamentally alter the US’ rare earth supply.",
+      "published": "2026-05-08T18:59:51+00:00",
+      "score": 9,
+      "id": "9c1f91088d"
     },
     {
       "title": "Fastmarkets clarifies inclusion of government-set benchmark pricing in Indonesia nickel ore assessment - Fastmarkets",
@@ -43,6 +63,26 @@
       "id": "7423ef3b02"
     },
     {
+      "title": "CERA Consulting | Critical Minerals Advisory - S&P Global",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbENFZ0lDNkdmenA3Qnl6djF1NGRmTEF5TVJ4eGUwTFljbW1LbkZaakRXZnMyb2hPM0YteVFZWVdZU3JJMVJnUHJhSndjX1N4d240cjNtRnhuZnRmS3lMYnJ3SGZodDUxdWpsMFJyWl9QdDV1TU5vNms4QTFMd016VTl5VFlzbUlUUGc?oc=5",
+      "source": "S&P Global - via Google News",
+      "tier_weight": 4,
+      "summary_raw": "CERA Consulting | Critical Minerals Advisory&nbsp;&nbsp;S&amp;P Global",
+      "published": "2026-05-08T01:36:34+00:00",
+      "score": 8,
+      "id": "7529563469"
+    },
+    {
+      "title": "Functional-prior-based Bayesian PDE-constrained inversion using PINNs",
+      "url": "https://arxiv.org/abs/2605.07060",
+      "source": "arXiv Geophysics",
+      "tier_weight": 4,
+      "summary_raw": "arXiv:2605.07060v1 Announce Type: new \nAbstract: Physics-informed neural networks (PINNs) provide a mesh-free framework for solving PDE-constrained inverse problems, but their extension to Bayesian inversion still faces a fundamental difficulty: prior distributions are typically defined in the weight space of neural networks, whereas physically meaningful prior assumptions are more naturally expressed in function space. In this study, we introduce a unified framework, termed functional-prior-bas",
+      "published": "2026-05-11T04:00:00+00:00",
+      "score": 8,
+      "id": "c67eac7d8a"
+    },
+    {
       "title": "Total Metals Completes 25 Hole, 8,408 metre Exploration Drilling Program on its Electrolode Critical Minerals Project - Resource World Magazine",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPaW9CdWpsdVl5NmRGMWJfTFVtcWJ5dzVYYmh2S0tGZFhtMU5lWHBtLUF5dVpFX3BQTl9ET1dram1ndmdGYllTSE9vQlN0R0w2aDRQOG1Wc3oyS3hwQXQxRTJlb1Zjck1pUFNHMTByaEtKemh0Z0hsUldGSG1FZU10bHZ6bFlCcFlMZDhhc1VVYzVkWHR4NDJybFU4aTA5U1hQS1ZkSmR6V3hSYzZwRGlvZ1ZmeTFfSnpCeTlzN2RNdGlNNWo3dXEtUk1sYkhxTU1jcVlfQXUtcXBJQQ?oc=5",
       "source": "Google News - Critical Minerals Exploration",
@@ -51,6 +91,16 @@
       "published": "2026-05-06T12:14:37+00:00",
       "score": 8,
       "id": "d1309c23e0"
+    },
+    {
+      "title": "Delta Lithium uncovers high-grade fluorite surprise at Yinnetharra while Mt Ida lithium drilling delivers strong infill results - Proactive Investors",
+      "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxPSFZvR0dSakpmeDhacGQ5NU11NnpuSGFkSzZRYzVPVHhLZTZHUUlFeEdjR2RVMjFWQWF1YVBkdHhGMng3TmR1VHpyOHV3dVlzbGlsMndQbXJ2bjY1eWlrbnJsOU5UZC1jMkRCc2RJaXRpZmkxSUV6Tm5nUXRxOWFjWDgxa1c0ZDN2dXF5Zkc1ZDlyeTJzQVlNRFlMbjllNHk4V1BqeEt1RU1hZlhpWmRjM3lGVEh2aVFrX1g3OHItbG5XOUh3TVZRYVdXdlpGOEltY2ktV3JrQTU4a0ZZeEZSNHBvRmI5a1JDaTZ3V1dIT0NvM1NoUmRrZkhjT2NXdUROalpITjAyR3ZobEoxQ291ZjltQkhyZE5RMmR5SVhHV05kbVVqbHRN?oc=5",
+      "source": "Google News - Lithium Discovery",
+      "tier_weight": 1,
+      "summary_raw": "Delta Lithium uncovers high-grade fluorite surprise at Yinnetharra while Mt Ida lithium drilling delivers strong infill results&nbsp;&nbsp;Proactive Investors",
+      "published": "2026-05-11T02:20:00+00:00",
+      "score": 8,
+      "id": "7bfd913a97"
     },
     {
       "title": "Rare Earths Americas IPO: Stock price will be closely watched today as 'exploration stage' firm lists on NYSE - Fast Company",
@@ -63,64 +113,14 @@
       "id": "bb74b5bcc0"
     },
     {
-      "title": "G7 trade talks target critical minerals as US-EU tariff rift strains unity - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZDhmSW9wWHFrOHF6RnFCMUpGMGlpcTRybjVjZE9oTGltUmpRY2M3MHFsTmgxcy04TVcyanBJa2tGbUMyR1V1c3lsWkJRVE5tYWEwLWdqdXo1TGhwZnQ3bUpxNmZQZERjaDZQQ09WUkhxcWZwMTQ5NTZCeU9kVjBIVDlwX19MUWlTa2F1bE9nNzN1QXNPc2RDb0xWSFFnSF9tOVJJVmtNXzJBdV8tdmk1MlF1dEdvV2FkNU4xM3hEbUhtR2Zf?oc=5",
-      "source": "Reuters - via Google News",
+      "title": "Focus Graphite in Quebec boasts world’s fifth-largest resource",
+      "url": "https://www.mining.com/focus-graphite-in-quebec-boasts-worlds-fifth-largest-resource/",
+      "source": "Mining.com",
       "tier_weight": 3,
-      "summary_raw": "G7 trade talks target critical minerals as US-EU tariff rift strains unity&nbsp;&nbsp;Reuters",
-      "published": "2026-05-06T14:08:54+00:00",
+      "summary_raw": "The update boosts the global contained graphite to 14.7 million tonnes over the 2022 resource, an 86% increase.",
+      "published": "2026-05-08T15:54:58+00:00",
       "score": 7,
-      "id": "f09672dc17"
-    },
-    {
-      "title": "Australia and Japan sign agreements on energy and critical minerals - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQU0wzUlpuQnYyaGtkTHl4WGtxVEhBVVdrN2ZKbTV4OURsY1l4SnFwcXl4YkxEQkg3dEpCQ2RpOWZhbWVndTU1di03bTh5WUZaVnFlai00Z0hpWTNCUUtTNHplM0U4LW1uc3hwdjJMMkhFcjhMMU5TRUptS1lfWksyYmNnRW9MQzkwSFhHNDFwNHRWRHYtemM0U05RWjVtLTNsTzJjVUdqN05OeWhHbWx0eFlKMFY0aWtadVNKRA?oc=5",
-      "source": "Reuters - via Google News",
-      "tier_weight": 3,
-      "summary_raw": "Australia and Japan sign agreements on energy and critical minerals&nbsp;&nbsp;Reuters",
-      "published": "2026-05-04T01:19:00+00:00",
-      "score": 7,
-      "id": "aca924e60e"
-    },
-    {
-      "title": "Critical minerals surge places infrastructure and energy at the centre of DRC’s mining future - Mining Weekly",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPa3JldndoY05mMmNyQm9lZ0RmZTY0bFJSblFtdlU3eHFkdkNZMERaeXVOemxFNnozRzZhU2dzNWJLcE9UZDNjVDh4V1VzLWZ1OWl0aTNqeGtwQ2didHAyc3I1b2pHcDh6czJ5cnRpbTZobFhsWVlqSWtTOXJxZE83aTFDLXlraVVzeXhkZ1V6TWIxNUlWVTExNFlaSGw2Xzc0c0pHRnZIWkVqaURzTC1BenI2Zml2Zm5iSVlfUVgtV1pyLW80amhlSDRGcXZ2eExXZjhaVmZkWQ?oc=5",
-      "source": "Mining Weekly - via Google News",
-      "tier_weight": 3,
-      "summary_raw": "Critical minerals surge places infrastructure and energy at the centre of DRC’s mining future&nbsp;&nbsp;Mining Weekly",
-      "published": "2026-05-07T06:00:00+00:00",
-      "score": 7,
-      "id": "f8945a3d01"
-    },
-    {
-      "title": "Glencore Q1: African copper cathode surges 68%, cobalt production falls 39% y-o-y - Fastmarkets",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTWNQX28zYmdWNzRqSEFGMjJCZUtSbEU4VEN1OTIyQk1odGE4RGhoMUNVSmVuZTBEeFR5cUtfUkpFWDBmbHFQNk5HckxRMFQxS28wTWQ3aHl1cC02ZUlvRXk1VWNvYjlYRFVIZHpiM19yTjl3VktvOW1YX1pHV0MtY1hVNE8xZWNiNmpDMGlFY2l0YUUwX1ZhU19jd3lQcnFxb3ZkWHBERHpEc21HN3dGczQ0Nk01QQ?oc=5",
-      "source": "Fastmarkets - via Google News",
-      "tier_weight": 5,
-      "summary_raw": "Glencore Q1: African copper cathode surges 68%, cobalt production falls 39% y-o-y&nbsp;&nbsp;Fastmarkets",
-      "published": "2026-05-06T10:02:33+00:00",
-      "score": 7,
-      "id": "17e4a715b6"
-    },
-    {
-      "title": "Adamera Minerals Stakes Third Tungsten Property In Washington State - Exploration Program Underway - Junior Mining Network",
-      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPeDJORi1CMFdjN3pGeXREblQ1Y2FhYXZ0X2EzYjhXblJLcHctX250VnUwWF9yRXl6QTJjV1F3MWw1SkhRdzhJV1hJcFdseEVkcHJveE1lLWJUUFRqYTRjb2piQzJvNExpRGROWTk2M1VVdGVLNEZaSTZyQ0lEaGFyM2VwZG9RckxDMzhIMHBDTWMzZVhwR1prZDI0QzlMOHBUM0ZVMWJkR0ZhQ21yN05ENDd1dXhkTk9QVmpFcEZ6TEtDYW1QUEhfWEwwd0dVT2lJRlFLZTJUTHBoOTRkOGtKbXlrUXF6RDVUTXB3NFd5QmoyUEc4S2xKRUUzejk0QzM1WWpyTnM5Q1h5QVM2RWJOeXlUbEpHVW8?oc=5",
-      "source": "Google News - Critical Minerals Exploration",
-      "tier_weight": 1,
-      "summary_raw": "Adamera Minerals Stakes Third Tungsten Property In Washington State - Exploration Program Underway&nbsp;&nbsp;Junior Mining Network",
-      "published": "2026-05-07T14:04:07+00:00",
-      "score": 7,
-      "id": "9d408d84cd"
-    },
-    {
-      "title": "India's Critical Minerals Push: Oil India, Hindustan Copper Join Forces For Exploration - MSN",
-      "url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxQc1lFeUFNNmdfYnFIQTRiT2Rnd0tSdk1OMk8wWk5ydDMxdWgwNDg1ZDRLNGs5bUtZYzBnRzdRaVZBTWthMjFqY2RvUVk1RVZrY1NxbldJMGtzNFZTeW1wdV94M0lzTTZiSTFxNERpdDhIcEJsUFlKbmZyUUt0Qkk5Y05LME0xcy1KNEZpYndJcGNUSUNpQ1F4YnlYX28xWldDdGVJT25EMUNBV1c1T3VMcjRMc1ctQlZORUphYlVISlpBNVVtQ29BSHFfZTZOeFFjZmNKY0ZQTUhRRXhRUjdZNWo4MERrQ3VFcGdUMDdzZjNERWJvVm1SNTJ0MUZtbnRYSktFOVdqZVFsbVFfN1RPSmhMZDRuNTI1T1dERXBnWkh4WGpvZkxPMkVBRDN2LXpjaUxuamRmYTI4VDBCX3BmT2ZMLWQ5YUZxOVU0dnd0dkk3MHotTEprRl8xNEZTb0cybkRn?oc=5",
-      "source": "Google News - Critical Minerals Exploration",
-      "tier_weight": 1,
-      "summary_raw": "India's Critical Minerals Push: Oil India, Hindustan Copper Join Forces For Exploration&nbsp;&nbsp;MSN",
-      "published": "2026-05-07T23:02:16+00:00",
-      "score": 7,
-      "id": "940cc6fc09"
+      "id": "989b0e00b1"
     }
   ]
 }
