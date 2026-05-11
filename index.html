@@ -307,9 +307,12 @@ footer a {
   <h1>Critical Minerals Weekly</h1>
   <div class="subtitle">핵심광물 탐사·정책 주간 동향</div>
   <div class="meta">
-    Week of <strong id="week-of">—</strong> · 
+    <select id="week-selector" style="font-family: inherit; font-size: 14px; padding: 4px 8px; border: 1px solid var(--border); border-radius: 4px; background: var(--paper); color: var(--ink); cursor: pointer;">
+      <option value="">— Week —</option>
+    </select> · 
     <span id="card-count">—</span> cards · 
-    Curated by 조성준 (KIGAM)
+    Curated by 조성준 (KIGAM) · 
+    <a href="./archive.html" style="color: var(--accent); text-decoration: none;">📚 전체 아카이브</a>
   </div>
 </header>
 
@@ -337,12 +340,65 @@ const TIER_CLASS = {5: 'tier-1', 4: 'tier-2', 3: 'tier-2', 1: 'tier-3'};
 let allArticles = [];
 let currentFilter = 'all';
 
+async function loadArchiveIndex() {
+  try {
+    const res = await fetch('./data/archive-index.json?t=' + Date.now());
+    const index = await res.json();
+    
+    const selector = document.getElementById('week-selector');
+    selector.innerHTML = '';
+    
+    if (index.weeks && index.weeks.length > 0) {
+      index.weeks.forEach((w, idx) => {
+        const option = document.createElement('option');
+        option.value = w.filename;
+        option.textContent = `Week of ${w.week_of} (${w.total_cards} cards)`;
+        if (idx === 0) option.selected = true;  // 최신 호 기본 선택
+        selector.appendChild(option);
+      });
+      
+      // 최신 호 자동 로드
+      loadWeek(index.weeks[0].filename);
+    }
+    
+    // 선택 변경 시 해당 주차 로드
+    selector.addEventListener('change', (e) => {
+      if (e.target.value) {
+        loadWeek(e.target.value);
+      }
+    });
+  } catch (e) {
+    // archive-index.json이 없으면 latest.json 폴백
+    console.log('Archive index not found, falling back to latest.json');
+    loadData();
+  }
+}
+
+async function loadWeek(filename) {
+  try {
+    const res = await fetch(`./data/${filename}?t=` + Date.now());
+    const data = await res.json();
+    
+    document.getElementById('card-count').textContent = data.total_cards;
+    document.getElementById('generated-at').textContent = 
+      'Last update: ' + new Date(data.generated_at).toLocaleString('ko-KR');
+    
+    allArticles = data.articles;
+    currentFilter = 'all';
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    document.querySelector('.filter-btn[data-cat="all"]').classList.add('active');
+    render();
+  } catch (e) {
+    document.getElementById('cards').innerHTML = 
+      '<div class="empty">해당 주차 데이터를 불러올 수 없습니다.</div>';
+  }
+}
+
 async function loadData() {
   try {
     const res = await fetch('./data/latest.json?t=' + Date.now());
     const data = await res.json();
     
-    document.getElementById('week-of').textContent = data.week_of;
     document.getElementById('card-count').textContent = data.total_cards;
     document.getElementById('generated-at').textContent = 
       'Last update: ' + new Date(data.generated_at).toLocaleString('ko-KR');
@@ -421,7 +477,7 @@ document.querySelectorAll('.filter-btn').forEach(btn => {
   });
 });
 
-loadData();
+loadArchiveIndex();
 </script>
 
 </body>
