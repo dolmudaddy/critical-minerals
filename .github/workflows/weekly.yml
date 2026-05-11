@@ -39,6 +39,9 @@ jobs:
       - name: Generate RSS feed
         run: python scripts/generate_rss.py
 
+      - name: Build archive index
+        run: python scripts/build_index.py
+
       - name: Commit and push results
         run: |
           git config user.name "github-actions[bot]"
