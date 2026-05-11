@@ -1,0 +1,80 @@
+{
+  "total_weeks": 4,
+  "latest_week": "2026-05-11",
+  "weeks": [
+    {
+      "week_of": "2026-05-11",
+      "filename": "week-2026-05-11.json",
+      "total_cards": 12,
+      "category_counts": {
+        "policy_market": 8,
+        "exploration_tech": 2,
+        "supply_chain": 2
+      },
+      "top_tags": [
+        "핵심광물",
+        "EU 공급망 정책",
+        "폴란드",
+        "EU 정책",
+        "에너지 안보"
+      ],
+      "generated_at": "2026-05-11T02:04:10.371151+00:00"
+    },
+    {
+      "week_of": "2026-05-10",
+      "filename": "week-2026-05-10.json",
+      "total_cards": 12,
+      "category_counts": {
+        "policy_market": 8,
+        "exploration_tech": 2,
+        "supply_chain": 2
+      },
+      "top_tags": [
+        "핵심광물",
+        "희토류",
+        "공급망 안보",
+        "공급망 정책",
+        "폴란드·유럽연합"
+      ],
+      "generated_at": "2026-05-10T23:45:16.951657+00:00"
+    },
+    {
+      "week_of": "2026-05-08",
+      "filename": "week-2026-05-08.json",
+      "total_cards": 12,
+      "category_counts": {
+        "policy_market": 4,
+        "exploration_tech": 4,
+        "supply_chain": 4
+      },
+      "top_tags": [
+        "희토류",
+        "핵심광물",
+        "브라질",
+        "공급망 다변화",
+        "북미 탐사"
+      ],
+      "generated_at": "2026-05-08T08:13:59.150575+00:00"
+    },
+    {
+      "week_of": "2026-05-07",
+      "filename": "week-2026-05-07.json",
+      "total_cards": 12,
+      "category_counts": {
+        "policy_market": 2,
+        "exploration_tech": 4,
+        "discovery": 2,
+        "supply_chain": 3,
+        "research": 1
+      },
+      "top_tags": [
+        "중요광물",
+        "희토류",
+        "탐사개발",
+        "북미",
+        "호주"
+      ],
+      "generated_at": "2026-05-07T06:09:18.309917+00:00"
+    }
+  ]
+}
