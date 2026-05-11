@@ -42,6 +42,12 @@ jobs:
       - name: Build archive index
         run: python scripts/build_index.py
 
+      - name: Send to Mailchimp
+        env:
+          MAILCHIMP_API_KEY: ${{ secrets.MAILCHIMP_API_KEY }}
+        run: python scripts/send_email.py
+        continue-on-error: true
+
       - name: Commit and push results
         run: |
           git config user.name "github-actions[bot]"
