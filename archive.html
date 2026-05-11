@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>아카이브 | 핵심광물 주간 동향</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #f7f6f2;
+  --paper: #ffffff;
+  --ink: #1a1a1a;
+  --muted: #6b6b6b;
+  --accent: #8b2332;
+  --accent-light: #f5e8ea;
+  --border: #e0ddd5;
+  --shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'Inter', 'Noto Serif KR', serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+.header {
+  background: var(--paper);
+  border-bottom: 1px solid var(--border);
+  padding: 32px 24px 28px;
+  text-align: center;
+}
+
+.header h1 {
+  font-family: 'Noto Serif KR', serif;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 6px;
+  color: var(--accent);
+}
+
+.header .subtitle {
+  font-size: 13px;
+  color: var(--muted);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.header .meta {
+  margin-top: 14px;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.header .meta a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.archive-container {
+  max-width: 900px;
+  margin: 32px auto 80px;
+  padding: 0 16px;
+}
+
+.archive-stats {
+  background: var(--paper);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 20px 24px;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-value {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--accent);
+  font-family: 'Inter', sans-serif;
+}
+
+.stat-label {
+  font-size: 12px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: 4px;
+}
+
+.week-card {
+  background: var(--paper);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 20px 24px;
+  margin-bottom: 16px;
+  box-shadow: var(--shadow);
+  transition: transform 0.15s, box-shadow 0.15s;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.week-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  border-color: var(--accent);
+}
+
+.week-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.week-date {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--ink);
+  font-family: 'Inter', sans-serif;
+}
+
+.week-count {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.week-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.tag {
+  font-size: 11px;
+  background: var(--accent-light);
+  color: var(--accent);
+  padding: 3px 10px;
+  border-radius: 3px;
+  font-weight: 500;
+}
+
+.week-categories {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.empty {
+  text-align: center;
+  padding: 80px 20px;
+  color: var(--muted);
+}
+
+footer {
+  text-align: center;
+  padding: 24px;
+  font-size: 12px;
+  color: var(--muted);
+  border-top: 1px solid var(--border);
+}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <h1>📚 아카이브</h1>
+  <div class="subtitle">핵심광물 주간 동향 전체 호</div>
+  <div class="meta">
+    <a href="./index.html">← 최신 호로 돌아가기</a>
+  </div>
+</header>
+
+<main class="archive-container">
+  <div class="archive-stats" id="stats" style="display:none;">
+    <div class="stat-item">
+      <div class="stat-value" id="total-weeks">—</div>
+      <div class="stat-label">발행 호수</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-value" id="total-cards">—</div>
+      <div class="stat-label">누적 카드</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-value" id="latest-date">—</div>
+      <div class="stat-label">최근 발행</div>
+    </div>
+  </div>
+  
+  <div id="weeks-list">
+    <div class="empty">아카이브 목록을 불러오는 중...</div>
+  </div>
+</main>
+
+<footer>
+  <a href="./rss.xml" target="_blank" style="font-weight: 600; color: var(--accent); text-decoration: none;">📡 RSS 구독</a> · 
+  Built with GitHub Actions + Claude API
+</footer>
+
+<script>
+const CATEGORY_LABEL = {
+  policy_market: '정책·시장',
+  exploration_tech: '탐사기술',
+  discovery: '발견·매장지',
+  supply_chain: '공급망',
+  research: '연구'
+};
+
+async function loadArchive() {
+  try {
+    const res = await fetch('./data/archive-index.json?t=' + Date.now());
+    const index = await res.json();
+    
+    if (!index.weeks || index.weeks.length === 0) {
+      document.getElementById('weeks-list').innerHTML = 
+        '<div class="empty">아직 발행된 호가 없습니다.</div>';
+      return;
+    }
+    
+    // 통계 표시
+    document.getElementById('stats').style.display = 'flex';
+    document.getElementById('total-weeks').textContent = index.weeks.length;
+    
+    let totalCards = 0;
+    index.weeks.forEach(w => totalCards += w.total_cards);
+    document.getElementById('total-cards').textContent = totalCards;
+    
+    document.getElementById('latest-date').textContent = index.weeks[0].week_of;
+    
+    // 호 목록 렌더링
+    const listHtml = index.weeks.map(week => {
+      const categoryHtml = Object.entries(week.category_counts)
+        .map(([cat, count]) => `${CATEGORY_LABEL[cat] || cat} ${count}`)
+        .join(' · ');
+      
+      const tagsHtml = (week.top_tags || [])
+        .map(tag => `<span class="tag">#${tag}</span>`)
+        .join('');
+      
+      return `
+        <a class="week-card" href="./index.html?week=${week.filename}">
+          <div class="week-header">
+            <div class="week-date">Week of ${week.week_of}</div>
+            <div class="week-count">${week.total_cards} cards</div>
+          </div>
+          <div class="week-tags">${tagsHtml}</div>
+          <div class="week-categories">${categoryHtml}</div>
+        </a>
+      `;
+    }).join('');
+    
+    document.getElementById('weeks-list').innerHTML = listHtml;
+    
+  } catch (e) {
+    document.getElementById('weeks-list').innerHTML = 
+      '<div class="empty">아카이브 인덱스를 불러올 수 없습니다.<br>아직 build_index.py가 실행되지 않았을 수 있습니다.</div>';
+  }
+}
+
+loadArchive();
+</script>
+
+</body>
+</html>
