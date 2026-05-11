@@ -6,7 +6,7 @@
     <atom:link href="https://dolmudaddy.github.io/critical-minerals/rss.xml" rel="self" type="application/rss+xml"/>
     <description>조성준 박사 (KIGAM, 한국자원공학회장) 큐레이션. 핵심광물 탐사·정책·시장 주간 동향.</description>
     <language>ko-KR</language>
-    <lastBuildDate>Mon, 11 May 2026 06:09:26 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 07:13:49 +0000</lastBuildDate>
     <generator>GitHub Actions + Claude API</generator>
     <managingEditor>dolmudaddy@gmail.com (조성준)</managingEditor>
     <item>
@@ -16,20 +16,9 @@
       <pubDate>Fri, 08 May 2026 05:40:23 +0000</pubDate>
       <source url="https://dolmudaddy.github.io/critical-minerals">European Commission - Energy</source>
       <category>핵심광물</category>
-      <category>공급망 다변화</category>
-      <category>폴란드-EU 협력</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: European Commission - Energy&lt;/p&gt;&lt;p&gt;유럽연합이 폴란드와 체결한 첫 번째 SAFE 차입협약을 통해 핵심광물 확보 전략을 강화하고 있음이 확인되었습니다. 이는 유럽의 에너지 전환 및 산업 경쟁력 강화를 위한 공급망 다변화 정책의 핵심 사항으로 평가됩니다. 한국 자원공학계도 글로벌 핵심광물 수급 체계 변화에 대응한 대외협력 전략 수립이 시급한 상황으로 판단됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;SAFE loan agreement&lt;/em&gt; — 전략적 원자재 안정공급을 위한 차입협약 (Strategic Autonomy For Europe)&lt;/li&gt;&lt;li&gt;&lt;em&gt;critical minerals supply chain&lt;/em&gt; — 핵심광물 공급망&lt;/li&gt;&lt;li&gt;&lt;em&gt;strategic autonomy in raw materials&lt;/em&gt; — 원자재 전략적 자립성&lt;/li&gt;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Chile moves to formalize critical minerals strategy</title>
-      <link>https://www.mining.com/chile-moves-to-formalize-critical-minerals-strategy/</link>
-      <guid isPermaLink="false">2f04d37e02</guid>
-      <pubDate>Wed, 06 May 2026 13:03:00 +0000</pubDate>
-      <source url="https://dolmudaddy.github.io/critical-minerals">Mining.com</source>
-      <category>희토류</category>
-      <category>공급망정책</category>
-      <category>칠레</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Mining.com&lt;/p&gt;&lt;p&gt;칠레 정부가 희토류를 포함한 핵심광물의 전체 가치사슬을 아우르는 특별 법적 체계 구축을 추진 중으로 확인되었습니다. 이번 이니셔티브는 채굴에서 정제, 가공에 이르는 핵심광물 산업의 전략적 육성을 목표로 하고 있습니다. 칠레의 공식적 핵심광물 전략 수립은 전 지구적 공급망 재편 추세 속에서 주요 생산국의 경쟁력 강화 움직임을 의미할 전망입니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;critical minerals strategy&lt;/em&gt; — 핵심광물 전략&lt;/li&gt;&lt;li&gt;&lt;em&gt;special legal regime&lt;/em&gt; — 특별 법적 체계/제도&lt;/li&gt;&lt;li&gt;&lt;em&gt;full value chain&lt;/em&gt; — 전체 가치사슬 (채굴부터 최종 가공까지)&lt;/li&gt;&lt;li&gt;&lt;em&gt;rare earths&lt;/em&gt; — 희토류&lt;/li&gt;&lt;li&gt;&lt;em&gt;formalize strategy&lt;/em&gt; — 전략을 공식화하다/제도화하다&lt;/li&gt;&lt;/ul&gt;</description>
+      <category>EU 자급화 정책</category>
+      <category>폴란드</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: European Commission - Energy&lt;/p&gt;&lt;p&gt;유럽연합이 폴란드와 체결한 첫 번째 SAFE 차입금 협약을 통해 핵심광물 확보 전략을 강화할 것으로 확인되었습니다. 이는 유럽의 에너지 전환과 산업 경쟁력 강화를 위한 핵심광물 공급망 안정화를 목표로 하고 있습니다. 동 협약은 EU 회원국 간 핵심광물 개발·가공 투자를 촉진하여 글로벌 공급망 의존도를 낮출 것으로 전망됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;SAFE loan agreement&lt;/em&gt; — 핵심광물 확보를 위한 재정지원 협약 (Strategic Autonomy For Europe)&lt;/li&gt;&lt;li&gt;&lt;em&gt;critical minerals supply chain&lt;/em&gt; — 핵심광물 공급망&lt;/li&gt;&lt;li&gt;&lt;em&gt;sovereign sourcing of critical minerals&lt;/em&gt; — 핵심광물의 자주적 공급원 확보&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Eurobarometer shows great majority of Europeans see benefits from EU membership and the EU as a pillar of stability and security</title>
@@ -37,10 +26,10 @@
       <guid isPermaLink="false">231cb9b1d1</guid>
       <pubDate>Fri, 08 May 2026 07:48:01 +0000</pubDate>
       <source url="https://dolmudaddy.github.io/critical-minerals">European Commission - Energy</source>
-      <category>핵심광물</category>
       <category>EU 정책</category>
       <category>에너지 안보</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: European Commission - Energy&lt;/p&gt;&lt;p&gt;유럽연합(EU) 회원국 국민의 약 3/4이 EU 가입으로부터 혜택을 얻었다고 평가하며, 글로벌 불확실성 속에서 EU를 안정성과 안보의 원천으로 인식하고 있는 것으로 확인되었습니다. 특히 공동 방위 및 안보 정책에 대한 지지율이 사상 최고 수준에 도달했으며, EU 시민 정체성을 느끼는 응답자가 75%로 역사적 최고치를 기록했습니다. 이는 에너지·핵심광물 등 전략적 자원의 안정적 공급과 공동 대응 필요성이 EU 정책 우선순위로 대두되는 배경을 반영하고 있습니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;critical minerals supply chain resilience&lt;/em&gt; — 핵심광물 공급망 회복력&lt;/li&gt;&lt;li&gt;&lt;em&gt;common security policy framework&lt;/em&gt; — 공동 안보 정책 체계&lt;/li&gt;&lt;li&gt;&lt;em&gt;strategic resource security&lt;/em&gt; — 전략적 자원 안보&lt;/li&gt;&lt;/ul&gt;</description>
+      <category>자원 공급망</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: European Commission - Energy&lt;/p&gt;&lt;p&gt;유럽연합(EU) 회원국 국민의 약 75%가 EU 회원 자격으로부터 국가적 이득이 있다고 인식하고 있으며, 글로벌 불확실성 속에서 EU를 안정성과 안보의 핵심 기둥으로 평가하고 있음이 확인되었습니다. EU 방위·안보 정책에 대한 지지도 사상 최고조에 도달했으며, EU 시민으로서의 정체성 인식도 역대 최고 수준인 75%에 달할 전망입니다. 이는 에너지·핵심광물 등 전략적 자원 공급망 자립화를 추진하는 EU의 정책 추진력 강화에 긍정적으로 작용할 것으로 예상됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;in a challenging global context&lt;/em&gt; — 도전적인 글로벌 상황 속에서&lt;/li&gt;&lt;li&gt;&lt;em&gt;source of stability and security&lt;/em&gt; — 안정성과 안보의 원천&lt;/li&gt;&lt;li&gt;&lt;em&gt;common defence and security policy&lt;/em&gt; — 공동 방위 및 안보 정책&lt;/li&gt;&lt;li&gt;&lt;em&gt;EU citizenship awareness&lt;/em&gt; — EU 시민으로서의 정체성 인식&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Fastmarkets clarifies inclusion of government-set benchmark pricing in Indonesia nickel ore assessment - Fastmarkets</title>
@@ -49,9 +38,9 @@
       <pubDate>Fri, 08 May 2026 09:31:12 +0000</pubDate>
       <source url="https://dolmudaddy.github.io/critical-minerals">Fastmarkets - via Google News</source>
       <category>니켈</category>
-      <category>가격평가</category>
+      <category>가격지수·정책</category>
       <category>인도네시아</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Fastmarkets - via Google News&lt;/p&gt;&lt;p&gt;Fastmarkets가 인도네시아 니켈광석 가격평가에 정부 설정 벤치마크 가격을 포함시키는 방식을 명확히 하였습니다. 이는 니켈을 포함한 핵심광물의 가격 투명성과 시장 신뢰도를 제고하기 위한 조치로 평가됩니다. 향후 정부 정책과 시장 메커니즘의 조화가 글로벌 핵심광물 공급망 안정화의 핵심 요소가 될 것으로 전망됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;government-set benchmark pricing&lt;/em&gt; — 정부가 설정한 벤치마크 가격&lt;/li&gt;&lt;li&gt;&lt;em&gt;price assessment methodology&lt;/em&gt; — 가격평가 방법론&lt;/li&gt;&lt;li&gt;&lt;em&gt;market transparency and integrity&lt;/em&gt; — 시장 투명성 및 신뢰성&lt;/li&gt;&lt;li&gt;&lt;em&gt;critical minerals supply chain&lt;/em&gt; — 핵심광물 공급망&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Fastmarkets - via Google News&lt;/p&gt;&lt;p&gt;Fastmarkets가 인도네시아 니켈광석 가격평가에 정부가 설정한 벤치마크 가격을 포함시키는 방식을 명확히 함으로써 시장 투명성을 강화하였습니다. 이는 인도네시아의 핵심광물 수급 안정성과 국제 가격 책정의 신뢰도를 동시에 제고하는 조치로 평가됩니다. 향후 정부 정책과 민간 가격지수 간의 협력 체계가 글로벌 핵심광물 공급망 거버넌스의 모범사례로 작용할 것으로 전망됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;government-set benchmark pricing&lt;/em&gt; — 정부가 설정한 벤치마크 가격&lt;/li&gt;&lt;li&gt;&lt;em&gt;nickel ore assessment&lt;/em&gt; — 니켈광석 가격평가&lt;/li&gt;&lt;li&gt;&lt;em&gt;pricing methodology clarification&lt;/em&gt; — 가격 책정 방법론의 명확화&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>US rare earth champion views Iran war as demand ‘accelerant’ - Mining.com</title>
@@ -60,9 +49,9 @@
       <pubDate>Fri, 08 May 2026 20:53:41 +0000</pubDate>
       <source url="https://dolmudaddy.github.io/critical-minerals">Google News - Rare Earth Elements</source>
       <category>희토류</category>
-      <category>핵심광물 공급망</category>
-      <category>미국</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Google News - Rare Earth Elements&lt;/p&gt;&lt;p&gt;미국의 희토류 산업 주도 업체가 이란 정세 불안정을 핵심광물 수요 증가의 촉매제로 평가하고 있으며, 이는 미국 내 희토류 생산 확대 및 공급망 다각화의 기회로 작용할 전망입니다. 중동 지정학적 위험이 심화됨에 따라 중국 의존도 감소 및 우방국 간 핵심광물 협력 강화가 가속화될 것으로 예상됩니다. 이러한 추세는 글로벌 핵심광물 확보 경쟁 심화 및 채굴-정련 기술 개발 투자 확대로 이어질 것으로 판단됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;demand accelerant&lt;/em&gt; — 수요 증가를 촉진하는 요인&lt;/li&gt;&lt;li&gt;&lt;em&gt;supply chain diversification&lt;/em&gt; — 공급망 다원화/다각화&lt;/li&gt;&lt;li&gt;&lt;em&gt;rare earth champion&lt;/em&gt; — 희토류 산업 주도 기업/선도 업체&lt;/li&gt;&lt;li&gt;&lt;em&gt;geopolitical risk&lt;/em&gt; — 지정학적 위험&lt;/li&gt;&lt;li&gt;&lt;em&gt;critical mineral independence&lt;/em&gt; — 핵심광물 자급화/독립성 확보&lt;/li&gt;&lt;/ul&gt;</description>
+      <category>공급망 안보</category>
+      <category>미국-이란</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Google News - Rare Earth Elements&lt;/p&gt;&lt;p&gt;미국의 희토류 기업이 이란 분쟁을 핵심광물 수요 증대의 촉매제로 평가하고 있는 것으로 확인되었습니다. 지정학적 긴장 고조가 전략적 핵심광물의 공급망 다변화와 자급률 확대에 대한 국제적 관심을 촉진할 것으로 전망됩니다. 이는 미국을 비롯한 주요국의 핵심광물 확보 경쟁이 더욱 심화될 것임을 시사합니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;demand accelerant&lt;/em&gt; — 수요 촉진 요인, 수요 가속화 인자&lt;/li&gt;&lt;li&gt;&lt;em&gt;supply chain diversification&lt;/em&gt; — 공급망 다변화, 공급처 다원화&lt;/li&gt;&lt;li&gt;&lt;em&gt;strategic mineral security&lt;/em&gt; — 전략광물 공급 안정성, 핵심광물 확보 전략&lt;/li&gt;&lt;li&gt;&lt;em&gt;geopolitical tensions as a catalyst&lt;/em&gt; — 지정학적 긴장을 촉매제로 활용, 지정학적 리스크 관리&lt;/li&gt;&lt;li&gt;&lt;em&gt;domestic production capacity&lt;/em&gt; — 국내 생산 역량, 자급 능력 확대&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>CERA Consulting | Critical Minerals Advisory - S&amp;P Global</title>
@@ -70,10 +59,10 @@
       <guid isPermaLink="false">7529563469</guid>
       <pubDate>Fri, 08 May 2026 01:36:34 +0000</pubDate>
       <source url="https://dolmudaddy.github.io/critical-minerals">S&amp;P Global - via Google News</source>
-      <category>핵심광물</category>
-      <category>공급망분석</category>
-      <category>글로벌시장</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: S&amp;amp;P Global - via Google News&lt;/p&gt;&lt;p&gt;S&amp;amp;P Global의 CERA Consulting은 글로벌 핵심광물 시장의 공급망 리스크와 지정학적 변수를 종합적으로 분석하는 자문 서비스를 제공하고 있습니다. 에너지 전환 및 첨단산업 수요 증가에 따른 핵심광물의 장기 수급 전망과 가격 변동성에 대한 정량적 평가가 업계의 전략 수립에 필수적인 것으로 확인되었습니다. 한국 자원개발 기업의 국제 경쟁력 강화를 위해서는 핵심광물의 시장 동향과 공급망 위험요소에 대한 체계적인 모니터링 체계 구축이 시급한 상황입니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;critical minerals supply chain risk assessment&lt;/em&gt; — 핵심광물 공급망 리스크 평가&lt;/li&gt;&lt;li&gt;&lt;em&gt;long-term demand forecasting for energy transition&lt;/em&gt; — 에너지 전환 관련 장기 수요 예측&lt;/li&gt;&lt;li&gt;&lt;em&gt;geopolitical constraints on mineral sourcing&lt;/em&gt; — 광물 수급에 미치는 지정학적 제약요인&lt;/li&gt;&lt;/ul&gt;</description>
+      <category>리튬·코발트·희토류</category>
+      <category>공급망 분석·정책자문</category>
+      <category>글로벌 시장동향</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: S&amp;amp;P Global - via Google News&lt;/p&gt;&lt;p&gt;S&amp;amp;P Global의 CERA Consulting이 제공하는 핵심광물 자문 서비스는 공급망 리스크 분석 및 시장 전망을 통해 산업 전략 수립을 지원하고 있습니다. 글로벌 에너지 전환과 첨단기술 산업 확대에 따른 핵심광물 수요 급증 속에서 지정학적 리스크 관리의 중요성이 대두되고 있습니다. 한국 자원공학 분야에서도 핵심광물 확보 전략 및 대체 재료 개발에 관한 심층적 분석과 연구가 시급할 것으로 판단됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;critical minerals advisory&lt;/em&gt; — 핵심광물 자문 서비스&lt;/li&gt;&lt;li&gt;&lt;em&gt;supply chain risk assessment&lt;/em&gt; — 공급망 리스크 평가&lt;/li&gt;&lt;li&gt;&lt;em&gt;geopolitical vulnerability&lt;/em&gt; — 지정학적 취약성&lt;/li&gt;&lt;li&gt;&lt;em&gt;demand-supply dynamics&lt;/em&gt; — 수급 동향 분석&lt;/li&gt;&lt;li&gt;&lt;em&gt;market outlook and strategic planning&lt;/em&gt; — 시장 전망 및 전략 수립&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Rare Earths Americas IPO: Stock price will be closely watched today as 'exploration stage' firm lists on NYSE - Fast Company</title>
@@ -82,9 +71,31 @@
       <pubDate>Wed, 06 May 2026 13:15:25 +0000</pubDate>
       <source url="https://dolmudaddy.github.io/critical-minerals">Google News - Rare Earth Elements</source>
       <category>희토류</category>
-      <category>자본시장·탐사</category>
+      <category>핵심광물 개발정책</category>
       <category>북미</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Google News - Rare Earth Elements&lt;/p&gt;&lt;p&gt;레어어스 아메리카스(Rare Earths Americas)가 뉴욕증권거래소(NYSE)에 상장되며 탐사 단계 기업의 주가 변동이 시장의 주목을 받고 있음. 북미 지역의 핵심광물 개발에 대한 투자자들의 관심과 평가가 집중되고 있는 상황으로 판단됨. 미국의 핵심광물 공급 다원화 전략 하에서 민간 탐사·개발 기업의 역할이 강화되는 추세를 반영하고 있음.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;exploration stage firm&lt;/em&gt; — 탐사 단계 기업 (광산 개발 초기 단계의 광업 회사)&lt;/li&gt;&lt;li&gt;&lt;em&gt;NYSE listing / IPO&lt;/em&gt; — 뉴욕증권거래소 상장 / 기업공개&lt;/li&gt;&lt;li&gt;&lt;em&gt;stock price closely watched&lt;/em&gt; — 주가 추이가 긴밀히 주시되다&lt;/li&gt;&lt;li&gt;&lt;em&gt;rare earth elements (REE) production&lt;/em&gt; — 희토류 원소 생산&lt;/li&gt;&lt;li&gt;&lt;em&gt;Americas critical minerals supply&lt;/em&gt; — 아메리카 지역의 핵심광물 공급&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Google News - Rare Earth Elements&lt;/p&gt;&lt;p&gt;탐사 단계 기업인 Rare Earths Americas가 뉴욕증권거래소(NYSE)에 상장되어 시장의 주목을 받을 전망으로 확인되었습니다. 본 상장은 북미 지역의 핵심광물, 특히 희토류 자원 개발에 대한 전략적 관심이 증대되고 있음을 시사합니다. 미국과 캐나다 등 북미 국가들이 공급망 확보를 위해 자국 내 핵심광물 탐사·개발 기업 육성에 나서고 있는 상황을 반영하는 것으로 평가됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;exploration stage firm&lt;/em&gt; — 탐사 단계 기업 (상업 생산 이전의 광물 탐사 및 개발 단계에 있는 광업 회사)&lt;/li&gt;&lt;li&gt;&lt;em&gt;critical minerals supply chain&lt;/em&gt; — 핵심광물 공급망 (채광, 제련, 가공에서 최종 소비까지의 일련의 가치사슬)&lt;/li&gt;&lt;li&gt;&lt;em&gt;NYSE listing&lt;/em&gt; — 뉴욕증권거래소 상장 (자본 조달 및 기업 공개를 통한 시장진출)&lt;/li&gt;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>G7 trade talks target critical minerals as US-EU tariff rift strains unity - Reuters</title>
+      <link>https://news.google.com/rss/articles/CBMixAFBVV95cUxQZDhmSW9wWHFrOHF6RnFCMUpGMGlpcTRybjVjZE9oTGltUmpRY2M3MHFsTmgxcy04TVcyanBJa2tGbUMyR1V1c3lsWkJRVE5tYWEwLWdqdXo1TGhwZnQ3bUpxNmZQZERjaDZQQ09WUkhxcWZwMTQ5NTZCeU9kVjBIVDlwX19MUWlTa2F1bE9nNzN1QXNPc2RDb0xWSFFnSF9tOVJJVmtNXzJBdV8tdmk1MlF1dEdvV2FkNU4xM3hEbUhtR2Zf?oc=5</link>
+      <guid isPermaLink="false">f09672dc17</guid>
+      <pubDate>Wed, 06 May 2026 14:08:54 +0000</pubDate>
+      <source url="https://dolmudaddy.github.io/critical-minerals">Reuters - via Google News</source>
+      <category>핵심광물</category>
+      <category>공급망 안정화</category>
+      <category>G7 통상협력</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Reuters - via Google News&lt;/p&gt;&lt;p&gt;G7 회원국들이 미국-EU 관세 갈등 속에서도 핵심광물 공급망 안정화를 위한 통상 협의를 진행 중으로 확인되었음. 핵심광물 확보 경쟁이 심화되는 가운데 선진국 간 협력 체계 구축이 중요한 과제로 대두되고 있음. 향후 핵심광물 시장 질서 재편과 우리나라의 전략적 대응이 필요할 전망임.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;critical minerals supply chain&lt;/em&gt; — 핵심광물 공급망&lt;/li&gt;&lt;li&gt;&lt;em&gt;trade unity amid tariff tensions&lt;/em&gt; — 관세 갈등 속 통상 결속&lt;/li&gt;&lt;li&gt;&lt;em&gt;mineral security cooperation framework&lt;/em&gt; — 광물 자원 안보 협력 체계&lt;/li&gt;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Australia and Japan sign agreements on energy and critical minerals - Reuters</title>
+      <link>https://news.google.com/rss/articles/CBMivAFBVV95cUxQU0wzUlpuQnYyaGtkTHl4WGtxVEhBVVdrN2ZKbTV4OURsY1l4SnFwcXl4YkxEQkg3dEpCQ2RpOWZhbWVndTU1di03bTh5WUZaVnFlai00Z0hpWTNCUUtTNHplM0U4LW1uc3hwdjJMMkhFcjhMMU5TRUptS1lfWksyYmNnRW9MQzkwSFhHNDFwNHRWRHYtemM0U05RWjVtLTNsTzJjVUdqN05OeWhHbWx0eFlKMFY0aWtadVNKRA?oc=5</link>
+      <guid isPermaLink="false">aca924e60e</guid>
+      <pubDate>Mon, 04 May 2026 01:19:00 +0000</pubDate>
+      <source url="https://dolmudaddy.github.io/critical-minerals">Reuters - via Google News</source>
+      <category>리튬·코발트·니켈</category>
+      <category>공급망 안정화·전략적 협력</category>
+      <category>호주·일본</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Reuters - via Google News&lt;/p&gt;&lt;p&gt;호주와 일본이 에너지 및 핵심광물 분야에서 협력 협정을 체결함으로써 인도-태평양 지역의 공급망 안정화를 추진하고 있습니다. 양국은 리튬, 코발트, 니켈 등 전기차 및 재생에너지 산업의 필수 핵심광물 확보를 위한 전략적 파트너십을 구축했습니다. 이번 협정은 글로벌 공급망 리스크 완화 및 에너지 전환 가속화를 위한 선도국들의 실질적 협력 의지를 보여줍니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;critical minerals supply chain&lt;/em&gt; — 핵심광물 공급망&lt;/li&gt;&lt;li&gt;&lt;em&gt;strategic partnership on energy transition&lt;/em&gt; — 에너지 전환을 위한 전략적 파트너십&lt;/li&gt;&lt;li&gt;&lt;em&gt;Indo-Pacific supply chain resilience&lt;/em&gt; — 인도-태평양 공급망 복원력&lt;/li&gt;&lt;li&gt;&lt;em&gt;bilateral cooperation framework&lt;/em&gt; — 양자간 협력 체계&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Functional-prior-based Bayesian PDE-constrained inversion using PINNs</title>
@@ -92,10 +103,10 @@
       <guid isPermaLink="false">c67eac7d8a</guid>
       <pubDate>Mon, 11 May 2026 04:00:00 +0000</pubDate>
       <source url="https://dolmudaddy.github.io/critical-minerals">arXiv Geophysics</source>
-      <category>지구물리역산</category>
-      <category>인공지능·기계학습</category>
-      <category>광물탐사기술</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: arXiv Geophysics&lt;/p&gt;&lt;p&gt;본 연구는 물리정보신경망(PINNs)을 활용하여 편미분방정식 제약 역산 문제에서 함수공간 기반 베이지안 사전분포를 통합하는 새로운 프레임워크를 제시하였습니다. 기존 신경망 가중치 공간의 사전분포 정의 방식의 한계를 극복하고 물리적으로 의미 있는 사전가정을 함수공간에서 직접 표현할 수 있도록 개선되었습니다. 이는 지구물리 역산 문제의 불확실성 정량화 및 신뢰도 높은 광물탐사 해석에 활용될 전망입니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;Physics-informed neural networks (PINNs)&lt;/em&gt; — 물리정보신경망; 편미분방정식 기반 물리 제약조건을 신경망에 내재화하는 기계학습 기법&lt;/li&gt;&lt;li&gt;&lt;em&gt;Bayesian PDE-constrained inversion&lt;/em&gt; — 베이지안 편미분방정식 제약 역산; 확률론적 불확실성 정량화를 통합한 역산 문제 해결 방법&lt;/li&gt;&lt;li&gt;&lt;em&gt;functional-prior-based framework&lt;/em&gt; — 함수공간 기반 사전분포 프레임워크; 물리적 의미를 함수공간에서 직접 정의하는 방식&lt;/li&gt;&lt;li&gt;&lt;em&gt;mesh-free framework&lt;/em&gt; — 격자 독립적 계산 방식; 기존 유한요소법(FEM) 대비 계산 효율성 향상&lt;/li&gt;&lt;/ul&gt;</description>
+      <category>지구물리탐사</category>
+      <category>인공지능/머신러닝</category>
+      <category>역산기술</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: arXiv Geophysics&lt;/p&gt;&lt;p&gt;본 연구는 물리정보신경망(PINNs)을 기반으로 베이지안 역산 문제를 해결하는 새로운 프레임워크를 제시하였으며, 기존의 신경망 가중치 공간 정의의 한계를 극복하고 물리적으로 의미 있는 사전정보를 함수공간에서 직접 표현할 수 있음을 보여주었습니다. 이 메시지-프리 역산 기법은 핵심광물 부존 평가 및 지하자원 탐사의 지구물리 해석 고도화에 활용될 수 있을 것으로 판단됩니다. 향후 실제 광상 데이터에 적용될 경우 광물자원 개발의 불확실성 감소 및 효율성 향상에 기여할 전망입니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;Physics-informed neural networks (PINNs)&lt;/em&gt; — 물리정보신경망 - 편미분방정식 제약 조건을 신경망에 직접 통합하는 기계학습 기법&lt;/li&gt;&lt;li&gt;&lt;em&gt;PDE-constrained inverse problems&lt;/em&gt; — 편미분방정식 제약 역산 문제 - 관측 데이터로부터 지하 물성을 추정하는 역해석&lt;/li&gt;&lt;li&gt;&lt;em&gt;functional-prior-based Bayesian inversion&lt;/em&gt; — 함수공간 기반 사전정보 베이지안 역산 - 물리적 의미를 갖는 사전정보를 함수공간에서 정의하는 확률 역산법&lt;/li&gt;&lt;li&gt;&lt;em&gt;mesh-free framework&lt;/em&gt; — 메시 프리 프레임워크 - 격자 분할이 불필요한 계산 방식&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Total Metals Completes 25 Hole, 8,408 metre Exploration Drilling Program on its Electrolode Critical Minerals Project - Resource World Magazine</title>
@@ -104,20 +115,9 @@
       <pubDate>Wed, 06 May 2026 12:14:37 +0000</pubDate>
       <source url="https://dolmudaddy.github.io/critical-minerals">Google News - Critical Minerals Exploration</source>
       <category>핵심광물</category>
-      <category>탐사시추</category>
-      <category>북미</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Google News - Critical Minerals Exploration&lt;/p&gt;&lt;p&gt;Total Metals사가 Electrolode 핵심광물 프로젝트에서 25개 공의 8,408미터 규모 탐사 시추 프로그램을 완료함으로써 프로젝트의 광물화 잠재력을 평가하기 위한 중요한 기초 데이터를 확보하였습니다. 본 탐사 프로그램을 통해 수집된 지질·지화학 정보는 향후 자원량 추정 및 경제성 평가의 기반이 될 것으로 예상됩니다. 이는 북미 지역 핵심광물 공급 다원화 추진 차원에서 의미 있는 탐사 성과로 평가됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;exploration drilling program&lt;/em&gt; — 탐사 시추 프로그램&lt;/li&gt;&lt;li&gt;&lt;em&gt;critical minerals project&lt;/em&gt; — 핵심광물 프로젝트&lt;/li&gt;&lt;li&gt;&lt;em&gt;mineralization potential&lt;/em&gt; — 광물화 잠재력&lt;/li&gt;&lt;li&gt;&lt;em&gt;geochemical data&lt;/em&gt; — 지화학 자료&lt;/li&gt;&lt;li&gt;&lt;em&gt;resource estimation&lt;/em&gt; — 자원량 추정&lt;/li&gt;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Rare Earths Americas surges after debut, bets on US discovery</title>
-      <link>https://www.mining.com/rare-earths-americas-surges-after-nyse-debut-bets-on-us-heavy-rare-earth-discovery/</link>
-      <guid isPermaLink="false">9c1f91088d</guid>
-      <pubDate>Fri, 08 May 2026 18:59:51 +0000</pubDate>
-      <source url="https://dolmudaddy.github.io/critical-minerals">Mining.com</source>
-      <category>희토류</category>
-      <category>핵심광물 자급화</category>
-      <category>미국</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Mining.com&lt;/p&gt;&lt;p&gt;미국 조지아주 쉴로 탐사지구에서의 희토류 발견이 미국의 핵심광물 공급망 독립성을 크게 향상시킬 가능성을 제시하고 있습니다. 레어어스 아메리카스가 뉴욕증권거래소 상장 후 급등한 주가는 국내 희토류 자급화에 대한 시장의 높은 기대감을 반영하고 있습니다. 이번 발견은 중국에 대한 의존도를 낮추고 미국의 핵심광물 전략적 자립을 실현하는 데 근본적인 변화를 가져올 것으로 전망됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;fundamentally alter the supply chain&lt;/em&gt; — 공급망 구조를 근본적으로 변화시키다&lt;/li&gt;&lt;li&gt;&lt;em&gt;heavy rare earth discovery&lt;/em&gt; — 중희토류 광상 발견&lt;/li&gt;&lt;li&gt;&lt;em&gt;critical minerals independence&lt;/em&gt; — 핵심광물 자급 독립&lt;/li&gt;&lt;li&gt;&lt;em&gt;domestic sourcing strategy&lt;/em&gt; — 국내 자원화 전략&lt;/li&gt;&lt;li&gt;&lt;em&gt;exploration potential&lt;/em&gt; — 탐사 잠재력&lt;/li&gt;&lt;/ul&gt;</description>
+      <category>탐사 시추</category>
+      <category>자원평가</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Google News - Critical Minerals Exploration&lt;/p&gt;&lt;p&gt;Total Metals사가 Electrolode 핵심광물 프로젝트에서 25개 공을 이용한 8,408m 규모의 탐사 시추를 완료했으며, 이는 해당 광상의 광물화 잠재력을 평가하기 위한 중요한 단계로 확인되었습니다. 본 탐사 프로그램은 핵심광물 자원 확보를 위한 업스트림 탐사 분야의 진행 상황을 보여주는 사례입니다. 향후 시추 코어 분석 및 자원량 추정이 진행될 전망입니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;exploration drilling program&lt;/em&gt; — 탐사 시추 프로그램&lt;/li&gt;&lt;li&gt;&lt;em&gt;critical minerals project&lt;/em&gt; — 핵심광물 프로젝트&lt;/li&gt;&lt;li&gt;&lt;em&gt;mineralization potential&lt;/em&gt; — 광물화 잠재력 또는 광화 가능성&lt;/li&gt;&lt;li&gt;&lt;em&gt;core logging and assay&lt;/em&gt; — 시추 코어 기록 및 분석&lt;/li&gt;&lt;li&gt;&lt;em&gt;resource estimate&lt;/em&gt; — 자원량 추정&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Delta Lithium uncovers high-grade fluorite surprise at Yinnetharra while Mt Ida lithium drilling delivers strong infill results - Proactive Investors</title>
@@ -125,21 +125,21 @@
       <guid isPermaLink="false">7bfd913a97</guid>
       <pubDate>Mon, 11 May 2026 02:20:00 +0000</pubDate>
       <source url="https://dolmudaddy.github.io/critical-minerals">Google News - Lithium Discovery</source>
-      <category>형석(불산석)</category>
-      <category>리튬 탐광</category>
+      <category>리튬·형석</category>
+      <category>탐광 시추</category>
       <category>호주</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Google News - Lithium Discovery&lt;/p&gt;&lt;p&gt;Delta Lithium이 호주 Yinnetharra 프로젝트에서 고품위 형석(fluorite) 매장을 새로이 확인하였으며, 이는 핵심광물 공급망 다각화의 중요성을 재시사하고 있습니다. Mt Ida 리튬 시추 프로그램에서도 강화된 품질의 충진(infill) 시추 결과를 도출하여 자원량 추정의 신뢰도를 향상시켰습니다. 이러한 성과는 호주 내 다중 핵심광물 개발의 경제성 강화와 글로벌 공급 안정성 확보에 기여할 것으로 전망됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;high-grade fluorite occurrence&lt;/em&gt; — 고품위 형석 매장&lt;/li&gt;&lt;li&gt;&lt;em&gt;infill drilling results&lt;/em&gt; — 매장 충진 및 품질 향상을 위한 추가 시추 결과&lt;/li&gt;&lt;li&gt;&lt;em&gt;critical mineral diversification&lt;/em&gt; — 핵심광물 공급처 다각화&lt;/li&gt;&lt;li&gt;&lt;em&gt;resource estimate upgrade&lt;/em&gt; — 자원량 평가 상향 조정&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Google News - Lithium Discovery&lt;/p&gt;&lt;p&gt;Delta Lithium이 호주 Yinnetharra 광구에서 리튬 시추와 함께 고품위 형석(fluorite) 부존을 새로이 확인하였으며, Mt Ida 리튬 광구의 충전 시추(infill drilling)도 양호한 결과를 도출한 것으로 보고되었습니다. 이는 단일 광구에서 리튬과 형석이라는 복수의 핵심광물을 동시에 확보할 수 있는 가능성을 시사합니다. 호주의 핵심광물 자원화 사업이 경제성 있는 다중 광종 개발 모델로 진화하고 있음을 의미합니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;high-grade fluorite deposit&lt;/em&gt; — 고품위 형석 부존지&lt;/li&gt;&lt;li&gt;&lt;em&gt;infill drilling campaign&lt;/em&gt; — 광체의 연속성과 품위 확인을 위한 충전 시추&lt;/li&gt;&lt;li&gt;&lt;em&gt;polymetallic mineralization&lt;/em&gt; — 다중 금속광물화(복수 광종의 동시 부존)&lt;/li&gt;&lt;li&gt;&lt;em&gt;resource delineation&lt;/em&gt; — 광량 및 광체 윤곽 파악&lt;/li&gt;&lt;li&gt;&lt;em&gt;economic viability assessment&lt;/em&gt; — 경제성 평가&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
     <item>
-      <title>Focus Graphite in Quebec boasts world’s fifth-largest resource</title>
-      <link>https://www.mining.com/focus-graphite-in-quebec-boasts-worlds-fifth-largest-resource/</link>
-      <guid isPermaLink="false">989b0e00b1</guid>
-      <pubDate>Fri, 08 May 2026 15:54:58 +0000</pubDate>
-      <source url="https://dolmudaddy.github.io/critical-minerals">Mining.com</source>
-      <category>흑연</category>
-      <category>자원평가</category>
-      <category>캐나다 퀘벡</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Mining.com&lt;/p&gt;&lt;p&gt;캐나다 퀘벡의 포커스 그래파이트(Focus Graphite)가 보유한 흑연 자원이 세계 5위 규모로 평가되었습니다. 2022년 대비 86% 증가한 1,470만 톤의 흑연이 전 지구적으로 확인되었으며, 이는 향후 배터리 및 전자산업 수요 충족에 기여할 전망입니다. 이번 자원 평가 상향은 북미 지역 핵심광물 공급망 다변화의 중요한 진전으로 평가됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;resource update&lt;/em&gt; — 자원 재평가·갱신 보고서&lt;/li&gt;&lt;li&gt;&lt;em&gt;contained graphite&lt;/em&gt; — 포함 흑연량(총 광물자원량 기준)&lt;/li&gt;&lt;li&gt;&lt;em&gt;world's fifth-largest resource&lt;/em&gt; — 세계 5위 규모의 광물자원&lt;/li&gt;&lt;/ul&gt;</description>
+      <title>Glencore Q1: African copper cathode surges 68%, cobalt production falls 39% y-o-y - Fastmarkets</title>
+      <link>https://news.google.com/rss/articles/CBMitgFBVV95cUxPTWNQX28zYmdWNzRqSEFGMjJCZUtSbEU4VEN1OTIyQk1odGE4RGhoMUNVSmVuZTBEeFR5cUtfUkpFWDBmbHFQNk5HckxRMFQxS28wTWQ3aHl1cC02ZUlvRXk1VWNvYjlYRFVIZHpiM19yTjl3VktvOW1YX1pHV0MtY1hVNE8xZWNiNmpDMGlFY2l0YUUwX1ZhU19jd3lQcnFxb3ZkWHBERHpEc21HN3dGczQ0Nk01QQ?oc=5</link>
+      <guid isPermaLink="false">17e4a715b6</guid>
+      <pubDate>Wed, 06 May 2026 10:02:33 +0000</pubDate>
+      <source url="https://dolmudaddy.github.io/critical-minerals">Fastmarkets - via Google News</source>
+      <category>동(Cu)</category>
+      <category>코발트(Co)</category>
+      <category>아프리카</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Fastmarkets - via Google News&lt;/p&gt;&lt;p&gt;글렌코어의 1분기 실적에서 아프리카 동 음극재 생산이 전년 동기 대비 68% 급증한 것으로 확인되었습니다. 한편 핵심광물인 코발트 생산은 같은 기간 39% 감소하여 공급 불안정성이 심화되고 있음을 보여주고 있습니다. 이는 동 수요 증가와 코발트 생산의 구조적 문제가 동시에 진행되고 있는 글로벌 핵심광물 시장의 불균형을 시사하고 있습니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;African copper cathode production surge&lt;/em&gt; — 아프리카 동 음극재 생산 급증&lt;/li&gt;&lt;li&gt;&lt;em&gt;year-on-year (y-o-y) decline in cobalt output&lt;/em&gt; — 코발트 생산량의 전년 동기 대비 감소&lt;/li&gt;&lt;li&gt;&lt;em&gt;critical mineral supply chain disruption&lt;/em&gt; — 핵심광물 공급망 교란&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
