@@ -41,6 +41,10 @@ jobs:
 
       - name: Build archive index
         run: python scripts/build_index.py
+        
+      - name: Generate Obsidian markdown
+        run: python scripts/generate_markdown.py
+        continue-on-error: true
 
       - name: Send to Mailchimp
         env:
@@ -52,7 +56,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/ rss.xml          # ← rss.xml 추가
+          git add data/ rss.xml vault/          # ← vault/ 추가
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
