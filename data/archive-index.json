@@ -1,7 +1,27 @@
 {
-  "total_weeks": 4,
-  "latest_week": "2026-05-11",
+  "total_weeks": 5,
+  "latest_week": "2026-05-12",
   "weeks": [
+    {
+      "week_of": "2026-05-12",
+      "filename": "week-2026-05-12.json",
+      "total_cards": 12,
+      "category_counts": {
+        "policy_market": 7,
+        "exploration_tech": 1,
+        "discovery": 2,
+        "supply_chain": 1,
+        "research": 1
+      },
+      "top_tags": [
+        "핵심광물",
+        "희토류",
+        "공급망 안보",
+        "유럽연합",
+        "니켈"
+      ],
+      "generated_at": "2026-05-12T04:05:40.307591+00:00"
+    },
     {
       "week_of": "2026-05-11",
       "filename": "week-2026-05-11.json",

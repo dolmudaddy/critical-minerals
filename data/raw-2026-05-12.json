@@ -1,0 +1,126 @@
+{
+  "collected_at": "2026-05-12T04:04:50.846191+00:00",
+  "week_of": "2026-05-12",
+  "articles": [
+    {
+      "title": "A Reproducible Method for Mapping Electricity Transmission Infrastructure for Space Weather Risk Assessment",
+      "url": "https://arxiv.org/abs/2412.17685",
+      "source": "arXiv Geophysics",
+      "tier_weight": 4,
+      "summary_raw": "arXiv:2412.17685v2 Announce Type: replace \nAbstract: Space weather risk assessment is constrained by the lack of available asset information needed to model Geomagnetically Induced Currents (GICs) in electricity transmission infrastructure. We propose a reproducible method that enables risk analysts to collect their own open-source substation data. Utilizing an innovative web-browser platform for annotation, we convert OpenStreetMap substation locations to high-resolution, component-level mappin",
+      "published": "2026-05-12T04:00:00+00:00",
+      "score": 11,
+      "id": "ae41ef4458"
+    },
+    {
+      "title": "Slovakia’s Antimony Deposit and the EU Critical Minerals Supply Chain - Discovery Alert",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbUpFNmJqbXEzd1RkSGZnSmZtdWtveG5WMmZQdHlLaTdLOUdSN2tXbEp2RjloQjViYk9KSFcwSURNMDQzX2ZzenEwQnNmTkpyNzVNUGR5ZW5WN04xM1dfSTd0M2h5c0dHMDF5Y2N1b2d4T25zcUs0akFLaFNsRFMtTlpQNHZHMG1NZFQ2WWN1d2k3Wl9yRENF?oc=5",
+      "source": "Google News - IRA CRMA Policy",
+      "tier_weight": 1,
+      "summary_raw": "Slovakia’s Antimony Deposit and the EU Critical Minerals Supply Chain&nbsp;&nbsp;Discovery Alert",
+      "published": "2026-05-11T16:32:02+00:00",
+      "score": 10,
+      "id": "df13751632"
+    },
+    {
+      "title": "Speech by Commissioner Piotr Serafin during the signing ceremony of the SAFE loan agreement between the EU and Poland",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/pl/speech_26_1050",
+      "source": "European Commission - Energy",
+      "tier_weight": 5,
+      "summary_raw": "European Commission Przemówienie Warsaw, 11 May 2026 Panie Premierze,\nPanie Premierze Ministrze Obrony,\nPanie i Panowie Ministrowie,\nPanowie Generałowie, Panie Komisarzu,\nTowarzyszy nam dzisiaj głębokie przekonani...",
+      "published": "2026-05-11T09:02:12+00:00",
+      "score": 9,
+      "id": "aa0ee0f33d"
+    },
+    {
+      "title": "Fastmarkets extends consultation on proposal to launch price assessment for tungsten unwrought metal bar, CIF main ports Europe, US, Japan - Fastmarkets",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNSjI4X0FTTlJEQ2hKc0NoRjhoNG9KSDhZamhRQnBBYUIxUElFYzBXS2dIZlZjN0xyV2lkc21tZTFZLW5WVlRPU3FhQUhHWUpBT29TQ2ZiVzJ0THBhMjBibV9BQWhHeS1rXzBuWDhKRll1cnQ5STI2M2ZVVWNhMHV1b1VxLWtlaV9NRTlpUExiVXk3clNRLXh4djUyNVpDS3YwUmtJQ0dVc0NVRnlUaEtYZTdPbHZ4YW9EQkpLVlg3ay10THdxeTlxdDlhYVBheUtuR0tUeVBiV3pPWERZS2hwQlAtcmFQajJXMVViUkFMQTlOVVgzX3Jrcm1XeTdyUEFGZ1Z3?oc=5",
+      "source": "Fastmarkets - via Google News",
+      "tier_weight": 5,
+      "summary_raw": "Fastmarkets extends consultation on proposal to launch price assessment for tungsten unwrought metal bar, CIF main ports Europe, US, Japan&nbsp;&nbsp;Fastmarkets",
+      "published": "2026-05-11T17:29:20+00:00",
+      "score": 9,
+      "id": "a3f344f654"
+    },
+    {
+      "title": "Fastmarkets clarifies inclusion of government-set benchmark pricing in Indonesia nickel ore assessment - Fastmarkets",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMldmanBNZldVUkJkWTZTeFdzMVoyOHVHZnptMDJ0T2pIRDdJRXdaMXA3SUZzVS1YSHNuNFB5eE9FamhwSzUxMmlfdjBuSjhwa0lyRWxSTTlWMUd1UE40NW11WV9jWUhNZTRJMWpyTnNUS1NTMDgtQThsVm1LWUxKYkVGVm5zRldIS0xNNGZkYXlQQmpIaDlIM0RRSEU5cVBUaUtkb0puLXl5aVN4X1BlREhTNURGRnZDRlBGSWFJaTRZZ1JVNWpQcjM4ZDg5eHpxY3k3bk9wRQ?oc=5",
+      "source": "Fastmarkets - via Google News",
+      "tier_weight": 5,
+      "summary_raw": "Fastmarkets clarifies inclusion of government-set benchmark pricing in Indonesia nickel ore assessment&nbsp;&nbsp;Fastmarkets",
+      "published": "2026-05-08T09:31:12+00:00",
+      "score": 9,
+      "id": "dce20b7290"
+    },
+    {
+      "title": "US rare earth champion views Iran war as demand ‘accelerant’ - Mining.com",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQU0ZYYzFtbWZpaDg3WGtyajdwNlVCSm8yeEQtM2RHVzJiUzZTWHB3S3pzUlZRYktvWmc5S3EyYjhDRlZTMGRERHUwUUx0dlMwaVhoUEtJWXBLalZlLWg2TTJjZUJBbm1vNmZXc0JmbXoyb2RMdnNBV25tUXRNRFNXZVYwdHN1QnVBcUpJOThjOA?oc=5",
+      "source": "Google News - Rare Earth Elements",
+      "tier_weight": 1,
+      "summary_raw": "US rare earth champion views Iran war as demand ‘accelerant’&nbsp;&nbsp;Mining.com",
+      "published": "2026-05-08T20:53:41+00:00",
+      "score": 9,
+      "id": "7423ef3b02"
+    },
+    {
+      "title": "Total Metals Completes 25 Hole, 8,408 metre Exploration Drilling Program on its Electrolode Critical Minerals Project - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQVkhSVHZ5VEl3WkN4SUJaZzFqSW1FQ2F2Z290cl9DbVNiMXltbzlmbHJ6VERHTDQ0b3A3SGVzTUV2anpqOF85QU92amJSM1lNR2g4YWNGZEdFblBsU3hBdXlmcmJxdWhRd0ZPRFg5ZmE4RU5adVlGVzNGRnYtYzZ4SmJWSHlLa1ZTTC01c1Nzb21KMEJDRmhFUHA5RC1HN0UySlY4blNhckNEZFNDT2JITEJraVF5TXEwaU9vQWRzZnF4TW9pOG9QMU5kTVlmbEFLWGVwVGk3aldKTHNHSm5WVERzN2VfTkJ3RXRxcUNxRmpiYVJQZUJlT0hxVVpGVEdYS2hTSFFtSFlTQVFpeTJQRVZLaGgydEctdmRZbg?oc=5",
+      "source": "Google News - Critical Minerals Exploration",
+      "tier_weight": 1,
+      "summary_raw": "Total Metals Completes 25 Hole, 8,408 metre Exploration Drilling Program on its Electrolode Critical Minerals Project&nbsp;&nbsp;TradingView",
+      "published": "2026-05-06T11:16:23+00:00",
+      "score": 8,
+      "id": "99cb63513e"
+    },
+    {
+      "title": "Delta Lithium uncovers high-grade fluorite surprise at Yinnetharra while Mt Ida lithium drilling delivers strong infill results - Proactive financial news",
+      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNcDVWaE5JNzhNWWxyR09BcEhUNmxRWWk2bzNmeXh3ZHk3VXV6VXlXeDVqbDEyWVhkMm5PSzJWb0lXUEZjOENub3ZYZjVJRnpneTlEN3oyQW1HcVVkd1hZZmdEeWhRUlM2VXd5Uk9IZEZVeFFYS1B2N203U1VkRTI0QnNSWjM0VUg4eWxhTDJJQnExdzRGNHAzaWE1S2FmRXkwa0RRcHhnSGltNWxGU1FQeGJ3bFROanF1b1VNSUhWT2RkbHJQVTlFdDV3NnhBcWVFWFk1bGRna0hqRGxUWklYVXVqZ1hoWkJMTXZIX1RjTklyLTlaUmxIbkNHVl9HZkgwRHRZMm9IWUlGTFdKSUp0OHFiUXpBM3RrZm5aOGxPQ3JRdWV4?oc=5",
+      "source": "Google News - Lithium Discovery",
+      "tier_weight": 1,
+      "summary_raw": "Delta Lithium uncovers high-grade fluorite surprise at Yinnetharra while Mt Ida lithium drilling delivers strong infill results&nbsp;&nbsp;Proactive financial news",
+      "published": "2026-05-11T04:04:58+00:00",
+      "score": 8,
+      "id": "54af8954c0"
+    },
+    {
+      "title": "Rare Earths Americas IPO: Stock price will be closely watched today as 'exploration stage' firm lists on NYSE - Fast Company",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQzlrdERNdVZpYzNXeFIzNGN6SWlYSndNYldYN1F6R2E5VUdKUEg3S29ORi1NeXBHYUpidDFkcTJ5ZHZ1dUh0MkliWDNabmpqRmNDLUVRblhsRVZFRTAzTWxWWVVjeWpvcERLSXFnNVF3SndZSjRNUGJMYzRHeE0xTFBpOHVmV3hMT285bGU4SUVoWklQamttTjVfUXZiblE?oc=5",
+      "source": "Google News - Rare Earth Elements",
+      "tier_weight": 1,
+      "summary_raw": "Rare Earths Americas IPO: Stock price will be closely watched today as 'exploration stage' firm lists on NYSE&nbsp;&nbsp;Fast Company",
+      "published": "2026-05-06T13:15:25+00:00",
+      "score": 8,
+      "id": "bb74b5bcc0"
+    },
+    {
+      "title": "The No.1 Rare Earth Stock for 2026 - Crude Oil Prices Today | OilPrice.com",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQ3lHUEJlR2JyR1hvRkxDTWY1RGFKOENhNzgtZGZZTU9XbG5KcVZ5YV9PV1ZvUFR3ZHZLaTUxWC0xRzgtOFNMMXhLR3FPanRGUXBiRktJOTA2X1lrRTk3dVJJcHVkcGtGcXgtaS1TbHUwS2hIXzBlZ3Fpc1RQZmwxNi1EQjV4NE5i0gGOAUFVX3lxTE1HNnN4bnpRUENYeEthSmdWSTQxNmF2OHhmd3hFV3I2cmF0ZXBuS2VhNjhqWWV4VGxvOFdHWXlfTVVQcDlPMFVhVUdRQmtwajlvaVBrUng4X1hjU045SVNSckRnQVhyMHJsRWFESV9ENFNIcmE0RUxxSElDd3pCR1NSWjhRSUQyVHVZajlfX1E?oc=5",
+      "source": "Google News - Rare Earth Elements",
+      "tier_weight": 1,
+      "summary_raw": "The No.1 Rare Earth Stock for 2026&nbsp;&nbsp;Crude Oil Prices Today | OilPrice.com",
+      "published": "2026-05-12T00:00:00+00:00",
+      "score": 8,
+      "id": "5a4c0ef85a"
+    },
+    {
+      "title": "G7 trade talks target critical minerals as US-EU tariff rift strains unity - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZDhmSW9wWHFrOHF6RnFCMUpGMGlpcTRybjVjZE9oTGltUmpRY2M3MHFsTmgxcy04TVcyanBJa2tGbUMyR1V1c3lsWkJRVE5tYWEwLWdqdXo1TGhwZnQ3bUpxNmZQZERjaDZQQ09WUkhxcWZwMTQ5NTZCeU9kVjBIVDlwX19MUWlTa2F1bE9nNzN1QXNPc2RDb0xWSFFnSF9tOVJJVmtNXzJBdV8tdmk1MlF1dEdvV2FkNU4xM3hEbUhtR2Zf?oc=5",
+      "source": "Reuters - via Google News",
+      "tier_weight": 3,
+      "summary_raw": "G7 trade talks target critical minerals as US-EU tariff rift strains unity&nbsp;&nbsp;Reuters",
+      "published": "2026-05-06T14:08:54+00:00",
+      "score": 7,
+      "id": "f09672dc17"
+    },
+    {
+      "title": "India, Peru likely to hold talks on free trade pact in June, diplomat says - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUFFIY01PM1ZodTNXcFE3S1JQeVlyTmJKQmxfTVZTQmxjSW9LZ1M3QjdWZmxad3o1RTJIbGVGcVM2cmlIRWIydHRBZEJOSEUySlAybG0wUFEyNldnUDlza2xPUlJjZU02NEVDRGFIeE5STldXMFFDZDJ2cUhWLXFmOWF6b05semN2VExwZW11eFo2bzNRVDFGdWtYSnhvWm1WVFlCU0QyMzVvdDFSTXZvLQ?oc=5",
+      "source": "Reuters - via Google News",
+      "tier_weight": 3,
+      "summary_raw": "India, Peru likely to hold talks on free trade pact in June, diplomat says&nbsp;&nbsp;Reuters",
+      "published": "2026-05-11T07:15:17+00:00",
+      "score": 7,
+      "id": "c7ec9c14b8"
+    }
+  ]
+}
