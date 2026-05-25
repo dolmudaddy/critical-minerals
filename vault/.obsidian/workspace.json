@@ -11,10 +11,14 @@
             "id": "78298723f33408c0",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
+              "type": "markdown",
+              "state": {
+                "file": "KCMO/articles/2026/2026-05-17-몽골-광업-정책-국제-협력-9efb.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-05-17-몽골-광업-정책-국제-협력-9efb"
             }
           }
         ]
@@ -190,6 +194,7 @@
   },
   "active": "78298723f33408c0",
   "lastOpenFiles": [
+    "KCMO/weekly/2026/KCMO Weekly 2026-W20.md",
     "articles/2026-05-23-전략광물-광물-탐사-Tanzania-discovers-some-world-s.md",
     "articles/2026-05-22-희토류-공급망-안보-Arafura-Rare-Earths-plans-million.md",
     "articles/2026-05-22-희토류-공급망-보안-China-squeezes-Japan-over-rare.md",
@@ -215,7 +220,6 @@
     "KCMO/articles/2026/2026-04-29-베트남-광물-기술협력-KIAT-c9f7.md",
     "KCMO/articles/2026/2026-04-29-베트남-KIAT-희토류-f2df.md",
     "KCMO/articles/2026/2026-04-29-베트남-KIAT-희토류-c171.md",
-    "KCMO/articles/2026/2026-04-29-베트남-KIAT-기술협력센터-c171.md",
     "KCMO/weekly/2026",
     "KCMO/articles/2026",
     "KCMO/weekly",
