@@ -6,7 +6,7 @@
     <atom:link href="https://dolmudaddy.github.io/critical-minerals/rss.xml" rel="self" type="application/rss+xml"/>
     <description>조성준 박사 (KIGAM, 한국자원공학회장) 큐레이션. 핵심광물 탐사·정책·시장 주간 동향.</description>
     <language>ko-KR</language>
-    <lastBuildDate>Sun, 24 May 2026 23:55:51 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2026 11:43:59 +0000</lastBuildDate>
     <generator>GitHub Actions + Claude API</generator>
     <managingEditor>dolmudaddy@gmail.com (조성준)</managingEditor>
     <item>
@@ -16,64 +16,53 @@
       <pubDate>Thu, 21 May 2026 18:22:58 +0000</pubDate>
       <source url="https://dolmudaddy.github.io/critical-minerals">Google News - IRA CRMA Policy</source>
       <category>텅스텐, 갈륨, 희토류</category>
-      <category>공급망 안정화, 중국 의존도 감축</category>
+      <category>공급망 안보, 전략적 비축</category>
       <category>EU, 중국</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Google News - IRA CRMA Policy&lt;/p&gt;&lt;p&gt;EU가 중국의 산출 통제 강화에 대응하여 텅스텐, 갈륨, 희토류를 포함한 첫 번째 공동 핵심광물 비축 전략을 발표했습니다. 이는 유럽의 핵심광물 공급망 안정화 및 중국 의존도 감축을 위한 전략적 조치로 평가됩니다. 향후 EU의 핵심광물 자급률 제고와 글로벌 광물 수급 구도 재편에 영향을 미칠 것으로 전망됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;joint mineral reserve&lt;/em&gt; — 공동 광물 비축 전략; 여러 국가가 연대하여 추진하는 핵심 자원의 전략적 비축&lt;/li&gt;&lt;li&gt;&lt;em&gt;critical mineral supply chain resilience&lt;/em&gt; — 핵심광물 공급망 회복력; 외부 충격에 대응하는 공급망의 안정성 확보 능력&lt;/li&gt;&lt;li&gt;&lt;em&gt;output controls&lt;/em&gt; — 산출 통제; 생산국이 채취·수출량을 제한하는 정책 조치&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Google News - IRA CRMA Policy&lt;/p&gt;&lt;p&gt;EU가 중국의 산출 통제 강화에 대응하여 텅스텐, 갈륨, 희토류를 포함한 첫 번째 공동 핵심광물 비축 전략을 발표하였습니다. 이는 유럽의 핵심광물 공급망 자립도 강화 및 중국에 대한 의존도 감소를 목표로 하는 정책적 결정으로 평가됩니다. 해당 광종들은 반도체, 방위산업, 신재생에너지 등 전략적으로 중요한 산업의 필수 원재료로서 글로벌 수급 불균형 심화가 예상됨에 따라 선제적 확보 필요성이 대두되었습니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;Joint Mineral Reserve&lt;/em&gt; — 공동 광물 비축 제도 (국제협력을 기반으로 한 국가 간 광물 공동 비축 시스템)&lt;/li&gt;&lt;li&gt;&lt;em&gt;Supply Chain Resilience&lt;/em&gt; — 공급망 복원력 (핵심광물 수급 불안정성 대응 능력)&lt;/li&gt;&lt;li&gt;&lt;em&gt;Output Controls / Production Restrictions&lt;/em&gt; — 산출 통제 / 생산 제한 (특정 국가의 광물 수출량 또는 생산량 규제)&lt;/li&gt;&lt;li&gt;&lt;em&gt;Strategic Dependency&lt;/em&gt; — 전략적 의존도 (특정 국가 또는 지역의 광물 수급에 대한 경제적·정치적 의존성)&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
     <item>
-      <title>EU Draws Up Critical Minerals Stockpile as China Dependency Moves From Trade Risk to Security Issue - EU Today</title>
-      <link>https://news.google.com/rss/articles/CBMibEFVX3lxTFAwSEZPMjNhSGp3MjB3VDZSZXdYVjNVTExMUGRueG5pMXE0VXRRVGR4MGp6QU1NbjkwbUl1VGgtSTdPbHVSb0MtWWw3c3lGalp1bmpVSktjcXBfeTdBTnhVTk1tZGdibFM5aWtNZA?oc=5</link>
-      <guid isPermaLink="false">bcfcff9d4a</guid>
-      <pubDate>Thu, 21 May 2026 10:35:25 +0000</pubDate>
+      <title>Export restrictions on critical raw materials increase five-fold since 2009 — OECD - Business Post</title>
+      <link>https://news.google.com/rss/articles/CBMiuAFBVV95cUxNS2ZFZzUyLTJ3Q3dQa3BXQkxrVlVsNTlSWTgwN25YWDhkS3pWRVdUaEoydl9hajFFSTNKVFd0dmJldnZtVFFndVFPTy04MDFhdFlZRU1RRnpPdzZoZVNxdnVBdnV5Y2lCN0YtYzVmOWJsblNpWk5kXzgyU1FRbnhHT3dGX0ZFeUpkdEJVeWdDOE9pU3F0aXNULWF3WTJ0X3JMNTZpSkRweDVsNTFBQ1Y5WnlSQnBPWTJ1?oc=5</link>
+      <guid isPermaLink="false">df785c602c</guid>
+      <pubDate>Fri, 22 May 2026 11:41:23 +0000</pubDate>
       <source url="https://dolmudaddy.github.io/critical-minerals">Google News - IRA CRMA Policy</source>
-      <category>희유금속</category>
-      <category>공급망 안보정책</category>
-      <category>EU·중국</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Google News - IRA CRMA Policy&lt;/p&gt;&lt;p&gt;EU가 중국의 핵심광물 공급 의존도를 무역 리스크에서 안보 이슈로 재평가하며 핵심광물 비축전략을 수립 중으로 확인되었습니다. 이는 글로벌 공급망 불안정화에 대응하기 위한 전략적 자원 확보 정책의 심화를 의미합니다. 우리나라도 유사한 지정학적 리스크에 직면한 만큼 핵심광물의 안정적 확보 및 국내 자원 개발 강화 방안 검토가 필요할 것으로 판단됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;critical minerals stockpile&lt;/em&gt; — 전략적 자원 안보를 위한 핵심광물 비축 정책&lt;/li&gt;&lt;li&gt;&lt;em&gt;China dependency moves from trade risk to security issue&lt;/em&gt; — 중국의존도가 통상 리스크에서 국가안보 이슈로 전환됨&lt;/li&gt;&lt;li&gt;&lt;em&gt;supply chain resilience&lt;/em&gt; — 핵심광물 공급망의 회복력 및 자립도 강화&lt;/li&gt;&lt;/ul&gt;</description>
+      <category>핵심광물</category>
+      <category>수출제한정책</category>
+      <category>국제공급망</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Google News - IRA CRMA Policy&lt;/p&gt;&lt;p&gt;OECD 분석에 따르면 2009년 이후 핵심광물에 대한 수출제한 조치가 5배 이상 증가한 것으로 확인되었습니다. 이는 주요국들의 공급망 확보 경쟁 심화와 자원 민족주의 강화 추세를 반영하고 있습니다. 핵심광물의 안정적 확보를 위해 국제 협력 체계 재구축과 국내 자급률 제고가 시급한 과제로 대두될 전망입니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;Export restrictions on critical raw materials&lt;/em&gt; — 핵심광물에 대한 수출제한 조치&lt;/li&gt;&lt;li&gt;&lt;em&gt;Five-fold increase since 2009&lt;/em&gt; — 2009년 이후 5배 증가&lt;/li&gt;&lt;li&gt;&lt;em&gt;Supply chain security&lt;/em&gt; — 공급망 안보&lt;/li&gt;&lt;li&gt;&lt;em&gt;Resource nationalism&lt;/em&gt; — 자원 민족주의&lt;/li&gt;&lt;li&gt;&lt;em&gt;Trade policy instruments&lt;/em&gt; — 무역정책 수단&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
     <item>
-      <title>China squeezes Japan over rare earths in repeat of 2010 showdown - Reuters</title>
-      <link>https://news.google.com/rss/articles/CBMiswFBVV95cUxPYmIzNXl6aDJJemRUYUFZc0NjbUVXQmJxbFhsNF9aeWNhbGFubG9SU0xPT1BTbjlaUnFIR1EyQmdybDNjMzdDMG1PbVJSdzBaRDlGbU9PcXpET1JXbEx0QTRzNEYwWG5QbG5CeW9ibHctbV9vcWdQTC1DN3VsVUxmbHlSYmRoc3VWUTJPNGFHX2hXXy1ISWhDWWh0U1FFdklwWG1OR3NGNXgzZGJGZGE2U0l5RQ?oc=5</link>
-      <guid isPermaLink="false">ecd45552a6</guid>
-      <pubDate>Fri, 22 May 2026 08:43:43 +0000</pubDate>
-      <source url="https://dolmudaddy.github.io/critical-minerals">Reuters - via Google News</source>
+      <title>China squeezes Japan over rare earths in repeat of 2010 showdown - KITCO</title>
+      <link>https://news.google.com/rss/articles/CBMirgFBVV95cUxOWmdZQS13dkEyTWZPUFBVX0NpWDZHR2dVVW5WV2FrVXpTVzZFb09taWE5NnVrb1VhWXIzWnl4WnY0N2ItZ1lYdXhMR3pDSWZXYTktUjJLU1o3eEtQaXc4czBYczNyVENXRjhHcWszUWtnSTBUZi15WWdUU2hYVVE4QjBqS05lUHd3cGVaeXVyZkwwRXYwSkpGY19fUEtaS1N3QkpETHZ3Z2EybVBhSFE?oc=5</link>
+      <guid isPermaLink="false">8308361c58</guid>
+      <pubDate>Fri, 22 May 2026 22:43:56 +0000</pubDate>
+      <source url="https://dolmudaddy.github.io/critical-minerals">Project Blue Mentions in Industry News</source>
       <category>희토류</category>
-      <category>공급망 보안</category>
-      <category>한·중·일 자원외교</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Reuters - via Google News&lt;/p&gt;&lt;p&gt;중국이 2010년 희토류 수출 제한 사태를 재현하듯 일본에 대한 희토류 공급 압박을 강화하고 있는 것으로 확인되었음. 지정학적 갈등이 핵심광물 공급망에 미치는 영향이 심화되면서 글로벌 자원 안보 재편이 가속화될 전망임. 핵심광물의 공급 다변화 및 자주개발 전략의 중요성이 더욱 부각되고 있음.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;rare earth supply squeeze&lt;/em&gt; — 희토류 공급 압박/수급 조절&lt;/li&gt;&lt;li&gt;&lt;em&gt;critical minerals supply chain resilience&lt;/em&gt; — 핵심광물 공급망 복원력&lt;/li&gt;&lt;li&gt;&lt;em&gt;geopolitical leverage on strategic resources&lt;/em&gt; — 전략자원에 대한 지정학적 영향력 행사&lt;/li&gt;&lt;li&gt;&lt;em&gt;diversification of sourcing&lt;/em&gt; — 공급처 다변화/분산 조달&lt;/li&gt;&lt;li&gt;&lt;em&gt;export restrictions as economic coercion&lt;/em&gt; — 수출 제한을 통한 경제적 강압&lt;/li&gt;&lt;/ul&gt;</description>
+      <category>공급망 다각화</category>
+      <category>중국-일본</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Project Blue Mentions in Industry News&lt;/p&gt;&lt;p&gt;중국이 2010년 희토류 수출 제한 사태를 재현하듯 일본에 대한 핵심광물 공급 압박을 강화하고 있는 것으로 확인되었습니다. 희토류를 포함한 핵심광물의 국제 공급망이 지정학적 갈등에 취약함을 여실히 보여주고 있습니다. 이는 한국 등 핵심광물 수입국들의 공급망 다각화 및 자주성 강화의 필요성을 더욱 대두시키고 있습니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;squeeze over rare earths&lt;/em&gt; — 희토류를 둘러싼 공급 압박·경제적 압력&lt;/li&gt;&lt;li&gt;&lt;em&gt;critical minerals supply vulnerability&lt;/em&gt; — 핵심광물 공급망의 취약성&lt;/li&gt;&lt;li&gt;&lt;em&gt;geopolitical leverage on raw material exports&lt;/em&gt; — 원자재 수출을 통한 지정학적 영향력 행사&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
     <item>
-      <title>Australia's Arafura approves $1.6 billion rare earths project - Reuters</title>
-      <link>https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSVFxS0hvQndZMWZSYTJVa3Nzd0ljbWg3TDdBcTJ0ZWhCMDJyVVNCRTNuUnNyanc4dFRydkxUQTJNWFNHQWpSQmlhdDVTU0VzQkVjdXRQYU1tdE1YcW1MYmcxcjNJX3BiTmZhdjBHWm9Jc2NFQmluM3ZQR3d1WVMxZEJhdHBmOTNCRnRTeTRSaVJRV19zT3lQMFlxQ1NQeDFrbE15bmd1X0d6Zw?oc=5</link>
-      <guid isPermaLink="false">ef7f8ff5b4</guid>
-      <pubDate>Thu, 21 May 2026 03:10:00 +0000</pubDate>
+      <title>EU shortlists tungsten, rare earths for first stockpile to curb reliance on China - Reuters</title>
+      <link>https://news.google.com/rss/articles/CBMiugFBVV95cUxNMmhvVmxQbzA1anZ0Q2p2WXpFMm83M0VwOW1sZ0ZnN0k0OWNyeF9KZGtvMmxJYUhWWGF5RWlOck82TEtsN0dMSmxjNm10TmMxOFd0TW9fRTQ3OHFza2tXZzhqNkFLVU5oUHVaNGQxNkczaHRDQjR6endqTXNldDNRSWFlUHlOUUdSY1NtQWxGOXlqVWVFY3BaczRkMVBvUFpob0FPOVp1T2hRcXMwa3NuUkR5N1hsLUF1bGc?oc=5</link>
+      <guid isPermaLink="false">4531878c63</guid>
+      <pubDate>Wed, 20 May 2026 14:18:07 +0000</pubDate>
       <source url="https://dolmudaddy.github.io/critical-minerals">Reuters - via Google News</source>
+      <category>텅스텐</category>
       <category>희토류</category>
-      <category>광산개발</category>
-      <category>호주</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Reuters - via Google News&lt;/p&gt;&lt;p&gt;호주 아라푸라 자원사가 16억 달러 규모의 희토류 광산 프로젝트를 승인함으로써 서방 국가의 핵심광물 공급 다각화 움직임이 가속화되고 있습니다. 본 프로젝트는 중국 의존도가 높은 희토류 시장에서 호주의 공급능력을 대폭 확대할 것으로 예상됩니다. 이는 인도태평양 지역의 핵심광물 전략적 가치와 민간 광업 투자의 중요성을 재확인하는 사례로 평가됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;critical minerals supply chain diversification&lt;/em&gt; — 핵심광물 공급망 다각화&lt;/li&gt;&lt;li&gt;&lt;em&gt;rare earths project approval and development&lt;/em&gt; — 희토류 프로젝트 승인 및 개발&lt;/li&gt;&lt;li&gt;&lt;em&gt;reducing dependence on single-source suppliers&lt;/em&gt; — 단일 공급원에 대한 의존도 감소&lt;/li&gt;&lt;li&gt;&lt;em&gt;capital-intensive mineral extraction projects&lt;/em&gt; — 자본집약적 광물 채굴 프로젝트&lt;/li&gt;&lt;/ul&gt;</description>
+      <category>EU 공급망 정책</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Reuters - via Google News&lt;/p&gt;&lt;p&gt;EU가 중국에 대한 의존도 감소를 목표로 텅스텐과 희토류를 첫 핵심광물 비축 대상으로 선정하였음. 이는 EU 핵심광물법(Critical Raw Materials Act) 시행의 일환으로, 전략적 자급률 향상을 위한 실질적 조치로 평가됨. 향후 배터리, 방위산업, 첨단기술 산업의 공급망 안정화에 기여할 것으로 전망됨.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;critical minerals stockpile&lt;/em&gt; — 핵심광물 전략비축 또는 핵심광물 비축량&lt;/li&gt;&lt;li&gt;&lt;em&gt;curb reliance on China&lt;/em&gt; — 중국에 대한 의존도 감소/억제&lt;/li&gt;&lt;li&gt;&lt;em&gt;Critical Raw Materials Act&lt;/em&gt; — 핵심광물법 또는 핵심광물 관련 입법&lt;/li&gt;&lt;li&gt;&lt;em&gt;supply chain resilience&lt;/em&gt; — 공급망 회복력/복원력&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
     <item>
-      <title>Arafura Rare Earths plans $250 million share sale backed by Australia's richest person - Reuters</title>
-      <link>https://news.google.com/rss/articles/CBMiyAFBVV95cUxPU0J0dzYxa1dkX1I3WWtkWUZ1Rno1aGExbTFSeG5xUklhRzFsdTZhMHhBdXE5c1JRM0Y3bmRTNzNNZGQ3TmczVjFJNjR0WjhqNXFFZnRkWkRwN1pLTmd6SHlFVDNJSl8wX3VseUhZMVRNU292Snd0VEs2ZW1nMGMzcHNmNGttdUxUT2dfTnVyVFc3QlRJYmgxNjdXR3FVZVoxc3k3WW5Id3g4N2l0aEU2ZGowVlpIbHRmVXpMRmZVUVZfMi0xV2RQZA?oc=5</link>
-      <guid isPermaLink="false">c100f147cb</guid>
-      <pubDate>Fri, 22 May 2026 02:00:00 +0000</pubDate>
-      <source url="https://dolmudaddy.github.io/critical-minerals">Reuters - via Google News</source>
-      <category>희토류</category>
-      <category>공급망 안보</category>
-      <category>호주</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Reuters - via Google News&lt;/p&gt;&lt;p&gt;호주의 부호가 지원하는 아라푸라 희토류가 2억 5천만 달러 규모의 주식 공모를 추진 중으로 확인되었음. 이는 호주의 핵심광물 공급망 자립화 전략의 일환으로, 희토류 생산 확대를 통한 글로벌 마켓 점유율 강화를 목표로 하고 있음. 개인 투자자의 참여로 민간 자본 유입이 활발해지고 있어, 향후 호주의 광물자원 개발 투자 추세에 영향을 미칠 것으로 전망됨.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;critical minerals supply chain security&lt;/em&gt; — 핵심광물 공급망 안보&lt;/li&gt;&lt;li&gt;&lt;em&gt;rare earth elements (REE) production capacity expansion&lt;/em&gt; — 희토류 생산 용량 확대&lt;/li&gt;&lt;li&gt;&lt;em&gt;private equity backing for mineral development&lt;/em&gt; — 광물 개발을 위한 민간 자본 지원&lt;/li&gt;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>SAGA Metals Confirms Significant Continuous Magnetic Anomaly at the Radar Critical Minerals Project in Labrador-Comparable to Largest Known Intrusions Globally - Investing News Network</title>
-      <link>https://news.google.com/rss/articles/CBMilAJBVV95cUxONGd6YkNXM1A1OEFHaWxha25reDlBeDFXZHJSNEhsVXpDcUdlZWpCT0puVDh6c3ZGSlNySU9nYXNJZXJhSFpJeFNDVVNEMXNSOGxRMXJhc2swdnhEWEZTbjh1MEZWY280LVUxRjlYNUk3eGh5MEttd0VJcXhQdlVtTmQ1d21GT3hpYWF4ZERtTlpyaVlXZVJWMVRSQW9KTFloaGtPX0JITjl6RWZTRndjY2Z5eXlDTDFkdUZzMzdlSDB4aU5kRm45aHV1cW9zeFh2WTI3OVFWVjRzcnVuZFFqcEZfT3FWbkw5S0FEUW5pTUVOckMxNVBfR183NVZYdWJHWlVyRXk0VDhTTHNvUVlLQm9kYjM?oc=5</link>
-      <guid isPermaLink="false">6b6af5fa33</guid>
-      <pubDate>Thu, 21 May 2026 12:21:58 +0000</pubDate>
+      <title>Dalaroo plots Greenland critical minerals exploration blitz - SMH.com.au</title>
+      <link>https://news.google.com/rss/articles/CBMivwFBVV95cUxNVnpselFrZ1RzWmZxMGhoRUJkeGttWkVyVmlNYWJ3MzdwNnBqc2NKekpZYVdHX2pIR3ZuREthbWpaM0JZVHZmNHJLTVkzeDZvVFFjLXRQbFVxSTQyeEZIcU8yUWdnRi1wamRCRlpPTnN5XzZXVmw2VHBNS3AwRXM2amhLNUVXUDFXeTF3Mm1wN2ZYQWVFYV9aX3FCRmhOdWZvNTkzY2pMalhJYll2U01QSDRWVVJnazhnQllXVjlDRQ?oc=5</link>
+      <guid isPermaLink="false">1214b8e0d8</guid>
+      <pubDate>Mon, 25 May 2026 03:26:46 +0000</pubDate>
       <source url="https://dolmudaddy.github.io/critical-minerals">Google News - Critical Minerals Exploration</source>
-      <category>희토류·핵심광물</category>
-      <category>자기탐사·지구물리</category>
-      <category>캐나다·래브라도</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Google News - Critical Minerals Exploration&lt;/p&gt;&lt;p&gt;SAGA Metals가 캐나다 래브라도의 Radar 핵심광물 프로젝트에서 세계 최대 규모 관입체와 필적할 만한 광역의 연속적 자기이상을 확인함으로써 대규모 광상 발견 가능성을 제시하였습니다. 본 발견은 지구물리탐사 기법을 통해 광역적 규모의 자기이상 영역을 체계적으로 식별한 사례로, 향후 심부 핵심광물 자원의 탐사 효율성 향상에 기여할 것으로 전망됩니다. 북미 지역의 핵심광물 공급 다변화 및 공급망 안정화 측면에서 의미 있는 탐사 성과로 평가됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;continuous magnetic anomaly&lt;/em&gt; — 연속적 자기이상&lt;/li&gt;&lt;li&gt;&lt;em&gt;comparable to largest known intrusions globally&lt;/em&gt; — 세계 최대 규모 관입체와 필적할 만한&lt;/li&gt;&lt;li&gt;&lt;em&gt;critical minerals project&lt;/em&gt; — 핵심광물 프로젝트&lt;/li&gt;&lt;li&gt;&lt;em&gt;geophysical survey confirmation&lt;/em&gt; — 지구물리탐사를 통한 확인&lt;/li&gt;&lt;li&gt;&lt;em&gt;mineral exploration efficiency&lt;/em&gt; — 광물 탐사 효율성&lt;/li&gt;&lt;/ul&gt;</description>
+      <category>희토류·네오디뮴</category>
+      <category>북극 탐사·개발</category>
+      <category>그린란드</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Google News - Critical Minerals Exploration&lt;/p&gt;&lt;p&gt;호주의 달라루(Dalaroo)사가 그린란드의 핵심광물 탐사에 본격 투자하며 북극권 자원 개발 경쟁이 심화되고 있습니다. 그린란드는 희토류·네오디뮴 등 전략적 핵심광물의 풍부한 매장지로 평가되며, 글로벌 공급망 다각화의 중요한 거점으로 주목받고 있습니다. 탐사·개발 가속화는 중국 의존도 완화와 선진국의 핵심광물 자주권 확보 전략의 일환으로 해석됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;critical minerals exploration blitz&lt;/em&gt; — 핵심광물 탐사의 집중 투자 또는 가속화 프로젝트&lt;/li&gt;&lt;li&gt;&lt;em&gt;Arctic mineral resource development&lt;/em&gt; — 북극권 광물자원 개발&lt;/li&gt;&lt;li&gt;&lt;em&gt;diversification of supply chain&lt;/em&gt; — 공급망 다각화&lt;/li&gt;&lt;li&gt;&lt;em&gt;resource security and sovereignty&lt;/em&gt; — 자원 자주권 및 안보&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Tanzania discovers some of the world’s most valuable strategic minerals through Chinese-backed exploration - Business Insider Africa</title>
@@ -82,9 +71,9 @@
       <pubDate>Sat, 23 May 2026 10:23:24 +0000</pubDate>
       <source url="https://dolmudaddy.github.io/critical-minerals">Google News - Critical Minerals Exploration</source>
       <category>전략광물</category>
-      <category>광물 탐사</category>
+      <category>광물탐사</category>
       <category>탄자니아</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Google News - Critical Minerals Exploration&lt;/p&gt;&lt;p&gt;탄자니아가 중국 자본의 지원을 받는 탐사사업을 통해 세계적 수준의 전략광물 매장을 발견하였으며, 이는 아프리카 대륙의 핵심광물 공급망 다변화에 중요한 의미를 갖는 것으로 평가되고 있습니다. 해당 발견은 글로벌 핵심광물 수급 불균형 완화와 아프리카의 자원 개발 주권 강화라는 이중적 함의를 제시하고 있습니다. 다만 중국의 주도적 역할 강화에 따른 자원 수급망 종속화 우려가 동시에 제기되고 있어, 한국을 포함한 주요 수입국들의 전략적 대응이 요구되는 상황입니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;Chinese-backed exploration&lt;/em&gt; — 중국 자본 지원 탐사&lt;/li&gt;&lt;li&gt;&lt;em&gt;strategic minerals discovery&lt;/em&gt; — 전략광물 매장 발견&lt;/li&gt;&lt;li&gt;&lt;em&gt;critical minerals supply chain diversification&lt;/em&gt; — 핵심광물 공급망 다변화&lt;/li&gt;&lt;li&gt;&lt;em&gt;mineral resource sovereignty&lt;/em&gt; — 자원 개발 주권&lt;/li&gt;&lt;li&gt;&lt;em&gt;global supply security&lt;/em&gt; — 글로벌 공급 안정성&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Google News - Critical Minerals Exploration&lt;/p&gt;&lt;p&gt;탄자니아가 중국의 지원을 받은 탐사를 통해 세계 최고 가치의 전략광물을 발견한 것으로 확인되었음. 이번 발견은 탄자니아의 광물자원 개발 잠재력을 크게 높이고 글로벌 핵심광물 공급망 재편에 영향을 미칠 것으로 전망됨. 동아프리카 지역의 자원 탐사 투자 확대 및 국제 협력의 중요성을 보여주는 사례로서 의의가 있음.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;Chinese-backed exploration&lt;/em&gt; — 중국 자금 지원 탐사&lt;/li&gt;&lt;li&gt;&lt;em&gt;strategic minerals discovery&lt;/em&gt; — 전략광물 발견&lt;/li&gt;&lt;li&gt;&lt;em&gt;critical mineral supply chain&lt;/em&gt; — 핵심광물 공급망&lt;/li&gt;&lt;li&gt;&lt;em&gt;exploration potential assessment&lt;/em&gt; — 탐사 잠재력 평가&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Questions and answers on the EU's Global Agreement with Mexico</title>
@@ -93,9 +82,9 @@
       <pubDate>Thu, 21 May 2026 22:00:00 +0000</pubDate>
       <source url="https://dolmudaddy.github.io/critical-minerals">European Commission - Energy</source>
       <category>핵심광물</category>
-      <category>공급망 안정화</category>
+      <category>공급망 안보</category>
       <category>EU-멕시코 협력</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: European Commission - Energy&lt;/p&gt;&lt;p&gt;EU와 멕시코는 1997년 체결한 경제동반자협정을 2025년 5월 22일 업데이트하여 핵심광물 공급망 협력을 강화하기로 합의했음이 확인되었습니다. 본 개정 협정은 에너지 전환 및 산업 공급망 안정화를 위해 양국 간 핵심광물 채굴, 가공, 순환경제 분야의 전략적 파트너십을 구축할 전망입니다. 이는 EU의 지정학적 리스크 감소 및 멕시코의 자원 부가가치 창출을 동시에 추구하는 실질적 협력 모델로서 의미를 지닐 것으로 사료됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;Global Agreement on critical minerals supply chain&lt;/em&gt; — 핵심광물 글로벌 공급망 협정&lt;/li&gt;&lt;li&gt;&lt;em&gt;Strategic partnership in mining, processing, and circular economy&lt;/em&gt; — 채굴·가공 및 순환경제 분야의 전략적 파트너십&lt;/li&gt;&lt;li&gt;&lt;em&gt;Geopolitical resilience and supply chain diversification&lt;/em&gt; — 지정학적 회복력 강화 및 공급망 다변화&lt;/li&gt;&lt;li&gt;&lt;em&gt;Economic Partnership, Political Coordination and Cooperation Agreement&lt;/em&gt; — 경제동반자협정, 정치조정 및 협력협정&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: European Commission - Energy&lt;/p&gt;&lt;p&gt;EU는 1997년 체결된 멕시코와의 경제협력협정을 2026년 현재 개정하여 핵심광물 공급망 확보 및 전략적 파트너십을 강화하고 있음을 확인할 수 있습니다. 이번 협정 개정은 전 지구적 핵심광물 수급 불안정성에 대응하기 위한 EU의 전략적 대응으로 평가되며, 멕시코의 풍부한 광물자원과 지리적 근접성을 활용한 공급 다원화를 목표로 하고 있습니다. 본 협정은 EU의 에너지 전환 및 디지털화 추진에 필수적인 핵심광물 자급률 제고에 기여할 전망입니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;Global Agreement on critical minerals supply chain&lt;/em&gt; — 핵심광물 글로벌 공급망에 관한 협정&lt;/li&gt;&lt;li&gt;&lt;em&gt;Strategic partnership for raw material security&lt;/em&gt; — 원료 공급 안정성을 위한 전략적 파트너십&lt;/li&gt;&lt;li&gt;&lt;em&gt;Diversification of supply sources for critical minerals&lt;/em&gt; — 핵심광물 공급원의 다원화&lt;/li&gt;&lt;li&gt;&lt;em&gt;Economic Partnership, Political Coordination and Cooperation Agreement&lt;/em&gt; — 경제동반자협정, 정치조정 및 협력협정&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Critical Metals inks 15-year Greenland rare earth deal with REalloys - Reuters</title>
@@ -104,9 +93,9 @@
       <pubDate>Thu, 21 May 2026 13:13:44 +0000</pubDate>
       <source url="https://dolmudaddy.github.io/critical-minerals">Reuters - via Google News</source>
       <category>희토류</category>
-      <category>장기공급계약</category>
+      <category>공급망 다변화</category>
       <category>그린란드</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Reuters - via Google News&lt;/p&gt;&lt;p&gt;Critical Metals가 그린란드의 희토류 광물 자원 개발을 위해 REalloys와 15년 장기 공급 계약을 체결했음이 확인되었습니다. 본 계약은 그린란드의 핵심광물 개발 전략과 글로벌 희토류 공급망 다각화의 중요한 사례로 평가됩니다. 북극 지역의 광물 자원화가 향후 에너지 전환 및 첨단산업 수급 안정에 미칠 영향에 주목할 필요가 있습니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;15-year critical minerals supply agreement&lt;/em&gt; — 15년 기간의 핵심광물 장기 공급 계약&lt;/li&gt;&lt;li&gt;&lt;em&gt;rare earth elements development and offtake&lt;/em&gt; — 희토류 원소의 개발 및 산출물 인수 계약&lt;/li&gt;&lt;li&gt;&lt;em&gt;Greenland's critical minerals strategy&lt;/em&gt; — 그린란드의 핵심광물 개발 전략&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Reuters - via Google News&lt;/p&gt;&lt;p&gt;Critical Metals사가 그린란드의 희토류 자원 개발을 위해 REalloys와 15년 장기 공급 계약을 체결했으며, 이는 북대서양 지역의 핵심광물 공급망 다변화를 추진하는 주요 협약으로 평가되고 있습니다. 본 계약을 통해 그린란드는 전략적 희토류 생산 기지로서의 입지를 강화하고, 글로벌 핵심광물 시장에서 북유럽의 공급 역할이 확대될 전망입니다. 이러한 장기 공급 계약은 중국 의존도 감축과 서방권의 핵심광물 자급률 향상을 목표로 하는 국제적 노력의 일환으로 해석됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;long-term supply agreement (15-year contract)&lt;/em&gt; — 장기 공급 협약 (15년 계약)&lt;/li&gt;&lt;li&gt;&lt;em&gt;rare earth element (REE) production&lt;/em&gt; — 희토류 원소 생산&lt;/li&gt;&lt;li&gt;&lt;em&gt;supply chain diversification for critical minerals&lt;/em&gt; — 핵심광물의 공급망 다변화&lt;/li&gt;&lt;li&gt;&lt;em&gt;sovereign resource development strategy&lt;/em&gt; — 자국 자원 개발 전략&lt;/li&gt;&lt;li&gt;&lt;em&gt;reducing dependency on single-source critical mineral suppliers&lt;/em&gt; — 단일 공급원 핵심광물 공급자 의존도 감축&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Nasdaq-Listed Critical Minerals Developer Lands Game-Changing Greenland Rare Earth Deal - TradingView</title>
@@ -115,20 +104,9 @@
       <pubDate>Thu, 21 May 2026 13:15:00 +0000</pubDate>
       <source url="https://dolmudaddy.github.io/critical-minerals">Google News - Rare Earth Elements</source>
       <category>희토류</category>
-      <category>핵심광물 공급망</category>
+      <category>공급망 다변화</category>
       <category>그린란드</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Google News - Rare Earth Elements&lt;/p&gt;&lt;p&gt;나스닥 상장 핵심광물 개발사가 그린란드에서 희토류 광상 개발의 게임 체인저 역할을 할 계약을 체결함으로써 북대서양 지역의 핵심광물 공급망 다변화가 가속화될 전망입니다. 본 계약을 통해 미국 및 동맹국들의 중국 의존도 저감 전략이 현실화되는 계기가 마련되었습니다. 그린란드의 희토류 자원 개발은 향후 글로벌 핵심광물 시장의 지정학적 리스크 완화에 핵심적 역할을 할 것으로 예상됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;game-changing deal in rare earth elements&lt;/em&gt; — 희토류 산업의 판도를 바꿀 수 있는 계약&lt;/li&gt;&lt;li&gt;&lt;em&gt;critical minerals supply chain diversification&lt;/em&gt; — 핵심광물 공급망의 다원화·다변화&lt;/li&gt;&lt;li&gt;&lt;em&gt;geopolitical risk mitigation in mineral sourcing&lt;/em&gt; — 광물 수급의 지정학적 리스크 완화&lt;/li&gt;&lt;li&gt;&lt;em&gt;rare earth elements development in Greenland&lt;/em&gt; — 그린란드 희토류 광상 개발&lt;/li&gt;&lt;li&gt;&lt;em&gt;de-risking supply chain dependency on China&lt;/em&gt; — 중국 공급망 의존도 저감&lt;/li&gt;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Critical Minerals Consulting - S&amp;P Global</title>
-      <link>https://news.google.com/rss/articles/CBMimAFBVV95cUxOelQtTW1kS29FdUZyRlM1LUtkaWQtdFRFcnF5OWVNNmZJckZwdEZFLUpFT1F2Z00wTzNKNnlpUVQ3bnAtSXcxYlNNSmRXa3doR2FtNF9lTWhJeXdGRnZDcGNpX2xwZkNpM0RqQjc4X2p2NzcxRUY3ZnJvOVliNU41cUtOMXpBVWlidWpQZXR2RjBkVkw0MmxFaQ?oc=5</link>
-      <guid isPermaLink="false">0b59485f56</guid>
-      <pubDate>Thu, 21 May 2026 01:13:28 +0000</pubDate>
-      <source url="https://dolmudaddy.github.io/critical-minerals">S&amp;P Global - via Google News</source>
-      <category>핵심광물</category>
-      <category>공급망 분석</category>
-      <category>컨설팅 서비스</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: S&amp;amp;P Global - via Google News&lt;/p&gt;&lt;p&gt;S&amp;amp;P Global의 핵심광물 컨설팅 서비스는 에너지 전환과 첨단 기술 산업의 급속한 성장에 따른 핵심광물 수급 불안정성을 해결하기 위한 종합 솔루션을 제공하고 있습니다. 광물 탐사, 채광, 가공, 순환경제에 이르는 전 가치사슬 단계에서 시장 분석, 기술 평가, 공급망 최적화 전략 수립을 지원함으로써 기업과 정부의 의사결정을 강화하고 있습니다. 향후 핵심광물의 안정적 확보 경쟁이 심화될 것으로 예상되는 가운데, 통합형 컨설팅 역할의 중요성이 더욱 증대될 전망입니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;critical minerals supply chain resilience&lt;/em&gt; — 핵심광물 공급망 회복력&lt;/li&gt;&lt;li&gt;&lt;em&gt;value chain optimization from exploration to recycling&lt;/em&gt; — 탐사에서 순환자원화까지 가치사슬 최적화&lt;/li&gt;&lt;li&gt;&lt;em&gt;market intelligence and technology assessment&lt;/em&gt; — 시장정보 및 기술평가&lt;/li&gt;&lt;li&gt;&lt;em&gt;energy transition and advanced technology demand&lt;/em&gt; — 에너지 전환 및 첨단기술 수요&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Google News - Rare Earth Elements&lt;/p&gt;&lt;p&gt;나스닥 상장 핵심광물 개발사가 그린란드와의 희토류 개발 계약을 체결하여 북대서양 지역 공급망 다변화의 전기를 마련했습니다. 본 계약은 중국 의존도 완화 및 서방 진영의 핵심광물 자급률 향상에 게임 체인징 효과를 가져올 것으로 평가됩니다. 그린란드의 풍부한 희토류 광상 개발이 향후 글로벌 핵심광물 시장 지형에 구조적 변화를 초래할 전망입니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;game-changing rare earth deal&lt;/em&gt; — 희토류 산업 구조를 근본적으로 변화시키는 거래&lt;/li&gt;&lt;li&gt;&lt;em&gt;critical minerals supply chain diversification&lt;/em&gt; — 핵심광물 공급망의 다변화&lt;/li&gt;&lt;li&gt;&lt;em&gt;Nasdaq-listed critical minerals developer&lt;/em&gt; — 나스닥 상장 핵심광물 개발기업&lt;/li&gt;&lt;li&gt;&lt;em&gt;strategic mineral dependency reduction&lt;/em&gt; — 전략광물에 대한 의존도 감소&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>China Expands Rare Earth Controls, Raising Fresh Concerns for EV and Chip Supply Chains - inkl</title>
@@ -136,10 +114,32 @@
       <guid isPermaLink="false">e1106536ad</guid>
       <pubDate>Fri, 22 May 2026 11:19:06 +0000</pubDate>
       <source url="https://dolmudaddy.github.io/critical-minerals">Google News - IRA CRMA Policy</source>
-      <category>희토류(REE)</category>
-      <category>공급망 안보</category>
+      <category>희토류</category>
+      <category>공급망 안정성</category>
       <category>중국</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Google News - IRA CRMA Policy&lt;/p&gt;&lt;p&gt;중국이 희토류 수출 통제를 강화하면서 전기차 및 반도체 공급망에 대한 우려가 심화되고 있습니다. 희토류는 첨단산업의 핵심 핵심광물로서 중국의 공급 제약이 글로벌 기술산업의 경쟁력에 직결되는 상황으로 확인되었습니다. 이에 따라 국내외 정부·기업들이 핵심광물 공급망 다원화 및 자주개발 전략을 가속화할 것으로 전망됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;critical minerals supply chain&lt;/em&gt; — 핵심광물 공급망&lt;/li&gt;&lt;li&gt;&lt;em&gt;rare earth element (REE) export controls&lt;/em&gt; — 희토류 수출 통제&lt;/li&gt;&lt;li&gt;&lt;em&gt;supply chain diversification&lt;/em&gt; — 공급망 다원화&lt;/li&gt;&lt;li&gt;&lt;em&gt;technological security and resilience&lt;/em&gt; — 기술 안보 및 회복력&lt;/li&gt;&lt;li&gt;&lt;em&gt;upstream mineral security&lt;/em&gt; — 상류(광업) 단계의 광물 안보&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Google News - IRA CRMA Policy&lt;/p&gt;&lt;p&gt;중국이 희토류에 대한 수출 통제를 강화함에 따라 전기차 및 반도체 공급망의 안정성에 대한 우려가 가중되고 있는 것으로 확인되었습니다. 핵심광물 공급의 지정학적 리스크가 심화되면서 선진국들의 공급망 다변화 및 자급화 전략 수립이 시급한 상황으로 전망됩니다. 희토류 등 핵심광물에 대한 국가 차원의 확보 전략과 기술 혁신이 향후 산업 경쟁력의 핵심 요소가 될 것으로 예상됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;critical minerals supply chain vulnerability&lt;/em&gt; — 핵심광물 공급망의 취약성&lt;/li&gt;&lt;li&gt;&lt;em&gt;geopolitical risk in rare earth elements&lt;/em&gt; — 희토류 광물의 지정학적 위험&lt;/li&gt;&lt;li&gt;&lt;em&gt;supply chain diversification strategy&lt;/em&gt; — 공급망 다변화 전략&lt;/li&gt;&lt;li&gt;&lt;em&gt;export control measures&lt;/em&gt; — 수출 통제 조치&lt;/li&gt;&lt;li&gt;&lt;em&gt;domestic sourcing and recycling&lt;/em&gt; — 국내 자급 및 재활용&lt;/li&gt;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Myanmar military steps up fight for rare earth area and border routes - Reuters</title>
+      <link>https://news.google.com/rss/articles/CBMirgFBVV95cUxQM2R5ZEJtWWFtZnBsLXV2TUNhNjdrR3BNOFFfbG5kZW5uQVoxRHAzODBORjE3S1lhSE1JOXEzNkdCWDlYNkkyYV9zOThSZm03bjhFMTVrS01ybktiUU9Gdm1Ock9UbWVCbzllZ3hUYmZ6VzJQb2VtaFR0d3NJSzVGVVFDNDNyN0hxbkxoTlRvbnMtOEZMTEpZbGJKX2JnM1pTM0Rjb0pxMklKbWxwMHc?oc=5</link>
+      <guid isPermaLink="false">6dc0a24e9e</guid>
+      <pubDate>Mon, 25 May 2026 09:23:52 +0000</pubDate>
+      <source url="https://dolmudaddy.github.io/critical-minerals">Reuters - via Google News</source>
+      <category>희토류</category>
+      <category>지정학적 리스크</category>
+      <category>미얀마</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Reuters - via Google News&lt;/p&gt;&lt;p&gt;미얀마 군부가 희토류 매장지역과 국경 수송로 확보를 위한 분쟁을 격화시키고 있는 것으로 확인되었습니다. 이는 글로벌 핵심광물 공급망에 지정학적 리스크를 초래할 가능성이 높습니다. 미얀마의 정치·안보 불안정이 희토류 생산 및 수출에 미칠 영향에 대한 국제사회의 주시가 필요한 상황입니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;rare earth mineral deposits&lt;/em&gt; — 희토류 광상&lt;/li&gt;&lt;li&gt;&lt;em&gt;supply chain vulnerability&lt;/em&gt; — 공급망 취약성&lt;/li&gt;&lt;li&gt;&lt;em&gt;geopolitical risk in critical minerals sourcing&lt;/em&gt; — 핵심광물 확보에서의 지정학적 리스크&lt;/li&gt;&lt;li&gt;&lt;em&gt;border dispute over strategic mineral routes&lt;/em&gt; — 전략광물 운송로를 둘러싼 국경분쟁&lt;/li&gt;&lt;li&gt;&lt;em&gt;military control of mining operations&lt;/em&gt; — 광산 운영에 대한 군부 통제&lt;/li&gt;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Free surfaces in turbulence -- A unified framework from water surfaces to elastic solids</title>
+      <link>https://arxiv.org/abs/2605.23166</link>
+      <guid isPermaLink="false">dad73fe6cf</guid>
+      <pubDate>Mon, 25 May 2026 04:00:00 +0000</pubDate>
+      <source url="https://dolmudaddy.github.io/critical-minerals">arXiv Geophysics</source>
+      <category>유체-고체 상호작용</category>
+      <category>난류 역학</category>
+      <category>표면 동역학</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: arXiv Geophysics&lt;/p&gt;&lt;p&gt;본 연구는 해수면과 탄성 고체 표면 등 난류에 노출된 변형성 표면의 동역학을 통합 프레임워크로 설명하고 있습니다. 표면의 혼돈적 운동이 유동 난류에 의해 주도되는지, 아니면 표면 고유의 비선형 동역학에 의해 주도되는지에 대한 근본적인 물리 메커니즘을 규명하였습니다. 파동 난류의 에너지 계단식 전달(cascade) 현상을 통해 다중 스케일에서의 에너지 상호작용을 체계적으로 분석함으로써 광물 자원의 채굴 및 가공 공정에서의 유체-고체 상호작용 모델링에 활용될 수 있을 것으로 전망됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;deformable surfaces exhibiting chaotic motion&lt;/em&gt; — 난류 흐름에 노출된 변형성 표면의 혼돈적 운동&lt;/li&gt;&lt;li&gt;&lt;em&gt;wave turbulence cascade&lt;/em&gt; — 파동 난류의 에너지 계단식 전달 현상&lt;/li&gt;&lt;li&gt;&lt;em&gt;nonlinear dynamics intrinsic to the surface&lt;/em&gt; — 표면 고유의 비선형 동역학&lt;/li&gt;&lt;li&gt;&lt;em&gt;energy transfer across scales&lt;/em&gt; — 다중 스케일에서의 에너지 전달&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

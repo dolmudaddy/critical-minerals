@@ -1,7 +1,27 @@
 {
-  "total_weeks": 7,
-  "latest_week": "2026-05-24",
+  "total_weeks": 8,
+  "latest_week": "2026-05-25",
   "weeks": [
+    {
+      "week_of": "2026-05-25",
+      "filename": "week-2026-05-25.json",
+      "total_cards": 12,
+      "category_counts": {
+        "policy_market": 4,
+        "exploration_tech": 1,
+        "discovery": 1,
+        "supply_chain": 5,
+        "research": 1
+      },
+      "top_tags": [
+        "희토류",
+        "그린란드",
+        "핵심광물",
+        "공급망 다변화",
+        "텅스텐, 갈륨, 희토류"
+      ],
+      "generated_at": "2026-05-25T11:43:59.124222+00:00"
+    },
     {
       "week_of": "2026-05-24",
       "filename": "week-2026-05-24.json",
