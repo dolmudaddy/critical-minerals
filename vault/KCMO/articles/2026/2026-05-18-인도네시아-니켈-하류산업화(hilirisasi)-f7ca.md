@@ -1,13 +1,13 @@
 ---
 id: 99601df2f7ca
 title: Hilirisasi Nikel Topang Nasionalisme Ekonomi dan Warga Lokal - Media Indonesia
-title_ko: 인도네시아가 니켈 광물의 하류산업 통합(hilirisasi)을 통해 경제주권 강화 및 지역주민 지원을 추진 중임
+title_ko: 인도네시아가 니켈의 하류산업화(정련·배터리)를 통해 경제 자주성과 지역사회 발전을 추진 중임
 date: 2026-05-18
 week: 2026-W22
 country: 인도네시아
 country_en: Indonesia
-category: policy_regulation
-category_ko: 정책·법규
+category: supply_chain_trade
+category_ko: 공급망·교역
 source: "Google News (ID:id)"
 source_url: https://news.google.com/rss/articles/CBMipAFBVV95cUxPRkxEODRVOGN6TUJaTWhzay1oVmxFZG5hbFlyWk1KUUtpcl9Qai1DUnkxTFhPUkc3ZW9vQmxUeUtXX3MxVVJaYll0d09KLUxON3h1N29jSERTMFprZFJyeEE1NkpGQnU2cFVCM0R1Zk5ITlZCZVlfRS05eDFnUEM0c2UwR0gxREZuek9lZ0ltZlI4S2RGWF9NVnhoaGprWXF2YkJkdg?oc=5
 source_language: id
@@ -15,14 +15,17 @@ tier: 1
 score: 8
 tags:
   - 니켈
-  - 인도네시아
-  - ESDM
-  - 하류산업
-  - 경제주권
+  - 하류산업화(hilirisasi)
+  - 인도네시아 ESDM
+  - 배터리·정련
+  - 지역사회개발
 related:
   - "[[ESDM]]"
   - "[[KIAT]]"
-  - "[[공급망]]"
+  - "[[MOTIE]]"
+  - "[[광물 ODA]]"
+  - "[[광물정련]]"
+  - "[[금]]"
   - "[[기술협력]]"
   - "[[니켈]]"
   - "[[인도네시아]]"
@@ -34,33 +37,33 @@ related:
 # 인도네시아 — Hilirisasi Nikel Topang Nasionalisme Ekonomi dan Warga Lokal - Media Indonesia
 
 > **출처**: [Google News (ID:id)](https://news.google.com/rss/articles/CBMipAFBVV95cUxPRkxEODRVOGN6TUJaTWhzay1oVmxFZG5hbFlyWk1KUUtpcl9Qai1DUnkxTFhPUkc3ZW9vQmxUeUtXX3MxVVJaYll0d09KLUxON3h1N29jSERTMFprZFJyeEE1NkpGQnU2cFVCM0R1Zk5ITlZCZVlfRS05eDFnUEM0c2UwR0gxREZuek9lZ0ltZlI4S2RGWF9NVnhoaGprWXF2YkJkdg?oc=5) · `id` (인도네시아어)
-> **발표일**: 2026-05-18 · **점수**: 8 · **카테고리**: [[정책·법규]]
+> **발표일**: 2026-05-18 · **점수**: 8 · **카테고리**: [[공급망·교역]]
 
 ## 한국어 요약
 
-- [[인도네시아]]가 [[니켈]] 광물의 하류산업 통합([[하류산업화]])을 통해 경제주권 강화 및 지역주민 지원을 추진 중임
-- [[니켈]] 채굴에서 정제·가공·배터리 제조까지 수직통합 정책으로 부가가치 창출 및 현지 일자리 창출 목표
-- [[한국]]의 배터리·전기차 산업과 [[인도네시아]] [[니켈]] [[공급망]] 협력 심화 기회로 작용할 전망
+- [[인도네시아]]가 [[니켈]]의 [[하류산업화]]([[광물정련]]·배터리)를 통해 경제 자주성과 지역사회 발전을 추진 중임
+- [[니켈]] 광산지역 주민의 경제 참여 확대와 국내 부가가치 창출을 핵심 목표로 설정함
+- [[한국]] 배터리·전기차 기업의 [[인도네시아]] 투자 확대 및 [[기술협력]] 기회 창출 전망
 
 ## 한국 ODA 시사점
 
-> [[인도네시아]] 에너지광물자원부([[ESDM]])의 [[니켈]] 하류산업 정책 추진 과정에서 [[KIAT]]의 자원개발·산업[[기술협력]] ODA 사업 연계 가능성 높음. [[한국]] 정제기술·가공기술 이전을 통한 [[니켈]] 부가가치 사슬 구축 협력 검토 시점
+> [[인도네시아]]의 [[니켈]] 가치사슬 고도화 전략은 [[KIAT]]의 [[광물 ODA]] [[기술협력]] 기회로 평가됨. [[MOTIE]]와 연계하여 [[한국]] 배터리·[[광물정련]] 기술 이전, 지역 인력 양성 프로그램 확대 검토 권장.
 
 ## 원문 핵심 표현 (id)
 
 | 원문 | 한국어 |
 |---|---|
-| Hilirisasi Nikel | 니켈의 하류산업 통합(채굴→정제→가공→완성품) |
-| Nasionalisme Ekonomi | 경제민족주의, 경제주권 강화 |
-| Warga Lokal | 지역주민, 현지 주민 |
+| Hilirisasi Nikel | 니켈의 하류산업화(원광에서 정련·합금·배터리 등 고부가가치 상품으로의 산업 고도화) |
+| Nasionalisme Ekonomi | 경제 자주성·국내산업 우선주의 |
+| Warga Lokal | 광산지역 지역사회·주민 |
 
 ## 관련 개념
 
 - **국가**: [[인도네시아]] · [[한국]]
-- **광종**: [[니켈]]
-- **한국 기관**: [[KIAT]]
+- **광종**: [[금]] · [[니켈]]
+- **한국 기관**: [[KIAT]] · [[MOTIE]]
 - **협력국 기관**: [[ESDM]]
-- **정책**: [[공급망]] · [[기술협력]] · [[하류산업화]]
+- **정책**: [[광물 ODA]] · [[광물정련]] · [[기술협력]] · [[하류산업화]]
 - **협력 노드**: [[인도네시아 니켈]]
 
 ---
