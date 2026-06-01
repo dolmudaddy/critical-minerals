@@ -1,7 +1,25 @@
 {
-  "total_weeks": 8,
-  "latest_week": "2026-05-25",
+  "total_weeks": 9,
+  "latest_week": "2026-06-01",
   "weeks": [
+    {
+      "week_of": "2026-06-01",
+      "filename": "week-2026-06-01.json",
+      "total_cards": 12,
+      "category_counts": {
+        "policy_market": 7,
+        "exploration_tech": 2,
+        "supply_chain": 3
+      },
+      "top_tags": [
+        "핵심광물",
+        "희토류",
+        "그린란드",
+        "국가안보정책",
+        "리튬"
+      ],
+      "generated_at": "2026-06-01T00:03:01.991397+00:00"
+    },
     {
       "week_of": "2026-05-25",
       "filename": "week-2026-05-25.json",
