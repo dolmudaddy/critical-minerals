@@ -1,0 +1,10 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "평점": "number",
+    "체크박스": "checkbox",
+    "날짜": "datetime"
+  }
+}
