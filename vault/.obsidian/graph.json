@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "희토류",
+  "search": "kigam",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.8854989543150324,
+  "scale": 0.4505081176757764,
   "close": false
 }
