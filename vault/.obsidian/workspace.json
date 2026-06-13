@@ -16,8 +16,23 @@
               "icon": "lucide-git-fork",
               "title": "그래프 뷰"
             }
+          },
+          {
+            "id": "93caeda282496454",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "마크다운 연습.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "마크다운 연습"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,8 +203,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "78298723f33408c0",
+  "active": "93caeda282496454",
   "lastOpenFiles": [
+    "마크다운 연습.md",
     "articles/2026-06-05-리튬-배터리용-핵심광물-Lithium-bust-over-but-will.md",
     "articles/2026-06-05-리튬-공급망-자주화-Creating-sovereign-lithium-supply-chain.md",
     "KCMO/articles/2026/2026-05-19-몽골-희토류-MRPAM-f785.md",
@@ -217,7 +233,6 @@
     "KCMO/articles/2026/2026-05-30-베트남-희토류-기술자주화-1857.md",
     "KCMO/articles/2026/2026-05-30-베트남-희토류-MOIT-296b.md",
     "KCMO/articles/2026/2026-05-27-인도네시아-니켈-배터리-f278.md",
-    "KCMO/articles/2026/2026-05-27-인도네시아-니켈-광물-하류산업-0597.md",
     "KCMO/weekly/2026",
     "KCMO/articles/2026",
     "KCMO/weekly",
