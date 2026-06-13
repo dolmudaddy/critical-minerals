@@ -4,35 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "45c414277a265b24",
+        "id": "bda8a7f4b06023c1",
         "type": "tabs",
         "children": [
           {
-            "id": "78298723f33408c0",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
-            }
-          },
-          {
-            "id": "93caeda282496454",
+            "id": "296997c30c43162b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "마크다운 연습.md",
+                "file": "articles/2026-05-30-핵심광물-탐사-정책-Minister-Coal-Mines-G-Kishan.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "마크다운 연습"
+              "title": "2026-05-30-핵심광물-탐사-정책-Minister-Coal-Mines-G-Kishan"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -203,36 +202,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "93caeda282496454",
+  "active": "296997c30c43162b",
   "lastOpenFiles": [
-    "마크다운 연습.md",
-    "articles/2026-06-05-리튬-배터리용-핵심광물-Lithium-bust-over-but-will.md",
-    "articles/2026-06-05-리튬-공급망-자주화-Creating-sovereign-lithium-supply-chain.md",
-    "KCMO/articles/2026/2026-05-19-몽골-희토류-MRPAM-f785.md",
-    "KCMO/articles/2026/2026-04-25-몽골-우라늄-카자흐스탄-e97c.md",
-    "무제.base",
-    "2026-06-03.md",
-    "무제.canvas",
     "articles/2026-05-31-텅스텐-현물시세-Tungsten-unwrought-metal-bar-min.md",
+    "articles/2026-06-05-리튬-공급망-자주화-Creating-sovereign-lithium-supply-chain.md",
+    "새로운 노트 1.md",
+    "articles/2026-06-05-리튬-배터리용-핵심광물-Lithium-bust-over-but-will.md",
+    "KCMO/weekly/2026/KCMO Weekly 2026-W22.md",
+    "KCMO/weekly/2026/KCMO Weekly 2026-W20.md",
+    "KCMO/weekly/2026/KCMO Weekly 2026-W21.md",
+    "KCMO/articles/2026/2026-05-30-탄자니아-흑연-린디-650b.md",
+    "KCMO/articles/2026/2026-05-31-몽골-광업인력양성-MRPAM-ec5b.md",
+    "KCMO/articles/2026/2026-05-31-몽골-핵심광물-MRPAM-dab1.md",
+    "KCMO/articles/2026/2026-05-31-몽골-SEM-Oyu-Tolgoi-4580.md",
+    "articles/2026-05-22-희토류-REE-공급망-안보-China-Expands-Rare-Earth-Controls.md",
+    "articles/2026-05-06-희토류-광물탐사-Rare-Earths-Americas-IPO-Stock.md",
+    "새로운 노트 2.md",
+    "무제.md",
+    "README.md",
+    "무제",
+    "무제.base",
+    "무제.canvas",
+    "articles/2026-05-06-핵심광물-국제통상공급망-G-trade-talks-target-critical.md",
+    "2026-06-03.md",
+    "KCMO/articles/2026/2026-04-25-몽골-우라늄-카자흐스탄-e97c.md",
+    "시추.md",
+    "마크다운 연습.md",
+    "KCMO/articles/2026/2026-05-19-몽골-희토류-MRPAM-f785.md",
     "articles/2026-05-30-핵심광물-탐사-정책-Minister-Coal-Mines-G-Kishan.md",
     "articles/2026-05-29-핵심광물-국가안보정책-Trump-issues-memo-higher-pay.md",
     "articles/2026-05-29-리튬코발트희토류-광물자원정책-Tanzania-Frontrunner-Race-Critical-Minerals.md",
     "articles/2026-05-28-희토류-핵심광물-수급안보-U-S-Scores-Major-Rare.md",
-    "articles/2026-05-28-희토류-공급망-다원화-Brazil-rare-earths-miner-Viridis.md",
-    "articles/2026-05-28-핵심광물-공급망-지정학적-협력-Quad-Quad-framework-sharpens-critical-miner.md",
-    "articles/2026-05-28-리튬-시추탐사-Grit-Metals-Completes-Maiden-Drilling.md",
-    "articles/2026-05-26-핵심광물-밸류체인-rush-How-Mines-positioned-lead.md",
-    "articles/2026-05-26-핵심광물-국가안보정책-Fastmarkets-convenes-global-critical-minerals.md",
-    "articles/2026-05-25-희토류우라늄-극지탐사-Dalaroo-plots-Greenland-critical-minerals.md",
-    "articles/2026-05-25-리튬-희토류-Govt-pushes-faster-mining-projects.md",
-    "KCMO/articles/2026/2026-05-31-몽골-핵심광물-MRPAM-dab1.md",
-    "KCMO/articles/2026/2026-05-31-몽골-광업인력양성-MRPAM-ec5b.md",
-    "KCMO/articles/2026/2026-05-31-몽골-SEM-Oyu-Tolgoi-4580.md",
-    "KCMO/articles/2026/2026-05-30-탄자니아-흑연-린디-650b.md",
-    "KCMO/articles/2026/2026-05-30-인도네시아-니켈-ESDM-31dd.md",
-    "KCMO/articles/2026/2026-05-30-베트남-희토류-기술자주화-1857.md",
-    "KCMO/articles/2026/2026-05-30-베트남-희토류-MOIT-296b.md",
-    "KCMO/articles/2026/2026-05-27-인도네시아-니켈-배터리-f278.md",
     "KCMO/weekly/2026",
     "KCMO/articles/2026",
     "KCMO/weekly",
