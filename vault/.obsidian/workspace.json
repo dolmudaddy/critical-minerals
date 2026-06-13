@@ -20,8 +20,19 @@
               "icon": "lucide-file",
               "title": "2026-05-06-희토류-광물탐사-Rare-Earths-Americas-IPO-Stock"
             }
+          },
+          {
+            "id": "74f83ea159ae0b72",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -192,10 +203,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "296997c30c43162b",
+  "active": "74f83ea159ae0b72",
   "lastOpenFiles": [
-    "미움받을 용기.md",
     "articles/2026-05-06-희토류-광물탐사-Rare-Earths-Americas-IPO-Stock.md",
+    "미움받을 용기.md",
     "무제.canvas",
     "articles/2026-05-22-희토류-공급망-안정성-China-Expands-Rare-Earth-Controls.md",
     "articles/2026-05-22-희토류-공급망-안보-Arafura-Rare-Earths-plans-million.md",
