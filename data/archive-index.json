@@ -1,7 +1,25 @@
 {
-  "total_weeks": 10,
-  "latest_week": "2026-06-08",
+  "total_weeks": 11,
+  "latest_week": "2026-06-15",
   "weeks": [
+    {
+      "week_of": "2026-06-15",
+      "filename": "week-2026-06-15.json",
+      "total_cards": 12,
+      "category_counts": {
+        "policy_market": 5,
+        "exploration_tech": 2,
+        "supply_chain": 5
+      },
+      "top_tags": [
+        "희토류",
+        "리튬",
+        "핵심광물 공급망",
+        "그린란드",
+        "공급망 다변화"
+      ],
+      "generated_at": "2026-06-15T00:05:08.869785+00:00"
+    },
     {
       "week_of": "2026-06-08",
       "filename": "week-2026-06-08.json",
