@@ -20,19 +20,8 @@
               "icon": "lucide-file",
               "title": "2026-05-06-희토류-광물탐사-Rare-Earths-Americas-IPO-Stock"
             }
-          },
-          {
-            "id": "74f83ea159ae0b72",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "새 탭"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -203,34 +192,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "74f83ea159ae0b72",
+  "active": "296997c30c43162b",
   "lastOpenFiles": [
-    "articles/2026-05-06-희토류-광물탐사-Rare-Earths-Americas-IPO-Stock.md",
-    "미움받을 용기.md",
+    "articles/2026-06-14-희토류-핵심광물-공급망-Japan-send-delegation-Greenland-evaluate.md",
+    "articles/2026-06-14-희토류-공급망-다원화-Japan-Moves-Toward-Greenland-Rare.md",
+    "articles/2026-06-12-은-Silver-심부탐사시추-Drilling-km-into-Alaska-s.md",
+    "articles/2026-06-12-우크라이나-핵심광물-공급망-Statement-President-von-der-Leyen.md",
+    "articles/2026-06-12-리튬-희토류-Lithium-rare-earths-developer-Avalon.md",
+    "articles/2026-06-12-리튬-공급망-다변화-Argentina-positions-itself-critical-minerals.md",
+    "articles/2026-06-11-희토류-공급망-안정화-Schneider-Electric-Torngat-Metals-sign.md",
+    "articles/2026-06-11-희토류-공급망-안정화-Reliance-Vedanta-Adani-join-India.md",
+    "articles/2026-06-11-희토류-공급망-다변화-vulnerability-viability-can-US-led.md",
+    "articles/2026-06-11-리튬-핵심광물-공급망-Presentation-Latin-America-s-Lithium.md",
+    "articles/2026-06-11-리튬-직접리튬추출-DLE-Panel-Direct-Lithium-Extraction-Can.md",
+    "articles/2026-06-10-리튬-공급망-확대-Surging-lithium-demand-outpacing-growth.md",
+    "KCMO/weekly/2026/KCMO Weekly 2026-W24.md",
+    "KCMO/articles/2026/2026-06-14-몽골-핵심광물-MRPAM-dab1.md",
+    "KCMO/articles/2026/2026-06-14-몽골-오유톨고이-분석기술-4580.md",
+    "KCMO/articles/2026/2026-06-12-카자흐스탄-핵심광물-미국-카자흐-관계-e331.md",
+    "KCMO/articles/2026/2026-06-12-인도네시아-전략광물-하이린화(downstream)-4645.md",
+    "KCMO/articles/2026/2026-06-12-인도네시아-니켈-하류산업화-a94a.md",
+    "KCMO/articles/2026/2026-06-12-인도네시아-니켈-북말루쿠-05ea.md",
+    "KCMO/articles/2026/2026-06-12-인도네시아-니켈-망간-661f.md",
+    "KCMO/articles/2026/2026-06-12-인도네시아-니켈-ESDM-8542.md",
+    "KCMO/articles/2026/2026-06-09-몽골-MRPAM-핵심광물-7c1e.md",
+    "KCMO/articles/2026/2026-06-08-몽골-우라늄-MRPAM-3f48.md",
+    "KCMO/articles/2026/2026-06-07-인도네시아-니켈-하류산업화-8535.md",
+    "KCMO/articles/2026/2026-06-03-인도네시아-니켈-하류산업화-7490.md",
+    "KCMO/articles/2026/2026-06-01-카자흐스탄-우라늄-핵연료-f630.md",
     "무제.canvas",
-    "articles/2026-05-22-희토류-공급망-안정성-China-Expands-Rare-Earth-Controls.md",
-    "articles/2026-05-22-희토류-공급망-안보-Arafura-Rare-Earths-plans-million.md",
-    "articles/2026-05-06-핵심광물-탐사시추-Total-Metals-Completes-Hole-metre.md",
-    "articles/2026-05-06-핵심광물-국제통상공급망-G-trade-talks-target-critical.md",
-    "KCMO/weekly/2026/KCMO Weekly 2026-W20.md",
-    "articles/2026-05-21-희토류-공급망-다변화-Critical-Metals-inks-year-Greenland.md",
-    "articles/2026-05-11-형석-리튬-Delta-Lithium-uncovers-high-grade.md",
-    "articles/2026-06-05-리튬-배터리용-핵심광물-Lithium-bust-over-but-will.md",
-    "KCMO/articles/2026/2026-05-31-몽골-광업인력양성-MRPAM-ec5b.md",
-    "ESDM.md",
-    "KCMO/articles/2026/2026-05-26-몽골-광업-교육-인력-양성-ec5b.md",
-    "KCMO/articles/2026/2026-04-29-베트남-KIAT-MOIT-f2df.md",
-    "KCMO/weekly/2026/KCMO Weekly 2026-W22.md",
-    "인도네시아 니켈.md",
-    "새로운 노트 1.md",
-    "articles/2026-05-30-핵심광물-탐사-정책-Minister-Coal-Mines-G-Kishan.md",
-    "articles/2026-05-31-텅스텐-현물시세-Tungsten-unwrought-metal-bar-min.md",
-    "articles/2026-06-05-리튬-공급망-자주화-Creating-sovereign-lithium-supply-chain.md",
-    "KCMO/weekly/2026/KCMO Weekly 2026-W21.md",
-    "KCMO/articles/2026/2026-05-30-탄자니아-흑연-린디-650b.md",
-    "KCMO/articles/2026/2026-05-31-몽골-핵심광물-MRPAM-dab1.md",
-    "KCMO/articles/2026/2026-05-31-몽골-SEM-Oyu-Tolgoi-4580.md",
-    "articles/2026-05-22-희토류-REE-공급망-안보-China-Expands-Rare-Earth-Controls.md",
     "무제",
     "무제.base",
     "KCMO/weekly/2026",
