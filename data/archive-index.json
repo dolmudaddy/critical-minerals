@@ -1,7 +1,24 @@
 {
-  "total_weeks": 12,
-  "latest_week": "2026-06-22",
+  "total_weeks": 13,
+  "latest_week": "2026-06-29",
   "weeks": [
+    {
+      "week_of": "2026-06-29",
+      "filename": "week-2026-06-29.json",
+      "total_cards": 12,
+      "category_counts": {
+        "policy_market": 8,
+        "supply_chain": 4
+      },
+      "top_tags": [
+        "리튬",
+        "핵심광물 공급망",
+        "핵심광물",
+        "희토류",
+        "공급망 안정성"
+      ],
+      "generated_at": "2026-06-29T00:03:42.364488+00:00"
+    },
     {
       "week_of": "2026-06-22",
       "filename": "week-2026-06-22.json",
