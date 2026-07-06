@@ -1,7 +1,25 @@
 {
-  "total_weeks": 13,
-  "latest_week": "2026-06-29",
+  "total_weeks": 14,
+  "latest_week": "2026-07-06",
   "weeks": [
+    {
+      "week_of": "2026-07-06",
+      "filename": "week-2026-07-06.json",
+      "total_cards": 12,
+      "category_counts": {
+        "policy_market": 8,
+        "discovery": 1,
+        "supply_chain": 3
+      },
+      "top_tags": [
+        "리튬·코발트·니켈",
+        "핵심광물",
+        "희토류",
+        "리튬",
+        "공급망 정책"
+      ],
+      "generated_at": "2026-07-06T00:01:42.356553+00:00"
+    },
     {
       "week_of": "2026-06-29",
       "filename": "week-2026-06-29.json",
