@@ -1,7 +1,26 @@
 {
-  "total_weeks": 16,
-  "latest_week": "2026-07-19",
+  "total_weeks": 17,
+  "latest_week": "2026-07-26",
   "weeks": [
+    {
+      "week_of": "2026-07-26",
+      "filename": "week-2026-07-26.json",
+      "total_cards": 12,
+      "category_counts": {
+        "policy_market": 4,
+        "exploration_tech": 3,
+        "discovery": 1,
+        "supply_chain": 4
+      },
+      "top_tags": [
+        "핵심광물",
+        "희토류",
+        "공급망 안보",
+        "리튬",
+        "EU 정책·ESG 기준"
+      ],
+      "generated_at": "2026-07-26T23:55:31.823361+00:00"
+    },
     {
       "week_of": "2026-07-19",
       "filename": "week-2026-07-19.json",
