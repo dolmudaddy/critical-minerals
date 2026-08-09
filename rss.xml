@@ -6,140 +6,140 @@
     <atom:link href="https://dolmudaddy.github.io/critical-minerals/rss.xml" rel="self" type="application/rss+xml"/>
     <description>조성준 박사 (KIGAM, 한국자원공학회장) 큐레이션. 핵심광물 탐사·정책·시장 주간 동향.</description>
     <language>ko-KR</language>
-    <lastBuildDate>Sun, 02 Aug 2026 23:56:05 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 23:24:53 +0000</lastBuildDate>
     <generator>GitHub Actions + Claude API</generator>
     <managingEditor>dolmudaddy@gmail.com (조성준)</managingEditor>
     <item>
-      <title>Op-Ed: Giving credit where it’s due — The US finally gets rare earth strategy</title>
-      <link>https://www.mining.com/op-ed-giving-credit-where-its-due-the-us-finally-gets-rare-earth-strategy/</link>
-      <guid isPermaLink="false">7d98736350</guid>
-      <pubDate>Fri, 31 Jul 2026 15:17:00 +0000</pubDate>
-      <source url="https://dolmudaddy.github.io/critical-minerals">Mining.com</source>
-      <category>희토류</category>
-      <category>가공·정제기술</category>
-      <category>미국</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Mining.com&lt;/p&gt;&lt;p&gt;미국이 희토류 산업 전략을 근본적으로 전환하고 있으며, 매장량 확보보다 가공·정제 경제성에 중점을 두는 정책으로 선회하고 있음이 확인되었습니다. 이러한 투자 방향은 핵심광물 공급망에서 처리 기술과 인프라의 전략적 중요성을 반영하고 있습니다. 자원 부국 지위보다는 고부가가치 가공산업 육성을 통해 글로벌 핵심광물 시장에서의 경쟁력 확보를 목표로 하고 있을 것으로 전망됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;processing economics&lt;/em&gt; — 광석 처리 및 정제 경제성; 광물 생산에서 광석 가공 단계의 경제적 타당성&lt;/li&gt;&lt;li&gt;&lt;em&gt;rare earth strategy&lt;/em&gt; — 희토류 산업의 종합적 정책 방향; 희토류 자급화 및 공급망 구축 전략&lt;/li&gt;&lt;li&gt;&lt;em&gt;strategic shift toward&lt;/em&gt; — ~으로의 정책적 전환; 우선순위 재편성을 통한 방향 변화&lt;/li&gt;&lt;/ul&gt;</description>
+      <title>Commission accelerates IRIS² deployment with enhanced security and expanded satellites network</title>
+      <link>https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1726</link>
+      <guid isPermaLink="false">6de1566c45</guid>
+      <pubDate>Thu, 06 Aug 2026 22:00:00 +0000</pubDate>
+      <source url="https://dolmudaddy.github.io/critical-minerals">European Commission - Energy</source>
+      <category>위성통신</category>
+      <category>자원탐사 인프라</category>
+      <category>유럽연합</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: European Commission - Energy&lt;/p&gt;&lt;p&gt;유럽연합(EU)이 차세대 위성군 IRIS²의 본격 배치를 가속화하고 있으며, 스페이스라이즈 컨소시엄과의 협약을 통해 저궤도에 66개 위성을 추가 배치하기로 합의했습니다. 이로써 주 위성군은 총 348개로 확대되며, 계획 단계에서 전면 배치 단계로 전환되는 것으로 확인되었습니다. 이 사업은 EU의 우주 인프라 자립성 강화 및 핵심광물 자원 탐사·관리 능력 제고에 크게 기여할 것으로 전망됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;accelerate deployment&lt;/em&gt; — 배치 가속화&lt;/li&gt;&lt;li&gt;&lt;em&gt;implementation agreement&lt;/em&gt; — 이행 협약&lt;/li&gt;&lt;li&gt;&lt;em&gt;low Earth orbit constellation&lt;/em&gt; — 저궤도 위성군&lt;/li&gt;&lt;li&gt;&lt;em&gt;full-scale deployment&lt;/em&gt; — 전면 배치&lt;/li&gt;&lt;li&gt;&lt;em&gt;flagship satellite constellation&lt;/em&gt; — 기함급 위성군&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
     <item>
-      <title>Ottawa approves Canada Nickel’s Crawford mine</title>
-      <link>https://www.mining.com/ottawa-approves-canada-nickels-crawford-mine/</link>
-      <guid isPermaLink="false">89d658d083</guid>
-      <pubDate>Fri, 31 Jul 2026 11:12:43 +0000</pubDate>
+      <title>UK opens applications for $34M critical minerals fund</title>
+      <link>https://www.mining.com/uk-opens-applications-for-34m-critical-minerals-fund/</link>
+      <guid isPermaLink="false">2106fd26c4</guid>
+      <pubDate>Thu, 06 Aug 2026 13:55:25 +0000</pubDate>
       <source url="https://dolmudaddy.github.io/critical-minerals">Mining.com</source>
+      <category>핵심광물</category>
+      <category>공급망 정책</category>
+      <category>영국</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Mining.com&lt;/p&gt;&lt;p&gt;영국이 국내 핵심광물 공급망 강화를 위해 3,400만 달러 규모의 펀드 신청을 개시했으며, 사업화 직전 단계의 프로젝트에 대해 최대 400만 달러의 보조금을 지원할 계획으로 확인되었습니다. 본 펀드는 유럽의 핵심광물 수급 불안정성을 해소하고 영국의 광물 자급률 제고를 목표로 하고 있습니다. 이러한 정책적 지원은 관련 산업의 상업화 진전을 가속화할 것으로 전망됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;near-commercial projects&lt;/em&gt; — 사업화 직전 단계의 프로젝트 (기술 성숙도 TRL 7~8 수준)&lt;/li&gt;&lt;li&gt;&lt;em&gt;domestic critical minerals supply chain&lt;/em&gt; — 국내 핵심광물 공급망&lt;/li&gt;&lt;li&gt;&lt;em&gt;grants of up to $4 million&lt;/em&gt; — 최대 400만 달러 규모의 보조금&lt;/li&gt;&lt;li&gt;&lt;em&gt;strengthen Britain's mineral security&lt;/em&gt; — 영국의 광물 안보 강화&lt;/li&gt;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Uncertainty over Indonesia’s 2026 nickel ore quota increases - Project Blue</title>
+      <link>https://news.google.com/rss/articles/CBMiZkFVX3lxTE85S0wyWG5kX1hHYlpteS0tOU9pZ3hQLS1XQkNvT0QtcXFtQmhwREpPQzBGaEFiNjM3T0VGS2M2M3BMQmJmVndOU1dXWmp2M1V2MzNGM0t2c0RiOGhLMmJZcjB4Rmg4dw?oc=5</link>
+      <guid isPermaLink="false">3ae2121c7e</guid>
+      <pubDate>Thu, 06 Aug 2026 02:01:45 +0000</pubDate>
+      <source url="https://dolmudaddy.github.io/critical-minerals">Project Blue - via Google News</source>
       <category>니켈</category>
-      <category>핵심광물 개발정책</category>
-      <category>캐나다</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Mining.com&lt;/p&gt;&lt;p&gt;캐나다 연방정부가 캐나다니켈의 크로포드 광산 개발을 승인함에 따라 2025년 건설 의사결정의 길이 열렸습니다. 본 승인은 캐나다가 핵심광물 개발을 가속화하려는 국가 전략의 일환으로 추진되고 있습니다. 이는 북미의 핵심광물 공급망 자립화를 위한 중요한 이정표로 평가됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;federal approval paves the way for construction decision&lt;/em&gt; — 연방정부 승인이 건설 의사결정의 길을 열다&lt;/li&gt;&lt;li&gt;&lt;em&gt;accelerate critical minerals development&lt;/em&gt; — 핵심광물 개발을 가속화하다&lt;/li&gt;&lt;li&gt;&lt;em&gt;nickel mining project authorization&lt;/em&gt; — 니켈 광산 프로젝트 인가&lt;/li&gt;&lt;/ul&gt;</description>
+      <category>수출규제정책</category>
+      <category>인도네시아</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Project Blue - via Google News&lt;/p&gt;&lt;p&gt;인도네시아의 2026년 니켈광석 수출 쿼터 규모에 대한 불확실성이 확대되고 있는 것으로 보도되었습니다. 동남아시아 최대 니켈 생산국인 인도네시아의 정책 변화는 글로벌 핵심광물 공급망에 직접적인 영향을 미칠 것으로 예상됩니다. 이는 니켈 기반 배터리 산업과 전기차 산업의 원료 수급 전략 수립에 시급한 고려 사항이 될 전망입니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;nickel ore export quota&lt;/em&gt; — 니켈광석 수출 쿼터&lt;/li&gt;&lt;li&gt;&lt;em&gt;supply chain uncertainty&lt;/em&gt; — 공급망 불확실성&lt;/li&gt;&lt;li&gt;&lt;em&gt;critical mineral availability&lt;/em&gt; — 핵심광물 공급가능성&lt;/li&gt;&lt;li&gt;&lt;em&gt;policy shifts in resource-producing countries&lt;/em&gt; — 자원생산국의 정책 변화&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
     <item>
-      <title>Emerita Resources takes Lithium Ionic dispute to court</title>
-      <link>https://www.mining.com/emerita-resources-takes-lithium-ionic-dispute-to-court/</link>
-      <guid isPermaLink="false">bf05a11906</guid>
-      <pubDate>Fri, 31 Jul 2026 10:44:00 +0000</pubDate>
-      <source url="https://dolmudaddy.github.io/critical-minerals">Mining.com</source>
+      <title>North America Lithium and Gold Corp. Expands Multi-Commodity Discovery at Midnight Owl with Seven High-Priority Gold Exploration Targets Identified Through Advanced Hyperspectral Refinement - marketscreener.com</title>
+      <link>https://news.google.com/rss/articles/CBMi5wFBVV95cUxOZWFqcXZTTG5QU25Gb0FQZHVLVWcyUThVNHIyZHpFekJ5dDV0djJCNFBZZjlNWFFEMTVWMGxqdFh1NHNIQjFtOTIyOXQ3YkFkd3JhTDRJRkdBaGs4NlZiZ3RxZjZFMFhpUHFMMHNYc01KWTRENWxibW9HcEl6WHY5VTlMRXh0cnU3eEx6M0t2aE9ubmFuOUdReERRbVBXV2FjTnNabGhDd2pmNldMRV9QU19NaURDQmRxU1BaRElhV1djenV1X2Q5SW01NEg3YU4yaC1mbVprd01KejhMMDdnazd5T3Rqczg?oc=5</link>
+      <guid isPermaLink="false">2f2462fcb7</guid>
+      <pubDate>Wed, 05 Aug 2026 13:21:05 +0000</pubDate>
+      <source url="https://dolmudaddy.github.io/critical-minerals">Google News - Lithium Discovery</source>
+      <category>리튬·금</category>
+      <category>초분광탐사</category>
+      <category>북미</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Google News - Lithium Discovery&lt;/p&gt;&lt;p&gt;북미 리튬 및 금 공사가 Midnight Owl 광구에서 초분광 정제(hyperspectral refinement) 기술을 활용하여 7개의 우선순위 금 탐사 목표를 새로이 식별함으로써 다중 광종 발견을 확대하였음이 보고되었습니다. 본 사례는 첨단 원격탐사 기술이 핵심광물 탐사의 효율성 증진에 기여하고 있음을 시사합니다. 향후 리튬과 금을 포함한 다중 광물 자원의 동시 개발 가능성이 주목됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;multi-commodity discovery&lt;/em&gt; — 여러 광종의 동시 발견(복합광상)&lt;/li&gt;&lt;li&gt;&lt;em&gt;advanced hyperspectral refinement&lt;/em&gt; — 첨단 초분광 정제 기술(광물 식별의 정밀도 향상)&lt;/li&gt;&lt;li&gt;&lt;em&gt;high-priority exploration targets&lt;/em&gt; — 우선순위 탐사 목표(탐사 지역 선정 기준)&lt;/li&gt;&lt;li&gt;&lt;em&gt;critical minerals portfolio expansion&lt;/em&gt; — 핵심광물 포트폴리오 확대&lt;/li&gt;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>3PL lithium project also has tungsten, potash, boron - Elko Daily Free Press</title>
+      <link>https://news.google.com/rss/articles/CBMinwFBVV95cUxPWTdqMDJxUmFXYmptSEJqR1h3Nk9UTGdCVHB6Q2ZqY0I1clpwV3ZIYnVUZDdVQ1pPblRRclpNSE1XalpYN0prbU50VTAwTEJnQzBwOXBodXJtNnBtUWEyX2l3Mlg4U3l0cGJaUjhFSDUtWXNrRjNJRUJfQW9ub2JvLVJhcFAycVFyRFdzWkRrRGV2dTN4T2tnUURfRWFQRXc?oc=5</link>
+      <guid isPermaLink="false">7ff1a84839</guid>
+      <pubDate>Fri, 07 Aug 2026 12:00:00 +0000</pubDate>
+      <source url="https://dolmudaddy.github.io/critical-minerals">Google News - Lithium Discovery</source>
+      <category>리튬·텅스텐·칼륨염·붕소</category>
+      <category>다중 광종 광상</category>
+      <category>미국 네바다주</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Google News - Lithium Discovery&lt;/p&gt;&lt;p&gt;미국 네바다주의 3PL 리튬 프로젝트에서 리튬 외에도 텅스텐, 칼륨염, 붕소 등 다양한 핵심광물이 동시에 부존하고 있음이 확인되었습니다. 이는 단일 광상에서 복수의 핵심광물을 회수할 수 있는 경제성 높은 자원 개발 기회를 제시합니다. 향후 다중 광종 추출 기술 개발을 통해 자원 회수율 극대화 및 채산성 개선이 전망됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;polymetallic deposit&lt;/em&gt; — 다중 광종 부존하는 광상&lt;/li&gt;&lt;li&gt;&lt;em&gt;co-occurrence of critical minerals&lt;/em&gt; — 핵심광물의 동시 부존&lt;/li&gt;&lt;li&gt;&lt;em&gt;integrated extraction strategy&lt;/em&gt; — 통합 추출 전략&lt;/li&gt;&lt;li&gt;&lt;em&gt;economic viability of multi-metal recovery&lt;/em&gt; — 복합 광종 회수의 경제성&lt;/li&gt;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Trump Summons Mining Titans to Forge a China-Free Critical Minerals Supply Chain - nai500.com</title>
+      <link>https://news.google.com/rss/articles/CBMiswFBVV95cUxQR24wQVNNUk1CS0Uya25IVDZ6aVJhVjd4Wm5BVU9fTVFpQ3NuU012dTJ5M284N29NajJsblNTZE9NTWV2YTIyZ0UtWndGYmZ4WlVjZmVNX1JvZXBVSTMwa0xYRTBjcmxTdkttMzdNS0sySHgtRU5qNGJCNS0zR2RlbUhMd19tNl9kMUxET0hWQ2RxNjNnYmRxaXNqV0Z4eklQT2lnd1ZkNFRrWjNYN2V4RENXcw?oc=5</link>
+      <guid isPermaLink="false">3968d3e194</guid>
+      <pubDate>Thu, 06 Aug 2026 23:36:17 +0000</pubDate>
+      <source url="https://dolmudaddy.github.io/critical-minerals">Google News - Critical Minerals Exploration</source>
+      <category>리튬·코발트·니켈</category>
+      <category>공급망 정책</category>
+      <category>미국-중국</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Google News - Critical Minerals Exploration&lt;/p&gt;&lt;p&gt;트럼프 행정부가 중국 의존도를 제거한 핵심광물 공급망 구축을 위해 광산업 대형 기업들을 소집하였으며, 이는 미국의 자원 자급률 향상과 전략적 공급망 재편을 목표로 하는 정책 추진으로 확인되었습니다. 북미 지역 내 핵심광물 개발 및 가공 역량 강화를 통해 글로벌 공급망 다각화 전략이 추진될 전망입니다. 이러한 정책은 향후 국제 자원 경쟁 구도에 중대한 영향을 미칠 것으로 예상됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;China-free critical minerals supply chain&lt;/em&gt; — 중국으로부터 독립된 핵심광물 공급망 구축&lt;/li&gt;&lt;li&gt;&lt;em&gt;mining titans&lt;/em&gt; — 광산업 메이저 기업 또는 대형 광업 기업&lt;/li&gt;&lt;li&gt;&lt;em&gt;supply chain diversification&lt;/em&gt; — 공급망 다각화&lt;/li&gt;&lt;li&gt;&lt;em&gt;domestic mineral production capacity&lt;/em&gt; — 국내 광물 생산 역량&lt;/li&gt;&lt;li&gt;&lt;em&gt;strategic mineral independence&lt;/em&gt; — 전략광물 자급 독립성&lt;/li&gt;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>CleanTech Lithium - Fastmarkets</title>
+      <link>https://news.google.com/rss/articles/CBMivAFBVV95cUxOTWZYSEQ4dGVqakZGNkNJcXBUZ29PYXpCX2xIcExyVk5SN2dHQzRZTkU4QWlJUFQ3T01oMTd3TWJUQldaRklHNlc2NUw1MUtXWWxnN09tOGxFV3FrVmZodHdVdU8tZEJYQnAxU1JhMDluOVJseENZMnZvRFRJUU00cnQtaWlzeFhRY3gySVBCLURnUXJMdnpyUTBGRWx3SnBhUEdZVGU4YmZaVFlHbkR6bDFZTE5yUllhWGk5dQ?oc=5</link>
+      <guid isPermaLink="false">1d96e348e9</guid>
+      <pubDate>Fri, 07 Aug 2026 03:56:46 +0000</pubDate>
+      <source url="https://dolmudaddy.github.io/critical-minerals">Fastmarkets - via Google News</source>
       <category>리튬</category>
-      <category>핵심광물 개발권</category>
-      <category>브라질·캐나다</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Mining.com&lt;/p&gt;&lt;p&gt;브라질 리튬 자산을 둘러싼 에메리타 리소스와 리튬이온의 분쟁이 온타리오 법원으로 확대되었으며, 양사가 상충하는 권리 주장을 두고 법적 다툼을 벌이고 있음이 확인되었습니다. 본 사건은 핵심광물 개발에 있어 자산 소유권과 탐광권 확보의 중요성을 부각시키고 있습니다. 브라질의 풍부한 리튬 매장량을 둘러싼 경쟁이 심화될 것으로 전망되며, 광물 자원 개발의 법적·제도적 틀 강화의 필요성이 대두되고 있습니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;competing claims&lt;/em&gt; — 상충하는 권리 주장 / 경합되는 광업권 청구&lt;/li&gt;&lt;li&gt;&lt;em&gt;lithium assets dispute&lt;/em&gt; — 리튬 자산 분쟁 / 리튬 광산권 다툼&lt;/li&gt;&lt;li&gt;&lt;em&gt;shift to court&lt;/em&gt; — 법원으로 사건 이송 / 법적 분쟁으로 확대&lt;/li&gt;&lt;/ul&gt;</description>
+      <category>공급망 안정화</category>
+      <category>에너지 전환</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Fastmarkets - via Google News&lt;/p&gt;&lt;p&gt;CleanTech Lithium이 리튬 시장에서 주목받는 기업으로 부각되고 있으며, Fastmarkets의 최신 분석에서 핵심광물 공급망 안정성 관점에서 중요한 역할을 하는 것으로 평가되었습니다. 글로벌 에너지 전환에 따른 리튬 수요 급증 속에서 신규 생산자의 진입과 기술 혁신이 시장 경쟁력을 좌우할 것으로 전망됩니다. 향후 핵심광물 공급망의 다변화와 국내 자원 확보 전략 수립에 중요한 시사점을 제공할 것으로 판단됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;Critical minerals supply chain diversification&lt;/em&gt; — 핵심광물 공급망의 다변화&lt;/li&gt;&lt;li&gt;&lt;em&gt;Lithium production capacity expansion&lt;/em&gt; — 리튬 생산 용량 확대&lt;/li&gt;&lt;li&gt;&lt;em&gt;Market volatility in raw material pricing&lt;/em&gt; — 원자재 가격의 시장 변동성&lt;/li&gt;&lt;li&gt;&lt;em&gt;Energy transition mineral demand&lt;/em&gt; — 에너지 전환에 따른 광물 수요&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
     <item>
-      <title>South32 breaks decade-long US permit curse at Arizona project</title>
-      <link>https://www.mining.com/south32-breaks-decade-long-us-permit-curse-at-arizona-project/</link>
-      <guid isPermaLink="false">6144ab7c7b</guid>
-      <pubDate>Wed, 29 Jul 2026 14:46:23 +0000</pubDate>
-      <source url="https://dolmudaddy.github.io/critical-minerals">Mining.com</source>
-      <category>구리·아연·망간</category>
-      <category>광산허가제도(FAST-41)</category>
-      <category>미국·애리조나</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Mining.com&lt;/p&gt;&lt;p&gt;South32의 허모사(Hermosa) 프로젝트가 미국 FAST-41 허가 절차를 완료한 첫 번째 애리조나 광산 프로젝트로 기록되어, 10년대의 미국 광산 허가 지연 문제를 획기적으로 해결할 수 있는 모범 사례를 제시하였습니다. 이는 미국의 핵심광물 개발 촉진을 위한 제도적 개선이 실질적 효과를 발휘하고 있음을 의미하며, 향후 미국 내 핵심광물 프로젝트의 허가 기간 단축에 청사진을 제공할 전망입니다. 국내 자원개발 정책 수립 시 미국의 규제 개선 사례가 참고 자료로 활용될 수 있을 것으로 기대됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;complete the FAST-41 process&lt;/em&gt; — FAST-41 (Federal Permitting and Review of Infrastructure Projects Act) 절차를 완료하다; 연방 광산 허가의 신속 승인 제도를 통과하다&lt;/li&gt;&lt;li&gt;&lt;em&gt;break decade-long permit curse&lt;/em&gt; — 10년 이상 지속되어온 광산 허가 지연 문제를 해결하다; 장기간의 규제 병목 현상을 극복하다&lt;/li&gt;&lt;li&gt;&lt;em&gt;offer a blueprint for faster critical minerals development&lt;/em&gt; — 핵심광물 개발 촉진을 위한 제도적 모범 사례 및 실행 방안을 제시하다; 다른 프로젝트가 따를 수 있는 성공적 허가 절차의 표준을 마련하다&lt;/li&gt;&lt;/ul&gt;</description>
+      <title>Is sulphur becoming a new bottleneck for cobalt supply? - Project Blue</title>
+      <link>https://news.google.com/rss/articles/CBMiZkFVX3lxTE9VM0dzZnVUWGV0N1ZtLXhxTXBBaEhGUHNHVHJhdTFGQjdTQmp0V2VOZF94SEQ4WXVvZVhFVWVRcjlhaFNtbWtuUzAxZVBMWjVLS2QyV1NEd1dEdHJ1ejZBaXJjRmhpQQ?oc=5</link>
+      <guid isPermaLink="false">d202d74087</guid>
+      <pubDate>Thu, 06 Aug 2026 00:07:39 +0000</pubDate>
+      <source url="https://dolmudaddy.github.io/critical-minerals">Project Blue - via Google News</source>
+      <category>코발트</category>
+      <category>황(硫黃)</category>
+      <category>공급망 안정성</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Project Blue - via Google News&lt;/p&gt;&lt;p&gt;황(硫黃)이 코발트 공급망의 새로운 병목 현상으로 부상하고 있는 것으로 확인되었습니다. 코발트 제련 공정에서 황 수요가 증가하면서 원료 수급 불균형이 심화될 전망입니다. 이는 핵심광물 공급 안정성 확보를 위한 통합적 광물 정책 수립의 필요성을 시사하고 있습니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;supply chain bottleneck&lt;/em&gt; — 공급망 병목 현상&lt;/li&gt;&lt;li&gt;&lt;em&gt;cobalt extraction and refining&lt;/em&gt; — 코발트 채굴 및 제련&lt;/li&gt;&lt;li&gt;&lt;em&gt;sulphur demand constraints&lt;/em&gt; — 황 수요 제약 요인&lt;/li&gt;&lt;li&gt;&lt;em&gt;critical mineral supply security&lt;/em&gt; — 핵심광물 공급 안정성&lt;/li&gt;&lt;li&gt;&lt;em&gt;downstream processing bottleneck&lt;/em&gt; — 후공정(제련) 단계의 병목&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
     <item>
-      <title>US Department of Energy shortlists five states for nuclear sites</title>
-      <link>https://www.mining.com/u-s-department-of-energy-shortlists-five-states-for-nuclear-sites/</link>
-      <guid isPermaLink="false">9c2dcb07ce</guid>
-      <pubDate>Tue, 28 Jul 2026 23:56:54 +0000</pubDate>
-      <source url="https://dolmudaddy.github.io/critical-minerals">Mining.com</source>
-      <category>사용후핵연료</category>
-      <category>핵에너지정책</category>
-      <category>미국</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Mining.com&lt;/p&gt;&lt;p&gt;미국 에너지부가 테네시, 유타, 루이지애나, 아이다호, 오클라호마 5개 주와 협약을 체결하여 사용후핵연료 약 10만 메트릭톤의 저장소 부지 선정을 진전시켰음이 확인되었습니다. 이는 미국의 장기 핵연료 관리 정책의 구체화를 의미하며, 핵심광물 자원 안보와 에너지 정책의 통합 추진 전략으로 평가됩니다. 선정된 부지들의 지질학적 안정성 평가 및 지역사회 수용성 확보가 향후 추진의 핵심 과제로 전망됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;advanced efforts to store spent nuclear fuel&lt;/em&gt; — 사용후핵연료 저장 사업 추진 노력 진전&lt;/li&gt;&lt;li&gt;&lt;em&gt;shortlist for nuclear waste disposal sites&lt;/em&gt; — 핵폐기물 처분 부지 선정 과정&lt;/li&gt;&lt;li&gt;&lt;em&gt;state-federal agreements on energy infrastructure&lt;/em&gt; — 에너지 인프라 관련 연방정부와 주(State) 간 협약&lt;/li&gt;&lt;/ul&gt;</description>
+      <title>Graphite One inks supply agreement with Lucid - Project Blue</title>
+      <link>https://news.google.com/rss/articles/CBMiZEFVX3lxTE9zZk5MUzE2cUI1ckFocGRkSjVqWUpVaW9KQVlraXYzaVZBZXE0RmN1UGRGZTJHQW1laXQzRno0YTMwTE5JTnI5eHdsbldLUkZzemJNdHVkaGJTQUt0N1BDSzlITnk?oc=5</link>
+      <guid isPermaLink="false">fad4428e02</guid>
+      <pubDate>Sun, 02 Aug 2026 14:00:33 +0000</pubDate>
+      <source url="https://dolmudaddy.github.io/critical-minerals">Project Blue - via Google News</source>
+      <category>흑연</category>
+      <category>핵심광물 공급망</category>
+      <category>북미</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Project Blue - via Google News&lt;/p&gt;&lt;p&gt;흑연 생산업체 Graphite One이 전기차 제조사 Lucid와 장기 공급계약을 체결하여 북미 지역 핵심광물 공급망 구축이 가속화되고 있음이 확인되었습니다. 이번 계약은 배터리 및 전극재 수요 증가에 대응하기 위한 전략적 파트너십으로, 국내 자원개발 기업들의 국제 공급망 참여 전략 수립에 시사점을 제공할 것으로 판단됩니다. 북미 내 핵심광물 자급화 움직임이 심화되는 가운데 한국의 선제적 협력체계 구축이 필요할 것으로 전망됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;supply agreement&lt;/em&gt; — 공급계약&lt;/li&gt;&lt;li&gt;&lt;em&gt;critical minerals supply chain&lt;/em&gt; — 핵심광물 공급망&lt;/li&gt;&lt;li&gt;&lt;em&gt;long-term offtake contract&lt;/em&gt; — 장기 구매계약&lt;/li&gt;&lt;li&gt;&lt;em&gt;battery-grade material&lt;/em&gt; — 배터리급 광물&lt;/li&gt;&lt;li&gt;&lt;em&gt;domestic sourcing strategy&lt;/em&gt; — 자국 공급원 확보 전략&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
     <item>
-      <title>Rare Earths Americas expands footprint at Shiloh project in Georgia</title>
-      <link>https://www.mining.com/rare-earths-americas-expands-footprint-at-shiloh-project-in-georgia/</link>
-      <guid isPermaLink="false">79c0a6570c</guid>
-      <pubDate>Wed, 29 Jul 2026 22:39:29 +0000</pubDate>
+      <title>Commercial offtakes accelerate Western gallium supply - Project Blue</title>
+      <link>https://news.google.com/rss/articles/CBMiZkFVX3lxTE9WWFNwdzhqMzdoM2dNaUdHTWVHRWdJQlY4X0ZoaEtmSUswaGhjY1Faem8tYzhvOS1Wd2w5dHhmZ1JBTFlCdGFfMktYRnZGN3llckEtMm8yQ1lnWUlNZVNJcG5TRk5UQQ?oc=5</link>
+      <guid isPermaLink="false">7c204cee7e</guid>
+      <pubDate>Thu, 06 Aug 2026 17:46:26 +0000</pubDate>
+      <source url="https://dolmudaddy.github.io/critical-minerals">Project Blue - via Google News</source>
+      <category>갈륨</category>
+      <category>공급망 안정화</category>
+      <category>북미·유럽</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Project Blue - via Google News&lt;/p&gt;&lt;p&gt;Project Blue를 중심으로 서방권의 갈륨 공급망 확보가 가속화되고 있으며, 상용 차원의 오프테이크 계약 체결이 이를 견인하고 있는 것으로 확인되었습니다. 반도체 및 태양전지 산업의 핵심 소재인 갈륨에 대한 서방권의 공급 안정화 전략이 본격화되고 있음을 의미합니다. 이는 핵심광물의 자급화를 추진하는 국내 산업에 경쟁 구도의 변화를 야기할 전망입니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;commercial offtakes&lt;/em&gt; — 상용 오프테이크 계약 (장기 구매 계약)&lt;/li&gt;&lt;li&gt;&lt;em&gt;Western gallium supply chain&lt;/em&gt; — 서방권 갈륨 공급망&lt;/li&gt;&lt;li&gt;&lt;em&gt;supply acceleration&lt;/em&gt; — 공급 가속화&lt;/li&gt;&lt;li&gt;&lt;em&gt;domestic sourcing strategy&lt;/em&gt; — 자국산 공급 전략&lt;/li&gt;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Stellantis considers Indonesia nickel investment - Project Blue</title>
+      <link>https://news.google.com/rss/articles/CBMiZEFVX3lxTFBqcUIyY1dtNXFwcnA4MXRqdWd4dGJPNzBWN2N5Ykdycmp1bEFkXzh4eWIwR1hVVHIxeVBETHhIQl92MmNibWtRVUZxWmgzbzMtalQxZW5xbk1CSkt0Um1qMEpTTzI?oc=5</link>
+      <guid isPermaLink="false">a18b975646</guid>
+      <pubDate>Fri, 07 Aug 2026 07:00:00 +0000</pubDate>
+      <source url="https://dolmudaddy.github.io/critical-minerals">Project Blue - via Google News</source>
+      <category>니켈</category>
+      <category>핵심광물 공급망</category>
+      <category>인도네시아</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Project Blue - via Google News&lt;/p&gt;&lt;p&gt;스텔란티스(Stellantis)가 인도네시아의 니켈 투자 프로젝트인 Project Blue를 검토 중으로 확인되었습니다. 이는 전기자동차 배터리 생산을 위한 핵심광물 공급망 확보 전략의 일환으로 평가됩니다. 인도네시아의 풍부한 니켈 자원을 기반으로 한 이번 투자는 글로벌 자동차 산업의 핵심광물 수급 안정화에 중요한 의미를 갖을 전망입니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;critical mineral supply chain&lt;/em&gt; — 핵심광물 공급망&lt;/li&gt;&lt;li&gt;&lt;em&gt;battery-grade nickel&lt;/em&gt; — 배터리급 니켈&lt;/li&gt;&lt;li&gt;&lt;em&gt;downstream integration of raw materials&lt;/em&gt; — 원료의 하류 통합/수직계열화&lt;/li&gt;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Niron Magnetics lands conditional $150M Department of War funding commitment</title>
+      <link>https://www.mining.com/niron-magnetics-lands-conditional-150m-department-of-war-funding-commitment/</link>
+      <guid isPermaLink="false">4a020bf31d</guid>
+      <pubDate>Fri, 07 Aug 2026 23:52:28 +0000</pubDate>
       <source url="https://dolmudaddy.github.io/critical-minerals">Mining.com</source>
       <category>희토류</category>
-      <category>광화체 품위 분석</category>
-      <category>미국 조지아주</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Mining.com&lt;/p&gt;&lt;p&gt;미국 조지아주 Shiloh 프로젝트에서 Rare Earths Americas가 시추 및 표면 샘플링을 통해 44.5%의 TREO(Total Rare Earth Oxide) 품위를 기록하며 탐사 성과를 거두었습니다. 본 결과는 북미 지역 핵심광물 자급능력 강화에 기여할 수 있는 중요한 발견으로 평가됩니다. 향후 추가 탐사를 통한 자원량 확대 및 경제성 평가가 진행될 전망입니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;Total Rare Earth Oxide (TREO) assay results&lt;/em&gt; — 희토류산화물 총량(TREO) 분석 결과&lt;/li&gt;&lt;li&gt;&lt;em&gt;drilling and surface sampling program&lt;/em&gt; — 시추 및 표면 샘플링 조사 프로그램&lt;/li&gt;&lt;li&gt;&lt;em&gt;expand footprint at the project&lt;/em&gt; — 프로젝트 지역의 탐사 범위 확대&lt;/li&gt;&lt;li&gt;&lt;em&gt;critical mineral resource development in North America&lt;/em&gt; — 북미 지역 핵심광물 자원 개발&lt;/li&gt;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Perpetua Resources, US Army and Idaho National Laboratory launch antimony pilot plant</title>
-      <link>https://www.mining.com/perpetua-resources-us-army-and-idaho-national-laboratory-launch-antimony-pilot-plant/</link>
-      <guid isPermaLink="false">eb7b856ec5</guid>
-      <pubDate>Thu, 30 Jul 2026 21:11:49 +0000</pubDate>
-      <source url="https://dolmudaddy.github.io/critical-minerals">Mining.com</source>
-      <category>안티모니</category>
-      <category>핵심광물 공급망 자립화</category>
+      <category>자석 기술</category>
       <category>미국</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Mining.com&lt;/p&gt;&lt;p&gt;Perpetua Resources가 미육군, 아이다호 국립연구소와 함께 안티모니 파일럿 플랜트를 구축하여 미국의 핵심광물 공급망 다변화를 추진하고 있습니다. Stibnite Gold 프로젝트를 통해 국내 안티모니 생산 기반을 확보함으로써 중국의 공급 의존도를 감소시킬 것으로 기대됩니다. 이는 국방산업의 안정적인 핵심광물 확보와 경제안보를 동시에 실현하는 전략으로 평가되고 있습니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;critical minerals supply chain&lt;/em&gt; — 핵심광물 공급망&lt;/li&gt;&lt;li&gt;&lt;em&gt;pilot plant operation&lt;/em&gt; — 파일럿 규모 시설 운영&lt;/li&gt;&lt;li&gt;&lt;em&gt;domestic production capability&lt;/em&gt; — 국내 생산 역량&lt;/li&gt;&lt;li&gt;&lt;em&gt;strategic mineral security&lt;/em&gt; — 전략광물 보안/안정성&lt;/li&gt;&lt;li&gt;&lt;em&gt;value-added processing&lt;/em&gt; — 부가가치 창출 공정&lt;/li&gt;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Equinox hands CEO job to Orla’s Simpson</title>
-      <link>https://www.mining.com/equinox-hands-ceo-job-to-orlas-simpson/</link>
-      <guid isPermaLink="false">8db47616fb</guid>
-      <pubDate>Fri, 31 Jul 2026 19:52:00 +0000</pubDate>
-      <source url="https://dolmudaddy.github.io/critical-minerals">Mining.com</source>
-      <category>니켈·코발트</category>
-      <category>기업인수합병(M&amp;A)</category>
-      <category>북미</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Mining.com&lt;/p&gt;&lt;p&gt;이퀴녹스와 올라 광업이 5월 합병을 합의할 당시 수립한 경영진 계획이 변경되었으며, 올라의 심슨(Simpson)이 통합 회사의 CEO 직무를 맡게 되었음이 확인되었습니다. 이번 인사 결정은 핵심광물 산업의 주요 기업 간 M&amp;amp;A 과정에서 경영 구조 조정이 진행 중임을 보여줍니다. 향후 통합 회사의 핵심광물 공급망 전략 수립과 운영 효율성 개선이 주목될 전망입니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;reverses a leadership plan&lt;/em&gt; — 당초 수립한 경영진 계획을 변경하다&lt;/li&gt;&lt;li&gt;&lt;em&gt;merge agreement&lt;/em&gt; — 합병 합의 (M&amp;amp;A 계약)&lt;/li&gt;&lt;li&gt;&lt;em&gt;CEO succession&lt;/em&gt; — 최고경영자(CEO) 후임자 결정&lt;/li&gt;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>IMC Rare Earths debuts on NYSE American</title>
-      <link>https://www.mining.com/imc-rare-earths-debuts-on-nyse-american/</link>
-      <guid isPermaLink="false">349a79b19d</guid>
-      <pubDate>Thu, 30 Jul 2026 22:37:23 +0000</pubDate>
-      <source url="https://dolmudaddy.github.io/critical-minerals">Mining.com</source>
-      <category>희토류(REE)</category>
-      <category>이온흡착점토</category>
-      <category>브라질</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Mining.com&lt;/p&gt;&lt;p&gt;브라질 북동부 이타란팀(Itarantim) 광상의 이온흡착점토(ionic adsorption clay) 광상을 개발하는 IMC Rare Earths가 NYSE American에 상장되어 글로벌 핵심광물 공급망 다변화에 기여할 전망입니다. 이온흡착점토는 저비용 침출공정으로 희토류원소를 회수할 수 있어 차세대 희토류 생산기술로 주목받고 있습니다. 브라질의 광물자원 개발 역량 강화와 중국 의존도 완화를 위한 전략적 프로젝트로 평가됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;ionic adsorption clay deposit&lt;/em&gt; — 이온흡착점토 광상(흡착광석에서 희토류 원소를 용침으로 추출하는 광상)&lt;/li&gt;&lt;li&gt;&lt;em&gt;critical minerals supply chain diversification&lt;/em&gt; — 핵심광물 공급망 다원화&lt;/li&gt;&lt;li&gt;&lt;em&gt;rare earth recovery&lt;/em&gt; — 희토류원소 회수·추출&lt;/li&gt;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>GBM agrees to buy Lomiko Metals to add Quebec graphite project</title>
-      <link>https://www.mining.com/gbm-agrees-to-buy-lomiko-to-add-quebec-graphite-project/</link>
-      <guid isPermaLink="false">eaebc0514f</guid>
-      <pubDate>Wed, 29 Jul 2026 22:00:00 +0000</pubDate>
-      <source url="https://dolmudaddy.github.io/critical-minerals">Mining.com</source>
-      <category>흑연</category>
-      <category>기업인수합병(M&amp;A)</category>
-      <category>캐나다</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Mining.com&lt;/p&gt;&lt;p&gt;글로벌배터리머티리얼스(GBM)가 로미코메탈스를 1,100만 달러의 전액주식 거래로 인수하여 캐나다 퀘벡주의 라루트르 흑연 프로젝트를 확보하게 되었습니다. 본 거래는 전기차 및 배터리 산업에서 수요가 급증하는 흑연 공급망 확보 전략의 일환으로 평가됩니다. 캐나다 내 핵심광물 자원 개발 활성화로 북미 공급망 다각화가 가속될 전망입니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;all-share deal&lt;/em&gt; — 전액주식 거래 (현금 없이 주식만으로 진행하는 기업 인수 합병)&lt;/li&gt;&lt;li&gt;&lt;em&gt;graphite project acquisition&lt;/em&gt; — 흑연 프로젝트 인수 (핵심광물 공급망 확보 전략)&lt;/li&gt;&lt;li&gt;&lt;em&gt;critical mineral supply chain&lt;/em&gt; — 핵심광물 공급망 (전기차·배터리 산업의 핵심 가치사슬)&lt;/li&gt;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Rock Tech Lithium secures 100,000‑tonne Transamine pact</title>
-      <link>https://www.mining.com/rock-tech-lithium-secures-100000%e2%80%91tonne-transamine-pact/</link>
-      <guid isPermaLink="false">9c3bdc361b</guid>
-      <pubDate>Tue, 28 Jul 2026 21:00:00 +0000</pubDate>
-      <source url="https://dolmudaddy.github.io/critical-minerals">Mining.com</source>
-      <category>리튬</category>
-      <category>공급계약</category>
-      <category>캐나다</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Mining.com&lt;/p&gt;&lt;p&gt;록테크 리튬(Rock Tech Lithium)이 트랜스아민(Transamine)과 10만 톤 규모의 리튬 구매계약을 체결하였으며, 이는 조지아 레이크(Georgia Lake) 프로젝트의 개발을 지원하기 위한 최대 8,000만 달러 규모의 선급금 조성 프레임워크를 포함하고 있습니다. 본 계약은 북미 지역 핵심광물 공급망 구축의 중요한 이정표로 평가되고 있습니다. 선급금 지원 방식의 도입은 핵심광물 프로젝트의 자금 조달 모델 다각화를 시사하는 바입니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;offtake agreement&lt;/em&gt; — 구매계약; 광물·에너지 생산물의 선매매 계약&lt;/li&gt;&lt;li&gt;&lt;em&gt;development prepayment facility&lt;/em&gt; — 개발 선급금 지원 프레임워크; 사업 개발 단계에서의 사전 자금 지원 체계&lt;/li&gt;&lt;li&gt;&lt;em&gt;critical minerals supply chain&lt;/em&gt; — 핵심광물 공급망; 핵심광물의 채굴에서 가공·유통까지의 통합 공급체계&lt;/li&gt;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Titan Mining secures graphite supply deal with US aerospace and defense manufacturer</title>
-      <link>https://www.mining.com/titan-mining-secures-graphite-supply-deal-with-us-aerospace-and-defense-manufacturer/</link>
-      <guid isPermaLink="false">83bc0c4509</guid>
-      <pubDate>Wed, 29 Jul 2026 21:09:21 +0000</pubDate>
-      <source url="https://dolmudaddy.github.io/critical-minerals">Mining.com</source>
-      <category>흑연</category>
-      <category>국내 공급망 구축</category>
-      <category>미국</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Mining.com&lt;/p&gt;&lt;p&gt;타이탄 마이닝이 뉴욕주의 시연 시설에서 흑연 농축광 생산을 개시하여 수십 년 만에 미국 내 흑연 생산을 재개하였습니다. 동사는 미국 항공우주·방위산업 제조업체와의 공급 계약을 확보함으로써 국가 핵심광물 공급망 자립화에 기여할 전망입니다. 이는 미국의 핵심광물 채굈·가공 인프라 구축 추진과 동맥을 같이하는 사례로 평가됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;graphite concentrate production&lt;/em&gt; — 흑연 농축광 생산&lt;/li&gt;&lt;li&gt;&lt;em&gt;demonstration facility&lt;/em&gt; — 시연(실증) 시설&lt;/li&gt;&lt;li&gt;&lt;em&gt;critical mineral supply chain independence&lt;/em&gt; — 핵심광물 공급망 자립화&lt;/li&gt;&lt;li&gt;&lt;em&gt;domestic production capacity&lt;/em&gt; — 국내 생산 역량&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Mining.com&lt;/p&gt;&lt;p&gt;미국 국방부가 희토류 무함유 철질화물(Iron Nitride) 영구자석 상용화를 추진 중인 니론 매그네틱스(Niron Magnetics)에 조건부 1억 5천만 달러 자금 지원을 약정했습니다. 본 기술은 희토류 핵심광물에 대한 공급망 의존도를 획기적으로 감소시킬 수 있을 것으로 기대됩니다. 미국의 국방·산업 분야 핵심광물 자립화 전략의 일환으로, 광물 대체 기술 개발에 대한 정부 투자가 확대되고 있음을 시사합니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;rare-earth-free permanent magnets&lt;/em&gt; — 희토류 무함유 영구자석&lt;/li&gt;&lt;li&gt;&lt;em&gt;conditional funding commitment&lt;/em&gt; — 조건부 자금 지원 약정&lt;/li&gt;&lt;li&gt;&lt;em&gt;commercializing critical mineral alternatives&lt;/em&gt; — 핵심광물 대체재의 상용화&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
