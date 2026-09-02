@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "KCMO/weekly/2026/KCMO Weekly 2026-W35.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "KCMO Weekly 2026-W35"
             }
           }
         ]
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "파일 탐색기"
@@ -194,32 +196,32 @@
   },
   "active": "296997c30c43162b",
   "lastOpenFiles": [
-    "희토류.md",
+    "KCMO/articles/2026/2026-05-08-인도네시아-니켈-하류산업-(정련·배터리·EV부품)-5658.md",
+    "KCMO/weekly/2026/KCMO Weekly 2026-W28.md",
     "README.md",
-    "articles/2026-07-05-안티몬-텅스텐-US-critical-minerals-push-reignites.md",
-    "articles/2026-07-04-리튬코발트니켈-공급망-전략-India-Charts-Path-Critical-Minerals.md",
-    "articles/2026-07-03-핵심광물-광물탐사투자-St-George-Mining-Draws-Interest.md",
-    "articles/2026-07-02-희토류-광상탐사-Gold-Mountain-extends-rare-earth.md",
-    "articles/2026-07-02-희토류-공급망-협력-Brazil-India-Memorandum-Understanding-Rare.md",
-    "articles/2026-07-02-핵심광물-자원-회복력-전략-Commission-partially-greenlights-Spain-s.md",
-    "articles/2026-07-02-리튬코발트니켈-공급망-정책-India-UK-Critical-Minerals-Global.md",
-    "articles/2026-07-02-리튬-남미-광물자원-FASTMARKETS-LITHIUM-SOUTH-AMERICA-Fastmarkets.md",
-    "articles/2026-07-02-리튬-가격평가지수-Delayed-publication-lithium-spot-CIF.md",
-    "articles/2026-06-30-리튬코발트니켈-공급안정성순환경제-Global-Critical-Minerals-Outlook-IEA.md",
-    "articles/2026-06-30-리튬코발트니켈-공급망-안보-정책-Why-Multi-Critical-Mineral-Projects.md",
-    "articles/2026-06-29-핵심광물-정책시장-Search-Introducing-Critical-Minerals-Policy.md",
-    "articles/2026-06-28-핵심광물-정책-모니터링-Search-Introducing-Critical-Minerals-Policy.md",
-    "articles/2026-06-27-희토류-공급망-안보-Critical-rare-earth-race-accelerate.md",
-    "articles/2026-06-27-해당없음-정책검토-Doorstep-Statement-Commissioner-Lahbib-Budapest.md",
-    "articles/2026-06-26-핵심광물-공급망-안정성-Canada-Japan-consider-critical-minerals.md",
-    "articles/2026-06-26-리튬-핵심광물-공급망-Geopolitics-critical-minerals-supply-chains.md",
-    "articles/2026-06-26-리튬-핵심광물-공급망-European-lithium-miner-eyes-secondary.md",
-    "KCMO/articles/2026/2026-07-09-베트남-텅스텐-Masan-High-Tech-Materials-64da.md",
-    "KCMO/articles/2026/2026-07-09-베트남-텅스텐-Masan-High-Tech-Materials-4cf4.md",
-    "KCMO/articles/2026/2026-07-09-베트남-텅스텐-MOIT-4394.md",
-    "KCMO/articles/2026/2026-07-09-몽골-희토류·리튬·코발트-MRPAM-3fff.md",
-    "KCMO/articles/2026/2026-07-09-몽골-희토류-텅스텐-620d.md",
-    "KCMO/articles/2026/2026-07-09-몽골-핵심광물-희토류-f499.md",
+    "articles/2026-08-30-인도-우즈베키스탄-India-Uzbekistan-agree-jointly-develop.md",
+    "articles/2026-08-29-흑연-무흑연-배터리-기술-graphite-free-battery-could-break.md",
+    "articles/2026-08-28-핵심광물-정부-개입공급망-안정화-Governments-become-deal-participants-criti.md",
+    "articles/2026-08-28-코발트-배터리산업핵심광물-공급망-Cobalt-February.md",
+    "articles/2026-08-28-니켈희토류-지속가능-채광-기술-NioCorp-taps-Railveyor-technology-Elk.md",
+    "articles/2026-08-27-에너지-전환-순환경제-Daily-News.md",
+    "articles/2026-08-27-리튬-핵심광물-수급-Lithium-price-BMI-raises-forecast.md",
+    "articles/2026-08-27-갈륨-희토류-원소-Spark-Reports-Second-Gallium-Rare.md",
+    "articles/2026-08-26-희토류원소-갈륨-US-Department-Energy-awards-M.md",
+    "articles/2026-08-26-희토류-습식야금-분리기술-Maglut-Heavy-Industries-unveils-US.md",
+    "articles/2026-08-26-에너지-정책-원자재-공급망-안정화-Commission-endorses-Greece-s-billion.md",
+    "articles/2026-08-24-니켈-구리-PGE-크롬-광화작용탐사지시자지구물리탐사-Targeted-Geoscience-Initiative.md",
+    "articles/2026-08-21-희토류-핵심광물-탐사-Saudi-Aramco-Ma-aden-Critical.md",
+    "articles/2026-08-21-희토류-탐사확대-Rare-earths-explorer-NIOB-granted.md",
+    "articles/2026-08-21-희토류-광물탐사허가-Greenland-Mines-gets-mineral-exploration.md",
+    "articles/2026-08-12-리튬-유럽-핵심광물-전략-Savannah-Resources-signs-agreements-local.md",
+    "articles/2026-08-10-에너지-정책-자원-공급망-Commission-greenlights-Poland-s-fifth.md",
+    "articles/2026-08-07-희토류-자석-기술-Niron-Magnetics-lands-conditional-M.md",
+    "articles/2026-08-07-리튬텅스텐칼륨염붕소-다중-광종-광상-PL-lithium-project-also-has.md",
+    "articles/2026-08-07-리튬-공급망-안정화-CleanTech-Lithium-Fastmarkets.md",
+    "articles/2026-08-07-니켈-핵심광물-공급망-Stellantis-considers-Indonesia-nickel-investment.md",
+    "articles/2026-08-06-핵심광물-공급망-정책-UK-opens-applications-M-critical.md",
+    "articles/2026-07-29-희토류-광화체-품위-분석-Rare-Earths-Americas-expands-footprint.md",
     "무제.canvas",
     "무제",
     "무제.base",
