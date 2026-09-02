@@ -1,0 +1,407 @@
+{
+  "week_of": "2026-08-02",
+  "generated_at": "2026-08-02T23:56:05.470315+00:00",
+  "total_cards": 12,
+  "articles": [
+    {
+      "title": "Op-Ed: Giving credit where it’s due — The US finally gets rare earth strategy",
+      "url": "https://www.mining.com/op-ed-giving-credit-where-its-due-the-us-finally-gets-rare-earth-strategy/",
+      "source": "Mining.com",
+      "tier_weight": 3,
+      "summary_raw": "Washington's latest rare earth investment signals a strategic shift toward processing economics over resource size.",
+      "published": "2026-07-31T15:17:00+00:00",
+      "score": 9,
+      "id": "7d98736350",
+      "korean_summary": "미국이 희토류 산업 전략을 근본적으로 전환하고 있으며, 매장량 확보보다 가공·정제 경제성에 중점을 두는 정책으로 선회하고 있음이 확인되었습니다. 이러한 투자 방향은 핵심광물 공급망에서 처리 기술과 인프라의 전략적 중요성을 반영하고 있습니다. 자원 부국 지위보다는 고부가가치 가공산업 육성을 통해 글로벌 핵심광물 시장에서의 경쟁력 확보를 목표로 하고 있을 것으로 전망됩니다.",
+      "english_phrases": [
+        {
+          "phrase": "processing economics",
+          "meaning": "광석 처리 및 정제 경제성; 광물 생산에서 광석 가공 단계의 경제적 타당성"
+        },
+        {
+          "phrase": "rare earth strategy",
+          "meaning": "희토류 산업의 종합적 정책 방향; 희토류 자급화 및 공급망 구축 전략"
+        },
+        {
+          "phrase": "strategic shift toward",
+          "meaning": "~으로의 정책적 전환; 우선순위 재편성을 통한 방향 변화"
+        }
+      ],
+      "tags": [
+        "희토류",
+        "가공·정제기술",
+        "미국"
+      ],
+      "category": "policy_market",
+      "ai_processed": true
+    },
+    {
+      "title": "Ottawa approves Canada Nickel’s Crawford mine",
+      "url": "https://www.mining.com/ottawa-approves-canada-nickels-crawford-mine/",
+      "source": "Mining.com",
+      "tier_weight": 3,
+      "summary_raw": "The federal approval paves the way for a construction decision next year amid Canada's push to accelerate critical minerals development.",
+      "published": "2026-07-31T11:12:43+00:00",
+      "score": 9,
+      "id": "89d658d083",
+      "korean_summary": "캐나다 연방정부가 캐나다니켈의 크로포드 광산 개발을 승인함에 따라 2025년 건설 의사결정의 길이 열렸습니다. 본 승인은 캐나다가 핵심광물 개발을 가속화하려는 국가 전략의 일환으로 추진되고 있습니다. 이는 북미의 핵심광물 공급망 자립화를 위한 중요한 이정표로 평가됩니다.",
+      "english_phrases": [
+        {
+          "phrase": "federal approval paves the way for construction decision",
+          "meaning": "연방정부 승인이 건설 의사결정의 길을 열다"
+        },
+        {
+          "phrase": "accelerate critical minerals development",
+          "meaning": "핵심광물 개발을 가속화하다"
+        },
+        {
+          "phrase": "nickel mining project authorization",
+          "meaning": "니켈 광산 프로젝트 인가"
+        }
+      ],
+      "tags": [
+        "니켈",
+        "핵심광물 개발정책",
+        "캐나다"
+      ],
+      "category": "policy_market",
+      "ai_processed": true
+    },
+    {
+      "title": "Emerita Resources takes Lithium Ionic dispute to court",
+      "url": "https://www.mining.com/emerita-resources-takes-lithium-ionic-dispute-to-court/",
+      "source": "Mining.com",
+      "tier_weight": 3,
+      "summary_raw": "Battle over Brazilian lithium assets shifts to Ontario court, with both companies defending competing claims.",
+      "published": "2026-07-31T10:44:00+00:00",
+      "score": 7,
+      "id": "bf05a11906",
+      "korean_summary": "브라질 리튬 자산을 둘러싼 에메리타 리소스와 리튬이온의 분쟁이 온타리오 법원으로 확대되었으며, 양사가 상충하는 권리 주장을 두고 법적 다툼을 벌이고 있음이 확인되었습니다. 본 사건은 핵심광물 개발에 있어 자산 소유권과 탐광권 확보의 중요성을 부각시키고 있습니다. 브라질의 풍부한 리튬 매장량을 둘러싼 경쟁이 심화될 것으로 전망되며, 광물 자원 개발의 법적·제도적 틀 강화의 필요성이 대두되고 있습니다.",
+      "english_phrases": [
+        {
+          "phrase": "competing claims",
+          "meaning": "상충하는 권리 주장 / 경합되는 광업권 청구"
+        },
+        {
+          "phrase": "lithium assets dispute",
+          "meaning": "리튬 자산 분쟁 / 리튬 광산권 다툼"
+        },
+        {
+          "phrase": "shift to court",
+          "meaning": "법원으로 사건 이송 / 법적 분쟁으로 확대"
+        }
+      ],
+      "tags": [
+        "리튬",
+        "핵심광물 개발권",
+        "브라질·캐나다"
+      ],
+      "category": "policy_market",
+      "ai_processed": true
+    },
+    {
+      "title": "South32 breaks decade-long US permit curse at Arizona project",
+      "url": "https://www.mining.com/south32-breaks-decade-long-us-permit-curse-at-arizona-project/",
+      "source": "Mining.com",
+      "tier_weight": 3,
+      "summary_raw": "Hermosa became the first Arizona mining project to complete the FAST-41 process, offering a blueprint for faster US critical minerals development.",
+      "published": "2026-07-29T14:46:23+00:00",
+      "score": 5,
+      "id": "6144ab7c7b",
+      "korean_summary": "South32의 허모사(Hermosa) 프로젝트가 미국 FAST-41 허가 절차를 완료한 첫 번째 애리조나 광산 프로젝트로 기록되어, 10년대의 미국 광산 허가 지연 문제를 획기적으로 해결할 수 있는 모범 사례를 제시하였습니다. 이는 미국의 핵심광물 개발 촉진을 위한 제도적 개선이 실질적 효과를 발휘하고 있음을 의미하며, 향후 미국 내 핵심광물 프로젝트의 허가 기간 단축에 청사진을 제공할 전망입니다. 국내 자원개발 정책 수립 시 미국의 규제 개선 사례가 참고 자료로 활용될 수 있을 것으로 기대됩니다.",
+      "english_phrases": [
+        {
+          "phrase": "complete the FAST-41 process",
+          "meaning": "FAST-41 (Federal Permitting and Review of Infrastructure Projects Act) 절차를 완료하다; 연방 광산 허가의 신속 승인 제도를 통과하다"
+        },
+        {
+          "phrase": "break decade-long permit curse",
+          "meaning": "10년 이상 지속되어온 광산 허가 지연 문제를 해결하다; 장기간의 규제 병목 현상을 극복하다"
+        },
+        {
+          "phrase": "offer a blueprint for faster critical minerals development",
+          "meaning": "핵심광물 개발 촉진을 위한 제도적 모범 사례 및 실행 방안을 제시하다; 다른 프로젝트가 따를 수 있는 성공적 허가 절차의 표준을 마련하다"
+        }
+      ],
+      "tags": [
+        "구리·아연·망간",
+        "광산허가제도(FAST-41)",
+        "미국·애리조나"
+      ],
+      "category": "policy_market",
+      "ai_processed": true
+    },
+    {
+      "title": "US Department of Energy shortlists five states for nuclear sites",
+      "url": "https://www.mining.com/u-s-department-of-energy-shortlists-five-states-for-nuclear-sites/",
+      "source": "Mining.com",
+      "tier_weight": 3,
+      "summary_raw": "Agreements with Tennessee, Utah, Louisiana, Idaho, and Oklahoma advance efforts to store nearly 100,000 metric tons of spent nuclear fuel.",
+      "published": "2026-07-28T23:56:54+00:00",
+      "score": 5,
+      "id": "9c2dcb07ce",
+      "korean_summary": "미국 에너지부가 테네시, 유타, 루이지애나, 아이다호, 오클라호마 5개 주와 협약을 체결하여 사용후핵연료 약 10만 메트릭톤의 저장소 부지 선정을 진전시켰음이 확인되었습니다. 이는 미국의 장기 핵연료 관리 정책의 구체화를 의미하며, 핵심광물 자원 안보와 에너지 정책의 통합 추진 전략으로 평가됩니다. 선정된 부지들의 지질학적 안정성 평가 및 지역사회 수용성 확보가 향후 추진의 핵심 과제로 전망됩니다.",
+      "english_phrases": [
+        {
+          "phrase": "advanced efforts to store spent nuclear fuel",
+          "meaning": "사용후핵연료 저장 사업 추진 노력 진전"
+        },
+        {
+          "phrase": "shortlist for nuclear waste disposal sites",
+          "meaning": "핵폐기물 처분 부지 선정 과정"
+        },
+        {
+          "phrase": "state-federal agreements on energy infrastructure",
+          "meaning": "에너지 인프라 관련 연방정부와 주(State) 간 협약"
+        }
+      ],
+      "tags": [
+        "사용후핵연료",
+        "핵에너지정책",
+        "미국"
+      ],
+      "category": "policy_market",
+      "ai_processed": true
+    },
+    {
+      "title": "Rare Earths Americas expands footprint at Shiloh project in Georgia",
+      "url": "https://www.mining.com/rare-earths-americas-expands-footprint-at-shiloh-project-in-georgia/",
+      "source": "Mining.com",
+      "tier_weight": 3,
+      "summary_raw": "In June, drilling and surface sampling at Shiloh ran up to 44.5% TREO.",
+      "published": "2026-07-29T22:39:29+00:00",
+      "score": 8,
+      "id": "79c0a6570c",
+      "korean_summary": "미국 조지아주 Shiloh 프로젝트에서 Rare Earths Americas가 시추 및 표면 샘플링을 통해 44.5%의 TREO(Total Rare Earth Oxide) 품위를 기록하며 탐사 성과를 거두었습니다. 본 결과는 북미 지역 핵심광물 자급능력 강화에 기여할 수 있는 중요한 발견으로 평가됩니다. 향후 추가 탐사를 통한 자원량 확대 및 경제성 평가가 진행될 전망입니다.",
+      "english_phrases": [
+        {
+          "phrase": "Total Rare Earth Oxide (TREO) assay results",
+          "meaning": "희토류산화물 총량(TREO) 분석 결과"
+        },
+        {
+          "phrase": "drilling and surface sampling program",
+          "meaning": "시추 및 표면 샘플링 조사 프로그램"
+        },
+        {
+          "phrase": "expand footprint at the project",
+          "meaning": "프로젝트 지역의 탐사 범위 확대"
+        },
+        {
+          "phrase": "critical mineral resource development in North America",
+          "meaning": "북미 지역 핵심광물 자원 개발"
+        }
+      ],
+      "tags": [
+        "희토류",
+        "광화체 품위 분석",
+        "미국 조지아주"
+      ],
+      "category": "discovery",
+      "ai_processed": true
+    },
+    {
+      "title": "Perpetua Resources, US Army and Idaho National Laboratory launch antimony pilot plant",
+      "url": "https://www.mining.com/perpetua-resources-us-army-and-idaho-national-laboratory-launch-antimony-pilot-plant/",
+      "source": "Mining.com",
+      "tier_weight": 3,
+      "summary_raw": "Perpetua's Stibnite Gold project aims to add antimony to the US supply chain.",
+      "published": "2026-07-30T21:11:49+00:00",
+      "score": 10,
+      "id": "eb7b856ec5",
+      "korean_summary": "Perpetua Resources가 미육군, 아이다호 국립연구소와 함께 안티모니 파일럿 플랜트를 구축하여 미국의 핵심광물 공급망 다변화를 추진하고 있습니다. Stibnite Gold 프로젝트를 통해 국내 안티모니 생산 기반을 확보함으로써 중국의 공급 의존도를 감소시킬 것으로 기대됩니다. 이는 국방산업의 안정적인 핵심광물 확보와 경제안보를 동시에 실현하는 전략으로 평가되고 있습니다.",
+      "english_phrases": [
+        {
+          "phrase": "critical minerals supply chain",
+          "meaning": "핵심광물 공급망"
+        },
+        {
+          "phrase": "pilot plant operation",
+          "meaning": "파일럿 규모 시설 운영"
+        },
+        {
+          "phrase": "domestic production capability",
+          "meaning": "국내 생산 역량"
+        },
+        {
+          "phrase": "strategic mineral security",
+          "meaning": "전략광물 보안/안정성"
+        },
+        {
+          "phrase": "value-added processing",
+          "meaning": "부가가치 창출 공정"
+        }
+      ],
+      "tags": [
+        "안티모니",
+        "핵심광물 공급망 자립화",
+        "미국"
+      ],
+      "category": "supply_chain",
+      "ai_processed": true
+    },
+    {
+      "title": "Equinox hands CEO job to Orla’s Simpson",
+      "url": "https://www.mining.com/equinox-hands-ceo-job-to-orlas-simpson/",
+      "source": "Mining.com",
+      "tier_weight": 3,
+      "summary_raw": "Move reverses a leadership plan set when the companies agreed to merge in May.",
+      "published": "2026-07-31T19:52:00+00:00",
+      "score": 7,
+      "id": "8db47616fb",
+      "korean_summary": "이퀴녹스와 올라 광업이 5월 합병을 합의할 당시 수립한 경영진 계획이 변경되었으며, 올라의 심슨(Simpson)이 통합 회사의 CEO 직무를 맡게 되었음이 확인되었습니다. 이번 인사 결정은 핵심광물 산업의 주요 기업 간 M&A 과정에서 경영 구조 조정이 진행 중임을 보여줍니다. 향후 통합 회사의 핵심광물 공급망 전략 수립과 운영 효율성 개선이 주목될 전망입니다.",
+      "english_phrases": [
+        {
+          "phrase": "reverses a leadership plan",
+          "meaning": "당초 수립한 경영진 계획을 변경하다"
+        },
+        {
+          "phrase": "merge agreement",
+          "meaning": "합병 합의 (M&A 계약)"
+        },
+        {
+          "phrase": "CEO succession",
+          "meaning": "최고경영자(CEO) 후임자 결정"
+        }
+      ],
+      "tags": [
+        "니켈·코발트",
+        "기업인수합병(M&A)",
+        "북미"
+      ],
+      "category": "supply_chain",
+      "ai_processed": true
+    },
+    {
+      "title": "IMC Rare Earths debuts on NYSE American",
+      "url": "https://www.mining.com/imc-rare-earths-debuts-on-nyse-american/",
+      "source": "Mining.com",
+      "tier_weight": 3,
+      "summary_raw": "IMC is advancing the Itarantim project, a large-scale ionic adsorption clay deposit in northeastern Brazil.",
+      "published": "2026-07-30T22:37:23+00:00",
+      "score": 7,
+      "id": "349a79b19d",
+      "korean_summary": "브라질 북동부 이타란팀(Itarantim) 광상의 이온흡착점토(ionic adsorption clay) 광상을 개발하는 IMC Rare Earths가 NYSE American에 상장되어 글로벌 핵심광물 공급망 다변화에 기여할 전망입니다. 이온흡착점토는 저비용 침출공정으로 희토류원소를 회수할 수 있어 차세대 희토류 생산기술로 주목받고 있습니다. 브라질의 광물자원 개발 역량 강화와 중국 의존도 완화를 위한 전략적 프로젝트로 평가됩니다.",
+      "english_phrases": [
+        {
+          "phrase": "ionic adsorption clay deposit",
+          "meaning": "이온흡착점토 광상(흡착광석에서 희토류 원소를 용침으로 추출하는 광상)"
+        },
+        {
+          "phrase": "critical minerals supply chain diversification",
+          "meaning": "핵심광물 공급망 다원화"
+        },
+        {
+          "phrase": "rare earth recovery",
+          "meaning": "희토류원소 회수·추출"
+        }
+      ],
+      "tags": [
+        "희토류(REE)",
+        "이온흡착점토",
+        "브라질"
+      ],
+      "category": "supply_chain",
+      "ai_processed": true
+    },
+    {
+      "title": "GBM agrees to buy Lomiko Metals to add Quebec graphite project",
+      "url": "https://www.mining.com/gbm-agrees-to-buy-lomiko-to-add-quebec-graphite-project/",
+      "source": "Mining.com",
+      "tier_weight": 3,
+      "summary_raw": "Global Battery Materials will acquire Lomiko Metals in an $11M all-share deal, gaining Quebec’s La Loutre graphite project as shares surge.",
+      "published": "2026-07-29T22:00:00+00:00",
+      "score": 7,
+      "id": "eaebc0514f",
+      "korean_summary": "글로벌배터리머티리얼스(GBM)가 로미코메탈스를 1,100만 달러의 전액주식 거래로 인수하여 캐나다 퀘벡주의 라루트르 흑연 프로젝트를 확보하게 되었습니다. 본 거래는 전기차 및 배터리 산업에서 수요가 급증하는 흑연 공급망 확보 전략의 일환으로 평가됩니다. 캐나다 내 핵심광물 자원 개발 활성화로 북미 공급망 다각화가 가속될 전망입니다.",
+      "english_phrases": [
+        {
+          "phrase": "all-share deal",
+          "meaning": "전액주식 거래 (현금 없이 주식만으로 진행하는 기업 인수 합병)"
+        },
+        {
+          "phrase": "graphite project acquisition",
+          "meaning": "흑연 프로젝트 인수 (핵심광물 공급망 확보 전략)"
+        },
+        {
+          "phrase": "critical mineral supply chain",
+          "meaning": "핵심광물 공급망 (전기차·배터리 산업의 핵심 가치사슬)"
+        }
+      ],
+      "tags": [
+        "흑연",
+        "기업인수합병(M&A)",
+        "캐나다"
+      ],
+      "category": "supply_chain",
+      "ai_processed": true
+    },
+    {
+      "title": "Rock Tech Lithium secures 100,000‑tonne Transamine pact",
+      "url": "https://www.mining.com/rock-tech-lithium-secures-100000%e2%80%91tonne-transamine-pact/",
+      "source": "Mining.com",
+      "tier_weight": 3,
+      "summary_raw": "Offtake agreement includes a framework for a development prepayment facility of up to $80 million to support the Georgia Lake project.",
+      "published": "2026-07-28T21:00:00+00:00",
+      "score": 7,
+      "id": "9c3bdc361b",
+      "korean_summary": "록테크 리튬(Rock Tech Lithium)이 트랜스아민(Transamine)과 10만 톤 규모의 리튬 구매계약을 체결하였으며, 이는 조지아 레이크(Georgia Lake) 프로젝트의 개발을 지원하기 위한 최대 8,000만 달러 규모의 선급금 조성 프레임워크를 포함하고 있습니다. 본 계약은 북미 지역 핵심광물 공급망 구축의 중요한 이정표로 평가되고 있습니다. 선급금 지원 방식의 도입은 핵심광물 프로젝트의 자금 조달 모델 다각화를 시사하는 바입니다.",
+      "english_phrases": [
+        {
+          "phrase": "offtake agreement",
+          "meaning": "구매계약; 광물·에너지 생산물의 선매매 계약"
+        },
+        {
+          "phrase": "development prepayment facility",
+          "meaning": "개발 선급금 지원 프레임워크; 사업 개발 단계에서의 사전 자금 지원 체계"
+        },
+        {
+          "phrase": "critical minerals supply chain",
+          "meaning": "핵심광물 공급망; 핵심광물의 채굴에서 가공·유통까지의 통합 공급체계"
+        }
+      ],
+      "tags": [
+        "리튬",
+        "공급계약",
+        "캐나다"
+      ],
+      "category": "supply_chain",
+      "ai_processed": true
+    },
+    {
+      "title": "Titan Mining secures graphite supply deal with US aerospace and defense manufacturer",
+      "url": "https://www.mining.com/titan-mining-secures-graphite-supply-deal-with-us-aerospace-and-defense-manufacturer/",
+      "source": "Mining.com",
+      "tier_weight": 3,
+      "summary_raw": "Titan commenced graphite concentrate production at its demonstration facility in New York state, marking the first US production of the material in decades.",
+      "published": "2026-07-29T21:09:21+00:00",
+      "score": 5,
+      "id": "83bc0c4509",
+      "korean_summary": "타이탄 마이닝이 뉴욕주의 시연 시설에서 흑연 농축광 생산을 개시하여 수십 년 만에 미국 내 흑연 생산을 재개하였습니다. 동사는 미국 항공우주·방위산업 제조업체와의 공급 계약을 확보함으로써 국가 핵심광물 공급망 자립화에 기여할 전망입니다. 이는 미국의 핵심광물 채굈·가공 인프라 구축 추진과 동맥을 같이하는 사례로 평가됩니다.",
+      "english_phrases": [
+        {
+          "phrase": "graphite concentrate production",
+          "meaning": "흑연 농축광 생산"
+        },
+        {
+          "phrase": "demonstration facility",
+          "meaning": "시연(실증) 시설"
+        },
+        {
+          "phrase": "critical mineral supply chain independence",
+          "meaning": "핵심광물 공급망 자립화"
+        },
+        {
+          "phrase": "domestic production capacity",
+          "meaning": "국내 생산 역량"
+        }
+      ],
+      "tags": [
+        "흑연",
+        "국내 공급망 구축",
+        "미국"
+      ],
+      "category": "supply_chain",
+      "ai_processed": true
+    }
+  ]
+}
