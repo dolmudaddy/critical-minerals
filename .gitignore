@@ -1,0 +1,10 @@
+# 개인 위키 (정제 지식 + 논문 PDF) — 공개 저장소에 올리지 않음
+vault/wiki/
+
+# Claude Code 로컬 설정
+vault/.claude/
+.claude/
+
+# Obsidian 워크스페이스 캐시 (개인 UI 상태)
+vault/.obsidian/workspace.json
+vault/.obsidian/workspace-mobile.json

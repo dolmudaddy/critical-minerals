@@ -1,0 +1,91 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1789368962056,
+  "projectRoot": "C:\\Users\\Seong-Jun Cho\\Documents\\GitHub\\critical-minerals",
+  "techStack": {
+    "languages": [
+      {
+        "name": "Python",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "requirements.txt"
+        ]
+      }
+    ],
+    "frameworks": [],
+    "packageManager": "pip",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "scripts"
+    ],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "data": {
+      "path": "data",
+      "purpose": "Data files",
+      "fileCount": 50,
+      "lastAccessed": 1789368962026,
+      "keyFiles": [
+        "archive-index.json",
+        "latest.json",
+        "raw-2026-05-07.json",
+        "raw-2026-05-08.json",
+        "raw-2026-05-10.json"
+      ]
+    },
+    "scripts": {
+      "path": "scripts",
+      "purpose": "Build/utility scripts",
+      "fileCount": 6,
+      "lastAccessed": 1789368962027,
+      "keyFiles": [
+        "build_index.py",
+        "collect.py",
+        "generate_markdown.py",
+        "generate_rss.py",
+        "send_email.py"
+      ]
+    },
+    "vault": {
+      "path": "vault",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1789368962027,
+      "keyFiles": [
+        "README.md"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "",
+      "accessCount": 3,
+      "lastAccessed": 1789370765135,
+      "type": "directory"
+    }
+  ],
+  "userDirectives": []
+}
