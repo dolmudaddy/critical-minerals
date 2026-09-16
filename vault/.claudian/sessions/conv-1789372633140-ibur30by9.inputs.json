@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1789372633140-ibur30by9",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789372633408-o5trgyk",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1789372633134-uidu6fs",
+      "timestamp": 1789372633134,
+      "rawDisplayText": "이번주 위키 정리해줘",
+      "canonicalText": "이번주 위키 정리해줘",
+      "images": [],
+      "contentDigest": "341328aba7562eaa62bca04c330e492d9436aebc8c5e01661e46bdd80b9fbeb0",
+      "providerUserMessageId": "1f556b94-8425-40db-bdac-351a3cd5598b"
+    }
+  ]
+}

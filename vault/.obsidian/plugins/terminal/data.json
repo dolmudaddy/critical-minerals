@@ -277,7 +277,7 @@
       "platforms": {
         "win32": true
       },
-      "pythonExecutable": "C:\\Python314\\python.exe",
+      "pythonExecutable": "python3",
       "restoreHistory": false,
       "rightClickAction": "copyPaste",
       "successExitCodes": [

@@ -1,0 +1,23 @@
+{
+  "id": "conv-1789372633140-ibur30by9",
+  "providerId": "claude",
+  "title": "Weekly wiki article curation",
+  "titleGenerationStatus": "success",
+  "createdAt": 1789372633153,
+  "lastActivityAt": 1789373263024,
+  "sessionId": "89696a18-5ec7-4d1f-8564-d85f61fbadf9",
+  "selectedModel": "opus",
+  "providerState": {
+    "providerSessionId": "89696a18-5ec7-4d1f-8564-d85f61fbadf9"
+  },
+  "usage": {
+    "model": "opus",
+    "inputTokens": 32,
+    "cacheCreationInputTokens": 25522,
+    "cacheReadInputTokens": 145320,
+    "contextWindow": 1000000,
+    "contextTokens": 170874,
+    "percentage": 17,
+    "contextWindowIsAuthoritative": true
+  }
+}
