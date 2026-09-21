@@ -1,7 +1,24 @@
 {
-  "total_weeks": 24,
-  "latest_week": "2026-09-14",
+  "total_weeks": 25,
+  "latest_week": "2026-09-21",
   "weeks": [
+    {
+      "week_of": "2026-09-21",
+      "filename": "week-2026-09-21.json",
+      "total_cards": 12,
+      "category_counts": {
+        "policy_market": 3,
+        "supply_chain": 9
+      },
+      "top_tags": [
+        "미국",
+        "핵심광물",
+        "공급망 안정화",
+        "핵심광물 처리",
+        "공급망 안보"
+      ],
+      "generated_at": "2026-09-21T00:45:27.688377+00:00"
+    },
     {
       "week_of": "2026-09-14",
       "filename": "week-2026-09-14.json",
