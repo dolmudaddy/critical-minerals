@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/중국-라오스-희토류-정책.md",
-                "mode": "source",
+                "file": "wiki/글로벌-희토류-공급망-다변화.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "중국-라오스-희토류-정책"
+              "title": "글로벌-희토류-공급망-다변화"
             }
           }
         ]
@@ -179,7 +179,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,6 +197,21 @@
   },
   "active": "6eae3ac8566d4cf6",
   "lastOpenFiles": [
+    "articles/2026-09-19-마그네슘-핵심광물-공급망-Magnesium-metal-supply-agreement-terminated.md",
+    "articles/2026-09-18-핵심광물-탄소포집저장-CCS-Speech-Commissioner-J-rgensen-inauguration.md",
+    "articles/2026-09-18-알루미늄리튬텅스텐바나듐-폐광산-정화광물-회수도시광업-US-DOE-looks-industry-critical.md",
+    "articles/2026-09-18-망간-핵심광물-Manganese-March.md",
+    "articles/2026-09-18-금-Au-광산인허가규제-Gold-tariff-proof-Canada-has.md",
+    "articles/2026-09-17-희토류구리안티몬-자원포트폴리오-다각화-Rinehart-s-nine-deal-spree.md",
+    "articles/2026-09-17-희토류-희토류자석-Neo-begins-commercial-shipments-Estonia.md",
+    "articles/2026-09-17-핵심광물-처리-공급망-안보-Pentagon-backs-ReElement-Technologies-US.md",
+    "articles/2026-09-17-탄탈륨-광산재개발-US-Critical-Minerals-merges-Nova.md",
+    "articles/2026-09-17-리튬-염수-광상-Green-River-lithium-project-US.md",
+    "articles/2026-09-17-니켈-라테라이트-광석-Correction-assessment-Indonesian-domestic-trade.md",
+    "articles/2026-09-17-게르마늄-공급망-안정화-Korea-Zinc-Lockheed-Martin-sign.md",
+    "KCMO/articles/2026/2026-04-29-베트남-광물-기술협력-KIAT-c9f7.md",
+    "KCMO/articles/2026/2026-04-25-몽골-우라늄-카자흐스탄-e97c.md",
+    "wiki/중국-라오스-희토류-정책.md",
     "wiki/for claude.zip",
     "KCMO/weekly/2026/KCMO Weekly 2026-W38.md",
     "KCMO/articles/2026/2026-09-20-몽골-인력양성-채광기술-c523.md",
@@ -206,32 +222,4 @@
     "KCMO/articles/2026/2026-09-14-우즈베키스탄-핵심광물-한-우즈-협력-0421.md",
     "KCMO/articles/2026/2026-09-14-우즈베키스탄-핵심광물-특별전략동반자-9cbd.md",
     "KCMO/articles/2026/2026-09-14-우즈베키스탄-핵심광물-우라늄-d73c.md",
-    "KCMO/articles/2026/2026-09-14-우즈베키스탄-핵심광물-우라늄-1122.md",
-    "KCMO/articles/2026/2026-09-14-우즈베키스탄-핵심광물-KIAT-c4da.md",
-    "KCMO/articles/2026/2026-09-14-우즈베키스탄-구리-금-d557.md",
-    "KCMO/articles/2026/2026-09-14-우즈베키스탄-광물협력-경제협력-7ae3.md",
-    "KCMO/articles/2026/2026-09-13-카자흐스탄-핵심광물-우라늄-7206.md",
-    "KCMO/articles/2026/2026-09-11-우즈베키스탄-희토류-핵심광물-c08f.md",
-    "KCMO/articles/2026/2026-09-09-베트남-텅스텐-Masan-HTM-c9a0.md",
-    "KCMO/articles/2026/2026-08-25-몽골-MRPAM-중국-몽골-관계-9dbe.md",
-    "KCMO/articles/2026/2026-08-21-탄자니아-흑연-STAMICO-b2bd.md",
-    "wiki/중국-희토류-해외자원-확장.md",
-    "wiki/중국-희토류-수출통제.md",
-    "wiki/log.md",
-    "wiki/희토류-분리정제.md",
-    "wiki/ODA-협력국-광물자원-동향.md",
-    "wiki/몽골-희토류-협력.md.tmp.18692.ef08237784d9",
-    "wiki/EU-핵심광물-공동비축.md",
-    "wiki/log.md.tmp.18692.6c5dc6e6f337",
-    "wiki/리튬-시장-정책-동향.md",
-    "wiki/리튬-시장-정책-동향.md.tmp.18692.a30011e6bf5b",
-    "무제.base",
-    "무제 1.base",
-    "무제.canvas",
-    "무제",
-    "KCMO/weekly/2026",
-    "KCMO/articles/2026",
-    "KCMO/weekly",
-    "KCMO/articles"
-  ]
-}
+    "KCMO/articles/2026/2026-09-14-우즈베키�
