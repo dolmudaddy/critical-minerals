@@ -1,9 +1,9 @@
 ---
 id: 951c0050c9a0
 title: Masan High-Tech Materials mở rộng vai trò trong chuỗi cung ứng vonfram toàn cầu - Baodautu.vn
-title_ko: 베트남 Masan High-Tech Materials가 글로벌 텅스텐 공급망에서 역할 확대 중임
+title_ko: "베트남 Masan High-Tech Materials, 글로벌 텅스텐 공급망에서 역할 확대"
 date: 2026-09-09
-week: 2026-W39
+week: 2026-W40
 country: 베트남
 country_en: Vietnam
 category: supply_chain_trade
@@ -22,8 +22,8 @@ tags:
 related:
   - "[[KIAT]]"
   - "[[MOIT]]"
-  - "[[MOTIE]]"
   - "[[공급망]]"
+  - "[[공급망 다변화]]"
   - "[[기술협력]]"
   - "[[베트남]]"
   - "[[베트남 텅스텐]]"
@@ -39,33 +39,33 @@ related:
 
 ## 한국어 요약
 
-- [[베트남]] Masan High-Tech Materials가 글로벌 [[텅스텐]] [[공급망]]에서 역할 확대 중임
-- 구체적 사업 규모·일정·파트너 정보는 기사 본문 부재로 확인 불가
-- [[베트남]] [[핵심광물]] [[공급망]] 강화와 [[한국]]의 자원 다변화 협력 기회 제시
+- [[베트남]] Masan High-Tech Materials, 글로벌 [[텅스텐]] [[공급망]]에서 역할 확대
+- Masan High-Tech Materials가 국제 [[텅스텐]] 산업에서 전략적 위상 강화 추진 중
+- [[베트남]] [[핵심광물]] 산업 육성과 [[한국]]의 [[공급망 다변화]] 기회 제시
 
 ## 한국 ODA 시사점
 
-> [[베트남]] [[텅스텐]] 산업의 고도화 추세로, [[MOTIE]]·[[KIAT]]의 [[베트남]] 광물자원 협력 전략 재점검 및 Masan 같은 현지 유력 기업과의 [[기술협력]]·투자 연계 검토 필요
+> [[베트남]]의 [[텅스텐]] 정제·가공 역량 강화는 [[한국]]의 [[공급망]] 안정화 전략과 부합. [[KIAT]]의 [[베트남]] 자원개발협력 사업에서 Masan 같은 현지 기업과의 [[기술협력]] 확대 검토 가치 있음.
 
 ## 원문 핵심 표현 (vi)
 
 | 원문 | 한국어 |
 |---|---|
-| Masan High-Tech Materials mở rộng vai trò trong chuỗi cung ứng vonfram toàn cầu | Masan High-Tech Materials가 글로벌 텅스텐 공급망에서의 역할을 확대함 |
-| chuỗi cung ứng vonfram | 텅스텐 공급망 |
-| mở rộng vai trò | 역할 확대, 비중 증가 |
+| chuỗi cung ứng vonfram toàn cầu | 글로벌 텅스텐 공급망 |
+| mở rộng vai trò | 역할 확대·강화 |
+| Masan High-Tech Materials | 베트남의 고기술 소재 전문 기업 |
 
 ## 관련 개념
 
 - **국가**: [[베트남]] · [[한국]]
 - **광종**: [[텅스텐]]
-- **한국 기관**: [[KIAT]] · [[MOTIE]]
+- **한국 기관**: [[KIAT]]
 - **협력국 기관**: [[MOIT]]
-- **정책**: [[공급망]] · [[기술협력]] · [[핵심광물]]
+- **정책**: [[공급망]] · [[공급망 다변화]] · [[기술협력]] · [[핵심광물]]
 - **협력 노드**: [[베트남 텅스텐]]
 
 ---
 
 **원문 보기**: <https://news.google.com/rss/articles/CBMisgFBVV95cUxQcnJLR0l1U182TTV1aWVNeC1uMXFjbkhGM01zMlNFSHpnNXFUeC1DMDEwcUdkdDloYWJuRUlUOFRWejR4aEN3WkktbTh1V3NHWVJNTUc4V2hpLWhtLXlzaGtyaU1uR2xndWh3azNZZVBiQ0ZTVTRKNzFoT3RkVGwwVGlWSm90dFB2dlRfOW1xUjhoLWJKUkZDWVNNTWp5MzZNOTBWZ0RuSDlyY3VvUmF2VXlB?oc=5>
 
-*KCMO Weekly 자동 생성, 2026-W39 (id: `951c0050c9a0`)*
+*KCMO Weekly 자동 생성, 2026-W40 (id: `951c0050c9a0`)*
