@@ -1,7 +1,27 @@
 {
-  "total_weeks": 26,
-  "latest_week": "2026-09-28",
+  "total_weeks": 27,
+  "latest_week": "2026-10-05",
   "weeks": [
+    {
+      "week_of": "2026-10-05",
+      "filename": "week-2026-10-05.json",
+      "total_cards": 12,
+      "category_counts": {
+        "policy_market": 2,
+        "exploration_tech": 1,
+        "discovery": 1,
+        "supply_chain": 5,
+        "research": 3
+      },
+      "top_tags": [
+        "핵심광물",
+        "그린란드",
+        "바나듐",
+        "에너지전환 정책",
+        "공급망 안정화"
+      ],
+      "generated_at": "2026-10-05T01:28:59.652836+00:00"
+    },
     {
       "week_of": "2026-09-28",
       "filename": "week-2026-09-28.json",
