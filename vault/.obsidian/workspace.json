@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/희토류-탐사.md",
+                "file": "wiki/ODA-협력국-광물자원-동향.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "희토류-탐사"
+              "title": "ODA-협력국-광물자원-동향"
             }
           }
         ]
@@ -197,9 +197,21 @@
   },
   "active": "6eae3ac8566d4cf6",
   "lastOpenFiles": [
+    "wiki/LS-희토류-금속-자석-밸류체인.md",
+    "wiki/EU-핵심광물-공동비축.md",
+    "wiki/희토류-탐사.md",
+    "wiki/희토류-재활용-도시광산.md",
+    "wiki/희토류-이온흡착형-광상.md",
+    "wiki/희토류-원위치침출-모델링.md",
+    "wiki/희토류-채광-선광.md",
+    "wiki/IEA-핵심광물-전망-2026.md",
+    "wiki/희토류-원위치침출-모델링.md.tmp.36224.09b00ac6d79c",
+    "wiki/raw/paper/Migration of ammonium nitrogen in ion absorbed rare earth soils during and post in situ mining a column study and numerical simulation analysis.pdf",
+    "wiki/raw/paper/A reactive transport model for in-situ leaching of weathered crust.pdf",
+    "wiki/raw/paper/Simulation of an Ionic Rare Earth Leaching Process Based on.pdf",
+    "wiki/raw/paper/GlobalCriticalMineralsOutlook2026.pdf",
     "wiki/sedVoBtpm",
     "wiki/sedz9l5We",
-    "wiki/LS-희토류-금속-자석-밸류체인.md",
     "articles/2026-09-25-텅스텐-광업개발-EQ-Resources-acquires-full-interest.md",
     "articles/2026-09-25-유럽-에너지-정책-회복탄력성기금-RRF-Commission-greenlights-Luxembourg-s-th.md",
     "articles/2026-09-24-희토류-광물처리-Rainbow-Rare-Earths-deal-Neo.md",
@@ -218,21 +230,9 @@
     "KCMO/articles/2026/2026-09-21-카자흐스탄-우라늄-카자톰프롬-60a7.md",
     "KCMO/articles/2026/2026-09-21-인도네시아-인도네시아-광물시장-ESDM-f586.md",
     "KCMO/articles/2026/2026-09-21-인도네시아-ESDM-니켈·코발트-f586.md",
-    "KCMO/articles/2026/2026-09-20-카자흐스탄-한국-중앙아시아-협력-핵심광물-0e3b.md",
-    "KCMO/articles/2026/2026-09-20-카자흐스탄-중앙아시아-핵심광물-0e3b.md",
-    "KCMO/articles/2026/2026-09-19-인도네시아-니켈-ESDM-99c4.md",
-    "KCMO/articles/2026/2026-09-17-카자흐스탄-핵심광물-우즈베키스탄-c950.md",
-    "KCMO/articles/2026/2026-09-17-카자흐스탄-핵심광물-기술협력-40b8.md",
-    "KCMO/articles/2026/2026-09-17-카자흐스탄-우라늄-알루미나-40b8.md",
     "wiki/for claude.zip",
     "wiki/몽골-희토류-협력.md.tmp.18692.ef08237784d9",
     "wiki/log.md.tmp.18692.6c5dc6e6f337",
-    "wiki/리튬-시장-정책-동향.md.tmp.18692.a30011e6bf5b",
-    "무제.base",
-    "무제 1.base",
-    "무제.canvas",
-    "무제",
-    "KCMO/weekly/2026",
-    "KCMO/articles/2026"
+    "무제.canvas"
   ]
 }
