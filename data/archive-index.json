@@ -1,7 +1,25 @@
 {
-  "total_weeks": 27,
-  "latest_week": "2026-10-05",
+  "total_weeks": 28,
+  "latest_week": "2026-10-12",
   "weeks": [
+    {
+      "week_of": "2026-10-12",
+      "filename": "week-2026-10-12.json",
+      "total_cards": 12,
+      "category_counts": {
+        "policy_market": 5,
+        "exploration_tech": 1,
+        "supply_chain": 6
+      },
+      "top_tags": [
+        "공급망 안정화",
+        "리튬",
+        "미국",
+        "핵심광물",
+        "유럽연합"
+      ],
+      "generated_at": "2026-10-12T02:00:03.126999+00:00"
+    },
     {
       "week_of": "2026-10-05",
       "filename": "week-2026-10-05.json",
