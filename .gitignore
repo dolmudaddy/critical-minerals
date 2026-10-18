@@ -11,3 +11,6 @@ vault/.obsidian/workspace-mobile.json
 
 # 본문 전문 캐시 (공개 저장소 커밋 금지). Obsidian Git 자동 백업이 vault/ 밖도 stage하므로 여기서 차단
 data/_cache/
+
+# oh-my-claudecode 로컬 세션 상태 (사용자별, 커밋 금지)
+.omc/
