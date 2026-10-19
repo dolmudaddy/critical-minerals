@@ -1,0 +1,2 @@
+# regen.yml 전용 (리뉴얼 5단계 v2 재생성). 운영 weekly.yml은 requirements.txt를 그대로 쓴다
+mincore[summarize] @ git+https://github.com/dolmudaddy/minerals-core@v0.3.4
