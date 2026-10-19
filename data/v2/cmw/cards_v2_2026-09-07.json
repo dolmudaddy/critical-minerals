@@ -1,0 +1,2157 @@
+{
+ "schema_version": "card.v1",
+ "service": "cmw",
+ "week_of": "2026-09-07",
+ "generated_at": "2026-10-19T05:52:29+00:00",
+ "mincore_version": "0.3.6",
+ "model": "claude-sonnet-5-5",
+ "prompt_version": "v2.2",
+ "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+ "stats": {
+  "v1_articles": 12,
+  "cards": 12,
+  "excluded": 0,
+  "body_got": 10,
+  "body_rate": 0.833,
+  "original_link": 12,
+  "reader_proxy_used": 0,
+  "line_len": {
+   "lines": 32,
+   "median": 51.0,
+   "max": 85,
+   "over60": 11,
+   "over100": 0
+  },
+  "oda_filled": 7,
+  "usage": {
+   "claude-sonnet-5-5": {
+    "calls": 19,
+    "in": 54407,
+    "out": 15675
+   }
+  },
+  "cost_usd": 0.3983,
+  "body_status": {
+   "full": 9,
+   "partial": 1,
+   "title_only": 2
+  },
+  "body_source": {
+   "presscorner_api": 1,
+   "trafilatura": 9,
+   "none": 2
+  },
+  "resolve": {
+   "direct": 6,
+   "decoder": 6
+  },
+  "fail_reason": {},
+  "basis": {
+   "body": 10,
+   "title": 2
+  },
+  "retry_reason": {
+   "단위 환산 의심(만·억·조로 바꾸지 말고 원문 숫자·단위 그대로): ['102조']": 1,
+   "lines는 3줄이어야 함 (현재 4줄)": 4,
+   "JSON 파싱 실패: 문법 오류(Expecting value, 위치 184)": 1,
+   "JSON 파싱 실패: 문법 오류(Expecting ',' delimiter, 위치 313)": 1
+  },
+  "flags": {},
+  "model_used": {
+   "claude-sonnet-5-5": 12
+  }
+ },
+ "total": 12,
+ "cards": [
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "9062f6f52c19",
+   "title": "Commission adopts EU Guidelines on exclusionary abuses of dominance",
+   "title_norm": "commission adopts eu guidelines on exclusionary abuses of dominance",
+   "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1769",
+   "gnews_url": null,
+   "source": {
+    "name": "European Commission - Energy",
+    "domain": "ec.europa.eu",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-09-02",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:50:28+00:00",
+   "score": 10,
+   "body": {
+    "status": "full",
+    "chars": 4789,
+    "sha256": "d37b98b175d5a088539dd544007258f9e6c661e746967966681fd8caca02f364",
+    "source": "presscorner_api",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1769",
+    "strategies_tried": [
+     "presscorner_api"
+    ]
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "유럽연합 집행위원회가 지배적 사업자의 배제적 남용에 적용할 TFEU Article 102 가이드라인을 채택했음",
+     "약탈적 가격, 마진 압착, 배타적 거래, 공급 거절 등을 배제적 남용의 예로 들었음",
+     "2023년 3월 의견 요청을 시작으로 2024년 8월 공개 협의 등을 거친 3년 과정의 결과임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "three-year process",
+     "March 2023",
+     "August 2024"
+    ],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "EU",
+     "경쟁정책",
+     "지배적 지위 남용",
+     "TFEU Article 102",
+     "가이드라인"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "exclusionary abuses of dominance",
+      "meaning": "지배적 지위에 의한 배제적 남용"
+     },
+     {
+      "phrase": "predatory pricing",
+      "meaning": "약탈적 가격 책정"
+     },
+     {
+      "phrase": "margin squeeze",
+      "meaning": "마진 압착"
+     },
+     {
+      "phrase": "refusal to supply",
+      "meaning": "공급 거절"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:50:42+00:00",
+    "retry_reasons": [
+     "단위 환산 의심(만·억·조로 바꾸지 말고 원문 숫자·단위 그대로): ['102조']"
+    ],
+    "retry_tails": [
+     "ng\": \"약탈적 가격 책정\"},\n    {\"phrase\": \"margin squeeze\", \"meaning\": \"마진 압착\"},\n    {\"phrase\": \"refusal to supply\", \"meaning\": \"공급 거절\"}\n  ],\n  \"implication\": \"해당 없음\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "2924ddfc2e",
+     "v1_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1769",
+     "summary_raw": "European Commission Press release Brussels, 03 Sep 2026 The European Commission has today adopted Guidelines on the application of Article 102 of the Treaty on the Functioning of the European Union ('TFEU') to abusive exclusionary conduct by dominant companies. The adoption of the guidelines marks the end of a three-year process in which the Commission consulted extensively with stakeholders."
+    }
+   },
+   "v1": {
+    "korean_summary": "유럽연합 집행위원회는 지난 9월 3일 독점 기업의 배제적 남용행위에 관한 지침을 채택하였으며, 이는 3년간의 이해관계자 협의 과정을 거친 결과물로 확인되었음. 본 지침은 유럽연합 기능조약 제102조의 적용을 명확히 하여 핵심광물 등 전략적 자원의 공급망 안정성을 위한 규제 기반을 강화할 전망임. 이번 조치는 글로벌 핵심광물 수급 환경 변화에 대응하는 EU의 경쟁정책 현대화 노력으로 평가됨.",
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "경쟁정책·공급망 안정성",
+     "유럽연합"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "abusive exclusionary conduct by dominant companies",
+      "meaning": "지배적 지위에 있는 기업의 배제적 남용행위 (핵심광물 공급망 내 불공정 거래 관행)"
+     },
+     {
+      "phrase": "Guidelines on the application of Article 102 of the TFEU",
+      "meaning": "EU 기능조약 제102조 적용 지침 (경쟁법 집행 기준)"
+     },
+     {
+      "phrase": "stakeholder consultation process",
+      "meaning": "이해관계자 협의 절차 (광업계·수입업체·정부 간 정책 조율)"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "2924ddfc2e",
+    "title": "Commission adopts EU Guidelines on exclusionary abuses of dominance",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1769",
+    "source": "European Commission - Energy",
+    "tier_weight": 5,
+    "score": 10,
+    "published": "2026-09-02",
+    "korean_summary": [
+     "유럽연합 집행위원회가 지배적 사업자의 배제적 남용에 적용할 TFEU Article 102 가이드라인을 채택했음",
+     "약탈적 가격, 마진 압착, 배타적 거래, 공급 거절 등을 배제적 남용의 예로 들었음",
+     "2023년 3월 의견 요청을 시작으로 2024년 8월 공개 협의 등을 거친 3년 과정의 결과임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "EU",
+     "경쟁정책",
+     "지배적 지위 남용",
+     "TFEU Article 102",
+     "가이드라인"
+    ],
+    "ai_processed": true,
+    "card_id": "9062f6f52c19",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "three-year process",
+     "March 2023",
+     "August 2024"
+    ],
+    "quotes": [],
+    "summary_raw": "European Commission Press release Brussels, 03 Sep 2026 The European Commission has today adopted Guidelines on the application of Article 102 of the Treaty on the Functioning of the European Union ('TFEU') to abusive exclusionary conduct by dominant companies. The adoption of the guidelines marks the end of a three-year process in which the Commission consulted extensively with stakeholders.",
+    "english_phrases": [
+     {
+      "phrase": "exclusionary abuses of dominance",
+      "meaning": "지배적 지위에 의한 배제적 남용"
+     },
+     {
+      "phrase": "predatory pricing",
+      "meaning": "약탈적 가격 책정"
+     },
+     {
+      "phrase": "margin squeeze",
+      "meaning": "마진 압착"
+     },
+     {
+      "phrase": "refusal to supply",
+      "meaning": "공급 거절"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "39b83ebade12",
+   "title": "Poland Critical Minerals Exploration Program Explained - Rare Earth Exchanges",
+   "title_norm": "poland critical minerals exploration program explained",
+   "url": "https://rareearthexchanges.com/news/poland-critical-minerals-exploration-kppsk",
+   "gnews_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPTjJydWJjdFJxY1NfQWhuXzlfUENwejFMSmc4Y3RDblh0RG80X2Q4Rmtwek5oQU9VaVVDb2JCZDIyeU11ZklZZktKY1lTY2FDZmdxTEI4dnlwZWl0U2w2ZEw0eXdJYzJiQjR4UmIzd2xiN1kxZ3NNVE5GQ1JtTjRfd3RlRmx3UQ?oc=5",
+   "source": {
+    "name": "Google News - Critical Minerals Exploration",
+    "domain": "rareearthexchanges.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-09-06",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:50:43+00:00",
+   "score": 9,
+   "body": {
+    "status": "partial",
+    "chars": 720,
+    "sha256": "ed56bedbb52b41257bb084cc841f1b3e1d32393bfa19c509c4b0076e8f426c4d",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-09-06",
+    "quotes": [
+     "- Poland commits PLN 185.7 million (~$50M) to map and drill domestic critical mineral resources through 2033 under the KPPSK program.",
+     "- Rare earth elements, lithium, gallium, and germanium are ranked lowest priority, as Poland sees limited odds of finding economic deposits."
+    ],
+    "final_url": "https://rareearthexchanges.com/news/poland-critical-minerals-exploration-kppsk/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "폴란드가 KPPSK 프로그램으로 2033년까지 자국 핵심광물 자원을 지도화·시추하기로 했음",
+     "투입 예산은 PLN 185.7 million(~$50M)임",
+     "경제성 있는 매장 가능성이 낮다고 보아 희토류·리튬·갈륨·게르마늄은 최하위 우선순위임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "PLN 185.7 million",
+     "~$50M",
+     "2033"
+    ],
+    "quotes": [
+     "- Poland commits PLN 185.7 million (~$50M) to map and drill domestic critical mineral resources through 2033 under the KPPSK program.",
+     "- Rare earth elements, lithium, gallium, and germanium are ranked lowest priority, as Poland sees limited odds of finding economic deposits."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "폴란드",
+     "희토류",
+     "리튬",
+     "KPPSK",
+     "탐사 프로그램"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "ex-China rare earth industrial chain",
+      "meaning": "중국을 배제한 희토류 산업 밸류체인"
+     },
+     {
+      "phrase": "midstream role",
+      "meaning": "분리·정제 등 중간 공정 단계에서의 역할"
+     },
+     {
+      "phrase": "economic deposits",
+      "meaning": "경제성 있는 매장량"
+     }
+    ],
+    "implication": "폴란드는 자국 탐사 기대치를 낮게 두고, 미국과의 2026년 협정과 Puławy 희토류 분리 공장 등 가공 중심의 역할이 부각됨"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "partial",
+    "input_chars": 720,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:50:55+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 4줄)"
+    ],
+    "retry_tails": [
+     " {\"phrase\": \"midstream role\", \"meaning\": \"분리·정제 등 중간 공정 단계에서의 역할\"},\n    {\"phrase\": \"economic deposits\", \"meaning\": \"경제성 있는 매장량\"}\n  ],\n  \"implication\": \"해당 없음\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "89a935272a",
+     "v1_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPTjJydWJjdFJxY1NfQWhuXzlfUENwejFMSmc4Y3RDblh0RG80X2Q4Rmtwek5oQU9VaVVDb2JCZDIyeU11ZklZZktKY1lTY2FDZmdxTEI4dnlwZWl0U2w2ZEw0eXdJYzJiQjR4UmIzd2xiN1kxZ3NNVE5GQ1JtTjRfd3RlRmx3UQ?oc=5",
+     "summary_raw": "Poland Critical Minerals Exploration Program Explained&nbsp;&nbsp;Rare Earth Exchanges"
+    }
+   },
+   "v1": {
+    "korean_summary": "폴란드가 유럽 내 핵심광물 자립도 강화를 목표로 광물탐사 프로그램을 추진 중인 것으로 확인되었습니다. 본 프로그램은 희토류를 포함한 핵심광물의 국내 공급망 확보와 전략적 채굴 기반 구축에 중점을 두고 있습니다. 이는 EU의 핵심광물 공급 안정화 정책과 연계하여 유럽 전역의 자원 독립성 강화에 기여할 전망입니다.",
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "광물탐사 정책",
+     "폴란드/유럽"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals exploration program",
+      "meaning": "핵심광물 탐사 프로그램"
+     },
+     {
+      "phrase": "rare earth elements (REEs) supply chain diversification",
+      "meaning": "희토류 원소의 공급망 다원화"
+     },
+     {
+      "phrase": "domestic mineral resource security",
+      "meaning": "국내 광물 자원 안보"
+     },
+     {
+      "phrase": "strategic exploration initiative",
+      "meaning": "전략적 탐사 계획"
+     },
+     {
+      "phrase": "European supply independence",
+      "meaning": "유럽 공급망 독립성"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "89a935272a",
+    "title": "Poland Critical Minerals Exploration Program Explained - Rare Earth Exchanges",
+    "url": "https://rareearthexchanges.com/news/poland-critical-minerals-exploration-kppsk",
+    "source": "Google News - Critical Minerals Exploration",
+    "tier_weight": 1,
+    "score": 9,
+    "published": "2026-09-06",
+    "korean_summary": [
+     "폴란드가 KPPSK 프로그램으로 2033년까지 자국 핵심광물 자원을 지도화·시추하기로 했음",
+     "투입 예산은 PLN 185.7 million(~$50M)임",
+     "경제성 있는 매장 가능성이 낮다고 보아 희토류·리튬·갈륨·게르마늄은 최하위 우선순위임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "폴란드",
+     "희토류",
+     "리튬",
+     "KPPSK",
+     "탐사 프로그램"
+    ],
+    "ai_processed": true,
+    "card_id": "39b83ebade12",
+    "basis": "body",
+    "body_status": "partial",
+    "key_figures": [
+     "PLN 185.7 million",
+     "~$50M",
+     "2033"
+    ],
+    "quotes": [
+     "- Poland commits PLN 185.7 million (~$50M) to map and drill domestic critical mineral resources through 2033 under the KPPSK program.",
+     "- Rare earth elements, lithium, gallium, and germanium are ranked lowest priority, as Poland sees limited odds of finding economic deposits."
+    ],
+    "summary_raw": "Poland Critical Minerals Exploration Program Explained&nbsp;&nbsp;Rare Earth Exchanges",
+    "english_phrases": [
+     {
+      "phrase": "ex-China rare earth industrial chain",
+      "meaning": "중국을 배제한 희토류 산업 밸류체인"
+     },
+     {
+      "phrase": "midstream role",
+      "meaning": "분리·정제 등 중간 공정 단계에서의 역할"
+     },
+     {
+      "phrase": "economic deposits",
+      "meaning": "경제성 있는 매장량"
+     }
+    ],
+    "implication": "폴란드는 자국 탐사 기대치를 낮게 두고, 미국과의 2026년 협정과 Puławy 희토류 분리 공장 등 가공 중심의 역할이 부각됨",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "ebaff6b61be8",
+   "title": "critical minerals Archives - Page 7 of 7 - BGS - British Geological Survey",
+   "title_norm": "critical minerals archives page 7 of 7 bgs",
+   "url": "https://bgs.ac.uk/tag/critical-minerals/page/7",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1KTVdzdE9ENDZBSGgxV09pbkwzakhVYzZ0MVFsQlN0OF80UFgtYjZkbXNsRXdVTXZFQUVPZzFaYXZOTnQyRXlRNDAzYmRQeWlYNnJ0UGZFeGFCOURJNEwzeQ?oc=5",
+   "source": {
+    "name": "BGS - via Google News",
+    "domain": "bgs.ac.uk",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-09-02",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:50:56+00:00",
+   "score": 7,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.bgs.ac.uk/tag/critical-minerals/page/7/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "핵심광물 아카이브 - 7페이지 중 7페이지 - BGS - 영국지질조사소(British Geological Survey)임"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "research",
+    "tags": [
+     "핵심광물",
+     "아카이브",
+     "BGS",
+     "영국지질조사소"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals Archives",
+      "meaning": "핵심광물 아카이브(게시물 모음)"
+     },
+     {
+      "phrase": "British Geological Survey",
+      "meaning": "영국지질조사소"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:51:01+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "e71d04c23b",
+     "v1_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1KTVdzdE9ENDZBSGgxV09pbkwzakhVYzZ0MVFsQlN0OF80UFgtYjZkbXNsRXdVTXZFQUVPZzFaYXZOTnQyRXlRNDAzYmRQeWlYNnJ0UGZFeGFCOURJNEwzeQ?oc=5",
+     "summary_raw": "critical minerals Archives - Page 7 of 7&nbsp;&nbsp;BGS - British Geological Survey"
+    }
+   },
+   "v1": {
+    "korean_summary": "죄송하지만, 제공하신 URL은 Google News RSS 피드 링크로서 실제 기사 본문 내용이 포함되어 있지 않습니다. BGS(영국지질조사소)의 핵심광물 관련 아카이브 페이지 7을 지칭하고 있으나, 구체적인 기사 내용·수치·정책 내용이 명시되지 않아 정확한 한국어 요약을 작성할 수 없습니다. 원문 기사의 본문 텍스트를 직접 제공해 주시면 최고 수준의 카드뉴스 콘텐츠로 가공하겠습니다.",
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "정보부족",
+     "재요청필요"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Unable to process without article content",
+      "meaning": "기사 본문이 없어 처리 불가"
+     },
+     {
+      "phrase": "Please provide full text of the article",
+      "meaning": "기사 전문을 제공해 주시기 바랍니다"
+     },
+     {
+      "phrase": "RSS feed link requires content extraction",
+      "meaning": "RSS 링크에서 실제 콘텐츠 추출 필요"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "e71d04c23b",
+    "title": "critical minerals Archives - Page 7 of 7 - BGS - British Geological Survey",
+    "url": "https://bgs.ac.uk/tag/critical-minerals/page/7",
+    "source": "BGS - via Google News",
+    "tier_weight": 5,
+    "score": 7,
+    "published": "2026-09-02",
+    "korean_summary": [
+     "[제목 기반] 핵심광물 아카이브 - 7페이지 중 7페이지 - BGS - 영국지질조사소(British Geological Survey)임"
+    ],
+    "category": "research",
+    "tags": [
+     "핵심광물",
+     "아카이브",
+     "BGS",
+     "영국지질조사소"
+    ],
+    "ai_processed": true,
+    "card_id": "ebaff6b61be8",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "critical minerals Archives - Page 7 of 7&nbsp;&nbsp;BGS - British Geological Survey",
+    "english_phrases": [
+     {
+      "phrase": "critical minerals Archives",
+      "meaning": "핵심광물 아카이브(게시물 모음)"
+     },
+     {
+      "phrase": "British Geological Survey",
+      "meaning": "영국지질조사소"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "1e435206f36c",
+   "title": "New deals sharpen South America’s critical minerals edge",
+   "title_norm": "new deals sharpen south america s critical minerals edge",
+   "url": "https://mining.com/new-deals-sharpen-south-americas-critical-minerals-edge",
+   "gnews_url": null,
+   "source": {
+    "name": "Mining.com",
+    "domain": "mining.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-09-04",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:51:01+00:00",
+   "score": 7,
+   "body": {
+    "status": "full",
+    "chars": 5368,
+    "sha256": "b12e1014cc4d3019760a3ad2a03e4c1a23eecee550a8cc5ac7834ac757d95cdf",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-09-04",
+    "quotes": [
+     "Based on the current project pipeline, the International Energy Agency projects global copper supply could fall 25% short of demand by 2035, with new mines typically taking more than 15 years to reach production.",
+     "New deals sharpen South America’s critical minerals edge"
+    ],
+    "final_url": "https://www.mining.com/new-deals-sharpen-south-americas-critical-minerals-edge/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "칠레·아르헨티나·볼리비아·페루가 전략광물 공동선언에 서명했음",
+     "8월 28일 칠레 산티아고에서 열린 첫 전략광물 장관회의에서 체결됐음",
+     "지질·규제·공급업체·인력·금융 분야에서 정책을 조율하겠다는 내용임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "$20.7 billion",
+     "540,000 metric tons",
+     "25% short of demand by 2035"
+    ],
+    "quotes": [
+     "Based on the current project pipeline, the International Energy Agency projects global copper supply could fall 25% short of demand by 2035, with new mines typically taking more than 15 years to reach production.",
+     "New deals sharpen South America’s critical minerals edge"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "전략광물",
+     "남미",
+     "칠레",
+     "아르헨티나",
+     "구리"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "joint declaration",
+      "meaning": "공동선언"
+     },
+     {
+      "phrase": "Supply squeeze",
+      "meaning": "공급 부족 압박"
+     },
+     {
+      "phrase": "greenfield exploration",
+      "meaning": "신규 광구 탐사"
+     },
+     {
+      "phrase": "guarantee fund",
+      "meaning": "보증 기금"
+     }
+    ],
+    "implication": "남미 4개국의 정책 공조와 칠레·아르헨티나 국경 프로젝트 운영 규칙 정비는 구리 공급 부족 우려 속에서 사업 계획과 자금 조달을 쉽게 할 수 있음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:51:15+00:00",
+    "retry_reasons": [
+     "JSON 파싱 실패: 문법 오류(Expecting value, 위치 184) — 주변: ' 있는 광업 투자와 기술 협력을 촉진할 계획임\",\\n  ],\\n  \"key_figures\": [\"$20.7 bi'"
+    ],
+    "retry_tails": [
+     "광구 탐사\"},\n    {\"phrase\": \"guarantee fund\", \"meaning\": \"보증 기금\"}\n  ],\n  \"implication\": \"남미 4개국의 정책 공조와 칠레·아르헨티나 국경 프로젝트 규칙 정비는 구리 공급 부족 우려 속에서 서방 투자 유입을 키울 수 있음\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "5a49eb2547",
+     "v1_url": "https://www.mining.com/new-deals-sharpen-south-americas-critical-minerals-edge/",
+     "summary_raw": "Four nations are aligning mining policy as looming supply gaps increase the strategic value of Latin America’s vast mineral reserves."
+    }
+   },
+   "v1": {
+    "korean_summary": "남미 4개국이 채광 정책을 통합하여 글로벌 공급 부족에 대응하고 있으며, 이는 라틴아메리카의 광대한 광물 매장량의 전략적 가치를 제고하고 있습니다. 핵심광물에 대한 수요 증가로 인한 공급 격차가 심화되면서 남미 지역의 광물 자원이 국제적으로 주목받고 있습니다. 이러한 정책 연계는 핵심광물 확보를 둘러싼 글로벌 경쟁에서 남미의 위상 강화와 자원 외교의 새로운 기회를 의미할 것으로 전망됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "리튬·코발트·구리",
+     "채광정책·자원외교",
+     "칠레·아르헨티나·페루·볼리비아"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals supply gap",
+      "meaning": "핵심광물 공급 부족"
+     },
+     {
+      "phrase": "mining policy alignment",
+      "meaning": "채광 정책 조율/통합"
+     },
+     {
+      "phrase": "strategic value of mineral reserves",
+      "meaning": "광물 매장량의 전략적 가치"
+     },
+     {
+      "phrase": "looming supply constraints",
+      "meaning": "임박한 공급 제약"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "5a49eb2547",
+    "title": "New deals sharpen South America’s critical minerals edge",
+    "url": "https://mining.com/new-deals-sharpen-south-americas-critical-minerals-edge",
+    "source": "Mining.com",
+    "tier_weight": 3,
+    "score": 7,
+    "published": "2026-09-04",
+    "korean_summary": [
+     "칠레·아르헨티나·볼리비아·페루가 전략광물 공동선언에 서명했음",
+     "8월 28일 칠레 산티아고에서 열린 첫 전략광물 장관회의에서 체결됐음",
+     "지질·규제·공급업체·인력·금융 분야에서 정책을 조율하겠다는 내용임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "전략광물",
+     "남미",
+     "칠레",
+     "아르헨티나",
+     "구리"
+    ],
+    "ai_processed": true,
+    "card_id": "1e435206f36c",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "$20.7 billion",
+     "540,000 metric tons",
+     "25% short of demand by 2035"
+    ],
+    "quotes": [
+     "Based on the current project pipeline, the International Energy Agency projects global copper supply could fall 25% short of demand by 2035, with new mines typically taking more than 15 years to reach production.",
+     "New deals sharpen South America’s critical minerals edge"
+    ],
+    "summary_raw": "Four nations are aligning mining policy as looming supply gaps increase the strategic value of Latin America’s vast mineral reserves.",
+    "english_phrases": [
+     {
+      "phrase": "joint declaration",
+      "meaning": "공동선언"
+     },
+     {
+      "phrase": "Supply squeeze",
+      "meaning": "공급 부족 압박"
+     },
+     {
+      "phrase": "greenfield exploration",
+      "meaning": "신규 광구 탐사"
+     },
+     {
+      "phrase": "guarantee fund",
+      "meaning": "보증 기금"
+     }
+    ],
+    "implication": "남미 4개국의 정책 공조와 칠레·아르헨티나 국경 프로젝트 운영 규칙 정비는 구리 공급 부족 우려 속에서 사업 계획과 자금 조달을 쉽게 할 수 있음",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "4b672d12cb34",
+   "title": "Faraday drilling boosts Arizona copper cathode case",
+   "title_norm": "faraday drilling boosts arizona copper cathode case",
+   "url": "https://mining.com/faraday-drilling-boosts-arizona-copper-cathode-case",
+   "gnews_url": null,
+   "source": {
+    "name": "Mining.com",
+    "domain": "mining.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-09-03",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:51:16+00:00",
+   "score": 10,
+   "body": {
+    "status": "full",
+    "chars": 1024,
+    "sha256": "7b74a526accbaaf088a2b64f744d0267b00a2a6a4b1c75f0c8390c8eeb813ee0",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2024-04-11",
+    "quotes": [
+     "Keep reading MINING.COM with a TNM NEWS+MARKETS Membership.",
+     "TNM Memberships is your key to unlocking access to the best news, insights, and data in the mining industry."
+    ],
+    "final_url": "https://www.mining.com/subscribe-login/?id=1213792",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Faraday Copper가 미국 애리조나 Copper Creek 프로젝트 시추로 광화대가 확장됐다고 밝혔음",
+     "확장된 광화대는 얕은 산화물(oxide) 및 황화물(sulphide) 광화대이며 인접한 San Manuel 부지를 추가할 준비 중임",
+     "향후 구리 음극(copper cathode) 생산 가능성이 강화됐다고 밝혔으며, 시추 수치와 후속 일정은 확인 불가임"
+    ],
+    "basis": "body",
+    "key_figures": [],
+    "quotes": [
+     "Keep reading MINING.COM with a TNM NEWS+MARKETS Membership.",
+     "TNM Memberships is your key to unlocking access to the best news, insights, and data in the mining industry."
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "구리",
+     "시추",
+     "애리조나",
+     "Faraday Copper",
+     "구리 음극"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "copper cathode",
+      "meaning": "구리 음극(전기구리)"
+     },
+     {
+      "phrase": "oxide and sulphide mineralization",
+      "meaning": "산화물 및 황화물 광화대"
+     },
+     {
+      "phrase": "neighbouring San Manuel property",
+      "meaning": "인접한 San Manuel 부지"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 1024,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:51:19+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "f84312e4a3",
+     "v1_url": "https://www.mining.com/faraday-drilling-boosts-arizona-copper-cathode-case/",
+     "summary_raw": "The results support the potential “to expand near-surface mineralization at Copper Creek,” CEO said."
+    }
+   },
+   "v1": {
+    "korean_summary": "Faraday Copper는 애리조나주 Copper Creek 광산에서 실시한 시추 결과 천부 광체의 확대 가능성을 확인하였습니다. 동 결과는 구리 음극재 생산을 위한 광상 개발의 경제성 평가에 긍정적 신호로 작용할 전망입니다. 북미 지역 핵심광물 공급망 다원화 측면에서 주목할 만한 진전으로 평가됩니다.",
+    "category": "exploration_tech",
+    "tags": [
+     "구리",
+     "시추탐사기술",
+     "미국(애리조나)"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "near-surface mineralization",
+      "meaning": "천부 광체(지표면 인접 지역의 광화 구간)"
+     },
+     {
+      "phrase": "copper cathode",
+      "meaning": "구리 음극재(전기화학적 정제 공정의 최종산물)"
+     },
+     {
+      "phrase": "expand mineralization potential",
+      "meaning": "광체의 부존 잠재력 확대(추가 시추를 통한 광량 증가 가능성)"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "f84312e4a3",
+    "title": "Faraday drilling boosts Arizona copper cathode case",
+    "url": "https://mining.com/faraday-drilling-boosts-arizona-copper-cathode-case",
+    "source": "Mining.com",
+    "tier_weight": 3,
+    "score": 10,
+    "published": "2026-09-03",
+    "korean_summary": [
+     "Faraday Copper가 미국 애리조나 Copper Creek 프로젝트 시추로 광화대가 확장됐다고 밝혔음",
+     "확장된 광화대는 얕은 산화물(oxide) 및 황화물(sulphide) 광화대이며 인접한 San Manuel 부지를 추가할 준비 중임",
+     "향후 구리 음극(copper cathode) 생산 가능성이 강화됐다고 밝혔으며, 시추 수치와 후속 일정은 확인 불가임"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "구리",
+     "시추",
+     "애리조나",
+     "Faraday Copper",
+     "구리 음극"
+    ],
+    "ai_processed": true,
+    "card_id": "4b672d12cb34",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [],
+    "quotes": [
+     "Keep reading MINING.COM with a TNM NEWS+MARKETS Membership.",
+     "TNM Memberships is your key to unlocking access to the best news, insights, and data in the mining industry."
+    ],
+    "summary_raw": "The results support the potential “to expand near-surface mineralization at Copper Creek,” CEO said.",
+    "english_phrases": [
+     {
+      "phrase": "copper cathode",
+      "meaning": "구리 음극(전기구리)"
+     },
+     {
+      "phrase": "oxide and sulphide mineralization",
+      "meaning": "산화물 및 황화물 광화대"
+     },
+     {
+      "phrase": "neighbouring San Manuel property",
+      "meaning": "인접한 San Manuel 부지"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "8a4029eb6213",
+   "title": "Surge Battery Metals (TSXV:NILI) Rises 6.67% as Nevada North Drilling and Feasibility Strategy Reinforce Lithium Momentum - kalkine.ca",
+   "title_norm": "surge battery metals tsxv nili rises 6 67 as nevada north drilling and feasibility strategy reinforce lithium momentum",
+   "url": "https://kalkine.ca/news/mining/surge-battery-metals-tsxvnili-rises-667-as-nevada-north-drilling-and-feasibility-strategy-reinforce-lithium-momentum",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTlNyUW1oQjRndEViMjdnREE0dVcwN1dXTld4eEpDRzdqN2NUZFpzdXBBZDVGbE9PNl9YZUN3R21HY0ZTTkZGc29XOGJ2bVlzYXRyS0VlR3hBNG5OQkkzb19GeFlqclZaWU5IZERvZnZFdl8wTXZwNXlGTDlDbXc5aHVVclhjNU56aW9hQ1p4TGNkd0YyMTBPWXd6SlJ0clJaTXBFbnRFMDM2RjhNbUVnVVJBbnN1eHNnZ3VtMmx2ZDhIVFdWS1prMW1YZl94dVpobkFlRi1LYXRGaDZTUXk2NQ?oc=5",
+   "source": {
+    "name": "Google News - Lithium Discovery",
+    "domain": "kalkine.ca",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-09-03",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:51:19+00:00",
+   "score": 8,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "bot_block",
+    "http_status": 403,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://kalkine.ca/news/mining/surge-battery-metals-tsxvnili-rises-667-as-nevada-north-drilling-and-feasibility-strategy-reinforce-lithium-momentum",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Surge Battery Metals(TSXV:NILI)가 네바다 북부 시추와 타당성 전략에 힘입어 6.67% 상승해 리튬 모멘텀을 강화했음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "exploration_tech",
+    "tags": [
+     "리튬",
+     "시추",
+     "타당성 전략",
+     "네바다"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Feasibility Strategy",
+      "meaning": "타당성 전략"
+     },
+     {
+      "phrase": "Lithium Momentum",
+      "meaning": "리튬 모멘텀"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:51:21+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "40ec982917",
+     "v1_url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTlNyUW1oQjRndEViMjdnREE0dVcwN1dXTld4eEpDRzdqN2NUZFpzdXBBZDVGbE9PNl9YZUN3R21HY0ZTTkZGc29XOGJ2bVlzYXRyS0VlR3hBNG5OQkkzb19GeFlqclZaWU5IZERvZnZFdl8wTXZwNXlGTDlDbXc5aHVVclhjNU56aW9hQ1p4TGNkd0YyMTBPWXd6SlJ0clJaTXBFbnRFMDM2RjhNbUVnVVJBbnN1eHNnZ3VtMmx2ZDhIVFdWS1prMW1YZl94dVpobkFlRi1LYXRGaDZTUXk2NQ?oc=5",
+     "summary_raw": "Surge Battery Metals (TSXV:NILI) Rises 6.67% as Nevada North Drilling and Feasibility Strategy Reinforce Lithium Momentum&nbsp;&nbsp;kalkine.ca"
+    }
+   },
+   "v1": {
+    "korean_summary": "미국 네바다주 북부의 리튬 프로젝트 개발을 추진 중인 Surge Battery Metals의 주가가 6.67% 상승하였으며, 이는 시추 작업 및 타당성 조사 전략이 리튬 모멘텀을 강화한 결과로 평가되고 있습니다. 동사의 공격적인 탐사 전략과 feasibility study 추진은 북미 지역의 핵심광물 공급 확대에 기여할 것으로 전망됩니다. 이는 에너지 전환에 따른 리튬 수요 증가 속에서 국내 자원개발 기업들에게도 시사점을 제공하는 사례로 주목됩니다.",
+    "category": "discovery",
+    "tags": [
+     "리튬",
+     "탐사 프로젝트",
+     "미국(네바다)"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Nevada North Drilling Program",
+      "meaning": "네바다 북부 지역 시추 프로그램"
+     },
+     {
+      "phrase": "Feasibility Strategy",
+      "meaning": "타당성 조사 전략 (프로젝트 경제성 평가)"
+     },
+     {
+      "phrase": "Lithium Momentum",
+      "meaning": "리튬 시장 상승 추세 및 개발 동향"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "40ec982917",
+    "title": "Surge Battery Metals (TSXV:NILI) Rises 6.67% as Nevada North Drilling and Feasibility Strategy Reinforce Lithium Momentum - kalkine.ca",
+    "url": "https://kalkine.ca/news/mining/surge-battery-metals-tsxvnili-rises-667-as-nevada-north-drilling-and-feasibility-strategy-reinforce-lithium-momentum",
+    "source": "Google News - Lithium Discovery",
+    "tier_weight": 1,
+    "score": 8,
+    "published": "2026-09-03",
+    "korean_summary": [
+     "[제목 기반] Surge Battery Metals(TSXV:NILI)가 네바다 북부 시추와 타당성 전략에 힘입어 6.67% 상승해 리튬 모멘텀을 강화했음"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "리튬",
+     "시추",
+     "타당성 전략",
+     "네바다"
+    ],
+    "ai_processed": true,
+    "card_id": "8a4029eb6213",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Surge Battery Metals (TSXV:NILI) Rises 6.67% as Nevada North Drilling and Feasibility Strategy Reinforce Lithium Momentum&nbsp;&nbsp;kalkine.ca",
+    "english_phrases": [
+     {
+      "phrase": "Feasibility Strategy",
+      "meaning": "타당성 전략"
+     },
+     {
+      "phrase": "Lithium Momentum",
+      "meaning": "리튬 모멘텀"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "c668c617c3fd",
+   "title": "Demand for data centres presents challenges and opportunities for UK critical mineral supply chains - BGS - British Geological Survey",
+   "title_norm": "demand for data centres presents challenges and opportunities for uk critical mineral supply chains bgs",
+   "url": "https://bgs.ac.uk/news/demand-for-data-centres-presents-challenges-and-opportunities-for-uk-critical-mineral-supply-chains",
+   "gnews_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPR2RYUzF2ZDVlSFFMYmR5NXpEaDU0TEoxRWVYbkxXNWVhM3RDY18xcFQ2VV80RzJGdzhkdDJ1eS1GeHZPaWxfcjdHM1dXNXg1VGpDSXlJbk9kZV9PMnMyQXF5eDg0eEphdnZSckZBU0VuSlR3MUVnZkhTRnJDLTNZYjRZdFRLc0dfSzF0bnlUWWljWFRhOXQ0N2k0VHltVldtSnN6cW9FQjBqbVA3YjdMTm9uRnk4X1FzcVhrY1pyMEZfUXpYdXc?oc=5",
+   "source": {
+    "name": "BGS - via Google News",
+    "domain": "bgs.ac.uk",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-09-02",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:51:22+00:00",
+   "score": 10,
+   "body": {
+    "status": "full",
+    "chars": 13386,
+    "sha256": "f5cac4aed71ff92d9225c70d0c1996b6db6e6572d66579fecd65948b84d6b4e7",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-09-02",
+    "quotes": [
+     "Based on the findings of a recent energy demand report, a 1 GW data centre running continuously could use as much power as up to 3.2 million UK households over the course of a year.",
+     "Demand for data centres presents challenges and opportunities for UK critical mineral supply chains"
+    ],
+    "final_url": "https://www.bgs.ac.uk/news/demand-for-data-centres-presents-challenges-and-opportunities-for-uk-critical-mineral-supply-chains/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "영국 핵심광물 인텔리전스센터(CMIC)가 데이터센터·AI·양자컴퓨팅용 핵심광물 공급망 보고서를 발표했음",
+     "영국에서는 2030년까지 90곳 넘는 데이터센터 신설이 계획돼 있다고 밝혔음",
+     "보고서는 국제 파트너십, 공급망 다변화, 자국 역량 개발을 회복력 강화 방안으로 제시했음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "more than 90 new facilities",
+     "by 2030"
+    ],
+    "quotes": [
+     "Based on the findings of a recent energy demand report, a 1 GW data centre running continuously could use as much power as up to 3.2 million UK households over the course of a year.",
+     "Demand for data centres presents challenges and opportunities for UK critical mineral supply chains"
+    ],
+    "category": "research",
+    "tags": [
+     "데이터센터",
+     "AI",
+     "양자컴퓨팅",
+     "영국",
+     "공급망"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical national infrastructure",
+      "meaning": "핵심 국가 기반시설"
+     },
+     {
+      "phrase": "by-products",
+      "meaning": "다른 광물 생산 과정에서 나오는 부산물"
+     },
+     {
+      "phrase": "supply chain diversification",
+      "meaning": "공급망 다변화"
+     }
+    ],
+    "implication": "디지털 인프라 수요 확대로 소수 국가 수출과 부산물 생산에 의존하는 핵심광물 공급이 타 산업과의 경쟁 속에 더 취약해질 수 있음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:51:34+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 4줄)"
+    ],
+    "retry_tails": [
+     "hrase\": \"by-products\", \"meaning\": \"다른 광물 생산 과정에서 나오는 부산물\"},\n    {\"phrase\": \"supply chain diversification\", \"meaning\": \"공급망 다변화\"}\n  ],\n  \"implication\": \"해당 없음\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "42a992702a",
+     "v1_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPR2RYUzF2ZDVlSFFMYmR5NXpEaDU0TEoxRWVYbkxXNWVhM3RDY18xcFQ2VV80RzJGdzhkdDJ1eS1GeHZPaWxfcjdHM1dXNXg1VGpDSXlJbk9kZV9PMnMyQXF5eDg0eEphdnZSckZBU0VuSlR3MUVnZkhTRnJDLTNZYjRZdFRLc0dfSzF0bnlUWWljWFRhOXQ0N2k0VHltVldtSnN6cW9FQjBqbVA3YjdMTm9uRnk4X1FzcVhrY1pyMEZfUXpYdXc?oc=5",
+     "summary_raw": "Demand for data centres presents challenges and opportunities for UK critical mineral supply chains&nbsp;&nbsp;BGS - British Geological Survey"
+    }
+   },
+   "v1": {
+    "korean_summary": "데이터센터 수요의 급증으로 인해 영국의 핵심광물 공급망에 대한 수요가 크게 증가할 전망으로 확인되었습니다. 이는 영국 자원 산업에 새로운 기회를 제시하는 한편, 공급 안정성과 지속가능성 확보라는 도전 과제를 동시에 야기하고 있습니다. 데이터센터 구축에 필요한 다양한 핵심광물의 안정적 공급 체계 구축이 국가 자원 전략의 핵심 과제로 대두되고 있습니다.",
+    "category": "supply_chain",
+    "tags": [
+     "핵심광물",
+     "데이터센터 전략",
+     "영국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical mineral supply chains",
+      "meaning": "핵심광물 공급망"
+     },
+     {
+      "phrase": "data centre demand",
+      "meaning": "데이터센터 수요"
+     },
+     {
+      "phrase": "challenges and opportunities",
+      "meaning": "도전 과제와 기회"
+     },
+     {
+      "phrase": "supply security",
+      "meaning": "공급 안정성"
+     },
+     {
+      "phrase": "mineral supply resilience",
+      "meaning": "광물 공급 회복력"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "42a992702a",
+    "title": "Demand for data centres presents challenges and opportunities for UK critical mineral supply chains - BGS - British Geological Survey",
+    "url": "https://bgs.ac.uk/news/demand-for-data-centres-presents-challenges-and-opportunities-for-uk-critical-mineral-supply-chains",
+    "source": "BGS - via Google News",
+    "tier_weight": 5,
+    "score": 10,
+    "published": "2026-09-02",
+    "korean_summary": [
+     "영국 핵심광물 인텔리전스센터(CMIC)가 데이터센터·AI·양자컴퓨팅용 핵심광물 공급망 보고서를 발표했음",
+     "영국에서는 2030년까지 90곳 넘는 데이터센터 신설이 계획돼 있다고 밝혔음",
+     "보고서는 국제 파트너십, 공급망 다변화, 자국 역량 개발을 회복력 강화 방안으로 제시했음"
+    ],
+    "category": "research",
+    "tags": [
+     "데이터센터",
+     "AI",
+     "양자컴퓨팅",
+     "영국",
+     "공급망"
+    ],
+    "ai_processed": true,
+    "card_id": "c668c617c3fd",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "more than 90 new facilities",
+     "by 2030"
+    ],
+    "quotes": [
+     "Based on the findings of a recent energy demand report, a 1 GW data centre running continuously could use as much power as up to 3.2 million UK households over the course of a year.",
+     "Demand for data centres presents challenges and opportunities for UK critical mineral supply chains"
+    ],
+    "summary_raw": "Demand for data centres presents challenges and opportunities for UK critical mineral supply chains&nbsp;&nbsp;BGS - British Geological Survey",
+    "english_phrases": [
+     {
+      "phrase": "critical national infrastructure",
+      "meaning": "핵심 국가 기반시설"
+     },
+     {
+      "phrase": "by-products",
+      "meaning": "다른 광물 생산 과정에서 나오는 부산물"
+     },
+     {
+      "phrase": "supply chain diversification",
+      "meaning": "공급망 다변화"
+     }
+    ],
+    "implication": "디지털 인프라 수요 확대로 소수 국가 수출과 부산물 생산에 의존하는 핵심광물 공급이 타 산업과의 경쟁 속에 더 취약해질 수 있음",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "c196aeedad77",
+   "title": "Vanadium in February 2026",
+   "title_norm": "vanadium in february 2026",
+   "url": "https://usgs.gov/centers/national-minerals-information-center/vanadium-statistics-and-information",
+   "gnews_url": null,
+   "source": {
+    "name": "USGS Minerals Periodicals",
+    "domain": "usgs.gov",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-09-03",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:51:34+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 1579,
+    "sha256": "0b08c97b45bdfd3eaceae0402faf410f508d99cf781fe3dff104488f063489d1",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2006-01-01",
+    "quotes": [
+     "An official website of the United States government",
+     "A .gov website belongs to an official government organization in the United States."
+    ],
+    "final_url": "https://www.usgs.gov/centers/national-minerals-information-center/vanadium-statistics-and-information",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "USGS Minerals Periodicals에 바나듐 페이지 'Vanadium in February 2026'이 게시되었음",
+     "페이지는 바나듐의 전 세계 공급·수요·흐름에 관한 통계와 정보를 다룬다고 소개했음",
+     "데이터셋을 USGS ScienceBase로 이전 중이며 발간 시 구독자에게 알릴 예정임"
+    ],
+    "basis": "body",
+    "key_figures": [],
+    "quotes": [
+     "An official website of the United States government",
+     "A .gov website belongs to an official government organization in the United States."
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "바나듐",
+     "USGS",
+     "통계",
+     "합금",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Monthly Publications",
+      "meaning": "월간 간행물"
+     },
+     {
+      "phrase": "Minerals yearbook",
+      "meaning": "광물 연감"
+     },
+     {
+      "phrase": "Mineral Industry Surveys",
+      "meaning": "광물산업 조사 보고서"
+     },
+     {
+      "phrase": "ScienceBase",
+      "meaning": "USGS의 과학 데이터 플랫폼"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 1579,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:51:44+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 4줄)"
+    ],
+    "retry_tails": [
+     "se\": \"Mineral Industry Surveys\", \"meaning\": \"광물산업 조사 보고서\"},\n    {\"phrase\": \"USGS ScienceBase\", \"meaning\": \"USGS의 과학 데이터 공유 플랫폼\"}\n  ],\n  \"implication\": \"해당 없음\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "09030afc89",
+     "v1_url": "https://www.usgs.gov/centers/national-minerals-information-center/vanadium-statistics-and-information",
+     "summary_raw": "Category: Mineral Industry Surveys.   (Published 9/3/2026)"
+    }
+   },
+   "v1": {
+    "korean_summary": "바나듐은 철강·항공우주·에너지저장 등 첨단산업의 필수 핵심광물로서 글로벌 수요가 지속적으로 증가하고 있음이 확인되었습니다. 2026년 2월 현재 주요 생산국의 공급 동향과 가격 변동이 산업계의 주목을 받고 있으며, 이는 국내 자원 공급망 다각화 전략 수립의 시급성을 시사합니다. 바나듐 자원의 안정적 확보와 순환자원화 기술 개발이 향후 자원정책의 핵심 과제로 대두될 전망입니다.",
+    "category": "supply_chain",
+    "tags": [
+     "바나듐",
+     "에너지저장·배터리",
+     "공급망"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals supply chain",
+      "meaning": "핵심광물 공급망"
+     },
+     {
+      "phrase": "vanadium redox battery (VRB) technology",
+      "meaning": "바나듐 산화환원 전지 기술"
+     },
+     {
+      "phrase": "mineral industry survey",
+      "meaning": "광물산업 조사"
+     },
+     {
+      "phrase": "strategic stockpiling of critical materials",
+      "meaning": "전략광물의 전략적 비축"
+     },
+     {
+      "phrase": "primary and secondary vanadium sources",
+      "meaning": "1차 및 2차 바나듐 자원원"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "09030afc89",
+    "title": "Vanadium in February 2026",
+    "url": "https://usgs.gov/centers/national-minerals-information-center/vanadium-statistics-and-information",
+    "source": "USGS Minerals Periodicals",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-09-03",
+    "korean_summary": [
+     "USGS Minerals Periodicals에 바나듐 페이지 'Vanadium in February 2026'이 게시되었음",
+     "페이지는 바나듐의 전 세계 공급·수요·흐름에 관한 통계와 정보를 다룬다고 소개했음",
+     "데이터셋을 USGS ScienceBase로 이전 중이며 발간 시 구독자에게 알릴 예정임"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "바나듐",
+     "USGS",
+     "통계",
+     "합금",
+     "미국"
+    ],
+    "ai_processed": true,
+    "card_id": "c196aeedad77",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [],
+    "quotes": [
+     "An official website of the United States government",
+     "A .gov website belongs to an official government organization in the United States."
+    ],
+    "summary_raw": "Category: Mineral Industry Surveys.   (Published 9/3/2026)",
+    "english_phrases": [
+     {
+      "phrase": "Monthly Publications",
+      "meaning": "월간 간행물"
+     },
+     {
+      "phrase": "Minerals yearbook",
+      "meaning": "광물 연감"
+     },
+     {
+      "phrase": "Mineral Industry Surveys",
+      "meaning": "광물산업 조사 보고서"
+     },
+     {
+      "phrase": "ScienceBase",
+      "meaning": "USGS의 과학 데이터 플랫폼"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "5aa5daebdee3",
+   "title": "Ionic Rare Earths, US Strategic Metals form JV to build $100M magnet recycling plant in Missouri",
+   "title_norm": "ionic rare earths us strategic metals form jv to build 100m magnet recycling plant in missouri",
+   "url": "https://mining.com/ionic-rare-earths-us-strategic-metals-form-jv-to-build-100m-magnet-recycling-plant-in-missouri",
+   "gnews_url": null,
+   "source": {
+    "name": "Mining.com",
+    "domain": "mining.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-09-03",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:51:44+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 2256,
+    "sha256": "5245eaa5ca5b136c9175ba67d08cb91266c0ed32c436ba2863a76e9e2d62f022",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-09-03",
+    "quotes": [
+     "Ionic Rare Earths, US Strategic Metals form JV to build $100M magnet recycling plant in Missouri",
+     "Ionic Rare Earths (ASX: IXR) has, through its wholly owned U.S."
+    ],
+    "final_url": "https://www.mining.com/ionic-rare-earths-us-strategic-metals-form-jv-to-build-100m-magnet-recycling-plant-in-missouri/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Ionic Rare Earths가 미국 자회사를 통해 US Strategic Metals와 합작법인(JV) 텀시트를 체결했음",
+     "미주리주 Fredericktown 인근 1,800-acre 부지에 NdFeB·SmCo 자석 재활용 시설을 짓고, JV는 $100 million으로 조성됨",
+     "초기 $5 million으로 기본설계(FEED)와 실증 규모 재활용을 추진하며, 중희토류 재활용도 검토할 예정임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "$100 million",
+     "$95 million",
+     "1,800-acre"
+    ],
+    "quotes": [
+     "Ionic Rare Earths, US Strategic Metals form JV to build $100M magnet recycling plant in Missouri",
+     "Ionic Rare Earths (ASX: IXR) has, through its wholly owned U.S."
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "자석 재활용",
+     "합작법인",
+     "NdFeB",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "joint venture (JV) term sheet",
+      "meaning": "합작법인 설립을 위한 주요 조건 합의서"
+     },
+     {
+      "phrase": "front end engineering design",
+      "meaning": "기본설계(FEED), 본 설계 전 단계의 기초 엔지니어링"
+     },
+     {
+      "phrase": "non-exclusive licence",
+      "meaning": "비독점 라이선스"
+     },
+     {
+      "phrase": "magnet scrap",
+      "meaning": "자석 스크랩(자석 제조·폐기 과정의 부산물)"
+     }
+    ],
+    "implication": "미국 내 희토류 자석 재활용 설비 구축이 추진되어, 미국 내 희토류 공급원이 광산 외에 재활용으로 넓어질 가능성이 있음."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 2256,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:51:49+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "ab8d924d87",
+     "v1_url": "https://www.mining.com/ionic-rare-earths-us-strategic-metals-form-jv-to-build-100m-magnet-recycling-plant-in-missouri/",
+     "summary_raw": "Plans to develop an integrated campus for the production of critical minerals and metals at USSM’s 1,800-acre fully permitted site near Fredericktown."
+    }
+   },
+   "v1": {
+    "korean_summary": "미국 전략금속(US Strategic Metals)과 이오닉 레어어스(Ionic Rare Earths)가 미주리주 프레데릭타운 인근 1,800에이커 부지에 1억 달러 규모의 자석 재활용 시설 건설을 위한 합작사업을 추진 중으로 확인되었습니다. 해당 프로젝트는 핵심광물 및 전략금속의 통합 캠퍼스 개발로, 북미 내 순환경제 기반 희토류 공급망 강화에 기여할 전망입니다. 완전히 허가된 부지에서의 본 사업 추진은 미국의 핵심광물 자급화 전략 및 중국 의존도 감소에 중요한 역할을 할 것으로 예상됩니다.",
+    "category": "supply_chain",
+    "tags": [
+     "희토류(REE)",
+     "자석 재활용/순환경제",
+     "미주리주·북미"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "integrated campus for the production of critical minerals and metals",
+      "meaning": "핵심광물 및 전략금속 생산을 위한 통합 캠퍼스"
+     },
+     {
+      "phrase": "fully permitted site",
+      "meaning": "모든 인허가가 완료된 부지"
+     },
+     {
+      "phrase": "magnet recycling plant",
+      "meaning": "자석 재활용 시설"
+     },
+     {
+      "phrase": "joint venture (JV)",
+      "meaning": "합작사업"
+     },
+     {
+      "phrase": "rare earth elements (REE) supply chain",
+      "meaning": "희토류 공급망"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "ab8d924d87",
+    "title": "Ionic Rare Earths, US Strategic Metals form JV to build $100M magnet recycling plant in Missouri",
+    "url": "https://mining.com/ionic-rare-earths-us-strategic-metals-form-jv-to-build-100m-magnet-recycling-plant-in-missouri",
+    "source": "Mining.com",
+    "tier_weight": 3,
+    "score": 9,
+    "published": "2026-09-03",
+    "korean_summary": [
+     "Ionic Rare Earths가 미국 자회사를 통해 US Strategic Metals와 합작법인(JV) 텀시트를 체결했음",
+     "미주리주 Fredericktown 인근 1,800-acre 부지에 NdFeB·SmCo 자석 재활용 시설을 짓고, JV는 $100 million으로 조성됨",
+     "초기 $5 million으로 기본설계(FEED)와 실증 규모 재활용을 추진하며, 중희토류 재활용도 검토할 예정임"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "자석 재활용",
+     "합작법인",
+     "NdFeB",
+     "미국"
+    ],
+    "ai_processed": true,
+    "card_id": "5aa5daebdee3",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "$100 million",
+     "$95 million",
+     "1,800-acre"
+    ],
+    "quotes": [
+     "Ionic Rare Earths, US Strategic Metals form JV to build $100M magnet recycling plant in Missouri",
+     "Ionic Rare Earths (ASX: IXR) has, through its wholly owned U.S."
+    ],
+    "summary_raw": "Plans to develop an integrated campus for the production of critical minerals and metals at USSM’s 1,800-acre fully permitted site near Fredericktown.",
+    "english_phrases": [
+     {
+      "phrase": "joint venture (JV) term sheet",
+      "meaning": "합작법인 설립을 위한 주요 조건 합의서"
+     },
+     {
+      "phrase": "front end engineering design",
+      "meaning": "기본설계(FEED), 본 설계 전 단계의 기초 엔지니어링"
+     },
+     {
+      "phrase": "non-exclusive licence",
+      "meaning": "비독점 라이선스"
+     },
+     {
+      "phrase": "magnet scrap",
+      "meaning": "자석 스크랩(자석 제조·폐기 과정의 부산물)"
+     }
+    ],
+    "implication": "미국 내 희토류 자석 재활용 설비 구축이 추진되어, 미국 내 희토류 공급원이 광산 외에 재활용으로 넓어질 가능성이 있음.",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "e6736f5cc497",
+   "title": "[SMM Analysis] Europe Seeks Lithium Supply Chain Independence, Yet Its Projects Attract Asian Investors - SMM Metal",
+   "title_norm": "smm analysis europe seeks lithium supply chain independence yet its projects attract asian investors",
+   "url": "https://news.metal.com/newscontent/104097364-smm-analysis-europe-seeks-lithium-supply-chain-independence-yet-its-projects-attract-asian-investors",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNOTEwaHdHVWFWX1dyeDMtWmszTndwRk92UWxoNDBKRnMyS1ptZmJveXI1Q3ByUVVESTBRNWZVdlhIWVJreDh6YTBzYWhJYjBlSXQ1aTJxTTVNNFhLU3NFYXc5SzRlMVhXazR1SFJPeVNnRFpTWU1tVkhhRzV5ZFMxYl9Oa21iY3ZRUS1kWGs0bHBaUXU5dUVuUEVwaGFyN2JkRGwzdWlZTURnWDFyczlKNUstRnhvNC1NeXJEQXY5M3otemlTU0FOeXZrMWx4MmVjQnZISGpfeURIV05xT1E?oc=5",
+   "source": {
+    "name": "Google News - Lithium Discovery",
+    "domain": "news.metal.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-09-04",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:51:51+00:00",
+   "score": 8,
+   "body": {
+    "status": "full",
+    "chars": 13730,
+    "sha256": "60c5c02601bede24de5e632018b10e237c0af1f2b7aaa52a3d9338064601374b",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-09-04",
+    "quotes": [
+     "Set against the project's 21,100 tonnes of planned capacity, this shift in the source of capital may be the more important signal for the lithium market.",
+     "\"European supply chain autonomy\" and \"Asian capital coming in\" are therefore not in absolute conflict."
+    ],
+    "final_url": "https://news.metal.com/newscontent/104097364-smm-analysis-europe-seeks-lithium-supply-chain-independence-yet-its-projects-attract-asian-investors",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "독일 지열 리튬 개발사 Vulcan Energy가 Project Ludwig 2단계 PFS를 공개하고 전략적 투자자 유치에 나섰음",
+     "Ludwig는 연 약 21,100 tonnes의 배터리급 탄산리튬을 목표로 하며 PFS상 총 자본지출은 약 €1.26 billion임",
+     "일부 투자 관심이 아시아에서 나왔다고 밝혔으나 투자자 신원과 관심 규모는 공개하지 않았음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "21,100 tonnes",
+     "€1.26 billion"
+    ],
+    "quotes": [
+     "Set against the project's 21,100 tonnes of planned capacity, this shift in the source of capital may be the more important signal for the lithium market.",
+     "\"European supply chain autonomy\" and \"Asian capital coming in\" are therefore not in absolute conflict."
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "Vulcan Energy",
+     "지열 리튬",
+     "전략적 투자",
+     "유럽"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "pre-feasibility study (PFS)",
+      "meaning": "예비 타당성 조사"
+     },
+     {
+      "phrase": "strategic investors",
+      "meaning": "전략적 투자자"
+     },
+     {
+      "phrase": "bankability",
+      "meaning": "사업의 금융 조달 적합성"
+     },
+     {
+      "phrase": "long-term offtake",
+      "meaning": "장기 구매 계약"
+     }
+    ],
+    "implication": "유럽 리튬 사업의 공급 편입 여부가 자원량보다 자본·장기 구매계약·고객 인증에 좌우되며, 아시아 산업자본이 핵심 변수가 될 수 있음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:52:05+00:00",
+    "retry_reasons": [
+     "JSON 파싱 실패: 문법 오류(Expecting ',' delimiter, 위치 313) — 주변: '년 약 €2.2 billion 금융을 확보했음\"\\n  ][:3],\\n  \"key_figures\": [\"21,10'"
+    ],
+    "retry_tails": [
+     "\n    {\"phrase\": \"long-term offtake\", \"meaning\": \"장기 구매 계약\"}\n  ],\n  \"implication\": \"유럽 리튬 사업의 공급 편입 여부가 자원량보다 자본·장기 구매계약·고객 인증에 좌우되며, 아시아 산업자본이 핵심 변수로 부상하고 있음\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "2a125c83e3",
+     "v1_url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNOTEwaHdHVWFWX1dyeDMtWmszTndwRk92UWxoNDBKRnMyS1ptZmJveXI1Q3ByUVVESTBRNWZVdlhIWVJreDh6YTBzYWhJYjBlSXQ1aTJxTTVNNFhLU3NFYXc5SzRlMVhXazR1SFJPeVNnRFpTWU1tVkhhRzV5ZFMxYl9Oa21iY3ZRUS1kWGs0bHBaUXU5dUVuUEVwaGFyN2JkRGwzdWlZTURnWDFyczlKNUstRnhvNC1NeXJEQXY5M3otemlTU0FOeXZrMWx4MmVjQnZISGpfeURIV05xT1E?oc=5",
+     "summary_raw": "[SMM Analysis] Europe Seeks Lithium Supply Chain Independence, Yet Its Projects Attract Asian Investors&nbsp;&nbsp;SMM Metal"
+    }
+   },
+   "v1": {
+    "korean_summary": "유럽이 리튬 공급망의 자립화를 추구하고 있으나, 대륙 내 핵심광물 프로젝트들이 아시아 투자자들의 적극적인 관심을 끌고 있는 것으로 확인되었습니다. 이러한 현상은 유럽의 에너지 전환 정책과 글로벌 투자 흐름 간의 긴장 관계를 보여주고 있습니다. 향후 유럽이 핵심광물 공급 주권을 확보하기 위해서는 국내 프로젝트에 대한 자본 확보 및 산업 정책의 강화가 필수적일 것으로 전망됩니다.",
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "공급망 자립화",
+     "유럽-아시아 투자"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "supply chain independence",
+      "meaning": "공급망 자립화, 공급망 독립성"
+     },
+     {
+      "phrase": "critical minerals projects",
+      "meaning": "핵심광물 프로젝트"
+     },
+     {
+      "phrase": "attract Asian investors",
+      "meaning": "아시아 투자자들의 관심을 유인하다"
+     },
+     {
+      "phrase": "lithium supply security",
+      "meaning": "리튬 공급 안정성 확보"
+     },
+     {
+      "phrase": "domestic resource base",
+      "meaning": "국내 자원 기반"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "2a125c83e3",
+    "title": "[SMM Analysis] Europe Seeks Lithium Supply Chain Independence, Yet Its Projects Attract Asian Investors - SMM Metal",
+    "url": "https://news.metal.com/newscontent/104097364-smm-analysis-europe-seeks-lithium-supply-chain-independence-yet-its-projects-attract-asian-investors",
+    "source": "Google News - Lithium Discovery",
+    "tier_weight": 1,
+    "score": 8,
+    "published": "2026-09-04",
+    "korean_summary": [
+     "독일 지열 리튬 개발사 Vulcan Energy가 Project Ludwig 2단계 PFS를 공개하고 전략적 투자자 유치에 나섰음",
+     "Ludwig는 연 약 21,100 tonnes의 배터리급 탄산리튬을 목표로 하며 PFS상 총 자본지출은 약 €1.26 billion임",
+     "일부 투자 관심이 아시아에서 나왔다고 밝혔으나 투자자 신원과 관심 규모는 공개하지 않았음"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "Vulcan Energy",
+     "지열 리튬",
+     "전략적 투자",
+     "유럽"
+    ],
+    "ai_processed": true,
+    "card_id": "e6736f5cc497",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "21,100 tonnes",
+     "€1.26 billion"
+    ],
+    "quotes": [
+     "Set against the project's 21,100 tonnes of planned capacity, this shift in the source of capital may be the more important signal for the lithium market.",
+     "\"European supply chain autonomy\" and \"Asian capital coming in\" are therefore not in absolute conflict."
+    ],
+    "summary_raw": "[SMM Analysis] Europe Seeks Lithium Supply Chain Independence, Yet Its Projects Attract Asian Investors&nbsp;&nbsp;SMM Metal",
+    "english_phrases": [
+     {
+      "phrase": "pre-feasibility study (PFS)",
+      "meaning": "예비 타당성 조사"
+     },
+     {
+      "phrase": "strategic investors",
+      "meaning": "전략적 투자자"
+     },
+     {
+      "phrase": "bankability",
+      "meaning": "사업의 금융 조달 적합성"
+     },
+     {
+      "phrase": "long-term offtake",
+      "meaning": "장기 구매 계약"
+     }
+    ],
+    "implication": "유럽 리튬 사업의 공급 편입 여부가 자원량보다 자본·장기 구매계약·고객 인증에 좌우되며, 아시아 산업자본이 핵심 변수가 될 수 있음",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "8a95e05ba0fe",
+   "title": "Limiting Adversarial Capital in Critical Minerals Supply Chains - Baker Institute",
+   "title_norm": "limiting adversarial capital in critical minerals supply chains",
+   "url": "https://bakerinstitute.org/research/limiting-adversarial-capital-critical-minerals-supply-chains",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPazZNengtTGdEbVJMQ052Vk03ZmFRWDI1WEF5dVNXdDRkVjQwLXJGUTVOSVU3a1ppRnlmZ0ZSRXVOMnkxckVSbEtXLXNBYjhOYmdhSzc5RV93VHJDcTd6eUhPdW00clVUOUVuVWZiRjVJU1oydUNvUlJqMjU4c1UxYTB3N3Zlcm8wOUtsYXRqN3RqQmRPRHN3MUNILVhIX0pPTVE?oc=5",
+   "source": {
+    "name": "Google News - Rare Earth Elements",
+    "domain": "bakerinstitute.org",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-09-05",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:52:05+00:00",
+   "score": 8,
+   "body": {
+    "status": "full",
+    "chars": 3922,
+    "sha256": "bb44f35cfb6f86da7a09100e09c97a9144272ef275ab3a4e6e2d4478ffc7d10f",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-07-01",
+    "quotes": [
+     "That separation is the precondition for a separate reference price, the subject of the next paper, and for the ~$19 billion in U.S.",
+     "Build and test the machinery on tantalum first, for an early win, rather than launching on all 60 critical minerals or the hardest one first."
+    ],
+    "final_url": "https://www.bakerinstitute.org/research/limiting-adversarial-capital-critical-minerals-supply-chains",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "라이스대 베이커연구소가 적대적 자본 통제 공급을 가려낼 동맹 공통 기준을 제안했음",
+     "탄탈럼을 먼저 시범 적용한 뒤 USGS 정의 핵심광물 60개 중 20개로 확대하자고 했음",
+     "비중국 기준가격은 후속 보고서 주제이며, 이번 글은 핵심광물 자본 시리즈 세 번째임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "~$19 billion",
+     "~€64 billion",
+     "20 of the currently defined 60 USGS critical minerals"
+    ],
+    "quotes": [
+     "That separation is the precondition for a separate reference price, the subject of the next paper, and for the ~$19 billion in U.S.",
+     "Build and test the machinery on tantalum first, for an early win, rather than launching on all 60 critical minerals or the hardest one first."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "탄탈럼",
+     "적대적 자본",
+     "기준가격",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "adversarial capital",
+      "meaning": "적대적 자본"
+     },
+     {
+      "phrase": "minimum viable product",
+      "meaning": "최소 기능 제품(시범 도입안)"
+     },
+     {
+      "phrase": "beneficial-ownership disclosure",
+      "meaning": "실질 소유자 공개"
+     },
+     {
+      "phrase": "mass-balance accounting",
+      "meaning": "물질수지 회계"
+     }
+    ],
+    "implication": "동맹이 적대적 통제 개념을 공통 정의하면 비중국 기준가격 시장이 가능해져 동맹국 생산 설비에 대한 금융 조달과 투자 판단이 쉬워질 수 있음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 3922,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:52:24+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 4줄)"
+    ],
+    "retry_tails": [
+     "hrase\": \"mass-balance accounting\", \"meaning\": \"물질수지 회계\"}\n  ],\n  \"implication\": \"동맹이 적대적 통제 개념을 공통 정의하면 비중국 기준가격 시장이 가능해져 동맹국 생산 설비에 대한 금융 조달과 투자 판단이 쉬워질 수 있음\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "ee5a3d8fcc",
+     "v1_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPazZNengtTGdEbVJMQ052Vk03ZmFRWDI1WEF5dVNXdDRkVjQwLXJGUTVOSVU3a1ppRnlmZ0ZSRXVOMnkxckVSbEtXLXNBYjhOYmdhSzc5RV93VHJDcTd6eUhPdW00clVUOUVuVWZiRjVJU1oydUNvUlJqMjU4c1UxYTB3N3Zlcm8wOUtsYXRqN3RqQmRPRHN3MUNILVhIX0pPTVE?oc=5",
+     "summary_raw": "Limiting Adversarial Capital in Critical Minerals Supply Chains&nbsp;&nbsp;Baker Institute"
+    }
+   },
+   "v1": {
+    "korean_summary": "Baker Institute 보고서는 핵심광물 공급망에서 적대적 자본의 영향력을 제한하기 위한 정책 방안을 제시하고 있습니다. 지정학적 리스크와 공급 안보를 고려한 투자 심사 및 국제 협력 체계 강화가 주요 과제로 지적되었습니다. 이는 선진국의 핵심광물 자급률 확보 및 우호국 중심의 공급망 다원화 전략 수립에 중요한 정책적 근거가 될 것으로 판단됩니다.",
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "공급망 안보",
+     "지정학적 리스크"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Adversarial Capital in Critical Minerals Supply Chains",
+      "meaning": "핵심광물 공급망에서 적대적 의도의 자본 유입"
+     },
+     {
+      "phrase": "Supply Chain Resilience and Geopolitical Risk Management",
+      "meaning": "공급망 회복력과 지정학적 리스크 관리"
+     },
+     {
+      "phrase": "Strategic Diversification of Supply Sources",
+      "meaning": "공급 출처의 전략적 다원화"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "ee5a3d8fcc",
+    "title": "Limiting Adversarial Capital in Critical Minerals Supply Chains - Baker Institute",
+    "url": "https://bakerinstitute.org/research/limiting-adversarial-capital-critical-minerals-supply-chains",
+    "source": "Google News - Rare Earth Elements",
+    "tier_weight": 1,
+    "score": 8,
+    "published": "2026-09-05",
+    "korean_summary": [
+     "라이스대 베이커연구소가 적대적 자본 통제 공급을 가려낼 동맹 공통 기준을 제안했음",
+     "탄탈럼을 먼저 시범 적용한 뒤 USGS 정의 핵심광물 60개 중 20개로 확대하자고 했음",
+     "비중국 기준가격은 후속 보고서 주제이며, 이번 글은 핵심광물 자본 시리즈 세 번째임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "탄탈럼",
+     "적대적 자본",
+     "기준가격",
+     "미국"
+    ],
+    "ai_processed": true,
+    "card_id": "8a95e05ba0fe",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "~$19 billion",
+     "~€64 billion",
+     "20 of the currently defined 60 USGS critical minerals"
+    ],
+    "quotes": [
+     "That separation is the precondition for a separate reference price, the subject of the next paper, and for the ~$19 billion in U.S.",
+     "Build and test the machinery on tantalum first, for an early win, rather than launching on all 60 critical minerals or the hardest one first."
+    ],
+    "summary_raw": "Limiting Adversarial Capital in Critical Minerals Supply Chains&nbsp;&nbsp;Baker Institute",
+    "english_phrases": [
+     {
+      "phrase": "adversarial capital",
+      "meaning": "적대적 자본"
+     },
+     {
+      "phrase": "minimum viable product",
+      "meaning": "최소 기능 제품(시범 도입안)"
+     },
+     {
+      "phrase": "beneficial-ownership disclosure",
+      "meaning": "실질 소유자 공개"
+     },
+     {
+      "phrase": "mass-balance accounting",
+      "meaning": "물질수지 회계"
+     }
+    ],
+    "implication": "동맹이 적대적 통제 개념을 공통 정의하면 비중국 기준가격 시장이 가능해져 동맹국 생산 설비에 대한 금융 조달과 투자 판단이 쉬워질 수 있음",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "8c6f4e23b980",
+   "title": "Pentagon rare earth push collides with China’s grip",
+   "title_norm": "pentagon rare earth push collides with china s grip",
+   "url": "https://mining.com/pentagon-rare-earth-push-collides-with-chinas-grip",
+   "gnews_url": null,
+   "source": {
+    "name": "Mining.com",
+    "domain": "mining.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-09-04",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:52:25+00:00",
+   "score": 7,
+   "body": {
+    "status": "full",
+    "chars": 1015,
+    "sha256": "e2cccba40ee07190ae0ffc5d6da0484dd66feb21333549bc0b328b5caaa5d6ce",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2024-04-11",
+    "quotes": [
+     "Keep reading MINING.COM with a TNM NEWS+MARKETS Membership.",
+     "TNM Memberships is your key to unlocking access to the best news, insights, and data in the mining industry."
+    ],
+    "final_url": "https://www.mining.com/subscribe-login/?id=1213869",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "미 국방부가 중국에 의존하지 않는 국방 공급망을 구축하려는 과정에서 희토류 자석 수요 규모가 부각됐음",
+     "2030년까지 필요한 특수 희토류 자석이 현재 비중국 전체 생산량의 거의 절반에 이를 수 있다고 전했음",
+     "이후 내용은 유료 구독 안내로 끊겨 구체 물량·기업·후속 계획은 확인 불가임"
+    ],
+    "basis": "body",
+    "key_figures": [],
+    "quotes": [
+     "Keep reading MINING.COM with a TNM NEWS+MARKETS Membership.",
+     "TNM Memberships is your key to unlocking access to the best news, insights, and data in the mining industry."
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "영구자석",
+     "국방 공급망",
+     "미국",
+     "중국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "specialized rare earth magnets",
+      "meaning": "특수 희토류 자석"
+     },
+     {
+      "phrase": "non-Chinese production",
+      "meaning": "중국 외 지역의 생산량"
+     },
+     {
+      "phrase": "defence supply chain",
+      "meaning": "국방 공급망"
+     }
+    ],
+    "implication": "미 국방 수요만으로 중국 외 희토류 자석 생산량의 거의 절반이 필요해질 수 있어, 비중국 공급 확대 속도가 핵심 과제로 부각됨."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 1015,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:52:29+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "2e748ffa92",
+     "v1_url": "https://www.mining.com/pentagon-rare-earth-push-collides-with-chinas-grip/",
+     "summary_raw": "By 2030, DOD needs may triple to 10,000 tonnes annually, while current rare earth magnet production is 20,000-25,000 tonnes."
+    }
+   },
+   "v1": {
+    "korean_summary": "미국 국방부의 희토류 수요가 2030년까지 연간 10,000톤으로 3배 증가할 것으로 예상되고 있습니다. 현재 희토류 자석 생산량이 연 20,000~25,000톤 수준임을 감안할 때, 중국의 공급망 지배 구조 속에서 미국의 공급 확보 전략이 중대한 도전에 직면해 있습니다. 이는 핵심광물의 자급화와 공급망 다변화가 국방력 확보의 핵심 과제임을 보여줍니다.",
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "공급망 안보",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical rare earth supply chain",
+      "meaning": "핵심 희토류 공급망"
+     },
+     {
+      "phrase": "domestic production capacity expansion",
+      "meaning": "국내 생산 능력 확대"
+     },
+     {
+      "phrase": "supply chain diversification",
+      "meaning": "공급망 다변화"
+     },
+     {
+      "phrase": "DOD strategic requirements",
+      "meaning": "국방부 전략적 수요"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "2e748ffa92",
+    "title": "Pentagon rare earth push collides with China’s grip",
+    "url": "https://mining.com/pentagon-rare-earth-push-collides-with-chinas-grip",
+    "source": "Mining.com",
+    "tier_weight": 3,
+    "score": 7,
+    "published": "2026-09-04",
+    "korean_summary": [
+     "미 국방부가 중국에 의존하지 않는 국방 공급망을 구축하려는 과정에서 희토류 자석 수요 규모가 부각됐음",
+     "2030년까지 필요한 특수 희토류 자석이 현재 비중국 전체 생산량의 거의 절반에 이를 수 있다고 전했음",
+     "이후 내용은 유료 구독 안내로 끊겨 구체 물량·기업·후속 계획은 확인 불가임"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "영구자석",
+     "국방 공급망",
+     "미국",
+     "중국"
+    ],
+    "ai_processed": true,
+    "card_id": "8c6f4e23b980",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [],
+    "quotes": [
+     "Keep reading MINING.COM with a TNM NEWS+MARKETS Membership.",
+     "TNM Memberships is your key to unlocking access to the best news, insights, and data in the mining industry."
+    ],
+    "summary_raw": "By 2030, DOD needs may triple to 10,000 tonnes annually, while current rare earth magnet production is 20,000-25,000 tonnes.",
+    "english_phrases": [
+     {
+      "phrase": "specialized rare earth magnets",
+      "meaning": "특수 희토류 자석"
+     },
+     {
+      "phrase": "non-Chinese production",
+      "meaning": "중국 외 지역의 생산량"
+     },
+     {
+      "phrase": "defence supply chain",
+      "meaning": "국방 공급망"
+     }
+    ],
+    "implication": "미 국방 수요만으로 중국 외 희토류 자석 생산량의 거의 절반이 필요해질 수 있어, 비중국 공급 확대 속도가 핵심 과제로 부각됨.",
+    "trial": false
+   },
+   "trial": false
+  }
+ ],
+ "excluded": [],
+ "v1_file": "week-2026-09-07.json",
+ "v1_metrics": {
+  "articles": 12,
+  "original_link": 6,
+  "body_based": 0,
+  "failed": 0
+ },
+ "trial": false
+}

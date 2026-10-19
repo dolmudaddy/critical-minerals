@@ -1,0 +1,1915 @@
+{
+ "schema_version": "card.v1",
+ "service": "cmw",
+ "week_of": "2026-07-19",
+ "generated_at": "2026-10-19T05:39:45+00:00",
+ "mincore_version": "0.3.6",
+ "model": "claude-sonnet-5-5",
+ "prompt_version": "v2.2",
+ "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+ "stats": {
+  "v1_articles": 12,
+  "cards": 12,
+  "excluded": 0,
+  "body_got": 5,
+  "body_rate": 0.417,
+  "original_link": 12,
+  "reader_proxy_used": 0,
+  "line_len": {
+   "lines": 22,
+   "median": 56.0,
+   "max": 82,
+   "over60": 7,
+   "over100": 0
+  },
+  "oda_filled": 4,
+  "usage": {
+   "claude-sonnet-5-5": {
+    "calls": 13,
+    "in": 28793,
+    "out": 7072
+   }
+  },
+  "cost_usd": 0.1925,
+  "body_status": {
+   "title_only": 7,
+   "full": 4,
+   "partial": 1
+  },
+  "body_source": {
+   "none": 7,
+   "trafilatura": 5
+  },
+  "resolve": {
+   "decoder": 12
+  },
+  "fail_reason": {},
+  "basis": {
+   "title": 7,
+   "body": 5
+  },
+  "retry_reason": {
+   "lines는 3줄이어야 함 (현재 4줄)": 1
+  },
+  "flags": {},
+  "model_used": {
+   "claude-sonnet-5-5": 12
+  }
+ },
+ "total": 12,
+ "cards": [
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "cf28c973ec0a",
+   "title": "Supply concentration, export restrictions and declining investment put critical mineral security at risk - IEA – International Energy Agency",
+   "title_norm": "supply concentration export restrictions and declining investment put critical mineral security at risk iea",
+   "url": "https://iea.org/news/supply-concentration-export-restrictions-and-declining-investment-put-critical-mineral-security-at-risk",
+   "gnews_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTHI1dzJIMlRlRGJpRWl3ZEZsYm5WZEZYa1BWWVJOU0czSlYtaHVITGNYQWJSMXNacU1WQzMwc3ktN3JrS1dwMFhyMkJBY2pVYnNieXlaUkhLbFJXRktRbk1xR2lIcjZEc21MZFRhQno4YmktZEtKUWRTMU1pNzZZZ2xEbU9KSGFsWGl2ZFRFUWotbnNYS3pEbk13SlpodVFjRS1qaXJmRW5pRVI4Q3pLbGJ6bUljUGhnQlMzSXpkaklEOUpXSV80?oc=5",
+   "source": {
+    "name": "IEA - via Google News",
+    "domain": "iea.org",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-07-16",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:38:31+00:00",
+   "score": 13,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "bot_block",
+    "http_status": 403,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.iea.org/news/supply-concentration-export-restrictions-and-declining-investment-put-critical-mineral-security-at-risk",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "공급 집중, 수출 제한, 투자 감소가 핵심광물 안보를 위험에 빠뜨린다고 IEA가 밝혔음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "공급 집중",
+     "수출 제한",
+     "투자 감소",
+     "IEA"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "export restrictions",
+      "meaning": "수출 제한"
+     },
+     {
+      "phrase": "supply concentration",
+      "meaning": "공급 집중"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:38:34+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "50ef3f9d9b",
+     "v1_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTHI1dzJIMlRlRGJpRWl3ZEZsYm5WZEZYa1BWWVJOU0czSlYtaHVITGNYQWJSMXNacU1WQzMwc3ktN3JrS1dwMFhyMkJBY2pVYnNieXlaUkhLbFJXRktRbk1xR2lIcjZEc21MZFRhQno4YmktZEtKUWRTMU1pNzZZZ2xEbU9KSGFsWGl2ZFRFUWotbnNYS3pEbk13SlpodVFjRS1qaXJmRW5pRVI4Q3pLbGJ6bUljUGhnQlMzSXpkaklEOUpXSV80?oc=5",
+     "summary_raw": "Supply concentration, export restrictions and declining investment put critical mineral security at risk&nbsp;&nbsp;IEA – International Energy Agency"
+    }
+   },
+   "v1": {
+    "korean_summary": "국제에너지기구(IEA)는 공급 집중, 수출 제한, 투자 감소가 핵심광물의 안정적 공급을 위협하고 있다고 경고했습니다. 특정 국가에 의한 공급 독점과 수출 규제로 인해 글로벌 에너지 전환 및 첨단기술 산업에 심각한 리스크가 발생할 수 있습니다. 에너지 안보와 자원 안보를 동시에 확보하기 위한 국제적 협력과 투자 확대가 시급한 상황입니다.",
+    "category": "policy_market",
+    "tags": [
+     "리튬·코발트·희토류",
+     "광물 안보·공급망",
+     "IEA·국제정책"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "supply concentration",
+      "meaning": "공급 집중 (특정 국가·기업에 의한 공급 독점 현상)"
+     },
+     {
+      "phrase": "critical mineral security",
+      "meaning": "핵심광물 안보 (안정적이고 지속 가능한 핵심광물 확보)"
+     },
+     {
+      "phrase": "export restrictions",
+      "meaning": "수출 제한 (자국 우선주의에 따른 핵심광물 수출 규제)"
+     },
+     {
+      "phrase": "declining investment",
+      "meaning": "투자 감소 (광물 탐사·개발·재활용 부문의 자본 유입 부족)"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "50ef3f9d9b",
+    "title": "Supply concentration, export restrictions and declining investment put critical mineral security at risk - IEA – International Energy Agency",
+    "url": "https://iea.org/news/supply-concentration-export-restrictions-and-declining-investment-put-critical-mineral-security-at-risk",
+    "source": "IEA - via Google News",
+    "tier_weight": 5,
+    "score": 13,
+    "published": "2026-07-16",
+    "korean_summary": [
+     "[제목 기반] 공급 집중, 수출 제한, 투자 감소가 핵심광물 안보를 위험에 빠뜨린다고 IEA가 밝혔음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "공급 집중",
+     "수출 제한",
+     "투자 감소",
+     "IEA"
+    ],
+    "ai_processed": true,
+    "card_id": "cf28c973ec0a",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Supply concentration, export restrictions and declining investment put critical mineral security at risk&nbsp;&nbsp;IEA – International Energy Agency",
+    "english_phrases": [
+     {
+      "phrase": "export restrictions",
+      "meaning": "수출 제한"
+     },
+     {
+      "phrase": "supply concentration",
+      "meaning": "공급 집중"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "bb0ddd43ff11",
+   "title": "Global Critical Minerals Outlook 2026 – Analysis - IEA – International Energy Agency",
+   "title_norm": "global critical minerals outlook 2026 analysis iea",
+   "url": "https://iea.org/reports/global-critical-minerals-outlook-2026",
+   "gnews_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4zZE45N2o0dVFmY29BaFFvN05kbGVESlBHbWhXUlo1RVNFVlRJMkxPbnBLSWQtWi0yTzNBQ0U5LWJGQ0FISzY4VXl6TFBMa1FmLW1SUVNwRlN3ZkplSmd5aDlQYXgxYVZMVVl5VkhqRmJaWVE?oc=5",
+   "source": {
+    "name": "IEA - via Google News",
+    "domain": "iea.org",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-07-16",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:38:34+00:00",
+   "score": 9,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "bot_block",
+    "http_status": 403,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.iea.org/reports/global-critical-minerals-outlook-2026",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "IEA, 「2026 글로벌 핵심광물 전망」 분석을 발표했음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "IEA",
+     "글로벌 전망",
+     "2026"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Global Critical Minerals Outlook 2026",
+      "meaning": "2026 글로벌 핵심광물 전망"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:38:36+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "42318cad45",
+     "v1_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4zZE45N2o0dVFmY29BaFFvN05kbGVESlBHbWhXUlo1RVNFVlRJMkxPbnBLSWQtWi0yTzNBQ0U5LWJGQ0FISzY4VXl6TFBMa1FmLW1SUVNwRlN3ZkplSmd5aDlQYXgxYVZMVVl5VkhqRmJaWVE?oc=5",
+     "summary_raw": "Global Critical Minerals Outlook 2026 – Analysis&nbsp;&nbsp;IEA – International Energy Agency"
+    }
+   },
+   "v1": {
+    "korean_summary": "IEA가 발표한 '2026년 글로벌 핵심광물 전망'은 에너지 전환과 첨단 기술 산업 확대에 따른 핵심광물 수급 불균형을 심층 분석하고 있습니다. 리튬, 코발트, 니켈 등 배터리 핵심 광물과 희토류 원소의 수요가 2030년까지 급증할 것으로 예측되고 있습니다. 공급망 다층화와 채굴 역량 확대, 재활용 기술 고도화를 통한 선제적 대응이 글로벌 에너지 안보 차원에서 긴요한 과제로 제시되었습니다.",
+    "category": "policy_market",
+    "tags": [
+     "리튬·코발트·니켈",
+     "핵심광물 공급망",
+     "에너지 전환"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Global Critical Minerals Outlook",
+      "meaning": "글로벌 핵심광물 전망/수급 분석 보고서"
+     },
+     {
+      "phrase": "supply chain resilience",
+      "meaning": "공급망 회복력/안정성 강화"
+     },
+     {
+      "phrase": "energy transition minerals demand",
+      "meaning": "에너지 전환에 따른 핵심광물 수요 증가"
+     },
+     {
+      "phrase": "mineral resource diversification",
+      "meaning": "광물 자원 다원화/포트폴리오 다층화"
+     },
+     {
+      "phrase": "circular economy in mining",
+      "meaning": "광업 분야의 순환경제 도입/재활용 체계"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "42318cad45",
+    "title": "Global Critical Minerals Outlook 2026 – Analysis - IEA – International Energy Agency",
+    "url": "https://iea.org/reports/global-critical-minerals-outlook-2026",
+    "source": "IEA - via Google News",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-07-16",
+    "korean_summary": [
+     "[제목 기반] IEA, 「2026 글로벌 핵심광물 전망」 분석을 발표했음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "IEA",
+     "글로벌 전망",
+     "2026"
+    ],
+    "ai_processed": true,
+    "card_id": "bb0ddd43ff11",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Global Critical Minerals Outlook 2026 – Analysis&nbsp;&nbsp;IEA – International Energy Agency",
+    "english_phrases": [
+     {
+      "phrase": "Global Critical Minerals Outlook 2026",
+      "meaning": "2026 글로벌 핵심광물 전망"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "fd04d6fdf518",
+   "title": "Critical Mineral Security and Export Restrictions: 2026 Analysis - Discovery Alert",
+   "title_norm": "critical mineral security and export restrictions 2026 analysis",
+   "url": "https://discoveryalert.com.au/critical-mineral-security-export-restrictions-supply-chain-resilience",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWnZPeU80X1V5bDhnRXowRW9iaEgwOS1ENEM2SjNXX1pRV0ZPWnJ6TkVBdXRRSUNfa3cycGpvTXFDdENSeG5wYnlEV0NBMFJNRGtuaGVMNDkxbjVNaTVhTkctb1ZyT0FhRWItbmhaWE1IR0JoSkVFX0xtWGxWeHZQN1JNU0ZXS09uNzlYdmNaOUtpV0EyVW9vN2ZDWU9JdFJxdEE?oc=5",
+   "source": {
+    "name": "Google News - IRA CRMA Policy",
+    "domain": "discoveryalert.com.au",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-07-17",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:38:45+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 17894,
+    "sha256": "caaeb3edd5b48df6e4f27f937daf366a5554d2c8e067b759ce777ca53619deb5",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-07-17",
+    "quotes": [
+     "| Rare Earth Elements | China | ~85% | ~46% of global trade |",
+     "| Graphite | China | ~70%+ | ~47% of exports |"
+    ],
+    "final_url": "https://discoveryalert.com/critical-mineral-security-export-restrictions-supply-chain-resilience/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Discovery Alert 기사가 핵심광물 안보와 수출 제한을 분석하며 정제 단계 집중을 핵심 취약점으로 짚었음",
+     "2025년 추정 정제 점유율은 희토류 ~85%, 흑연 ~70%+, 게르마늄·마그네슘 ~90%+로 제시했음",
+     "2035년까지 중국 외 계획 정제 용량은 광산 생산 전망의 약 3분의 2, 자석 제조는 3분의 1이라고 밝혔음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "~85%",
+     "~70%+",
+     "approximately two-thirds"
+    ],
+    "quotes": [
+     "| Rare Earth Elements | China | ~85% | ~46% of global trade |",
+     "| Graphite | China | ~70%+ | ~47% of exports |"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "핵심광물",
+     "수출 제한",
+     "희토류",
+     "정제 집중",
+     "중국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "export restrictions",
+      "meaning": "수출 제한"
+     },
+     {
+      "phrase": "upstream-downstream mismatch",
+      "meaning": "상류-하류 간 불균형"
+     },
+     {
+      "phrase": "strategic chokepoints",
+      "meaning": "전략적 병목 지점"
+     }
+    ],
+    "implication": "중국 외 지역의 정제·자석 제조 투자가 채굴 투자에 못 미쳐, 광산 프로젝트가 진행돼도 공급 차질 취약성이 남을 수 있음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:39:00+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 4줄)"
+    ],
+    "retry_tails": [
+     "\"},\n    {\"phrase\": \"strategic chokepoints\", \"meaning\": \"전략적 병목 지점\"}\n  ],\n  \"implication\": \"채굴 다변화에 비해 중국 외 정제·자석 제조 투자가 뒤처져, 광산 프로젝트가 진행돼도 공급 차질 취약성이 남을 수 있음\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "1064f4a8d1",
+     "v1_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWnZPeU80X1V5bDhnRXowRW9iaEgwOS1ENEM2SjNXX1pRV0ZPWnJ6TkVBdXRRSUNfa3cycGpvTXFDdENSeG5wYnlEV0NBMFJNRGtuaGVMNDkxbjVNaTVhTkctb1ZyT0FhRWItbmhaWE1IR0JoSkVFX0xtWGxWeHZQN1JNU0ZXS09uNzlYdmNaOUtpV0EyVW9vN2ZDWU9JdFJxdEE?oc=5",
+     "summary_raw": "Critical Mineral Security and Export Restrictions: 2026 Analysis&nbsp;&nbsp;Discovery Alert"
+    }
+   },
+   "v1": {
+    "korean_summary": "2026년을 전망하는 핵심광물 수급 안보 분석 보고서로, 주요국의 수출 제한 정책이 글로벌 공급망에 미치는 영향을 심층 검토하고 있습니다. 핵심광물의 확보 경쟁이 심화되는 가운데 수출 규제 강화 추세가 국내 산업 공급망 리스크로 작용할 수 있음을 시사합니다. 향후 핵심광물 안보 전략 수립 및 다원화된 수급망 구축의 필요성이 강조되고 있습니다.",
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "수출규제정책",
+     "글로벌공급망"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical mineral security",
+      "meaning": "핵심광물 수급 안보"
+     },
+     {
+      "phrase": "export restrictions and supply chain vulnerabilities",
+      "meaning": "수출 제한 조치와 공급망 취약성"
+     },
+     {
+      "phrase": "strategic sourcing and supply diversification",
+      "meaning": "전략적 광물 수급 및 공급처 다원화"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "1064f4a8d1",
+    "title": "Critical Mineral Security and Export Restrictions: 2026 Analysis - Discovery Alert",
+    "url": "https://discoveryalert.com.au/critical-mineral-security-export-restrictions-supply-chain-resilience",
+    "source": "Google News - IRA CRMA Policy",
+    "tier_weight": 1,
+    "score": 9,
+    "published": "2026-07-17",
+    "korean_summary": [
+     "Discovery Alert 기사가 핵심광물 안보와 수출 제한을 분석하며 정제 단계 집중을 핵심 취약점으로 짚었음",
+     "2025년 추정 정제 점유율은 희토류 ~85%, 흑연 ~70%+, 게르마늄·마그네슘 ~90%+로 제시했음",
+     "2035년까지 중국 외 계획 정제 용량은 광산 생산 전망의 약 3분의 2, 자석 제조는 3분의 1이라고 밝혔음"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "핵심광물",
+     "수출 제한",
+     "희토류",
+     "정제 집중",
+     "중국"
+    ],
+    "ai_processed": true,
+    "card_id": "fd04d6fdf518",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "~85%",
+     "~70%+",
+     "approximately two-thirds"
+    ],
+    "quotes": [
+     "| Rare Earth Elements | China | ~85% | ~46% of global trade |",
+     "| Graphite | China | ~70%+ | ~47% of exports |"
+    ],
+    "summary_raw": "Critical Mineral Security and Export Restrictions: 2026 Analysis&nbsp;&nbsp;Discovery Alert",
+    "english_phrases": [
+     {
+      "phrase": "export restrictions",
+      "meaning": "수출 제한"
+     },
+     {
+      "phrase": "upstream-downstream mismatch",
+      "meaning": "상류-하류 간 불균형"
+     },
+     {
+      "phrase": "strategic chokepoints",
+      "meaning": "전략적 병목 지점"
+     }
+    ],
+    "implication": "중국 외 지역의 정제·자석 제조 투자가 채굴 투자에 못 미쳐, 광산 프로젝트가 진행돼도 공급 차질 취약성이 남을 수 있음",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "ccb1c71af13f",
+   "title": "China's rare earth curbs endanger $6.5 trillion of Western industry, IEA says - Reuters",
+   "title_norm": "china s rare earth curbs endanger 6 5 trillion of western industry iea says",
+   "url": "https://reuters.com/business/autos-transportation/chinas-rare-earth-curbs-endanger-65-trillion-western-industry-iea-says-2026-07-16",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQ1JvOGNOVF9NekpFQlJZLWowNkRlZkpZa2JjcnBSalhndDhwb09Gel9TdnNwYUctMlc3VXlHTjlzV0hwMkdBWGdGS04zSUpxdmhnX0JVeU9rRFFMVXFTVkRLaHR4b21NTTFONGVVR1U4VVZ3ZmlUQmRHcHphczdnWExMNFNVS0tWLTE1OEwzakl2VmJZMC1qS2c2YlhxaGNkbi03RjVjbzNRcWhzWkZITjhMR3VrNXB2eU0xaDlCWFN1TThDUkJjVTRDRkI4UkV1T1E?oc=5",
+   "source": {
+    "name": "Reuters - via Google News",
+    "domain": "reuters.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-07-16",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:39:00+00:00",
+   "score": 7,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "skipped",
+    "http_status": null,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": null,
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "중국의 희토류 규제가 $6.5 trillion 규모의 서방 산업을 위협한다고 IEA가 밝혔음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "중국",
+     "공급망",
+     "규제",
+     "IEA"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "rare earth curbs",
+      "meaning": "희토류 규제"
+     },
+     {
+      "phrase": "endanger",
+      "meaning": "위태롭게 하다, 위협하다"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:39:05+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "333e0930b8",
+     "v1_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQ1JvOGNOVF9NekpFQlJZLWowNkRlZkpZa2JjcnBSalhndDhwb09Gel9TdnNwYUctMlc3VXlHTjlzV0hwMkdBWGdGS04zSUpxdmhnX0JVeU9rRFFMVXFTVkRLaHR4b21NTTFONGVVR1U4VVZ3ZmlUQmRHcHphczdnWExMNFNVS0tWLTE1OEwzakl2VmJZMC1qS2c2YlhxaGNkbi03RjVjbzNRcWhzWkZITjhMR3VrNXB2eU0xaDlCWFN1TThDUkJjVTRDRkI4UkV1T1E?oc=5",
+     "summary_raw": "China's rare earth curbs endanger $6.5 trillion of Western industry, IEA says&nbsp;&nbsp;Reuters"
+    }
+   },
+   "v1": {
+    "korean_summary": "국제에너지기구(IEA)는 중국의 희토류 수출 제한이 서방 산업 6.5조 달러 규모에 위험을 초래할 수 있다고 경고했습니다. 중국이 핵심광물 공급망에서 차지하는 지배적 위치를 고려할 때, 공급 차질은 에너지 전환과 첨단기술 산업에 심각한 영향을 미칠 전망입니다. 이는 서방 국가들의 핵심광물 자급화 및 공급망 다원화 전략의 시급성을 더욱 부각시키고 있습니다.",
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "공급망 안보",
+     "중국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals supply chain concentration",
+      "meaning": "핵심광물 공급망의 지역적 집중화"
+     },
+     {
+      "phrase": "supply chain diversification",
+      "meaning": "공급망 다원화/분산"
+     },
+     {
+      "phrase": "rare earth export restrictions",
+      "meaning": "희토류 수출 제한 조치"
+     },
+     {
+      "phrase": "strategic vulnerability in clean energy transition",
+      "meaning": "에너지 전환 과정에서의 전략적 취약성"
+     },
+     {
+      "phrase": "mineral supply security",
+      "meaning": "광물 공급 안보"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "333e0930b8",
+    "title": "China's rare earth curbs endanger $6.5 trillion of Western industry, IEA says - Reuters",
+    "url": "https://reuters.com/business/autos-transportation/chinas-rare-earth-curbs-endanger-65-trillion-western-industry-iea-says-2026-07-16",
+    "source": "Reuters - via Google News",
+    "tier_weight": 3,
+    "score": 7,
+    "published": "2026-07-16",
+    "korean_summary": [
+     "[제목 기반] 중국의 희토류 규제가 $6.5 trillion 규모의 서방 산업을 위협한다고 IEA가 밝혔음"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "중국",
+     "공급망",
+     "규제",
+     "IEA"
+    ],
+    "ai_processed": true,
+    "card_id": "ccb1c71af13f",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "China's rare earth curbs endanger $6.5 trillion of Western industry, IEA says&nbsp;&nbsp;Reuters",
+    "english_phrases": [
+     {
+      "phrase": "rare earth curbs",
+      "meaning": "희토류 규제"
+     },
+     {
+      "phrase": "endanger",
+      "meaning": "위태롭게 하다, 위협하다"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "4a04a344bacd",
+   "title": "China to levy consumption tax on lithium-ion batteries and solar cells - Reuters",
+   "title_norm": "china to levy consumption tax on lithium ion batteries and solar cells",
+   "url": "https://reuters.com/legal/transactional/china-levy-consumption-tax-on-lithium-ion-batteries-solar-cells-2026-07-17",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMjloQ3c4TGE0b3hBSTYzWHJLRFdfZEF3Zk1hN1lWNXFfWnJuTHdodTk3VTEteWY2cERKdkliakxUNk1KSjdfWUJHU1piRGlzc3oza2xFZ0Jzb0lYSUpUaXdTQVVYMF9nT1BEQlRkeTFOSkt6eTJfT2JxV3JOVWY2bG81ajYxY2NKbzVZUF9wcUJMSTA3RG1IZUlsby1CSHVuc0hvSzVxalFXYUxkakVxTDlmZGRoa3k5UzNJ?oc=5",
+   "source": {
+    "name": "Reuters - via Google News",
+    "domain": "reuters.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-07-17",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:39:05+00:00",
+   "score": 7,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "skipped",
+    "http_status": null,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": null,
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "중국이 리튬이온 배터리와 태양전지에 소비세를 부과할 예정임"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "리튬이온 배터리",
+     "태양전지",
+     "소비세",
+     "중국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "consumption tax",
+      "meaning": "소비세"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:39:06+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "78a0be049f",
+     "v1_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMjloQ3c4TGE0b3hBSTYzWHJLRFdfZEF3Zk1hN1lWNXFfWnJuTHdodTk3VTEteWY2cERKdkliakxUNk1KSjdfWUJHU1piRGlzc3oza2xFZ0Jzb0lYSUpUaXdTQVVYMF9nT1BEQlRkeTFOSkt6eTJfT2JxV3JOVWY2bG81ajYxY2NKbzVZUF9wcUJMSTA3RG1IZUlsby1CSHVuc0hvSzVxalFXYUxkakVxTDlmZGRoa3k5UzNJ?oc=5",
+     "summary_raw": "China to levy consumption tax on lithium-ion batteries and solar cells&nbsp;&nbsp;Reuters"
+    }
+   },
+   "v1": {
+    "korean_summary": "중국이 리튬이온배터리 및 태양전지에 소비세를 부과하기로 결정하여 핵심광물 공급망에 영향을 미칠 전망입니다. 이는 배터리 및 신재생에너지 산업의 원가 구조 변화를 초래할 것으로 예상됩니다. 해당 정책은 글로벌 핵심광물 시장과 한국의 배터리 산업에도 중대한 영향을 미칠 것으로 확인되었습니다.",
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "배터리 산업정책",
+     "중국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "consumption tax levy on critical mineral-intensive products",
+      "meaning": "핵심광물 집약적 제품에 대한 소비세 부과"
+     },
+     {
+      "phrase": "supply chain impact assessment of battery and solar cell sectors",
+      "meaning": "배터리 및 태양전지 산업의 공급망 영향 평가"
+     },
+     {
+      "phrase": "fiscal policy on downstream processing of critical minerals",
+      "meaning": "핵심광물 후방 가공산업에 대한 재정 정책"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "78a0be049f",
+    "title": "China to levy consumption tax on lithium-ion batteries and solar cells - Reuters",
+    "url": "https://reuters.com/legal/transactional/china-levy-consumption-tax-on-lithium-ion-batteries-solar-cells-2026-07-17",
+    "source": "Reuters - via Google News",
+    "tier_weight": 3,
+    "score": 7,
+    "published": "2026-07-17",
+    "korean_summary": [
+     "[제목 기반] 중국이 리튬이온 배터리와 태양전지에 소비세를 부과할 예정임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "리튬이온 배터리",
+     "태양전지",
+     "소비세",
+     "중국"
+    ],
+    "ai_processed": true,
+    "card_id": "4a04a344bacd",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "China to levy consumption tax on lithium-ion batteries and solar cells&nbsp;&nbsp;Reuters",
+    "english_phrases": [
+     {
+      "phrase": "consumption tax",
+      "meaning": "소비세"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "5844bd9bd93b",
+   "title": "Rare earths explorer Chilean Cobalt starts next earn-in phase of work, ships carbonate concentrate samples - Mining Weekly",
+   "title_norm": "rare earths explorer chilean cobalt starts next earn in phase of work ships carbonate concentrate samples",
+   "url": "https://miningweekly.com/article/rare-earths-explorer-chilean-cobalt-start-next-earn-in-phase-of-work-ships-samples-of-carbonate-concentrate-2026-07-15",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPM0xDU25RSmwxeXEyYWNPX3NSUDBQY2o1c3pCdnpiam54NGJ2d2JnVnVCU0VBTVM5eThhRFdXenZrNnhIeGllU3A5SjdyNF9oZnJJN01QRW9xaXBObDhfdFZFSVp3a0syTlllWTg0ajlGSUNOeGRjNzBZTTBoQTJJN1djMXJzZGU0d1RYN3lGQUxLbGt0MkJGbzJYdzVtc2xLMFlWRjJ1M2xrQTR2Zkp1SnJBM016R2FaTms1Ml9GX1ZCQUE5aDNCc0lRcVBlSjJ6Y2JtcGJVR1RsX2dHdFlVaVE1ZkRQTFNORmtJ?oc=5",
+   "source": {
+    "name": "Mining Weekly - via Google News",
+    "domain": "miningweekly.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-07-15",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:39:08+00:00",
+   "score": 7,
+   "body": {
+    "status": "full",
+    "chars": 4173,
+    "sha256": "58105dd2c04b12b17dcc3846af8e31dbd51c99c3c8a81c0f8c761cf59bd339bd",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-07-15",
+    "quotes": [
+     "As US-based Chilean Cobalt Corporation works to earn 100% ownership of the NeoRe rare earths project in southern Chile, the company has completed a Phase 1 work programme and has actively started executing Phase 2.",
+     "Receive a weekly copy of Creamer Media's Engineering News & Mining Weekly magazine"
+    ],
+    "final_url": "https://www.miningweekly.com/article/rare-earths-explorer-chilean-cobalt-start-next-earn-in-phase-of-work-ships-samples-of-carbonate-concentrate-2026-07-15",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "미국 기반 Chilean Cobalt Corporation이 NeoRe 희토류 프로젝트의 1단계 작업을 마치고 2단계에 착수했음",
+     "올해 누적 굴착 2 000 m에 도달했고, 탄산염 농축물 샘플을 미국 가공·오프테이크 후보사에 발송했음",
+     "2단계에서 확장 탐사, 야금 시험, 공학 연구, 인허가를 진행하며 월 약 5 000 t·10 000 t 생산 시나리오를 평가할 예정임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "100%",
+     "2 000 m",
+     "5 000 t a month and 10 000 t a month"
+    ],
+    "quotes": [
+     "As US-based Chilean Cobalt Corporation works to earn 100% ownership of the NeoRe rare earths project in southern Chile, the company has completed a Phase 1 work programme and has actively started executing Phase 2.",
+     "Receive a weekly copy of Creamer Media's Engineering News & Mining Weekly magazine"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "희토류",
+     "중희토류",
+     "NeoRe",
+     "칠레",
+     "어닌 계약"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "earn-in and option agreement",
+      "meaning": "지분 취득 조건 및 옵션 계약"
+     },
+     {
+      "phrase": "rare earth carbonate concentrate",
+      "meaning": "희토류 탄산염 농축물"
+     },
+     {
+      "phrase": "offtake partners",
+      "meaning": "생산물 구매(오프테이크) 파트너"
+     },
+     {
+      "phrase": "pilot plant",
+      "meaning": "시험 생산 설비"
+     }
+    ],
+    "implication": "서방 공급망을 겨냥한 중희토류 프로젝트가 미국 가공·오프테이크 후보사 샘플 평가 단계에 진입해, 중국 외 희토류 공급처 구축 시도가 구체화되고 있음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:39:13+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "629935aab3",
+     "v1_url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPM0xDU25RSmwxeXEyYWNPX3NSUDBQY2o1c3pCdnpiam54NGJ2d2JnVnVCU0VBTVM5eThhRFdXenZrNnhIeGllU3A5SjdyNF9oZnJJN01QRW9xaXBObDhfdFZFSVp3a0syTlllWTg0ajlGSUNOeGRjNzBZTTBoQTJJN1djMXJzZGU0d1RYN3lGQUxLbGt0MkJGbzJYdzVtc2xLMFlWRjJ1M2xrQTR2Zkp1SnJBM016R2FaTms1Ml9GX1ZCQUE5aDNCc0lRcVBlSjJ6Y2JtcGJVR1RsX2dHdFlVaVE1ZkRQTFNORmtJ?oc=5",
+     "summary_raw": "Rare earths explorer Chilean Cobalt starts next earn-in phase of work, ships carbonate concentrate samples&nbsp;&nbsp;Mining Weekly"
+    }
+   },
+   "v1": {
+    "korean_summary": "희토류 탐광회사인 칠레코발트(Chilean Cobalt)가 차기 단계의 탐사 사업을 개시하고 탄산염 농축액 샘플을 채취·발송하였음이 확인되었습니다. 본 사업은 핵심광물인 희토류와 코발트의 추출 기술 개발 및 상업화 가능성 검증을 목표로 추진 중입니다. 칠레 지역의 광물 자원화 사업이 차질 없이 진행되고 있으며, 향후 글로벌 핵심광물 공급망 안정화에 기여할 것으로 전망됩니다.",
+    "category": "exploration_tech",
+    "tags": [
+     "희토류",
+     "코발트",
+     "칠레"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "earn-in phase",
+      "meaning": "단계적 투자를 통해 광구 지분을 획득하는 탐사 단계"
+     },
+     {
+      "phrase": "carbonate concentrate samples",
+      "meaning": "탄산염 광물 농축액 샘플"
+     },
+     {
+      "phrase": "rare earths explorer",
+      "meaning": "희토류 광물 탐광 전문회사"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "629935aab3",
+    "title": "Rare earths explorer Chilean Cobalt starts next earn-in phase of work, ships carbonate concentrate samples - Mining Weekly",
+    "url": "https://miningweekly.com/article/rare-earths-explorer-chilean-cobalt-start-next-earn-in-phase-of-work-ships-samples-of-carbonate-concentrate-2026-07-15",
+    "source": "Mining Weekly - via Google News",
+    "tier_weight": 3,
+    "score": 7,
+    "published": "2026-07-15",
+    "korean_summary": [
+     "미국 기반 Chilean Cobalt Corporation이 NeoRe 희토류 프로젝트의 1단계 작업을 마치고 2단계에 착수했음",
+     "올해 누적 굴착 2 000 m에 도달했고, 탄산염 농축물 샘플을 미국 가공·오프테이크 후보사에 발송했음",
+     "2단계에서 확장 탐사, 야금 시험, 공학 연구, 인허가를 진행하며 월 약 5 000 t·10 000 t 생산 시나리오를 평가할 예정임"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "희토류",
+     "중희토류",
+     "NeoRe",
+     "칠레",
+     "어닌 계약"
+    ],
+    "ai_processed": true,
+    "card_id": "5844bd9bd93b",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "100%",
+     "2 000 m",
+     "5 000 t a month and 10 000 t a month"
+    ],
+    "quotes": [
+     "As US-based Chilean Cobalt Corporation works to earn 100% ownership of the NeoRe rare earths project in southern Chile, the company has completed a Phase 1 work programme and has actively started executing Phase 2.",
+     "Receive a weekly copy of Creamer Media's Engineering News & Mining Weekly magazine"
+    ],
+    "summary_raw": "Rare earths explorer Chilean Cobalt starts next earn-in phase of work, ships carbonate concentrate samples&nbsp;&nbsp;Mining Weekly",
+    "english_phrases": [
+     {
+      "phrase": "earn-in and option agreement",
+      "meaning": "지분 취득 조건 및 옵션 계약"
+     },
+     {
+      "phrase": "rare earth carbonate concentrate",
+      "meaning": "희토류 탄산염 농축물"
+     },
+     {
+      "phrase": "offtake partners",
+      "meaning": "생산물 구매(오프테이크) 파트너"
+     },
+     {
+      "phrase": "pilot plant",
+      "meaning": "시험 생산 설비"
+     }
+    ],
+    "implication": "서방 공급망을 겨냥한 중희토류 프로젝트가 미국 가공·오프테이크 후보사 샘플 평가 단계에 진입해, 중국 외 희토류 공급처 구축 시도가 구체화되고 있음",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "adffc46b23a4",
+   "title": "DOE announces breakthrough in domestic silicon and germanium isotope supply chains - Innovation News Network",
+   "title_norm": "doe announces breakthrough in domestic silicon and germanium isotope supply chains",
+   "url": "https://innovationnewsnetwork.com/doe-announces-breakthrough-in-domestic-silicon-and-germanium-isotope-supply-chains/71719",
+   "gnews_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVjVGWjUyNzhTcm8xYllWalJ6dmpOYTdRTUFtWEd2OEpjcmxMY0pwSDJnYU9KX0QzQmtUZlhCNERSRjhmWnprcUE0NDBUa0toUmtYUFlKcWpwSzBDQ1lueTZ5bkx0a3h5YzFDay1CNVRFSk9IWXM2X1JSYUNOOU1XTUNCejVBMW96SnpzNFB5MHZKWjF6M281Y2lrazIzYmZkdjFORkU2TVNyc3cxZDVQNlZwbEpjeWxSemxSVFBoMW5Nb2hKa1E?oc=5",
+   "source": {
+    "name": "Google News - IRA CRMA Policy",
+    "domain": "innovationnewsnetwork.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-07-17",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:39:16+00:00",
+   "score": 8,
+   "body": {
+    "status": "full",
+    "chars": 5627,
+    "sha256": "a425c1f0572b9984ca1942400e5b137a4109b068fa94ef9cf858938e1ede2165",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-07-17",
+    "quotes": [
+     "Additionally, Si-28 purity reaches 99.9999% in silane.",
+     "For example, the EMIS germanium product has Ge-73 levels well below 1 ppm."
+    ],
+    "final_url": "https://www.innovationnewsnetwork.com/doe-announces-breakthrough-in-domestic-silicon-and-germanium-isotope-supply-chains/71719/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "미국 에너지부(DOE)가 ORNL·PNNL 협력으로 초고농축 실레인·저메인 생산 기술을 개발했다고 발표했음",
+     "Ge-73과 Si-29 농도는 각각 저메인·실레인에서 1 part per million(ppm) 미만, 실레인의 Si-28 순도는 99.9999%임",
+     "1998년 칼루트론 폐기 이후 대규모 국내 안정동위원소 농축이 없었고, 이번 성과는 2025년 Genesis Mission 행정명령 목표를 지원함"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "100 times",
+     "below 1 part per million (ppm)",
+     "99.9999%"
+    ],
+    "quotes": [
+     "Additionally, Si-28 purity reaches 99.9999% in silane.",
+     "For example, the EMIS germanium product has Ge-73 levels well below 1 ppm."
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "실리콘",
+     "저마늄",
+     "동위원소",
+     "양자컴퓨터",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Electromagnetic Isotope Separation (EMIS)",
+      "meaning": "전자기 동위원소 분리 기술"
+     },
+     {
+      "phrase": "Thermal Diffusion Isotopic Separation (TDIS)",
+      "meaning": "열확산 동위원소 분리 기술"
+     },
+     {
+      "phrase": "coherence time",
+      "meaning": "양자 상태가 유지되는 시간(결맞음 시간)"
+     },
+     {
+      "phrase": "stable isotope enrichment",
+      "meaning": "안정동위원소 농축"
+     }
+    ],
+    "implication": "미국이 약 30년 만에 양자컴퓨팅용 실리콘·저마늄 동위원소의 국내 농축 공급 기반을 갖추게 되어 해외 의존도 축소 가능성이 커졌음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:39:21+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "21fef727be",
+     "v1_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVjVGWjUyNzhTcm8xYllWalJ6dmpOYTdRTUFtWEd2OEpjcmxMY0pwSDJnYU9KX0QzQmtUZlhCNERSRjhmWnprcUE0NDBUa0toUmtYUFlKcWpwSzBDQ1lueTZ5bkx0a3h5YzFDay1CNVRFSk9IWXM2X1JSYUNOOU1XTUNCejVBMW96SnpzNFB5MHZKWjF6M281Y2lrazIzYmZkdjFORkU2TVNyc3cxZDVQNlZwbEpjeWxSemxSVFBoMW5Nb2hKa1E?oc=5",
+     "summary_raw": "DOE announces breakthrough in domestic silicon and germanium isotope supply chains&nbsp;&nbsp;Innovation News Network"
+    }
+   },
+   "v1": {
+    "korean_summary": "미국 에너지부(DOE)가 국내 규소 및 게르마늄 동위원소 공급망 확보에 획기적인 진전을 이루었으며, 이는 반도체·태양광·방위산업 등 첨단산업에 필수적인 핵심광물의 자급화 전략을 강화하는 계기가 될 전망입니다. 이번 성과는 인플레이션 감축법(IRA) 및 핵심광물 재자급화 정책(CRMA)의 실질적 결과물로, 중국 의존도 감소를 목표로 하고 있습니다. 국내 자원공학 분야에서도 반도체용 고순도 동위원소 분리·정제 기술의 연구개발 및 산업화 추진이 시급한 상황입니다.",
+    "category": "supply_chain",
+    "tags": [
+     "규소(Si)",
+     "게르마늄(Ge)",
+     "공급망 자급화 정책"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "domestic supply chain for critical minerals",
+      "meaning": "핵심광물의 국내 공급망 구축"
+     },
+     {
+      "phrase": "silicon and germanium isotope separation",
+      "meaning": "규소 및 게르마늄 동위원소 분리 기술"
+     },
+     {
+      "phrase": "supply chain resilience",
+      "meaning": "공급망 회복력/안정성"
+     },
+     {
+      "phrase": "reduce reliance on foreign sources",
+      "meaning": "해외 의존도 감소"
+     },
+     {
+      "phrase": "advanced manufacturing and semiconductor applications",
+      "meaning": "첨단 제조 및 반도체 응용분야"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "21fef727be",
+    "title": "DOE announces breakthrough in domestic silicon and germanium isotope supply chains - Innovation News Network",
+    "url": "https://innovationnewsnetwork.com/doe-announces-breakthrough-in-domestic-silicon-and-germanium-isotope-supply-chains/71719",
+    "source": "Google News - IRA CRMA Policy",
+    "tier_weight": 1,
+    "score": 8,
+    "published": "2026-07-17",
+    "korean_summary": [
+     "미국 에너지부(DOE)가 ORNL·PNNL 협력으로 초고농축 실레인·저메인 생산 기술을 개발했다고 발표했음",
+     "Ge-73과 Si-29 농도는 각각 저메인·실레인에서 1 part per million(ppm) 미만, 실레인의 Si-28 순도는 99.9999%임",
+     "1998년 칼루트론 폐기 이후 대규모 국내 안정동위원소 농축이 없었고, 이번 성과는 2025년 Genesis Mission 행정명령 목표를 지원함"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "실리콘",
+     "저마늄",
+     "동위원소",
+     "양자컴퓨터",
+     "미국"
+    ],
+    "ai_processed": true,
+    "card_id": "adffc46b23a4",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "100 times",
+     "below 1 part per million (ppm)",
+     "99.9999%"
+    ],
+    "quotes": [
+     "Additionally, Si-28 purity reaches 99.9999% in silane.",
+     "For example, the EMIS germanium product has Ge-73 levels well below 1 ppm."
+    ],
+    "summary_raw": "DOE announces breakthrough in domestic silicon and germanium isotope supply chains&nbsp;&nbsp;Innovation News Network",
+    "english_phrases": [
+     {
+      "phrase": "Electromagnetic Isotope Separation (EMIS)",
+      "meaning": "전자기 동위원소 분리 기술"
+     },
+     {
+      "phrase": "Thermal Diffusion Isotopic Separation (TDIS)",
+      "meaning": "열확산 동위원소 분리 기술"
+     },
+     {
+      "phrase": "coherence time",
+      "meaning": "양자 상태가 유지되는 시간(결맞음 시간)"
+     },
+     {
+      "phrase": "stable isotope enrichment",
+      "meaning": "안정동위원소 농축"
+     }
+    ],
+    "implication": "미국이 약 30년 만에 양자컴퓨팅용 실리콘·저마늄 동위원소의 국내 농축 공급 기반을 갖추게 되어 해외 의존도 축소 가능성이 커졌음",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "e9b05be4a647",
+   "title": "Exhibition “From the Subsoil to Digital and Green Technologies: A Journey Through Critical Raw Materials for the New Supply Chains of the Made in Italy of the Future” - isprambiente.gov.it",
+   "title_norm": "exhibition from the subsoil to digital and green technologies a journey through critical raw materials for the new supply chains of the made in italy of the future",
+   "url": "https://isprambiente.gov.it/en/news/exhibition-the-subsoil-to-digital-and-green-technologies",
+   "gnews_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNFMzVEFiYXQxRUpNTzZVOThXSFZKWEszbXVpeG5vVXRoMUNLNEg2bEJrdmtGdTE5bkZTYnZlTGFuUXEzRWtzem8tRGZlZFJaWVV1UXQ1RmhfdGhmYkd1SEZzbmNqVzl0OHFHZzNjMVByeHhTMHE3QllnY2lRZ3l0UnViWXpnVnl4Y1JQTnlIUEl6NWRmczV0N3g1TFI?oc=5",
+   "source": {
+    "name": "Google News - IRA CRMA Policy",
+    "domain": "isprambiente.gov.it",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-07-15",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:39:22+00:00",
+   "score": 8,
+   "body": {
+    "status": "partial",
+    "chars": 730,
+    "sha256": "b4b5d05fafd0441134a4f38060a7f72b7cd1dd7f992956cc2391a7b2fcb3c178",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-07-16",
+    "quotes": [],
+    "final_url": "https://www.isprambiente.gov.it/en/news/exhibition-the-subsoil-to-digital-and-green-technologies",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "이탈리아 기업·메이드인이탈리아부(MIMIT)가 핵심광물 주제 전시회를 개막했음",
+     "16 July에 Palazzo Piacentini에서 열렸으며 Adolfo Urso 장관이 참석했음",
+     "MIMIT가 ISPRA, Deloitte와 협력해 추진했으며 전시 기간은 확인 불가임"
+    ],
+    "basis": "body",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "이탈리아",
+     "전시회",
+     "MIMIT",
+     "ISPRA"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical raw materials",
+      "meaning": "핵심광물(핵심 원자재)"
+     },
+     {
+      "phrase": "Made in Italy",
+      "meaning": "이탈리아산 제품 브랜드, 이탈리아 제조업"
+     },
+     {
+      "phrase": "supply chains",
+      "meaning": "공급망"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "partial",
+    "input_chars": 730,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:39:31+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "dab6933939",
+     "v1_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNFMzVEFiYXQxRUpNTzZVOThXSFZKWEszbXVpeG5vVXRoMUNLNEg2bEJrdmtGdTE5bkZTYnZlTGFuUXEzRWtzem8tRGZlZFJaWVV1UXQ1RmhfdGhmYkd1SEZzbmNqVzl0OHFHZzNjMVByeHhTMHE3QllnY2lRZ3l0UnViWXpnVnl4Y1JQTnlIUEl6NWRmczV0N3g1TFI?oc=5",
+     "summary_raw": "Exhibition “From the Subsoil to Digital and Green Technologies: A Journey Through Critical Raw Materials for the New Supply Chains of the Made in Italy of the Future”&nbsp;&nbsp;isprambiente.gov.it"
+    }
+   },
+   "v1": {
+    "korean_summary": "이탈리아 환경부는 지하자원에서 디지털·녹색기술로의 전환 과정을 조명하는 핵심광물 특별전시회를 개최하여, 미래 이탈리아 제조업의 공급망 재편 필요성을 강조하였습니다. 본 전시는 핵심광물의 채광에서부터 첨단기술 응용에 이르는 전(全) 가치사슬을 통합적으로 다루고 있습니다. 유럽의 디지털화 및 탄소중립 실현을 위한 핵심광물의 안정적 공급망 구축이 전략적 과제로 대두되었습니다.",
+    "category": "supply_chain",
+    "tags": [
+     "핵심광물",
+     "공급망 재편",
+     "이탈리아·EU"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical raw materials for the new supply chains",
+      "meaning": "새로운 공급망을 위한 핵심광물"
+     },
+     {
+      "phrase": "from the subsoil to digital and green technologies",
+      "meaning": "채광에서 디지털·녹색기술까지의 전주기 가치사슬"
+     },
+     {
+      "phrase": "secure and sustainable sourcing of critical minerals",
+      "meaning": "핵심광물의 안정적이고 지속가능한 확보"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "dab6933939",
+    "title": "Exhibition “From the Subsoil to Digital and Green Technologies: A Journey Through Critical Raw Materials for the New Supply Chains of the Made in Italy of the Future” - isprambiente.gov.it",
+    "url": "https://isprambiente.gov.it/en/news/exhibition-the-subsoil-to-digital-and-green-technologies",
+    "source": "Google News - IRA CRMA Policy",
+    "tier_weight": 1,
+    "score": 8,
+    "published": "2026-07-15",
+    "korean_summary": [
+     "이탈리아 기업·메이드인이탈리아부(MIMIT)가 핵심광물 주제 전시회를 개막했음",
+     "16 July에 Palazzo Piacentini에서 열렸으며 Adolfo Urso 장관이 참석했음",
+     "MIMIT가 ISPRA, Deloitte와 협력해 추진했으며 전시 기간은 확인 불가임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "이탈리아",
+     "전시회",
+     "MIMIT",
+     "ISPRA"
+    ],
+    "ai_processed": true,
+    "card_id": "e9b05be4a647",
+    "basis": "body",
+    "body_status": "partial",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Exhibition “From the Subsoil to Digital and Green Technologies: A Journey Through Critical Raw Materials for the New Supply Chains of the Made in Italy of the Future”&nbsp;&nbsp;isprambiente.gov.it",
+    "english_phrases": [
+     {
+      "phrase": "critical raw materials",
+      "meaning": "핵심광물(핵심 원자재)"
+     },
+     {
+      "phrase": "Made in Italy",
+      "meaning": "이탈리아산 제품 브랜드, 이탈리아 제조업"
+     },
+     {
+      "phrase": "supply chains",
+      "meaning": "공급망"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "37a4a915a6cb",
+   "title": "Zijin starts Congo lithium exports to China, sources say - Reuters",
+   "title_norm": "zijin starts congo lithium exports to china sources say",
+   "url": "https://reuters.com/world/africa/zijin-starts-congo-lithium-exports-china-sources-say-2026-07-16",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbXJOOUU5Nm5wdEN3Q1hwSjd4QjBlZXNPaFB1NnZ6UXAwaWx4TlBITTQxcVdsTTA5WGwxTWc0QlpGa29vQ0pySzlzQmluMDFuM1psaEY5Z0o2RVlaaWcxV1NaQjZuOEljb1lMb0NxWlhrVkU0Z0VQdkx0ci1zaTdwcXFveV84VFFqUDlPdUNQZ0ZsbUNqeXlzdzJGa3h5dnRQWlJJ?oc=5",
+   "source": {
+    "name": "Reuters - via Google News",
+    "domain": "reuters.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-07-16",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:39:31+00:00",
+   "score": 7,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "skipped",
+    "http_status": null,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": null,
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "지진광업, 콩고산 리튬 대중국 수출 개시했다고 소식통 전해 - 로이터"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "수출",
+     "콩고",
+     "중국",
+     "지진광업"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "sources say",
+      "meaning": "소식통에 따르면"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:39:33+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "e899500480",
+     "v1_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbXJOOUU5Nm5wdEN3Q1hwSjd4QjBlZXNPaFB1NnZ6UXAwaWx4TlBITTQxcVdsTTA5WGwxTWc0QlpGa29vQ0pySzlzQmluMDFuM1psaEY5Z0o2RVlaaWcxV1NaQjZuOEljb1lMb0NxWlhrVkU0Z0VQdkx0ci1zaTdwcXFveV84VFFqUDlPdUNQZ0ZsbUNqeXlzdzJGa3h5dnRQWlJJ?oc=5",
+     "summary_raw": "Zijin starts Congo lithium exports to China, sources say&nbsp;&nbsp;Reuters"
+    }
+   },
+   "v1": {
+    "korean_summary": "지진(Zijin)이 콩고민주공화국의 리튬 광산에서 중국으로의 수출을 본격화한 것으로 확인되었습니다. 이는 글로벌 핵심광물 공급망에서 중국의 영향력이 심화되고 있음을 시사합니다. 아프리카 지역의 리튬 자원 개발이 가속화되면서 한국을 포함한 주요국들의 공급망 다각화 전략 수립이 시급한 상황입니다.",
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "공급망 안보",
+     "콩고·중국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals supply chain",
+      "meaning": "핵심광물 공급망"
+     },
+     {
+      "phrase": "lithium export from Congo",
+      "meaning": "콩고산 리튬 수출"
+     },
+     {
+      "phrase": "Chinese control over critical mineral sourcing",
+      "meaning": "핵심광물 공급 확보에서 중국의 영향력"
+     },
+     {
+      "phrase": "downstream processing and refining",
+      "meaning": "후단계 처리 및 정련"
+     },
+     {
+      "phrase": "diversification of supply sources",
+      "meaning": "공급원의 다각화"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "e899500480",
+    "title": "Zijin starts Congo lithium exports to China, sources say - Reuters",
+    "url": "https://reuters.com/world/africa/zijin-starts-congo-lithium-exports-china-sources-say-2026-07-16",
+    "source": "Reuters - via Google News",
+    "tier_weight": 3,
+    "score": 7,
+    "published": "2026-07-16",
+    "korean_summary": [
+     "[제목 기반] 지진광업, 콩고산 리튬 대중국 수출 개시했다고 소식통 전해 - 로이터"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "수출",
+     "콩고",
+     "중국",
+     "지진광업"
+    ],
+    "ai_processed": true,
+    "card_id": "37a4a915a6cb",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Zijin starts Congo lithium exports to China, sources say&nbsp;&nbsp;Reuters",
+    "english_phrases": [
+     {
+      "phrase": "sources say",
+      "meaning": "소식통에 따르면"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "7ec2d8d893f7",
+   "title": "Chile storms kill three, displace hundreds as heaviest rains expected - Reuters",
+   "title_norm": "chile storms kill three displace hundreds as heaviest rains expected",
+   "url": "https://reuters.com/business/environment/chile-storms-kill-three-displace-hundreds-heaviest-rains-expected-2026-07-17",
+   "gnews_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOei0za2x5N2QxMXFJSG5keEJVQk5NbWRhWVI1YTB2ZDZoME03cmkyZk9xZEpaX2Z6cHZ6NFdEV0VraC1mUG9ISkctRGs1ZFZGVWxDNVZCQWpfT0Izcm5wcS1CSFlMZHVHWXZQQlVYWXJjeGxqWW12Ulh5RVdQQ1FILXZoRTR5QTk5UGRrdlBJbGwzcWs2QzM5OUVrcGxVcUxqUE5BdUNUc0xCeHNlYlJERFpxSW1xWklmLVhYRllBQQ?oc=5",
+   "source": {
+    "name": "Reuters - via Google News",
+    "domain": "reuters.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-07-17",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:39:33+00:00",
+   "score": 7,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "skipped",
+    "http_status": null,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": null,
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "칠레 폭풍으로 3명이 숨지고 수백 명이 터전을 잃었으며, 가장 강한 폭우가 예상됨"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "칠레",
+     "폭풍",
+     "폭우",
+     "이재민"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "heaviest rains expected",
+      "meaning": "가장 강한 비가 예상됨"
+     },
+     {
+      "phrase": "displace hundreds",
+      "meaning": "수백 명이 터전을 떠나게 함"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:39:38+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "224b06c1ac",
+     "v1_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOei0za2x5N2QxMXFJSG5keEJVQk5NbWRhWVI1YTB2ZDZoME03cmkyZk9xZEpaX2Z6cHZ6NFdEV0VraC1mUG9ISkctRGs1ZFZGVWxDNVZCQWpfT0Izcm5wcS1CSFlMZHVHWXZQQlVYWXJjeGxqWW12Ulh5RVdQQ1FILXZoRTR5QTk5UGRrdlBJbGwzcWs2QzM5OUVrcGxVcUxqUE5BdUNUc0xCeHNlYlJERFpxSW1xWklmLVhYRllBQQ?oc=5",
+     "summary_raw": "Chile storms kill three, displace hundreds as heaviest rains expected&nbsp;&nbsp;Reuters"
+    }
+   },
+   "v1": {
+    "korean_summary": "칠레의 폭우로 인한 자연재해가 발생하여 3명의 사망자와 수백 명의 이재민이 발생한 것으로 확인되었습니다. 향후 더욱 강한 강우가 예상되고 있어 추가 피해에 대한 우려가 높아지고 있습니다. 칠레는 글로벌 핵심광물 공급망에서 중요한 리튬 생산국으로서, 이러한 기후변동성이 광물 생산 인프라와 채굴 활동에 미칠 영향에 주목할 필요가 있습니다.",
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "기후변화영향",
+     "칠레"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "climate-driven supply chain vulnerability",
+      "meaning": "기후변화로 인한 공급망 취약성"
+     },
+     {
+      "phrase": "mining infrastructure resilience",
+      "meaning": "광업 기반시설의 회복력"
+     },
+     {
+      "phrase": "critical mineral production continuity",
+      "meaning": "핵심광물 생산의 지속성"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "224b06c1ac",
+    "title": "Chile storms kill three, displace hundreds as heaviest rains expected - Reuters",
+    "url": "https://reuters.com/business/environment/chile-storms-kill-three-displace-hundreds-heaviest-rains-expected-2026-07-17",
+    "source": "Reuters - via Google News",
+    "tier_weight": 3,
+    "score": 7,
+    "published": "2026-07-17",
+    "korean_summary": [
+     "[제목 기반] 칠레 폭풍으로 3명이 숨지고 수백 명이 터전을 잃었으며, 가장 강한 폭우가 예상됨"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "칠레",
+     "폭풍",
+     "폭우",
+     "이재민"
+    ],
+    "ai_processed": true,
+    "card_id": "7ec2d8d893f7",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Chile storms kill three, displace hundreds as heaviest rains expected&nbsp;&nbsp;Reuters",
+    "english_phrases": [
+     {
+      "phrase": "heaviest rains expected",
+      "meaning": "가장 강한 비가 예상됨"
+     },
+     {
+      "phrase": "displace hundreds",
+      "meaning": "수백 명이 터전을 떠나게 함"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "53c2ce2fc473",
+   "title": "Zimbabwe's sole lithium salt plant unable to process third-party metal, official says - Reuters",
+   "title_norm": "zimbabwe s sole lithium salt plant unable to process third party metal official says",
+   "url": "https://reuters.com/world/africa/zimbabwes-sole-lithium-salt-plant-unable-process-third-party-metal-official-says-2026-07-17",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQW5lWWJ1czU4WWlmY3hsenA4dmtlcXIxa3BQNlRYdzJ1aDgtYWhrZGNKX1ljdHpXRnQ5NU80ajdCR2xITHBmSDZQci1FVXJfdEdLVld6bWZfQzVQaFdhZ19jX0RTSmtSa19hejJocGh6bGtVSmRsRW8xN0VaaWlHVUdMak5DUlZPSUdUeFRyN3Y3REpGbnZjaS00bkJ3T0hnUDVOZmo2dUgzdDlLU1l6Y1NZV0w3Q3drNlktRUJiVHVLVmVVaFhCcg?oc=5",
+   "source": {
+    "name": "Reuters - via Google News",
+    "domain": "reuters.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-07-17",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:39:38+00:00",
+   "score": 7,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "skipped",
+    "http_status": null,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": null,
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "짐바브웨 유일의 리튬염 공장, 제3자 금속은 처리 불가하다고 당국자가 밝혔음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "리튬염",
+     "가공",
+     "짐바브웨"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "third-party metal",
+      "meaning": "제3자(외부 업체) 금속"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:39:40+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "a355b0239e",
+     "v1_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQW5lWWJ1czU4WWlmY3hsenA4dmtlcXIxa3BQNlRYdzJ1aDgtYWhrZGNKX1ljdHpXRnQ5NU80ajdCR2xITHBmSDZQci1FVXJfdEdLVld6bWZfQzVQaFdhZ19jX0RTSmtSa19hejJocGh6bGtVSmRsRW8xN0VaaWlHVUdMak5DUlZPSUdUeFRyN3Y3REpGbnZjaS00bkJ3T0hnUDVOZmo2dUgzdDlLU1l6Y1NZV0w3Q3drNlktRUJiVHVLVmVVaFhCcg?oc=5",
+     "summary_raw": "Zimbabwe's sole lithium salt plant unable to process third-party metal, official says&nbsp;&nbsp;Reuters"
+    }
+   },
+   "v1": {
+    "korean_summary": "짐바브웨의 유일한 리튬염 처리 시설이 제3자 공급 원광 처리 불가능 상태에 있는 것으로 확인되었습니다. 이는 핵심광물 공급망의 취약성과 현지 정제 인프라의 기술적 제약을 보여주는 사례입니다. 향후 아프리카 지역의 핵심광물 자급화 전략 수립 시 정제 능력 확보의 중요성을 강조하는 사안으로 판단됩니다.",
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "정제 기술·인프라",
+     "짐바브웨"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "sole lithium salt plant",
+      "meaning": "유일한 리튬염 처리 시설"
+     },
+     {
+      "phrase": "unable to process third-party metal",
+      "meaning": "제3자 공급 원광 처리 불가능"
+     },
+     {
+      "phrase": "processing capability gap",
+      "meaning": "정제 능력 격차"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "a355b0239e",
+    "title": "Zimbabwe's sole lithium salt plant unable to process third-party metal, official says - Reuters",
+    "url": "https://reuters.com/world/africa/zimbabwes-sole-lithium-salt-plant-unable-process-third-party-metal-official-says-2026-07-17",
+    "source": "Reuters - via Google News",
+    "tier_weight": 3,
+    "score": 7,
+    "published": "2026-07-17",
+    "korean_summary": [
+     "[제목 기반] 짐바브웨 유일의 리튬염 공장, 제3자 금속은 처리 불가하다고 당국자가 밝혔음"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "리튬염",
+     "가공",
+     "짐바브웨"
+    ],
+    "ai_processed": true,
+    "card_id": "53c2ce2fc473",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Zimbabwe's sole lithium salt plant unable to process third-party metal, official says&nbsp;&nbsp;Reuters",
+    "english_phrases": [
+     {
+      "phrase": "third-party metal",
+      "meaning": "제3자(외부 업체) 금속"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "1ab2a68b2664",
+   "title": "Rock Tech Lithium receives provincial grant to verify pulp, paper byproduct in lithium processing - Mining Weekly",
+   "title_norm": "rock tech lithium receives provincial grant to verify pulp paper byproduct in lithium processing",
+   "url": "https://miningweekly.com/article/rock-tech-lithium-receives-provincial-grant-to-verify-pulp-paper-byproduct-in-lithium-processing-2026-07-13",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPSHBXZGJxcTB2aTZRbFpZMHp6dXIwMjIwaUFOdUtXbVNfZkNSekdHMmtjUmY0a21tejdqb2xwM3E0LTJGSnVoQ3lSNGZTTTJqVDU1b2hlTHFTQWhHZkdETHZVQjNLbk1vcWRyX05XSldyX0ZqbWhfWmtjN2dqSVF6cngxQXhwRWVYV3VlUFhUSXdqVUJuZ3BsVlQ2RWZoNkd5RFpqcnFVNG5LUU1QcXhoUDZQdGtpSUdtUEU4TGZxRGVFdDBaZHBnZVYtc0RrbXdYQjVWcE96Qzh3YUQz?oc=5",
+   "source": {
+    "name": "Mining Weekly - via Google News",
+    "domain": "miningweekly.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-07-13",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:39:41+00:00",
+   "score": 7,
+   "body": {
+    "status": "full",
+    "chars": 4237,
+    "sha256": "e2252e0256bd2317aa8dacbd3375663f6d7164c20e3cdfeaa0ef569c4743e837",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-07-13",
+    "quotes": [
+     "Rock Tech Lithium receives provincial grant to verify pulp, paper byproduct in lithium processing",
+     "Rock Tech will undertake the endeavour with Thunder Bay Pulp and Paper and Queen's University, bringing together Ontario-based industrial supply, critical minerals development and research expertise."
+    ],
+    "final_url": "https://www.miningweekly.com/article/rock-tech-lithium-receives-provincial-grant-to-verify-pulp-paper-byproduct-in-lithium-processing-2026-07-13",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "온타리오주 핵심광물혁신기금(CMIF)이 Rock Tech Lithium에 보조금을 지급했음",
+     "금액은 $262 500이며, 현지산 crude tall oil을 리튬 부유선별 시약으로 검증하는 데 쓰임",
+     "Thunder Bay Pulp and Paper, Queen's University와 함께 수행하며 후속 일정은 확인 불가임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "$262 500",
+     "up to 50%"
+    ],
+    "quotes": [
+     "Rock Tech Lithium receives provincial grant to verify pulp, paper byproduct in lithium processing",
+     "Rock Tech will undertake the endeavour with Thunder Bay Pulp and Paper and Queen's University, bringing together Ontario-based industrial supply, critical minerals development and research expertise."
+    ],
+    "category": "research",
+    "tags": [
+     "리튬",
+     "부유선별",
+     "크루드 톨유",
+     "온타리오",
+     "캐나다"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "crude tall oil",
+      "meaning": "펄프·제지 공정에서 나오는 부산물인 조톨유"
+     },
+     {
+      "phrase": "flotation reagent",
+      "meaning": "부유선별 공정에 쓰는 시약"
+     },
+     {
+      "phrase": "mine-to-converter strategy",
+      "meaning": "광산에서 리튬 전환 설비까지 잇는 일관 공급망 전략"
+     },
+     {
+      "phrase": "Fortress North America",
+      "meaning": "온타리오 주총리가 내놓은 광물 부문 회복력 강화 구상"
+     }
+    ],
+    "implication": "임업 부산물을 리튬 선별 시약으로 쓰는 시험이 성공하면 수입 시약 의존이 줄고 온타리오 역내 리튬 공급망이 강화될 수 있음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:39:45+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "7b7cd957ac",
+     "v1_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPSHBXZGJxcTB2aTZRbFpZMHp6dXIwMjIwaUFOdUtXbVNfZkNSekdHMmtjUmY0a21tejdqb2xwM3E0LTJGSnVoQ3lSNGZTTTJqVDU1b2hlTHFTQWhHZkdETHZVQjNLbk1vcWRyX05XSldyX0ZqbWhfWmtjN2dqSVF6cngxQXhwRWVYV3VlUFhUSXdqVUJuZ3BsVlQ2RWZoNkd5RFpqcnFVNG5LUU1QcXhoUDZQdGtpSUdtUEU4TGZxRGVFdDBaZHBnZVYtc0RrbXdYQjVWcE96Qzh3YUQz?oc=5",
+     "summary_raw": "Rock Tech Lithium receives provincial grant to verify pulp, paper byproduct in lithium processing&nbsp;&nbsp;Mining Weekly"
+    }
+   },
+   "v1": {
+    "korean_summary": "Rock Tech Lithium이 캐나다 주 정부로부터 펄프·제지 산업의 부산물을 리튬 처리 공정에 활용하는 기술 검증을 위한 보조금을 지원받았습니다. 본 사업은 광산 폐기물 감량과 순환경제 구현을 동시에 추구하는 혁신적 핵심광물 추출 기술로 평가됩니다. 이는 북미의 리튬 공급망 안정화와 산업 부산물의 자원화 전략의 모범 사례로 제시될 전망입니다.",
+    "category": "research",
+    "tags": [
+     "리튬",
+     "순환경제·폐기물 재자원화",
+     "캐나다"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "byproduct valorization in lithium extraction",
+      "meaning": "리튬 추출 공정에서 부산물의 가치 재창출/고부가가치화"
+     },
+     {
+      "phrase": "provincial grant for critical minerals processing technology verification",
+      "meaning": "핵심광물 처리 기술 검증을 위한 주(도) 차원의 보조금 지원"
+     },
+     {
+      "phrase": "circular economy approach in raw materials supply chain",
+      "meaning": "원료 공급망에서의 순환경제적 접근"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "7b7cd957ac",
+    "title": "Rock Tech Lithium receives provincial grant to verify pulp, paper byproduct in lithium processing - Mining Weekly",
+    "url": "https://miningweekly.com/article/rock-tech-lithium-receives-provincial-grant-to-verify-pulp-paper-byproduct-in-lithium-processing-2026-07-13",
+    "source": "Mining Weekly - via Google News",
+    "tier_weight": 3,
+    "score": 7,
+    "published": "2026-07-13",
+    "korean_summary": [
+     "온타리오주 핵심광물혁신기금(CMIF)이 Rock Tech Lithium에 보조금을 지급했음",
+     "금액은 $262 500이며, 현지산 crude tall oil을 리튬 부유선별 시약으로 검증하는 데 쓰임",
+     "Thunder Bay Pulp and Paper, Queen's University와 함께 수행하며 후속 일정은 확인 불가임"
+    ],
+    "category": "research",
+    "tags": [
+     "리튬",
+     "부유선별",
+     "크루드 톨유",
+     "온타리오",
+     "캐나다"
+    ],
+    "ai_processed": true,
+    "card_id": "1ab2a68b2664",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "$262 500",
+     "up to 50%"
+    ],
+    "quotes": [
+     "Rock Tech Lithium receives provincial grant to verify pulp, paper byproduct in lithium processing",
+     "Rock Tech will undertake the endeavour with Thunder Bay Pulp and Paper and Queen's University, bringing together Ontario-based industrial supply, critical minerals development and research expertise."
+    ],
+    "summary_raw": "Rock Tech Lithium receives provincial grant to verify pulp, paper byproduct in lithium processing&nbsp;&nbsp;Mining Weekly",
+    "english_phrases": [
+     {
+      "phrase": "crude tall oil",
+      "meaning": "펄프·제지 공정에서 나오는 부산물인 조톨유"
+     },
+     {
+      "phrase": "flotation reagent",
+      "meaning": "부유선별 공정에 쓰는 시약"
+     },
+     {
+      "phrase": "mine-to-converter strategy",
+      "meaning": "광산에서 리튬 전환 설비까지 잇는 일관 공급망 전략"
+     },
+     {
+      "phrase": "Fortress North America",
+      "meaning": "온타리오 주총리가 내놓은 광물 부문 회복력 강화 구상"
+     }
+    ],
+    "implication": "임업 부산물을 리튬 선별 시약으로 쓰는 시험이 성공하면 수입 시약 의존이 줄고 온타리오 역내 리튬 공급망이 강화될 수 있음",
+    "trial": false
+   },
+   "trial": false
+  }
+ ],
+ "excluded": [],
+ "v1_file": "week-2026-07-19.json",
+ "v1_metrics": {
+  "articles": 12,
+  "original_link": 0,
+  "body_based": 0,
+  "failed": 0
+ },
+ "trial": false
+}

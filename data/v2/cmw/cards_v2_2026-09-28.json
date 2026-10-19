@@ -1,0 +1,2105 @@
+{
+ "schema_version": "card.v1",
+ "service": "cmw",
+ "week_of": "2026-09-28",
+ "generated_at": "2026-10-19T05:57:26+00:00",
+ "mincore_version": "0.3.6",
+ "model": "claude-sonnet-5-5",
+ "prompt_version": "v2.2",
+ "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+ "stats": {
+  "v1_articles": 12,
+  "cards": 12,
+  "excluded": 0,
+  "body_got": 9,
+  "body_rate": 0.75,
+  "original_link": 12,
+  "reader_proxy_used": 0,
+  "line_len": {
+   "lines": 33,
+   "median": 57,
+   "max": 88,
+   "over60": 14,
+   "over100": 0
+  },
+  "oda_filled": 6,
+  "usage": {
+   "claude-sonnet-5-5": {
+    "calls": 13,
+    "in": 33390,
+    "out": 7739
+   }
+  },
+  "cost_usd": 0.2163,
+  "body_status": {
+   "full": 8,
+   "lead_only": 3,
+   "partial": 1
+  },
+  "body_source": {
+   "presscorner_api": 1,
+   "trafilatura": 8,
+   "og_description": 3
+  },
+  "resolve": {
+   "direct": 5,
+   "decoder": 7
+  },
+  "fail_reason": {},
+  "basis": {
+   "body": 9,
+   "lead": 3
+  },
+  "retry_reason": {
+   "lines는 3줄이어야 함 (현재 4줄)": 1
+  },
+  "flags": {},
+  "model_used": {
+   "claude-sonnet-5-5": 12
+  }
+ },
+ "total": 12,
+ "cards": [
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "f87e6f56466b",
+   "title": "Commission greenlights Luxembourg's third payment request for €92.2 million under NextGenerationEU",
+   "title_norm": "commission greenlights luxembourg s third payment request for 92 2 million under nextgenerationeu",
+   "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1981",
+   "gnews_url": null,
+   "source": {
+    "name": "European Commission - Energy",
+    "domain": "ec.europa.eu",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-09-25",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:56:16+00:00",
+   "score": 12,
+   "body": {
+    "status": "full",
+    "chars": 3704,
+    "sha256": "79ddc2686099d4f84e6bf9711a42d179b096aaaa8cf5bd45d7b8c76845f41b35",
+    "source": "presscorner_api",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [
+     "Today, the European Commission positively assessed Luxembourg's third payment request for €92.2 million under the Recovery and Resilience Facility , the centrepiece of NextGenerationEU .",
+     "The plan is financed by €241 million in grants."
+    ],
+    "final_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1981",
+    "strategies_tried": [
+     "presscorner_api"
+    ]
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "유럽연합 집행위원회가 룩셈부르크의 세 번째 지급 요청(€92.2 million)을 긍정 평가했음",
+     "룩셈부르크는 5 milestones와 4 targets를 모두 충족했고, 7월 24일 2026년 요청을 제출했음",
+     "EFC가 4주 내 의견을 내고 집행위가 지급 결정을 채택하면 지급 가능하며, 지급 시 누적 €182 million이 됨"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "€92.2 million",
+     "42,000 zero-emission vehicles",
+     "€241 million in grants"
+    ],
+    "quotes": [
+     "Today, the European Commission positively assessed Luxembourg's third payment request for €92.2 million under the Recovery and Resilience Facility , the centrepiece of NextGenerationEU .",
+     "The plan is financed by €241 million in grants."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "회복복원기금",
+     "NextGenerationEU",
+     "룩셈부르크",
+     "재생에너지",
+     "유럽연합"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Recovery and Resilience Facility",
+      "meaning": "회복복원기금(NextGenerationEU의 핵심 수단)"
+     },
+     {
+      "phrase": "milestones and targets",
+      "meaning": "지급 조건인 이행 단계 및 목표"
+     },
+     {
+      "phrase": "payment request",
+      "meaning": "지급 요청"
+     },
+     {
+      "phrase": "Economic and Financial Committee",
+      "meaning": "경제금융위원회(EFC)"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 3704,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:56:20+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "b07972f651",
+     "v1_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1981",
+     "summary_raw": "European Commission Press release Brussels, 25 Sep 2026 Today, the European Commission positively assessed Luxembourg's third payment request for €92.2 million under the Recovery and Resilience Facility, the centrepiece of NextGenerationEU."
+    }
+   },
+   "v1": {
+    "korean_summary": "유럽연합 집행위원회가 룩셈부르크의 차세대유럽기금(NextGenerationEU) 내 회복탄력성기금(RRF)에 따른 세 번째 지급 신청 9,220만 유로를 승인했습니다. 이는 유럽의 경제 회복 및 녹색 전환을 지원하는 주요 재정 지원입니다. 핵심광물 확보 및 에너지 전환과 관련된 유럽의 전략적 투자 확대가 예상됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "유럽 에너지 정책",
+     "회복탄력성기금(RRF)",
+     "룩셈부르크"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Recovery and Resilience Facility (RRF)",
+      "meaning": "회복탄력성기금 - EU의 경제·사회 회복을 위한 재정지원 메커니즘"
+     },
+     {
+      "phrase": "payment request",
+      "meaning": "지급 신청 - 회원국이 이행한 마일스톤 달성에 따른 자금 청구"
+     },
+     {
+      "phrase": "positively assessed",
+      "meaning": "긍정적으로 평가하다 - EU 규정상 요건을 충족하여 승인함"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "b07972f651",
+    "title": "Commission greenlights Luxembourg's third payment request for €92.2 million under NextGenerationEU",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1981",
+    "source": "European Commission - Energy",
+    "tier_weight": 5,
+    "score": 12,
+    "published": "2026-09-25",
+    "korean_summary": [
+     "유럽연합 집행위원회가 룩셈부르크의 세 번째 지급 요청(€92.2 million)을 긍정 평가했음",
+     "룩셈부르크는 5 milestones와 4 targets를 모두 충족했고, 7월 24일 2026년 요청을 제출했음",
+     "EFC가 4주 내 의견을 내고 집행위가 지급 결정을 채택하면 지급 가능하며, 지급 시 누적 €182 million이 됨"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "회복복원기금",
+     "NextGenerationEU",
+     "룩셈부르크",
+     "재생에너지",
+     "유럽연합"
+    ],
+    "ai_processed": true,
+    "card_id": "f87e6f56466b",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "€92.2 million",
+     "42,000 zero-emission vehicles",
+     "€241 million in grants"
+    ],
+    "quotes": [
+     "Today, the European Commission positively assessed Luxembourg's third payment request for €92.2 million under the Recovery and Resilience Facility , the centrepiece of NextGenerationEU .",
+     "The plan is financed by €241 million in grants."
+    ],
+    "summary_raw": "European Commission Press release Brussels, 25 Sep 2026 Today, the European Commission positively assessed Luxembourg's third payment request for €92.2 million under the Recovery and Resilience Facility, the centrepiece of NextGenerationEU.",
+    "english_phrases": [
+     {
+      "phrase": "Recovery and Resilience Facility",
+      "meaning": "회복복원기금(NextGenerationEU의 핵심 수단)"
+     },
+     {
+      "phrase": "milestones and targets",
+      "meaning": "지급 조건인 이행 단계 및 목표"
+     },
+     {
+      "phrase": "payment request",
+      "meaning": "지급 요청"
+     },
+     {
+      "phrase": "Economic and Financial Committee",
+      "meaning": "경제금융위원회(EFC)"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "7540f6a66d83",
+   "title": "North America is building rare earth plants faster than it is building rare earth engineers",
+   "title_norm": "north america is building rare earth plants faster than it is building rare earth engineers",
+   "url": "https://mining.com/north-america-is-building-rare-earth-plants-faster-than-it-is-building-rare-earth-engineers",
+   "gnews_url": null,
+   "source": {
+    "name": "Mining.com",
+    "domain": "mining.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-09-25",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:56:21+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 1014,
+    "sha256": "ac59aa9fd4725ae62bb6421e07bb7e1c96fb06687c53cac9e4808105603ce398",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2024-04-11",
+    "quotes": [
+     "On August 7, as US President Donald Trump hosted mining executives at a roundtable in Washington, representatives of all 14 accredited US mining schools attended a parallel Department of Energy workforce event.",
+     "Keep reading MINING.COM with a TNM NEWS+MARKETS Membership."
+    ],
+    "final_url": "https://www.mining.com/subscribe-login/?id=1215144",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "8월 7일 트럼프 미국 대통령이 워싱턴에서 광업계 경영진 라운드테이블을 주최했음",
+     "같은 날 인가받은 미국 광산학교 14곳 전원의 대표가 에너지부 인력 행사에 참석했음",
+     "이들이 첫 본격 연방 자금을 받고 떠났다고 하나 금액·후속 일정은 확인 불가임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "14"
+    ],
+    "quotes": [
+     "On August 7, as US President Donald Trump hosted mining executives at a roundtable in Washington, representatives of all 14 accredited US mining schools attended a parallel Department of Energy workforce event.",
+     "Keep reading MINING.COM with a TNM NEWS+MARKETS Membership."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "광업 인력",
+     "광산학교",
+     "에너지부",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "roundtable",
+      "meaning": "원탁회의, 라운드테이블"
+     },
+     {
+      "phrase": "accredited US mining schools",
+      "meaning": "인가받은 미국 광산학교"
+     },
+     {
+      "phrase": "workforce event",
+      "meaning": "인력 관련 행사"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 1014,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:56:31+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "04bd8ea0eb",
+     "v1_url": "https://www.mining.com/north-america-is-building-rare-earth-plants-faster-than-it-is-building-rare-earth-engineers/",
+     "summary_raw": "Engineering degrees output is less than half the roughly 600 a year implied by DOE's estimate of need, and about a 15th of China's."
+    }
+   },
+   "v1": {
+    "korean_summary": "북미 지역에서 희토류 광물 처리시설의 건설 속도가 관련 인력 양성 속도를 크게 앞지르고 있는 것으로 확인되었습니다. 미국 에너지부의 필요 인력 추정치인 연간 600명에 비해 공학 학위 배출 규모는 300명 미만으로 절반 수준에 불과하며, 중국의 15분의 1 수준으로 파악되었습니다. 이러한 인력 수급 불균형은 북미의 핵심광물 산업 경쟁력 강화에 구조적 제약이 될 전망입니다.",
+    "category": "policy_market",
+    "tags": [
+     "희토류(REE)",
+     "인력양성/교육정책",
+     "북미"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "rare earth plants construction pace",
+      "meaning": "희토류 처리시설 건설 속도"
+     },
+     {
+      "phrase": "engineering degrees output",
+      "meaning": "공학 학위 배출 규모"
+     },
+     {
+      "phrase": "critical workforce shortage",
+      "meaning": "핵심 인력 부족"
+     },
+     {
+      "phrase": "human capital bottleneck",
+      "meaning": "인력 수급의 병목 현상"
+     },
+     {
+      "phrase": "supply chain resilience",
+      "meaning": "공급망 복원력"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "04bd8ea0eb",
+    "title": "North America is building rare earth plants faster than it is building rare earth engineers",
+    "url": "https://mining.com/north-america-is-building-rare-earth-plants-faster-than-it-is-building-rare-earth-engineers",
+    "source": "Mining.com",
+    "tier_weight": 3,
+    "score": 9,
+    "published": "2026-09-25",
+    "korean_summary": [
+     "8월 7일 트럼프 미국 대통령이 워싱턴에서 광업계 경영진 라운드테이블을 주최했음",
+     "같은 날 인가받은 미국 광산학교 14곳 전원의 대표가 에너지부 인력 행사에 참석했음",
+     "이들이 첫 본격 연방 자금을 받고 떠났다고 하나 금액·후속 일정은 확인 불가임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "광업 인력",
+     "광산학교",
+     "에너지부",
+     "미국"
+    ],
+    "ai_processed": true,
+    "card_id": "7540f6a66d83",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "14"
+    ],
+    "quotes": [
+     "On August 7, as US President Donald Trump hosted mining executives at a roundtable in Washington, representatives of all 14 accredited US mining schools attended a parallel Department of Energy workforce event.",
+     "Keep reading MINING.COM with a TNM NEWS+MARKETS Membership."
+    ],
+    "summary_raw": "Engineering degrees output is less than half the roughly 600 a year implied by DOE's estimate of need, and about a 15th of China's.",
+    "english_phrases": [
+     {
+      "phrase": "roundtable",
+      "meaning": "원탁회의, 라운드테이블"
+     },
+     {
+      "phrase": "accredited US mining schools",
+      "meaning": "인가받은 미국 광산학교"
+     },
+     {
+      "phrase": "workforce event",
+      "meaning": "인력 관련 행사"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "a9da020fc19a",
+   "title": "Critical minerals boom risks second funding gap as governance support shrinks",
+   "title_norm": "critical minerals boom risks second funding gap as governance support shrinks",
+   "url": "https://mining.com/critical-minerals-boom-risks-second-funding-gap-as-governance-support-shrinks",
+   "gnews_url": null,
+   "source": {
+    "name": "Mining.com",
+    "domain": "mining.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-09-25",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:56:31+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 9200,
+    "sha256": "14a1d97a8bb7e348ca7dcb7bcf538da9f5c140144547242328902f7dab65c864",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-09-25",
+    "quotes": [
+     "“It’s not like this needs to be on par, but there isn’t even that 5% fraction of what’s going into the investment side that’s going on the good governance institutions around it at the moment.”",
+     "“It only needs to be a fraction of that bigger sum,” Jarvis said."
+    ],
+    "final_url": "https://www.mining.com/critical-minerals-boom-risks-second-funding-gap-as-governance-support-shrinks/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "TAI Collaborative가 핵심광물 붐 속에서 거버넌스 지원 자금이 줄어 '두 번째 자금 격차'가 생길 수 있다는 보고서를 냈음",
+     "보고서 'Thinking Strategically About Mineral Governance Funding'은 BHP Foundation의 의뢰로 작성되었음",
+     "TAI 사무총장 Michael Jarvis는 향후 2년간 최소 $10 million의 공동투자를 제안했고, 이는 지난 1년간 관측된 삭감액과 비슷하다고 밝혔음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "$10 million",
+     "5%",
+     "2010"
+    ],
+    "quotes": [
+     "“It’s not like this needs to be on par, but there isn’t even that 5% fraction of what’s going into the investment side that’s going on the good governance institutions around it at the moment.”",
+     "“It only needs to be a fraction of that bigger sum,” Jarvis said."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "광물 거버넌스",
+     "개발원조",
+     "BHP Foundation",
+     "TAI Collaborative"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "second funding gap",
+      "meaning": "두 번째 자금 격차"
+     },
+     {
+      "phrase": "official development assistance",
+      "meaning": "공적개발원조"
+     },
+     {
+      "phrase": "mineral governance",
+      "meaning": "광물 거버넌스"
+     },
+     {
+      "phrase": "community engagement",
+      "meaning": "지역사회 참여"
+     }
+    ],
+    "implication": "광산·가공시설 투자는 늘지만 투명성·규제 역량·지역사회 참여 지원은 줄어, 거버넌스 공백이 프로젝트 추진을 지연시킬 위험이 있음."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:56:35+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "3460ee3eed",
+     "v1_url": "https://www.mining.com/critical-minerals-boom-risks-second-funding-gap-as-governance-support-shrinks/",
+     "summary_raw": "Washington-based donor network says development finance for mines, processing facilities and infrastructure is expanding while funding for transparency, civil society oversight and community participation is being cut."
+    }
+   },
+   "v1": {
+    "korean_summary": "핵심광물 수요 급증에 따라 광산, 제련시설, 기반시설에 대한 개발금융은 확대되고 있으나, 투명성·시민사회 감시·지역사회 참여를 위한 거버넌스 지원금은 축소되는 이중 자금 격차 문제가 대두되었음을 워싱턴 기반 공여기관 네트워크가 지적했습니다. 이는 핵심광물 개발의 물리적 인프라 투자는 증가하면서도 사회적·환경적 책임성을 담보하는 제도적 장치가 역행하는 구조적 불균형을 의미합니다. 향후 핵심광물 공급망 안정화를 위해서는 재정 지원의 편중을 시정하고 거버넌스 역량 강화에 대한 투자 재조정이 필요할 것으로 예상됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "개발금융·거버넌스",
+     "미국·공여기관 네트워크"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "development finance for mines, processing facilities and infrastructure",
+      "meaning": "광산, 제련시설 및 기반시설에 대한 개발금융"
+     },
+     {
+      "phrase": "governance support shrinks",
+      "meaning": "거버넌스 지원 축소"
+     },
+     {
+      "phrase": "civil society oversight and community participation",
+      "meaning": "시민사회 감시 및 지역사회 참여"
+     },
+     {
+      "phrase": "funding gap",
+      "meaning": "자금 격차 또는 기금 부족"
+     },
+     {
+      "phrase": "transparency mechanisms",
+      "meaning": "투명성 메커니즘"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "3460ee3eed",
+    "title": "Critical minerals boom risks second funding gap as governance support shrinks",
+    "url": "https://mining.com/critical-minerals-boom-risks-second-funding-gap-as-governance-support-shrinks",
+    "source": "Mining.com",
+    "tier_weight": 3,
+    "score": 9,
+    "published": "2026-09-25",
+    "korean_summary": [
+     "TAI Collaborative가 핵심광물 붐 속에서 거버넌스 지원 자금이 줄어 '두 번째 자금 격차'가 생길 수 있다는 보고서를 냈음",
+     "보고서 'Thinking Strategically About Mineral Governance Funding'은 BHP Foundation의 의뢰로 작성되었음",
+     "TAI 사무총장 Michael Jarvis는 향후 2년간 최소 $10 million의 공동투자를 제안했고, 이는 지난 1년간 관측된 삭감액과 비슷하다고 밝혔음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "광물 거버넌스",
+     "개발원조",
+     "BHP Foundation",
+     "TAI Collaborative"
+    ],
+    "ai_processed": true,
+    "card_id": "a9da020fc19a",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "$10 million",
+     "5%",
+     "2010"
+    ],
+    "quotes": [
+     "“It’s not like this needs to be on par, but there isn’t even that 5% fraction of what’s going into the investment side that’s going on the good governance institutions around it at the moment.”",
+     "“It only needs to be a fraction of that bigger sum,” Jarvis said."
+    ],
+    "summary_raw": "Washington-based donor network says development finance for mines, processing facilities and infrastructure is expanding while funding for transparency, civil society oversight and community participation is being cut.",
+    "english_phrases": [
+     {
+      "phrase": "second funding gap",
+      "meaning": "두 번째 자금 격차"
+     },
+     {
+      "phrase": "official development assistance",
+      "meaning": "공적개발원조"
+     },
+     {
+      "phrase": "mineral governance",
+      "meaning": "광물 거버넌스"
+     },
+     {
+      "phrase": "community engagement",
+      "meaning": "지역사회 참여"
+     }
+    ],
+    "implication": "광산·가공시설 투자는 늘지만 투명성·규제 역량·지역사회 참여 지원은 줄어, 거버넌스 공백이 프로젝트 추진을 지연시킬 위험이 있음.",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "79263af36420",
+   "title": "Liontown partnership reflects global interest in Argentine brine: NEXT Lithium CEO - Fastmarkets",
+   "title_norm": "liontown partnership reflects global interest in argentine brine next lithium ceo",
+   "url": "https://fastmarkets.com/insights/liontown-partnership-reflects-global-interest-in-argentine-brine-next-lithium-ceo",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUXV2ZmJzOEo3V2I2cmNKSkh4QmYtTGNSUHRud2Z2c184S19vd0dsa0Y3OU5Scm0wU2dOazJreTFVOGZQV3V4T0xidnQ0REF0SFc0bzA0UmVPYl9INXVoRlJoUVRHWWVQblcxQTE1UThaMnNqVnlRWW52blR6dTMyemNBLUphQkFhZE5oWkdYY2lRV2RkYm9XV0tsb2hsZlJhX2V5TjNpNTFYR2IwM1Q2bzNtT1ktWk5FRGFF?oc=5",
+   "source": {
+    "name": "Fastmarkets - via Google News",
+    "domain": "fastmarkets.com",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-09-24",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:56:36+00:00",
+   "score": 9,
+   "body": {
+    "status": "lead_only",
+    "chars": 128,
+    "sha256": "ed6a06398055a48e9fa8a206ae10b23cae64b6dcb560ce0172042d5d609026c7",
+    "source": "og_description",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [
+     "NEXT Lithium teams up with Liontown to secure critical lithium resources."
+    ],
+    "final_url": "https://www.fastmarkets.com/insights/liontown-partnership-reflects-global-interest-in-argentine-brine-next-lithium-ceo/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Liontown과의 파트너십은 아르헨티나 염수에 대한 전 세계 관심을 보여준다고 NEXT Lithium CEO가 밝혔음",
+     "NEXT Lithium이 Liontown과 손잡고 핵심 리튬 자원 확보에 나선다는 내용임"
+    ],
+    "basis": "lead",
+    "key_figures": [],
+    "quotes": [],
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "염수",
+     "아르헨티나",
+     "파트너십"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "teams up with",
+      "meaning": "~와 손잡다, 협력하다"
+     },
+     {
+      "phrase": "Argentine brine",
+      "meaning": "아르헨티나 염수"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "lead_only",
+    "input_chars": 128,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:56:42+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "1642ede4ec",
+     "v1_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUXV2ZmJzOEo3V2I2cmNKSkh4QmYtTGNSUHRud2Z2c184S19vd0dsa0Y3OU5Scm0wU2dOazJreTFVOGZQV3V4T0xidnQ0REF0SFc0bzA0UmVPYl9INXVoRlJoUVRHWWVQblcxQTE1UThaMnNqVnlRWW52blR6dTMyemNBLUphQkFhZE5oWkdYY2lRV2RkYm9XV0tsb2hsZlJhX2V5TjNpNTFYR2IwM1Q2bzNtT1ktWk5FRGFF?oc=5",
+     "summary_raw": "Liontown partnership reflects global interest in Argentine brine: NEXT Lithium CEO&nbsp;&nbsp;Fastmarkets"
+    }
+   },
+   "v1": {
+    "korean_summary": "리온타운 리소스와 넥스트 리튬의 전략적 파트너십은 아르헨티나 염수 광상에 대한 글로벌 관심의 증가를 반영하고 있는 것으로 확인되었습니다. 아르헨티나의 풍부한 리튬 매장량과 안정적인 개발 환경이 주요 핵심광물 기업들의 투자 집중을 유도하고 있는 상황입니다. 이러한 움직임은 전 지구적 배터리 및 전기자동차 산업의 핵심광물 수급 전략에 중요한 영향을 미칠 전망입니다.",
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "핵심광물 공급망",
+     "아르헨티나"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "brine lithium deposit",
+      "meaning": "염수형 리튬 광상"
+     },
+     {
+      "phrase": "strategic partnership in critical mineral supply chain",
+      "meaning": "핵심광물 공급망의 전략적 파트너십"
+     },
+     {
+      "phrase": "global appetite for Argentine lithium resources",
+      "meaning": "아르헨티나 리튬 자원에 대한 글로벌 수요"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "1642ede4ec",
+    "title": "Liontown partnership reflects global interest in Argentine brine: NEXT Lithium CEO - Fastmarkets",
+    "url": "https://fastmarkets.com/insights/liontown-partnership-reflects-global-interest-in-argentine-brine-next-lithium-ceo",
+    "source": "Fastmarkets - via Google News",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-09-24",
+    "korean_summary": [
+     "[본문 미확보] Liontown과의 파트너십은 아르헨티나 염수에 대한 전 세계 관심을 보여준다고 NEXT Lithium CEO가 밝혔음",
+     "NEXT Lithium이 Liontown과 손잡고 핵심 리튬 자원 확보에 나선다는 내용임"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "염수",
+     "아르헨티나",
+     "파트너십"
+    ],
+    "ai_processed": true,
+    "card_id": "79263af36420",
+    "basis": "lead",
+    "body_status": "lead_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Liontown partnership reflects global interest in Argentine brine: NEXT Lithium CEO&nbsp;&nbsp;Fastmarkets",
+    "english_phrases": [
+     {
+      "phrase": "teams up with",
+      "meaning": "~와 손잡다, 협력하다"
+     },
+     {
+      "phrase": "Argentine brine",
+      "meaning": "아르헨티나 염수"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "d0553d91ff36",
+   "title": "Armenia US Critical Minerals Pact Mapping Processing 2026 - Rare Earth Exchanges",
+   "title_norm": "armenia us critical minerals pact mapping processing 2026",
+   "url": "https://rareearthexchanges.com/news/armenia-us-critical-minerals-mapping-processing",
+   "gnews_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQ3loY2Y3QTdaYjFNOE93YUhDM3hPVXBTQ3NzMEp2T0VuWEZILWhoeEprdkhNRXAxUUxWNlpYcU1Nbnl4SHBrRFBwbEVUNy1nck9QbUw3YzhwZ0pGa0lmYktBRW1ZZTBWOFRJUzZfV1B0TnNubFJHMTVBWkZiZlhraDVXV0h5VXlqUl9BZQ?oc=5",
+   "source": {
+    "name": "Google News - Critical Minerals Exploration",
+    "domain": "rareearthexchanges.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-09-25",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:56:42+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 943,
+    "sha256": "63cc63cafb119d44db65070afe1cfd3ba6ce6c07f93ceab8935899aa550737e6",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-09-25",
+    "quotes": [
+     "have extended their critical-minerals framework to cover geological mapping, exploration, separation, and processing, though the May agreement remains non-binding."
+    ],
+    "final_url": "https://rareearthexchanges.com/news/armenia-us-critical-minerals-mapping-processing/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "아르메니아와 미국이 핵심광물 협력 틀을 지질도 작성·탐사·분리·가공까지 확대했음",
+     "5월 합의는 구속력이 없으며, 아르메니아는 2024년 몰리브덴 생산 세계 6위였음",
+     "국제 기준을 충족하는 희토류 자원이나 생산 광산은 공개된 바 없어 후속 일정은 확인 불가임"
+    ],
+    "basis": "body",
+    "key_figures": [],
+    "quotes": [
+     "have extended their critical-minerals framework to cover geological mapping, exploration, separation, and processing, though the May agreement remains non-binding."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "아르메니아",
+     "미국",
+     "희토류",
+     "몰리브덴",
+     "TRIPP"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "non-binding",
+      "meaning": "구속력이 없는"
+     },
+     {
+      "phrase": "processing and logistics hub",
+      "meaning": "가공·물류 거점"
+     },
+     {
+      "phrase": "diversification",
+      "meaning": "다변화"
+     }
+    ],
+    "implication": "아르메니아는 중국 의존도가 높은 구리-몰리브덴 수출 구조에서 벗어나려 하며, TRIPP 회랑을 통한 지역 가공·물류 거점 역할이 거론됨."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 943,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:56:46+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "a4f0c27b8b",
+     "v1_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQ3loY2Y3QTdaYjFNOE93YUhDM3hPVXBTQ3NzMEp2T0VuWEZILWhoeEprdkhNRXAxUUxWNlpYcU1Nbnl4SHBrRFBwbEVUNy1nck9QbUw3YzhwZ0pGa0lmYktBRW1ZZTBWOFRJUzZfV1B0TnNubFJHMTVBWkZiZlhraDVXV0h5VXlqUl9BZQ?oc=5",
+     "summary_raw": "Armenia US Critical Minerals Pact Mapping Processing 2026&nbsp;&nbsp;Rare Earth Exchanges"
+    }
+   },
+   "v1": {
+    "korean_summary": "미국과 아르메니아가 핵심광물 협력 양해각서를 체결하고 2026년까지 희토류 광상 매장량 평가 및 처리 공정 개발을 추진할 계획으로 확인되었습니다. 본 협력은 아르메니아의 희토류 자원을 활용하여 공급망 다원화를 도모하는 전략적 의의를 갖습니다. 양국은 광물 탐사, 채광, 제련 기술 분야에서 기술 이전 및 역량 강화를 추진할 전망입니다.",
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "광물자원정책",
+     "미국-아르메니아"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Critical Minerals Pact",
+      "meaning": "핵심광물 협력 협정"
+     },
+     {
+      "phrase": "Rare Earth Processing",
+      "meaning": "희토류 광물 처리(제련) 공정"
+     },
+     {
+      "phrase": "Resource Mapping and Assessment",
+      "meaning": "자원 분포도 작성 및 매장량 평가"
+     },
+     {
+      "phrase": "Supply Chain Diversification",
+      "meaning": "공급망 다원화"
+     },
+     {
+      "phrase": "Technical Capacity Building",
+      "meaning": "기술 역량 강화"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "a4f0c27b8b",
+    "title": "Armenia US Critical Minerals Pact Mapping Processing 2026 - Rare Earth Exchanges",
+    "url": "https://rareearthexchanges.com/news/armenia-us-critical-minerals-mapping-processing",
+    "source": "Google News - Critical Minerals Exploration",
+    "tier_weight": 1,
+    "score": 9,
+    "published": "2026-09-25",
+    "korean_summary": [
+     "아르메니아와 미국이 핵심광물 협력 틀을 지질도 작성·탐사·분리·가공까지 확대했음",
+     "5월 합의는 구속력이 없으며, 아르메니아는 2024년 몰리브덴 생산 세계 6위였음",
+     "국제 기준을 충족하는 희토류 자원이나 생산 광산은 공개된 바 없어 후속 일정은 확인 불가임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "아르메니아",
+     "미국",
+     "희토류",
+     "몰리브덴",
+     "TRIPP"
+    ],
+    "ai_processed": true,
+    "card_id": "d0553d91ff36",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [],
+    "quotes": [
+     "have extended their critical-minerals framework to cover geological mapping, exploration, separation, and processing, though the May agreement remains non-binding."
+    ],
+    "summary_raw": "Armenia US Critical Minerals Pact Mapping Processing 2026&nbsp;&nbsp;Rare Earth Exchanges",
+    "english_phrases": [
+     {
+      "phrase": "non-binding",
+      "meaning": "구속력이 없는"
+     },
+     {
+      "phrase": "processing and logistics hub",
+      "meaning": "가공·물류 거점"
+     },
+     {
+      "phrase": "diversification",
+      "meaning": "다변화"
+     }
+    ],
+    "implication": "아르메니아는 중국 의존도가 높은 구리-몰리브덴 수출 구조에서 벗어나려 하며, TRIPP 회랑을 통한 지역 가공·물류 거점 역할이 거론됨.",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "27ba57a27fd0",
+   "title": "Glenstar Minerals (CSE: GSTR) Turns Seismic Data into Precision Roadmap for Critical Minerals Exploration in Nevada - Kalkine Media",
+   "title_norm": "glenstar minerals cse gstr turns seismic data into precision roadmap for critical minerals exploration in nevada",
+   "url": "https://kalkinemedia.com/ca/news/featured-news/glenstar-minerals-cse-gstr-turns-seismic-data-into-precision-roadmap-for-critical-minerals-exploration-in-nevada",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNbTRaZ1R1WC1scml6NnZ4TnpGeDlyUmtZSGJWMWdNTVN1d3UzWU9ZT2JlN1Vhb2dwUzBKZTF5TzhJS1RSM3hPbER3N28zN1k0UEc0WEtYQ0cyTXJQN3U0Vzlxd2I4NVBxZ0VieTBmbzlPdmR2amhpTXotQndiVjcxalYwM0V2dXZid3h6dTFPZFkwWERrdXlDUFp4TUotdXhJSjZ1SjhCYmtIVjJTWGFhcE82WFY5bDJzNHo3c1hVeDBrOVRvekY2eWk2VDE1enpkOEFELW84VkxrV3M5N292d1FOb2xsSk1SX0Q3R2cxNjY?oc=5",
+   "source": {
+    "name": "Google News - Critical Minerals Exploration",
+    "domain": "kalkinemedia.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-09-28",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:56:47+00:00",
+   "score": 10,
+   "body": {
+    "status": "full",
+    "chars": 4032,
+    "sha256": "88352b5231556888c7bee249b352d012ea81e0dfa23ef0bc737d51ad18c10923",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-09-27",
+    "quotes": [
+     "GSTR shares last traded at CAD 0.14, up around 3.85% on September 21, 2026.",
+     "- Glenstar Minerals deployed the Teran Shear-Wave Seismic Geophysical Survey at its Green Monster Project, covering four cross-sections along 2,400-foot arrays to a depth of 600 feet."
+    ],
+    "final_url": "https://kalkinemedia.com/ca/news/featured-news/glenstar-minerals-cse-gstr-turns-seismic-data-into-precision-roadmap-for-critical-minerals-exploration-in-nevada",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Glenstar Minerals가 네바다 Green Monster 프로젝트에서 Teran 전단파 지진 탐사를 실시했음",
+     "2,400-foot 배열을 따라 4개 단면을 600 feet 깊이까지 영상화했음",
+     "데이터는 최종 보고서 전 분석 중이며 다음 시추 계획 설계에 활용할 예정임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "2,400-foot",
+     "600 feet",
+     "four cross-sections"
+    ],
+    "quotes": [
+     "GSTR shares last traded at CAD 0.14, up around 3.85% on September 21, 2026.",
+     "- Glenstar Minerals deployed the Teran Shear-Wave Seismic Geophysical Survey at its Green Monster Project, covering four cross-sections along 2,400-foot arrays to a depth of 600 feet."
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "핵심광물",
+     "지진탐사",
+     "네바다",
+     "탐사시추",
+     "다금속"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Teran Shear-Wave Seismic Survey",
+      "meaning": "Teran 전단파 지진 탐사"
+     },
+     {
+      "phrase": "depth to competent rock",
+      "meaning": "단단한 암반까지의 깊이"
+     },
+     {
+      "phrase": "paleochannels",
+      "meaning": "고수로(옛 하천 유로)"
+     },
+     {
+      "phrase": "overburden",
+      "meaning": "광체 위를 덮은 표토·피복층"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:56:59+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 4줄)"
+    ],
+    "retry_tails": [
+     "까지의 깊이\"},\n    {\"phrase\": \"paleochannels\", \"meaning\": \"고수로(옛 하천 유로)\"},\n    {\"phrase\": \"overburden\", \"meaning\": \"광체 위를 덮은 표토·피복층\"}\n  ],\n  \"implication\": \"해당 없음\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "6da9bdcd94",
+     "v1_url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNbTRaZ1R1WC1scml6NnZ4TnpGeDlyUmtZSGJWMWdNTVN1d3UzWU9ZT2JlN1Vhb2dwUzBKZTF5TzhJS1RSM3hPbER3N28zN1k0UEc0WEtYQ0cyTXJQN3U0Vzlxd2I4NVBxZ0VieTBmbzlPdmR2amhpTXotQndiVjcxalYwM0V2dXZid3h6dTFPZFkwWERrdXlDUFp4TUotdXhJSjZ1SjhCYmtIVjJTWGFhcE82WFY5bDJzNHo3c1hVeDBrOVRvekY2eWk2VDE1enpkOEFELW84VkxrV3M5N292d1FOb2xsSk1SX0Q3R2cxNjY?oc=5",
+     "summary_raw": "Glenstar Minerals (CSE: GSTR) Turns Seismic Data into Precision Roadmap for Critical Minerals Exploration in Nevada&nbsp;&nbsp;Kalkine Media"
+    }
+   },
+   "v1": {
+    "korean_summary": "글렌스타 미네랄스는 네바다주 핵심광물 탐사에 지진파 탐사 데이터를 활용한 정밀 탐사지도를 개발하여 기술 기반 광물탐사의 새로운 방향을 제시하고 있습니다. 이러한 첨단 지구물리 기법의 도입은 핵심광물 탐사 효율성을 획기적으로 향상시킬 수 있을 것으로 예상됩니다. 미국의 전략적 광물자원 확보 필요성이 높아지는 상황에서 이 사례는 국내 핵심광물 탐사 기술 고도화의 중요성을 시사하고 있습니다.",
+    "category": "exploration_tech",
+    "tags": [
+     "핵심광물",
+     "지진파탐사",
+     "미국(네바다주)"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Seismic data integration for mineral exploration targeting",
+      "meaning": "광물탐사 정밀도 향상을 위한 지진파 탐사 데이터 통합 기법"
+     },
+     {
+      "phrase": "Precision exploration roadmap",
+      "meaning": "과학 기반의 정밀 탐사 로드맵/탐사 전략도"
+     },
+     {
+      "phrase": "Critical minerals exploration in Nevada",
+      "meaning": "네바다주 핵심광물 탐사 프로젝트"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "6da9bdcd94",
+    "title": "Glenstar Minerals (CSE: GSTR) Turns Seismic Data into Precision Roadmap for Critical Minerals Exploration in Nevada - Kalkine Media",
+    "url": "https://kalkinemedia.com/ca/news/featured-news/glenstar-minerals-cse-gstr-turns-seismic-data-into-precision-roadmap-for-critical-minerals-exploration-in-nevada",
+    "source": "Google News - Critical Minerals Exploration",
+    "tier_weight": 1,
+    "score": 10,
+    "published": "2026-09-28",
+    "korean_summary": [
+     "Glenstar Minerals가 네바다 Green Monster 프로젝트에서 Teran 전단파 지진 탐사를 실시했음",
+     "2,400-foot 배열을 따라 4개 단면을 600 feet 깊이까지 영상화했음",
+     "데이터는 최종 보고서 전 분석 중이며 다음 시추 계획 설계에 활용할 예정임"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "핵심광물",
+     "지진탐사",
+     "네바다",
+     "탐사시추",
+     "다금속"
+    ],
+    "ai_processed": true,
+    "card_id": "27ba57a27fd0",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "2,400-foot",
+     "600 feet",
+     "four cross-sections"
+    ],
+    "quotes": [
+     "GSTR shares last traded at CAD 0.14, up around 3.85% on September 21, 2026.",
+     "- Glenstar Minerals deployed the Teran Shear-Wave Seismic Geophysical Survey at its Green Monster Project, covering four cross-sections along 2,400-foot arrays to a depth of 600 feet."
+    ],
+    "summary_raw": "Glenstar Minerals (CSE: GSTR) Turns Seismic Data into Precision Roadmap for Critical Minerals Exploration in Nevada&nbsp;&nbsp;Kalkine Media",
+    "english_phrases": [
+     {
+      "phrase": "Teran Shear-Wave Seismic Survey",
+      "meaning": "Teran 전단파 지진 탐사"
+     },
+     {
+      "phrase": "depth to competent rock",
+      "meaning": "단단한 암반까지의 깊이"
+     },
+     {
+      "phrase": "paleochannels",
+      "meaning": "고수로(옛 하천 유로)"
+     },
+     {
+      "phrase": "overburden",
+      "meaning": "광체 위를 덮은 표토·피복층"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "51de37e7eac7",
+   "title": "Antimony Exploration Advances in Washington With 100 Assays Planned - Streetwise Reports",
+   "title_norm": "antimony exploration advances in washington with 100 assays planned",
+   "url": "https://streetwisereports.com/article/2026/09/25/antimony-exploration-advances-in-washington-with-100-assays-planned.html",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZmJGcjQzUk5Gc2NhVjZNWlpzb1l4TmppeGF3S1hfemtNTm9GdERTNEZDSGxkMXBCZXZaM3RZdWFzbWsyTlFzak83cU9Sa3I5cWxYYUhhUEZ5QlA3bVhhN00zTHNVZzVSV1lrZ0ozbWpaTHJnVVNuNGJGRDhDZ0RWQXp4RmRmcC1QVktyMUE3dkR3MkVNVkdGajM5VC1ZbG9INzdId3lHc1k2TzRfVmdSS2VqYV9ubGdfcFEtOXlEOTlDaGc?oc=5",
+   "source": {
+    "name": "Google News - Critical Minerals Exploration",
+    "domain": "streetwisereports.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-09-26",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:57:00+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 11665,
+    "sha256": "ac94a4bf563014bf42cad8c73d122b35fad8c7d3670d19ad3d1ffaa8f35332b3",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-09-25",
+    "quotes": [
+     "Krait holds an option to earn a 100% interest, subject to a 3% NSR.",
+     "The presentation listed a recommended Phase 1 exploration budget of CA$250,480, as recommended in the independent NI 43-101 Technical Report."
+    ],
+    "final_url": "https://www.streetwisereports.com/article/2026/09/25/antimony-exploration-advances-in-washington-with-100-assays-planned.html",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Krait Critical Minerals가 Rangefront Mining Services를 고용해 Bales 안티모니 프로젝트 탐사를 시작함",
+     "미국 워싱턴주 오카노건 카운티에서 약 7일간 현장 작업을 하며 약 100 assays를 계획했음",
+     "결과를 바탕으로 후속 탐사와 시추 대상 선정을 검토할 예정이며, 접근권 등 조건이 전제됨"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "approximately 100 assays",
+     "approximately seven days of fieldwork",
+     "CA$250,480"
+    ],
+    "quotes": [
+     "Krait holds an option to earn a 100% interest, subject to a 3% NSR.",
+     "The presentation listed a recommended Phase 1 exploration budget of CA$250,480, as recommended in the independent NI 43-101 Technical Report."
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "안티모니",
+     "탐사",
+     "워싱턴주",
+     "시추 목표",
+     "Krait"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "geological mapping",
+      "meaning": "지질 지도 작성"
+     },
+     {
+      "phrase": "assays",
+      "meaning": "광물 함량 분석"
+     },
+     {
+      "phrase": "priority drill targets",
+      "meaning": "우선 시추 대상"
+     },
+     {
+      "phrase": "skarn zoning",
+      "meaning": "스카른 구역 분포"
+     }
+    ],
+    "implication": "미국 워싱턴주 안티모니 프로젝트가 초기 지표 검증과 시추 목표 선정 단계에 들어가 북미 안티모니 자원 탐사의 초기 단계 사례가 추가됨."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:57:04+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "474e91f97e",
+     "v1_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZmJGcjQzUk5Gc2NhVjZNWlpzb1l4TmppeGF3S1hfemtNTm9GdERTNEZDSGxkMXBCZXZaM3RZdWFzbWsyTlFzak83cU9Sa3I5cWxYYUhhUEZ5QlA3bVhhN00zTHNVZzVSV1lrZ0ozbWpaTHJnVVNuNGJGRDhDZ0RWQXp4RmRmcC1QVktyMUE3dkR3MkVNVkdGajM5VC1ZbG9INzdId3lHc1k2TzRfVmdSS2VqYV9ubGdfcFEtOXlEOTlDaGc?oc=5",
+     "summary_raw": "Antimony Exploration Advances in Washington With 100 Assays Planned&nbsp;&nbsp;Streetwise Reports"
+    }
+   },
+   "v1": {
+    "korean_summary": "미국 워싱턴주에서 안티몬 탐사가 진전을 보이고 있으며, 향후 100건의 분석(assay) 작업이 계획되어 있는 것으로 확인되었습니다. 이는 미국 내 핵심광물 자급률 향상을 위한 탐사 활동이 가속화되고 있음을 시사합니다. 안티몬은 반도체, 방위산업, 에너지 저장 등 첨단산업에 필수적인 핵심광물로서 전략적 중요성이 높습니다.",
+    "category": "exploration_tech",
+    "tags": [
+     "안티몬",
+     "탐사기술",
+     "미국 워싱턴주"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "antimony exploration advances",
+      "meaning": "안티몬 탐사 진전/기술 발전"
+     },
+     {
+      "phrase": "assay program",
+      "meaning": "시료 분석 프로그램/광석 품위 분석 계획"
+     },
+     {
+      "phrase": "critical minerals domestic supply",
+      "meaning": "핵심광물 국내 공급망/자급성"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "474e91f97e",
+    "title": "Antimony Exploration Advances in Washington With 100 Assays Planned - Streetwise Reports",
+    "url": "https://streetwisereports.com/article/2026/09/25/antimony-exploration-advances-in-washington-with-100-assays-planned.html",
+    "source": "Google News - Critical Minerals Exploration",
+    "tier_weight": 1,
+    "score": 9,
+    "published": "2026-09-26",
+    "korean_summary": [
+     "Krait Critical Minerals가 Rangefront Mining Services를 고용해 Bales 안티모니 프로젝트 탐사를 시작함",
+     "미국 워싱턴주 오카노건 카운티에서 약 7일간 현장 작업을 하며 약 100 assays를 계획했음",
+     "결과를 바탕으로 후속 탐사와 시추 대상 선정을 검토할 예정이며, 접근권 등 조건이 전제됨"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "안티모니",
+     "탐사",
+     "워싱턴주",
+     "시추 목표",
+     "Krait"
+    ],
+    "ai_processed": true,
+    "card_id": "51de37e7eac7",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "approximately 100 assays",
+     "approximately seven days of fieldwork",
+     "CA$250,480"
+    ],
+    "quotes": [
+     "Krait holds an option to earn a 100% interest, subject to a 3% NSR.",
+     "The presentation listed a recommended Phase 1 exploration budget of CA$250,480, as recommended in the independent NI 43-101 Technical Report."
+    ],
+    "summary_raw": "Antimony Exploration Advances in Washington With 100 Assays Planned&nbsp;&nbsp;Streetwise Reports",
+    "english_phrases": [
+     {
+      "phrase": "geological mapping",
+      "meaning": "지질 지도 작성"
+     },
+     {
+      "phrase": "assays",
+      "meaning": "광물 함량 분석"
+     },
+     {
+      "phrase": "priority drill targets",
+      "meaning": "우선 시추 대상"
+     },
+     {
+      "phrase": "skarn zoning",
+      "meaning": "스카른 구역 분포"
+     }
+    ],
+    "implication": "미국 워싱턴주 안티모니 프로젝트가 초기 지표 검증과 시추 목표 선정 단계에 들어가 북미 안티모니 자원 탐사의 초기 단계 사례가 추가됨.",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "9276c24a02de",
+   "title": "High TREO concentrations boost Rare Earths Americas’ Homer project",
+   "title_norm": "high treo concentrations boost rare earths americas homer project",
+   "url": "https://mining.com/high-treo-concentrations-boost-rare-earths-americas-homer-project",
+   "gnews_url": null,
+   "source": {
+    "name": "Mining.com",
+    "domain": "mining.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-09-23",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:57:04+00:00",
+   "score": 8,
+   "body": {
+    "status": "full",
+    "chars": 4282,
+    "sha256": "576ca37ba5bcf5d4e58f8152258fab13ab37854a70d884890e30538c57969f9d",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-09-23",
+    "quotes": [
+     "More than 6,500 meters of drilling have been completed at the Homer project, with multiple drill intercepts grading more than 2,000 ppm total rare earth oxides (TREO) over intervals exceeding 10 meters.",
+     "REA stock closed the day down 1.3% in New York."
+    ],
+    "final_url": "https://www.mining.com/high-treo-concentrations-boost-rare-earths-americas-homer-project/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Rare Earths Americas가 브라질 Goiás Alkaline province 소재 Homer 프로젝트의 초기 시추 결과를 발표했음",
+     "6,500 meters 넘게 시추했고 여러 구간에서 10 meters 초과 폭에 2,000 ppm 초과 TREO가 나왔음",
+     "15,000-meter 시추를 올해 말까지 마치고 2027년 최초 Mineral Resource Estimate 발표를 목표로 함"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "6,500 meters",
+     "2,000 ppm",
+     "15,000-meter"
+    ],
+    "quotes": [
+     "More than 6,500 meters of drilling have been completed at the Homer project, with multiple drill intercepts grading more than 2,000 ppm total rare earth oxides (TREO) over intervals exceeding 10 meters.",
+     "REA stock closed the day down 1.3% in New York."
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "희토류",
+     "중희토류",
+     "시추",
+     "브라질",
+     "니오븀·탄탈럼"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "total rare earth oxides (TREO)",
+      "meaning": "총 희토류 산화물"
+     },
+     {
+      "phrase": "heavy rare earth oxide (HREO)",
+      "meaning": "중희토류 산화물"
+     },
+     {
+      "phrase": "Mineral Resource Estimate",
+      "meaning": "광물자원량 추정"
+     },
+     {
+      "phrase": "saprolite",
+      "meaning": "풍화 잔류 암석층(사프롤라이트)"
+     }
+    ],
+    "implication": "브라질 점토 부존형 중희토류 탐사가 영구자석용 Dy·Tb 공급원 후보로 진전되고 있으나, 자원량 평가는 2027년 이후에야 가능함."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:57:09+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "ed46cfacf6",
+     "v1_url": "https://www.mining.com/high-treo-concentrations-boost-rare-earths-americas-homer-project/",
+     "summary_raw": "More than 6,500 meters of drilling have been completed at the Homer project, with multiple drill intercepts grading more than 2,000 ppm total rare earth oxides."
+    }
+   },
+   "v1": {
+    "korean_summary": "Rare Earths Americas사의 Homer 프로젝트에서 6,500미터 이상의 시추를 완료하여 2,000ppm을 초과하는 고품위 전희토류산화물(TREO) 함유량을 기록했습니다. 이는 북미 지역 핵심광물 공급원 개발의 중요한 진전으로 평가되고 있습니다. 향후 상업화 가능성이 크게 높아짐에 따라 글로벌 희토류 수급 안정화에 기여할 것으로 전망됩니다.",
+    "category": "discovery",
+    "tags": [
+     "희토류",
+     "시추탐사",
+     "북미"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "drill intercepts grading more than 2,000 ppm total rare earth oxides (TREO)",
+      "meaning": "2,000ppm 이상의 전희토류산화물(TREO) 함유도를 보이는 시추 구간"
+     },
+     {
+      "phrase": "extensive drilling campaign",
+      "meaning": "광범위한 시추 탐사 사업"
+     },
+     {
+      "phrase": "critical rare earth mineral deposit",
+      "meaning": "핵심광물로 분류되는 희토류 광상"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "ed46cfacf6",
+    "title": "High TREO concentrations boost Rare Earths Americas’ Homer project",
+    "url": "https://mining.com/high-treo-concentrations-boost-rare-earths-americas-homer-project",
+    "source": "Mining.com",
+    "tier_weight": 3,
+    "score": 8,
+    "published": "2026-09-23",
+    "korean_summary": [
+     "Rare Earths Americas가 브라질 Goiás Alkaline province 소재 Homer 프로젝트의 초기 시추 결과를 발표했음",
+     "6,500 meters 넘게 시추했고 여러 구간에서 10 meters 초과 폭에 2,000 ppm 초과 TREO가 나왔음",
+     "15,000-meter 시추를 올해 말까지 마치고 2027년 최초 Mineral Resource Estimate 발표를 목표로 함"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "희토류",
+     "중희토류",
+     "시추",
+     "브라질",
+     "니오븀·탄탈럼"
+    ],
+    "ai_processed": true,
+    "card_id": "9276c24a02de",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "6,500 meters",
+     "2,000 ppm",
+     "15,000-meter"
+    ],
+    "quotes": [
+     "More than 6,500 meters of drilling have been completed at the Homer project, with multiple drill intercepts grading more than 2,000 ppm total rare earth oxides (TREO) over intervals exceeding 10 meters.",
+     "REA stock closed the day down 1.3% in New York."
+    ],
+    "summary_raw": "More than 6,500 meters of drilling have been completed at the Homer project, with multiple drill intercepts grading more than 2,000 ppm total rare earth oxides.",
+    "english_phrases": [
+     {
+      "phrase": "total rare earth oxides (TREO)",
+      "meaning": "총 희토류 산화물"
+     },
+     {
+      "phrase": "heavy rare earth oxide (HREO)",
+      "meaning": "중희토류 산화물"
+     },
+     {
+      "phrase": "Mineral Resource Estimate",
+      "meaning": "광물자원량 추정"
+     },
+     {
+      "phrase": "saprolite",
+      "meaning": "풍화 잔류 암석층(사프롤라이트)"
+     }
+    ],
+    "implication": "브라질 점토 부존형 중희토류 탐사가 영구자석용 Dy·Tb 공급원 후보로 진전되고 있으나, 자원량 평가는 2027년 이후에야 가능함.",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "41a6df590f1e",
+   "title": "EU Critical Minerals Supply Chain Autonomy Explained - Rare Earth Exchanges",
+   "title_norm": "eu critical minerals supply chain autonomy explained",
+   "url": "https://rareearthexchanges.com/news/eu-critical-minerals-supply-chain-autonomy",
+   "gnews_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVWppeHBSalE1a3Q5MElnZzB6RXU0RkRuSjBPck9zcjN0R3UyZ1NlY2VSLTRqRWJwbURFMW52bTNZdjYwRkxtMlptd3dGWmdweVhvdnZWWHdVMU9mdnlPQ2dEV2xBYmREZUEyZlBPX243YnhxejZjbHNmVHU5N1FLOU01dWd3Zw?oc=5",
+   "source": {
+    "name": "Google News - IRA CRMA Policy",
+    "domain": "rareearthexchanges.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-09-26",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:57:10+00:00",
+   "score": 10,
+   "body": {
+    "status": "partial",
+    "chars": 600,
+    "sha256": "2f3c5086c44d63903847e15a6376342909d3c57aa39d01cb586ca800768b127f",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-09-26",
+    "quotes": [
+     "- Europe's critical mineral targets face permitting delays, high energy costs, fragmented financing, and limited processing capacity.",
+     "- True supply-chain resilience requires separation, metallization, alloys, and magnet manufacturing—not just mining."
+    ],
+    "final_url": "https://rareearthexchanges.com/news/eu-critical-minerals-supply-chain-autonomy/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Rare Earth Exchanges가 EU 핵심광물 공급망 자율성 관련 보고서를 해설한 기사를 게재했음",
+     "유럽의 목표는 인허가 지연, 높은 에너지 비용, 분절된 금융, 제한적 가공 능력에 직면해 있다고 짚었음",
+     "보고서의 'More with Less'(대체·재활용) 전략은 산업 역량 구축을 대체할 수 없다고 평가했음"
+    ],
+    "basis": "body",
+    "key_figures": [],
+    "quotes": [
+     "- Europe's critical mineral targets face permitting delays, high energy costs, fragmented financing, and limited processing capacity.",
+     "- True supply-chain resilience requires separation, metallization, alloys, and magnet manufacturing—not just mining."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "희토류",
+     "EU",
+     "공급망 자율성",
+     "중국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "More with Less",
+      "meaning": "보고서가 제시한 대체·재활용 중심 전략의 명칭"
+     },
+     {
+      "phrase": "permitting delays",
+      "meaning": "인허가 지연"
+     },
+     {
+      "phrase": "metallization",
+      "meaning": "금속화(희토류 산화물을 금속으로 만드는 공정)"
+     },
+     {
+      "phrase": "fragmented financing",
+      "meaning": "분절된 금융 조달"
+     }
+    ],
+    "implication": "유럽이 채굴을 넘어 분리·금속화·합금·자석 제조까지 갖추지 못하면 중국 의존을 줄이기 어렵다는 점이 부각됨."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "partial",
+    "input_chars": 600,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:57:13+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "edbd6e0658",
+     "v1_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVWppeHBSalE1a3Q5MElnZzB6RXU0RkRuSjBPck9zcjN0R3UyZ1NlY2VSLTRqRWJwbURFMW52bTNZdjYwRkxtMlptd3dGWmdweVhvdnZWWHdVMU9mdnlPQ2dEV2xBYmREZUEyZlBPX243YnhxejZjbHNmVHU5N1FLOU01dWd3Zw?oc=5",
+     "summary_raw": "EU Critical Minerals Supply Chain Autonomy Explained&nbsp;&nbsp;Rare Earth Exchanges"
+    }
+   },
+   "v1": {
+    "korean_summary": "EU는 핵심광물 공급망의 자립성 강화를 위해 채굴, 가공, 재활용 전 단계에 걸친 전략적 접근을 추진 중으로 확인되었습니다. 희토류 교역 시장의 투명성 강화와 공급망 다변화가 핵심 정책 과제로 제시되고 있습니다. 이러한 정책 기조는 지정학적 리스크 완화 및 전략적 자원 확보 능력 강화를 위한 필수 조건으로 평가되고 있습니다.",
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "핵심광물 공급망 자립화",
+     "EU 광물정책"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals supply chain autonomy",
+      "meaning": "핵심광물 공급망 자립성"
+     },
+     {
+      "phrase": "supply chain diversification",
+      "meaning": "공급망 다변화"
+     },
+     {
+      "phrase": "rare earth elements (REEs) trading transparency",
+      "meaning": "희토류 교역 투명성"
+     },
+     {
+      "phrase": "vertical integration of mineral extraction and processing",
+      "meaning": "광물 채굴에서 가공까지의 수직 통합"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "edbd6e0658",
+    "title": "EU Critical Minerals Supply Chain Autonomy Explained - Rare Earth Exchanges",
+    "url": "https://rareearthexchanges.com/news/eu-critical-minerals-supply-chain-autonomy",
+    "source": "Google News - IRA CRMA Policy",
+    "tier_weight": 1,
+    "score": 10,
+    "published": "2026-09-26",
+    "korean_summary": [
+     "Rare Earth Exchanges가 EU 핵심광물 공급망 자율성 관련 보고서를 해설한 기사를 게재했음",
+     "유럽의 목표는 인허가 지연, 높은 에너지 비용, 분절된 금융, 제한적 가공 능력에 직면해 있다고 짚었음",
+     "보고서의 'More with Less'(대체·재활용) 전략은 산업 역량 구축을 대체할 수 없다고 평가했음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "희토류",
+     "EU",
+     "공급망 자율성",
+     "중국"
+    ],
+    "ai_processed": true,
+    "card_id": "41a6df590f1e",
+    "basis": "body",
+    "body_status": "partial",
+    "key_figures": [],
+    "quotes": [
+     "- Europe's critical mineral targets face permitting delays, high energy costs, fragmented financing, and limited processing capacity.",
+     "- True supply-chain resilience requires separation, metallization, alloys, and magnet manufacturing—not just mining."
+    ],
+    "summary_raw": "EU Critical Minerals Supply Chain Autonomy Explained&nbsp;&nbsp;Rare Earth Exchanges",
+    "english_phrases": [
+     {
+      "phrase": "More with Less",
+      "meaning": "보고서가 제시한 대체·재활용 중심 전략의 명칭"
+     },
+     {
+      "phrase": "permitting delays",
+      "meaning": "인허가 지연"
+     },
+     {
+      "phrase": "metallization",
+      "meaning": "금속화(희토류 산화물을 금속으로 만드는 공정)"
+     },
+     {
+      "phrase": "fragmented financing",
+      "meaning": "분절된 금융 조달"
+     }
+    ],
+    "implication": "유럽이 채굴을 넘어 분리·금속화·합금·자석 제조까지 갖추지 못하면 중국 의존을 줄이기 어렵다는 점이 부각됨.",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "9c3a4e30ab83",
+   "title": "Rainbow Rare Earths deal with Neo clears path for Phalaborwa study",
+   "title_norm": "rainbow rare earths deal with neo clears path for phalaborwa study",
+   "url": "https://mining.com/rainbow-rare-earths-deal-with-neo-clears-path-for-phalaborwa-study",
+   "gnews_url": null,
+   "source": {
+    "name": "Mining.com",
+    "domain": "mining.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-09-24",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:57:14+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 3699,
+    "sha256": "8460a8da79af2e714e890586db8e08e74fb23f8e7376e4b8bdd3cf8cbc4173a6",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-09-24",
+    "quotes": [
+     "The memorandum of understanding gives Toronto-based Neo offtake rights to 40% of Phalaborwa’s annual production of separated neodymium-praseodymium (NdPr) oxide and 65% of its mixed SEG+ heavy rare earth carbonate.",
+     "Rainbow has previously estimated Phalaborwa’s development cost at $326 million."
+    ],
+    "final_url": "https://www.mining.com/rainbow-rare-earths-deal-with-neo-clears-path-for-phalaborwa-study/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Rainbow Rare Earths가 Neo Performance Materials와 오프테이크·가공 양해각서(MOU)를 맺었음",
+     "Neo는 NdPr 산화물 연간 생산의 40%, 혼합 SEG+ 중희토류 탄산염의 65%에 대한 오프테이크 권리를 가짐",
+     "구속력 있는 장문 계약을 협상 중이며, Phalaborwa 선행타당성조사(PFS)는 4분기, DFS는 2027년 상반기 예정임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "40%",
+     "65%",
+     "$326 million"
+    ],
+    "quotes": [
+     "The memorandum of understanding gives Toronto-based Neo offtake rights to 40% of Phalaborwa’s annual production of separated neodymium-praseodymium (NdPr) oxide and 65% of its mixed SEG+ heavy rare earth carbonate.",
+     "Rainbow has previously estimated Phalaborwa’s development cost at $326 million."
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "NdPr",
+     "오프테이크",
+     "인산석고",
+     "남아프리카공화국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "offtake",
+      "meaning": "생산물을 사전에 약정해 구매하는 계약"
+     },
+     {
+      "phrase": "toll treating",
+      "meaning": "위탁 가공 처리"
+     },
+     {
+      "phrase": "prefeasibility study",
+      "meaning": "선행타당성조사"
+     },
+     {
+      "phrase": "phosphogypsum",
+      "meaning": "인산 비료 생산 과정에서 나오는 부산물인 인산석고"
+     }
+    ],
+    "implication": "남아공 인산석고 폐기물에서 자석용 희토류를 회수해 에스토니아의 분리·자석 설비와 연결하는 비중국 공급망 구상이 구체화됨."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 3699,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:57:19+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "857a32d88d",
+     "v1_url": "https://www.mining.com/rainbow-rare-earths-deal-with-neo-clears-path-for-phalaborwa-study/",
+     "summary_raw": "The partnership advances processing plans as Rainbow moves the South African rare earths project towards financing."
+    }
+   },
+   "v1": {
+    "korean_summary": "Rainbow Rare Earths가 Neo와의 파트너십을 체결하여 남아프리카의 팔라보르와 희토류 프로젝트 개발을 가속화할 수 있는 기반을 마련했습니다. 본 협력을 통해 희토류 처리 계획이 진전되고 있으며, 프로젝트의 재정 조달 단계로의 진입이 현실화될 전망입니다. 이는 글로벌 핵심광물 공급망 다각화의 관점에서 중요한 진전으로 평가됩니다.",
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "광물처리",
+     "남아프리카"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "partnership advances processing plans",
+      "meaning": "파트너십을 통해 처리 공정 계획이 진전되다"
+     },
+     {
+      "phrase": "towards financing",
+      "meaning": "재정 조달 단계를 향해 진행하다"
+     },
+     {
+      "phrase": "clears the path for feasibility study",
+      "meaning": "타당성 조사를 수행할 수 있는 길을 열다"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "857a32d88d",
+    "title": "Rainbow Rare Earths deal with Neo clears path for Phalaborwa study",
+    "url": "https://mining.com/rainbow-rare-earths-deal-with-neo-clears-path-for-phalaborwa-study",
+    "source": "Mining.com",
+    "tier_weight": 3,
+    "score": 9,
+    "published": "2026-09-24",
+    "korean_summary": [
+     "Rainbow Rare Earths가 Neo Performance Materials와 오프테이크·가공 양해각서(MOU)를 맺었음",
+     "Neo는 NdPr 산화물 연간 생산의 40%, 혼합 SEG+ 중희토류 탄산염의 65%에 대한 오프테이크 권리를 가짐",
+     "구속력 있는 장문 계약을 협상 중이며, Phalaborwa 선행타당성조사(PFS)는 4분기, DFS는 2027년 상반기 예정임"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "NdPr",
+     "오프테이크",
+     "인산석고",
+     "남아프리카공화국"
+    ],
+    "ai_processed": true,
+    "card_id": "9c3a4e30ab83",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "40%",
+     "65%",
+     "$326 million"
+    ],
+    "quotes": [
+     "The memorandum of understanding gives Toronto-based Neo offtake rights to 40% of Phalaborwa’s annual production of separated neodymium-praseodymium (NdPr) oxide and 65% of its mixed SEG+ heavy rare earth carbonate.",
+     "Rainbow has previously estimated Phalaborwa’s development cost at $326 million."
+    ],
+    "summary_raw": "The partnership advances processing plans as Rainbow moves the South African rare earths project towards financing.",
+    "english_phrases": [
+     {
+      "phrase": "offtake",
+      "meaning": "생산물을 사전에 약정해 구매하는 계약"
+     },
+     {
+      "phrase": "toll treating",
+      "meaning": "위탁 가공 처리"
+     },
+     {
+      "phrase": "prefeasibility study",
+      "meaning": "선행타당성조사"
+     },
+     {
+      "phrase": "phosphogypsum",
+      "meaning": "인산 비료 생산 과정에서 나오는 부산물인 인산석고"
+     }
+    ],
+    "implication": "남아공 인산석고 폐기물에서 자석용 희토류를 회수해 에스토니아의 분리·자석 설비와 연결하는 비중국 공급망 구상이 구체화됨.",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "f7c51094c719",
+   "title": "R3 Lithium focusing on lithium carbonate refining to tackle western black mass bottleneck, CEO Austin says - Fastmarkets",
+   "title_norm": "r3 lithium focusing on lithium carbonate refining to tackle western black mass bottleneck ceo austin says",
+   "url": "https://fastmarkets.com/insights/r3-lithium-focusing-on-lithium-carbonate-refining-to-tackle-western-black-mass-bottleneck-ceo-austin-says",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOR09CTEE2d2EzTVhSa1JiRVZtVjUwT1FnY0JQUWM1R0N1blVtcEt0UnpVT3EyNGRYcWRFbDNmU3ZZSFBnNXh2ZVk2c1dqQ0xTWWNmZVY4bkFId2g3Sm5qYWF4VUM3YXkwdEdGNHd3UDBXRzdKUEFCMkNtYV9uN1A2dkJvcjgtaFBLNWtONG4xQklxc1l5bjRnUU81NHJ5VDJETWRpR3NNTDFHRVZILTM2LUhyRzNDTmlKOUVSejVodVRaZ2lvWDIwZHRUVjVCdFRIcTJDR1NFTl9BeHc?oc=5",
+   "source": {
+    "name": "Fastmarkets - via Google News",
+    "domain": "fastmarkets.com",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-09-22",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:57:20+00:00",
+   "score": 9,
+   "body": {
+    "status": "lead_only",
+    "chars": 120,
+    "sha256": "2d7dc9b243cbdcbfa479dc52932bf993bc08c7f193ae249a7cc1790340bdd391",
+    "source": "og_description",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [
+     "Discover how R3 Lithium is revitalizing the Covington facility to produce high-purity black mass for sustainable energy."
+    ],
+    "final_url": "https://www.fastmarkets.com/insights/r3-lithium-focusing-on-lithium-carbonate-refining-to-tackle-western-black-mass-bottleneck-ceo-austin-says/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "R3 리튬, 서방 블랙매스 병목 해소 위해 탄산리튬 정제에 집중한다고 오스틴 CEO가 밝혔음",
+     "R3 리튬이 커빙턴 시설을 되살려 지속가능 에너지용 고순도 블랙매스를 생산한다는 내용임"
+    ],
+    "basis": "lead",
+    "key_figures": [],
+    "quotes": [],
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "탄산리튬",
+     "블랙매스",
+     "재활용",
+     "공급망"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "black mass",
+      "meaning": "폐배터리를 분쇄해 얻는 검은 분말 형태의 재활용 원료"
+     },
+     {
+      "phrase": "lithium carbonate refining",
+      "meaning": "탄산리튬 정제"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "lead_only",
+    "input_chars": 120,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:57:23+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "b9f7519bf2",
+     "v1_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOR09CTEE2d2EzTVhSa1JiRVZtVjUwT1FnY0JQUWM1R0N1blVtcEt0UnpVT3EyNGRYcWRFbDNmU3ZZSFBnNXh2ZVk2c1dqQ0xTWWNmZVY4bkFId2g3Sm5qYWF4VUM3YXkwdEdGNHd3UDBXRzdKUEFCMkNtYV9uN1A2dkJvcjgtaFBLNWtONG4xQklxc1l5bjRnUU81NHJ5VDJETWRpR3NNTDFHRVZILTM2LUhyRzNDTmlKOUVSejVodVRaZ2lvWDIwZHRUVjVCdFRIcTJDR1NFTl9BeHc?oc=5",
+     "summary_raw": "R3 Lithium focusing on lithium carbonate refining to tackle western black mass bottleneck, CEO Austin says&nbsp;&nbsp;Fastmarkets"
+    }
+   },
+   "v1": {
+    "korean_summary": "R3 Lithium은 서방 지역의 흑질량(black mass) 병목 현상을 해결하기 위해 탄산리튬 정제 사업에 집중할 계획으로 확인되었습니다. CEO Austin은 폐배터리로부터 회수한 흑질량을 리튬 탄산염으로 전환하는 중간 정제 공정이 핵심광물 공급망의 취약점 해소에 필수적일 것으로 전망하고 있습니다. 이는 서방권의 순환경제 기반 핵심광물 자립도 강화 전략과 맞닿아 있는 의미 있는 산업 동향입니다.",
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "폐배터리 재활용",
+     "북미/서방"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "black mass bottleneck",
+      "meaning": "폐배터리 회수 흑질량의 처리 기술 및 용량 부족으로 인한 공급망 제약"
+     },
+     {
+      "phrase": "lithium carbonate refining",
+      "meaning": "흑질량으로부터 고순도 탄산리튬을 생산하는 중간 정제 공정"
+     },
+     {
+      "phrase": "critical mineral supply chain resilience",
+      "meaning": "핵심광물 공급망의 안정성 및 자립도 강화"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "b9f7519bf2",
+    "title": "R3 Lithium focusing on lithium carbonate refining to tackle western black mass bottleneck, CEO Austin says - Fastmarkets",
+    "url": "https://fastmarkets.com/insights/r3-lithium-focusing-on-lithium-carbonate-refining-to-tackle-western-black-mass-bottleneck-ceo-austin-says",
+    "source": "Fastmarkets - via Google News",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-09-22",
+    "korean_summary": [
+     "[본문 미확보] R3 리튬, 서방 블랙매스 병목 해소 위해 탄산리튬 정제에 집중한다고 오스틴 CEO가 밝혔음",
+     "R3 리튬이 커빙턴 시설을 되살려 지속가능 에너지용 고순도 블랙매스를 생산한다는 내용임"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "탄산리튬",
+     "블랙매스",
+     "재활용",
+     "공급망"
+    ],
+    "ai_processed": true,
+    "card_id": "f7c51094c719",
+    "basis": "lead",
+    "body_status": "lead_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "R3 Lithium focusing on lithium carbonate refining to tackle western black mass bottleneck, CEO Austin says&nbsp;&nbsp;Fastmarkets",
+    "english_phrases": [
+     {
+      "phrase": "black mass",
+      "meaning": "폐배터리를 분쇄해 얻는 검은 분말 형태의 재활용 원료"
+     },
+     {
+      "phrase": "lithium carbonate refining",
+      "meaning": "탄산리튬 정제"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "12cd8ded41d1",
+   "title": "EQ Resources acquires full interest in Mt Carbine tungsten operation - Project Blue",
+   "title_norm": "eq resources acquires full interest in mt carbine tungsten operation",
+   "url": "https://projectblue.com/blue?article=646&type=blueview",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBBa0x3QllWaFRXTHFUOGJEYVRORkZtV2tiMzNFUVktcUFDa1ZmRWVoNjNqY2xrTEs5ZWlnVEtBWDNXYk9BbW9WcGJ3YmVtbzdvdVVPVUd5aTNkZmNBQ0l2Um9CWmU?oc=5",
+   "source": {
+    "name": "Project Blue - via Google News",
+    "domain": "projectblue.com",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-09-25",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:57:24+00:00",
+   "score": 9,
+   "body": {
+    "status": "lead_only",
+    "chars": 133,
+    "sha256": "1cac49f09b85adebd53e262d3b4fa7b1796b368bec0818b1d05f9cc20062edcf",
+    "source": "og_description",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": "2026-03-11",
+    "quotes": [
+     "EQ Resources has acquired a 100% interest in the Mt Carbine operation after agreeing to purchase joint-venture interest from CRONIMET"
+    ],
+    "final_url": "https://projectblue.com/blue?article=646&type=blueview",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "EQ Resources가 Mt Carbine 텅스텐 사업의 지분 전체를 인수했음",
+     "CRONIMET의 합작투자 지분 매입에 합의해 Mt Carbine 사업 지분 100%를 확보했음"
+    ],
+    "basis": "lead",
+    "key_figures": [],
+    "quotes": [],
+    "category": "supply_chain",
+    "tags": [
+     "텅스텐",
+     "지분 인수",
+     "합작투자",
+     "EQ Resources",
+     "CRONIMET"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "joint-venture interest",
+      "meaning": "합작투자 지분"
+     },
+     {
+      "phrase": "100% interest",
+      "meaning": "지분 100%"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "lead_only",
+    "input_chars": 133,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:57:26+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "127a200d78",
+     "v1_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBBa0x3QllWaFRXTHFUOGJEYVRORkZtV2tiMzNFUVktcUFDa1ZmRWVoNjNqY2xrTEs5ZWlnVEtBWDNXYk9BbW9WcGJ3YmVtbzdvdVVPVUd5aTNkZmNBQ0l2Um9CWmU?oc=5",
+     "summary_raw": "EQ Resources acquires full interest in Mt Carbine tungsten operation&nbsp;&nbsp;Project Blue"
+    }
+   },
+   "v1": {
+    "korean_summary": "EQ Resources가 호주 Mt Carbine 텅스텐 광산에 대한 전량 지분을 인수하여 운영 권한을 확보하였음. 이는 핵심광물인 텅스텐의 안정적 공급망 확보를 위한 주요 전략적 움직임으로 평가됨. 텅스텐은 반도체·첨단소재 제조에 필수적인 핵심광물로서 공급망 재편의 중요성이 강조되는 시점임.",
+    "category": "supply_chain",
+    "tags": [
+     "텅스텐",
+     "광업개발",
+     "호주"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "acquire full interest in",
+      "meaning": "~에 대한 전량 지분을 인수하다"
+     },
+     {
+      "phrase": "tungsten operation",
+      "meaning": "텅스텐 채광 사업"
+     },
+     {
+      "phrase": "critical mineral supply chain",
+      "meaning": "핵심광물 공급망"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "127a200d78",
+    "title": "EQ Resources acquires full interest in Mt Carbine tungsten operation - Project Blue",
+    "url": "https://projectblue.com/blue?article=646&type=blueview",
+    "source": "Project Blue - via Google News",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-09-25",
+    "korean_summary": [
+     "[본문 미확보] EQ Resources가 Mt Carbine 텅스텐 사업의 지분 전체를 인수했음",
+     "CRONIMET의 합작투자 지분 매입에 합의해 Mt Carbine 사업 지분 100%를 확보했음"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "텅스텐",
+     "지분 인수",
+     "합작투자",
+     "EQ Resources",
+     "CRONIMET"
+    ],
+    "ai_processed": true,
+    "card_id": "12cd8ded41d1",
+    "basis": "lead",
+    "body_status": "lead_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "EQ Resources acquires full interest in Mt Carbine tungsten operation&nbsp;&nbsp;Project Blue",
+    "english_phrases": [
+     {
+      "phrase": "joint-venture interest",
+      "meaning": "합작투자 지분"
+     },
+     {
+      "phrase": "100% interest",
+      "meaning": "지분 100%"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  }
+ ],
+ "excluded": [],
+ "v1_file": "week-2026-09-28.json",
+ "v1_metrics": {
+  "articles": 12,
+  "original_link": 5,
+  "body_based": 0,
+  "failed": 0
+ },
+ "trial": false
+}

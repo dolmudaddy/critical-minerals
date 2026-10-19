@@ -1,0 +1,1997 @@
+{
+ "schema_version": "card.v1",
+ "service": "cmw",
+ "week_of": "2026-10-12",
+ "generated_at": "2026-10-19T06:00:21+00:00",
+ "mincore_version": "0.3.6",
+ "model": "claude-sonnet-5-5",
+ "prompt_version": "v2.2",
+ "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+ "stats": {
+  "v1_articles": 12,
+  "cards": 12,
+  "excluded": 0,
+  "body_got": 5,
+  "body_rate": 0.417,
+  "original_link": 12,
+  "reader_proxy_used": 0,
+  "line_len": {
+   "lines": 27,
+   "median": 59,
+   "max": 84,
+   "over60": 13,
+   "over100": 0
+  },
+  "oda_filled": 5,
+  "usage": {
+   "claude-sonnet-5-5": {
+    "calls": 14,
+    "in": 32352,
+    "out": 10020
+   }
+  },
+  "cost_usd": 0.2474,
+  "body_status": {
+   "lead_only": 5,
+   "title_only": 2,
+   "full": 4,
+   "partial": 1
+  },
+  "body_source": {
+   "trafilatura": 5,
+   "none": 2,
+   "presscorner_api": 1,
+   "rss_summary": 1,
+   "og_description": 3
+  },
+  "resolve": {
+   "decoder": 8,
+   "direct": 4
+  },
+  "fail_reason": {},
+  "basis": {
+   "lead": 5,
+   "title": 2,
+   "body": 5
+  },
+  "retry_reason": {
+   "lines는 3줄이어야 함 (현재 5줄)": 1,
+   "lines는 3줄이어야 함 (현재 4줄)": 1
+  },
+  "flags": {},
+  "model_used": {
+   "claude-sonnet-5-5": 12
+  }
+ },
+ "total": 12,
+ "cards": [
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "face01a3a0f2",
+   "title": "US E - GPS Consulting - Critical Minerals Profile - new- Core- Consultant - S&T/I&R - JC - US External Careers - Deloitte",
+   "title_norm": "us e gps consulting critical minerals profile new core consultant s t i r jc us external careers",
+   "url": "https://apply.deloitte.com/en_US/careers/ApplicationMethods?jobId=370611&source=The+Muse",
+   "gnews_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxONWVDem9TVTRGMUFfNlBXM0hXUmhUU0MxT25TbEJGbmFIcFRmV0tYMGJoeW91emNqVFE1S0NnN1hwLVRfQ1BYZHh6UldRUmRHeGozRURabkJhVk0wVEE2R0xzY2d2eEUzT3VjTXlxWEV2UkwyLW1DZWFDejNieW0wSUFiYkVGNmJmb21Sd3pkMEdCQQ?oc=5",
+   "source": {
+    "name": "Deloitte - via Google News",
+    "domain": "apply.deloitte.com",
+    "tier": null,
+    "tier_weight": 4,
+    "language": null
+   },
+   "published": "2026-10-11",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:58:58+00:00",
+   "score": 10,
+   "body": {
+    "status": "lead_only",
+    "chars": 220,
+    "sha256": "63ae02b420b798b254c1395e6b7dba4396bd5ed0b93af943d96efefd88d62858",
+    "source": "trafilatura",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": "2026-01-01",
+    "quotes": [],
+    "final_url": "https://apply.deloitte.com/en_US/careers/ApplicationMethods?jobId=370611&source=The+Muse",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "미국 E - GPS 컨설팅 - 핵심광물 프로필 - 신규 - 코어 - 컨설턴트 - S&T/I&R - JC 채용 공고임",
+     "리드는 이력서 선택, 개인정보, 직무별 질문, EEO 질문, 검토·제출의 지원 단계 안내임"
+    ],
+    "basis": "lead",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "채용공고",
+     "컨설팅",
+     "Deloitte",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Critical Minerals Profile",
+      "meaning": "핵심광물 프로필"
+     },
+     {
+      "phrase": "Job specific questions",
+      "meaning": "직무별 질문"
+     },
+     {
+      "phrase": "Review and submit",
+      "meaning": "검토 및 제출"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "lead_only",
+    "input_chars": 220,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:59:05+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "fffe2e90fe",
+     "v1_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxONWVDem9TVTRGMUFfNlBXM0hXUmhUU0MxT25TbEJGbmFIcFRmV0tYMGJoeW91emNqVFE1S0NnN1hwLVRfQ1BYZHh6UldRUmRHeGozRURabkJhVk0wVEE2R0xzY2d2eEUzT3VjTXlxWEV2UkwyLW1DZWFDejNieW0wSUFiYkVGNmJmb21Sd3pkMEdCQQ?oc=5",
+     "summary_raw": "US E - GPS Consulting - Critical Minerals Profile - new- Core- Consultant - S&amp;T/I&amp;R - JC - US External Careers&nbsp;&nbsp;Deloitte"
+    }
+   },
+   "v1": {
+    "korean_summary": "델로이트는 미국의 핵심광물 공급망 강화를 위해 GPS(Geospatial-Political-Strategic) 컨설팅 프레임워크를 기반으로 한 핵심광물 프로필 분석 업무를 추진 중입니다. 본 프로젝트는 과학기술(S&T) 및 혁신·규제(I&R) 분야의 핵심광물 전략 수립에 집중하고 있습니다. 이는 미국의 핵심광물 자급률 향상 및 공급망 리스크 관리를 위한 정부 차원의 정책 지원 체계 구축으로 판단됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "리튬·코발트·희토류",
+     "공급망 정책",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Critical Minerals Profile",
+      "meaning": "핵심광물 프로파일링/종합 분석"
+     },
+     {
+      "phrase": "GPS Consulting Framework",
+      "meaning": "지정학·정치·전략적 관점의 컨설팅 체계"
+     },
+     {
+      "phrase": "Supply Chain Risk Assessment",
+      "meaning": "공급망 위험성 평가"
+     },
+     {
+      "phrase": "Science & Technology/Innovation & Regulatory (S&T/I&R) Strategy",
+      "meaning": "과학기술 및 혁신·규제 분야 전략"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "fffe2e90fe",
+    "title": "US E - GPS Consulting - Critical Minerals Profile - new- Core- Consultant - S&T/I&R - JC - US External Careers - Deloitte",
+    "url": "https://apply.deloitte.com/en_US/careers/ApplicationMethods?jobId=370611&source=The+Muse",
+    "source": "Deloitte - via Google News",
+    "tier_weight": 4,
+    "score": 10,
+    "published": "2026-10-11",
+    "korean_summary": [
+     "[본문 미확보] 미국 E - GPS 컨설팅 - 핵심광물 프로필 - 신규 - 코어 - 컨설턴트 - S&T/I&R - JC 채용 공고임",
+     "리드는 이력서 선택, 개인정보, 직무별 질문, EEO 질문, 검토·제출의 지원 단계 안내임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "채용공고",
+     "컨설팅",
+     "Deloitte",
+     "미국"
+    ],
+    "ai_processed": true,
+    "card_id": "face01a3a0f2",
+    "basis": "lead",
+    "body_status": "lead_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "US E - GPS Consulting - Critical Minerals Profile - new- Core- Consultant - S&amp;T/I&amp;R - JC - US External Careers&nbsp;&nbsp;Deloitte",
+    "english_phrases": [
+     {
+      "phrase": "Critical Minerals Profile",
+      "meaning": "핵심광물 프로필"
+     },
+     {
+      "phrase": "Job specific questions",
+      "meaning": "직무별 질문"
+     },
+     {
+      "phrase": "Review and submit",
+      "meaning": "검토 및 제출"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "96ade6e91740",
+   "title": "Greenland Mines (NASDAQ: GRML) Forms Strategic Advisory Board With Rare Earth, Mining and Greenland Expertise - USA Today",
+   "title_norm": "greenland mines nasdaq grml forms strategic advisory board with rare earth mining and greenland expertise",
+   "url": "https://usatoday.com/press-release/story/43378/greenland-mines-nasdaq-grml-forms-strategic-advisory-board-with-rare-earth-mining-and-greenland-expertise",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPc3Z4UU1sdU9BMk9wNjBVM1duSmFyOEdJN2xFVWRjUWFyZTliaDRlMXk5Sms3LTAxa3lLTFB2YmNTYmE4TjYxMXA0VVQ1Tzc5NlZIU2J5WS1hbG9BNVhwYVRDMmo3c0wyem8tejFOSjBORmZ6ejZUSWF1Mm5XOTNVZllhNEF4OXFKcVlNWFdVcXBRUmxNUGFZcV9ldkNvbWpDMmZlM1hDRTZXOWY2dkFpRkFhNVJSYmltSEhVeXFTSUh3RFduclk0WlB5V0N3RlFOY0RtQ1ZmeUFjaTJDQlhOenpaNGNpcS05UFMtUklR?oc=5",
+   "source": {
+    "name": "Google News - Rare Earth Elements",
+    "domain": "usatoday.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-10-09",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:59:05+00:00",
+   "score": 10,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "http_error",
+    "http_status": 402,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.usatoday.com/press-release/story/43378/greenland-mines-nasdaq-grml-forms-strategic-advisory-board-with-rare-earth-mining-and-greenland-expertise/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Greenland Mines(나스닥: GRML)가 희토류·광업·그린란드 전문성을 갖춘 전략자문위원회를 구성했음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "전략자문위원회",
+     "그린란드",
+     "광업"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Strategic Advisory Board",
+      "meaning": "전략자문위원회"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:59:07+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "ba1e4acdcc",
+     "v1_url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPc3Z4UU1sdU9BMk9wNjBVM1duSmFyOEdJN2xFVWRjUWFyZTliaDRlMXk5Sms3LTAxa3lLTFB2YmNTYmE4TjYxMXA0VVQ1Tzc5NlZIU2J5WS1hbG9BNVhwYVRDMmo3c0wyem8tejFOSjBORmZ6ejZUSWF1Mm5XOTNVZllhNEF4OXFKcVlNWFdVcXBRUmxNUGFZcV9ldkNvbWpDMmZlM1hDRTZXOWY2dkFpRkFhNVJSYmltSEhVeXFTSUh3RFduclk0WlB5V0N3RlFOY0RtQ1ZmeUFjaTJDQlhOenpaNGNpcS05UFMtUklR?oc=5",
+     "summary_raw": "Greenland Mines (NASDAQ: GRML) Forms Strategic Advisory Board With Rare Earth, Mining and Greenland Expertise&nbsp;&nbsp;USA Today"
+    }
+   },
+   "v1": {
+    "korean_summary": "그린란드 광물(Greenland Mines, NASDAQ: GRML)이 희토류, 광업, 그린란드 지역 전문성을 갖춘 전략적 자문위원회를 구성하였으며, 이는 핵심광물 개발 역량 강화를 위한 주요 움직임으로 평가됩니다. 본 자문위원회는 그린란드의 풍부한 광물자원 개발과 핵심광물 공급망 다각화 전략에 기여할 것으로 예상됩니다. 북극권 핵심광물 자원 개발에 있어 국제적 경쟁이 심화되는 가운데, 전문가 기반의 조직 개편은 글로벌 핵심광물 시장 재편에 중요한 신호로 작용할 전망입니다.",
+    "category": "policy_market",
+    "tags": [
+     "희토류원소",
+     "자문조직·경영전략",
+     "그린란드"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Strategic Advisory Board",
+      "meaning": "전략적 자문위원회 (기술·정책·사업 운영 의사결정 지원 기구)"
+     },
+     {
+      "phrase": "Rare Earth Elements (REEs) expertise",
+      "meaning": "희토류원소 분야의 전문 지식 및 경험"
+     },
+     {
+      "phrase": "Critical minerals supply chain diversification",
+      "meaning": "핵심광물 공급망의 다각화 전략"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "ba1e4acdcc",
+    "title": "Greenland Mines (NASDAQ: GRML) Forms Strategic Advisory Board With Rare Earth, Mining and Greenland Expertise - USA Today",
+    "url": "https://usatoday.com/press-release/story/43378/greenland-mines-nasdaq-grml-forms-strategic-advisory-board-with-rare-earth-mining-and-greenland-expertise",
+    "source": "Google News - Rare Earth Elements",
+    "tier_weight": 1,
+    "score": 10,
+    "published": "2026-10-09",
+    "korean_summary": [
+     "[제목 기반] Greenland Mines(나스닥: GRML)가 희토류·광업·그린란드 전문성을 갖춘 전략자문위원회를 구성했음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "전략자문위원회",
+     "그린란드",
+     "광업"
+    ],
+    "ai_processed": true,
+    "card_id": "96ade6e91740",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Greenland Mines (NASDAQ: GRML) Forms Strategic Advisory Board With Rare Earth, Mining and Greenland Expertise&nbsp;&nbsp;USA Today",
+    "english_phrases": [
+     {
+      "phrase": "Strategic Advisory Board",
+      "meaning": "전략자문위원회"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "cbed4b659953",
+   "title": "Opening remarks by Executive Vice-President Séjourné at the press point on the second group of strategic projects under the Critical Raw Materials Act",
+   "title_norm": "opening remarks by executive vice president séjourné at the press point on the second group of strategic projects under the critical raw materials act",
+   "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2121",
+   "gnews_url": null,
+   "source": {
+    "name": "European Commission - Energy",
+    "domain": "ec.europa.eu",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-10-09",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:59:09+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 10438,
+    "sha256": "a05662513cb826c6bde58328bae0e43c3750feaffd37135abfb2c13ac59b78b0",
+    "source": "presscorner_api",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [
+     "À terme, ce seul projet pourrait représenter environ 15 % de la production mondiale de ces oxydes.",
+     "En Finlande, Keliber est désormais opérationnel : extraction et transformation du lithium sur le sol européen."
+    ],
+    "final_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2121",
+    "strategies_tried": [
+     "presscorner_api"
+    ]
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Séjourné 집행부위원장이 핵심광물법(CRMA) 2차 전략 프로젝트 기자회견에서 성과를 설명했음",
+     "작년 선정한 47개 전략 프로젝트 중 25개가 환경평가, 17개가 건축 허가를 완료했음",
+     "2025년 10월 9일 중국이 발표한 희토류 수출 제한은 일부 시행이 유예된 상태라고 언급했음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "47 premiers projets stratégiques",
+     "plus de 2 milliards d'euros",
+     "680 millions d'euros"
+    ],
+    "quotes": [
+     "À terme, ce seul projet pourrait représenter environ 15 % de la production mondiale de ces oxydes.",
+     "En Finlande, Keliber est désormais opérationnel : extraction et transformation du lithium sur le sol européen."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "핵심광물법",
+     "전략 프로젝트",
+     "희토류",
+     "EU"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "fast-track",
+      "meaning": "인허가 신속 처리 절차"
+     },
+     {
+      "phrase": "RESourceEU",
+      "meaning": "EU의 핵심광물 확보 가속 이니셔티브 명칭"
+     }
+    ],
+    "implication": "EU가 전략 프로젝트의 인허가 신속화와 공공 금융 동원으로 중국의 희토류 수출 제한 위험에 대응하는 체제를 구체화하고 있음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:59:24+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 5줄)"
+    ],
+    "retry_tails": [
+     "se\": \"RESourceEU\", \"meaning\": \"EU의 핵심광물 확보 가속 이니셔티브 명칭\"}\n  ],\n  \"implication\": \"EU가 핵심원자재법 전략 프로젝트의 인허가 신속화와 공공 금융 동원을 통해 중국의 희토류 수출 제한 위험에 대응하는 체제를 구체화하고 있음\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "eb24bee02b",
+     "v1_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2121",
+     "summary_raw": "European Commission Speech Brussels, 09 Oct 2026 Bonjour à toutes et à tous,\nPour la quatrième fois du mandat, je reviens devant vous faire état de l'avancement de notre politique sur les matières premières cr..."
+    }
+   },
+   "v1": {
+    "korean_summary": "유럽위원회는 핵심광물법(Critical Raw Materials Act)에 따른 두 번째 전략프로젝트 그룹의 진전 현황을 공표하였으며, 이는 EU의 핵심광물 공급망 안정화를 위한 지속적인 정책 추진을 의미합니다. 본 발표는 유럽의 에너지 전환과 디지털 독립성 확보를 위한 핵심광물 확보 전략의 중요성을 강조하고 있습니다. 향후 핵심광물 채굴, 가공, 재활용 분야의 투자 확대와 국제 공급망 다변화가 추진될 것으로 전망됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "공급망 안정화",
+     "유럽연합"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Critical Raw Materials Act",
+      "meaning": "핵심광물법 - EU의 핵심광물 공급망 안정화를 위한 입법 체계"
+     },
+     {
+      "phrase": "strategic projects under the Critical Raw Materials Act",
+      "meaning": "핵심광물법에 따른 전략프로젝트 - 채굴, 가공, 재활용 등 가치사슬 전 단계를 포함하는 프로젝트"
+     },
+     {
+      "phrase": "advancement of our policy on critical raw materials",
+      "meaning": "핵심광물 정책의 진전 현황 - 공급망 확보, 자급률 제고, 지정학적 위험 완화를 위한 정책 이행 상황"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "eb24bee02b",
+    "title": "Opening remarks by Executive Vice-President Séjourné at the press point on the second group of strategic projects under the Critical Raw Materials Act",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2121",
+    "source": "European Commission - Energy",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-10-09",
+    "korean_summary": [
+     "Séjourné 집행부위원장이 핵심광물법(CRMA) 2차 전략 프로젝트 기자회견에서 성과를 설명했음",
+     "작년 선정한 47개 전략 프로젝트 중 25개가 환경평가, 17개가 건축 허가를 완료했음",
+     "2025년 10월 9일 중국이 발표한 희토류 수출 제한은 일부 시행이 유예된 상태라고 언급했음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "핵심광물법",
+     "전략 프로젝트",
+     "희토류",
+     "EU"
+    ],
+    "ai_processed": true,
+    "card_id": "cbed4b659953",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "47 premiers projets stratégiques",
+     "plus de 2 milliards d'euros",
+     "680 millions d'euros"
+    ],
+    "quotes": [
+     "À terme, ce seul projet pourrait représenter environ 15 % de la production mondiale de ces oxydes.",
+     "En Finlande, Keliber est désormais opérationnel : extraction et transformation du lithium sur le sol européen."
+    ],
+    "summary_raw": "European Commission Speech Brussels, 09 Oct 2026 Bonjour à toutes et à tous,\nPour la quatrième fois du mandat, je reviens devant vous faire état de l'avancement de notre politique sur les matières premières cr...",
+    "english_phrases": [
+     {
+      "phrase": "fast-track",
+      "meaning": "인허가 신속 처리 절차"
+     },
+     {
+      "phrase": "RESourceEU",
+      "meaning": "EU의 핵심광물 확보 가속 이니셔티브 명칭"
+     }
+    ],
+    "implication": "EU가 전략 프로젝트의 인허가 신속화와 공공 금융 동원으로 중국의 희토류 수출 제한 위험에 대응하는 체제를 구체화하고 있음",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "4b9151067887",
+   "title": "Factsheet - Critical Raw Materials Strategic Projects",
+   "title_norm": "factsheet critical raw materials strategic projects",
+   "url": "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_2115",
+   "gnews_url": null,
+   "source": {
+    "name": "European Commission - Energy",
+    "domain": "ec.europa.eu",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-10-08",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:59:25+00:00",
+   "score": 9,
+   "body": {
+    "status": "lead_only",
+    "chars": 159,
+    "sha256": "d5d3f582ea3470c669f78c3f6dd67bad4f608a0837597b471ad4d41624cc7de2",
+    "source": "rss_summary",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_2115",
+    "strategies_tried": [
+     "presscorner_api"
+    ]
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "팩트시트 - 핵심광물 전략 프로젝트임",
+     "리드에 European Commission 팩트시트, 브뤼셀, 09 Oct 2026 표기만 있고 세부 내용은 확인 불가임"
+    ],
+    "basis": "lead",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "전략 프로젝트",
+     "팩트시트",
+     "European Commission"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Critical Raw Materials Strategic Projects",
+      "meaning": "핵심광물 전략 프로젝트"
+     },
+     {
+      "phrase": "Factsheet",
+      "meaning": "팩트시트(핵심 사실을 간추린 자료)"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "lead_only",
+    "input_chars": 159,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:59:31+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "a1d63c0fb6",
+     "v1_url": "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_2115",
+     "summary_raw": "European Commission Factsheet Brussels, 09 Oct 2026   Factsheet - Critical Raw Materials Strategic Projects Factsheet - Critical Raw Materials Strategic Projects"
+    }
+   },
+   "v1": {
+    "korean_summary": "유럽연합이 핵심광물 공급망 안정화를 위해 전략적 프로젝트들을 추진 중으로 확인되었습니다. 이러한 프로젝트들은 채광, 가공, 재활용 등 전주기적 가치사슬 구축을 목표로 하고 있습니다. 한국의 자원공학 분야도 선진국의 핵심광물 확보 전략을 참고하여 장기적 자원안보 체계 수립이 필요할 전망입니다.",
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "공급망 안정화",
+     "유럽연합"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Critical Raw Materials Strategic Projects",
+      "meaning": "핵심광물 전략적 프로젝트"
+     },
+     {
+      "phrase": "supply chain resilience",
+      "meaning": "공급망 회복력/안정성"
+     },
+     {
+      "phrase": "strategic autonomy in raw materials",
+      "meaning": "원료의 전략적 자립성"
+     },
+     {
+      "phrase": "circular economy approach",
+      "meaning": "순환경제 접근법"
+     },
+     {
+      "phrase": "domestic extraction and processing capacity",
+      "meaning": "국내 채광 및 가공능력"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "a1d63c0fb6",
+    "title": "Factsheet - Critical Raw Materials Strategic Projects",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_2115",
+    "source": "European Commission - Energy",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-10-08",
+    "korean_summary": [
+     "[본문 미확보] 팩트시트 - 핵심광물 전략 프로젝트임",
+     "리드에 European Commission 팩트시트, 브뤼셀, 09 Oct 2026 표기만 있고 세부 내용은 확인 불가임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "전략 프로젝트",
+     "팩트시트",
+     "European Commission"
+    ],
+    "ai_processed": true,
+    "card_id": "4b9151067887",
+    "basis": "lead",
+    "body_status": "lead_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "European Commission Factsheet Brussels, 09 Oct 2026   Factsheet - Critical Raw Materials Strategic Projects Factsheet - Critical Raw Materials Strategic Projects",
+    "english_phrases": [
+     {
+      "phrase": "Critical Raw Materials Strategic Projects",
+      "meaning": "핵심광물 전략 프로젝트"
+     },
+     {
+      "phrase": "Factsheet",
+      "meaning": "팩트시트(핵심 사실을 간추린 자료)"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "c449a9a9515c",
+   "title": "Critical Minerals Conference Ferroalloys sector balancing geopolitics, tariffs, and the structural path to re-industrialisation - Mining Weekly",
+   "title_norm": "critical minerals conference ferroalloys sector balancing geopolitics tariffs and the structural path to re industrialisation",
+   "url": "https://miningweekly.com/article/critical-minerals-conference-ferroalloys-sector-balancing-geopolitics-tariffs-and-the-structural-path-to-re-industrialisation-2026-10-09",
+   "gnews_url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNdmZLc2J2M2xuYkV5TnlBa0pxbkNQX19YWEVhc0FRMzhjd0NfOFBVUWdvVmhGeWJZc0RFZFVOOWJwR19vYVRENE5WTU9TeHU5OGRtdXB6eFlRR1FjaHVia1hkN2NsT3owVWt0VVA3WlZZYXhkQUlhVjFxYmFsQWY4eFFVLXd1cXY4MDNLbGg3cUN4Qkw4aHRHSWRoRFBoQUlJdXRpM2lDX2ljWGI3M0I3ZVRSRU9aRHRzMS1odWk3OUpNQWQwV0U3T1RnT2g4QkRzYVI2OTVwcW95Y0lhdzBzWjJsRUNoZWNqa3MtZ3FRMy1pdGc0aTRKeWN0RXdSbWZUMW9B?oc=5",
+   "source": {
+    "name": "Mining Weekly - via Google News",
+    "domain": "miningweekly.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-10-09",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:59:32+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 11441,
+    "sha256": "0f62d55588434275dc92dbaadcdb7271b2ed6213cc12d3d3593c2482738c282f",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-10-09",
+    "quotes": [
+     "Africa accounts for around 60% of global chromium supply and more than 70% of manganese supply, with South Africa the largest individual producer in both markets.",
+     "“Yet, the location of mineral extraction and the location of value addition have increasingly diverged,” he adds."
+    ],
+    "final_url": "https://www.miningweekly.com/article/critical-minerals-conference-ferroalloys-sector-balancing-geopolitics-tariffs-and-the-structural-path-to-re-industrialisation-2026-10-09",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Project Blue의 Critical Materials Conference: Ferroalloys 2026이 남아프리카공화국 요하네스버그에서 열렸음",
+     "9월 8–9일 열렸고, 생산자·트레이더·중국 구매자·금융기관 등 150명 넘는 대표단이 참석했음",
+     "Gabon은 2029년 1월부터 고품위 망간 광석 수출을 금지할 계획이며, 후속 일정은 본문상 확인 불가임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "more than 150 delegates",
+     "around 60% of global chromium supply",
+     "more than 70% of manganese supply"
+    ],
+    "quotes": [
+     "Africa accounts for around 60% of global chromium supply and more than 70% of manganese supply, with South Africa the largest individual producer in both markets.",
+     "“Yet, the location of mineral extraction and the location of value addition have increasingly diverged,” he adds."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "페로알로이",
+     "크롬",
+     "망간",
+     "자원민족주의",
+     "남아프리카공화국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "resource nationalism",
+      "meaning": "자원민족주의"
+     },
+     {
+      "phrase": "in-country beneficiation",
+      "meaning": "자국 내 광물 가공·부가가치 창출"
+     },
+     {
+      "phrase": "export restrictions",
+      "meaning": "수출 제한"
+     },
+     {
+      "phrase": "ferroalloy",
+      "meaning": "철합금"
+     }
+    ],
+    "implication": "Gabon의 고품위 망간 광석 수출 금지 계획과 Zimbabwe의 크롬 광석 수출 제한 등 자원 보유국의 자국 내 가공 의무화는 광석 공급과 가공 입지 구도를 바꿀 수 있음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:59:37+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "1b49bc6c80",
+     "v1_url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNdmZLc2J2M2xuYkV5TnlBa0pxbkNQX19YWEVhc0FRMzhjd0NfOFBVUWdvVmhGeWJZc0RFZFVOOWJwR19vYVRENE5WTU9TeHU5OGRtdXB6eFlRR1FjaHVia1hkN2NsT3owVWt0VVA3WlZZYXhkQUlhVjFxYmFsQWY4eFFVLXd1cXY4MDNLbGg3cUN4Qkw4aHRHSWRoRFBoQUlJdXRpM2lDX2ljWGI3M0I3ZVRSRU9aRHRzMS1odWk3OUpNQWQwV0U3T1RnT2g4QkRzYVI2OTVwcW95Y0lhdzBzWjJsRUNoZWNqa3MtZ3FRMy1pdGc0aTRKeWN0RXdSbWZUMW9B?oc=5",
+     "summary_raw": "Critical Minerals Conference Ferroalloys sector balancing geopolitics, tariffs, and the structural path to re-industrialisation&nbsp;&nbsp;Mining Weekly"
+    }
+   },
+   "v1": {
+    "korean_summary": "페로합금 부문이 지정학적 긴장, 관세 정책, 그리고 산업 재구축의 구조적 과제를 동시에 관리해야 하는 상황으로 확인되었습니다. 핵심광물 공급망의 안정화를 위해 지정학적 리스크 완화와 무역 정책 간의 균형이 중요한 것으로 지적되었습니다. 재산업화 경로 확보를 위해서는 공급망 다각화와 국내 정련·가공 역량 강화가 전략적 과제로 부상하고 있습니다.",
+    "category": "policy_market",
+    "tags": [
+     "페로합금",
+     "지정학·정책리스크",
+     "공급망 재구조화"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "balancing geopolitics and tariff policies",
+      "meaning": "지정학적 리스크와 관세 정책의 균형 조절"
+     },
+     {
+      "phrase": "structural path to re-industrialisation",
+      "meaning": "산업 재구축을 위한 구조적 경로"
+     },
+     {
+      "phrase": "ferroalloys sector supply chain resilience",
+      "meaning": "페로합금 부문 공급망의 탄력성 강화"
+     },
+     {
+      "phrase": "supply chain diversification strategy",
+      "meaning": "공급망 다각화 전략"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "1b49bc6c80",
+    "title": "Critical Minerals Conference Ferroalloys sector balancing geopolitics, tariffs, and the structural path to re-industrialisation - Mining Weekly",
+    "url": "https://miningweekly.com/article/critical-minerals-conference-ferroalloys-sector-balancing-geopolitics-tariffs-and-the-structural-path-to-re-industrialisation-2026-10-09",
+    "source": "Mining Weekly - via Google News",
+    "tier_weight": 3,
+    "score": 9,
+    "published": "2026-10-09",
+    "korean_summary": [
+     "Project Blue의 Critical Materials Conference: Ferroalloys 2026이 남아프리카공화국 요하네스버그에서 열렸음",
+     "9월 8–9일 열렸고, 생산자·트레이더·중국 구매자·금융기관 등 150명 넘는 대표단이 참석했음",
+     "Gabon은 2029년 1월부터 고품위 망간 광석 수출을 금지할 계획이며, 후속 일정은 본문상 확인 불가임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "페로알로이",
+     "크롬",
+     "망간",
+     "자원민족주의",
+     "남아프리카공화국"
+    ],
+    "ai_processed": true,
+    "card_id": "c449a9a9515c",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "more than 150 delegates",
+     "around 60% of global chromium supply",
+     "more than 70% of manganese supply"
+    ],
+    "quotes": [
+     "Africa accounts for around 60% of global chromium supply and more than 70% of manganese supply, with South Africa the largest individual producer in both markets.",
+     "“Yet, the location of mineral extraction and the location of value addition have increasingly diverged,” he adds."
+    ],
+    "summary_raw": "Critical Minerals Conference Ferroalloys sector balancing geopolitics, tariffs, and the structural path to re-industrialisation&nbsp;&nbsp;Mining Weekly",
+    "english_phrases": [
+     {
+      "phrase": "resource nationalism",
+      "meaning": "자원민족주의"
+     },
+     {
+      "phrase": "in-country beneficiation",
+      "meaning": "자국 내 광물 가공·부가가치 창출"
+     },
+     {
+      "phrase": "export restrictions",
+      "meaning": "수출 제한"
+     },
+     {
+      "phrase": "ferroalloy",
+      "meaning": "철합금"
+     }
+    ],
+    "implication": "Gabon의 고품위 망간 광석 수출 금지 계획과 Zimbabwe의 크롬 광석 수출 제한 등 자원 보유국의 자국 내 가공 의무화는 광석 공급과 가공 입지 구도를 바꿀 수 있음",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "9192001c38d0",
+   "title": "CleanTech Lithium expands foothold in Argentina",
+   "title_norm": "cleantech lithium expands foothold in argentina",
+   "url": "https://mining.com/cleantech-lithium-expands-foothold-in-argentina",
+   "gnews_url": null,
+   "source": {
+    "name": "Mining.com",
+    "domain": "mining.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-10-08",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:59:37+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 2295,
+    "sha256": "ddb157164493c037cd8214542538dd1ecaa283af7f3a5534be289e616d43a8c5",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-10-08",
+    "quotes": [
+     "The company signed agreements to acquire 100% of the Genoveva and Sal de Litio 1 properties, collectively known as the Antofalla project, about 80 km from Laguna Verde in Catamarca Province.",
+     "The company plans to fund the approximately $1.93-million acquisition through existing cash resources."
+    ],
+    "final_url": "https://www.mining.com/cleantech-lithium-expands-foothold-in-argentina/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "CleanTech Lithium이 아르헨티나 Salar de Antofalla의 리튬 염수 광권 2곳에 대한 취득 옵션을 확보했음",
+     "Genoveva와 Sal de Litio 1의 100% 취득 계약으로, Catamarca주 Laguna Verde에서 약 80 km 거리임",
+     "2027년 Antofalla 탐사를 시작할 예정이며, Laguna Verde를 개발 우선순위로 유지한다고 밝혔음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "$525,000",
+     "$1.4 million",
+     "7.4%"
+    ],
+    "quotes": [
+     "The company signed agreements to acquire 100% of the Genoveva and Sal de Litio 1 properties, collectively known as the Antofalla project, about 80 km from Laguna Verde in Catamarca Province.",
+     "The company plans to fund the approximately $1.93-million acquisition through existing cash resources."
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "리튬",
+     "염수",
+     "아르헨티나",
+     "광권 취득",
+     "탐사"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "foothold",
+      "meaning": "발판, 거점"
+     },
+     {
+      "phrase": "undeveloped salt flat",
+      "meaning": "미개발 염호"
+     },
+     {
+      "phrase": "development synergies",
+      "meaning": "개발 시너지"
+     },
+     {
+      "phrase": "centralised conversion facility",
+      "meaning": "집중식 전환 설비"
+     }
+    ],
+    "implication": "탐사 초기 단계의 소규모 광권 확보임에도 Albemarle 보유 광권과 인접해 있어, 아르헨티나 염호 리튬 개발에서 인프라 공유 가능성이 주목받음."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 2295,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:59:41+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "d3f30da033",
+     "v1_url": "https://www.mining.com/cleantech-lithium-expands-foothold-in-argentina/",
+     "summary_raw": "New lithium brine properties near Laguna Verde offer growth potential as the developer targets exploration in 2027."
+    }
+   },
+   "v1": {
+    "korean_summary": "클린테크 리튬이 라구나 베르데 인근에서 신규 리튬 염수 광구를 확보하여 아르헨티나 내 입지를 확대하고 있습니다. 동사는 2027년 본격적인 탐사를 목표로 사업을 추진 중이며, 이는 핵심광물인 리튬의 공급 다원화 측면에서 의미를 갖습니다. 남미 리튬 삼각지대의 추가 개발은 글로벌 핵심광물 수급 안정화에 기여할 것으로 전망됩니다.",
+    "category": "exploration_tech",
+    "tags": [
+     "리튬",
+     "염수형 광상",
+     "아르헨티나"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "lithium brine properties",
+      "meaning": "리튬 염수 광구/염수형 리튬 광상"
+     },
+     {
+      "phrase": "expand foothold",
+      "meaning": "사업 입지 확대/거점 강화"
+     },
+     {
+      "phrase": "exploration pipeline",
+      "meaning": "탐사 계획/개발 로드맵"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "d3f30da033",
+    "title": "CleanTech Lithium expands foothold in Argentina",
+    "url": "https://mining.com/cleantech-lithium-expands-foothold-in-argentina",
+    "source": "Mining.com",
+    "tier_weight": 3,
+    "score": 9,
+    "published": "2026-10-08",
+    "korean_summary": [
+     "CleanTech Lithium이 아르헨티나 Salar de Antofalla의 리튬 염수 광권 2곳에 대한 취득 옵션을 확보했음",
+     "Genoveva와 Sal de Litio 1의 100% 취득 계약으로, Catamarca주 Laguna Verde에서 약 80 km 거리임",
+     "2027년 Antofalla 탐사를 시작할 예정이며, Laguna Verde를 개발 우선순위로 유지한다고 밝혔음"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "리튬",
+     "염수",
+     "아르헨티나",
+     "광권 취득",
+     "탐사"
+    ],
+    "ai_processed": true,
+    "card_id": "9192001c38d0",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "$525,000",
+     "$1.4 million",
+     "7.4%"
+    ],
+    "quotes": [
+     "The company signed agreements to acquire 100% of the Genoveva and Sal de Litio 1 properties, collectively known as the Antofalla project, about 80 km from Laguna Verde in Catamarca Province.",
+     "The company plans to fund the approximately $1.93-million acquisition through existing cash resources."
+    ],
+    "summary_raw": "New lithium brine properties near Laguna Verde offer growth potential as the developer targets exploration in 2027.",
+    "english_phrases": [
+     {
+      "phrase": "foothold",
+      "meaning": "발판, 거점"
+     },
+     {
+      "phrase": "undeveloped salt flat",
+      "meaning": "미개발 염호"
+     },
+     {
+      "phrase": "development synergies",
+      "meaning": "개발 시너지"
+     },
+     {
+      "phrase": "centralised conversion facility",
+      "meaning": "집중식 전환 설비"
+     }
+    ],
+    "implication": "탐사 초기 단계의 소규모 광권 확보임에도 Albemarle 보유 광권과 인접해 있어, 아르헨티나 염호 리튬 개발에서 인프라 공유 가능성이 주목받음.",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "135b195fed9f",
+   "title": "Supply chain resilience needed as tungsten markets evolve: Cove Kaz Capital Group - Fastmarkets",
+   "title_norm": "supply chain resilience needed as tungsten markets evolve cove kaz capital group",
+   "url": "https://fastmarkets.com/insights/supply-chain-resilience-needed-as-tungsten-markets-evolve-cove-kaz-capital-group",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZE5TNTBpRGgxRlNOSDVBNF9HaWV4QUVvTHpvUDd3ZGtDTjdycTQxUENDTXhNT05sOHNmUjgwYzI0a3RRbE5KSHE2R2MwWlo5Z29fc0RqYUItV09LdmgtMG9KN2ZYQy1oemJOZ0NBa0kxR0d2aVFBaFlWUEJoQ2tOV2luTG9ISHVxb2dUV18tSlUzY0Y0VnJDaTBhUENvTzQ1dFVZRTlPWlM1aGhHLW5vNGI0ZUZyRFFmTnc?oc=5",
+   "source": {
+    "name": "Fastmarkets - via Google News",
+    "domain": "fastmarkets.com",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-10-09",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:59:42+00:00",
+   "score": 12,
+   "body": {
+    "status": "lead_only",
+    "chars": 114,
+    "sha256": "5fd4f965cb092b95ebb7852f62a292f0ed908aa5212ca085c1dd7eaedd5e940b",
+    "source": "og_description",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [
+     "Explore the latest trends in tungsten prices and how supply chains are diversifying to reduce dependence on China."
+    ],
+    "final_url": "https://www.fastmarkets.com/insights/supply-chain-resilience-needed-as-tungsten-markets-evolve-cove-kaz-capital-group/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "텅스텐 시장이 변화하는 가운데 공급망 회복탄력성이 필요하다고 Cove Kaz Capital Group이 밝혔음",
+     "리드는 텅스텐 가격의 최신 동향과 중국 의존도를 낮추기 위한 공급망 다변화를 다룬다고 소개했음"
+    ],
+    "basis": "lead",
+    "key_figures": [],
+    "quotes": [],
+    "category": "supply_chain",
+    "tags": [
+     "텅스텐",
+     "공급망 회복탄력성",
+     "공급망 다변화",
+     "중국 의존도",
+     "텅스텐 가격"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Supply chain resilience",
+      "meaning": "공급망 회복탄력성"
+     },
+     {
+      "phrase": "reduce dependence on China",
+      "meaning": "중국 의존도를 낮추다"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "lead_only",
+    "input_chars": 114,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:59:44+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "ba120f6a1c",
+     "v1_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZE5TNTBpRGgxRlNOSDVBNF9HaWV4QUVvTHpvUDd3ZGtDTjdycTQxUENDTXhNT05sOHNmUjgwYzI0a3RRbE5KSHE2R2MwWlo5Z29fc0RqYUItV09LdmgtMG9KN2ZYQy1oemJOZ0NBa0kxR0d2aVFBaFlWUEJoQ2tOV2luTG9ISHVxb2dUV18tSlUzY0Y0VnJDaTBhUENvTzQ1dFVZRTlPWlM1aGhHLW5vNGI0ZUZyRFFmTnc?oc=5",
+     "summary_raw": "Supply chain resilience needed as tungsten markets evolve: Cove Kaz Capital Group&nbsp;&nbsp;Fastmarkets"
+    }
+   },
+   "v1": {
+    "korean_summary": "텅스텐 시장의 구조적 변화에 따라 공급망 회복력 강화의 필요성이 대두되고 있습니다. Cove Kaz Capital Group은 텅스텐이 전자·방위산업 등 첨단 산업의 핵심광물로서 그 전략적 중요성이 증대하고 있음을 강조하고 있습니다. 글로벌 공급망 재편 시대에 수급 안정성과 지속 가능한 채굴·정제 체계 구축이 향후 산업 경쟁력 확보의 관건으로 지적되었습니다.",
+    "category": "supply_chain",
+    "tags": [
+     "텅스텐",
+     "공급망 회복력",
+     "광물 안보"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "supply chain resilience",
+      "meaning": "공급망 회복력(disruption에 대한 대응 능력)"
+     },
+     {
+      "phrase": "tungsten market evolution",
+      "meaning": "텅스텐 시장의 구조적 변화"
+     },
+     {
+      "phrase": "critical mineral for advanced manufacturing",
+      "meaning": "첨단제조산업용 핵심광물"
+     },
+     {
+      "phrase": "supply chain diversification",
+      "meaning": "공급망 다변화"
+     },
+     {
+      "phrase": "resource security",
+      "meaning": "자원 안보"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "ba120f6a1c",
+    "title": "Supply chain resilience needed as tungsten markets evolve: Cove Kaz Capital Group - Fastmarkets",
+    "url": "https://fastmarkets.com/insights/supply-chain-resilience-needed-as-tungsten-markets-evolve-cove-kaz-capital-group",
+    "source": "Fastmarkets - via Google News",
+    "tier_weight": 5,
+    "score": 12,
+    "published": "2026-10-09",
+    "korean_summary": [
+     "[본문 미확보] 텅스텐 시장이 변화하는 가운데 공급망 회복탄력성이 필요하다고 Cove Kaz Capital Group이 밝혔음",
+     "리드는 텅스텐 가격의 최신 동향과 중국 의존도를 낮추기 위한 공급망 다변화를 다룬다고 소개했음"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "텅스텐",
+     "공급망 회복탄력성",
+     "공급망 다변화",
+     "중국 의존도",
+     "텅스텐 가격"
+    ],
+    "ai_processed": true,
+    "card_id": "135b195fed9f",
+    "basis": "lead",
+    "body_status": "lead_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Supply chain resilience needed as tungsten markets evolve: Cove Kaz Capital Group&nbsp;&nbsp;Fastmarkets",
+    "english_phrases": [
+     {
+      "phrase": "Supply chain resilience",
+      "meaning": "공급망 회복탄력성"
+     },
+     {
+      "phrase": "reduce dependence on China",
+      "meaning": "중국 의존도를 낮추다"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "dc0fce0f9a53",
+   "title": "EU CRMA Strategic Projects 2026 Supply Chain Analysis - Rare Earth Exchanges",
+   "title_norm": "eu crma strategic projects 2026 supply chain analysis",
+   "url": "https://rareearthexchanges.com/news/eu-crma-strategic-projects-supply-chain",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbklmaHVvQW9TSUJJMXphdXYyQjZkWmJUd0Y2UVFjNFY3THF1V0NaT1ZpbmhEZlczaUFDRTlwcFBXYU5KczBlckJvZ3BoLU9tYWEzZU5uNENDTS1WU2NybldhTnJlU1lCZE9DajAtQ3Z2M1p1dFp5Umd0ZWExVjJXbndB?oc=5",
+   "source": {
+    "name": "Google News - IRA CRMA Policy",
+    "domain": "rareearthexchanges.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-10-10",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:59:44+00:00",
+   "score": 12,
+   "body": {
+    "status": "partial",
+    "chars": 651,
+    "sha256": "e5c17fcfa08b29cd98d2e257ec01709ccbf9b255f84fe9f4e7659397a5e6cbbb",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-10-10",
+    "quotes": [
+     "- 46 projects across 16 EU countries require €21.1 billion in investment, targeting rare earths, lithium, copper, and defense-critical materials",
+     "- Nearly 83% of selected projects focus on recycling, processing, or integrated operations rather than primary mining"
+    ],
+    "final_url": "https://rareearthexchanges.com/news/eu-crma-strategic-projects-supply-chain/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Rare Earth Exchanges가 EU CRMA 전략 프로젝트의 2026년 공급망 분석을 내놓았음",
+     "16개 EU 국가의 46개 프로젝트에 €21.1 billion 투자가 필요하다고 밝혔음",
+     "지정이 자금 조달이나 생산을 보장하지 않으며 과거 EU 프로젝트도 지연됐다고 짚었음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "46 projects",
+     "€21.1 billion",
+     "Nearly 83%"
+    ],
+    "quotes": [
+     "- 46 projects across 16 EU countries require €21.1 billion in investment, targeting rare earths, lithium, copper, and defense-critical materials",
+     "- Nearly 83% of selected projects focus on recycling, processing, or integrated operations rather than primary mining"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "CRMA",
+     "전략 프로젝트",
+     "희토류",
+     "재활용",
+     "EU"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Strategic designation",
+      "meaning": "전략 프로젝트 지정"
+     },
+     {
+      "phrase": "metallurgical readiness",
+      "meaning": "야금(제련) 공정 준비도"
+     },
+     {
+      "phrase": "secured feedstock",
+      "meaning": "확보된 원료 공급"
+     },
+     {
+      "phrase": "unit economics",
+      "meaning": "단위당 경제성"
+     }
+    ],
+    "implication": "선정 프로젝트의 83%에 가까운 비중이 재활용·가공 중심이고 희토류는 4건, 독립 자석 제조는 없어 희토류 자석 공급망 공백이 남을 수 있음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "partial",
+    "input_chars": 651,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T06:00:01+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 4줄)"
+    ],
+    "retry_tails": [
+     "공급\"},\n    {\"phrase\": \"unit economics\", \"meaning\": \"단위당 경제성\"}\n  ],\n  \"implication\": \"EU 전략 프로젝트가 재활용·가공에 치우치고 희토류는 4건, 독립 자석 제조는 없어 희토류 자석 공급망의 역내 공백이 남을 수 있음\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "fab278757b",
+     "v1_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbklmaHVvQW9TSUJJMXphdXYyQjZkWmJUd0Y2UVFjNFY3THF1V0NaT1ZpbmhEZlczaUFDRTlwcFBXYU5KczBlckJvZ3BoLU9tYWEzZU5uNENDTS1WU2NybldhTnJlU1lCZE9DajAtQ3Z2M1p1dFp5Umd0ZWExVjJXbndB?oc=5",
+     "summary_raw": "EU CRMA Strategic Projects 2026 Supply Chain Analysis&nbsp;&nbsp;Rare Earth Exchanges"
+    }
+   },
+   "v1": {
+    "korean_summary": "EU의 2026년 핵심광물 공급망 분석 전략 프로젝트가 희토류 교환 체계를 중심으로 추진되고 있는 것으로 확인되었습니다. 이는 중국 의존도를 낮추고 EU 내 순환경제를 구축하기 위한 핵심광물 확보 전략의 일환으로 평가됩니다. 희토류를 포함한 핵심광물의 안정적 공급망 다각화가 향후 글로벌 자원경제의 중요한 과제로 대두될 전망입니다.",
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "핵심광물 공급망",
+     "EU"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Critical Raw Materials Act (CRMA) Strategic Projects",
+      "meaning": "핵심광물법 전략 프로젝트"
+     },
+     {
+      "phrase": "supply chain analysis and diversification",
+      "meaning": "공급망 분석 및 다각화"
+     },
+     {
+      "phrase": "rare earth element (REE) circular exchange system",
+      "meaning": "희토류 순환 교환 체계"
+     },
+     {
+      "phrase": "strategic supply chain resilience",
+      "meaning": "전략적 공급망 회복력"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "fab278757b",
+    "title": "EU CRMA Strategic Projects 2026 Supply Chain Analysis - Rare Earth Exchanges",
+    "url": "https://rareearthexchanges.com/news/eu-crma-strategic-projects-supply-chain",
+    "source": "Google News - IRA CRMA Policy",
+    "tier_weight": 1,
+    "score": 12,
+    "published": "2026-10-10",
+    "korean_summary": [
+     "Rare Earth Exchanges가 EU CRMA 전략 프로젝트의 2026년 공급망 분석을 내놓았음",
+     "16개 EU 국가의 46개 프로젝트에 €21.1 billion 투자가 필요하다고 밝혔음",
+     "지정이 자금 조달이나 생산을 보장하지 않으며 과거 EU 프로젝트도 지연됐다고 짚었음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "CRMA",
+     "전략 프로젝트",
+     "희토류",
+     "재활용",
+     "EU"
+    ],
+    "ai_processed": true,
+    "card_id": "dc0fce0f9a53",
+    "basis": "body",
+    "body_status": "partial",
+    "key_figures": [
+     "46 projects",
+     "€21.1 billion",
+     "Nearly 83%"
+    ],
+    "quotes": [
+     "- 46 projects across 16 EU countries require €21.1 billion in investment, targeting rare earths, lithium, copper, and defense-critical materials",
+     "- Nearly 83% of selected projects focus on recycling, processing, or integrated operations rather than primary mining"
+    ],
+    "summary_raw": "EU CRMA Strategic Projects 2026 Supply Chain Analysis&nbsp;&nbsp;Rare Earth Exchanges",
+    "english_phrases": [
+     {
+      "phrase": "Strategic designation",
+      "meaning": "전략 프로젝트 지정"
+     },
+     {
+      "phrase": "metallurgical readiness",
+      "meaning": "야금(제련) 공정 준비도"
+     },
+     {
+      "phrase": "secured feedstock",
+      "meaning": "확보된 원료 공급"
+     },
+     {
+      "phrase": "unit economics",
+      "meaning": "단위당 경제성"
+     }
+    ],
+    "implication": "선정 프로젝트의 83%에 가까운 비중이 재활용·가공 중심이고 희토류는 4건, 독립 자석 제조는 없어 희토류 자석 공급망 공백이 남을 수 있음",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "3d0e2788a9e7",
+   "title": "South32 signs a binding conditional agreement to sell its aluminium value chain assets to Alcoa Corporation - Project Blue",
+   "title_norm": "south32 signs a binding conditional agreement to sell its aluminium value chain assets to alcoa corporation",
+   "url": "https://projectblue.com/blue?article=1590&type=blueview",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1pSGJMUkZQbmZaU1RYcXVxWE5fY2lWb3BiZ2wwem9IVk1QaUt5SW5DRVo2QjE2S1NIUkl4M0tPZ1NpQnhWcmw2bmpwLXVqRE5NVEtIWVdxQm1fdzhzSVpHcG9MWjhfUQ?oc=5",
+   "source": {
+    "name": "Project Blue - via Google News",
+    "domain": "projectblue.com",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-10-07",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T06:00:02+00:00",
+   "score": 10,
+   "body": {
+    "status": "lead_only",
+    "chars": 166,
+    "sha256": "be456dfee4e24aa9dc72c8021e1ee632372ab7772fd1232f28254de107e72db7",
+    "source": "og_description",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": "2026-03-11",
+    "quotes": [
+     "The deal, once completed, will have an implied enterprise value of up to US$5.6Bn.",
+     "Alcoa will also assume related rehabilitation provisions of approximately US$1.2Bn."
+    ],
+    "final_url": "https://projectblue.com/blue?article=1590&type=blueview",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "South32가 알루미늄 밸류체인 자산을 Alcoa Corporation에 매각하는 구속력 있는 조건부 계약을 체결했음",
+     "완료 시 내재 기업가치는 최대 US$5.6Bn이며, Alcoa가 약 US$1.2Bn의 복구 충당금도 인수할 예정임"
+    ],
+    "basis": "lead",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "알루미늄",
+     "South32",
+     "Alcoa",
+     "자산 매각",
+     "기업가치"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "binding conditional agreement",
+      "meaning": "구속력 있는 조건부 계약"
+     },
+     {
+      "phrase": "implied enterprise value",
+      "meaning": "내재 기업가치"
+     },
+     {
+      "phrase": "rehabilitation provisions",
+      "meaning": "복구 충당금"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "lead_only",
+    "input_chars": 166,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T06:00:10+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "bdb07310f0",
+     "v1_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1pSGJMUkZQbmZaU1RYcXVxWE5fY2lWb3BiZ2wwem9IVk1QaUt5SW5DRVo2QjE2S1NIUkl4M0tPZ1NpQnhWcmw2bmpwLXVqRE5NVEtIWVdxQm1fdzhzSVpHcG9MWjhfUQ?oc=5",
+     "summary_raw": "South32 signs a binding conditional agreement to sell its aluminium value chain assets to Alcoa Corporation&nbsp;&nbsp;Project Blue"
+    }
+   },
+   "v1": {
+    "korean_summary": "South32가 알루미늄 가치사슬 자산을 Alcoa Corporation에 매각하기로 조건부 구속력 있는 계약을 체결했으며, 이는 알루미늄 산업의 주요 통합 움직임으로 평가되고 있음. 본 거래는 알루미늄 생산에서 핵심광물 공급망 재편의 신호로, 선진국의 자원 자립도 강화 전략의 일환으로 해석됨. 알루미늄은 배터리, 전기차, 재생에너지 등 에너지 전환 산업에서 필수 소재로서 전략적 중요성이 지속적으로 증대할 전망임.",
+    "category": "supply_chain",
+    "tags": [
+     "알루미늄",
+     "공급망 통합",
+     "자원 자립화 전략"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "binding conditional agreement",
+      "meaning": "조건부 구속력 있는 계약 (법적 구속력이 있으나 특정 조건 충족 시에만 발효)"
+     },
+     {
+      "phrase": "aluminium value chain",
+      "meaning": "알루미늄 가치사슬 (채광에서 최종 제품까지의 통합 생산 과정)"
+     },
+     {
+      "phrase": "asset divestiture in critical mineral sectors",
+      "meaning": "핵심광물 부문의 자산 매각 (글로벌 공급망 재구조화의 전략적 결정)"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "bdb07310f0",
+    "title": "South32 signs a binding conditional agreement to sell its aluminium value chain assets to Alcoa Corporation - Project Blue",
+    "url": "https://projectblue.com/blue?article=1590&type=blueview",
+    "source": "Project Blue - via Google News",
+    "tier_weight": 5,
+    "score": 10,
+    "published": "2026-10-07",
+    "korean_summary": [
+     "[본문 미확보] South32가 알루미늄 밸류체인 자산을 Alcoa Corporation에 매각하는 구속력 있는 조건부 계약을 체결했음",
+     "완료 시 내재 기업가치는 최대 US$5.6Bn이며, Alcoa가 약 US$1.2Bn의 복구 충당금도 인수할 예정임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "알루미늄",
+     "South32",
+     "Alcoa",
+     "자산 매각",
+     "기업가치"
+    ],
+    "ai_processed": true,
+    "card_id": "3d0e2788a9e7",
+    "basis": "lead",
+    "body_status": "lead_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "South32 signs a binding conditional agreement to sell its aluminium value chain assets to Alcoa Corporation&nbsp;&nbsp;Project Blue",
+    "english_phrases": [
+     {
+      "phrase": "binding conditional agreement",
+      "meaning": "구속력 있는 조건부 계약"
+     },
+     {
+      "phrase": "implied enterprise value",
+      "meaning": "내재 기업가치"
+     },
+     {
+      "phrase": "rehabilitation provisions",
+      "meaning": "복구 충당금"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "774ef3d7062e",
+   "title": "Titan Mining, US Army advance strategic graphite processing plant in Alabama",
+   "title_norm": "titan mining us army advance strategic graphite processing plant in alabama",
+   "url": "https://mining.com/titan-mining-us-army-advance-strategic-graphite-processing-plant-in-alabama",
+   "gnews_url": null,
+   "source": {
+    "name": "Mining.com",
+    "domain": "mining.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-10-07",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T06:00:11+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 3878,
+    "sha256": "3e2eeb3ac90c0c5cd93f9341619bab59b276e585e46c9b0fb451bbf186f02123",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-10-07",
+    "quotes": [
+     "The right is limited to a maximum of 10% of annual facility production and does not apply to product committed under qualifying offtake, supply or project-financing arrangements.",
+     "By market close on Wednesday, Titan’s stock was down 6% on the NYSE American."
+    ],
+    "final_url": "https://www.mining.com/titan-mining-us-army-advance-strategic-graphite-processing-plant-in-alabama/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Titan Mining 자회사 Empire State Mines가 미 육군과 핵심광물 가공시설 개발을 위한 텀시트를 체결했음",
+     "앨라배마주 Anniston Army Depot 약 97 acres를 최대 100년간 임차해 흑연 가공시설을 짓는 구조임",
+     "육군은 미약정 제품의 최대 10%에 대한 우선제안권을 갖고, 후속 일정은 확인 불가임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "97 acres",
+     "100 years",
+     "10%"
+    ],
+    "quotes": [
+     "The right is limited to a maximum of 10% of annual facility production and does not apply to product committed under qualifying offtake, supply or project-financing arrangements.",
+     "By market close on Wednesday, Titan’s stock was down 6% on the NYSE American."
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "흑연",
+     "가공시설",
+     "미 육군",
+     "앨라배마",
+     "국방"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "term sheet",
+      "meaning": "주요 상업 조건을 정리한 합의서(텀시트)"
+     },
+     {
+      "phrase": "right of first offer",
+      "meaning": "우선제안권"
+     },
+     {
+      "phrase": "Purified Micronized Graphite (PMG)",
+      "meaning": "정제 미분 흑연"
+     },
+     {
+      "phrase": "Coated Spherical Purified Graphite (CSPG)",
+      "meaning": "코팅 구형 정제 흑연"
+     }
+    ],
+    "implication": "미국이 군 부지를 활용해 흑연 정제·코팅 등 하류 가공 능력을 국내에 구축하려는 움직임이며, 방산·배터리용 공급망 내재화로 이어질 수 있음."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 3878,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T06:00:16+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "0fa561986b",
+     "v1_url": "https://www.mining.com/titan-mining-us-army-advance-strategic-graphite-processing-plant-in-alabama/",
+     "summary_raw": "Titan Mining's subsidiary, Empire State Mines, has agreed to terms on a framework to lease roughly 97 acres at Anniston Army Depot."
+    }
+   },
+   "v1": {
+    "korean_summary": "타이탄 마이닝의 자회사 엠파이어 스테이트 마인즈가 앨라배마 주 애니스턴 육군탄약고에서 약 97에이커 규모의 전략광물 흑연 처리시설 부지 임차 협약을 체결하였습니다. 본 사업은 미국 육군과의 협력을 통해 국방 공급망에 필수적인 핵심광물의 국내 가공 기반을 구축하는 것을 목표로 하고 있습니다. 이는 미국의 핵심광물 자급률 제고 및 공급망 안정화를 위한 전략적 투자로 평가됩니다.",
+    "category": "supply_chain",
+    "tags": [
+     "흑연",
+     "공급망 안정화",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "advance strategic graphite processing plant",
+      "meaning": "전략광물 흑연 처리시설을 추진·구축하다"
+     },
+     {
+      "phrase": "framework to lease",
+      "meaning": "임차 협약 기본틀"
+     },
+     {
+      "phrase": "supply chain security for defense applications",
+      "meaning": "국방 용도 공급망 보안/안정화"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "0fa561986b",
+    "title": "Titan Mining, US Army advance strategic graphite processing plant in Alabama",
+    "url": "https://mining.com/titan-mining-us-army-advance-strategic-graphite-processing-plant-in-alabama",
+    "source": "Mining.com",
+    "tier_weight": 3,
+    "score": 9,
+    "published": "2026-10-07",
+    "korean_summary": [
+     "Titan Mining 자회사 Empire State Mines가 미 육군과 핵심광물 가공시설 개발을 위한 텀시트를 체결했음",
+     "앨라배마주 Anniston Army Depot 약 97 acres를 최대 100년간 임차해 흑연 가공시설을 짓는 구조임",
+     "육군은 미약정 제품의 최대 10%에 대한 우선제안권을 갖고, 후속 일정은 확인 불가임"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "흑연",
+     "가공시설",
+     "미 육군",
+     "앨라배마",
+     "국방"
+    ],
+    "ai_processed": true,
+    "card_id": "774ef3d7062e",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "97 acres",
+     "100 years",
+     "10%"
+    ],
+    "quotes": [
+     "The right is limited to a maximum of 10% of annual facility production and does not apply to product committed under qualifying offtake, supply or project-financing arrangements.",
+     "By market close on Wednesday, Titan’s stock was down 6% on the NYSE American."
+    ],
+    "summary_raw": "Titan Mining's subsidiary, Empire State Mines, has agreed to terms on a framework to lease roughly 97 acres at Anniston Army Depot.",
+    "english_phrases": [
+     {
+      "phrase": "term sheet",
+      "meaning": "주요 상업 조건을 정리한 합의서(텀시트)"
+     },
+     {
+      "phrase": "right of first offer",
+      "meaning": "우선제안권"
+     },
+     {
+      "phrase": "Purified Micronized Graphite (PMG)",
+      "meaning": "정제 미분 흑연"
+     },
+     {
+      "phrase": "Coated Spherical Purified Graphite (CSPG)",
+      "meaning": "코팅 구형 정제 흑연"
+     }
+    ],
+    "implication": "미국이 군 부지를 활용해 흑연 정제·코팅 등 하류 가공 능력을 국내에 구축하려는 움직임이며, 방산·배터리용 공급망 내재화로 이어질 수 있음.",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "69c01e2a4443",
+   "title": "NESR, Aramco agree to develop lithium project in Saudi Arabia - Reuters",
+   "title_norm": "nesr aramco agree to develop lithium project in saudi arabia",
+   "url": "https://reuters.com/business/energy/nesr-aramco-agree-develop-lithium-project-saudi-arabia-2026-10-08",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVlRBd2JGeUNlbURBMUFHbGcxMEs2SGF6UzVnMU1pVERTRkpzX0VDbTVZQll5WFM0TFA1bThUTjh6Y3A1UExhVW54TVF6Vm5RRjdTTW1Rdkg4ZGxPTF8xRWZDWFlDZHBjckpscDRYeW1EYzRiZzNOd1NEcUtwQ2pPMXFsVVhSTW56c0lERjZ3ZzB1NE9MRHMtdm1pYVllLUtwV0VDX0NXbmFKUQ?oc=5",
+   "source": {
+    "name": "Reuters - via Google News",
+    "domain": "reuters.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-10-08",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T06:00:16+00:00",
+   "score": 9,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "skipped",
+    "http_status": null,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": null,
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "NESR와 아람코(Aramco)가 사우디아라비아 리튬 프로젝트 개발에 합의했음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "NESR",
+     "아람코",
+     "사우디아라비아",
+     "프로젝트 개발"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "agree to develop",
+      "meaning": "개발하기로 합의하다"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T06:00:18+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "a5232182c4",
+     "v1_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVlRBd2JGeUNlbURBMUFHbGcxMEs2SGF6UzVnMU1pVERTRkpzX0VDbTVZQll5WFM0TFA1bThUTjh6Y3A1UExhVW54TVF6Vm5RRjdTTW1Rdkg4ZGxPTF8xRWZDWFlDZHBjckpscDRYeW1EYzRiZzNOd1NEcUtwQ2pPMXFsVVhSTW56c0lERjZ3ZzB1NE9MRHMtdm1pYVllLUtwV0VDX0NXbmFKUQ?oc=5",
+     "summary_raw": "NESR, Aramco agree to develop lithium project in Saudi Arabia&nbsp;&nbsp;Reuters"
+    }
+   },
+   "v1": {
+    "korean_summary": "사우디아라비아의 국영 석유회사 아람코와 현지 건설·에너지 기업 NESR이 리튬 개발 프로젝트 추진에 합의함으로써 중동 지역의 핵심광물 자급 노력이 본격화할 전망입니다. 이는 전 지구적 리튬 수급 안정화와 에너지 전환 산업의 공급망 다원화에 중요한 의미를 지닐 것으로 확인되었습니다. 사우디아라비아의 광물 자원 개발 참여는 기존 석유 중심 경제 구조의 다각화 전략의 일환으로 추진될 것으로 예상됩니다.",
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "핵심광물개발",
+     "사우디아라비아"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals development partnership",
+      "meaning": "핵심광물 개발 파트너십"
+     },
+     {
+      "phrase": "lithium supply chain diversification",
+      "meaning": "리튬 공급망 다원화"
+     },
+     {
+      "phrase": "strategic resource security in the Middle East",
+      "meaning": "중동 지역의 전략광물 자원 안보"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "a5232182c4",
+    "title": "NESR, Aramco agree to develop lithium project in Saudi Arabia - Reuters",
+    "url": "https://reuters.com/business/energy/nesr-aramco-agree-develop-lithium-project-saudi-arabia-2026-10-08",
+    "source": "Reuters - via Google News",
+    "tier_weight": 3,
+    "score": 9,
+    "published": "2026-10-08",
+    "korean_summary": [
+     "[제목 기반] NESR와 아람코(Aramco)가 사우디아라비아 리튬 프로젝트 개발에 합의했음"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "NESR",
+     "아람코",
+     "사우디아라비아",
+     "프로젝트 개발"
+    ],
+    "ai_processed": true,
+    "card_id": "69c01e2a4443",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "NESR, Aramco agree to develop lithium project in Saudi Arabia&nbsp;&nbsp;Reuters",
+    "english_phrases": [
+     {
+      "phrase": "agree to develop",
+      "meaning": "개발하기로 합의하다"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "ea03c5e53b2a",
+   "title": "Standard Lithium Invite - Fastmarkets",
+   "title_norm": "standard lithium invite",
+   "url": "https://fastmarkets.com/events/fastmarkets-texas-lithium-market-briefing/standard-lithium-invite",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWkEwYlhGSzJPWUZ0a2RaY1FVQUJPaEJudFZBUUk2czZQYm94WHFSaUZ0bVE1NG50dlMwazlSTnNKdDVYNmhtYWJsODdZTjRBc2JwSXp1NzVCaTFqV3NCQ3VJMjhxNno0Z3IzRFAyOURzamlBTW11ckVhQUZrNzY0dnRJN0FObEVWa28wX0pnR1R5VHFKTTI5OVRybmJFMnBxSzBz?oc=5",
+   "source": {
+    "name": "Fastmarkets - via Google News",
+    "domain": "fastmarkets.com",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-10-08",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T06:00:18+00:00",
+   "score": 9,
+   "body": {
+    "status": "lead_only",
+    "chars": 161,
+    "sha256": "cb833482d34195569269627045c7893a6bd7a31c703125a1d3d0d7d12d500fee",
+    "source": "og_description",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [
+     "Join Standard Lithium at the Fastmarkets Texas Lithium Market Briefing in Austin on November 17, 2026.",
+     "Hear from industry leaders shaping US lithium development."
+    ],
+    "final_url": "https://www.fastmarkets.com/events/fastmarkets-texas-lithium-market-briefing/standard-lithium-invite/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Standard Lithium, Fastmarkets 초청을 알렸음",
+     "2026년 11월 17일 오스틴에서 열리는 Fastmarkets Texas Lithium Market Briefing에 참석을 초청했음"
+    ],
+    "basis": "lead",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "Standard Lithium",
+     "Fastmarkets",
+     "텍사스",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Texas Lithium Market Briefing",
+      "meaning": "텍사스 리튬 시장 브리핑(행사명)"
+     },
+     {
+      "phrase": "industry leaders shaping US lithium development",
+      "meaning": "미국 리튬 개발을 이끄는 업계 리더들"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "lead_only",
+    "input_chars": 161,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T06:00:21+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "988365dc85",
+     "v1_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWkEwYlhGSzJPWUZ0a2RaY1FVQUJPaEJudFZBUUk2czZQYm94WHFSaUZ0bVE1NG50dlMwazlSTnNKdDVYNmhtYWJsODdZTjRBc2JwSXp1NzVCaTFqV3NCQ3VJMjhxNno0Z3IzRFAyOURzamlBTW11ckVhQUZrNzY0dnRJN0FObEVWa28wX0pnR1R5VHFKTTI5OVRybmJFMnBxSzBz?oc=5",
+     "summary_raw": "Standard Lithium Invite&nbsp;&nbsp;Fastmarkets"
+    }
+   },
+   "v1": {
+    "korean_summary": "스탠다드 리튬이 리튬 사업 확대 관련 주요 발표를 진행한 것으로 확인되었습니다. 글로벌 핵심광물 시장에서 리튬 공급 확대의 중요성이 강조되고 있습니다. 향후 리튬 수급 안정화 및 생산 기술 고도화가 산업의 주요 과제로 전망됩니다.",
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "공급 안정화",
+     "북미"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals supply chain",
+      "meaning": "핵심광물 공급망"
+     },
+     {
+      "phrase": "lithium production capacity expansion",
+      "meaning": "리튬 생산 용량 확대"
+     },
+     {
+      "phrase": "direct lithium extraction (DLE) technology",
+      "meaning": "직접 리튬 추출 기술"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "988365dc85",
+    "title": "Standard Lithium Invite - Fastmarkets",
+    "url": "https://fastmarkets.com/events/fastmarkets-texas-lithium-market-briefing/standard-lithium-invite",
+    "source": "Fastmarkets - via Google News",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-10-08",
+    "korean_summary": [
+     "[본문 미확보] Standard Lithium, Fastmarkets 초청을 알렸음",
+     "2026년 11월 17일 오스틴에서 열리는 Fastmarkets Texas Lithium Market Briefing에 참석을 초청했음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "Standard Lithium",
+     "Fastmarkets",
+     "텍사스",
+     "미국"
+    ],
+    "ai_processed": true,
+    "card_id": "ea03c5e53b2a",
+    "basis": "lead",
+    "body_status": "lead_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Standard Lithium Invite&nbsp;&nbsp;Fastmarkets",
+    "english_phrases": [
+     {
+      "phrase": "Texas Lithium Market Briefing",
+      "meaning": "텍사스 리튬 시장 브리핑(행사명)"
+     },
+     {
+      "phrase": "industry leaders shaping US lithium development",
+      "meaning": "미국 리튬 개발을 이끄는 업계 리더들"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  }
+ ],
+ "excluded": [],
+ "v1_file": "week-2026-10-12.json",
+ "v1_metrics": {
+  "articles": 12,
+  "original_link": 4,
+  "body_based": 0,
+  "failed": 0
+ },
+ "trial": false
+}

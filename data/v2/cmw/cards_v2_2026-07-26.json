@@ -1,0 +1,1938 @@
+{
+ "schema_version": "card.v1",
+ "service": "cmw",
+ "week_of": "2026-07-26",
+ "generated_at": "2026-10-19T05:40:50+00:00",
+ "mincore_version": "0.3.6",
+ "model": "claude-sonnet-5-5",
+ "prompt_version": "v2.2",
+ "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+ "stats": {
+  "v1_articles": 12,
+  "cards": 12,
+  "excluded": 0,
+  "body_got": 4,
+  "body_rate": 0.333,
+  "original_link": 12,
+  "reader_proxy_used": 0,
+  "line_len": {
+   "lines": 22,
+   "median": 62.5,
+   "max": 87,
+   "over60": 11,
+   "over100": 0
+  },
+  "oda_filled": 3,
+  "usage": {
+   "claude-sonnet-5-5": {
+    "calls": 14,
+    "in": 30573,
+    "out": 6344
+   }
+  },
+  "cost_usd": 0.1869,
+  "body_status": {
+   "title_only": 6,
+   "lead_only": 2,
+   "full": 4
+  },
+  "body_source": {
+   "none": 6,
+   "og_description": 2,
+   "trafilatura": 4
+  },
+  "resolve": {
+   "decoder": 12
+  },
+  "fail_reason": {},
+  "basis": {
+   "title": 6,
+   "lead": 2,
+   "body": 4
+  },
+  "retry_reason": {
+   "lines는 3줄이어야 함 (현재 4줄)": 2
+  },
+  "flags": {},
+  "model_used": {
+   "claude-sonnet-5-5": 12
+  }
+ },
+ "total": 12,
+ "cards": [
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "4414d439fc1f",
+   "title": "EU urged to link critical minerals strategy with enlargement, ESG standards - S&P Global",
+   "title_norm": "eu urged to link critical minerals strategy with enlargement esg standards",
+   "url": "https://spglobal.com/energy/en/news-research/latest-news/metals/072326-eu-urged-to-link-critical-minerals-strategy-with-enlargement-esg-standards",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQbzlFa0ZycUItcVFMREZwcHJ0SzJUYjJ1M0RDME5BMFBMQmJrdlhpSVNNQmo4cmtyT1RMMkZZcF9Md1U2X2RDVjctODV0TzZaTFFtSzUxZzZ2V0lKS2ZmY1FyVGtnS2EyZkJYUHB3YXlMM2ZZYXZpZTd4MU1NY3RabU13c0VGODFZcVFtVFZ4WmIyRDdBZWpubVJJbVRuR01sZnowUlZmVktaWEhJa3JnQS15V2xIOERCQUl3VnduTlUwSnBjV0NmN1VwNDVCa21xdnBPeDFvSkMwb3Q0SGxxeDNBZw?oc=5",
+   "source": {
+    "name": "S&P Global - via Google News",
+    "domain": "spglobal.com",
+    "tier": null,
+    "tier_weight": 4,
+    "language": null
+   },
+   "published": "2026-07-24",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:39:53+00:00",
+   "score": 8,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "bot_block",
+    "http_status": 403,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.spglobal.com/energy/en/news-research/latest-news/metals/072326-eu-urged-to-link-critical-minerals-strategy-with-enlargement-esg-standards",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "EU에 핵심광물 전략을 확대 및 ESG 기준과 연계하도록 촉구했음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "EU",
+     "ESG 기준",
+     "EU 확대",
+     "정책"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals strategy",
+      "meaning": "핵심광물 전략"
+     },
+     {
+      "phrase": "ESG standards",
+      "meaning": "환경·사회·지배구조(ESG) 기준"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:39:55+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "3b87b944be",
+     "v1_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQbzlFa0ZycUItcVFMREZwcHJ0SzJUYjJ1M0RDME5BMFBMQmJrdlhpSVNNQmo4cmtyT1RMMkZZcF9Md1U2X2RDVjctODV0TzZaTFFtSzUxZzZ2V0lKS2ZmY1FyVGtnS2EyZkJYUHB3YXlMM2ZZYXZpZTd4MU1NY3RabU13c0VGODFZcVFtVFZ4WmIyRDdBZWpubVJJbVRuR01sZnowUlZmVktaWEhJa3JnQS15V2xIOERCQUl3VnduTlUwSnBjV0NmN1VwNDVCa21xdnBPeDFvSkMwb3Q0SGxxeDNBZw?oc=5",
+     "summary_raw": "EU urged to link critical minerals strategy with enlargement, ESG standards&nbsp;&nbsp;S&amp;P Global"
+    }
+   },
+   "v1": {
+    "korean_summary": "EU가 핵심광물 전략을 역내 확대(enlargement) 정책 및 ESG 기준과 연계할 것을 촉구받고 있으며, 이는 공급망 안보와 지속가능성을 동시에 추진하려는 정책 기조를 반영하고 있습니다. EU의 핵심광물 확보 전략이 단순한 경제적 이익 추구를 넘어 환경·사회 책임 기준과 지정학적 관계 설정의 통합적 접근이 필요함을 시사하고 있습니다. 이러한 다층적 정책 연계는 향후 글로벌 핵심광물 시장에서 규제·거래 기준의 새로운 기준점이 될 전망입니다.",
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "EU 정책·ESG 기준",
+     "공급망 안보"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "link critical minerals strategy with enlargement and ESG standards",
+      "meaning": "핵심광물 전략을 역내 확대 정책 및 환경·사회·지배구조 기준과 연계하다"
+     },
+     {
+      "phrase": "supply chain security through integrated policy approach",
+      "meaning": "통합적 정책 접근을 통한 공급망 안보 확보"
+     },
+     {
+      "phrase": "geopolitical risk mitigation in critical minerals procurement",
+      "meaning": "핵심광물 조달 과정에서의 지정학적 위험 완화"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "3b87b944be",
+    "title": "EU urged to link critical minerals strategy with enlargement, ESG standards - S&P Global",
+    "url": "https://spglobal.com/energy/en/news-research/latest-news/metals/072326-eu-urged-to-link-critical-minerals-strategy-with-enlargement-esg-standards",
+    "source": "S&P Global - via Google News",
+    "tier_weight": 4,
+    "score": 8,
+    "published": "2026-07-24",
+    "korean_summary": [
+     "[제목 기반] EU에 핵심광물 전략을 확대 및 ESG 기준과 연계하도록 촉구했음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "EU",
+     "ESG 기준",
+     "EU 확대",
+     "정책"
+    ],
+    "ai_processed": true,
+    "card_id": "4414d439fc1f",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "EU urged to link critical minerals strategy with enlargement, ESG standards&nbsp;&nbsp;S&amp;P Global",
+    "english_phrases": [
+     {
+      "phrase": "critical minerals strategy",
+      "meaning": "핵심광물 전략"
+     },
+     {
+      "phrase": "ESG standards",
+      "meaning": "환경·사회·지배구조(ESG) 기준"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "c5e04d43650a",
+   "title": "India and Myanmar signal closer rare earth mining ties - Reuters",
+   "title_norm": "india and myanmar signal closer rare earth mining ties",
+   "url": "https://reuters.com/world/asia-pacific/india-myanmar-signal-closer-rare-earth-mining-ties-2026-07-23",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOb3k0S2tlUi04c0pBRFZqMWxQUHdra0tSc19ielBsZkNzMVF2d2VKd0JUY0JSdS1LQk1vSThaV0NlemdTcHVVOG9WNXVsMDRzQUY5Y1Z6RGRGTGI2eUNVNXdUT0Q1TktBVWR4YnhocjFNLVJqczhwVDBPNjJjZ2FMeGhqV2c3T1puM3BvS1NqMUFrRmR5Ny11bWx2c0FRMlRFQVNzVjB1aWs?oc=5",
+   "source": {
+    "name": "Reuters - via Google News",
+    "domain": "reuters.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-07-23",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:39:55+00:00",
+   "score": 7,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "skipped",
+    "http_status": null,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": null,
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "인도와 미얀마, 희토류 채굴 협력 강화 시사했음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "채굴 협력",
+     "인도",
+     "미얀마"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "rare earth mining ties",
+      "meaning": "희토류 채굴 관련 협력 관계"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:39:56+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "e231708fd8",
+     "v1_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOb3k0S2tlUi04c0pBRFZqMWxQUHdra0tSc19ielBsZkNzMVF2d2VKd0JUY0JSdS1LQk1vSThaV0NlemdTcHVVOG9WNXVsMDRzQUY5Y1Z6RGRGTGI2eUNVNXdUT0Q1TktBVWR4YnhocjFNLVJqczhwVDBPNjJjZ2FMeGhqV2c3T1puM3BvS1NqMUFrRmR5Ny11bWx2c0FRMlRFQVNzVjB1aWs?oc=5",
+     "summary_raw": "India and Myanmar signal closer rare earth mining ties&nbsp;&nbsp;Reuters"
+    }
+   },
+   "v1": {
+    "korean_summary": "인도와 미얀마가 희토류 광물 채굴 분야의 협력 강화 의향을 표명함으로써 인도-태평양 지역 핵심광물 공급망 재편이 가속화될 것으로 예상됩니다. 이는 중국 중심의 희토류 생산 구도에서 벗어나려는 주요국들의 전략적 노력이 본격화되고 있음을 시사합니다. 양국의 협력 확대는 글로벌 핵심광물 수급 안정화 및 공급처 다변화에 기여할 것으로 전망됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "국제협력",
+     "인도-미얀마"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "rare earth mining ties",
+      "meaning": "희토류 채굴 협력 관계"
+     },
+     {
+      "phrase": "critical minerals supply chain",
+      "meaning": "핵심광물 공급망"
+     },
+     {
+      "phrase": "regional cooperation framework",
+      "meaning": "지역 협력 체계"
+     },
+     {
+      "phrase": "diversification of supply sources",
+      "meaning": "공급처 다변화"
+     },
+     {
+      "phrase": "strategic partnership",
+      "meaning": "전략적 동반자 관계"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "e231708fd8",
+    "title": "India and Myanmar signal closer rare earth mining ties - Reuters",
+    "url": "https://reuters.com/world/asia-pacific/india-myanmar-signal-closer-rare-earth-mining-ties-2026-07-23",
+    "source": "Reuters - via Google News",
+    "tier_weight": 3,
+    "score": 7,
+    "published": "2026-07-23",
+    "korean_summary": [
+     "[제목 기반] 인도와 미얀마, 희토류 채굴 협력 강화 시사했음"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "채굴 협력",
+     "인도",
+     "미얀마"
+    ],
+    "ai_processed": true,
+    "card_id": "c5e04d43650a",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "India and Myanmar signal closer rare earth mining ties&nbsp;&nbsp;Reuters",
+    "english_phrases": [
+     {
+      "phrase": "rare earth mining ties",
+      "meaning": "희토류 채굴 관련 협력 관계"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "2e65f45f3081",
+   "title": "US Export-Import Bank provides letter of interest to rare earth developers in Australia and Brazil - Project Blue",
+   "title_norm": "us export import bank provides letter of interest to rare earth developers in australia and brazil",
+   "url": "https://projectblue.com/blue?article=814&type=blueview",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1GYkl5cHA2Z1RWaHMyUDNHWGZITGRmd1BHSjZwbzdRVm1rTXo1am4tQXR4bFJjX2F3c0IzOHB6N1YxUy1iY3IyUWQ0ZGFPS0ViUkZERWE3a0x2WEpxVnRFZGJRaXo?oc=5",
+   "source": {
+    "name": "Project Blue - via Google News",
+    "domain": "projectblue.com",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-07-21",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:39:58+00:00",
+   "score": 7,
+   "body": {
+    "status": "lead_only",
+    "chars": 147,
+    "sha256": "f323b5ed89aa7608bed3852c9d40b7422a0d5ab7bd0744302377ea494a64793b",
+    "source": "og_description",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": "2026-03-11",
+    "quotes": [
+     "Meteoric Resources and Australian Strategic Minerals received letters of interest from the US Export-Import Bank for up to US$600M in debt funding."
+    ],
+    "final_url": "https://projectblue.com/blue?article=814&type=blueview",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "미국 수출입은행이 호주·브라질 희토류 개발사에 관심서한을 제공했음",
+     "Meteoric Resources와 Australian Strategic Minerals가 최대 US$600M 규모 부채 자금 조달에 대한 관심서한을 받았음"
+    ],
+    "basis": "lead",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "관심서한",
+     "부채 자금 조달",
+     "미국",
+     "호주"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "letter of interest",
+      "meaning": "관심서한(금융 지원 검토 의사를 밝히는 서한)"
+     },
+     {
+      "phrase": "debt funding",
+      "meaning": "부채 자금 조달"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "lead_only",
+    "input_chars": 147,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:40:00+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "20a896fa53",
+     "v1_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1GYkl5cHA2Z1RWaHMyUDNHWGZITGRmd1BHSjZwbzdRVm1rTXo1am4tQXR4bFJjX2F3c0IzOHB6N1YxUy1iY3IyUWQ0ZGFPS0ViUkZERWE3a0x2WEpxVnRFZGJRaXo?oc=5",
+     "summary_raw": "US Export-Import Bank provides letter of interest to rare earth developers in Australia and Brazil&nbsp;&nbsp;Project Blue"
+    }
+   },
+   "v1": {
+    "korean_summary": "미국수출입은행(Ex-Im Bank)이 호주와 브라질의 희토류 개발 사업에 대한 관심 표명장(Letter of Interest)을 발급함으로써 북미 핵심광물 공급망 다각화를 추진하고 있음이 확인되었습니다. 이는 중국에 대한 의존도 감축과 우방국과의 광물 자원 협력 강화를 목표로 하는 미국의 전략적 정책 기조를 반영하고 있습니다. Project Blue 등 민간 개발 사업에 대한 공적 금융 지원 확대는 향후 희토류 공급 안정화와 지정학적 리스크 완화에 기여할 전망입니다.",
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "공급망 안보",
+     "호주·브라질"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Letter of Interest",
+      "meaning": "관심 표명장 (금융 지원 또는 협력 의사를 공식적으로 표현하는 선의의 표명)"
+     },
+     {
+      "phrase": "rare earth developers",
+      "meaning": "희토류 개발업체 (희토류 광물의 채굴, 선광, 제련을 추진하는 기업)"
+     },
+     {
+      "phrase": "supply chain diversification",
+      "meaning": "공급망 다각화 (단일 공급 국가에 대한 의존도를 낮추기 위해 여러 지역에서 소싱하는 전략)"
+     },
+     {
+      "phrase": "public finance support for critical mineral projects",
+      "meaning": "핵심광물 프로젝트에 대한 공적 금융 지원 (수출입은행 등 정부 기관의 자금 지원)"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "20a896fa53",
+    "title": "US Export-Import Bank provides letter of interest to rare earth developers in Australia and Brazil - Project Blue",
+    "url": "https://projectblue.com/blue?article=814&type=blueview",
+    "source": "Project Blue - via Google News",
+    "tier_weight": 5,
+    "score": 7,
+    "published": "2026-07-21",
+    "korean_summary": [
+     "[본문 미확보] 미국 수출입은행이 호주·브라질 희토류 개발사에 관심서한을 제공했음",
+     "Meteoric Resources와 Australian Strategic Minerals가 최대 US$600M 규모 부채 자금 조달에 대한 관심서한을 받았음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "관심서한",
+     "부채 자금 조달",
+     "미국",
+     "호주"
+    ],
+    "ai_processed": true,
+    "card_id": "2e65f45f3081",
+    "basis": "lead",
+    "body_status": "lead_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "US Export-Import Bank provides letter of interest to rare earth developers in Australia and Brazil&nbsp;&nbsp;Project Blue",
+    "english_phrases": [
+     {
+      "phrase": "letter of interest",
+      "meaning": "관심서한(금융 지원 검토 의사를 밝히는 서한)"
+     },
+     {
+      "phrase": "debt funding",
+      "meaning": "부채 자금 조달"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "0122c8aa6060",
+   "title": "Ukraine resumes funding for critical mineral exploration for first time since 2020 - The New Voice of Ukraine",
+   "title_norm": "ukraine resumes funding for critical mineral exploration for first time since 2020",
+   "url": "https://english.nv.ua/business/ukraine-finances-state-geological-exploration-for-strategic-minerals-50626985.html",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNb2ZhZExqZ21IYnRaYXJ2cXFMRXNWdzExLTdYckc2TVd4WFRLaHc3RlVzOTNXSXh2RkRQaUZIYlc5MndCeFBCZF8yNFptODVxdURFNmp5Mi01LTA2Yi0tck9xcUFfMEY0TTBzVVF2ZF9VRXNIYVhwQ1JEMnpTdE9qRDEyVHlxWDcxN3V6U1ZJS25sT3RtYlVfXzFERjc4aEpWOHUxT0tWWG5kX040aUwyMGxkWdIBrAFBVV95cUxPWW9ZVGxfNU5OZDVtNEhNTjVocGtCUV8walZHdTRWWVRuZVY5NlNKN2x5ZkNmRnZJQjQ3VGRUdnc4UXp0cW8wYVRaSGNZRnZZNjFPcVV0TXEwQjdKN1k1a1dyblhQWVNabnlZNHRseXQzNGNzdnlqOVVBbmhpejd2enMtbUpjdXktaUluVjltYWlESGVFb3JWZVZQUGkydDNCYUZyMXZnTHNHM0VQ?oc=5",
+   "source": {
+    "name": "Google News - Critical Minerals Exploration",
+    "domain": "english.nv.ua",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-07-24",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:40:00+00:00",
+   "score": 7,
+   "body": {
+    "status": "full",
+    "chars": 2627,
+    "sha256": "612a9bd8a28936d57ac339ca71e20c0d129729d68c92c1888920c7b3046305c3",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-07-24",
+    "quotes": [
+     "\"There will be resource growth; for certain objects, for example, iron ore reserves up to 1 million tons, ilmenite up to 0.9 conventional units, and apatite ores up to 1.6 million tons.",
+     "Stryzhak emphasized that state budget funds were last allocated for mineral base development measures in 2020."
+    ],
+    "final_url": "https://english.nv.ua/business/ukraine-finances-state-geological-exploration-for-strategic-minerals-50626985.html",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "우크라이나가 2020년 이후 처음으로 핵심광물 국가 지질탐사 예산을 투입하기로 했다고 국가지질청이 밝혔음",
+     "2026년 국가예산 중 광물·원료 기반 개발에 $4.2 million(186.94 million UAH), 지질탐사·평가에 $0.98 million 배정했음",
+     "철·티타늄·인광석·아파타이트·희토류 대상이며 올해 말까지 69개 지점에서 탐사·모니터링·연구를 마칠 예정임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "$4.2 million (186.94 million UAH)",
+     "$0.98 million (43.9 million UAH)",
+     "69 individual sites"
+    ],
+    "quotes": [
+     "\"There will be resource growth; for certain objects, for example, iron ore reserves up to 1 million tons, ilmenite up to 0.9 conventional units, and apatite ores up to 1.6 million tons.",
+     "Stryzhak emphasized that state budget funds were last allocated for mineral base development measures in 2020."
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "우크라이나",
+     "지질탐사",
+     "희토류",
+     "철광석",
+     "아파타이트"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "State Geologic Service",
+      "meaning": "우크라이나 국가지질청"
+     },
+     {
+      "phrase": "search and evaluation work",
+      "meaning": "탐사 및 평가 작업"
+     },
+     {
+      "phrase": "mineral base development",
+      "meaning": "광물 자원 기반 개발"
+     },
+     {
+      "phrase": "future investment offerings",
+      "meaning": "향후 투자 유치용 매물(프로젝트 제안)"
+     }
+    ],
+    "implication": "우크라이나가 6년 만에 국가 탐사 예산을 재개하고 우선 광물 후보지의 기술 데이터를 정리해 향후 투자 유치 기반을 마련함."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 2627,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:40:05+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "d4062421ee",
+     "v1_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNb2ZhZExqZ21IYnRaYXJ2cXFMRXNWdzExLTdYckc2TVd4WFRLaHc3RlVzOTNXSXh2RkRQaUZIYlc5MndCeFBCZF8yNFptODVxdURFNmp5Mi01LTA2Yi0tck9xcUFfMEY0TTBzVVF2ZF9VRXNIYVhwQ1JEMnpTdE9qRDEyVHlxWDcxN3V6U1ZJS25sT3RtYlVfXzFERjc4aEpWOHUxT0tWWG5kX040aUwyMGxkWdIBrAFBVV95cUxPWW9ZVGxfNU5OZDVtNEhNTjVocGtCUV8walZHdTRWWVRuZVY5NlNKN2x5ZkNmRnZJQjQ3VGRUdnc4UXp0cW8wYVRaSGNZRnZZNjFPcVV0TXEwQjdKN1k1a1dyblhQWVNabnlZNHRseXQzNGNzdnlqOVVBbmhpejd2enMtbUpjdXktaUluVjltYWlESGVFb3JWZVZQUGkydDNCYUZyMXZnTHNHM0VQ?oc=5",
+     "summary_raw": "Ukraine resumes funding for critical mineral exploration for first time since 2020&nbsp;&nbsp;The New Voice of Ukraine"
+    }
+   },
+   "v1": {
+    "korean_summary": "우크라이나가 2020년 이후 처음으로 핵심광물 탐사에 대한 정부 자금 지원을 재개했으며, 이는 러시아의 침략으로 중단된 광물자원 개발 정책의 재개를 의미합니다. 이번 자금 지원은 우크라이나의 광물 부존량을 파악하고 경제 회복을 위한 자원 기반 마련을 목표로 하고 있습니다. 유럽의 핵심광물 공급망 다각화 차원에서 우크라이나의 탐사 재개는 전략적 중요성을 갖는 것으로 평가되고 있습니다.",
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "자원탐사정책",
+     "우크라이나"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "resume funding for critical mineral exploration",
+      "meaning": "핵심광물 탐사에 대한 자금 지원을 재개하다"
+     },
+     {
+      "phrase": "critical mineral resource assessment",
+      "meaning": "핵심광물 자원 평가/부존량 조사"
+     },
+     {
+      "phrase": "diversification of supply chains",
+      "meaning": "공급망 다각화"
+     },
+     {
+      "phrase": "post-conflict resource development",
+      "meaning": "분쟁 이후 자원 개발"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "d4062421ee",
+    "title": "Ukraine resumes funding for critical mineral exploration for first time since 2020 - The New Voice of Ukraine",
+    "url": "https://english.nv.ua/business/ukraine-finances-state-geological-exploration-for-strategic-minerals-50626985.html",
+    "source": "Google News - Critical Minerals Exploration",
+    "tier_weight": 1,
+    "score": 7,
+    "published": "2026-07-24",
+    "korean_summary": [
+     "우크라이나가 2020년 이후 처음으로 핵심광물 국가 지질탐사 예산을 투입하기로 했다고 국가지질청이 밝혔음",
+     "2026년 국가예산 중 광물·원료 기반 개발에 $4.2 million(186.94 million UAH), 지질탐사·평가에 $0.98 million 배정했음",
+     "철·티타늄·인광석·아파타이트·희토류 대상이며 올해 말까지 69개 지점에서 탐사·모니터링·연구를 마칠 예정임"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "우크라이나",
+     "지질탐사",
+     "희토류",
+     "철광석",
+     "아파타이트"
+    ],
+    "ai_processed": true,
+    "card_id": "0122c8aa6060",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "$4.2 million (186.94 million UAH)",
+     "$0.98 million (43.9 million UAH)",
+     "69 individual sites"
+    ],
+    "quotes": [
+     "\"There will be resource growth; for certain objects, for example, iron ore reserves up to 1 million tons, ilmenite up to 0.9 conventional units, and apatite ores up to 1.6 million tons.",
+     "Stryzhak emphasized that state budget funds were last allocated for mineral base development measures in 2020."
+    ],
+    "summary_raw": "Ukraine resumes funding for critical mineral exploration for first time since 2020&nbsp;&nbsp;The New Voice of Ukraine",
+    "english_phrases": [
+     {
+      "phrase": "State Geologic Service",
+      "meaning": "우크라이나 국가지질청"
+     },
+     {
+      "phrase": "search and evaluation work",
+      "meaning": "탐사 및 평가 작업"
+     },
+     {
+      "phrase": "mineral base development",
+      "meaning": "광물 자원 기반 개발"
+     },
+     {
+      "phrase": "future investment offerings",
+      "meaning": "향후 투자 유치용 매물(프로젝트 제안)"
+     }
+    ],
+    "implication": "우크라이나가 6년 만에 국가 탐사 예산을 재개하고 우선 광물 후보지의 기술 데이터를 정리해 향후 투자 유치 기반을 마련함.",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "d7b2d24cf7da",
+   "title": "Noble Mineral Exploration Inc. Completes Phase 1, Helicopter Supported, Summer Exploration Programs on Quebec Critical Minerals Projects - StreetInsider",
+   "title_norm": "noble mineral exploration inc completes phase 1 helicopter supported summer exploration programs on quebec critical minerals projects",
+   "url": "https://streetinsider.com/NewMediaWire/Noble+Mineral+Exploration+Inc.+Completes+Phase+1%2C+Helicopter+Supported%2C+Summer+Exploration+Programs+on+Quebec+Critical+Minerals+Projects/26814791.html",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOZUw1a05zUU8wNWNoU1AtSGRJTzkzOGlOMW1qaWw0VXNXLVc5UHgzQ1l6RzhtNjRMdFZ0TW9uLU96RGtuMGxTSk9TT2x3U1NVWGQ1X1lWcGVlaTVsanhTTjdCdHM2QXI1RGg0WGVXdlpZMDFEcjVtYnlYd3lRc1gwT2N3cHUzb2Q0dXNwVC1DU0tLUkVfY1VqRzRWUGlFZTNjekcxWDI0LTdYZUNHR2FPaFlPOEVTUERwdno2QndqdHJNNC1CSXluTlRQUFI1YV80VG9UMklTNUUxZmM5X1NiTEo5cDRQZ0wxZGo2dkxOX20xWUhJS245WHo5NDZDVmJ2STV2bFJuN2VFNDVWWFA0cTA3ZXl1VzZsV0YyQ3FLMmNmdkU?oc=5",
+   "source": {
+    "name": "Google News - Critical Minerals Exploration",
+    "domain": "streetinsider.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-07-26",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:40:05+00:00",
+   "score": 9,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "bot_block",
+    "http_status": 403,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.streetinsider.com/NewMediaWire/Noble+Mineral+Exploration+Inc.+Completes+Phase+1%2C+Helicopter+Supported%2C+Summer+Exploration+Programs+on+Quebec+Critical+Minerals+Projects/26814791.html",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Noble Mineral Exploration이 퀘벡 핵심광물 프로젝트의 1단계 헬리콥터 지원 하계 탐사 프로그램을 완료했음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "exploration_tech",
+    "tags": [
+     "핵심광물",
+     "탐사",
+     "퀘벡",
+     "헬리콥터 지원 탐사",
+     "하계 탐사 프로그램"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Helicopter Supported",
+      "meaning": "헬리콥터 지원(을 받는)"
+     },
+     {
+      "phrase": "Phase 1",
+      "meaning": "1단계"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:40:07+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "1db9bcdc4f",
+     "v1_url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOZUw1a05zUU8wNWNoU1AtSGRJTzkzOGlOMW1qaWw0VXNXLVc5UHgzQ1l6RzhtNjRMdFZ0TW9uLU96RGtuMGxTSk9TT2x3U1NVWGQ1X1lWcGVlaTVsanhTTjdCdHM2QXI1RGg0WGVXdlpZMDFEcjVtYnlYd3lRc1gwT2N3cHUzb2Q0dXNwVC1DU0tLUkVfY1VqRzRWUGlFZTNjekcxWDI0LTdYZUNHR2FPaFlPOEVTUERwdno2QndqdHJNNC1CSXluTlRQUFI1YV80VG9UMklTNUUxZmM5X1NiTEo5cDRQZ0wxZGo2dkxOX20xWUhJS245WHo5NDZDVmJ2STV2bFJuN2VFNDVWWFA0cTA3ZXl1VzZsV0YyQ3FLMmNmdkU?oc=5",
+     "summary_raw": "Noble Mineral Exploration Inc. Completes Phase 1, Helicopter Supported, Summer Exploration Programs on Quebec Critical Minerals Projects&nbsp;&nbsp;StreetInsider"
+    }
+   },
+   "v1": {
+    "korean_summary": "Noble Mineral Exploration Inc.가 퀘벡 지역의 핵심광물 프로젝트에 대해 헬리콥터를 활용한 1단계 하계 탐사 프로그램을 완료하였습니다. 이번 공중 지질탐사는 접근성이 낮은 지역의 핵심광물 부존 가능성을 체계적으로 평가하는 데 중점을 두었습니다. 캐나다의 핵심광물 탐사 활동 확대는 북미 지역의 공급망 다변화 전략과 맥락을 함께하고 있습니다.",
+    "category": "exploration_tech",
+    "tags": [
+     "핵심광물",
+     "항공지구물리탐사",
+     "캐나다(퀘벡)"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Helicopter-supported exploration program",
+      "meaning": "헬리콥터 지원 탐사 프로그램 (산악/불모지 탐사에 활용)"
+     },
+     {
+      "phrase": "Phase 1 exploration initiative",
+      "meaning": "1단계 탐사 사업 (단계적 광물 부존 평가)"
+     },
+     {
+      "phrase": "Critical minerals projects in Quebec",
+      "meaning": "퀘벡 지역 핵심광물 프로젝트 (캐나다 핵심광물 탐사 거점)"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "1db9bcdc4f",
+    "title": "Noble Mineral Exploration Inc. Completes Phase 1, Helicopter Supported, Summer Exploration Programs on Quebec Critical Minerals Projects - StreetInsider",
+    "url": "https://streetinsider.com/NewMediaWire/Noble+Mineral+Exploration+Inc.+Completes+Phase+1%2C+Helicopter+Supported%2C+Summer+Exploration+Programs+on+Quebec+Critical+Minerals+Projects/26814791.html",
+    "source": "Google News - Critical Minerals Exploration",
+    "tier_weight": 1,
+    "score": 9,
+    "published": "2026-07-26",
+    "korean_summary": [
+     "[제목 기반] Noble Mineral Exploration이 퀘벡 핵심광물 프로젝트의 1단계 헬리콥터 지원 하계 탐사 프로그램을 완료했음"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "핵심광물",
+     "탐사",
+     "퀘벡",
+     "헬리콥터 지원 탐사",
+     "하계 탐사 프로그램"
+    ],
+    "ai_processed": true,
+    "card_id": "d7b2d24cf7da",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Noble Mineral Exploration Inc. Completes Phase 1, Helicopter Supported, Summer Exploration Programs on Quebec Critical Minerals Projects&nbsp;&nbsp;StreetInsider",
+    "english_phrases": [
+     {
+      "phrase": "Helicopter Supported",
+      "meaning": "헬리콥터 지원(을 받는)"
+     },
+     {
+      "phrase": "Phase 1",
+      "meaning": "1단계"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "fdfae0e0720d",
+   "title": "Critical Resources advances lithium, critical minerals and battery tech in June quarter - The Globe and Mail",
+   "title_norm": "critical resources advances lithium critical minerals and battery tech in june quarter",
+   "url": "https://theglobeandmail.com/investing/markets/markets-news/Tipranks/3458336/critical-resources-advances-lithium-critical-minerals-and-battery-tech-in-june-quarter",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQdzBmVWVyOEhkQ1pkb3JvMWQ1Vkdwb2FQa0FncGJXVzhCeXBSakdGZlBoUU5aZEZaT3IyOVpKaDkzZlJwMWhGS1hIUzNydUJXZ0pycHFHMnp3dWowblhOd1g1bHdFWnA2WDZrdUhFLW9WOEVRSWRha1hTVG8xaXdKemFVbTdac1pfbi12VVQ0a1VWMVZKeHpBN2Z0dDlscDFBMGMwX3l5b3JpdlJMSkpoT2QtZkxuUU85XzNmSnJ0cDBERjdtU1I4cEkzQXVPbVM1YjRlTTBKa1ZmOElULW5icncxNW9SV1JqUVN0ejFqdFdEenRlMWx5V0o2NA?oc=5",
+   "source": {
+    "name": "Google News - Critical Minerals Exploration",
+    "domain": "theglobeandmail.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-07-25",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:40:10+00:00",
+   "score": 7,
+   "body": {
+    "status": "full",
+    "chars": 2221,
+    "sha256": "e680ceb186bcfbd0d86a5a472df544df83e69b40af5428a9986af8c1b14991c9",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-10-16",
+    "quotes": [
+     "The company aims to build on its existing 8 Mt inferred lithium resource and broader exploration target by systematically testing underexplored pegmatite corridors to support a multi-deposit district-scale development."
+    ],
+    "final_url": "https://www.theglobeandmail.com/investing/markets/markets-news/Tipranks/3458336/critical-resources-advances-lithium-critical-minerals-and-battery-tech-in-june-quarter/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "ASX 상장 탐사업체 Critical Resources가 6월 분기 리튬·핵심광물 탐사와 배터리 기술 진전을 발표했음",
+     "캐나다 온타리오 Mavis Lake 프로젝트 Corona Pegmatite Field에서 페그마타이트 14개를 확인했음",
+     "뉴질랜드 Granite Creek 고품위 텅스텐을 확인했으며, 분기 말 현금은 A$1.2 million이었음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "8 Mt",
+     "14 pegmatite bodies",
+     "A$1.2 million"
+    ],
+    "quotes": [
+     "The company aims to build on its existing 8 Mt inferred lithium resource and broader exploration target by systematically testing underexplored pegmatite corridors to support a multi-deposit district-scale development."
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "리튬",
+     "텅스텐",
+     "페그마타이트",
+     "고체전해질 배터리",
+     "캐나다"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "inferred lithium resource",
+      "meaning": "추정(inferred) 등급 리튬 자원량"
+     },
+     {
+      "phrase": "LCT pegmatites",
+      "meaning": "리튬·세슘·탄탈럼이 풍부한 페그마타이트"
+     },
+     {
+      "phrase": "amorphous solid-state electrolyte",
+      "meaning": "비정질 고체 전해질"
+     },
+     {
+      "phrase": "pouch-cell testing",
+      "meaning": "파우치형 셀 시험"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 2221,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:40:14+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "8a09aca5b1",
+     "v1_url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQdzBmVWVyOEhkQ1pkb3JvMWQ1Vkdwb2FQa0FncGJXVzhCeXBSakdGZlBoUU5aZEZaT3IyOVpKaDkzZlJwMWhGS1hIUzNydUJXZ0pycHFHMnp3dWowblhOd1g1bHdFWnA2WDZrdUhFLW9WOEVRSWRha1hTVG8xaXdKemFVbTdac1pfbi12VVQ0a1VWMVZKeHpBN2Z0dDlscDFBMGMwX3l5b3JpdlJMSkpoT2QtZkxuUU85XzNmSnJ0cDBERjdtU1I4cEkzQXVPbVM1YjRlTTBKa1ZmOElULW5icncxNW9SV1JqUVN0ejFqdFdEenRlMWx5V0o2NA?oc=5",
+     "summary_raw": "Critical Resources advances lithium, critical minerals and battery tech in June quarter&nbsp;&nbsp;The Globe and Mail"
+    }
+   },
+   "v1": {
+    "korean_summary": "Critical Resources社가 6월 분기 동안 리튬, 핵심광물 및 배터리 기술 분야에서 의미 있는 진전을 달성한 것으로 확인되었습니다. 동사의 기술 개발 및 탐사 활동이 핵심광물 공급망 구축에 기여할 것으로 전망됩니다. 이는 글로벌 에너지 전환에 따른 핵심광물 수요 증가 속에서 국내 자원개발 전략의 벤치마킹 대상이 될 수 있습니다.",
+    "category": "exploration_tech",
+    "tags": [
+     "리튬",
+     "배터리 기술",
+     "자원탐사"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "advances in critical minerals and battery technology",
+      "meaning": "핵심광물 및 배터리 기술 분야의 진전"
+     },
+     {
+      "phrase": "quarterly progress in lithium extraction and processing",
+      "meaning": "리튬 추출 및 가공 분야의 분기별 진행 현황"
+     },
+     {
+      "phrase": "supply chain development for critical raw materials",
+      "meaning": "핵심광물의 공급망 개발"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "8a09aca5b1",
+    "title": "Critical Resources advances lithium, critical minerals and battery tech in June quarter - The Globe and Mail",
+    "url": "https://theglobeandmail.com/investing/markets/markets-news/Tipranks/3458336/critical-resources-advances-lithium-critical-minerals-and-battery-tech-in-june-quarter",
+    "source": "Google News - Critical Minerals Exploration",
+    "tier_weight": 1,
+    "score": 7,
+    "published": "2026-07-25",
+    "korean_summary": [
+     "ASX 상장 탐사업체 Critical Resources가 6월 분기 리튬·핵심광물 탐사와 배터리 기술 진전을 발표했음",
+     "캐나다 온타리오 Mavis Lake 프로젝트 Corona Pegmatite Field에서 페그마타이트 14개를 확인했음",
+     "뉴질랜드 Granite Creek 고품위 텅스텐을 확인했으며, 분기 말 현금은 A$1.2 million이었음"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "리튬",
+     "텅스텐",
+     "페그마타이트",
+     "고체전해질 배터리",
+     "캐나다"
+    ],
+    "ai_processed": true,
+    "card_id": "fdfae0e0720d",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "8 Mt",
+     "14 pegmatite bodies",
+     "A$1.2 million"
+    ],
+    "quotes": [
+     "The company aims to build on its existing 8 Mt inferred lithium resource and broader exploration target by systematically testing underexplored pegmatite corridors to support a multi-deposit district-scale development."
+    ],
+    "summary_raw": "Critical Resources advances lithium, critical minerals and battery tech in June quarter&nbsp;&nbsp;The Globe and Mail",
+    "english_phrases": [
+     {
+      "phrase": "inferred lithium resource",
+      "meaning": "추정(inferred) 등급 리튬 자원량"
+     },
+     {
+      "phrase": "LCT pegmatites",
+      "meaning": "리튬·세슘·탄탈럼이 풍부한 페그마타이트"
+     },
+     {
+      "phrase": "amorphous solid-state electrolyte",
+      "meaning": "비정질 고체 전해질"
+     },
+     {
+      "phrase": "pouch-cell testing",
+      "meaning": "파우치형 셀 시험"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "448564da872e",
+   "title": "Can Narryer Metals (ASX:NYM) Sustain Its Exploration Momentum Across Critical Minerals Projects? - Kalkine",
+   "title_norm": "can narryer metals asx nym sustain its exploration momentum across critical minerals projects",
+   "url": "https://kalkine.com.au/news/mining-materials/can-narryer-metals-asxnym-sustain-its-exploration-momentum-across-critical-minerals-projects",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOaUZTZ1VpQ09zZU8xelJEUHFBLTBmeGpTdkJtNGQtTjJLZ21wbG1xTnlyTFJybURhUXRQNDZPNmVZV0Z0OUZuWmxnMk1SYlA4VWtoc0RPMUo1Nk1YN1lxWFpSc0dOUmtKeVpLNlBqcjFCWlBIcmZleEhrSmVLaWExVUE1N3JsNUg0MGhMWTVkUzd2WWZVVXM1UHM0RUZsVHg4Uy1IWlFRNGdPOHlYSW9mMzhqWnc3X3RjTmZJOUh2X0t4cm1sV0hEQ3diaE0ya3dCaGVN?oc=5",
+   "source": {
+    "name": "Google News - Critical Minerals Exploration",
+    "domain": "kalkine.com.au",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-07-24",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:40:14+00:00",
+   "score": 7,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "bot_block",
+    "http_status": 403,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://kalkine.com.au/news/mining-materials/can-narryer-metals-asxnym-sustain-its-exploration-momentum-across-critical-minerals-projects",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "나라이어 메탈스(ASX:NYM), 핵심광물 프로젝트 전반에서 탐사 모멘텀을 이어갈 수 있을지 물음임"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "exploration_tech",
+    "tags": [
+     "핵심광물",
+     "탐사",
+     "나라이어 메탈스",
+     "ASX"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "exploration momentum",
+      "meaning": "탐사 모멘텀(탐사 활동의 추진력)"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:40:16+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "07fa1575be",
+     "v1_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOaUZTZ1VpQ09zZU8xelJEUHFBLTBmeGpTdkJtNGQtTjJLZ21wbG1xTnlyTFJybURhUXRQNDZPNmVZV0Z0OUZuWmxnMk1SYlA4VWtoc0RPMUo1Nk1YN1lxWFpSc0dOUmtKeVpLNlBqcjFCWlBIcmZleEhrSmVLaWExVUE1N3JsNUg0MGhMWTVkUzd2WWZVVXM1UHM0RUZsVHg4Uy1IWlFRNGdPOHlYSW9mMzhqWnc3X3RjTmZJOUh2X0t4cm1sV0hEQ3diaE0ya3dCaGVN?oc=5",
+     "summary_raw": "Can Narryer Metals (ASX:NYM) Sustain Its Exploration Momentum Across Critical Minerals Projects?&nbsp;&nbsp;Kalkine"
+    }
+   },
+   "v1": {
+    "korean_summary": "나리어 메탈스(ASX:NYM)는 호주 지역의 다양한 핵심광물 탐사 프로젝트를 통해 탐사 추진력을 지속적으로 유지하고 있는 것으로 확인되었습니다. 동사의 핵심광물 포트폴리오 전략과 탐사 역량이 향후 발견 가능성과 자원 개발 잠재력을 높일 것으로 전망됩니다. 이는 글로벌 핵심광물 수급 다원화 및 자원 안보 강화의 관점에서 주목할 필요가 있습니다.",
+    "category": "exploration_tech",
+    "tags": [
+     "핵심광물",
+     "광물탐사",
+     "호주"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "exploration momentum",
+      "meaning": "탐사 추진력/추진 동력 - 지속적인 탐사 활동의 강도와 속도"
+     },
+     {
+      "phrase": "critical minerals projects portfolio",
+      "meaning": "핵심광물 프로젝트 포트폴리오 - 복수의 핵심광물 탐사·개발 프로젝트의 집합"
+     },
+     {
+      "phrase": "sustain exploration momentum",
+      "meaning": "탐사 추진력을 지속하다 - 장기적으로 탐사 활동의 질과 양을 유지하다"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "07fa1575be",
+    "title": "Can Narryer Metals (ASX:NYM) Sustain Its Exploration Momentum Across Critical Minerals Projects? - Kalkine",
+    "url": "https://kalkine.com.au/news/mining-materials/can-narryer-metals-asxnym-sustain-its-exploration-momentum-across-critical-minerals-projects",
+    "source": "Google News - Critical Minerals Exploration",
+    "tier_weight": 1,
+    "score": 7,
+    "published": "2026-07-24",
+    "korean_summary": [
+     "[제목 기반] 나라이어 메탈스(ASX:NYM), 핵심광물 프로젝트 전반에서 탐사 모멘텀을 이어갈 수 있을지 물음임"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "핵심광물",
+     "탐사",
+     "나라이어 메탈스",
+     "ASX"
+    ],
+    "ai_processed": true,
+    "card_id": "448564da872e",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Can Narryer Metals (ASX:NYM) Sustain Its Exploration Momentum Across Critical Minerals Projects?&nbsp;&nbsp;Kalkine",
+    "english_phrases": [
+     {
+      "phrase": "exploration momentum",
+      "meaning": "탐사 모멘텀(탐사 활동의 추진력)"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "c8a81fbb0ec1",
+   "title": "Japan finds multiple rare earth elements in deep-water mining in Pacific - Japan Today",
+   "title_norm": "japan finds multiple rare earth elements in deep water mining in pacific",
+   "url": "https://japantoday.com/category/national/update1-japan-finds-multiple-rare-earth-elements-in-deep-water-mining-in-pacific",
+   "gnews_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNFYzSG16VnNWZTZPUXZUdTY3U2Y2SDE3Sm5FS0VCd2JwUkNfUTVoZWsxam54cHV2MTR0bFJmMC04UkdrSUxOMUFXZWo5QUYxdVRqZ3lsMjJyUlJ6TVBIMWR5azFpQUY3TjVHTEJ0OXc5dVNyem0xd0I3eHJuNXM1YVVicGJod01tNzdMWlpIeE1xS2s5M0xRWGdtYk5GbHVDR0ppTnNVV1dtdTJVU0s1bEZEbEJaYS0zWE5RQlZR?oc=5",
+   "source": {
+    "name": "Google News - Rare Earth Elements",
+    "domain": "japantoday.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-07-24",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:40:16+00:00",
+   "score": 8,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "bot_block",
+    "http_status": 403,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://japantoday.com/category/national/update1-japan-finds-multiple-rare-earth-elements-in-deep-water-mining-in-pacific",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "일본이 태평양 심해 채굴에서 여러 희토류 원소를 발견했음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "discovery",
+    "tags": [
+     "희토류",
+     "심해 채굴",
+     "태평양",
+     "일본"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "deep-water mining",
+      "meaning": "심해 채굴"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:40:18+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "15ff7c18c8",
+     "v1_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNFYzSG16VnNWZTZPUXZUdTY3U2Y2SDE3Sm5FS0VCd2JwUkNfUTVoZWsxam54cHV2MTR0bFJmMC04UkdrSUxOMUFXZWo5QUYxdVRqZ3lsMjJyUlJ6TVBIMWR5azFpQUY3TjVHTEJ0OXc5dVNyem0xd0I3eHJuNXM1YVVicGJod01tNzdMWlpIeE1xS2s5M0xRWGdtYk5GbHVDR0ppTnNVV1dtdTJVU0s1bEZEbEJaYS0zWE5RQlZR?oc=5",
+     "summary_raw": "Japan finds multiple rare earth elements in deep-water mining in Pacific&nbsp;&nbsp;Japan Today"
+    }
+   },
+   "v1": {
+    "korean_summary": "일본이 태평양 심해 광물 채굴을 통해 다종의 희토류원소를 발견함으로써 해양 핵심광물 자원 확보의 가능성을 입증하였습니다. 이는 육상 공급망의 의존도를 낮추고 자급률 향상을 도모하는 전략적 시사점을 제시하고 있습니다. 향후 해양 광물자원 개발 기술의 상용화 및 환경영향 평가가 핵심 과제로 예상됩니다.",
+    "category": "discovery",
+    "tags": [
+     "희토류원소",
+     "해양광물채굴",
+     "일본"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "deep-water mining in Pacific",
+      "meaning": "태평양 심해 광물 채굴"
+     },
+     {
+      "phrase": "rare earth elements (REEs) recovery",
+      "meaning": "희토류원소 회수"
+     },
+     {
+      "phrase": "critical mineral supply diversification",
+      "meaning": "핵심광물 공급처 다변화"
+     },
+     {
+      "phrase": "marine mineral resources exploration",
+      "meaning": "해양 광물자원 탐사"
+     },
+     {
+      "phrase": "seafloor polymetallic deposits",
+      "meaning": "해저 복합금속광상"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "15ff7c18c8",
+    "title": "Japan finds multiple rare earth elements in deep-water mining in Pacific - Japan Today",
+    "url": "https://japantoday.com/category/national/update1-japan-finds-multiple-rare-earth-elements-in-deep-water-mining-in-pacific",
+    "source": "Google News - Rare Earth Elements",
+    "tier_weight": 1,
+    "score": 8,
+    "published": "2026-07-24",
+    "korean_summary": [
+     "[제목 기반] 일본이 태평양 심해 채굴에서 여러 희토류 원소를 발견했음"
+    ],
+    "category": "discovery",
+    "tags": [
+     "희토류",
+     "심해 채굴",
+     "태평양",
+     "일본"
+    ],
+    "ai_processed": true,
+    "card_id": "c8a81fbb0ec1",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Japan finds multiple rare earth elements in deep-water mining in Pacific&nbsp;&nbsp;Japan Today",
+    "english_phrases": [
+     {
+      "phrase": "deep-water mining",
+      "meaning": "심해 채굴"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "3b6df52ef30c",
+   "title": "Pentagon backs ReElement Technologies with US$25M investment to expand domestic critical minerals processing capacity - Project Blue",
+   "title_norm": "pentagon backs reelement technologies with us 25m investment to expand domestic critical minerals processing capacity",
+   "url": "https://projectblue.com/blue?article=1613&type=blueview",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA5RnRXMzNuU3BKOTZ0WGt0UEJxOVFndnNoVnlHSUhYeEhuV1M0cmxic2xwX3hfRzZnRHVqNUx6ZnpGaW9JV04tN25LYVlmMUtzSkluYUhIa0dWend0bER1U1ZyaGFDdw?oc=5",
+   "source": {
+    "name": "Project Blue - via Google News",
+    "domain": "projectblue.com",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-07-23",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:40:18+00:00",
+   "score": 13,
+   "body": {
+    "status": "lead_only",
+    "chars": 272,
+    "sha256": "36311d9ed0d1394df2543543504e49ea8b75100224d59f4c8c74f2dce4420e83",
+    "source": "og_description",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": "2026-03-11",
+    "quotes": [],
+    "final_url": "https://projectblue.com/blue?article=1613&type=blueview",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "미 국방부, ReElement Technologies에 US$25M 투자해 자국 내 핵심광물 가공 역량 확대를 지원함",
+     "2026년 7월 13일 US Department of War(DoW)가 희토류 스타트업 ReElement에 US$25M 직접 투자를 발표했음"
+    ],
+    "basis": "lead",
+    "key_figures": [],
+    "quotes": [],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "핵심광물",
+     "정제",
+     "직접투자",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "direct investment",
+      "meaning": "직접 투자"
+     },
+     {
+      "phrase": "refining capacity",
+      "meaning": "정제 역량"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "lead_only",
+    "input_chars": 272,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:40:21+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "fce5662fbe",
+     "v1_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA5RnRXMzNuU3BKOTZ0WGt0UEJxOVFndnNoVnlHSUhYeEhuV1M0cmxic2xwX3hfRzZnRHVqNUx6ZnpGaW9JV04tN25LYVlmMUtzSkluYUhIa0dWend0bER1U1ZyaGFDdw?oc=5",
+     "summary_raw": "Pentagon backs ReElement Technologies with US$25M investment to expand domestic critical minerals processing capacity&nbsp;&nbsp;Project Blue"
+    }
+   },
+   "v1": {
+    "korean_summary": "미국 국방부(Pentagon)가 국내 핵심광물 처리 능력 확대를 목표로 ReElement Technologies에 2,500만 달러를 투자하기로 결정했습니다. 본 프로젝트(Project Blue)는 미국의 핵심광물 공급망 자립화 및 희토류 등 전략적 자원의 국내 처리 기술 확보를 추진하는 것으로 확인되었습니다. 이는 중국 의존도를 감소시키고 국내 제조업 경쟁력 강화를 위한 미국의 적극적 정책 추진으로 평가됩니다.",
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "핵심광물 처리",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "expand domestic critical minerals processing capacity",
+      "meaning": "국내 핵심광물 처리 능력 확대"
+     },
+     {
+      "phrase": "supply chain resilience",
+      "meaning": "공급망 회복력/자립성"
+     },
+     {
+      "phrase": "rare earth elements (REE) separation and purification technology",
+      "meaning": "희토류 원소 분리·정제 기술"
+     },
+     {
+      "phrase": "strategic sourcing of critical minerals",
+      "meaning": "핵심광물의 전략적 조달"
+     },
+     {
+      "phrase": "domestic processing infrastructure",
+      "meaning": "국내 처리 인프라"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "fce5662fbe",
+    "title": "Pentagon backs ReElement Technologies with US$25M investment to expand domestic critical minerals processing capacity - Project Blue",
+    "url": "https://projectblue.com/blue?article=1613&type=blueview",
+    "source": "Project Blue - via Google News",
+    "tier_weight": 5,
+    "score": 13,
+    "published": "2026-07-23",
+    "korean_summary": [
+     "[본문 미확보] 미 국방부, ReElement Technologies에 US$25M 투자해 자국 내 핵심광물 가공 역량 확대를 지원함",
+     "2026년 7월 13일 US Department of War(DoW)가 희토류 스타트업 ReElement에 US$25M 직접 투자를 발표했음"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "핵심광물",
+     "정제",
+     "직접투자",
+     "미국"
+    ],
+    "ai_processed": true,
+    "card_id": "3b6df52ef30c",
+    "basis": "lead",
+    "body_status": "lead_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Pentagon backs ReElement Technologies with US$25M investment to expand domestic critical minerals processing capacity&nbsp;&nbsp;Project Blue",
+    "english_phrases": [
+     {
+      "phrase": "direct investment",
+      "meaning": "직접 투자"
+     },
+     {
+      "phrase": "refining capacity",
+      "meaning": "정제 역량"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "0a35576cdd81",
+   "title": "USA Rare Earth seals deal to buy stake in French processor Carester - Reuters",
+   "title_norm": "usa rare earth seals deal to buy stake in french processor carester",
+   "url": "https://reuters.com/business/usa-rare-earth-seals-deal-buy-stake-french-processor-carester-2026-07-23",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVENlS1ZyOUdZZzg0TGRmMEVpdXFCVjdYUDB6RXN6M29Zc1F4aTZBLXNHRHhzQjN3cFBpQ2hERzdZX0xLNFpRaDZyUEdtaFlpRTl6N1JGYWdBTVNETkpORmJvS3ZaWjZxeTBvcVFhMVRobE4zWnlaRnpzU3AwNmFLbGRIeUR5dXQtdjJWUEZRQTVWUmRFZ24wSldlZ3B2dURaTDhFemtmeXFBUQ?oc=5",
+   "source": {
+    "name": "Reuters - via Google News",
+    "domain": "reuters.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-07-23",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:40:21+00:00",
+   "score": 7,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "skipped",
+    "http_status": null,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": null,
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "USA Rare Earth가 프랑스 가공업체 Carester 지분 인수 계약을 체결했음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "지분 인수",
+     "가공",
+     "프랑스",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "seals deal",
+      "meaning": "계약을 체결하다"
+     },
+     {
+      "phrase": "stake",
+      "meaning": "지분"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:40:23+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "732a562837",
+     "v1_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVENlS1ZyOUdZZzg0TGRmMEVpdXFCVjdYUDB6RXN6M29Zc1F4aTZBLXNHRHhzQjN3cFBpQ2hERzdZX0xLNFpRaDZyUEdtaFlpRTl6N1JGYWdBTVNETkpORmJvS3ZaWjZxeTBvcVFhMVRobE4zWnlaRnpzU3AwNmFLbGRIeUR5dXQtdjJWUEZRQTVWUmRFZ24wSldlZ3B2dURaTDhFemtmeXFBUQ?oc=5",
+     "summary_raw": "USA Rare Earth seals deal to buy stake in French processor Carester&nbsp;&nbsp;Reuters"
+    }
+   },
+   "v1": {
+    "korean_summary": "미국의 USA Rare Earth가 프랑스의 희토류 처리업체 Carester의 지분을 인수하는 거래를 체결함으로써 북미 희토류 공급망 다원화를 추진하고 있습니다. 이는 미국이 중국 의존도를 낮추고 우방국과의 핵심광물 협력 체계를 강화하려는 전략적 움직임으로 평가됩니다. 향후 미국-유럽 간 희토류 처리 기술 협력과 상호 보급 확대가 전망되고 있습니다.",
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "공급망 안보",
+     "미국-프랑스"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "supply chain diversification of critical minerals",
+      "meaning": "핵심광물 공급망 다원화"
+     },
+     {
+      "phrase": "rare earth processing capacity",
+      "meaning": "희토류 처리 설비 확충"
+     },
+     {
+      "phrase": "strategic partnership for critical mineral security",
+      "meaning": "핵심광물 안보를 위한 전략적 파트너십"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "732a562837",
+    "title": "USA Rare Earth seals deal to buy stake in French processor Carester - Reuters",
+    "url": "https://reuters.com/business/usa-rare-earth-seals-deal-buy-stake-french-processor-carester-2026-07-23",
+    "source": "Reuters - via Google News",
+    "tier_weight": 3,
+    "score": 7,
+    "published": "2026-07-23",
+    "korean_summary": [
+     "[제목 기반] USA Rare Earth가 프랑스 가공업체 Carester 지분 인수 계약을 체결했음"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "지분 인수",
+     "가공",
+     "프랑스",
+     "미국"
+    ],
+    "ai_processed": true,
+    "card_id": "0a35576cdd81",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "USA Rare Earth seals deal to buy stake in French processor Carester&nbsp;&nbsp;Reuters",
+    "english_phrases": [
+     {
+      "phrase": "seals deal",
+      "meaning": "계약을 체결하다"
+     },
+     {
+      "phrase": "stake",
+      "meaning": "지분"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "bbc35662f934",
+   "title": "Critical mineral refiner Nth Cycle to list on NYSE in $585m SPAC deal - Mining Weekly",
+   "title_norm": "critical mineral refiner nth cycle to list on nyse in 585m spac deal",
+   "url": "https://miningweekly.com/article/critical-mineral-refiner-nth-cycle-to-list-on-nyse-in-585m-spac-deal-2026-07-23",
+   "gnews_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZ0VFMGhCLTltbFBHaU9LTUhRLXg0a2JmNFFJaDZkRzdOUUtfZlNDeXJmVnBCVTlWcjM5MW82RHlUQW9nUExhV1h1V2ktamhEVVNjZHM5cC1zellVYWI1WWY5YkpISEVzZXZtMnFWRWZDV3BPblFTclkyMG0zVkNyR0hxTnpZa3VXczRVYVA0WGowNklRRC1DdTVFNFVYbVFaMTRDbl9BSWlwWHRydk5xLWZoWEhXVWs?oc=5",
+   "source": {
+    "name": "Mining Weekly - via Google News",
+    "domain": "miningweekly.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-07-23",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:40:24+00:00",
+   "score": 7,
+   "body": {
+    "status": "full",
+    "chars": 3054,
+    "sha256": "d4348d513d1bdb078f0924e5bb91bf84aec57bdad01a092ff57eb4f848bf42e8",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-07-23",
+    "quotes": [
+     "Critical mineral refiner Nth Cycle to list on NYSE in $585m SPAC deal",
+     "The merger will value Nth Cycle at an enterprise value of $585-million."
+    ],
+    "final_url": "https://www.miningweekly.com/article/critical-mineral-refiner-nth-cycle-to-list-on-nyse-in-585m-spac-deal-2026-07-23",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "미국 핵심광물 정련업체 Nth Cycle이 SPAC인 Kensington Capital Acquisition과 합병해 NYSE에 상장한다고 밝혔음",
+     "합병 기업가치는 $585-million이며, 신탁계좌 최대 $230-million과 PIPE 최대 $100-million이 예상됨",
+     "조달 자금은 정련 능력 확대와 가공 핵심광물에 대한 서방의 중국 의존 축소에 쓸 계획임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "$585-million",
+     "$230-million",
+     "$100-million"
+    ],
+    "quotes": [
+     "Critical mineral refiner Nth Cycle to list on NYSE in $585m SPAC deal",
+     "The merger will value Nth Cycle at an enterprise value of $585-million."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "정련",
+     "SPAC",
+     "NYSE",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "special purpose acquisition company (SPAC)",
+      "meaning": "기업인수목적회사, 합병을 통해 비상장사를 상장시키는 목적의 회사"
+     },
+     {
+      "phrase": "enterprise value",
+      "meaning": "기업가치"
+     },
+     {
+      "phrase": "private investment in public equity",
+      "meaning": "상장사 지분에 대한 사모 투자(PIPE)"
+     },
+     {
+      "phrase": "modular electro-extraction system",
+      "meaning": "모듈형 전해 추출 시스템"
+     }
+    ],
+    "implication": "미국 정련 스타트업이 SPAC 상장으로 자금을 확보해 가공 핵심광물의 중국 의존을 줄이려는 서방 정련 투자 흐름을 보여줌"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 3054,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:40:36+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 4줄)"
+    ],
+    "retry_tails": [
+     ": \"modular electro-extraction system\", \"meaning\": \"모듈형 전해 추출 시스템\"}\n  ],\n  \"implication\": \"미국 정련 스타트업이 SPAC 상장으로 자금을 확보해 가공 핵심광물의 중국 의존을 줄이려는 서방 정련 투자 흐름을 보여줌\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "dd6d2b12fd",
+     "v1_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZ0VFMGhCLTltbFBHaU9LTUhRLXg0a2JmNFFJaDZkRzdOUUtfZlNDeXJmVnBCVTlWcjM5MW82RHlUQW9nUExhV1h1V2ktamhEVVNjZHM5cC1zellVYWI1WWY5YkpISEVzZXZtMnFWRWZDV3BPblFTclkyMG0zVkNyR0hxTnpZa3VXczRVYVA0WGowNklRRC1DdTVFNFVYbVFaMTRDbl9BSWlwWHRydk5xLWZoWEhXVWs?oc=5",
+     "summary_raw": "Critical mineral refiner Nth Cycle to list on NYSE in $585m SPAC deal&nbsp;&nbsp;Mining Weekly"
+    }
+   },
+   "v1": {
+    "korean_summary": "핵심광물 정제 전문 기업 Nth Cycle이 5억 8,500만 달러 규모의 SPAC 인수합병을 통해 뉴욕증권거래소(NYSE)에 상장할 예정으로 확인되었습니다. 본 거래는 핵심광물 공급망의 자국화 및 정제 기술 확보의 전략적 중요성을 반영하는 사례로 평가됩니다. 향후 북미 지역의 핵심광물 자원 개발과 정련산업의 활성화가 가속화될 것으로 전망됩니다.",
+    "category": "supply_chain",
+    "tags": [
+     "핵심광물",
+     "정련기술",
+     "자본시장"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical mineral refiner",
+      "meaning": "핵심광물 정제업체/정련업체"
+     },
+     {
+      "phrase": "SPAC deal (Special Purpose Acquisition Company)",
+      "meaning": "특수목적인수회사를 통한 기업공개"
+     },
+     {
+      "phrase": "list on NYSE",
+      "meaning": "뉴욕증권거래소에 상장하다"
+     },
+     {
+      "phrase": "supply chain security",
+      "meaning": "공급망 안정성/보안"
+     },
+     {
+      "phrase": "downstream processing capability",
+      "meaning": "후공정 처리 역량/정련 기술력"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "dd6d2b12fd",
+    "title": "Critical mineral refiner Nth Cycle to list on NYSE in $585m SPAC deal - Mining Weekly",
+    "url": "https://miningweekly.com/article/critical-mineral-refiner-nth-cycle-to-list-on-nyse-in-585m-spac-deal-2026-07-23",
+    "source": "Mining Weekly - via Google News",
+    "tier_weight": 3,
+    "score": 7,
+    "published": "2026-07-23",
+    "korean_summary": [
+     "미국 핵심광물 정련업체 Nth Cycle이 SPAC인 Kensington Capital Acquisition과 합병해 NYSE에 상장한다고 밝혔음",
+     "합병 기업가치는 $585-million이며, 신탁계좌 최대 $230-million과 PIPE 최대 $100-million이 예상됨",
+     "조달 자금은 정련 능력 확대와 가공 핵심광물에 대한 서방의 중국 의존 축소에 쓸 계획임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "정련",
+     "SPAC",
+     "NYSE",
+     "미국"
+    ],
+    "ai_processed": true,
+    "card_id": "bbc35662f934",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "$585-million",
+     "$230-million",
+     "$100-million"
+    ],
+    "quotes": [
+     "Critical mineral refiner Nth Cycle to list on NYSE in $585m SPAC deal",
+     "The merger will value Nth Cycle at an enterprise value of $585-million."
+    ],
+    "summary_raw": "Critical mineral refiner Nth Cycle to list on NYSE in $585m SPAC deal&nbsp;&nbsp;Mining Weekly",
+    "english_phrases": [
+     {
+      "phrase": "special purpose acquisition company (SPAC)",
+      "meaning": "기업인수목적회사, 합병을 통해 비상장사를 상장시키는 목적의 회사"
+     },
+     {
+      "phrase": "enterprise value",
+      "meaning": "기업가치"
+     },
+     {
+      "phrase": "private investment in public equity",
+      "meaning": "상장사 지분에 대한 사모 투자(PIPE)"
+     },
+     {
+      "phrase": "modular electro-extraction system",
+      "meaning": "모듈형 전해 추출 시스템"
+     }
+    ],
+    "implication": "미국 정련 스타트업이 SPAC 상장으로 자금을 확보해 가공 핵심광물의 중국 의존을 줄이려는 서방 정련 투자 흐름을 보여줌",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "8d90db3c71d4",
+   "title": "Chinese firms help Zimbabwe secure $300m for lithium mine - Mining Weekly",
+   "title_norm": "chinese firms help zimbabwe secure 300m for lithium mine",
+   "url": "https://miningweekly.com/article/chinese-firms-help-zimbabwe-secure-300m-for-lithium-mine-2026-07-23",
+   "gnews_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMzJKLW5aZm9JQzQ3ekRPYks2bktyMVdDSGpWanoxLTFXRHdLdC1Tbmg5ejFIWmhoR3h3dmNUYmQ5ZHFUZmFZMU5VSHQxTnQwVmN6ajZsREdzOV9oWDlua1JPY2FCT2FaSS0xTUNnclExaktnU0JSdDRIbmMtQnhtaUUtS0JNOTFRbDZvMGw1STBPbXVjTGhtTG1abGF5N2N1bU5HT2drQQ?oc=5",
+   "source": {
+    "name": "Mining Weekly - via Google News",
+    "domain": "miningweekly.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-07-23",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:40:37+00:00",
+   "score": 7,
+   "body": {
+    "status": "full",
+    "chars": 3528,
+    "sha256": "c8da73aa6318526509b193a6374146caa228b05176d62c7962fed48c2e3e4201",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-07-23",
+    "quotes": [
+     "Chinese firms help Zimbabwe secure $300m for lithium mine",
+     "Mutapa Energy Resources, Zimbabwe’s State-owned lithium miner, has secured $300-million from a group of companies, which includes Chinese entities, to develop its facilities in the Southern African nation."
+    ],
+    "final_url": "https://www.miningweekly.com/article/chinese-firms-help-zimbabwe-secure-300m-for-lithium-mine-2026-07-23",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "짐바브웨 국영 리튬 광산업체 Mutapa Energy Resources가 중국 기업 포함 그룹으로부터 자금을 확보했음",
+     "확보 금액은 $300-million이며, CEO Innocent Rukweza가 \"It’s a done deal\"이라고 밝혔음",
+     "짐바브웨는 리튬 정광 선적을 중단하고 자국 내 가공 확대를 추진하고 있음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "$300-million",
+     "two-million tons",
+     "3 million tons"
+    ],
+    "quotes": [
+     "Chinese firms help Zimbabwe secure $300m for lithium mine",
+     "Mutapa Energy Resources, Zimbabwe’s State-owned lithium miner, has secured $300-million from a group of companies, which includes Chinese entities, to develop its facilities in the Southern African nation."
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "짐바브웨",
+     "중국",
+     "정광 선적 중단",
+     "국영기업"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "It’s a done deal",
+      "meaning": "이미 확정된 사안임"
+     },
+     {
+      "phrase": "lithium concentrate",
+      "meaning": "리튬 정광"
+     },
+     {
+      "phrase": "lithium sulphate",
+      "meaning": "황산리튬(배터리급 화학물질 제조용 중간재)"
+     },
+     {
+      "phrase": "domestic processing",
+      "meaning": "자국 내 가공"
+     }
+    ],
+    "implication": "짐바브웨는 세계 채굴 생산량의 약 10%를 차지하는 공급국인데, 정광 선적 중단과 자국 내 가공 추진으로 리튬 원료 공급 방식이 달라지고 있음."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 3528,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:40:50+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 4줄)"
+    ],
+    "retry_tails": [
+     "},\n    {\"phrase\": \"domestic processing\", \"meaning\": \"자국 내 가공\"}\n  ],\n  \"implication\": \"짐바브웨는 세계 채굴 생산량의 약 10%를 차지하며 정광 선적을 중단하고 자국 내 가공을 추진해 리튬 공급 구조 변화가 예상됨.\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "fdde97b0be",
+     "v1_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMzJKLW5aZm9JQzQ3ekRPYks2bktyMVdDSGpWanoxLTFXRHdLdC1Tbmg5ejFIWmhoR3h3dmNUYmQ5ZHFUZmFZMU5VSHQxTnQwVmN6ajZsREdzOV9oWDlua1JPY2FCT2FaSS0xTUNnclExaktnU0JSdDRIbmMtQnhtaUUtS0JNOTFRbDZvMGw1STBPbXVjTGhtTG1abGF5N2N1bU5HT2drQQ?oc=5",
+     "summary_raw": "Chinese firms help Zimbabwe secure $300m for lithium mine&nbsp;&nbsp;Mining Weekly"
+    }
+   },
+   "v1": {
+    "korean_summary": "짐바브웨가 중국 기업들의 지원으로 리튬광산 개발에 3억 달러 규모의 자금 조달에 성공한 것으로 확인되었습니다. 이는 아프리카의 핵심광물 개발에 중국 자본의 영향력이 확대되고 있음을 보여주는 사례로 평가됩니다. 향후 아프리카 지역 리튬 공급 능력 강화와 함께 글로벌 핵심광물 공급망 재편이 가속화될 전망입니다.",
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "핵심광물 공급망",
+     "짐바브웨"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals supply chain diversification",
+      "meaning": "핵심광물 공급망 다원화"
+     },
+     {
+      "phrase": "Chinese investment in African lithium projects",
+      "meaning": "아프리카 리튬 프로젝트에 대한 중국 투자"
+     },
+     {
+      "phrase": "securing mineral resources through strategic partnerships",
+      "meaning": "전략적 파트너십을 통한 광물자원 확보"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "fdde97b0be",
+    "title": "Chinese firms help Zimbabwe secure $300m for lithium mine - Mining Weekly",
+    "url": "https://miningweekly.com/article/chinese-firms-help-zimbabwe-secure-300m-for-lithium-mine-2026-07-23",
+    "source": "Mining Weekly - via Google News",
+    "tier_weight": 3,
+    "score": 7,
+    "published": "2026-07-23",
+    "korean_summary": [
+     "짐바브웨 국영 리튬 광산업체 Mutapa Energy Resources가 중국 기업 포함 그룹으로부터 자금을 확보했음",
+     "확보 금액은 $300-million이며, CEO Innocent Rukweza가 \"It’s a done deal\"이라고 밝혔음",
+     "짐바브웨는 리튬 정광 선적을 중단하고 자국 내 가공 확대를 추진하고 있음"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "짐바브웨",
+     "중국",
+     "정광 선적 중단",
+     "국영기업"
+    ],
+    "ai_processed": true,
+    "card_id": "8d90db3c71d4",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "$300-million",
+     "two-million tons",
+     "3 million tons"
+    ],
+    "quotes": [
+     "Chinese firms help Zimbabwe secure $300m for lithium mine",
+     "Mutapa Energy Resources, Zimbabwe’s State-owned lithium miner, has secured $300-million from a group of companies, which includes Chinese entities, to develop its facilities in the Southern African nation."
+    ],
+    "summary_raw": "Chinese firms help Zimbabwe secure $300m for lithium mine&nbsp;&nbsp;Mining Weekly",
+    "english_phrases": [
+     {
+      "phrase": "It’s a done deal",
+      "meaning": "이미 확정된 사안임"
+     },
+     {
+      "phrase": "lithium concentrate",
+      "meaning": "리튬 정광"
+     },
+     {
+      "phrase": "lithium sulphate",
+      "meaning": "황산리튬(배터리급 화학물질 제조용 중간재)"
+     },
+     {
+      "phrase": "domestic processing",
+      "meaning": "자국 내 가공"
+     }
+    ],
+    "implication": "짐바브웨는 세계 채굴 생산량의 약 10%를 차지하는 공급국인데, 정광 선적 중단과 자국 내 가공 추진으로 리튬 원료 공급 방식이 달라지고 있음.",
+    "trial": false
+   },
+   "trial": false
+  }
+ ],
+ "excluded": [],
+ "v1_file": "week-2026-07-26.json",
+ "v1_metrics": {
+  "articles": 12,
+  "original_link": 0,
+  "body_based": 0,
+  "failed": 0
+ },
+ "trial": false
+}

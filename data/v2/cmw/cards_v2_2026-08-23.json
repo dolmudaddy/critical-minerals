@@ -1,0 +1,2055 @@
+{
+ "schema_version": "card.v1",
+ "service": "cmw",
+ "week_of": "2026-08-23",
+ "generated_at": "2026-10-19T05:48:39+00:00",
+ "mincore_version": "0.3.6",
+ "model": "claude-sonnet-5-5",
+ "prompt_version": "v2.2",
+ "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+ "stats": {
+  "v1_articles": 12,
+  "cards": 12,
+  "excluded": 0,
+  "body_got": 7,
+  "body_rate": 0.583,
+  "original_link": 12,
+  "reader_proxy_used": 0,
+  "line_len": {
+   "lines": 29,
+   "median": 55,
+   "max": 83,
+   "over60": 10,
+   "over100": 0
+  },
+  "oda_filled": 6,
+  "usage": {
+   "claude-sonnet-5-5": {
+    "calls": 14,
+    "in": 34789,
+    "out": 10484
+   }
+  },
+  "cost_usd": 0.2616,
+  "body_status": {
+   "title_only": 2,
+   "full": 7,
+   "lead_only": 3
+  },
+  "body_source": {
+   "none": 2,
+   "trafilatura": 8,
+   "og_description": 2
+  },
+  "resolve": {
+   "decoder": 10,
+   "direct": 2
+  },
+  "fail_reason": {},
+  "basis": {
+   "title": 2,
+   "body": 7,
+   "lead": 3
+  },
+  "retry_reason": {
+   "JSON 파싱 실패: 문법 오류(Expecting ',' delimiter, 위치 275)": 1,
+   "lines는 3줄이어야 함 (현재 4줄)": 1
+  },
+  "flags": {},
+  "model_used": {
+   "claude-sonnet-5-5": 12
+  }
+ },
+ "total": 12,
+ "cards": [
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "7884cffb1f0d",
+   "title": "Japan proposes giving state body JOGMEC more freedom to invest in critical minerals - Reuters",
+   "title_norm": "japan proposes giving state body jogmec more freedom to invest in critical minerals",
+   "url": "https://reuters.com/world/asia-pacific/japan-proposes-giving-state-body-jogmec-more-freedom-invest-critical-minerals-2026-08-20",
+   "gnews_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUjZ3T045UkhnbHlVT1ZxVUgyXzU2S0dyUU43RU9NSnZLVlJyS2J4am5VMTBYRjRrWjJHaUxnblI0NUc5RWR0UVpWVlJCSW5Wd2ZrblR4R2VRMDBJRmVxZ3h2OXRGaFRHczRoZXEtQ1I0WXAwcW8xbGgyWVdUSlJjYnF1YmhacHJsSThfdmg5ZWxKVUNqUjRrVGp2VzNmbEk3bVZEeEpJcldLS2lwTWh1Qko4UjNzQ1plLVE5NVpWdnk5U2d2NG9MOXN2U3U?oc=5",
+   "source": {
+    "name": "Reuters - via Google News",
+    "domain": "reuters.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-08-20",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:47:06+00:00",
+   "score": 9,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "skipped",
+    "http_status": null,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": null,
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "일본, 국영기관 JOGMEC의 핵심광물 투자 재량을 확대하는 방안을 제안했음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "JOGMEC",
+     "투자 확대",
+     "일본"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "JOGMEC",
+      "meaning": "제목에 나온 일본의 국영기관 명칭"
+     },
+     {
+      "phrase": "critical minerals",
+      "meaning": "핵심광물"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:47:08+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "8330715687",
+     "v1_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUjZ3T045UkhnbHlVT1ZxVUgyXzU2S0dyUU43RU9NSnZLVlJyS2J4am5VMTBYRjRrWjJHaUxnblI0NUc5RWR0UVpWVlJCSW5Wd2ZrblR4R2VRMDBJRmVxZ3h2OXRGaFRHczRoZXEtQ1I0WXAwcW8xbGgyWVdUSlJjYnF1YmhacHJsSThfdmg5ZWxKVUNqUjRrVGp2VzNmbEk3bVZEeEpJcldLS2lwTWh1Qko4UjNzQ1plLVE5NVpWdnk5U2d2NG9MOXN2U3U?oc=5",
+     "summary_raw": "Japan proposes giving state body JOGMEC more freedom to invest in critical minerals&nbsp;&nbsp;Reuters"
+    }
+   },
+   "v1": {
+    "korean_summary": "일본 정부가 국영 자원개발회사 JOGMEC의 핵심광물 투자 자율성 확대를 추진 중으로 확인되었습니다. 이는 공급망 위험 감소 및 에너지 안보 강화를 목표로 하는 정책으로 평가됩니다. 아시아 주요국의 핵심광물 확보 경쟁이 심화될 전망입니다.",
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "자원정책",
+     "일본"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "give state body more freedom to invest in critical minerals",
+      "meaning": "국영기관에 핵심광물 투자 자율성 부여"
+     },
+     {
+      "phrase": "critical minerals supply chain diversification",
+      "meaning": "핵심광물 공급망 다각화"
+     },
+     {
+      "phrase": "government-backed resource development strategy",
+      "meaning": "정부 지원 자원개발 전략"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "8330715687",
+    "title": "Japan proposes giving state body JOGMEC more freedom to invest in critical minerals - Reuters",
+    "url": "https://reuters.com/world/asia-pacific/japan-proposes-giving-state-body-jogmec-more-freedom-invest-critical-minerals-2026-08-20",
+    "source": "Reuters - via Google News",
+    "tier_weight": 3,
+    "score": 9,
+    "published": "2026-08-20",
+    "korean_summary": [
+     "[제목 기반] 일본, 국영기관 JOGMEC의 핵심광물 투자 재량을 확대하는 방안을 제안했음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "JOGMEC",
+     "투자 확대",
+     "일본"
+    ],
+    "ai_processed": true,
+    "card_id": "7884cffb1f0d",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Japan proposes giving state body JOGMEC more freedom to invest in critical minerals&nbsp;&nbsp;Reuters",
+    "english_phrases": [
+     {
+      "phrase": "JOGMEC",
+      "meaning": "제목에 나온 일본의 국영기관 명칭"
+     },
+     {
+      "phrase": "critical minerals",
+      "meaning": "핵심광물"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "87aefeecb722",
+   "title": "Rare earths explorer NIOB granted wider area for exploration in Québec - Mining Weekly",
+   "title_norm": "rare earths explorer niob granted wider area for exploration in québec",
+   "url": "https://miningweekly.com/article/rare-earths-explorer-niob-granted-wider-area-for-exploration-in-qubec-2026-08-21",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNY3JMUDBEa1lnbl9FNnZGSWwyTXhfeERIMi11bzlzMkFUd0M4R2tKZUpjR2QxalYzY2oydzdVSEdvSVpxa1RlV0JvQUhUeTROekpjRXVZVUhuNF9vNFpOdVp6NzIzX2FZRVhqLXVLbGE4U3FIRXBrUUdxQm9jdTRDLS0tVmc2SmdKeHp6UVBZUmd3Z3dIeUpXR3NETGJjQW9Xak9YM1N4UnlFUU9YOVF1X0pWOUNrNGxL?oc=5",
+   "source": {
+    "name": "Mining Weekly - via Google News",
+    "domain": "miningweekly.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-08-21",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:47:09+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 3142,
+    "sha256": "db0799db1979491d88c69ea30c8348349f46f7eecb0ebd7754aa00c326b90e84",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-08-21",
+    "quotes": [
+     "Rare earths explorer NIOB granted wider area for exploration in Québec",
+     "The company has already logged more than 66 m of cumulative pegmatite hosting rare earth-bearing minerals at Blanchette and a pegmatite dyke-swarm system with rare earth-bearing minerals at Bardy."
+    ],
+    "final_url": "https://www.miningweekly.com/article/rare-earths-explorer-niob-granted-wider-area-for-exploration-in-qubec-2026-08-21",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "캐나다·프랑크푸르트 상장사 NIOB가 퀘벡 첫 다이아몬드 시추 계획을 확대했음",
+     "2026년 시추 계획을 3 500 m 늘려 6개 광권 전체 8 500 m로 확대했음",
+     "Bardy SE·Sabot·Miskam의 11개 시추 구역에 각 3년 유효한 탐사 허가를 받았음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "3 500 m",
+     "8 500 m",
+     "66 m"
+    ],
+    "quotes": [
+     "Rare earths explorer NIOB granted wider area for exploration in Québec",
+     "The company has already logged more than 66 m of cumulative pegmatite hosting rare earth-bearing minerals at Blanchette and a pegmatite dyke-swarm system with rare earth-bearing minerals at Bardy."
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "희토류",
+     "탐사",
+     "시추",
+     "퀘벡",
+     "캐나다"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "maiden diamond drill programme",
+      "meaning": "첫 다이아몬드 시추 프로그램"
+     },
+     {
+      "phrase": "impact-causing exploration work",
+      "meaning": "영향을 유발하는 탐사 작업"
+     },
+     {
+      "phrase": "pegmatite dyke-swarm system",
+      "meaning": "페그마타이트 암맥군 시스템"
+     },
+     {
+      "phrase": "airborne radiometric and magnetic survey",
+      "meaning": "항공 방사능·자력 탐사"
+     }
+    ],
+    "implication": "퀘벡 희토류 탐사 단계의 사업이 허가 확보로 시추 규모를 키우며 캐나다 내 희토류 자원 확인 작업이 진전되고 있음을 보여줌."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 3142,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:47:20+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "b5d7757973",
+     "v1_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNY3JMUDBEa1lnbl9FNnZGSWwyTXhfeERIMi11bzlzMkFUd0M4R2tKZUpjR2QxalYzY2oydzdVSEdvSVpxa1RlV0JvQUhUeTROekpjRXVZVUhuNF9vNFpOdVp6NzIzX2FZRVhqLXVLbGE4U3FIRXBrUUdxQm9jdTRDLS0tVmc2SmdKeHp6UVBZUmd3Z3dIeUpXR3NETGJjQW9Xak9YM1N4UnlFUU9YOVF1X0pWOUNrNGxL?oc=5",
+     "summary_raw": "Rare earths explorer NIOB granted wider area for exploration in Québec&nbsp;&nbsp;Mining Weekly"
+    }
+   },
+   "v1": {
+    "korean_summary": "희토류 탐사 기업 NIOB이 캐나다 퀘벡 지역에서 탐사 구역의 확대 승인을 획득하였으며, 이는 북미의 핵심광물 공급망 다변화 전략의 일환으로 평가됨. 퀘벡 지역의 풍부한 희토류 광물 자원은 전기차·재생에너지 등 첨단산업 수요 충족에 기여할 것으로 전망됨. 이번 탐사 구역 확대는 중국에 대한 희토류 의존도를 완화하고 서방권 공급망 자립화를 강화하는 데 중요한 의미를 지님.",
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "탐사확대",
+     "캐나다 퀘벡"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "rare earths explorer",
+      "meaning": "희토류 탐사·개발 기업"
+     },
+     {
+      "phrase": "granted wider area for exploration",
+      "meaning": "확대된 탐사 구역 승인을 획득하다"
+     },
+     {
+      "phrase": "critical minerals supply chain diversification",
+      "meaning": "핵심광물 공급망 다변화"
+     },
+     {
+      "phrase": "resource potential assessment",
+      "meaning": "광물자원 부존량 평가"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "b5d7757973",
+    "title": "Rare earths explorer NIOB granted wider area for exploration in Québec - Mining Weekly",
+    "url": "https://miningweekly.com/article/rare-earths-explorer-niob-granted-wider-area-for-exploration-in-qubec-2026-08-21",
+    "source": "Mining Weekly - via Google News",
+    "tier_weight": 3,
+    "score": 9,
+    "published": "2026-08-21",
+    "korean_summary": [
+     "캐나다·프랑크푸르트 상장사 NIOB가 퀘벡 첫 다이아몬드 시추 계획을 확대했음",
+     "2026년 시추 계획을 3 500 m 늘려 6개 광권 전체 8 500 m로 확대했음",
+     "Bardy SE·Sabot·Miskam의 11개 시추 구역에 각 3년 유효한 탐사 허가를 받았음"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "희토류",
+     "탐사",
+     "시추",
+     "퀘벡",
+     "캐나다"
+    ],
+    "ai_processed": true,
+    "card_id": "87aefeecb722",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "3 500 m",
+     "8 500 m",
+     "66 m"
+    ],
+    "quotes": [
+     "Rare earths explorer NIOB granted wider area for exploration in Québec",
+     "The company has already logged more than 66 m of cumulative pegmatite hosting rare earth-bearing minerals at Blanchette and a pegmatite dyke-swarm system with rare earth-bearing minerals at Bardy."
+    ],
+    "summary_raw": "Rare earths explorer NIOB granted wider area for exploration in Québec&nbsp;&nbsp;Mining Weekly",
+    "english_phrases": [
+     {
+      "phrase": "maiden diamond drill programme",
+      "meaning": "첫 다이아몬드 시추 프로그램"
+     },
+     {
+      "phrase": "impact-causing exploration work",
+      "meaning": "영향을 유발하는 탐사 작업"
+     },
+     {
+      "phrase": "pegmatite dyke-swarm system",
+      "meaning": "페그마타이트 암맥군 시스템"
+     },
+     {
+      "phrase": "airborne radiometric and magnetic survey",
+      "meaning": "항공 방사능·자력 탐사"
+     }
+    ],
+    "implication": "퀘벡 희토류 탐사 단계의 사업이 허가 확보로 시추 규모를 키우며 캐나다 내 희토류 자원 확인 작업이 진전되고 있음을 보여줌.",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "70332ce574a7",
+   "title": "Antimony – the US responds to high prices - Project Blue",
+   "title_norm": "antimony the us responds to high prices",
+   "url": "https://projectblue.com/blue?article=1098&type=blueview&title=antimony-the-us-responds-to-high-prices",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUlpndEFzV0E4eXRLeVlPYkNhVnFSM2poYkpaTUpMQ2syZHhLaUFYS18tTmdjRm5lVGgtWW1yYTVreXY0azBtemRxX2FsUXRReXJNcEhqaElPX2ljVUlzU3llQmYxYktRM0VJbXNUeU9BLU9FSi10VFdPUkl2aksyblVxY0JOZGJJdEtRMGRidHlNdnBwaVI4R1JHekxqM2kzcVU4?oc=5",
+   "source": {
+    "name": "Project Blue - via Google News",
+    "domain": "projectblue.com",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-08-21",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:47:23+00:00",
+   "score": 9,
+   "body": {
+    "status": "lead_only",
+    "chars": 190,
+    "sha256": "572edd0b282625c0c5d45e318814be22100896c8df575f834e69d53aad8b6597",
+    "source": "og_description",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": "2026-03-11",
+    "quotes": [
+     "Antimony prices in December 2024 were up around 250% y-o-y in Europe and the USA, diverging from domestic China prices (over 70% y-o-y) in the wake of export restrictions announced in China."
+    ],
+    "final_url": "https://projectblue.com/blue?article=1098&type=blueview&title=antimony-the-us-responds-to-high-prices",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "안티모니, 미국이 높은 가격에 대응함 (Project Blue)",
+     "중국 수출 제한 발표 이후 2024년 12월 유럽·미국 안티모니 가격이 전년 대비 약 250% 올라 중국 내 가격(70% 초과 상승)과 괴리됐음"
+    ],
+    "basis": "lead",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "안티모니",
+     "가격 급등",
+     "수출 제한",
+     "중국",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "y-o-y",
+      "meaning": "전년 대비"
+     },
+     {
+      "phrase": "export restrictions",
+      "meaning": "수출 제한"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "lead_only",
+    "input_chars": 190,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:47:31+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "c14786d8ea",
+     "v1_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUlpndEFzV0E4eXRLeVlPYkNhVnFSM2poYkpaTUpMQ2syZHhLaUFYS18tTmdjRm5lVGgtWW1yYTVreXY0azBtemRxX2FsUXRReXJNcEhqaElPX2ljVUlzU3llQmYxYktRM0VJbXNUeU9BLU9FSi10VFdPUkl2aksyblVxY0JOZGJJdEtRMGRidHlNdnBwaVI4R1JHekxqM2kzcVU4?oc=5",
+     "summary_raw": "Antimony – the US responds to high prices&nbsp;&nbsp;Project Blue"
+    }
+   },
+   "v1": {
+    "korean_summary": "미국이 높아진 안티모니 가격에 대응하여 핵심광물 확보 전략을 추진 중인 것으로 확인되었습니다. 국내 생산 및 공급망 다층화를 통해 중국 의존도 감소를 목표로 하고 있는 상황입니다. 이러한 움직임은 글로벌 핵심광물 시장의 재편과 자급률 확대 추세를 반영하는 중요한 정책 신호로 판단됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "안티모니",
+     "공급망 다층화",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals supply chain resilience",
+      "meaning": "핵심광물 공급망 회복력"
+     },
+     {
+      "phrase": "domestic production capacity expansion",
+      "meaning": "국내 생산 능력 확대"
+     },
+     {
+      "phrase": "price volatility mitigation strategy",
+      "meaning": "가격 변동성 완화 전략"
+     },
+     {
+      "phrase": "strategic stockpiling initiative",
+      "meaning": "전략적 비축 이니셔티브"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "c14786d8ea",
+    "title": "Antimony – the US responds to high prices - Project Blue",
+    "url": "https://projectblue.com/blue?article=1098&type=blueview&title=antimony-the-us-responds-to-high-prices",
+    "source": "Project Blue - via Google News",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-08-21",
+    "korean_summary": [
+     "[본문 미확보] 안티모니, 미국이 높은 가격에 대응함 (Project Blue)",
+     "중국 수출 제한 발표 이후 2024년 12월 유럽·미국 안티모니 가격이 전년 대비 약 250% 올라 중국 내 가격(70% 초과 상승)과 괴리됐음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "안티모니",
+     "가격 급등",
+     "수출 제한",
+     "중국",
+     "미국"
+    ],
+    "ai_processed": true,
+    "card_id": "70332ce574a7",
+    "basis": "lead",
+    "body_status": "lead_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Antimony – the US responds to high prices&nbsp;&nbsp;Project Blue",
+    "english_phrases": [
+     {
+      "phrase": "y-o-y",
+      "meaning": "전년 대비"
+     },
+     {
+      "phrase": "export restrictions",
+      "meaning": "수출 제한"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "e2c2ea263c79",
+   "title": "SQM’s lithium division rides price recovery, bets on production flexibility - Project Blue",
+   "title_norm": "sqm s lithium division rides price recovery bets on production flexibility",
+   "url": "https://projectblue.com/blue?article=1651&type=blueview",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9oRWhGRWxyWlBzalU2aWd3YWR6LWtQQ19rUWYxakE2Z1YzNXgxRmRxY0FlX2k1UldRb211Um13WkRlaVVZMnFSQlM5dkFsekZiMnIwV2VXNVZOUFFOQmJ6TnM5SXI0UQ?oc=5",
+   "source": {
+    "name": "Project Blue - via Google News",
+    "domain": "projectblue.com",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-08-21",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:47:32+00:00",
+   "score": 9,
+   "body": {
+    "status": "lead_only",
+    "chars": 141,
+    "sha256": "418e60ec4a09c5eae1a3ebd077ee72e2b00dc85a3d9a8625e5e58673f881257a",
+    "source": "og_description",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": "2026-03-11",
+    "quotes": [
+     "SQM’s lithium and derivatives division reported total revenues in H1 2026 of US$2,965M, more than triple the US$948M recorded a year earlier."
+    ],
+    "final_url": "https://projectblue.com/blue?article=1651&type=blueview",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "SQM 리튬 부문이 가격 회복 흐름을 타고 생산 유연성에 베팅하고 있다고 Project Blue가 전했음",
+     "SQM 리튬·파생제품 부문의 2026년 상반기 총매출은 US$2,965M으로 전년 동기 US$948M의 3배를 넘었음"
+    ],
+    "basis": "lead",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "SQM",
+     "가격 회복",
+     "생산 유연성",
+     "실적"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "lithium and derivatives division",
+      "meaning": "리튬 및 파생제품 부문"
+     },
+     {
+      "phrase": "production flexibility",
+      "meaning": "생산 유연성"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "lead_only",
+    "input_chars": 141,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:47:34+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "26601f8f3d",
+     "v1_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9oRWhGRWxyWlBzalU2aWd3YWR6LWtQQ19rUWYxakE2Z1YzNXgxRmRxY0FlX2k1UldRb211Um13WkRlaVVZMnFSQlM5dkFsekZiMnIwV2VXNVZOUFFOQmJ6TnM5SXI0UQ?oc=5",
+     "summary_raw": "SQM’s lithium division rides price recovery, bets on production flexibility&nbsp;&nbsp;Project Blue"
+    }
+   },
+   "v1": {
+    "korean_summary": "SQM의 리튬 사업부가 가격 회복세를 바탕으로 생산 유연성 강화에 주력하고 있는 것으로 확인되었습니다. Project Blue 프로젝트를 통해 핵심광물 공급 안정화와 수익성 개선을 동시에 추구하고 있습니다. 글로벌 에너지 전환 시대에 핵심광물 생산자의 생산 전략 전환 추세를 보여주는 사례로 평가됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "생산 전략",
+     "칠레"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "production flexibility",
+      "meaning": "생산 유연성, 시장 수요 변화에 대응하기 위한 생산량 조절 능력"
+     },
+     {
+      "phrase": "price recovery",
+      "meaning": "가격 회복, 시장 가격의 상승 또는 정상화"
+     },
+     {
+      "phrase": "critical minerals supply chain",
+      "meaning": "핵심광물 공급망"
+     },
+     {
+      "phrase": "lithium division",
+      "meaning": "리튬 사업부"
+     },
+     {
+      "phrase": "strategic positioning",
+      "meaning": "전략적 위치 강화, 시장에서의 경쟁 우위 확보"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "26601f8f3d",
+    "title": "SQM’s lithium division rides price recovery, bets on production flexibility - Project Blue",
+    "url": "https://projectblue.com/blue?article=1651&type=blueview",
+    "source": "Project Blue - via Google News",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-08-21",
+    "korean_summary": [
+     "[본문 미확보] SQM 리튬 부문이 가격 회복 흐름을 타고 생산 유연성에 베팅하고 있다고 Project Blue가 전했음",
+     "SQM 리튬·파생제품 부문의 2026년 상반기 총매출은 US$2,965M으로 전년 동기 US$948M의 3배를 넘었음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "SQM",
+     "가격 회복",
+     "생산 유연성",
+     "실적"
+    ],
+    "ai_processed": true,
+    "card_id": "e2c2ea263c79",
+    "basis": "lead",
+    "body_status": "lead_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "SQM’s lithium division rides price recovery, bets on production flexibility&nbsp;&nbsp;Project Blue",
+    "english_phrases": [
+     {
+      "phrase": "lithium and derivatives division",
+      "meaning": "리튬 및 파생제품 부문"
+     },
+     {
+      "phrase": "production flexibility",
+      "meaning": "생산 유연성"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "3750e003974c",
+   "title": "Principal Consultant – Critical Minerals - S&P Global",
+   "title_norm": "principal consultant critical minerals",
+   "url": "https://careers.spglobal.com/RatingsForwardEarlyCareers/jobs/325101?lang=en-us",
+   "gnews_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcW94TzE5T0I1SE1meWhLSUNpR3plcjV2VkVwS0dCNjFpSHBhTm56VkIyVVhIbTZnZ25CY0RRZUQzVHF5U1ZzYjZub1ZxWS1PYTVQOEdXSmVEeDZETHltMWVOdWF3ZmxLSDlHOWJpc0YtZHlQUXVZWVZfc1B0T2tfNDZWR2g?oc=5",
+   "source": {
+    "name": "S&P Global - via Google News",
+    "domain": "careers.spglobal.com",
+    "tier": null,
+    "tier_weight": 4,
+    "language": null
+   },
+   "published": "2026-08-20",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:47:34+00:00",
+   "score": 8,
+   "body": {
+    "status": "full",
+    "chars": 1264,
+    "sha256": "c4489a8c25a8a525343ffc7b17cd092cb49e92ed707257c52b3ac7b41ae0adf0",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-10-15",
+    "quotes": [],
+    "final_url": "https://careers.spglobal.com/RatingsForwardEarlyCareers/jobs/325101?lang=en-us",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "본문은 핵심광물과 무관한 S&P Global의 코로나19 관련 단신 모음임",
+     "Dan Draper가 2020년 6월 15일부로 S&P Dow Jones Indices CEO를 맡고 Alexander Matturri는 퇴임 예정임",
+     "그 밖에 사이버보험, 항공우주, 석탄 업황을 다뤘으며 핵심광물 관련 후속 일정은 확인 불가임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "June 15, 2020",
+     "13 years"
+    ],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "S&P Global",
+     "코로나19",
+     "석탄",
+     "항공우주",
+     "CEO 선임"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "S&P Dow Jones Indices",
+      "meaning": "S&P 다우존스 지수(S&P Global의 지수 사업 부문)"
+     },
+     {
+      "phrase": "cyber insurance",
+      "meaning": "사이버 보험"
+     },
+     {
+      "phrase": "Essential Podcast",
+      "meaning": "S&P Global의 팟캐스트 프로그램명"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 1264,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:47:43+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "cc9a42d9ca",
+     "v1_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcW94TzE5T0I1SE1meWhLSUNpR3plcjV2VkVwS0dCNjFpSHBhTm56VkIyVVhIbTZnZ25CY0RRZUQzVHF5U1ZzYjZub1ZxWS1PYTVQOEdXSmVEeDZETHltMWVOdWF3ZmxLSDlHOWJpc0YtZHlQUXVZWVZfc1B0T2tfNDZWR2g?oc=5",
+     "summary_raw": "Principal Consultant – Critical Minerals&nbsp;&nbsp;S&amp;P Global"
+    }
+   },
+   "v1": {
+    "korean_summary": "S&P Global에서 핵심광물 분야의 Principal Consultant 직책 채용 공고를 발표했으며, 이는 글로벌 광물 공급망 분석 및 시장 조사 수요의 증대를 반영하는 것으로 확인되었습니다. 해당 직무는 핵심광물 시장 동향, 채광 프로젝트 평가, 지정학적 공급 리스크 분석 등을 담당하는 고위급 포지션으로 예상됩니다. 이는 국내 자원공학 전문가에게 글로벌 핵심광물 산업의 전문인력 수요 증가 추세를 시사하는 신호로 해석됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "공급망 분석",
+     "글로벌 시장"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Critical minerals supply chain analysis",
+      "meaning": "핵심광물 공급망 분석"
+     },
+     {
+      "phrase": "Geopolitical supply risk assessment",
+      "meaning": "지정학적 공급 리스크 평가"
+     },
+     {
+      "phrase": "Mining project evaluation and feasibility study",
+      "meaning": "채광 프로젝트 평가 및 타당성 조사"
+     },
+     {
+      "phrase": "Market intelligence and commodity forecasting",
+      "meaning": "시장 인텔리전스 및 광물 수급 예측"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "cc9a42d9ca",
+    "title": "Principal Consultant – Critical Minerals - S&P Global",
+    "url": "https://careers.spglobal.com/RatingsForwardEarlyCareers/jobs/325101?lang=en-us",
+    "source": "S&P Global - via Google News",
+    "tier_weight": 4,
+    "score": 8,
+    "published": "2026-08-20",
+    "korean_summary": [
+     "본문은 핵심광물과 무관한 S&P Global의 코로나19 관련 단신 모음임",
+     "Dan Draper가 2020년 6월 15일부로 S&P Dow Jones Indices CEO를 맡고 Alexander Matturri는 퇴임 예정임",
+     "그 밖에 사이버보험, 항공우주, 석탄 업황을 다뤘으며 핵심광물 관련 후속 일정은 확인 불가임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "S&P Global",
+     "코로나19",
+     "석탄",
+     "항공우주",
+     "CEO 선임"
+    ],
+    "ai_processed": true,
+    "card_id": "3750e003974c",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "June 15, 2020",
+     "13 years"
+    ],
+    "quotes": [],
+    "summary_raw": "Principal Consultant – Critical Minerals&nbsp;&nbsp;S&amp;P Global",
+    "english_phrases": [
+     {
+      "phrase": "S&P Dow Jones Indices",
+      "meaning": "S&P 다우존스 지수(S&P Global의 지수 사업 부문)"
+     },
+     {
+      "phrase": "cyber insurance",
+      "meaning": "사이버 보험"
+     },
+     {
+      "phrase": "Essential Podcast",
+      "meaning": "S&P Global의 팟캐스트 프로그램명"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "f0022d501ead",
+   "title": "Greenland Mines gets mineral exploration license for Safartoq project, stock surges",
+   "title_norm": "greenland mines gets mineral exploration license for safartoq project stock surges",
+   "url": "https://mining.com/greenland-mines-gets-mineral-exploration-license-for-sarfartoq-project-stock-surges",
+   "gnews_url": null,
+   "source": {
+    "name": "Mining.com",
+    "domain": "mining.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-08-21",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:47:43+00:00",
+   "score": 11,
+   "body": {
+    "status": "full",
+    "chars": 2291,
+    "sha256": "ef11be655a6116c21bb9e9f7d86311615f2f0442427deb80b7fb22ca065a875b",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-08-21",
+    "quotes": [
+     "As part of the deal, Neo Performance will receive offtake rights on up to 60% of future ore or mineral concentrate production from Sarfartoq.",
+     "Greenland Mines stock closed the day up over 22% on the NASDAQ."
+    ],
+    "final_url": "https://www.mining.com/greenland-mines-gets-mineral-exploration-license-for-sarfartoq-project-stock-surges/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Greenland Mines가 그린란드 정부로부터 Sarfartoq 탐사 라이선스 간접 이전을 승인받았음",
+     "인수가는 $35 million이며 Neo Performance Materials가 최대 60% 오프테이크 권리를 받음",
+     "승인 당일 NASDAQ 주가는 22% 넘게 올라 마감했고 시가총액은 $31.4 million임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "$35 million",
+     "up to 60%",
+     "1.77% TREO"
+    ],
+    "quotes": [
+     "As part of the deal, Neo Performance will receive offtake rights on up to 60% of future ore or mineral concentrate production from Sarfartoq.",
+     "Greenland Mines stock closed the day up over 22% on the NASDAQ."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "그린란드",
+     "탐사 라이선스",
+     "네오디뮴·프라세오디뮴",
+     "오프테이크"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "offtake rights",
+      "meaning": "향후 생산물을 우선 구매할 수 있는 권리"
+     },
+     {
+      "phrase": "carbonatite complex",
+      "meaning": "탄산염암 복합체(희토류 부존 지질체)"
+     },
+     {
+      "phrase": "Mineral Exploration License",
+      "meaning": "광물 탐사 라이선스"
+     },
+     {
+      "phrase": "Mineral Resource Estimate",
+      "meaning": "광물 자원량 추정"
+     }
+    ],
+    "implication": "그린란드 정부 승인으로 Nd-Pr 중심 희토류 프로젝트 인수가 진전되어, 서방 연계 희토류 공급원 개발과 오프테이크 구도가 구체화되고 있음."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 2291,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:47:57+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "381e13e997",
+     "v1_url": "https://www.mining.com/greenland-mines-gets-mineral-exploration-license-for-sarfartoq-project-stock-surges/",
+     "summary_raw": "The company has called Sarfartoq one of the island’s “most advanced and compelling rare earth projects\"."
+    }
+   },
+   "v1": {
+    "korean_summary": "그린란드 마인즈(Greenland Mines)가 사르파르토크 프로젝트에 대한 광물탐사 허가를 획득하였으며, 이는 그린란드 내 가장 선진화되고 경쟁력 있는 희토류 프로젝트로 평가되고 있음. 허가 획득 소식에 따라 해당 기업의 주가가 급등하였음. 이는 북극권 지역의 핵심광물 공급 다변화 및 에너지 전환 시대의 희토류 수급 안정성 강화에 기여할 것으로 전망됨.",
+    "category": "exploration_tech",
+    "tags": [
+     "희토류",
+     "광물탐사허가",
+     "그린란드"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "mineral exploration license",
+      "meaning": "광물탐사 허가"
+     },
+     {
+      "phrase": "rare earth project",
+      "meaning": "희토류 프로젝트"
+     },
+     {
+      "phrase": "most advanced and compelling",
+      "meaning": "가장 선진화되고 경쟁력 있는"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "381e13e997",
+    "title": "Greenland Mines gets mineral exploration license for Safartoq project, stock surges",
+    "url": "https://mining.com/greenland-mines-gets-mineral-exploration-license-for-sarfartoq-project-stock-surges",
+    "source": "Mining.com",
+    "tier_weight": 3,
+    "score": 11,
+    "published": "2026-08-21",
+    "korean_summary": [
+     "Greenland Mines가 그린란드 정부로부터 Sarfartoq 탐사 라이선스 간접 이전을 승인받았음",
+     "인수가는 $35 million이며 Neo Performance Materials가 최대 60% 오프테이크 권리를 받음",
+     "승인 당일 NASDAQ 주가는 22% 넘게 올라 마감했고 시가총액은 $31.4 million임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "그린란드",
+     "탐사 라이선스",
+     "네오디뮴·프라세오디뮴",
+     "오프테이크"
+    ],
+    "ai_processed": true,
+    "card_id": "f0022d501ead",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "$35 million",
+     "up to 60%",
+     "1.77% TREO"
+    ],
+    "quotes": [
+     "As part of the deal, Neo Performance will receive offtake rights on up to 60% of future ore or mineral concentrate production from Sarfartoq.",
+     "Greenland Mines stock closed the day up over 22% on the NASDAQ."
+    ],
+    "summary_raw": "The company has called Sarfartoq one of the island’s “most advanced and compelling rare earth projects\".",
+    "english_phrases": [
+     {
+      "phrase": "offtake rights",
+      "meaning": "향후 생산물을 우선 구매할 수 있는 권리"
+     },
+     {
+      "phrase": "carbonatite complex",
+      "meaning": "탄산염암 복합체(희토류 부존 지질체)"
+     },
+     {
+      "phrase": "Mineral Exploration License",
+      "meaning": "광물 탐사 라이선스"
+     },
+     {
+      "phrase": "Mineral Resource Estimate",
+      "meaning": "광물 자원량 추정"
+     }
+    ],
+    "implication": "그린란드 정부 승인으로 Nd-Pr 중심 희토류 프로젝트 인수가 진전되어, 서방 연계 희토류 공급원 개발과 오프테이크 구도가 구체화되고 있음.",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "c34ca66c6106",
+   "title": "Locksley ceases exploration on US antimony, rare earth prospects - Mining Weekly",
+   "title_norm": "locksley ceases exploration on us antimony rare earth prospects",
+   "url": "https://miningweekly.com/article/locksley-ceases-exploration-on-us-antimony-rare-earth-prospects-2026-08-17",
+   "gnews_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRzBFc0dIejZiUGExZE52SjRJWXVPRW5KbF9HcTk4cEFlQV9jYV9vT1Nick9nUC1Lc3JRbDFRUGU1WWxGZ0RtNy1Xa2hsSWlKYnhfdHY3alhldndiSnlsa093WEliSm9aSVBqS2JIM3I1V0FVUFRWQTVzX2V5NlY1UHZIZkJ5VHlhOW9mUWkzRFExc0YwaWIyOERTc0VDWVpOaFZzVEJLU2pnMjFTNk9ubQ?oc=5",
+   "source": {
+    "name": "Mining Weekly - via Google News",
+    "domain": "miningweekly.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-08-17",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:47:58+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 3740,
+    "sha256": "e603adeef2833313e7fac5c9ddb69ce23ac5b09b4caf959d66fec67b14717adb",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-08-17",
+    "quotes": [
+     "The decision took into account a 57% collapse in spot antimony prices this year, having dropped from mid-2025 peaks of $63 000/t to $27 000/t.",
+     "Locksley ceases exploration on US antimony, rare earth prospects"
+    ],
+    "final_url": "https://www.miningweekly.com/article/locksley-ceases-exploration-on-us-antimony-rare-earth-prospects-2026-08-17",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "ASX 상장사 Locksley Resources가 미국 캘리포니아 Mojave 프로젝트의 현장 탐사를 전면 중단하기로 했음",
+     "중단 대상은 Desert Antimony 광산과 El Campo 희토류 프로스펙트이며, 올해 안티모니 현물가가 57% 급락했음",
+     "광구권은 저비용으로 유지하며 정기 검토할 예정이고, 뉴사우스웨일스 구리 탐사권은 계속 보유함"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "57%",
+     "$63 000/t",
+     "$27 000/t"
+    ],
+    "quotes": [
+     "The decision took into account a 57% collapse in spot antimony prices this year, having dropped from mid-2025 peaks of $63 000/t to $27 000/t.",
+     "Locksley ceases exploration on US antimony, rare earth prospects"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "안티모니",
+     "희토류",
+     "탐사 중단",
+     "미국",
+     "구리"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "ceases exploration",
+      "meaning": "탐사를 중단함"
+     },
+     {
+      "phrase": "strategic optionality",
+      "meaning": "향후 전략적 선택 가능성"
+     },
+     {
+      "phrase": "geological continuity",
+      "meaning": "지질학적 연속성"
+     },
+     {
+      "phrase": "quartz-stibnite veins",
+      "meaning": "석영-휘안석 맥"
+     }
+    ],
+    "implication": "안티모니 현물가가 mid-2025 고점 $63 000/t에서 $27 000/t로 하락하면서 미국 내 소규모 탐사 투자가 위축될 수 있음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 3740,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:48:03+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "0f1e5a1e31",
+     "v1_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRzBFc0dIejZiUGExZE52SjRJWXVPRW5KbF9HcTk4cEFlQV9jYV9vT1Nick9nUC1Lc3JRbDFRUGU1WWxGZ0RtNy1Xa2hsSWlKYnhfdHY3alhldndiSnlsa093WEliSm9aSVBqS2JIM3I1V0FVUFRWQTVzX2V5NlY1UHZIZkJ5VHlhOW9mUWkzRFExc0YwaWIyOERTc0VDWVpOaFZzVEJLU2pnMjFTNk9ubQ?oc=5",
+     "summary_raw": "Locksley ceases exploration on US antimony, rare earth prospects&nbsp;&nbsp;Mining Weekly"
+    }
+   },
+   "v1": {
+    "korean_summary": "록슬리(Locksley) 자원사는 미국 내 안티몬 및 희토류 광물 탐사 사업을 중단하기로 결정하였음이 확인되었습니다. 본 결정은 경제성 평가 및 시장 여건 변화를 반영한 전략적 포트폴리오 조정으로 판단됩니다. 이는 북미 지역의 핵심광물 탐사 경쟁이 심화되는 가운데 프로젝트 선별의 중요성을 시사하고 있습니다.",
+    "category": "exploration_tech",
+    "tags": [
+     "안티몬",
+     "희토류광물",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "ceases exploration on critical minerals prospects",
+      "meaning": "핵심광물 광상에 대한 탐사 중단"
+     },
+     {
+      "phrase": "portfolio rationalization",
+      "meaning": "포트폴리오 합리화/최적화"
+     },
+     {
+      "phrase": "antimony and rare earth projects in the United States",
+      "meaning": "미국 내 안티몬 및 희토류 광물 프로젝트"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "0f1e5a1e31",
+    "title": "Locksley ceases exploration on US antimony, rare earth prospects - Mining Weekly",
+    "url": "https://miningweekly.com/article/locksley-ceases-exploration-on-us-antimony-rare-earth-prospects-2026-08-17",
+    "source": "Mining Weekly - via Google News",
+    "tier_weight": 3,
+    "score": 9,
+    "published": "2026-08-17",
+    "korean_summary": [
+     "ASX 상장사 Locksley Resources가 미국 캘리포니아 Mojave 프로젝트의 현장 탐사를 전면 중단하기로 했음",
+     "중단 대상은 Desert Antimony 광산과 El Campo 희토류 프로스펙트이며, 올해 안티모니 현물가가 57% 급락했음",
+     "광구권은 저비용으로 유지하며 정기 검토할 예정이고, 뉴사우스웨일스 구리 탐사권은 계속 보유함"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "안티모니",
+     "희토류",
+     "탐사 중단",
+     "미국",
+     "구리"
+    ],
+    "ai_processed": true,
+    "card_id": "c34ca66c6106",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "57%",
+     "$63 000/t",
+     "$27 000/t"
+    ],
+    "quotes": [
+     "The decision took into account a 57% collapse in spot antimony prices this year, having dropped from mid-2025 peaks of $63 000/t to $27 000/t.",
+     "Locksley ceases exploration on US antimony, rare earth prospects"
+    ],
+    "summary_raw": "Locksley ceases exploration on US antimony, rare earth prospects&nbsp;&nbsp;Mining Weekly",
+    "english_phrases": [
+     {
+      "phrase": "ceases exploration",
+      "meaning": "탐사를 중단함"
+     },
+     {
+      "phrase": "strategic optionality",
+      "meaning": "향후 전략적 선택 가능성"
+     },
+     {
+      "phrase": "geological continuity",
+      "meaning": "지질학적 연속성"
+     },
+     {
+      "phrase": "quartz-stibnite veins",
+      "meaning": "석영-휘안석 맥"
+     }
+    ],
+    "implication": "안티모니 현물가가 mid-2025 고점 $63 000/t에서 $27 000/t로 하락하면서 미국 내 소규모 탐사 투자가 위축될 수 있음",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "7554e266c68f",
+   "title": "From Exploration to Processing: Building a Complete Critical Minerals Value Chain in India — Rahul Kanuganti - ThePrint",
+   "title_norm": "from exploration to processing building a complete critical minerals value chain in india rahul kanuganti",
+   "url": "https://theprint.in/brandit/3020429/3020429",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE93NFFJVndEMFRydGRMN1FaWmhhZ0QxMnpWcjR0eFhtdURUeFlWZTd0QTlSMFhrTmFBVW9ZYnlBY1ZUS1ZTUFp3cjlsM19TSWM2ZmR1LTBPd9IBXEFVX3lxTE9SMVVQWE1BSkhzdGYxcVhfYk5mcFVmNUlySW16cm5faGpRQUZYVU1WQmFQTmU3VUVKS2kxS051UVpHdTc5Tl8wZzl6eUxraGxsNmV0M2xUZ1lJdm44?oc=5",
+   "source": {
+    "name": "Google News - Critical Minerals Exploration",
+    "domain": "theprint.in",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-08-20",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:48:03+00:00",
+   "score": 12,
+   "body": {
+    "status": "lead_only",
+    "chars": 56,
+    "sha256": "db521a1bc1d2e54d0d5e08bc1832e79d5072a0ec899a36016c8d0bfbcea5af12",
+    "source": "trafilatura",
+    "block_type": "bot_block",
+    "http_status": 200,
+    "extracted_date": "2022-01-01",
+    "quotes": [],
+    "final_url": "https://theprint.in/brandit/3020429/3020429/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "탐사에서 가공까지: 인도의 핵심광물 밸류체인 완성 구축 — 라훌 카누간티, ThePrint 게재임",
+     "리드에는 브라우저 확인과 일회성 보안 점검 안내 문구만 있어 기사 내용은 확인 불가임"
+    ],
+    "basis": "lead",
+    "key_figures": [],
+    "quotes": [],
+    "category": "supply_chain",
+    "tags": [
+     "핵심광물",
+     "밸류체인",
+     "탐사",
+     "가공",
+     "인도"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Critical Minerals Value Chain",
+      "meaning": "핵심광물 밸류체인"
+     },
+     {
+      "phrase": "From Exploration to Processing",
+      "meaning": "탐사에서 가공까지"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "lead_only",
+    "input_chars": 56,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:48:05+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "e24a602356",
+     "v1_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE93NFFJVndEMFRydGRMN1FaWmhhZ0QxMnpWcjR0eFhtdURUeFlWZTd0QTlSMFhrTmFBVW9ZYnlBY1ZUS1ZTUFp3cjlsM19TSWM2ZmR1LTBPd9IBXEFVX3lxTE9SMVVQWE1BSkhzdGYxcVhfYk5mcFVmNUlySW16cm5faGpRQUZYVU1WQmFQTmU3VUVKS2kxS051UVpHdTc5Tl8wZzl6eUxraGxsNmV0M2xUZ1lJdm44?oc=5",
+     "summary_raw": "From Exploration to Processing: Building a Complete Critical Minerals Value Chain in India — Rahul Kanuganti&nbsp;&nbsp;ThePrint"
+    }
+   },
+   "v1": {
+    "korean_summary": "인도는 탐사에서 처리까지 핵심광물의 완전한 가치사슬 구축을 추진하고 있으며, 이는 국내 자원 자급률 향상과 글로벌 공급망 안정화에 기여할 것으로 예상됩니다. 상류 탐사 역량 강화와 하류 제련·정제 인프라 개발을 동시에 추진함으로써 핵심광물 산업의 수직 통합 가능성을 모색하고 있습니다. 인도의 핵심광물 가치사슬 고도화 전략은 아시아 지역 자원 안보 재편과 선진국 중심의 광물 공급망 다극화에 중요한 선례가 될 전망입니다.",
+    "category": "supply_chain",
+    "tags": [
+     "핵심광물",
+     "가치사슬 통합",
+     "인도"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals value chain",
+      "meaning": "핵심광물의 채광에서 최종 제품까지의 전체 생산 및 공급 체계"
+     },
+     {
+      "phrase": "from exploration to processing",
+      "meaning": "광물 탐사 단계부터 제련·정제 처리 단계까지의 통합적 접근"
+     },
+     {
+      "phrase": "vertical integration of mineral industry",
+      "meaning": "광물산업의 상류(탐사·채광)부터 하류(제련·정제)까지의 수직적 통합"
+     },
+     {
+      "phrase": "supply chain resilience",
+      "meaning": "글로벌 광물 공급망의 안정성 및 위험 대응 능력"
+     },
+     {
+      "phrase": "domestic resource security",
+      "meaning": "국가의 핵심광물 자급률 향상 및 자원 안보 확보"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "e24a602356",
+    "title": "From Exploration to Processing: Building a Complete Critical Minerals Value Chain in India — Rahul Kanuganti - ThePrint",
+    "url": "https://theprint.in/brandit/3020429/3020429",
+    "source": "Google News - Critical Minerals Exploration",
+    "tier_weight": 1,
+    "score": 12,
+    "published": "2026-08-20",
+    "korean_summary": [
+     "[본문 미확보] 탐사에서 가공까지: 인도의 핵심광물 밸류체인 완성 구축 — 라훌 카누간티, ThePrint 게재임",
+     "리드에는 브라우저 확인과 일회성 보안 점검 안내 문구만 있어 기사 내용은 확인 불가임"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "핵심광물",
+     "밸류체인",
+     "탐사",
+     "가공",
+     "인도"
+    ],
+    "ai_processed": true,
+    "card_id": "7554e266c68f",
+    "basis": "lead",
+    "body_status": "lead_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "From Exploration to Processing: Building a Complete Critical Minerals Value Chain in India — Rahul Kanuganti&nbsp;&nbsp;ThePrint",
+    "english_phrases": [
+     {
+      "phrase": "Critical Minerals Value Chain",
+      "meaning": "핵심광물 밸류체인"
+     },
+     {
+      "phrase": "From Exploration to Processing",
+      "meaning": "탐사에서 가공까지"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "dbbc792177a9",
+   "title": "Ramaco Resources, Indium Corp ink gallium and germanium supply deal for Brook mine",
+   "title_norm": "ramaco resources indium corp ink gallium and germanium supply deal for brook mine",
+   "url": "https://mining.com/ramaco-resources-indium-corp-ink-gallium-and-germanium-supply-deal-for-brook-mine",
+   "gnews_url": null,
+   "source": {
+    "name": "Mining.com",
+    "domain": "mining.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-08-19",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:48:05+00:00",
+   "score": 11,
+   "body": {
+    "status": "full",
+    "chars": 2198,
+    "sha256": "0937337705665fa885f21a3799ad73ffd755ada074ddacaac051da48ee90c50e",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-08-19",
+    "quotes": [
+     "Ramaco Resources’ stock closed the day up 3.97% on the NASDAQ.",
+     "The company has a $698.8 million market capitalization."
+    ],
+    "final_url": "https://www.mining.com/ramaco-resources-indium-corp-ink-gallium-and-germanium-supply-deal-for-brook-mine/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Ramaco Resources가 Indium Corporation과 갈륨·게르마늄 공급을 위한 비구속적 MOU를 체결했다고 밝혔음",
+     "공급 대상은 미국 와이오밍주 Sheridan 인근 Brook mine 프로젝트에서 나오는 갈륨과 게르마늄임",
+     "양사는 공급 가능성을 협상하기로 했으며 구속력 있는 계약 시점 등 후속 일정은 확인 불가임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "$698.8 million",
+     "3.97%",
+     "over 70 years"
+    ],
+    "quotes": [
+     "Ramaco Resources’ stock closed the day up 3.97% on the NASDAQ.",
+     "The company has a $698.8 million market capitalization."
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "갈륨",
+     "게르마늄",
+     "희토류",
+     "MOU",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "non-binding memorandum of understanding (MOU)",
+      "meaning": "법적 구속력이 없는 양해각서"
+     },
+     {
+      "phrase": "unconventional deposit",
+      "meaning": "비전통적 광상(석탄·탄소질 광석 기반 매장)"
+     },
+     {
+      "phrase": "vertically integrated production",
+      "meaning": "수직계열화된 생산"
+     },
+     {
+      "phrase": "domestic and allied supply chains",
+      "meaning": "자국 및 동맹국 공급망"
+     }
+    ],
+    "implication": "석탄·탄소질 광석 기반 미국산 갈륨·게르마늄이 반도체 소재 업체와의 공급 협상으로 이어지면 자국·동맹국 내 공급원 확대 가능성이 생김."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 2198,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:48:10+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "4db0b2fe0b",
+     "v1_url": "https://www.mining.com/ramaco-resources-indium-corp-ink-gallium-and-germanium-supply-deal-for-brook-mine/",
+     "summary_raw": "Brook mine in Wyoming holds what the company says is the US' largest unconventional deposit of rare earth elements and critical minerals sourced from coal and carbonaceous ore."
+    }
+   },
+   "v1": {
+    "korean_summary": "Ramaco Resources와 Indium Corp이 Wyoming의 Brook 광산에서 갈륨과 게르마늄 공급 계약을 체결했습니다. 동 광산은 석탄 및 탄질 광석으로부터 회수되는 핵심광물로서 미국 최대 규모의 비전통형 희토류 매장량을 보유하고 있는 것으로 알려져 있습니다. 이는 국내 핵심광물 공급망 다원화 및 저품위 자원의 회수기술 개발에 중요한 사례로 평가될 수 있습니다.",
+    "category": "supply_chain",
+    "tags": [
+     "갈륨·게르마늄",
+     "저품위광석 처리·회수",
+     "미국(Wyoming)"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "unconventional deposit of critical minerals sourced from coal and carbonaceous ore",
+      "meaning": "석탄 및 탄질 광석으로부터 회수되는 비전통형 핵심광물 매장"
+     },
+     {
+      "phrase": "supply deal for gallium and germanium",
+      "meaning": "갈륨 및 게르마늄 공급 계약"
+     },
+     {
+      "phrase": "strategic sourcing of critical minerals in North America",
+      "meaning": "북미 지역 핵심광물의 전략적 공급원 확보"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "4db0b2fe0b",
+    "title": "Ramaco Resources, Indium Corp ink gallium and germanium supply deal for Brook mine",
+    "url": "https://mining.com/ramaco-resources-indium-corp-ink-gallium-and-germanium-supply-deal-for-brook-mine",
+    "source": "Mining.com",
+    "tier_weight": 3,
+    "score": 11,
+    "published": "2026-08-19",
+    "korean_summary": [
+     "Ramaco Resources가 Indium Corporation과 갈륨·게르마늄 공급을 위한 비구속적 MOU를 체결했다고 밝혔음",
+     "공급 대상은 미국 와이오밍주 Sheridan 인근 Brook mine 프로젝트에서 나오는 갈륨과 게르마늄임",
+     "양사는 공급 가능성을 협상하기로 했으며 구속력 있는 계약 시점 등 후속 일정은 확인 불가임"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "갈륨",
+     "게르마늄",
+     "희토류",
+     "MOU",
+     "미국"
+    ],
+    "ai_processed": true,
+    "card_id": "dbbc792177a9",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "$698.8 million",
+     "3.97%",
+     "over 70 years"
+    ],
+    "quotes": [
+     "Ramaco Resources’ stock closed the day up 3.97% on the NASDAQ.",
+     "The company has a $698.8 million market capitalization."
+    ],
+    "summary_raw": "Brook mine in Wyoming holds what the company says is the US' largest unconventional deposit of rare earth elements and critical minerals sourced from coal and carbonaceous ore.",
+    "english_phrases": [
+     {
+      "phrase": "non-binding memorandum of understanding (MOU)",
+      "meaning": "법적 구속력이 없는 양해각서"
+     },
+     {
+      "phrase": "unconventional deposit",
+      "meaning": "비전통적 광상(석탄·탄소질 광석 기반 매장)"
+     },
+     {
+      "phrase": "vertically integrated production",
+      "meaning": "수직계열화된 생산"
+     },
+     {
+      "phrase": "domestic and allied supply chains",
+      "meaning": "자국 및 동맹국 공급망"
+     }
+    ],
+    "implication": "석탄·탄소질 광석 기반 미국산 갈륨·게르마늄이 반도체 소재 업체와의 공급 협상으로 이어지면 자국·동맹국 내 공급원 확대 가능성이 생김.",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "7ebfd1ccbc81",
+   "title": "Canada-focused lithium miner Elevra gets price floor for supply deal - Mining Weekly",
+   "title_norm": "canada focused lithium miner elevra gets price floor for supply deal",
+   "url": "https://miningweekly.com/article/canada-focused-lithium-miner-elevra-gets-price-floor-for-supply-deal-2026-08-21",
+   "gnews_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObWszQldMNmJDcFByclpLNWxqekdBNTk4d3V2Q1AwdU1Xa3lNSTR5b1hIQi15SzJWVFVrTjExM1BPUk1WN2RneXZYZndKUTlDY0FVbURfaUtIallKWERtblZ2RWRTYjVWT3paVWJtbXZ5RFVQODlJZWJQYlBXLVZHX3RKOGNCNElDd1o1M2ZJTlppbTdQZjB2cUVmRjJxczR2a0Y2UEloMkRXWldneHVHN0tGemVvTjg?oc=5",
+   "source": {
+    "name": "Mining Weekly - via Google News",
+    "domain": "miningweekly.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-08-21",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:48:10+00:00",
+   "score": 11,
+   "body": {
+    "status": "full",
+    "chars": 4024,
+    "sha256": "790783a330d1f8a604bd38f6d38b6b26e12a061ec474273edfa5c74c73656bc8",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-08-21",
+    "quotes": [
+     "Elevra will supply all of the feedstock needed for Mangrove’s 20 000 ton-a-year lithium carbonate-equivalent conversion facility, according to Liu.",
+     "Elevra Lithium shares, which have more than doubled over the past 12 months, rose as much as 6.1% on Friday."
+    ],
+    "final_url": "https://www.miningweekly.com/article/canada-focused-lithium-miner-elevra-gets-price-floor-for-supply-deal-2026-08-21",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Elevra Lithium이 캐나다 가공시설 공급계약에서 예상 생산원가보다 높은 가격 하한을 확보했음",
+     "퀘벡 프로젝트의 스포듀민 정광을 Mangrove Lithium의 20 000 ton-a-year 규모 전환공장에 공급함",
+     "공장은 최종투자결정 전이며 Export Development Canada와 Canada Growth Fund 지원이 예상됨"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "20 000 ton-a-year",
+     "6.1%"
+    ],
+    "quotes": [
+     "Elevra will supply all of the feedstock needed for Mangrove’s 20 000 ton-a-year lithium carbonate-equivalent conversion facility, according to Liu.",
+     "Elevra Lithium shares, which have more than doubled over the past 12 months, rose as much as 6.1% on Friday."
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "스포듀민",
+     "가격 하한",
+     "캐나다",
+     "오프테이크"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "price floor",
+      "meaning": "가격 하한, 최저 보장 가격"
+     },
+     {
+      "phrase": "spodumene concentrate",
+      "meaning": "스포듀민 정광(리튬 원료 광석 농축물)"
+     },
+     {
+      "phrase": "offtake agreement",
+      "meaning": "생산물 구매·인수 계약"
+     },
+     {
+      "phrase": "final investment decision",
+      "meaning": "최종투자결정"
+     }
+    ],
+    "implication": "가격 하한 포함 계약이 향후 표준이 될 것이라는 Mangrove 측 전망이 나와 리튬 광산 금융·계약 구조가 달라질 수 있음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:48:24+00:00",
+    "retry_reasons": [
+     "JSON 파싱 실패: 문법 오류(Expecting ',' delimiter, 위치 275) — 주변: '이 예상됨\",\\n    \"금액은 공개되지 않았음\"\\n  ].slice(0,3),\\n  \"key_figures\": '"
+    ],
+    "retry_tails": [
+     "ase\": \"final investment decision\", \"meaning\": \"최종투자결정\"}\n  ],\n  \"implication\": \"가격 하한이 포함된 스포듀민 공급계약이 표준이 될 것이라는 전망이 나와, 중국 외 리튬 가공망 구축 시 광산 금융 구조에 영향을 줄 수 있음\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "81c3ca9f39",
+     "v1_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObWszQldMNmJDcFByclpLNWxqekdBNTk4d3V2Q1AwdU1Xa3lNSTR5b1hIQi15SzJWVFVrTjExM1BPUk1WN2RneXZYZndKUTlDY0FVbURfaUtIallKWERtblZ2RWRTYjVWT3paVWJtbXZ5RFVQODlJZWJQYlBXLVZHX3RKOGNCNElDd1o1M2ZJTlppbTdQZjB2cUVmRjJxczR2a0Y2UEloMkRXWldneHVHN0tGemVvTjg?oc=5",
+     "summary_raw": "Canada-focused lithium miner Elevra gets price floor for supply deal&nbsp;&nbsp;Mining Weekly"
+    }
+   },
+   "v1": {
+    "korean_summary": "캐나다 중심의 리튬 채굴업체 엘브라(Elevra)가 공급 계약에서 가격 하한선을 확보함으로써 핵심광물 공급망의 가격 변동성 완화를 위한 새로운 모델을 제시하고 있습니다. 이러한 가격 보장 메커니즘은 북미 지역의 핵심광물 자급화 전략과 장기적 수급 안정성 확보에 기여할 전망입니다. 캐나다의 리튬 개발 프로젝트에 대한 수급자의 신뢰도 강화로 북미 에너지 전환 인프라 구축이 가속화될 것으로 예상됩니다.",
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "공급계약",
+     "캐나다"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "price floor for supply deal",
+      "meaning": "공급 계약에서의 가격 하한선 설정"
+     },
+     {
+      "phrase": "critical minerals supply chain",
+      "meaning": "핵심광물 공급망"
+     },
+     {
+      "phrase": "long-term offtake agreement",
+      "meaning": "장기 매매 계약"
+     },
+     {
+      "phrase": "price stability mechanism",
+      "meaning": "가격 안정화 메커니즘"
+     },
+     {
+      "phrase": "North American lithium production",
+      "meaning": "북미 리튬 생산"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "81c3ca9f39",
+    "title": "Canada-focused lithium miner Elevra gets price floor for supply deal - Mining Weekly",
+    "url": "https://miningweekly.com/article/canada-focused-lithium-miner-elevra-gets-price-floor-for-supply-deal-2026-08-21",
+    "source": "Mining Weekly - via Google News",
+    "tier_weight": 3,
+    "score": 11,
+    "published": "2026-08-21",
+    "korean_summary": [
+     "Elevra Lithium이 캐나다 가공시설 공급계약에서 예상 생산원가보다 높은 가격 하한을 확보했음",
+     "퀘벡 프로젝트의 스포듀민 정광을 Mangrove Lithium의 20 000 ton-a-year 규모 전환공장에 공급함",
+     "공장은 최종투자결정 전이며 Export Development Canada와 Canada Growth Fund 지원이 예상됨"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "스포듀민",
+     "가격 하한",
+     "캐나다",
+     "오프테이크"
+    ],
+    "ai_processed": true,
+    "card_id": "7ebfd1ccbc81",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "20 000 ton-a-year",
+     "6.1%"
+    ],
+    "quotes": [
+     "Elevra will supply all of the feedstock needed for Mangrove’s 20 000 ton-a-year lithium carbonate-equivalent conversion facility, according to Liu.",
+     "Elevra Lithium shares, which have more than doubled over the past 12 months, rose as much as 6.1% on Friday."
+    ],
+    "summary_raw": "Canada-focused lithium miner Elevra gets price floor for supply deal&nbsp;&nbsp;Mining Weekly",
+    "english_phrases": [
+     {
+      "phrase": "price floor",
+      "meaning": "가격 하한, 최저 보장 가격"
+     },
+     {
+      "phrase": "spodumene concentrate",
+      "meaning": "스포듀민 정광(리튬 원료 광석 농축물)"
+     },
+     {
+      "phrase": "offtake agreement",
+      "meaning": "생산물 구매·인수 계약"
+     },
+     {
+      "phrase": "final investment decision",
+      "meaning": "최종투자결정"
+     }
+    ],
+    "implication": "가격 하한 포함 계약이 향후 표준이 될 것이라는 Mangrove 측 전망이 나와 리튬 광산 금융·계약 구조가 달라질 수 있음",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "b0dc1381ea7b",
+   "title": "How Africa’s Critical Minerals Are Reshaping Global Supply Chains and Geopolitical Power - S&P Global",
+   "title_norm": "how africa s critical minerals are reshaping global supply chains and geopolitical power",
+   "url": "https://spglobal.com/market-intelligence/en/news-insights/research/2026/08/africa-critical-minerals-reshaping-global-supply-chains-geopolitics",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNYklLTzAtUjFYRmRMWm5TcTI5bDBhX2tBM0JkYlN0bXVPTkN4aFFERkllR01VWUV0TXdjSEFnNm5hOUYwUkdsWEc1VWtZWkFmZ3JYcW1FQk9BclRGRTlMaVlqRnBBWXpTTkZqUUFLeVp1WnpORXloVi1sZkNUcXVzck1WYlRlcEdONjBwUHNyRlk5ZTdQOUk0dWpRNzBqNXdGZFdsbWxXLTVzX2N3VmpRaTRFWUdsLXl5c2lzcU4xMjVOd0hOVzMyUGtkbUxxN1MxYVNMR0NuN1dCRmZMS2Rr?oc=5",
+   "source": {
+    "name": "S&P Global - via Google News",
+    "domain": "spglobal.com",
+    "tier": null,
+    "tier_weight": 4,
+    "language": null
+   },
+   "published": "2026-08-18",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:48:25+00:00",
+   "score": 9,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "bot_block",
+    "http_status": 403,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/08/africa-critical-minerals-reshaping-global-supply-chains-geopolitics",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "아프리카의 핵심광물이 글로벌 공급망과 지정학적 힘의 구도를 어떻게 재편하고 있는지 다룸"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "supply_chain",
+    "tags": [
+     "핵심광물",
+     "공급망",
+     "지정학",
+     "아프리카"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Critical Minerals",
+      "meaning": "핵심광물"
+     },
+     {
+      "phrase": "Supply Chains",
+      "meaning": "공급망"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:48:26+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "2c5e59fd70",
+     "v1_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNYklLTzAtUjFYRmRMWm5TcTI5bDBhX2tBM0JkYlN0bXVPTkN4aFFERkllR01VWUV0TXdjSEFnNm5hOUYwUkdsWEc1VWtZWkFmZ3JYcW1FQk9BclRGRTlMaVlqRnBBWXpTTkZqUUFLeVp1WnpORXloVi1sZkNUcXVzck1WYlRlcEdONjBwUHNyRlk5ZTdQOUk0dWpRNzBqNXdGZFdsbWxXLTVzX2N3VmpRaTRFWUdsLXl5c2lzcU4xMjVOd0hOVzMyUGtkbUxxN1MxYVNMR0NuN1dCRmZMS2Rr?oc=5",
+     "summary_raw": "How Africa’s Critical Minerals Are Reshaping Global Supply Chains and Geopolitical Power&nbsp;&nbsp;S&amp;P Global"
+    }
+   },
+   "v1": {
+    "korean_summary": "아프리카의 핵심광물 부존량이 글로벌 공급망 재편과 지정학적 영향력 변화를 주도하고 있는 것으로 확인되었습니다. 코발트, 리튬, 희토류 등 주요 핵심광물의 아프리카 공급 비중 확대는 선진국의 에너지전환 및 첨단산업 의존도를 심화시키고 있습니다. 아프리카 핵심광물의 전략적 가치 상승은 글로벌 공급망 다각화와 장기 자원 안보 전략 수립의 필요성을 대두시키고 있습니다.",
+    "category": "supply_chain",
+    "tags": [
+     "코발트",
+     "리튬",
+     "아프리카·공급망안보"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals supply chain diversification",
+      "meaning": "핵심광물 공급망 다각화"
+     },
+     {
+      "phrase": "geopolitical leverage in mineral resources",
+      "meaning": "광물자원의 지정학적 영향력"
+     },
+     {
+      "phrase": "African mineral reserves reshape global trade dynamics",
+      "meaning": "아프리카 광물부존량의 글로벌 교역 재구조화"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "2c5e59fd70",
+    "title": "How Africa’s Critical Minerals Are Reshaping Global Supply Chains and Geopolitical Power - S&P Global",
+    "url": "https://spglobal.com/market-intelligence/en/news-insights/research/2026/08/africa-critical-minerals-reshaping-global-supply-chains-geopolitics",
+    "source": "S&P Global - via Google News",
+    "tier_weight": 4,
+    "score": 9,
+    "published": "2026-08-18",
+    "korean_summary": [
+     "[제목 기반] 아프리카의 핵심광물이 글로벌 공급망과 지정학적 힘의 구도를 어떻게 재편하고 있는지 다룸"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "핵심광물",
+     "공급망",
+     "지정학",
+     "아프리카"
+    ],
+    "ai_processed": true,
+    "card_id": "b0dc1381ea7b",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "How Africa’s Critical Minerals Are Reshaping Global Supply Chains and Geopolitical Power&nbsp;&nbsp;S&amp;P Global",
+    "english_phrases": [
+     {
+      "phrase": "Critical Minerals",
+      "meaning": "핵심광물"
+     },
+     {
+      "phrase": "Supply Chains",
+      "meaning": "공급망"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "03cef28bc29c",
+   "title": "Saudi Aramco Ma'aden Critical Minerals Exploration Explained - Rare Earth Exchanges",
+   "title_norm": "saudi aramco ma aden critical minerals exploration explained",
+   "url": "https://rareearthexchanges.com/news/aramco-maaden-arabian-shield-minerals",
+   "gnews_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9RTHFQcUFkT3Bna3pGV21KLXR0ZW9maVE3S0N1bzMxUHVSaUJOUDAzS1B2ZGU1Z0pyOC1hWEdQLW5zTmF4cEF2bmxRaUpPcE5JbmhGUXhZTEgzQzhoaTYxNHl3VHFwNWdpVVBHOS1FTzhWbkxGQlZ1c0ZsaTlTY0k?oc=5",
+   "source": {
+    "name": "Google News - Critical Minerals Exploration",
+    "domain": "rareearthexchanges.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-08-21",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:48:27+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 2824,
+    "sha256": "f6f5b8033b8824ec0e51ae0c02eac2ef5fcdd608e50f7678a8144454c3163a50",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-08-21",
+    "quotes": [
+     "- Saudi Aramco and Ma'aden form a 51%-49% joint venture covering 182,000 square kilometers near the Arabian Shield targeting copper and critical minerals.",
+     "government partnership aims to build rare earth separation capacity inside the Kingdom, reducing dependence on domestic ore discovery."
+    ],
+    "final_url": "https://rareearthexchanges.com/news/aramco-maaden-arabian-shield-minerals/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Saudi Aramco와 Ma'aden이 51%-49% 지분의 탐사 합작사업을 구성 중이라고 전했음",
+     "Arabian Shield 인근 약 182,000 square kilometers에서 구리와 기타 핵심광물을 탐사할 계획임",
+     "사우디의 $2.5 trillion 광물 평가액은 경제적으로 채굴 가능한 매장량과 다르다고 짚었음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "182,000 square kilometers",
+     "$2.5 trillion",
+     "51%-49%"
+    ],
+    "quotes": [
+     "- Saudi Aramco and Ma'aden form a 51%-49% joint venture covering 182,000 square kilometers near the Arabian Shield targeting copper and critical minerals.",
+     "government partnership aims to build rare earth separation capacity inside the Kingdom, reducing dependence on domestic ore discovery."
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "희토류",
+     "구리",
+     "탐사",
+     "사우디아라비아",
+     "합작사업"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "economically recoverable reserves",
+      "meaning": "경제적으로 채굴 가능한 매장량"
+     },
+     {
+      "phrase": "midstream control point",
+      "meaning": "중류(분리·정제) 단계의 핵심 거점"
+     },
+     {
+      "phrase": "HREE enrichment",
+      "meaning": "중희토류 농집"
+     }
+    ],
+    "implication": "사우디가 Ma'aden-MP Materials-U.S. government 분리 설비 협력을 통해 탐사 성과와 무관하게 희토류 중류 거점으로 부상할 수 있음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 2824,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:48:39+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 4줄)"
+    ],
+    "retry_tails": [
+     "분리·정제) 단계의 핵심 거점\"},\n    {\"phrase\": \"HREE enrichment\", \"meaning\": \"중희토류 농집\"}\n  ],\n  \"implication\": \"사우디가 탐사 성과와 무관하게 희토류 분리·정제 설비를 앞세워 중류 단계 거점으로 부상할 가능성이 제기됨\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "f14baf3d42",
+     "v1_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9RTHFQcUFkT3Bna3pGV21KLXR0ZW9maVE3S0N1bzMxUHVSaUJOUDAzS1B2ZGU1Z0pyOC1hWEdQLW5zTmF4cEF2bmxRaUpPcE5JbmhGUXhZTEgzQzhoaTYxNHl3VHFwNWdpVVBHOS1FTzhWbkxGQlZ1c0ZsaTlTY0k?oc=5",
+     "summary_raw": "Saudi Aramco Ma'aden Critical Minerals Exploration Explained&nbsp;&nbsp;Rare Earth Exchanges"
+    }
+   },
+   "v1": {
+    "korean_summary": "사우디아라비아의 Saudi Aramco와 Ma'aden이 협력하여 핵심광물 탐사 사업을 추진 중인 것으로 확인되었습니다. 특히 희토류 원소를 포함한 핵심광물의 국내 공급망 확보를 목표로 하고 있으며, 이는 중동 지역의 광물자원 개발 전략의 전환을 의미합니다. 향후 이러한 움직임은 글로벌 핵심광물 수급 안정화에 중요한 역할을 할 전망입니다.",
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "핵심광물 탐사",
+     "사우디아라비아"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals exploration strategy",
+      "meaning": "핵심광물 탐사 전략"
+     },
+     {
+      "phrase": "rare earth elements (REE) concentration",
+      "meaning": "희토류 원소 품위/함유량"
+     },
+     {
+      "phrase": "domestic supply chain securitization",
+      "meaning": "국내 공급망 안정화"
+     },
+     {
+      "phrase": "joint venture mineral development",
+      "meaning": "광물 공동개발 사업"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "f14baf3d42",
+    "title": "Saudi Aramco Ma'aden Critical Minerals Exploration Explained - Rare Earth Exchanges",
+    "url": "https://rareearthexchanges.com/news/aramco-maaden-arabian-shield-minerals",
+    "source": "Google News - Critical Minerals Exploration",
+    "tier_weight": 1,
+    "score": 9,
+    "published": "2026-08-21",
+    "korean_summary": [
+     "Saudi Aramco와 Ma'aden이 51%-49% 지분의 탐사 합작사업을 구성 중이라고 전했음",
+     "Arabian Shield 인근 약 182,000 square kilometers에서 구리와 기타 핵심광물을 탐사할 계획임",
+     "사우디의 $2.5 trillion 광물 평가액은 경제적으로 채굴 가능한 매장량과 다르다고 짚었음"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "희토류",
+     "구리",
+     "탐사",
+     "사우디아라비아",
+     "합작사업"
+    ],
+    "ai_processed": true,
+    "card_id": "03cef28bc29c",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "182,000 square kilometers",
+     "$2.5 trillion",
+     "51%-49%"
+    ],
+    "quotes": [
+     "- Saudi Aramco and Ma'aden form a 51%-49% joint venture covering 182,000 square kilometers near the Arabian Shield targeting copper and critical minerals.",
+     "government partnership aims to build rare earth separation capacity inside the Kingdom, reducing dependence on domestic ore discovery."
+    ],
+    "summary_raw": "Saudi Aramco Ma'aden Critical Minerals Exploration Explained&nbsp;&nbsp;Rare Earth Exchanges",
+    "english_phrases": [
+     {
+      "phrase": "economically recoverable reserves",
+      "meaning": "경제적으로 채굴 가능한 매장량"
+     },
+     {
+      "phrase": "midstream control point",
+      "meaning": "중류(분리·정제) 단계의 핵심 거점"
+     },
+     {
+      "phrase": "HREE enrichment",
+      "meaning": "중희토류 농집"
+     }
+    ],
+    "implication": "사우디가 Ma'aden-MP Materials-U.S. government 분리 설비 협력을 통해 탐사 성과와 무관하게 희토류 중류 거점으로 부상할 수 있음",
+    "trial": false
+   },
+   "trial": false
+  }
+ ],
+ "excluded": [],
+ "v1_file": "week-2026-08-23.json",
+ "v1_metrics": {
+  "articles": 12,
+  "original_link": 2,
+  "body_based": 0,
+  "failed": 0
+ },
+ "trial": false
+}

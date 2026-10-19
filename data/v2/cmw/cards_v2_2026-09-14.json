@@ -1,0 +1,2118 @@
+{
+ "schema_version": "card.v1",
+ "service": "cmw",
+ "week_of": "2026-09-14",
+ "generated_at": "2026-10-19T05:54:22+00:00",
+ "mincore_version": "0.3.6",
+ "model": "claude-sonnet-5-5",
+ "prompt_version": "v2.2",
+ "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+ "stats": {
+  "v1_articles": 12,
+  "cards": 12,
+  "excluded": 0,
+  "body_got": 9,
+  "body_rate": 0.75,
+  "original_link": 12,
+  "reader_proxy_used": 0,
+  "line_len": {
+   "lines": 31,
+   "median": 54,
+   "max": 91,
+   "over60": 7,
+   "over100": 0
+  },
+  "oda_filled": 8,
+  "usage": {
+   "claude-sonnet-5-5": {
+    "calls": 17,
+    "in": 49527,
+    "out": 12567
+   }
+  },
+  "cost_usd": 0.3371,
+  "body_status": {
+   "lead_only": 1,
+   "title_only": 2,
+   "full": 9
+  },
+  "body_source": {
+   "og_description": 1,
+   "none": 2,
+   "trafilatura": 8,
+   "presscorner_api": 1
+  },
+  "resolve": {
+   "decoder": 8,
+   "direct": 4
+  },
+  "fail_reason": {},
+  "basis": {
+   "lead": 1,
+   "title": 2,
+   "body": 9
+  },
+  "retry_reason": {
+   "lines는 3줄이어야 함 (현재 4줄)": 4
+  },
+  "flags": {
+   "soft_retry": 1
+  },
+  "model_used": {
+   "claude-sonnet-5-5": 12
+  }
+ },
+ "total": 12,
+ "cards": [
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "e59f6d212cd1",
+   "title": "China’s looming November export controls test rare earth refining, recycling ambitions - Fastmarkets",
+   "title_norm": "china s looming november export controls test rare earth refining recycling ambitions",
+   "url": "https://fastmarkets.com/insights/chinas-looming-november-export-controls-test-rare-earth-refining-recycling-ambitions",
+   "gnews_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcmlBemdxVEtRUUpUV3VmQmk5TkRLZEs1cmFOU2JrSmFoeWVsbmFWUWlPZmFLbHBMQ0RjUWc0SmM4YlJqdUpBcmF2NWxGUUNMYXNDSUNkQnlIakxYWVFjQVQxNWlqNUJBY05TZWJ4amdDSUZVaUdIQWpHVVAwMTUzSUQ2ckdxMjBsRS11ZDJjeXpJdTN5SDNHN1Q0d3RJVUFEQTZjZldOcXBTaGVvNi1EZDc0RHZjdk8xSkNVZWswbw?oc=5",
+   "source": {
+    "name": "Fastmarkets - via Google News",
+    "domain": "fastmarkets.com",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-09-10",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:52:36+00:00",
+   "score": 11,
+   "body": {
+    "status": "lead_only",
+    "chars": 233,
+    "sha256": "3fd9570c986576a41606899b05c83de768be875b13c92cfc0787a4261de9144f",
+    "source": "og_description",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.fastmarkets.com/insights/chinas-looming-november-export-controls-test-rare-earth-refining-recycling-ambitions/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "중국의 11월 수출통제 임박, 희토류 정제·재활용 구상 시험대에 올랐음",
+     "중국 밖 희토류 정제·재활용·자석 업체가 기술·장비·원료 접근 불확실성에 직면했다고 시장 참여자들이 밝혔음"
+    ],
+    "basis": "lead",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "수출통제",
+     "정제",
+     "재활용",
+     "중국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "export controls",
+      "meaning": "수출통제"
+     },
+     {
+      "phrase": "feedstock",
+      "meaning": "원료(공급 원료)"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "lead_only",
+    "input_chars": 233,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:52:39+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "2635a1f415",
+     "v1_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcmlBemdxVEtRUUpUV3VmQmk5TkRLZEs1cmFOU2JrSmFoeWVsbmFWUWlPZmFLbHBMQ0RjUWc0SmM4YlJqdUpBcmF2NWxGUUNMYXNDSUNkQnlIakxYWVFjQVQxNWlqNUJBY05TZWJ4amdDSUZVaUdIQWpHVVAwMTUzSUQ2ckdxMjBsRS11ZDJjeXpJdTN5SDNHN1Q0d3RJVUFEQTZjZldOcXBTaGVvNi1EZDc0RHZjdk8xSkNVZWswbw?oc=5",
+     "summary_raw": "China’s looming November export controls test rare earth refining, recycling ambitions&nbsp;&nbsp;Fastmarkets"
+    }
+   },
+   "v1": {
+    "korean_summary": "중국이 11월 예정된 희토류 수출 통제 조치를 시행함에 따라 희토류 정련 및 재활용 산업의 기술 자립도가 시험대에 오를 전망입니다. 이번 정책은 핵심광물 공급망 재편성을 가속화하면서 동시에 비중국 지역의 정련·재활용 기술 개발 필요성을 부각시키고 있습니다. 향후 글로벌 희토류 산업은 공급 다변화와 순환경제 체계 구축에 주력하게 될 것으로 예상됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "정련·재활용",
+     "중국·공급망 정책"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "export controls on critical minerals",
+      "meaning": "핵심광물 수출 통제 조치"
+     },
+     {
+      "phrase": "rare earth refining and recycling capabilities",
+      "meaning": "희토류 정련 및 재활용 역량"
+     },
+     {
+      "phrase": "supply chain diversification",
+      "meaning": "공급망 다변화"
+     },
+     {
+      "phrase": "circular economy for rare earth elements",
+      "meaning": "희토류의 순환경제 체계"
+     },
+     {
+      "phrase": "technological self-sufficiency in critical mineral processing",
+      "meaning": "핵심광물 처리의 기술 자립도"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "2635a1f415",
+    "title": "China’s looming November export controls test rare earth refining, recycling ambitions - Fastmarkets",
+    "url": "https://fastmarkets.com/insights/chinas-looming-november-export-controls-test-rare-earth-refining-recycling-ambitions",
+    "source": "Fastmarkets - via Google News",
+    "tier_weight": 5,
+    "score": 11,
+    "published": "2026-09-10",
+    "korean_summary": [
+     "[본문 미확보] 중국의 11월 수출통제 임박, 희토류 정제·재활용 구상 시험대에 올랐음",
+     "중국 밖 희토류 정제·재활용·자석 업체가 기술·장비·원료 접근 불확실성에 직면했다고 시장 참여자들이 밝혔음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "수출통제",
+     "정제",
+     "재활용",
+     "중국"
+    ],
+    "ai_processed": true,
+    "card_id": "e59f6d212cd1",
+    "basis": "lead",
+    "body_status": "lead_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "China’s looming November export controls test rare earth refining, recycling ambitions&nbsp;&nbsp;Fastmarkets",
+    "english_phrases": [
+     {
+      "phrase": "export controls",
+      "meaning": "수출통제"
+     },
+     {
+      "phrase": "feedstock",
+      "meaning": "원료(공급 원료)"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "556db742f26b",
+   "title": "US E - GPS Consulting - Critical Minerals Profile - Manager- S&T/I&R - JC - US External Careers - apply.deloitte.com",
+   "title_norm": "us e gps consulting critical minerals profile manager s t i r jc us external careers",
+   "url": "https://apply.deloitte.com/en_US/careers/ApplicationMethods?socialSite=linkedin&code=1&jobId=366353",
+   "gnews_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYzNKLUM5eUtmOE1tenI0ZzRNZWVJLVl1bW1TZHhKT2RpMjROajJ1SmZVOTFmWkxZTU1jWUZRSlplVGdqUHJOSnlzN2J2amd2RURoeFJkdHNpQnRsN2stMkpEWFNLUGRhUk5xak5GeFFhWjQ1WUFLTklNUW9VTE5vR0ozZXNUbzdCUUlIYWdjcS1oazFyM2Y4a2dYN213WTlv?oc=5",
+   "source": {
+    "name": "Deloitte - via Google News",
+    "domain": "apply.deloitte.com",
+    "tier": null,
+    "tier_weight": 4,
+    "language": null
+   },
+   "published": "2026-09-12",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:52:40+00:00",
+   "score": 10,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "bot_block",
+    "http_status": 403,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://apply.deloitte.com/en_US/careers/Error",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "GPS 컨설팅 핵심광물 프로필 매니저(S&T/I&R) 직무의 미국 외부 채용 페이지(US E, JC)임"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "컨설팅",
+     "채용",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Critical Minerals Profile",
+      "meaning": "핵심광물 프로필"
+     },
+     {
+      "phrase": "GPS Consulting",
+      "meaning": "GPS 컨설팅"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:52:46+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "a263d9d7c9",
+     "v1_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYzNKLUM5eUtmOE1tenI0ZzRNZWVJLVl1bW1TZHhKT2RpMjROajJ1SmZVOTFmWkxZTU1jWUZRSlplVGdqUHJOSnlzN2J2amd2RURoeFJkdHNpQnRsN2stMkpEWFNLUGRhUk5xak5GeFFhWjQ1WUFLTklNUW9VTE5vR0ozZXNUbzdCUUlIYWdjcS1oazFyM2Y4a2dYN213WTlv?oc=5",
+     "summary_raw": "US E - GPS Consulting - Critical Minerals Profile - Manager- S&amp;T/I&amp;R - JC - US External Careers&nbsp;&nbsp;apply.deloitte.com"
+    }
+   },
+   "v1": {
+    "korean_summary": "델로이트(Deloitte)에서는 핵심광물 분야의 전략적 중요성 증대에 따라 과학기술 및 혁신 분야 매니저급 전문가를 모집하고 있는 것으로 확인되었습니다. 이는 미국을 중심으로 핵심광물의 공급망 안정화 및 자급률 제고가 국가적 우선 과제로 대두되고 있음을 시사합니다. 글로벌 컨설팅 기업의 핵심광물 분야 인력 확충은 관련 산업의 성장성과 정책 중요도의 증가를 반영하는 사례로 평가됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "공급망 전략",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Critical Minerals Profile",
+      "meaning": "핵심광물 프로파일 (광종별 수급, 기술, 정책 특성을 종합적으로 분석하는 자료)"
+     },
+     {
+      "phrase": "Science & Technology / Innovation & Research (S&T/I&R)",
+      "meaning": "과학기술 및 혁신·연구 분야 (정책 입안 및 기술 전략 개발 담당 부서)"
+     },
+     {
+      "phrase": "Supply Chain Resilience for Critical Minerals",
+      "meaning": "핵심광물 공급망 회복력 강화 (수입 의존도 감소 및 자급 안정성 확보 관련)"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "a263d9d7c9",
+    "title": "US E - GPS Consulting - Critical Minerals Profile - Manager- S&T/I&R - JC - US External Careers - apply.deloitte.com",
+    "url": "https://apply.deloitte.com/en_US/careers/ApplicationMethods?socialSite=linkedin&code=1&jobId=366353",
+    "source": "Deloitte - via Google News",
+    "tier_weight": 4,
+    "score": 10,
+    "published": "2026-09-12",
+    "korean_summary": [
+     "[제목 기반] GPS 컨설팅 핵심광물 프로필 매니저(S&T/I&R) 직무의 미국 외부 채용 페이지(US E, JC)임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "컨설팅",
+     "채용",
+     "미국"
+    ],
+    "ai_processed": true,
+    "card_id": "556db742f26b",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "US E - GPS Consulting - Critical Minerals Profile - Manager- S&amp;T/I&amp;R - JC - US External Careers&nbsp;&nbsp;apply.deloitte.com",
+    "english_phrases": [
+     {
+      "phrase": "Critical Minerals Profile",
+      "meaning": "핵심광물 프로필"
+     },
+     {
+      "phrase": "GPS Consulting",
+      "meaning": "GPS 컨설팅"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "0f42100b9bbc",
+   "title": "Mining stocks rally comes to abrupt halt as copper, silver prices plummet and gold slides",
+   "title_norm": "mining stocks rally comes to abrupt halt as copper silver prices plummet and gold slides",
+   "url": "https://mining.com/mining-stocks-rally-comes-to-abrupt-halt-as-copper-silver-prices-plummet-and-gold-slides",
+   "gnews_url": null,
+   "source": {
+    "name": "Mining.com",
+    "domain": "mining.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-09-10",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:52:46+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 7092,
+    "sha256": "09ea08d42b3a8e9b2aa727bb008212909518de13a8b26a559576c45c35cd43e1",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-09-10",
+    "quotes": [
+     "Comex gold for December delivery dropped as much as 2.1% to $4,365.40 an ounce before paring the loss to 1.6% at $4,391.00, while December silver slid as much as 6.1% to $64.455 and was last at $64.575, down 5.9%.",
+     "Platinum and palladium each lost more than 6%."
+    ],
+    "final_url": "https://www.mining.com/mining-stocks-rally-comes-to-abrupt-halt-as-copper-silver-prices-plummet-and-gold-slides/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "미국 생산자물가 보고서, 고유가, 구리 관세안 지연 보도에 광산주와 금속 가격이 급락했음",
+     "Comex 12월물 구리는 장중 5.4% 하락한 $6.5160 a pound까지 밀렸고 전날 종가는 record $6.8885였음",
+     "Reuters는 백악관이 정제구리 관세를 아직 결정하지 못했다고 보도했음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "$6.5160 a pound",
+     "$6.8885",
+     "$357 billion"
+    ],
+    "quotes": [
+     "Comex gold for December delivery dropped as much as 2.1% to $4,365.40 an ounce before paring the loss to 1.6% at $4,391.00, while December silver slid as much as 6.1% to $64.455 and was last at $64.575, down 5.9%.",
+     "Platinum and palladium each lost more than 6%."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "구리",
+     "관세",
+     "광산주",
+     "은",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "pulled the rug from under",
+      "meaning": "기반을 갑자기 무너뜨림"
+     },
+     {
+      "phrase": "tariff premium",
+      "meaning": "관세 기대에 따라 가격에 붙은 프리미엄"
+     },
+     {
+      "phrase": "midterm elections",
+      "meaning": "미국 중간선거"
+     }
+    ],
+    "implication": "미국 정제구리 관세 결정이 미뤄지면서 관세 기대에 기대온 구리 가격과 광산주의 변동성이 커질 수 있음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:52:58+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 4줄)"
+    ],
+    "retry_tails": [
+     "edge funds are heavily long\", \"meaning\": \"헤지펀드가 매수 포지션을 크게 쥐고 있음\"}\n  ],\n  \"implication\": \"미국 정책 불확실성과 금리 인상 우려가 겹치며 관세 기대에 의존한 구리 가격과 광산주 상승분이 되돌려질 수 있음을 보여줌\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "66c5863530",
+     "v1_url": "https://www.mining.com/mining-stocks-rally-comes-to-abrupt-halt-as-copper-silver-prices-plummet-and-gold-slides/",
+     "summary_raw": "Freeport-McMoRan and Teck Resources led copper producers down 7% after a report that the White House has yet to decide on refined copper tariffs, and Freeport's $100 billion valuation is back in play."
+    }
+   },
+   "v1": {
+    "korean_summary": "구리와 은의 국제 가격 급락에 따라 광산 관련 주식의 상승세가 급제동되었으며, Freeport-McMoRan과 Teck Resources 등 주요 구리 생산업체들의 주가가 7% 하락한 것으로 확인되었습니다. 백악관이 정제 구리 관세 정책 결정을 미루고 있다는 보도가 시장 심리를 악화시켰으며, Freeport-McMoRan의 기업가치 1,000억 달러 평가가 다시 변동 국면에 접어든 상황입니다. 이는 글로벌 광물 수급 불안정과 정책 불확실성이 핵심광물 산업의 투자 심리에 미치는 영향이 상당함을 시사합니다.",
+    "category": "policy_market",
+    "tags": [
+     "구리",
+     "은",
+     "정책불확실성"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "mining stocks rally comes to abrupt halt",
+      "meaning": "광산 관련 주식의 상승세가 급격히 중단되다"
+     },
+     {
+      "phrase": "tariff decision remains pending",
+      "meaning": "관세 정책 결정이 미결 상태에 있다"
+     },
+     {
+      "phrase": "commodity price volatility",
+      "meaning": "광물 가격의 변동성"
+     },
+     {
+      "phrase": "market sentiment deterioration",
+      "meaning": "시장 심리 악화"
+     },
+     {
+      "phrase": "valuation pressure on major producers",
+      "meaning": "주요 광산 생산업체의 기업가치 평가 압박"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "66c5863530",
+    "title": "Mining stocks rally comes to abrupt halt as copper, silver prices plummet and gold slides",
+    "url": "https://mining.com/mining-stocks-rally-comes-to-abrupt-halt-as-copper-silver-prices-plummet-and-gold-slides",
+    "source": "Mining.com",
+    "tier_weight": 3,
+    "score": 9,
+    "published": "2026-09-10",
+    "korean_summary": [
+     "미국 생산자물가 보고서, 고유가, 구리 관세안 지연 보도에 광산주와 금속 가격이 급락했음",
+     "Comex 12월물 구리는 장중 5.4% 하락한 $6.5160 a pound까지 밀렸고 전날 종가는 record $6.8885였음",
+     "Reuters는 백악관이 정제구리 관세를 아직 결정하지 못했다고 보도했음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "구리",
+     "관세",
+     "광산주",
+     "은",
+     "미국"
+    ],
+    "ai_processed": true,
+    "card_id": "0f42100b9bbc",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "$6.5160 a pound",
+     "$6.8885",
+     "$357 billion"
+    ],
+    "quotes": [
+     "Comex gold for December delivery dropped as much as 2.1% to $4,365.40 an ounce before paring the loss to 1.6% at $4,391.00, while December silver slid as much as 6.1% to $64.455 and was last at $64.575, down 5.9%.",
+     "Platinum and palladium each lost more than 6%."
+    ],
+    "summary_raw": "Freeport-McMoRan and Teck Resources led copper producers down 7% after a report that the White House has yet to decide on refined copper tariffs, and Freeport's $100 billion valuation is back in play.",
+    "english_phrases": [
+     {
+      "phrase": "pulled the rug from under",
+      "meaning": "기반을 갑자기 무너뜨림"
+     },
+     {
+      "phrase": "tariff premium",
+      "meaning": "관세 기대에 따라 가격에 붙은 프리미엄"
+     },
+     {
+      "phrase": "midterm elections",
+      "meaning": "미국 중간선거"
+     }
+    ],
+    "implication": "미국 정제구리 관세 결정이 미뤄지면서 관세 기대에 기대온 구리 가격과 광산주의 변동성이 커질 수 있음",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "0f497065458e",
+   "title": "US says it will help develop Kenya's critical minerals processing - miningweekly.com",
+   "title_norm": "us says it will help develop kenya s critical minerals processing",
+   "url": "https://miningweekly.com/article/us-says-it-will-help-develop-kenyas-critical-minerals-processing-2026-09-10",
+   "gnews_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNanFKWkxNU3FONFlOd0lGSFo0OHRMUnhxeHNOZzRmR2dnSWV4SUo3eU5sVnp5T0c1R2xGZjRYNlRQMC1qd1hLTWVRaFJVb3VlMFZHTFoyQ0d1eWFrTm1KUVUzUEtOWTlEeXFpTi0wVHRBTlFWUWtuenR3aDUySUR6eFJnWWtBTXM3cV9NX3NOQTh0UWlrMWtBU1NDNzVTekkyaDVobUNMTTA3QU9mR2RDMmlB?oc=5",
+   "source": {
+    "name": "Mining Weekly - via Google News",
+    "domain": "miningweekly.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-09-10",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:53:00+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 5106,
+    "sha256": "681793c7cb47495b483e63f4dbc066e3a3efd332c329e1f1f41e28caa16baa9c",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-09-10",
+    "quotes": [
+     "\"We are ready to help you build a mining sector that is transparent and attracts legitimate businesses, respects communities and helps secure global supply chains.\"",
+     "\"If we are serious about rare earths minerals, energy and a stronger America, we do it in partnership, not alone,\" Garcia said."
+    ],
+    "final_url": "https://www.miningweekly.com/article/us-says-it-will-help-develop-kenyas-critical-minerals-processing-2026-09-10",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "미국 국무부 아프리카 담당 차관보가 케냐의 핵심광물 가공 산업 개발을 돕겠다고 밝혔음",
+     "Mrima Hill 광구 개발 후보 업체는 6곳이며 이 중 2곳이 미국 업체라고 케냐 당국자가 밝혔음",
+     "루토 대통령이 in June 협정 체결이 가깝다고 했으나 이번 회의에서 진행 상황은 공개되지 않았음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "tens of billions of dollars' worth",
+     "six companies"
+    ],
+    "quotes": [
+     "\"We are ready to help you build a mining sector that is transparent and attracts legitimate businesses, respects communities and helps secure global supply chains.\"",
+     "\"If we are serious about rare earths minerals, energy and a stronger America, we do it in partnership, not alone,\" Garcia said."
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "니오븀",
+     "케냐",
+     "미국",
+     "광물 가공"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "local processing and value addition",
+      "meaning": "산출국 내 가공 및 부가가치 창출"
+     },
+     {
+      "phrase": "export controls",
+      "meaning": "수출 통제"
+     },
+     {
+      "phrase": "shortlisted",
+      "meaning": "최종 후보 명단에 오른"
+     }
+    ],
+    "implication": "미국이 중국 의존을 줄이려 아프리카 희토류 사업 금융 지원과 산출국 내 가공 모델을 내세우며 공급망 주도권 경쟁이 심화되고 있음."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:53:12+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 4줄)"
+    ],
+    "retry_tails": [
+     " 가공 및 부가가치 창출\"},\n    {\"phrase\": \"export controls\", \"meaning\": \"수출 통제\"},\n    {\"phrase\": \"shortlisted\", \"meaning\": \"최종 후보 명단에 오른\"}\n  ],\n  \"implication\": \"해당 없음\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "4472b010be",
+     "v1_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNanFKWkxNU3FONFlOd0lGSFo0OHRMUnhxeHNOZzRmR2dnSWV4SUo3eU5sVnp5T0c1R2xGZjRYNlRQMC1qd1hLTWVRaFJVb3VlMFZHTFoyQ0d1eWFrTm1KUVUzUEtOWTlEeXFpTi0wVHRBTlFWUWtuenR3aDUySUR6eFJnWWtBTXM3cV9NX3NOQTh0UWlrMWtBU1NDNzVTekkyaDVobUNMTTA3QU9mR2RDMmlB?oc=5",
+     "summary_raw": "US says it will help develop Kenya's critical minerals processing&nbsp;&nbsp;miningweekly.com"
+    }
+   },
+   "v1": {
+    "korean_summary": "미국이 케냐의 핵심광물 처리 산업 발전을 지원하기로 공식 천명하였으며, 이는 아프리카 지역의 광물 공급망 다변화 전략의 일환으로 평가됩니다. 케냐는 풍부한 희토류 및 기타 핵심광물 자원을 보유하고 있으나 광물 가공 능력이 제한적이어서 미국의 기술 및 자본 지원이 중요한 의미를 갖습니다. 이러한 양자협력은 글로벌 핵심광물 공급망 재편 추세 속에서 미국의 전략적 광물 확보 정책의 구체적 실현 사례로 주목됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "광물 가공산업",
+     "미국-케냐"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals processing capacity development",
+      "meaning": "핵심광물 처리 능력 개발"
+     },
+     {
+      "phrase": "supply chain diversification in Africa",
+      "meaning": "아프리카 지역의 공급망 다변화"
+     },
+     {
+      "phrase": "bilateral cooperation on mineral resources",
+      "meaning": "광물자원에 관한 양자협력"
+     },
+     {
+      "phrase": "downstream value addition",
+      "meaning": "광물 가공을 통한 부가가치 창출"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "4472b010be",
+    "title": "US says it will help develop Kenya's critical minerals processing - miningweekly.com",
+    "url": "https://miningweekly.com/article/us-says-it-will-help-develop-kenyas-critical-minerals-processing-2026-09-10",
+    "source": "Mining Weekly - via Google News",
+    "tier_weight": 3,
+    "score": 9,
+    "published": "2026-09-10",
+    "korean_summary": [
+     "미국 국무부 아프리카 담당 차관보가 케냐의 핵심광물 가공 산업 개발을 돕겠다고 밝혔음",
+     "Mrima Hill 광구 개발 후보 업체는 6곳이며 이 중 2곳이 미국 업체라고 케냐 당국자가 밝혔음",
+     "루토 대통령이 in June 협정 체결이 가깝다고 했으나 이번 회의에서 진행 상황은 공개되지 않았음"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "니오븀",
+     "케냐",
+     "미국",
+     "광물 가공"
+    ],
+    "ai_processed": true,
+    "card_id": "0f497065458e",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "tens of billions of dollars' worth",
+     "six companies"
+    ],
+    "quotes": [
+     "\"We are ready to help you build a mining sector that is transparent and attracts legitimate businesses, respects communities and helps secure global supply chains.\"",
+     "\"If we are serious about rare earths minerals, energy and a stronger America, we do it in partnership, not alone,\" Garcia said."
+    ],
+    "summary_raw": "US says it will help develop Kenya's critical minerals processing&nbsp;&nbsp;miningweekly.com",
+    "english_phrases": [
+     {
+      "phrase": "local processing and value addition",
+      "meaning": "산출국 내 가공 및 부가가치 창출"
+     },
+     {
+      "phrase": "export controls",
+      "meaning": "수출 통제"
+     },
+     {
+      "phrase": "shortlisted",
+      "meaning": "최종 후보 명단에 오른"
+     }
+    ],
+    "implication": "미국이 중국 의존을 줄이려 아프리카 희토류 사업 금융 지원과 산출국 내 가공 모델을 내세우며 공급망 주도권 경쟁이 심화되고 있음.",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "baacdc48f375",
+   "title": "State exploration programme targets critical minerals - miningweekly.com",
+   "title_norm": "state exploration programme targets critical minerals",
+   "url": "https://miningweekly.com/article/programme-targets-critical-minerals-2026-09-11",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPeS1kOVNCNHVqa1Z1NTA3YkhseVh1aklNWnBWRG4zOGpFSE9MSTdrYlllUU1mQkxwVFprVTRNLWJPMVFOdTR6dXFyS1pDU3BodjJIbWJLNERXNlRXUmtPNHBRTW1SMklXM1pwN2xtX0psbzV2dnV5ZGN0MFBzWkxmS0wteTJLODhTWng0?oc=5",
+   "source": {
+    "name": "Mining Weekly - via Google News",
+    "domain": "miningweekly.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-09-10",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:53:13+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 7858,
+    "sha256": "62ea4e82c46a2d0ca51f4f43edf757f114d83334820faf02677e8d921dc20653",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-09-11",
+    "quotes": [
+     "“South Africa has a decent, if not one of the best mineral endowments of PGMs, copper, lithium, graphite, nickel, REEs, amongst others,” states Mononela.",
+     "“Several good projects are still stagnant because of the failure to secure the community buy-in and traditional land occupiers’ support.”"
+    ],
+    "final_url": "https://www.miningweekly.com/article/programme-targets-critical-minerals-2026-09-11",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "남아프리카공화국 국가지질기관 CGS가 핵심광물 잠재 지역을 찾기 위한 고해상도 지질도 작성 사업을 도입했음",
+     "CGS는 1:50 000 축척으로 국토를 도시하도록 위임받았으며, 지질 데이터를 탐사업체에 더 쉽게 공개할 계획임",
+     "정책 불확실성과 지적 시스템 미비로 줄었던 탐사 지출이 회복되는 시점이며, 후속 일정은 확인 불가임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "1:50 000"
+    ],
+    "quotes": [
+     "“South Africa has a decent, if not one of the best mineral endowments of PGMs, copper, lithium, graphite, nickel, REEs, amongst others,” states Mononela.",
+     "“Several good projects are still stagnant because of the failure to secure the community buy-in and traditional land occupiers’ support.”"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "핵심광물",
+     "지질도",
+     "탐사기술",
+     "남아프리카공화국",
+     "백금족금속"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "high-resolution mapping programme",
+      "meaning": "고해상도 지질도 작성 사업"
+     },
+     {
+      "phrase": "ambient noise tomography",
+      "meaning": "자연 발생 지반 진동으로 지하 구조를 영상화하는 탐사 기법"
+     },
+     {
+      "phrase": "Tier 1 deposits",
+      "meaning": "최상위 등급의 대형 광床"
+     },
+     {
+      "phrase": "cadastral system",
+      "meaning": "광업권 등을 관리하는 지적 시스템"
+     }
+    ],
+    "implication": "남아공이 공공 지질 데이터 공개와 탐사 기술 도입을 늘려 탐사 비용과 기간을 줄이면 핵심광물 신규 탐사 투자가 되살아날 수 있음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:53:19+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "b4cf950b1c",
+     "v1_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPeS1kOVNCNHVqa1Z1NTA3YkhseVh1aklNWnBWRG4zOGpFSE9MSTdrYlllUU1mQkxwVFprVTRNLWJPMVFOdTR6dXFyS1pDU3BodjJIbWJLNERXNlRXUmtPNHBRTW1SMklXM1pwN2xtX0psbzV2dnV5ZGN0MFBzWkxmS0wteTJLODhTWng0?oc=5",
+     "summary_raw": "State exploration programme targets critical minerals&nbsp;&nbsp;miningweekly.com"
+    }
+   },
+   "v1": {
+    "korean_summary": "정부 차원의 핵심광물 탐사 프로그램이 추진 중에 있으며, 국가 자원 안보 강화를 위해 리튬, 코발트, 니켈 등 전략적 중요성이 높은 광종의 국내 부존량 파악에 중점을 두고 있음이 확인되었습니다. 이러한 국가 탐사 사업은 민간 광업 부문의 탐사 투자 부족을 보완하고 핵심광물 자급률 향상을 목표로 하고 있습니다. 선진국들의 사례에 따르면 정부 주도 탐사가 이후 민간 채광 프로젝트로 발전하는 촉매 역할을 하고 있음이 주목됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "리튬·코발트·니켈",
+     "국가탐사프로그램",
+     "자원안보정책"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "state exploration programme",
+      "meaning": "정부 탐사 프로그램/국가 탐사 사업"
+     },
+     {
+      "phrase": "critical minerals security",
+      "meaning": "핵심광물 공급 안보/자원 안보"
+     },
+     {
+      "phrase": "de-risking exploration investment",
+      "meaning": "탐사 투자의 위험도 감소/탐사 사업의 경제성 개선"
+     },
+     {
+      "phrase": "mineral endowment assessment",
+      "meaning": "광물 부존량 평가/자원 매장량 조사"
+     },
+     {
+      "phrase": "strategic autonomy in raw materials",
+      "meaning": "핵심광물 공급망의 전략적 자립"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "b4cf950b1c",
+    "title": "State exploration programme targets critical minerals - miningweekly.com",
+    "url": "https://miningweekly.com/article/programme-targets-critical-minerals-2026-09-11",
+    "source": "Mining Weekly - via Google News",
+    "tier_weight": 3,
+    "score": 9,
+    "published": "2026-09-10",
+    "korean_summary": [
+     "남아프리카공화국 국가지질기관 CGS가 핵심광물 잠재 지역을 찾기 위한 고해상도 지질도 작성 사업을 도입했음",
+     "CGS는 1:50 000 축척으로 국토를 도시하도록 위임받았으며, 지질 데이터를 탐사업체에 더 쉽게 공개할 계획임",
+     "정책 불확실성과 지적 시스템 미비로 줄었던 탐사 지출이 회복되는 시점이며, 후속 일정은 확인 불가임"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "핵심광물",
+     "지질도",
+     "탐사기술",
+     "남아프리카공화국",
+     "백금족금속"
+    ],
+    "ai_processed": true,
+    "card_id": "baacdc48f375",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "1:50 000"
+    ],
+    "quotes": [
+     "“South Africa has a decent, if not one of the best mineral endowments of PGMs, copper, lithium, graphite, nickel, REEs, amongst others,” states Mononela.",
+     "“Several good projects are still stagnant because of the failure to secure the community buy-in and traditional land occupiers’ support.”"
+    ],
+    "summary_raw": "State exploration programme targets critical minerals&nbsp;&nbsp;miningweekly.com",
+    "english_phrases": [
+     {
+      "phrase": "high-resolution mapping programme",
+      "meaning": "고해상도 지질도 작성 사업"
+     },
+     {
+      "phrase": "ambient noise tomography",
+      "meaning": "자연 발생 지반 진동으로 지하 구조를 영상화하는 탐사 기법"
+     },
+     {
+      "phrase": "Tier 1 deposits",
+      "meaning": "최상위 등급의 대형 광床"
+     },
+     {
+      "phrase": "cadastral system",
+      "meaning": "광업권 등을 관리하는 지적 시스템"
+     }
+    ],
+    "implication": "남아공이 공공 지질 데이터 공개와 탐사 기술 도입을 늘려 탐사 비용과 기간을 줄이면 핵심광물 신규 탐사 투자가 되살아날 수 있음",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "935b800155e4",
+   "title": "Commission presents landmark India trade deal to Council for signature",
+   "title_norm": "commission presents landmark india trade deal to council for signature",
+   "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1842",
+   "gnews_url": null,
+   "source": {
+    "name": "European Commission - Energy",
+    "domain": "ec.europa.eu",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-09-10",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:53:20+00:00",
+   "score": 12,
+   "body": {
+    "status": "full",
+    "chars": 2295,
+    "sha256": "5bd21d33b6929acd9186622a922298e570ae3a27df608d1cef8224597e8b13cc",
+    "source": "presscorner_api",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [
+     "The EU and India already trade over €180 billion worth of goods and services per year, supporting close to 800,000 EU jobs.",
+     "This deal will eliminate or reduce tariffs on 96% of EU goods exports to India."
+    ],
+    "final_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1842",
+    "strategies_tried": [
+     "presscorner_api"
+    ]
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "유럽연합 집행위원회가 EU-인도 자유무역협정(FTA)의 서명·체결 승인을 이사회에 제안했음",
+     "협정이 발효되면 EU의 인도 수출 상품 중 96%에 대한 관세가 철폐되거나 인하됨",
+     "이사회 승인 뒤 유럽의회 동의가 필요하며, 인도도 자체 비준 절차를 병행 중임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "96%",
+     "€4 billion",
+     "€180 billion"
+    ],
+    "quotes": [
+     "The EU and India already trade over €180 billion worth of goods and services per year, supporting close to 800,000 EU jobs.",
+     "This deal will eliminate or reduce tariffs on 96% of EU goods exports to India."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "EU",
+     "인도",
+     "자유무역협정",
+     "관세",
+     "무역정책"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Free Trade Agreement",
+      "meaning": "자유무역협정"
+     },
+     {
+      "phrase": "market access",
+      "meaning": "시장 접근"
+     },
+     {
+      "phrase": "fast-track procedure",
+      "meaning": "신속 처리 절차"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 2295,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:53:31+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 4줄)"
+    ],
+    "retry_tails": [
+     "\": \"자유무역협정\"},\n    {\"phrase\": \"market access\", \"meaning\": \"시장 접근\"},\n    {\"phrase\": \"fast-track procedure\", \"meaning\": \"신속 처리 절차\"}\n  ],\n  \"implication\": \"해당 없음\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "582907f10d",
+     "v1_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1842",
+     "summary_raw": "European Commission Press release Brussels, 11 Sep 2026 Today, the European Commission has put forward its proposals to the Council for the signature and conclusion of Free Trade Agreement (FTA) between the European Union and India, seeking authorization for its signature and conclusion."
+    }
+   },
+   "v1": {
+    "korean_summary": "유럽연합 집행위원회가 인도와의 자유무역협정(FTA) 체결을 위해 이사회에 공식 제안을 제시했습니다. 이번 협정은 핵심광물을 포함한 전략적 자원의 공급망 다각화를 목표로 하고 있습니다. EU-인도 FTA 체결은 글로벌 핵심광물 확보 경쟁에서 유럽의 전략적 지위 강화를 의미할 전망입니다.",
+    "category": "supply_chain",
+    "tags": [
+     "핵심광물",
+     "FTA/통상정책",
+     "인도·유럽연합"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Free Trade Agreement (FTA) between the European Union and India",
+      "meaning": "유럽연합과 인도 간 자유무역협정"
+     },
+     {
+      "phrase": "authorization for its signature and conclusion",
+      "meaning": "협정 서명 및 체결 권한"
+     },
+     {
+      "phrase": "strategic supply chain diversification",
+      "meaning": "전략적 공급망 다각화"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "582907f10d",
+    "title": "Commission presents landmark India trade deal to Council for signature",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1842",
+    "source": "European Commission - Energy",
+    "tier_weight": 5,
+    "score": 12,
+    "published": "2026-09-10",
+    "korean_summary": [
+     "유럽연합 집행위원회가 EU-인도 자유무역협정(FTA)의 서명·체결 승인을 이사회에 제안했음",
+     "협정이 발효되면 EU의 인도 수출 상품 중 96%에 대한 관세가 철폐되거나 인하됨",
+     "이사회 승인 뒤 유럽의회 동의가 필요하며, 인도도 자체 비준 절차를 병행 중임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "EU",
+     "인도",
+     "자유무역협정",
+     "관세",
+     "무역정책"
+    ],
+    "ai_processed": true,
+    "card_id": "935b800155e4",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "96%",
+     "€4 billion",
+     "€180 billion"
+    ],
+    "quotes": [
+     "The EU and India already trade over €180 billion worth of goods and services per year, supporting close to 800,000 EU jobs.",
+     "This deal will eliminate or reduce tariffs on 96% of EU goods exports to India."
+    ],
+    "summary_raw": "European Commission Press release Brussels, 11 Sep 2026 Today, the European Commission has put forward its proposals to the Council for the signature and conclusion of Free Trade Agreement (FTA) between the European Union and India, seeking authorization for its signature and conclusion.",
+    "english_phrases": [
+     {
+      "phrase": "Free Trade Agreement",
+      "meaning": "자유무역협정"
+     },
+     {
+      "phrase": "market access",
+      "meaning": "시장 접근"
+     },
+     {
+      "phrase": "fast-track procedure",
+      "meaning": "신속 처리 절차"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "32236770a518",
+   "title": "Traceability is essential for the critical minerals supply chain, report",
+   "title_norm": "traceability is essential for the critical minerals supply chain report",
+   "url": "https://mining.com/traceability-is-essential-for-the-critical-minerals-supply-chain-report",
+   "gnews_url": null,
+   "source": {
+    "name": "Mining.com",
+    "domain": "mining.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-09-09",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:53:31+00:00",
+   "score": 12,
+   "body": {
+    "status": "full",
+    "chars": 4385,
+    "sha256": "360bc1a0c5ac6c0aa0d821a27e624fed42b8e678a05ba31f89593c8e848737d3",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-09-09",
+    "quotes": [
+     "Traceability is essential for the critical minerals supply chain, report",
+     "Better traceability of critical minerals like lithium and nickel can boost the credibility and integrity of the supply chain, a new report by the Organization for Economic Co-operation and Development (OECD) shows."
+    ],
+    "final_url": "https://www.mining.com/traceability-is-essential-for-the-critical-minerals-supply-chain-report/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "OECD가 핵심광물 공급망의 추적성(traceability)을 높여야 한다는 보고서를 발표했음",
+     "니켈은 인도네시아·필리핀, 리튬은 아르헨티나·칠레를 중심으로 추적성 체계를 분석했음",
+     "단기·중기·장기로 나눈 단계적 위험 기반 접근을 권고했고 G7·IEA 등과의 협력을 제시했음"
+    ],
+    "basis": "body",
+    "key_figures": [],
+    "quotes": [
+     "Traceability is essential for the critical minerals supply chain, report",
+     "Better traceability of critical minerals like lithium and nickel can boost the credibility and integrity of the supply chain, a new report by the Organization for Economic Co-operation and Development (OECD) shows."
+    ],
+    "category": "research",
+    "tags": [
+     "핵심광물",
+     "추적성",
+     "니켈",
+     "리튬",
+     "OECD"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "traceability",
+      "meaning": "광물의 원산지와 이동 경로를 추적할 수 있는 능력"
+     },
+     {
+      "phrase": "chain of custody",
+      "meaning": "광물이 공급망을 거치며 이동·보관되는 이력 관리"
+     },
+     {
+      "phrase": "mass-balance approaches",
+      "meaning": "투입·산출 물량을 대조해 투명성을 높이는 방식"
+     },
+     {
+      "phrase": "phased, risk-based approach",
+      "meaning": "위험도에 따라 단계적으로 추진하는 접근법"
+     }
+    ],
+    "implication": "추적성 체계가 파편화되어 있고 리튬 가공의 중국 의존이 거래 데이터로 드러나, 소유구조 투명성과 국가 간 데이터 공유 논의가 확대될 수 있음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:53:36+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "49e6433b98",
+     "v1_url": "https://www.mining.com/traceability-is-essential-for-the-critical-minerals-supply-chain-report/",
+     "summary_raw": "A new OECD study of lithium and nickel in four countries finds fragmented tracking and calls for shared standards and data use."
+    }
+   },
+   "v1": {
+    "korean_summary": "OECD의 최근 연구에 따르면 리튬과 니켈의 핵심광물 공급망에서 추적 시스템이 단편화되어 있으며, 이는 국제적 표준화와 데이터 공유의 필요성을 강조하고 있습니다. 4개국의 조사 결과는 현재 공급망 투명성이 부족하며, 채굴에서 가공·제조에 이르는 전 단계의 통합 추적 체계 구축이 시급함을 보여주고 있습니다. 핵심광물의 안정적인 수급 확보와 국제 공급망 신뢰성 강화를 위해서는 공동 표준 수립과 데이터 공유 메커니즘의 구축이 필수적임이 확인되었습니다.",
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "니켈",
+     "공급망 투명성"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "traceability in the critical minerals supply chain",
+      "meaning": "핵심광물 공급망에서의 추적가능성"
+     },
+     {
+      "phrase": "fragmented tracking system",
+      "meaning": "단편화된 추적 시스템"
+     },
+     {
+      "phrase": "shared standards and data use",
+      "meaning": "공동 표준 및 데이터 공유 체계"
+     },
+     {
+      "phrase": "supply chain transparency",
+      "meaning": "공급망 투명성"
+     },
+     {
+      "phrase": "end-to-end traceability mechanism",
+      "meaning": "전주기 추적 메커니즘"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "49e6433b98",
+    "title": "Traceability is essential for the critical minerals supply chain, report",
+    "url": "https://mining.com/traceability-is-essential-for-the-critical-minerals-supply-chain-report",
+    "source": "Mining.com",
+    "tier_weight": 3,
+    "score": 12,
+    "published": "2026-09-09",
+    "korean_summary": [
+     "OECD가 핵심광물 공급망의 추적성(traceability)을 높여야 한다는 보고서를 발표했음",
+     "니켈은 인도네시아·필리핀, 리튬은 아르헨티나·칠레를 중심으로 추적성 체계를 분석했음",
+     "단기·중기·장기로 나눈 단계적 위험 기반 접근을 권고했고 G7·IEA 등과의 협력을 제시했음"
+    ],
+    "category": "research",
+    "tags": [
+     "핵심광물",
+     "추적성",
+     "니켈",
+     "리튬",
+     "OECD"
+    ],
+    "ai_processed": true,
+    "card_id": "32236770a518",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [],
+    "quotes": [
+     "Traceability is essential for the critical minerals supply chain, report",
+     "Better traceability of critical minerals like lithium and nickel can boost the credibility and integrity of the supply chain, a new report by the Organization for Economic Co-operation and Development (OECD) shows."
+    ],
+    "summary_raw": "A new OECD study of lithium and nickel in four countries finds fragmented tracking and calls for shared standards and data use.",
+    "english_phrases": [
+     {
+      "phrase": "traceability",
+      "meaning": "광물의 원산지와 이동 경로를 추적할 수 있는 능력"
+     },
+     {
+      "phrase": "chain of custody",
+      "meaning": "광물이 공급망을 거치며 이동·보관되는 이력 관리"
+     },
+     {
+      "phrase": "mass-balance approaches",
+      "meaning": "투입·산출 물량을 대조해 투명성을 높이는 방식"
+     },
+     {
+      "phrase": "phased, risk-based approach",
+      "meaning": "위험도에 따라 단계적으로 추진하는 접근법"
+     }
+    ],
+    "implication": "추적성 체계가 파편화되어 있고 리튬 가공의 중국 의존이 거래 데이터로 드러나, 소유구조 투명성과 국가 간 데이터 공유 논의가 확대될 수 있음",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "bfaefba34144",
+   "title": "USA Rare Earth breaks ground at $1.2B magnet manufacturing facility in South Carolina",
+   "title_norm": "usa rare earth breaks ground at 1 2b magnet manufacturing facility in south carolina",
+   "url": "https://mining.com/usa-rare-earth-breaks-ground-at-1-2b-rare-earth-magnet-manufacturing-facility-in-south-carolina",
+   "gnews_url": null,
+   "source": {
+    "name": "Mining.com",
+    "domain": "mining.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-09-11",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:53:36+00:00",
+   "score": 10,
+   "body": {
+    "status": "full",
+    "chars": 3149,
+    "sha256": "540e03af633175b3ace88ae33f9e86677219338da5a2de6a6001daf57b177eb7",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-09-11",
+    "quotes": [
+     "USA Rare Earth breaks ground at $1.2B magnet manufacturing facility in South Carolina",
+     "USA Rare Earth also announced a $250,000 contribution to Spartanburg Community College to support its new SPARK Center in Cherokee County."
+    ],
+    "final_url": "https://www.mining.com/usa-rare-earth-breaks-ground-at-1-2b-rare-earth-magnet-manufacturing-facility-in-south-carolina/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "USA Rare Earth가 사우스캐롤라이나주 블랙스버그의 희토류 금속·자석 제조시설 착공식을 가졌음",
+     "체리키 카운티 베일리 산업단지 124-acre 부지에 800,000-square-foot 규모로, 약 $1.2 billion 투자에 일자리 약 490개 창출 예정임",
+     "소결 NdFeB 자석 6,400 metric tons per annum 생산능력을 목표로 하며 시운전은 2028년 시작 목표임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "$1.2 billion",
+     "10,000 tpa",
+     "6,400 metric tons per annum"
+    ],
+    "quotes": [
+     "USA Rare Earth breaks ground at $1.2B magnet manufacturing facility in South Carolina",
+     "USA Rare Earth also announced a $250,000 contribution to Spartanburg Community College to support its new SPARK Center in Cherokee County."
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "NdFeB 영구자석",
+     "자석 제조",
+     "미국",
+     "사우스캐롤라이나"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "broke ground",
+      "meaning": "착공함"
+     },
+     {
+      "phrase": "integrated rare earth supply chain",
+      "meaning": "통합 희토류 공급망"
+     },
+     {
+      "phrase": "sintered NdFeB permanent magnets",
+      "meaning": "소결 네오디뮴-철-붕소 영구자석"
+     },
+     {
+      "phrase": "strip-cast metal and alloy",
+      "meaning": "스트립 캐스트 금속 및 합금"
+     }
+    ],
+    "implication": "블랙스버그와 스틸워터 확장이 완료되면 미국 내 NdFeB 자석 생산능력이 10,000 tpa에 이르러 중국 의존 축소를 뒷받침할 것임"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 3149,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:53:41+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "aee8f912f7",
+     "v1_url": "https://www.mining.com/usa-rare-earth-breaks-ground-at-1-2b-rare-earth-magnet-manufacturing-facility-in-south-carolina/",
+     "summary_raw": "Event marks a milestone in its plan to build an integrated  US rare earth supply chain."
+    }
+   },
+   "v1": {
+    "korean_summary": "미국의 USA Rare Earth가 남캐롤라이나주에 12억 달러 규모의 희토류 자석 제조시설 착공식을 개최하였으며, 이는 미국 내 통합 희토류 공급망 구축 계획의 중요한 이정표로 평가되고 있습니다. 본 프로젝트는 해외 의존도가 높은 희토류 자석 분야에서 국내 생산 기반을 확충하고 핵심광물의 자급화를 추진하는 전략적 의의를 지닙니다. 이러한 투자 확대는 글로벌 핵심광물 공급망 재편 추세 속에서 북미 지역의 광물 가공·제조 역량 강화를 시사하고 있습니다.",
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "영구자석·가공산업",
+     "미국(남캐롤라이나)"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "integrated rare earth supply chain",
+      "meaning": "희토류 채광에서 가공·제조까지 일관된 국내 공급망 체계"
+     },
+     {
+      "phrase": "rare earth permanent magnet manufacturing",
+      "meaning": "희토류 영구 자석 생산 (전자·방위산업 핵심 소재)"
+     },
+     {
+      "phrase": "critical minerals supply security",
+      "meaning": "핵심광물 공급망 안정성 확보 및 수급 안정화"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "aee8f912f7",
+    "title": "USA Rare Earth breaks ground at $1.2B magnet manufacturing facility in South Carolina",
+    "url": "https://mining.com/usa-rare-earth-breaks-ground-at-1-2b-rare-earth-magnet-manufacturing-facility-in-south-carolina",
+    "source": "Mining.com",
+    "tier_weight": 3,
+    "score": 10,
+    "published": "2026-09-11",
+    "korean_summary": [
+     "USA Rare Earth가 사우스캐롤라이나주 블랙스버그의 희토류 금속·자석 제조시설 착공식을 가졌음",
+     "체리키 카운티 베일리 산업단지 124-acre 부지에 800,000-square-foot 규모로, 약 $1.2 billion 투자에 일자리 약 490개 창출 예정임",
+     "소결 NdFeB 자석 6,400 metric tons per annum 생산능력을 목표로 하며 시운전은 2028년 시작 목표임"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "NdFeB 영구자석",
+     "자석 제조",
+     "미국",
+     "사우스캐롤라이나"
+    ],
+    "ai_processed": true,
+    "card_id": "bfaefba34144",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "$1.2 billion",
+     "10,000 tpa",
+     "6,400 metric tons per annum"
+    ],
+    "quotes": [
+     "USA Rare Earth breaks ground at $1.2B magnet manufacturing facility in South Carolina",
+     "USA Rare Earth also announced a $250,000 contribution to Spartanburg Community College to support its new SPARK Center in Cherokee County."
+    ],
+    "summary_raw": "Event marks a milestone in its plan to build an integrated  US rare earth supply chain.",
+    "english_phrases": [
+     {
+      "phrase": "broke ground",
+      "meaning": "착공함"
+     },
+     {
+      "phrase": "integrated rare earth supply chain",
+      "meaning": "통합 희토류 공급망"
+     },
+     {
+      "phrase": "sintered NdFeB permanent magnets",
+      "meaning": "소결 네오디뮴-철-붕소 영구자석"
+     },
+     {
+      "phrase": "strip-cast metal and alloy",
+      "meaning": "스트립 캐스트 금속 및 합금"
+     }
+    ],
+    "implication": "블랙스버그와 스틸워터 확장이 완료되면 미국 내 NdFeB 자석 생산능력이 10,000 tpa에 이르러 중국 의존 축소를 뒷받침할 것임",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "e38b12b382c5",
+   "title": "OECD, IEA say traceability is imperative for secure critical mineral supply chains - miningweekly.com",
+   "title_norm": "oecd iea say traceability is imperative for secure critical mineral supply chains",
+   "url": "https://miningweekly.com/article/oecd-iea-say-traceability-is-imperative-for-secure-critical-mineral-supply-chains-2026-09-11",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOcWJWTGtzRGxScllYaDZWc04wb0R6eVJMY0tsMFpnTW1jUHFGck94WHdBa0lYYm1GdlZtRm9RZW5IQXVBYjBTdXB2VzBGektxUC1lX3Iwb202QllDbXhQTDN4cHdxbS00ajhkc21pX21LX2gtcFZEQVFqeDhHV3V6VmVtcGpXYnktZ3dhZ2IzOHpNazJ2LVNuUlNudHAzNzF5WmxSSDAzUkgtVFFrVXBoelRKUzJzdVc2anBVRWxRZ05jZVBpckpmbg?oc=5",
+   "source": {
+    "name": "Mining Weekly - via Google News",
+    "domain": "miningweekly.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-09-11",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:53:42+00:00",
+   "score": 10,
+   "body": {
+    "status": "full",
+    "chars": 7580,
+    "sha256": "23d8beb5847b9ca6b10188268cd3be9fa2fc269b4d5d56d1bfcedb23e9ae7172",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-09-11",
+    "quotes": [
+     "\"They should strengthen beneficial ownership transparency, especially for complex joint ownership structures.\"",
+     "OECD, IEA say traceability is imperative for secure critical mineral supply chains"
+    ],
+    "final_url": "https://www.miningweekly.com/article/oecd-iea-say-traceability-is-imperative-for-secure-critical-mineral-supply-chains-2026-09-11",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "OECD와 IEA가 핵심광물 공급망 보안에 추적성이 필수라는 공동 보고서를 냈음",
+     "Latin America 리튬과 Southeast Asia 니켈 공급망을 중심으로 90 companies를 조사했음",
+     "현재 전 세계 추적 체계는 파편화돼 있으며 전 구간 추적성은 확보되지 못한다고 밝혔음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "90 companies"
+    ],
+    "quotes": [
+     "\"They should strengthen beneficial ownership transparency, especially for complex joint ownership structures.\"",
+     "OECD, IEA say traceability is imperative for secure critical mineral supply chains"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "추적성",
+     "리튬",
+     "니켈",
+     "공급망"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "traceability",
+      "meaning": "추적성, 공급망 단계별 원산지·생산 이력을 추적하는 능력"
+     },
+     {
+      "phrase": "supply chain concentration",
+      "meaning": "공급망 집중"
+     },
+     {
+      "phrase": "responsible business conduct",
+      "meaning": "책임 있는 기업 활동"
+     },
+     {
+      "phrase": "Ownership opacity",
+      "meaning": "소유구조의 불투명성"
+     }
+    ],
+    "implication": "가격 하한제 등 무역 관련 조치가 신뢰할 만한 생산자를 지원하려면 원산지·생산 조건 검증 정보가 필요해져 추적성 체계가 정책 이행의 전제가 됨"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:53:56+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 4줄)"
+    ],
+    "retry_tails": [
+     "phrase\": \"ownership opacity\", \"meaning\": \"소유구조의 불투명성\"}\n  ],\n  \"implication\": \"가격 하한제 등 무역 관련 조치가 신뢰할 만한 생산자를 지원하려면 원산지·생산 조건 검증 정보가 필요해져 추적성 체계가 정책 이행의 전제가 됨\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "a9b1f263ce",
+     "v1_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOcWJWTGtzRGxScllYaDZWc04wb0R6eVJMY0tsMFpnTW1jUHFGck94WHdBa0lYYm1GdlZtRm9RZW5IQXVBYjBTdXB2VzBGektxUC1lX3Iwb202QllDbXhQTDN4cHdxbS00ajhkc21pX21LX2gtcFZEQVFqeDhHV3V6VmVtcGpXYnktZ3dhZ2IzOHpNazJ2LVNuUlNudHAzNzF5WmxSSDAzUkgtVFFrVXBoelRKUzJzdVc2anBVRWxRZ05jZVBpckpmbg?oc=5",
+     "summary_raw": "OECD, IEA say traceability is imperative for secure critical mineral supply chains&nbsp;&nbsp;miningweekly.com"
+    }
+   },
+   "v1": {
+    "korean_summary": "OECD와 IEA는 핵심광물 공급망의 안정성 확보를 위해 추적 가능성(traceability)이 필수적임을 강조하였습니다. 광물의 채굴부터 가공, 최종 사용까지 전 과정에서의 투명한 추적 체계 구축이 공급망 리스크 관리의 핵심 과제로 지목되고 있습니다. 이는 지정학적 불안정성과 시장 변동성 속에서 선진국들의 핵심광물 자급 전략 수립을 뒷받침하는 정책적 근거가 될 전망입니다.",
+    "category": "supply_chain",
+    "tags": [
+     "핵심광물",
+     "공급망 추적성",
+     "OECD·IEA"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "traceability of critical minerals",
+      "meaning": "핵심광물의 추적 가능성/투명성"
+     },
+     {
+      "phrase": "secure supply chains",
+      "meaning": "안정적이고 안전한 공급망"
+     },
+     {
+      "phrase": "end-to-end transparency",
+      "meaning": "채굴에서 최종 사용까지의 전 과정 투명성"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "a9b1f263ce",
+    "title": "OECD, IEA say traceability is imperative for secure critical mineral supply chains - miningweekly.com",
+    "url": "https://miningweekly.com/article/oecd-iea-say-traceability-is-imperative-for-secure-critical-mineral-supply-chains-2026-09-11",
+    "source": "Mining Weekly - via Google News",
+    "tier_weight": 3,
+    "score": 10,
+    "published": "2026-09-11",
+    "korean_summary": [
+     "OECD와 IEA가 핵심광물 공급망 보안에 추적성이 필수라는 공동 보고서를 냈음",
+     "Latin America 리튬과 Southeast Asia 니켈 공급망을 중심으로 90 companies를 조사했음",
+     "현재 전 세계 추적 체계는 파편화돼 있으며 전 구간 추적성은 확보되지 못한다고 밝혔음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "추적성",
+     "리튬",
+     "니켈",
+     "공급망"
+    ],
+    "ai_processed": true,
+    "card_id": "e38b12b382c5",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "90 companies"
+    ],
+    "quotes": [
+     "\"They should strengthen beneficial ownership transparency, especially for complex joint ownership structures.\"",
+     "OECD, IEA say traceability is imperative for secure critical mineral supply chains"
+    ],
+    "summary_raw": "OECD, IEA say traceability is imperative for secure critical mineral supply chains&nbsp;&nbsp;miningweekly.com",
+    "english_phrases": [
+     {
+      "phrase": "traceability",
+      "meaning": "추적성, 공급망 단계별 원산지·생산 이력을 추적하는 능력"
+     },
+     {
+      "phrase": "supply chain concentration",
+      "meaning": "공급망 집중"
+     },
+     {
+      "phrase": "responsible business conduct",
+      "meaning": "책임 있는 기업 활동"
+     },
+     {
+      "phrase": "Ownership opacity",
+      "meaning": "소유구조의 불투명성"
+     }
+    ],
+    "implication": "가격 하한제 등 무역 관련 조치가 신뢰할 만한 생산자를 지원하려면 원산지·생산 조건 검증 정보가 필요해져 추적성 체계가 정책 이행의 전제가 됨",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "834f7859a329",
+   "title": "R3 Lithium Announces Initiation of Operations to Recover, Refine and Return Critical Minerals to the U.S. Battery Supply Chain - Business Wire",
+   "title_norm": "r3 lithium announces initiation of operations to recover refine and return critical minerals to the u s battery supply chain",
+   "url": "https://businesswire.com/news/home/20260910432773/en/R3-Lithium-Announces-Initiation-of-Operations-to-Recover-Refine-and-Return-Critical-Minerals-to-the-U.S.-Battery-Supply-Chain",
+   "gnews_url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOUV81ekNPcmZ6c2tXREN4S3RabkY1QWlGM3RJbm4wX2ZyVFJPZlJxa1hJMDVFaUsyNEpuX1lZbXhrRnBTTUlkaWwyZ0x1NFM3MHhZV0FRWVAzUXROQmNtbUJFS0J5aGZ4LTFVNEdZbzBSZUd6WWNjUFZ3REkyR0JrdVlITW02cEQ0bkk4eVgxV0NuWjUyUEFHcEQ0blV6TEZpV0ZlRWZCNUpxVHZlSFpnYTJKVnUycmxyVnVZVm5jVnQ3LUtxN2twWWpjdHBKNlNhMlpKZ3puRGhnN1NidUNIU3paQkFERXFUWmJoNWZMNFVialQ4N3I3c1B6Z2VXSGQzTmhFZUJETEFucHpSa0I4?oc=5",
+   "source": {
+    "name": "Google News - Lithium Discovery",
+    "domain": "businesswire.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-09-10",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:53:57+00:00",
+   "score": 10,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "bot_block",
+    "http_status": 403,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.businesswire.com/news/home/20260910432773/en/R3-Lithium-Announces-Initiation-of-Operations-to-Recover-Refine-and-Return-Critical-Minerals-to-the-U.S.-Battery-Supply-Chain",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "R3 리튬이 핵심광물을 회수·정제해 미국 배터리 공급망으로 되돌리는 사업 개시를 발표했음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "핵심광물",
+     "배터리 공급망",
+     "회수·정제",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Recover, Refine and Return",
+      "meaning": "회수하고 정제해 되돌린다"
+     },
+     {
+      "phrase": "Battery Supply Chain",
+      "meaning": "배터리 공급망"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:54:02+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "67748a297e",
+     "v1_url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOUV81ekNPcmZ6c2tXREN4S3RabkY1QWlGM3RJbm4wX2ZyVFJPZlJxa1hJMDVFaUsyNEpuX1lZbXhrRnBTTUlkaWwyZ0x1NFM3MHhZV0FRWVAzUXROQmNtbUJFS0J5aGZ4LTFVNEdZbzBSZUd6WWNjUFZ3REkyR0JrdVlITW02cEQ0bkk4eVgxV0NuWjUyUEFHcEQ0blV6TEZpV0ZlRWZCNUpxVHZlSFpnYTJKVnUycmxyVnVZVm5jVnQ3LUtxN2twWWpjdHBKNlNhMlpKZ3puRGhnN1NidUNIU3paQkFERXFUWmJoNWZMNFVialQ4N3I3c1B6Z2VXSGQzTmhFZUJETEFucHpSa0I4?oc=5",
+     "summary_raw": "R3 Lithium Announces Initiation of Operations to Recover, Refine and Return Critical Minerals to the U.S. Battery Supply Chain&nbsp;&nbsp;Business Wire"
+    }
+   },
+   "v1": {
+    "korean_summary": "R3 Lithium이 미국 배터리 공급망에 핵심광물을 회수·정제하여 공급하는 운영을 개시함으로써 국내 배터리 산업의 핵심광물 자립화가 진전되고 있음이 확인되었습니다. 본 사업은 폐배터리 및 부산물로부터 리튬 등 핵심광물을 회수하는 순환경제형 공급망 구축을 의미하며, 미국의 공급망 재구성 전략의 일환으로 추진 중입니다. 이는 향후 한국 자원산업도 채굴-정제 중심에서 순환자원 회수 기술로의 패러다임 전환이 필요함을 시사합니다.",
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "순환자원 회수",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "recovery, refine and return of critical minerals",
+      "meaning": "핵심광물의 회수, 정제 및 공급망 복귀"
+     },
+     {
+      "phrase": "domestic battery supply chain",
+      "meaning": "국내 배터리 공급망 / 자국 배터리 공급망"
+     },
+     {
+      "phrase": "circular economy model for critical mineral sourcing",
+      "meaning": "핵심광물 확보를 위한 순환경제 모델"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "67748a297e",
+    "title": "R3 Lithium Announces Initiation of Operations to Recover, Refine and Return Critical Minerals to the U.S. Battery Supply Chain - Business Wire",
+    "url": "https://businesswire.com/news/home/20260910432773/en/R3-Lithium-Announces-Initiation-of-Operations-to-Recover-Refine-and-Return-Critical-Minerals-to-the-U.S.-Battery-Supply-Chain",
+    "source": "Google News - Lithium Discovery",
+    "tier_weight": 1,
+    "score": 10,
+    "published": "2026-09-10",
+    "korean_summary": [
+     "[제목 기반] R3 리튬이 핵심광물을 회수·정제해 미국 배터리 공급망으로 되돌리는 사업 개시를 발표했음"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "핵심광물",
+     "배터리 공급망",
+     "회수·정제",
+     "미국"
+    ],
+    "ai_processed": true,
+    "card_id": "834f7859a329",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "R3 Lithium Announces Initiation of Operations to Recover, Refine and Return Critical Minerals to the U.S. Battery Supply Chain&nbsp;&nbsp;Business Wire",
+    "english_phrases": [
+     {
+      "phrase": "Recover, Refine and Return",
+      "meaning": "회수하고 정제해 되돌린다"
+     },
+     {
+      "phrase": "Battery Supply Chain",
+      "meaning": "배터리 공급망"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "93985257e069",
+   "title": "India’s critical minerals push shifts from exploration to processing and separation capability, say indust.. - ET EnergyWorld",
+   "title_norm": "india s critical minerals push shifts from exploration to processing and separation capability say indust",
+   "url": "https://energy.economictimes.indiatimes.com/news/industry/indias-critical-minerals-push-shifts-from-exploration-to-processing-and-separation-capability-say-industry-leaders/134009605",
+   "gnews_url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQcDg0TEtMelk2MUJQNzROOFlIc1BCbGVmQUlITW8xY1lwMzBrMnZidTZ1c1N2UGhvUW96WGdxVTZkdWxHS1djTks1aE1mSHBiMG5GVEtWZUJ2V0tvWm9WTTl5aFZVZW1XMjh6VC1TajZMLXUxaW81dFVwSnM0ME1TSVA3VUFUa0ZlMU9GQ3BDbGxxcmMtRjdnMWVqZ1ZyYTlmU0Q1dnoxVWhld05ISHliUXdGN2RjSTFxbnJXcVVoYjY1ZU54YndVSkVKZzJ5SlhSRzI0cnQ2OGNidHFPSGJsWDZqV2d2em1kaGMtZElYR2VUQ01yRzNfdm1wTGVxTTItNkNtVk1lTmExa2FnSEE40gGUAkFVX3lxTE1ORXhYc1lGUFFBSDRIN2YxMC1ZMDdNWnNTZjdSam94S01rVl85WHlnU3Y5QnFzc0o4OTlTUDFFczNvUWZxdGdoV0drcUg2NTQ0TmRLR21vQVhGc2pqT2FsVUE3WXBzV1ZsZFhQWkZoTUFENkVkYVlmdE9WMl9ndnM5allseVVVSG1vdkNtaFhheVZWem5rWUlCSXVRUFY3bjBOM2FfOHBkSnJaWFp2OTFrU0w3TzVGajlsODJHS3l0R3MxQjN6N1hvTDRhc3FhNWN4QmUzazNRQTVyNWUxNXd5TFYtRElKUkpiQ3N4SjhkdW5xaGNOR1ZXUGNqSS00UU9aaEZuVXVFdkRhWXpOQVZqWER2Mg?oc=5",
+   "source": {
+    "name": "Google News - Critical Minerals Exploration",
+    "domain": "energy.economictimes.indiatimes.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-09-10",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:54:03+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 4407,
+    "sha256": "5da81ae866c54dbecc9ea4ad1cffdb184ab664f14dc6ad399ef618b0d2e10b8b",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-09-10",
+    "quotes": [
+     "The broader objective, he said, is to turn “waste to wealth” through mineral processing, extractive metallurgy and commercial-scale technology development.",
+     "India’s critical minerals push shifts from exploration to processing and separation capability, say industry leaders"
+    ],
+    "final_url": "https://energy.economictimes.indiatimes.com/news/industry/indias-critical-minerals-push-shifts-from-exploration-to-processing-and-separation-capability-say-industry-leaders/134009605",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "인도 업계·정부 인사들이 핵심광물 과제가 탐사에서 가공·분리 역량 확보로 옮겨간다고 밝혔음",
+     "GSI 인사는 라자스탄 Sivana Ring Complex의 중희토류 농도가 약 40 per cent라고 밝혔음",
+     "GSI·AMD·민간 탐사 기관은 2030-31까지 탐사를 대체로 마치는 것을 목표로 함"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "around 40 per cent",
+     "approximately 725 sq km",
+     "eight to 10 years"
+    ],
+    "quotes": [
+     "The broader objective, he said, is to turn “waste to wealth” through mineral processing, extractive metallurgy and commercial-scale technology development.",
+     "India’s critical minerals push shifts from exploration to processing and separation capability, say industry leaders"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "가공·분리",
+     "중희토류",
+     "광산 폐기물",
+     "인도"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "processing and separation",
+      "meaning": "가공 및 분리"
+     },
+     {
+      "phrase": "heavy rare earths",
+      "meaning": "중희토류"
+     },
+     {
+      "phrase": "waste to wealth",
+      "meaning": "폐기물의 자원화"
+     },
+     {
+      "phrase": "strategic bottleneck",
+      "meaning": "전략적 병목"
+     }
+    ],
+    "implication": "인도에서 채굴한 광석이 가공 설비 부재로 중국으로 향할 수 있어, 가공·분리 역량 확보 여부가 공급망 자립의 관건으로 부상함"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:54:16+00:00",
+    "flags": {
+     "soft_retry": [
+      "줄 길이 초과"
+     ]
+    }
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "f703cee986",
+     "v1_url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQcDg0TEtMelk2MUJQNzROOFlIc1BCbGVmQUlITW8xY1lwMzBrMnZidTZ1c1N2UGhvUW96WGdxVTZkdWxHS1djTks1aE1mSHBiMG5GVEtWZUJ2V0tvWm9WTTl5aFZVZW1XMjh6VC1TajZMLXUxaW81dFVwSnM0ME1TSVA3VUFUa0ZlMU9GQ3BDbGxxcmMtRjdnMWVqZ1ZyYTlmU0Q1dnoxVWhld05ISHliUXdGN2RjSTFxbnJXcVVoYjY1ZU54YndVSkVKZzJ5SlhSRzI0cnQ2OGNidHFPSGJsWDZqV2d2em1kaGMtZElYR2VUQ01yRzNfdm1wTGVxTTItNkNtVk1lTmExa2FnSEE40gGUAkFVX3lxTE1ORXhYc1lGUFFBSDRIN2YxMC1ZMDdNWnNTZjdSam94S01rVl85WHlnU3Y5QnFzc0o4OTlTUDFFczNvUWZxdGdoV0drcUg2NTQ0TmRLR21vQVhGc2pqT2FsVUE3WXBzV1ZsZFhQWkZoTUFENkVkYVlmdE9WMl9ndnM5allseVVVSG1vdkNtaFhheVZWem5rWUlCSXVRUFY3bjBOM2FfOHBkSnJaWFp2OTFrU0w3TzVGajlsODJHS3l0R3MxQjN6N1hvTDRhc3FhNWN4QmUzazNRQTVyNWUxNXd5TFYtRElKUkpiQ3N4SjhkdW5xaGNOR1ZXUGNqSS00UU9aaEZuVXVFdkRhWXpOQVZqWER2Mg?oc=5",
+     "summary_raw": "India’s critical minerals push shifts from exploration to processing and separation capability, say indust..&nbsp;&nbsp;ET EnergyWorld"
+    }
+   },
+   "v1": {
+    "korean_summary": "인도는 핵심광물 전략에서 탐사 단계를 넘어 처리 및 분리 기술 역량 강화로 중점을 전환하고 있는 것으로 확인되었음. 산업계는 국내 광물자원의 부가가치 창출과 공급망 안정화를 위해 다운스트림 산업 발전을 강조하고 있음. 이는 글로벌 핵심광물 시장에서 인도의 경쟁력 강화 및 전략적 자립도 제고를 목표로 하는 정책 전환으로 평가됨.",
+    "category": "supply_chain",
+    "tags": [
+     "핵심광물 처리",
+     "공급망 전략",
+     "인도"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "shift from exploration to processing and separation capability",
+      "meaning": "탐사에서 처리 및 분리 기술로의 전략 전환"
+     },
+     {
+      "phrase": "downstream capability in critical minerals sector",
+      "meaning": "핵심광물 분야의 하류 산업 역량"
+     },
+     {
+      "phrase": "supply chain resilience for critical minerals",
+      "meaning": "핵심광물 공급망의 복원력 강화"
+     },
+     {
+      "phrase": "mineral processing and beneficiation infrastructure",
+      "meaning": "광물 처리 및 선광 인프라"
+     },
+     {
+      "phrase": "value-added downstream industries",
+      "meaning": "부가가치를 창출하는 하류 산업"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "f703cee986",
+    "title": "India’s critical minerals push shifts from exploration to processing and separation capability, say indust.. - ET EnergyWorld",
+    "url": "https://energy.economictimes.indiatimes.com/news/industry/indias-critical-minerals-push-shifts-from-exploration-to-processing-and-separation-capability-say-industry-leaders/134009605",
+    "source": "Google News - Critical Minerals Exploration",
+    "tier_weight": 1,
+    "score": 9,
+    "published": "2026-09-10",
+    "korean_summary": [
+     "인도 업계·정부 인사들이 핵심광물 과제가 탐사에서 가공·분리 역량 확보로 옮겨간다고 밝혔음",
+     "GSI 인사는 라자스탄 Sivana Ring Complex의 중희토류 농도가 약 40 per cent라고 밝혔음",
+     "GSI·AMD·민간 탐사 기관은 2030-31까지 탐사를 대체로 마치는 것을 목표로 함"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "가공·분리",
+     "중희토류",
+     "광산 폐기물",
+     "인도"
+    ],
+    "ai_processed": true,
+    "card_id": "93985257e069",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "around 40 per cent",
+     "approximately 725 sq km",
+     "eight to 10 years"
+    ],
+    "quotes": [
+     "The broader objective, he said, is to turn “waste to wealth” through mineral processing, extractive metallurgy and commercial-scale technology development.",
+     "India’s critical minerals push shifts from exploration to processing and separation capability, say industry leaders"
+    ],
+    "summary_raw": "India’s critical minerals push shifts from exploration to processing and separation capability, say indust..&nbsp;&nbsp;ET EnergyWorld",
+    "english_phrases": [
+     {
+      "phrase": "processing and separation",
+      "meaning": "가공 및 분리"
+     },
+     {
+      "phrase": "heavy rare earths",
+      "meaning": "중희토류"
+     },
+     {
+      "phrase": "waste to wealth",
+      "meaning": "폐기물의 자원화"
+     },
+     {
+      "phrase": "strategic bottleneck",
+      "meaning": "전략적 병목"
+     }
+    ],
+    "implication": "인도에서 채굴한 광석이 가공 설비 부재로 중국으로 향할 수 있어, 가공·분리 역량 확보 여부가 공급망 자립의 관건으로 부상함",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "31daa79b8f3b",
+   "title": "Iran’s Emerging Rare Earth Potential and the US-China Critical Minerals Competition - specialeurasia.com",
+   "title_norm": "iran s emerging rare earth potential and the us china critical minerals competition",
+   "url": "https://specialeurasia.com/2026/09/11/iran-rare-earth-china-us",
+   "gnews_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9ZckJVLUpsak5hQkkxaFROUnFacTViQW0zdWNkWEVXbjlVQ183WVZWYWhhNTNfb1dFN3A3cXM4SkpTaVpVTWxhNkZkVDlRSy04UFh2Yl82cTR5VVBZT2dzY2Z4eGdvbFBNMUhfczhQUnpVd1NWX2c?oc=5",
+   "source": {
+    "name": "Google News - Rare Earth Elements",
+    "domain": "specialeurasia.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-09-11",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:54:17+00:00",
+   "score": 11,
+   "body": {
+    "status": "full",
+    "chars": 7184,
+    "sha256": "4443dc4dc4c2c2f31d5c781fe43974c79d011b242968dee6c1ded9efdb1b18bf",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-09-11",
+    "quotes": [
+     "Iran is already among the world’s most mineral-rich countries, with approximately 57 billion tonnes of proven reserves across 68 mineral types and more than 6,000 active mines.",
+     "The country’s significant resource’s value is based at an estimated 27.3 trillion US dollars."
+    ],
+    "final_url": "https://www.specialeurasia.com/2026/09/11/iran-rare-earth-china-us/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "이란이 희토류 매장 가능성이 있는 신규 지역 20곳 이상을 확인하고 탐사를 국가 우선과제로 삼았음",
+     "GSI와 IMIDRO가 동·서아제르바이잔, 쿠르디스탄, 북·남·라자비 호라산 등에서 란타넘·세륨·네오디뮴·프라세오디뮴을 확인했음",
+     "상업적 개발에는 추가 평가가 필요하며, 대규모 생산은 분리 기술·자본·에너지 인프라에 달려 있다고 밝혔음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "more than 20 new areas",
+     "7,000 tons of antimony",
+     "27.3 trillion US dollars"
+    ],
+    "quotes": [
+     "Iran is already among the world’s most mineral-rich countries, with approximately 57 billion tonnes of proven reserves across 68 mineral types and more than 6,000 active mines.",
+     "The country’s significant resource’s value is based at an estimated 27.3 trillion US dollars."
+    ],
+    "category": "discovery",
+    "tags": [
+     "희토류",
+     "이란",
+     "탐사",
+     "미중 경쟁",
+     "안티모니"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals",
+      "meaning": "핵심광물"
+     },
+     {
+      "phrase": "rare-earth deposits",
+      "meaning": "희토류 매장지"
+     },
+     {
+      "phrase": "supply-chain infrastructure",
+      "meaning": "공급망 인프라"
+     },
+     {
+      "phrase": "separation technology",
+      "meaning": "(희토류) 분리 기술"
+     }
+    ],
+    "implication": "이란의 희토류 탐사 성과는 아직 생산 단계가 아니나, 분리·가공 역량을 가진 중국과의 협력 여부가 미중 공급망 경쟁 구도에 변수가 될 수 있음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:54:22+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "5eafbae2e9",
+     "v1_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9ZckJVLUpsak5hQkkxaFROUnFacTViQW0zdWNkWEVXbjlVQ183WVZWYWhhNTNfb1dFN3A3cXM4SkpTaVpVTWxhNkZkVDlRSy04UFh2Yl82cTR5VVBZT2dzY2Z4eGdvbFBNMUhfczhQUnpVd1NWX2c?oc=5",
+     "summary_raw": "Iran’s Emerging Rare Earth Potential and the US-China Critical Minerals Competition&nbsp;&nbsp;specialeurasia.com"
+    }
+   },
+   "v1": {
+    "korean_summary": "(요약 생성 실패 — 원문 참조)",
+    "category": "research",
+    "tags": [],
+    "english_phrases": [],
+    "ai_processed": false
+   },
+   "legacy": {
+    "id": "5eafbae2e9",
+    "title": "Iran’s Emerging Rare Earth Potential and the US-China Critical Minerals Competition - specialeurasia.com",
+    "url": "https://specialeurasia.com/2026/09/11/iran-rare-earth-china-us",
+    "source": "Google News - Rare Earth Elements",
+    "tier_weight": 1,
+    "score": 11,
+    "published": "2026-09-11",
+    "korean_summary": [
+     "이란이 희토류 매장 가능성이 있는 신규 지역 20곳 이상을 확인하고 탐사를 국가 우선과제로 삼았음",
+     "GSI와 IMIDRO가 동·서아제르바이잔, 쿠르디스탄, 북·남·라자비 호라산 등에서 란타넘·세륨·네오디뮴·프라세오디뮴을 확인했음",
+     "상업적 개발에는 추가 평가가 필요하며, 대규모 생산은 분리 기술·자본·에너지 인프라에 달려 있다고 밝혔음"
+    ],
+    "category": "discovery",
+    "tags": [
+     "희토류",
+     "이란",
+     "탐사",
+     "미중 경쟁",
+     "안티모니"
+    ],
+    "ai_processed": true,
+    "card_id": "31daa79b8f3b",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "more than 20 new areas",
+     "7,000 tons of antimony",
+     "27.3 trillion US dollars"
+    ],
+    "quotes": [
+     "Iran is already among the world’s most mineral-rich countries, with approximately 57 billion tonnes of proven reserves across 68 mineral types and more than 6,000 active mines.",
+     "The country’s significant resource’s value is based at an estimated 27.3 trillion US dollars."
+    ],
+    "summary_raw": "Iran’s Emerging Rare Earth Potential and the US-China Critical Minerals Competition&nbsp;&nbsp;specialeurasia.com",
+    "english_phrases": [
+     {
+      "phrase": "critical minerals",
+      "meaning": "핵심광물"
+     },
+     {
+      "phrase": "rare-earth deposits",
+      "meaning": "희토류 매장지"
+     },
+     {
+      "phrase": "supply-chain infrastructure",
+      "meaning": "공급망 인프라"
+     },
+     {
+      "phrase": "separation technology",
+      "meaning": "(희토류) 분리 기술"
+     }
+    ],
+    "implication": "이란의 희토류 탐사 성과는 아직 생산 단계가 아니나, 분리·가공 역량을 가진 중국과의 협력 여부가 미중 공급망 경쟁 구도에 변수가 될 수 있음",
+    "trial": false
+   },
+   "trial": false
+  }
+ ],
+ "excluded": [],
+ "v1_file": "week-2026-09-14.json",
+ "v1_metrics": {
+  "articles": 12,
+  "original_link": 4,
+  "body_based": 0,
+  "failed": 1
+ },
+ "trial": false
+}

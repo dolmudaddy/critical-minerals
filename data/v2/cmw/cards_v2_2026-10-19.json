@@ -1,0 +1,1972 @@
+{
+ "schema_version": "card.v1",
+ "service": "cmw",
+ "week_of": "2026-10-19",
+ "generated_at": "2026-10-19T06:01:33+00:00",
+ "mincore_version": "0.3.6",
+ "model": "claude-sonnet-5-5",
+ "prompt_version": "v2.2",
+ "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+ "stats": {
+  "v1_articles": 12,
+  "cards": 12,
+  "excluded": 0,
+  "body_got": 7,
+  "body_rate": 0.583,
+  "original_link": 12,
+  "reader_proxy_used": 0,
+  "line_len": {
+   "lines": 27,
+   "median": 57,
+   "max": 87,
+   "over60": 11,
+   "over100": 0
+  },
+  "oda_filled": 6,
+  "usage": {
+   "claude-sonnet-5-5": {
+    "calls": 14,
+    "in": 31697,
+    "out": 7614
+   }
+  },
+  "cost_usd": 0.2093,
+  "body_status": {
+   "title_only": 4,
+   "full": 6,
+   "lead_only": 1,
+   "partial": 1
+  },
+  "body_source": {
+   "none": 4,
+   "trafilatura": 6,
+   "og_description": 2
+  },
+  "resolve": {
+   "decoder": 9,
+   "direct": 3
+  },
+  "fail_reason": {},
+  "basis": {
+   "title": 4,
+   "body": 7,
+   "lead": 1
+  },
+  "retry_reason": {
+   "lines는 3줄이어야 함 (현재 5줄)": 1,
+   "lines는 3줄이어야 함 (현재 4줄)": 1
+  },
+  "flags": {},
+  "model_used": {
+   "claude-sonnet-5-5": 12
+  }
+ },
+ "total": 12,
+ "cards": [
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "6dd808393b6c",
+   "title": "Major development banks step up support for critical minerals value chains - Reuters",
+   "title_norm": "major development banks step up support for critical minerals value chains",
+   "url": "https://reuters.com/world/asia-pacific/major-development-banks-step-up-support-critical-minerals-value-chains-2026-10-17",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPc3h2ZF9YVG81ZVh6OXlpVnhDWEdKMVJGMDZjZGkzM2ZGRml0bHZHdjN3UkFQRGRzWWp0SlA1eks2TnR0LUw4SEpDTE1TR180Z0EwVDhYb0N0U1pBSWpUNHdEVDlYc05LNDF3Rk9OeVBXTDJOMmNmcnpyTUhyeHZ2QXFJZHQwbk9xVlNUMnlxUkV4Q2ZNRnNrRmd0V1JHQU9jOGJTZWlXY1did0d3TUZKMTRlNEhjOGY0WVFpSmpBeHhjNHM?oc=5",
+   "source": {
+    "name": "Reuters - via Google News",
+    "domain": "reuters.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-10-17",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T06:00:26+00:00",
+   "score": 10,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "skipped",
+    "http_status": null,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": null,
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "주요 개발은행들이 핵심광물 가치사슬에 대한 지원을 확대함"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "개발은행",
+     "가치사슬",
+     "금융지원"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "value chains",
+      "meaning": "가치사슬"
+     },
+     {
+      "phrase": "step up support",
+      "meaning": "지원을 확대하다"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T06:00:28+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "b48e0ffd9d",
+     "v1_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPc3h2ZF9YVG81ZVh6OXlpVnhDWEdKMVJGMDZjZGkzM2ZGRml0bHZHdjN3UkFQRGRzWWp0SlA1eks2TnR0LUw4SEpDTE1TR180Z0EwVDhYb0N0U1pBSWpUNHdEVDlYc05LNDF3Rk9OeVBXTDJOMmNmcnpyTUhyeHZ2QXFJZHQwbk9xVlNUMnlxUkV4Q2ZNRnNrRmd0V1JHQU9jOGJTZWlXY1did0d3TUZKMTRlNEhjOGY0WVFpSmpBeHhjNHM?oc=5",
+     "summary_raw": "Major development banks step up support for critical minerals value chains&nbsp;&nbsp;Reuters"
+    }
+   },
+   "v1": {
+    "korean_summary": "주요 개발금융기관들이 핵심광물 밸류체인 구축에 대한 지원을 강화하고 있는 것으로 확인되었습니다. 이는 에너지 전환과 전기차 산업 확대에 따른 핵심광물 수요 증가에 대응하기 위한 전략적 조치로 평가됩니다. 향후 채광에서 정제·가공에 이르는 전주기적 공급망 안정화가 글로벌 경제 회복의 핵심 과제가 될 전망입니다.",
+    "category": "policy_market",
+    "tags": [
+     "리튬·코발트·니켈",
+     "공급망 안정화",
+     "개발금융기관"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals value chains",
+      "meaning": "핵심광물 가치사슬 (채광·정제·가공·활용의 전 단계)"
+     },
+     {
+      "phrase": "development banks stepping up support",
+      "meaning": "개발금융기관의 지원 확대·강화"
+     },
+     {
+      "phrase": "supply chain resilience",
+      "meaning": "공급망 회복력 및 안정성"
+     },
+     {
+      "phrase": "upstream to downstream integration",
+      "meaning": "채광 상류부터 최종 제품 하류까지의 통합"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "b48e0ffd9d",
+    "title": "Major development banks step up support for critical minerals value chains - Reuters",
+    "url": "https://reuters.com/world/asia-pacific/major-development-banks-step-up-support-critical-minerals-value-chains-2026-10-17",
+    "source": "Reuters - via Google News",
+    "tier_weight": 3,
+    "score": 10,
+    "published": "2026-10-17",
+    "korean_summary": [
+     "[제목 기반] 주요 개발은행들이 핵심광물 가치사슬에 대한 지원을 확대함"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "개발은행",
+     "가치사슬",
+     "금융지원"
+    ],
+    "ai_processed": true,
+    "card_id": "6dd808393b6c",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Major development banks step up support for critical minerals value chains&nbsp;&nbsp;Reuters",
+    "english_phrases": [
+     {
+      "phrase": "value chains",
+      "meaning": "가치사슬"
+     },
+     {
+      "phrase": "step up support",
+      "meaning": "지원을 확대하다"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "c481a5d6c4cb",
+   "title": "Greenland to introduce ban on seabed mining",
+   "title_norm": "greenland to introduce ban on seabed mining",
+   "url": "https://mining.com/greenland-to-introduce-ban-on-seabed-mining",
+   "gnews_url": null,
+   "source": {
+    "name": "Mining.com",
+    "domain": "mining.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-10-16",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T06:00:28+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 2239,
+    "sha256": "fdd9fe38e1734f0268c09919f809dd0a7641b35a81b2c5b03bba3f2099726a7d",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-10-16",
+    "quotes": [
+     "The Tanbreez property in Greenland, with a 28.2 million tonne TREO resource, has been ranked as one of the world’s top rare earth projects.",
+     "The news comes a day after US President Donald Trump announced “massive oil, gas and mineral exploration” was set to begin on Greenland."
+    ],
+    "final_url": "https://www.mining.com/greenland-to-introduce-ban-on-seabed-mining/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "그린란드 의회가 해저 광물 채굴 금지 도입을 위한 결의안을 만장일치로 통과시켰음",
+     "심해 채굴 관련 각서는 2029년 말까지 유효하며 2년 단위 연장이 가능하고, 입법은 2027년 상반기 통과 예상임",
+     "트럼프 대통령이 전날 그린란드에서 대규모 석유·가스·광물 탐사가 시작될 것이라고 밝힌 다음 날 나온 소식임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "28.2 million tonne TREO",
+     "end of 2029",
+     "first half of 2027"
+    ],
+    "quotes": [
+     "The Tanbreez property in Greenland, with a 28.2 million tonne TREO resource, has been ranked as one of the world’s top rare earth projects.",
+     "The news comes a day after US President Donald Trump announced “massive oil, gas and mineral exploration” was set to begin on Greenland."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "그린란드",
+     "해저 채굴",
+     "심해 채굴 금지",
+     "희토류",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "seabed mineral extraction",
+      "meaning": "해저 광물 채굴"
+     },
+     {
+      "phrase": "polymetallic nodules",
+      "meaning": "다금속 단괴(망간단괴 등 금속을 함유한 감자 모양 암석)"
+     },
+     {
+      "phrase": "underexplored critical mineral endowments",
+      "meaning": "탐사가 덜 된 핵심광물 부존량"
+     },
+     {
+      "phrase": "irreversible biodiversity loss",
+      "meaning": "되돌릴 수 없는 생물다양성 손실"
+     }
+    ],
+    "implication": "그린란드가 해저 채굴을 막는 한편 미국은 심해 채굴 허가를 추진해, 심해 광물 개발을 둘러싼 정책 방향이 갈리고 있음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 2239,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T06:00:33+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "877c3a702c",
+     "v1_url": "https://www.mining.com/greenland-to-introduce-ban-on-seabed-mining/",
+     "summary_raw": "The news comes a day after US President Donald Trump announced “massive oil, gas and mineral exploration” was set to begin on the Danish Arctic island."
+    }
+   },
+   "v1": {
+    "korean_summary": "그린란드가 해저광물 채굴을 금지하는 정책을 도입할 예정으로 확인되었습니다. 이는 트럼프 미국 대통령이 덴마크령 북극 지역에서 대규모 석유·가스·광물 탐사를 추진하겠다고 발표한 직후 발표된 것으로, 국제적 자원개발 정책의 상충을 보여주는 사례입니다. 북극 지역 핵심광물 자원 개발을 둘러싼 지정학적 긴장이 심화될 전망입니다.",
+    "category": "policy_market",
+    "tags": [
+     "북극광물자원",
+     "해저채굴정책",
+     "그린란드"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "seabed mining ban",
+      "meaning": "해저광물 채굴 금지"
+     },
+     {
+      "phrase": "massive mineral exploration",
+      "meaning": "대규모 광물 탐사"
+     },
+     {
+      "phrase": "Arctic jurisdiction",
+      "meaning": "북극 지역 관할권"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "877c3a702c",
+    "title": "Greenland to introduce ban on seabed mining",
+    "url": "https://mining.com/greenland-to-introduce-ban-on-seabed-mining",
+    "source": "Mining.com",
+    "tier_weight": 3,
+    "score": 9,
+    "published": "2026-10-16",
+    "korean_summary": [
+     "그린란드 의회가 해저 광물 채굴 금지 도입을 위한 결의안을 만장일치로 통과시켰음",
+     "심해 채굴 관련 각서는 2029년 말까지 유효하며 2년 단위 연장이 가능하고, 입법은 2027년 상반기 통과 예상임",
+     "트럼프 대통령이 전날 그린란드에서 대규모 석유·가스·광물 탐사가 시작될 것이라고 밝힌 다음 날 나온 소식임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "그린란드",
+     "해저 채굴",
+     "심해 채굴 금지",
+     "희토류",
+     "미국"
+    ],
+    "ai_processed": true,
+    "card_id": "c481a5d6c4cb",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "28.2 million tonne TREO",
+     "end of 2029",
+     "first half of 2027"
+    ],
+    "quotes": [
+     "The Tanbreez property in Greenland, with a 28.2 million tonne TREO resource, has been ranked as one of the world’s top rare earth projects.",
+     "The news comes a day after US President Donald Trump announced “massive oil, gas and mineral exploration” was set to begin on Greenland."
+    ],
+    "summary_raw": "The news comes a day after US President Donald Trump announced “massive oil, gas and mineral exploration” was set to begin on the Danish Arctic island.",
+    "english_phrases": [
+     {
+      "phrase": "seabed mineral extraction",
+      "meaning": "해저 광물 채굴"
+     },
+     {
+      "phrase": "polymetallic nodules",
+      "meaning": "다금속 단괴(망간단괴 등 금속을 함유한 감자 모양 암석)"
+     },
+     {
+      "phrase": "underexplored critical mineral endowments",
+      "meaning": "탐사가 덜 된 핵심광물 부존량"
+     },
+     {
+      "phrase": "irreversible biodiversity loss",
+      "meaning": "되돌릴 수 없는 생물다양성 손실"
+     }
+    ],
+    "implication": "그린란드가 해저 채굴을 막는 한편 미국은 심해 채굴 허가를 추진해, 심해 광물 개발을 둘러싼 정책 방향이 갈리고 있음",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "34c06fccc68d",
+   "title": "Greenland-focused miners welcome Trump's plans for major mineral exploration - Mining Weekly",
+   "title_norm": "greenland focused miners welcome trump s plans for major mineral exploration",
+   "url": "https://miningweekly.com/article/greenland-focused-miners-welcome-trumps-plans-for-major-mineral-exploration-2026-10-15",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbHNRNjZYRWNSZTBLdldFQ21DNlFBZTNVcGoyMnYxYlQ2b0lEOG9QdVE5WDJ5bHlnb2FHcDhqZjJEUlQ4OTNfQ1hINkJYN2x6RWVVZlZyQnAzWlEwTjVjM1BBZlBfd3JabV9BWXNCTVlCTUJnLWF1UWlrQk16YXpSWnp3TG52UC1UcTEtTlNWaG9hVHhRTGJRZ3Y2UGR4UzJBMFNucVA1MDF1c3lkQVA2anhFNnhBSW1YOFRvQzBPN1c?oc=5",
+   "source": {
+    "name": "Mining Weekly - via Google News",
+    "domain": "miningweekly.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-10-15",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T06:00:34+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 4373,
+    "sha256": "8d5f540a0e5789c2a909eb23e7e27ffc5b2aa1de494f42b4f1fc2d40a3e5186c",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-10-15",
+    "quotes": [
+     "Greenland-focused miners welcome Trump's plans for major mineral exploration",
+     "ASX-listed AuKing Mining and Nasdaq-listed Greenland Mines have both welcomed the strong commitment shown by the US government to advance critical mineral projects in Greenland."
+    ],
+    "final_url": "https://www.miningweekly.com/article/greenland-focused-miners-welcome-trumps-plans-for-major-mineral-exploration-2026-10-15",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "ASX 상장 AuKing Mining과 나스닥 상장 Greenland Mines가 미국의 그린란드 핵심광물 사업 추진 의지를 환영했음",
+     "트럼프 대통령이 10월 14일 그린란드 대규모 광물 탐사 계획을 발표했고, 9월 22일 미국·그린란드·덴마크 방위안보 협정이 선행됐음",
+     "AuKing은 Qeqertaasaq 니오븀 사업의 기존 고품위 구간부터 탐사할 예정이며, 발표 직후 관련 기업 주가가 올랐음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "10.4 m of niobium pentoxide grading 1.29% from 1.9 m",
+     "5.22 m of niobium pentoxide grading 2.73% from 4.1 m",
+     "15.9 m of niobium pentoxide grading 0.80% from 3.6 m"
+    ],
+    "quotes": [
+     "Greenland-focused miners welcome Trump's plans for major mineral exploration",
+     "ASX-listed AuKing Mining and Nasdaq-listed Greenland Mines have both welcomed the strong commitment shown by the US government to advance critical mineral projects in Greenland."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "그린란드",
+     "미국",
+     "니오븀",
+     "희토류",
+     "탐사"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals supply chains",
+      "meaning": "핵심광물 공급망"
+     },
+     {
+      "phrase": "defence and security agreement",
+      "meaning": "방위 및 안보 협정"
+     },
+     {
+      "phrase": "high-grade niobium",
+      "meaning": "고품위 니오븀"
+     },
+     {
+      "phrase": "allied industrial capacity",
+      "meaning": "동맹국의 산업 역량"
+     }
+    ],
+    "implication": "미국이 그린란드 광물 탐사에 힘을 싣고 안보 협정이 선행되면서 그린란드 희토류·니오븀 프로젝트가 동맹 공급망 후보지로 부각되고 있음."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T06:00:39+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "f727bd2d84",
+     "v1_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbHNRNjZYRWNSZTBLdldFQ21DNlFBZTNVcGoyMnYxYlQ2b0lEOG9QdVE5WDJ5bHlnb2FHcDhqZjJEUlQ4OTNfQ1hINkJYN2x6RWVVZlZyQnAzWlEwTjVjM1BBZlBfd3JabV9BWXNCTVlCTUJnLWF1UWlrQk16YXpSWnp3TG52UC1UcTEtTlNWaG9hVHhRTGJRZ3Y2UGR4UzJBMFNucVA1MDF1c3lkQVA2anhFNnhBSW1YOFRvQzBPN1c?oc=5",
+     "summary_raw": "Greenland-focused miners welcome Trump's plans for major mineral exploration&nbsp;&nbsp;Mining Weekly"
+    }
+   },
+   "v1": {
+    "korean_summary": "트럼프 행정부가 그린란드의 대규모 광물 탐사 계획을 추진함에 따라 그린란드 지역에 집중된 광업 기업들이 긍정적 반응을 보이고 있습니다. 이는 북대서양 지역의 핵심광물 공급 확보를 위한 지정학적 전략으로 평가되고 있습니다. 그린란드의 풍부한 희토류, 우라늄, 철광석 등 핵심광물 매장량이 글로벌 공급망 재편의 중심으로 떠오르고 있습니다.",
+    "category": "policy_market",
+    "tags": [
+     "희토류·우라늄",
+     "탐사 정책",
+     "그린란드"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical mineral exploration in Greenland",
+      "meaning": "그린란드의 핵심광물 탐사"
+     },
+     {
+      "phrase": "mineral supply chain diversification",
+      "meaning": "광물 공급망의 다변화"
+     },
+     {
+      "phrase": "geopolitical strategic interests in Arctic resources",
+      "meaning": "북극 자원에 대한 지정학적 전략 이해관계"
+     },
+     {
+      "phrase": "major mineral deposits assessment",
+      "meaning": "주요 광물 매장량 평가"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "f727bd2d84",
+    "title": "Greenland-focused miners welcome Trump's plans for major mineral exploration - Mining Weekly",
+    "url": "https://miningweekly.com/article/greenland-focused-miners-welcome-trumps-plans-for-major-mineral-exploration-2026-10-15",
+    "source": "Mining Weekly - via Google News",
+    "tier_weight": 3,
+    "score": 9,
+    "published": "2026-10-15",
+    "korean_summary": [
+     "ASX 상장 AuKing Mining과 나스닥 상장 Greenland Mines가 미국의 그린란드 핵심광물 사업 추진 의지를 환영했음",
+     "트럼프 대통령이 10월 14일 그린란드 대규모 광물 탐사 계획을 발표했고, 9월 22일 미국·그린란드·덴마크 방위안보 협정이 선행됐음",
+     "AuKing은 Qeqertaasaq 니오븀 사업의 기존 고품위 구간부터 탐사할 예정이며, 발표 직후 관련 기업 주가가 올랐음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "그린란드",
+     "미국",
+     "니오븀",
+     "희토류",
+     "탐사"
+    ],
+    "ai_processed": true,
+    "card_id": "34c06fccc68d",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "10.4 m of niobium pentoxide grading 1.29% from 1.9 m",
+     "5.22 m of niobium pentoxide grading 2.73% from 4.1 m",
+     "15.9 m of niobium pentoxide grading 0.80% from 3.6 m"
+    ],
+    "quotes": [
+     "Greenland-focused miners welcome Trump's plans for major mineral exploration",
+     "ASX-listed AuKing Mining and Nasdaq-listed Greenland Mines have both welcomed the strong commitment shown by the US government to advance critical mineral projects in Greenland."
+    ],
+    "summary_raw": "Greenland-focused miners welcome Trump's plans for major mineral exploration&nbsp;&nbsp;Mining Weekly",
+    "english_phrases": [
+     {
+      "phrase": "critical minerals supply chains",
+      "meaning": "핵심광물 공급망"
+     },
+     {
+      "phrase": "defence and security agreement",
+      "meaning": "방위 및 안보 협정"
+     },
+     {
+      "phrase": "high-grade niobium",
+      "meaning": "고품위 니오븀"
+     },
+     {
+      "phrase": "allied industrial capacity",
+      "meaning": "동맹국의 산업 역량"
+     }
+    ],
+    "implication": "미국이 그린란드 광물 탐사에 힘을 싣고 안보 협정이 선행되면서 그린란드 희토류·니오븀 프로젝트가 동맹 공급망 후보지로 부각되고 있음.",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "476f5c1d1d2b",
+   "title": "EU adds four rare earth projects to strategic list to support recycling, processing goals - Fastmarkets",
+   "title_norm": "eu adds four rare earth projects to strategic list to support recycling processing goals",
+   "url": "https://fastmarkets.com/insights/eu-adds-four-rare-earth-projects-to-strategic-list-to-support-recycling-processing-goals",
+   "gnews_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeTAzUDhUX1lyY21nbzdmOFlfbG4zNmhVZF9ULVFtMTdnOHhTOHN5bjJ5dGRBUmhvZ3VlUXpzLThaVFU3QzdlbU0yc25wU3N5NC1aeUVkSkJyY2QwOHluWHItUml1V05HeHVKejFTSTZZbUF6eTIzNWdzOWlhTVRmbm01ZVNya0F3YzdYQmZ2RkNTSlhiRHprSUJaczRIdVkwbTMzUHFEaGhvT0hZeHhvbGkzSV84TmlKN1lFQ3FTOVZ1OHdH?oc=5",
+   "source": {
+    "name": "Fastmarkets - via Google News",
+    "domain": "fastmarkets.com",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-10-14",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T06:00:40+00:00",
+   "score": 9,
+   "body": {
+    "status": "lead_only",
+    "chars": 105,
+    "sha256": "3797f389c43d4aba0169697ba66fc3ef89bedd4864786c183a00a9372e76b37c",
+    "source": "og_description",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [
+     "Explore the latest developments in rare earth projects focused on recycling and processing across Europe."
+    ],
+    "final_url": "https://www.fastmarkets.com/insights/eu-adds-four-rare-earth-projects-to-strategic-list-to-support-recycling-processing-goals/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "EU, 재활용·가공 목표 지원을 위해 희토류 프로젝트 4건을 전략 목록에 추가했음",
+     "리드는 유럽 전역의 재활용·가공 중심 희토류 프로젝트의 최신 동향을 살펴보라고 소개했음"
+    ],
+    "basis": "lead",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "재활용",
+     "가공",
+     "EU",
+     "전략 프로젝트"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "strategic list",
+      "meaning": "전략 목록"
+     },
+     {
+      "phrase": "rare earth projects",
+      "meaning": "희토류 프로젝트"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "lead_only",
+    "input_chars": 105,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T06:00:43+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "0ec50b7d81",
+     "v1_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeTAzUDhUX1lyY21nbzdmOFlfbG4zNmhVZF9ULVFtMTdnOHhTOHN5bjJ5dGRBUmhvZ3VlUXpzLThaVFU3QzdlbU0yc25wU3N5NC1aeUVkSkJyY2QwOHluWHItUml1V05HeHVKejFTSTZZbUF6eTIzNWdzOWlhTVRmbm01ZVNya0F3YzdYQmZ2RkNTSlhiRHprSUJaczRIdVkwbTMzUHFEaGhvT0hZeHhvbGkzSV84TmlKN1lFQ3FTOVZ1OHdH?oc=5",
+     "summary_raw": "EU adds four rare earth projects to strategic list to support recycling, processing goals&nbsp;&nbsp;Fastmarkets"
+    }
+   },
+   "v1": {
+    "korean_summary": "EU가 희토류 재활용 및 가공 목표 달성을 지원하기 위해 4개의 희토류 프로젝트를 전략광물 목록에 추가했음이 확인되었습니다. 이는 EU의 핵심광물 공급망 자립화 전략의 일환으로, 유럽 내 희토류 자체 처리 능력 강화를 목표로 하고 있습니다. 해당 프로젝트들의 지정은 순환경제 기반의 희토류 확보 체계 구축에 중요한 정책적 신호를 제공할 것으로 전망됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "순환경제·재활용",
+     "EU·유럽"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "rare earth projects on strategic list",
+      "meaning": "전략광물 목록에 등재된 희토류 프로젝트"
+     },
+     {
+      "phrase": "recycling and processing goals",
+      "meaning": "재활용 및 가공 목표"
+     },
+     {
+      "phrase": "critical mineral supply chain autonomy",
+      "meaning": "핵심광물 공급망 자립화"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "0ec50b7d81",
+    "title": "EU adds four rare earth projects to strategic list to support recycling, processing goals - Fastmarkets",
+    "url": "https://fastmarkets.com/insights/eu-adds-four-rare-earth-projects-to-strategic-list-to-support-recycling-processing-goals",
+    "source": "Fastmarkets - via Google News",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-10-14",
+    "korean_summary": [
+     "[본문 미확보] EU, 재활용·가공 목표 지원을 위해 희토류 프로젝트 4건을 전략 목록에 추가했음",
+     "리드는 유럽 전역의 재활용·가공 중심 희토류 프로젝트의 최신 동향을 살펴보라고 소개했음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "재활용",
+     "가공",
+     "EU",
+     "전략 프로젝트"
+    ],
+    "ai_processed": true,
+    "card_id": "476f5c1d1d2b",
+    "basis": "lead",
+    "body_status": "lead_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "EU adds four rare earth projects to strategic list to support recycling, processing goals&nbsp;&nbsp;Fastmarkets",
+    "english_phrases": [
+     {
+      "phrase": "strategic list",
+      "meaning": "전략 목록"
+     },
+     {
+      "phrase": "rare earth projects",
+      "meaning": "희토류 프로젝트"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "576280998a39",
+   "title": "AuKing Mining Touts US Support for Critical Minerals Exploration in Greenland - marketscreener.com",
+   "title_norm": "auking mining touts us support for critical minerals exploration in greenland",
+   "url": "https://marketscreener.com/news/auking-mining-touts-us-support-for-critical-minerals-exploration-in-greenland-ce785dd3d88df42d",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQYVBSODBwQ1dpZm5GMEoyLUVrMmRGS2g4b0xjZU9vNUJFcnNZemNaUEhnMFRrRnJOYnFMYXMzQXQtQzUtYWltZDU4bUpBZzBzV0FWNUt3UVBrTnVUenhDR0hWNWREdWc2dEw3UXVybXVsR1lYMzhpZ0EzVEdUUGRSZzhvQXExYXdCcHNycTBiR3FmdEhSQkFEb1lKLVV1RXZTZWNCWmJ5c0tSYlJGNjdFQnU4THU4SEwtdUUtZEFrRmlnR3V3TWVXRUF3?oc=5",
+   "source": {
+    "name": "Google News - Critical Minerals Exploration",
+    "domain": "marketscreener.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-10-15",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T06:00:43+00:00",
+   "score": 9,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "bot_block",
+    "http_status": 403,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.marketscreener.com/news/auking-mining-touts-us-support-for-critical-minerals-exploration-in-greenland-ce785dd3d88df42d",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "AuKing Mining, 그린란드 핵심광물 탐사에 대한 미국의 지원을 부각했음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "exploration_tech",
+    "tags": [
+     "핵심광물",
+     "광물 탐사",
+     "그린란드",
+     "미국",
+     "AuKing Mining"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Touts US Support",
+      "meaning": "미국의 지원을 내세우다·부각하다"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T06:00:45+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "59436c83c6",
+     "v1_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQYVBSODBwQ1dpZm5GMEoyLUVrMmRGS2g4b0xjZU9vNUJFcnNZemNaUEhnMFRrRnJOYnFMYXMzQXQtQzUtYWltZDU4bUpBZzBzV0FWNUt3UVBrTnVUenhDR0hWNWREdWc2dEw3UXVybXVsR1lYMzhpZ0EzVEdUUGRSZzhvQXExYXdCcHNycTBiR3FmdEhSQkFEb1lKLVV1RXZTZWNCWmJ5c0tSYlJGNjdFQnU4THU4SEwtdUUtZEFrRmlnR3V3TWVXRUF3?oc=5",
+     "summary_raw": "AuKing Mining Touts US Support for Critical Minerals Exploration in Greenland&nbsp;&nbsp;marketscreener.com"
+    }
+   },
+   "v1": {
+    "korean_summary": "AuKing Mining이 그린란드에서의 핵심광물 탐사에 대한 미국의 지원 확보를 발표하였으며, 이는 북극권 지역의 전략적 자원 확보 경쟁이 심화되고 있음을 시사합니다. 미국의 핵심광물 공급망 다원화 정책에 따라 그린란드와 같은 비전통적 지역의 탐사 활동이 가속화될 것으로 전망됩니다. 이는 글로벌 핵심광물 수급 불균형 해소 및 지정학적 공급 리스크 완화를 위한 국제협력의 중요성을 강조하는 바입니다.",
+    "category": "policy_market",
+    "tags": [
+     "희토류/희유금속",
+     "탐사정책",
+     "그린란드/북극권"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals exploration",
+      "meaning": "핵심광물 탐사"
+     },
+     {
+      "phrase": "supply chain diversification",
+      "meaning": "공급망 다원화"
+     },
+     {
+      "phrase": "geopolitical risk mitigation",
+      "meaning": "지정학적 리스크 완화"
+     },
+     {
+      "phrase": "Arctic minerals strategy",
+      "meaning": "북극권 광물 전략"
+     },
+     {
+      "phrase": "non-traditional sources",
+      "meaning": "비전통적 공급원"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "59436c83c6",
+    "title": "AuKing Mining Touts US Support for Critical Minerals Exploration in Greenland - marketscreener.com",
+    "url": "https://marketscreener.com/news/auking-mining-touts-us-support-for-critical-minerals-exploration-in-greenland-ce785dd3d88df42d",
+    "source": "Google News - Critical Minerals Exploration",
+    "tier_weight": 1,
+    "score": 9,
+    "published": "2026-10-15",
+    "korean_summary": [
+     "[제목 기반] AuKing Mining, 그린란드 핵심광물 탐사에 대한 미국의 지원을 부각했음"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "핵심광물",
+     "광물 탐사",
+     "그린란드",
+     "미국",
+     "AuKing Mining"
+    ],
+    "ai_processed": true,
+    "card_id": "576280998a39",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "AuKing Mining Touts US Support for Critical Minerals Exploration in Greenland&nbsp;&nbsp;marketscreener.com",
+    "english_phrases": [
+     {
+      "phrase": "Touts US Support",
+      "meaning": "미국의 지원을 내세우다·부각하다"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "8233a6bb6924",
+   "title": "Krait Critical Minerals Shares Retreat 6.60% as Antimony Portfolio Expansion and Early-Stage Exploration Pacing Challenge Investor Sentiment - kalkine.ca",
+   "title_norm": "krait critical minerals shares retreat 6 60 as antimony portfolio expansion and early stage exploration pacing challenge investor sentiment",
+   "url": "https://kalkine.ca/news/mining/krait-critical-minerals-shares-retreat-660-as-antimony-portfolio-expansion-and-early-stage-exploration-pacing-challenge-investor-sentiment",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQZHU2VlhzNDBNU3dPeVZQbUt2MXR0ZmNzZnFqSC1iazdzWVY5cXJyRHo5S1puLWdGcEVtWmxsRG92WjQybGhLZmlpYU1yYWVzdy1TXzdJZGJBVnk2OU5XQWVGUTYwQW0zRUhqbjBKS041bVNLOXBUbEtXRWdhY0ZyV3VBbkc4Q1RNTkQ3azJMaGI1SDd6eUlQLW1XRm9SS2FpSEQtOVZCZW0tY2dLYnpVN2hEc3k3ZHVfTDBKNHRKUWx3ZzlZcl9IVmRlRVhpWWcxVjJxeUVuUVRaSFg4TVJsM1VBdm9wcVBzcnRTUzNzXzZpd042VkxqR2lNS2pzZw?oc=5",
+   "source": {
+    "name": "Google News - Critical Minerals Exploration",
+    "domain": "kalkine.ca",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-10-15",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T06:00:45+00:00",
+   "score": 9,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "bot_block",
+    "http_status": 403,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://kalkine.ca/news/mining/krait-critical-minerals-shares-retreat-660-as-antimony-portfolio-expansion-and-early-stage-exploration-pacing-challenge-investor-sentiment",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Krait Critical Minerals 주가 6.60% 하락, 안티모니 포트폴리오 확대와 초기 단계 탐사 속도가 투자심리에 부담임"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "안티모니",
+     "Krait Critical Minerals",
+     "주가",
+     "탐사"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Antimony Portfolio Expansion",
+      "meaning": "안티모니 포트폴리오 확대"
+     },
+     {
+      "phrase": "Early-Stage Exploration",
+      "meaning": "초기 단계 탐사"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T06:00:46+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "a89fc8bcc6",
+     "v1_url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQZHU2VlhzNDBNU3dPeVZQbUt2MXR0ZmNzZnFqSC1iazdzWVY5cXJyRHo5S1puLWdGcEVtWmxsRG92WjQybGhLZmlpYU1yYWVzdy1TXzdJZGJBVnk2OU5XQWVGUTYwQW0zRUhqbjBKS041bVNLOXBUbEtXRWdhY0ZyV3VBbkc4Q1RNTkQ3azJMaGI1SDd6eUlQLW1XRm9SS2FpSEQtOVZCZW0tY2dLYnpVN2hEc3k3ZHVfTDBKNHRKUWx3ZzlZcl9IVmRlRVhpWWcxVjJxeUVuUVRaSFg4TVJsM1VBdm9wcVBzcnRTUzNzXzZpd042VkxqR2lNS2pzZw?oc=5",
+     "summary_raw": "Krait Critical Minerals Shares Retreat 6.60% as Antimony Portfolio Expansion and Early-Stage Exploration Pacing Challenge Investor Sentiment&nbsp;&nbsp;kalkine.ca"
+    }
+   },
+   "v1": {
+    "korean_summary": "크라이트 핵심광물(Krait Critical Minerals)의 주가가 안티모니 포트폴리오 확대 및 초기 단계 탐사 진행 지연으로 인해 6.60% 하락한 것으로 확인되었습니다. 투자자 심리가 초기 탐사 단계의 불확실성과 포트폴리오 다각화 속도에 대한 우려로 영향받은 것으로 분석됩니다. 이는 핵심광물 탐사 부문에서 초기 단계 프로젝트의 가시적 성과 창출이 투자자 신뢰 확보에 중요함을 시사하고 있습니다.",
+    "category": "policy_market",
+    "tags": [
+     "안티모니",
+     "핵심광물 탐사",
+     "상장사 주가"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Portfolio expansion",
+      "meaning": "포트폴리오 확대 / 탐사 자산의 다각화"
+     },
+     {
+      "phrase": "Early-stage exploration pacing",
+      "meaning": "초기 단계 탐사의 진행 속도 / 탐사 진도"
+     },
+     {
+      "phrase": "Investor sentiment challenge",
+      "meaning": "투자자 심리 악화 요인 / 투자심리 상실"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "a89fc8bcc6",
+    "title": "Krait Critical Minerals Shares Retreat 6.60% as Antimony Portfolio Expansion and Early-Stage Exploration Pacing Challenge Investor Sentiment - kalkine.ca",
+    "url": "https://kalkine.ca/news/mining/krait-critical-minerals-shares-retreat-660-as-antimony-portfolio-expansion-and-early-stage-exploration-pacing-challenge-investor-sentiment",
+    "source": "Google News - Critical Minerals Exploration",
+    "tier_weight": 1,
+    "score": 9,
+    "published": "2026-10-15",
+    "korean_summary": [
+     "[제목 기반] Krait Critical Minerals 주가 6.60% 하락, 안티모니 포트폴리오 확대와 초기 단계 탐사 속도가 투자심리에 부담임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "안티모니",
+     "Krait Critical Minerals",
+     "주가",
+     "탐사"
+    ],
+    "ai_processed": true,
+    "card_id": "8233a6bb6924",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Krait Critical Minerals Shares Retreat 6.60% as Antimony Portfolio Expansion and Early-Stage Exploration Pacing Challenge Investor Sentiment&nbsp;&nbsp;kalkine.ca",
+    "english_phrases": [
+     {
+      "phrase": "Antimony Portfolio Expansion",
+      "meaning": "안티모니 포트폴리오 확대"
+     },
+     {
+      "phrase": "Early-Stage Exploration",
+      "meaning": "초기 단계 탐사"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "73a3087dcb8b",
+   "title": "Vinland Lithium Commences Fall Ground Exploration Program for Lithium-Cesium-Tungsten Targets - StreetInsider",
+   "title_norm": "vinland lithium commences fall ground exploration program for lithium cesium tungsten targets",
+   "url": "https://streetinsider.com/Newsfile/Vinland+Lithium+Commences+Fall+Ground+Exploration+Program+for+Lithium-Cesium-Tungsten+Targets/27189709.html",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOckM0U0xDOVREUEZqaGJteVVxZkMyQmtxY2drYzRJa21pN2tNUnU1RFRRU3E0cmY4OS12OUNmWlV4UEhpNlNVZkt5NDRYUU9pUFZqLWFMdWduWUVtdFFzeUZVVE0wOEhwcVJsWVdkR0d1SEJveGNSYUNpUEV3cmFIMHEwTWtEajllVEFfcTFBbkZhS2hBSVJRT2kyTEZrR1lxSmdkdTU5dlU4eWk3ZXViSGFNTHNBSFc2M2hPYzlwS0hZOHF5aWVISm9rTDY4SE15LTJyZGotMnVkMUhITTZZ?oc=5",
+   "source": {
+    "name": "Google News - Lithium Discovery",
+    "domain": "streetinsider.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-10-15",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T06:00:46+00:00",
+   "score": 11,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "bot_block",
+    "http_status": 403,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.streetinsider.com/Newsfile/Vinland+Lithium+Commences+Fall+Ground+Exploration+Program+for+Lithium-Cesium-Tungsten+Targets/27189709.html",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Vinland Lithium, 리튬-세슘-텅스텐 타깃 대상 가을철 현장 탐사 프로그램 개시했음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "exploration_tech",
+    "tags": [
+     "리튬",
+     "세슘",
+     "텅스텐",
+     "현장탐사",
+     "Vinland Lithium"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Ground Exploration Program",
+      "meaning": "현장(지표) 탐사 프로그램"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T06:00:48+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "eedb7b9e73",
+     "v1_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOckM0U0xDOVREUEZqaGJteVVxZkMyQmtxY2drYzRJa21pN2tNUnU1RFRRU3E0cmY4OS12OUNmWlV4UEhpNlNVZkt5NDRYUU9pUFZqLWFMdWduWUVtdFFzeUZVVE0wOEhwcVJsWVdkR0d1SEJveGNSYUNpUEV3cmFIMHEwTWtEajllVEFfcTFBbkZhS2hBSVJRT2kyTEZrR1lxSmdkdTU5dlU4eWk3ZXViSGFNTHNBSFc2M2hPYzlwS0hZOHF5aWVISm9rTDY4SE15LTJyZGotMnVkMUhITTZZ?oc=5",
+     "summary_raw": "Vinland Lithium Commences Fall Ground Exploration Program for Lithium-Cesium-Tungsten Targets&nbsp;&nbsp;StreetInsider"
+    }
+   },
+   "v1": {
+    "korean_summary": "Vinland Lithium이 리튬-세슘-텅스텐 복합 광화대를 대상으로 가을 지표 탐사 프로그램을 개시하였으며, 이는 핵심광물의 다원화된 수급 전략을 반영하는 사례로 평가됨. 세슘과 텅스텐 같은 부산물 광종의 동시 회수는 단일 광종 개발 대비 경제성 향상과 광물 자급률 개선에 기여할 것으로 전망됨. 본 탐사는 북미 지역의 핵심광물 공급망 다각화 노력의 일환으로서 전략적 의의가 있음.",
+    "category": "exploration_tech",
+    "tags": [
+     "리튬·세슘·텅스텐",
+     "지표탐사·다중광물 회수",
+     "북미"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "ground exploration program",
+      "meaning": "지표 탐사 프로그램 (원격탐사에 대비되는 현장 기반 탐광활동)"
+     },
+     {
+      "phrase": "lithium-cesium-tungsten targets",
+      "meaning": "리튬-세슘-텅스텐 복합 탐광 대상 (다중 핵심광물 동시 부존)"
+     },
+     {
+      "phrase": "polymetallic mineralization",
+      "meaning": "복합 광화작용 (여러 광종이 동시에 광화되는 지질학적 현상)"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "eedb7b9e73",
+    "title": "Vinland Lithium Commences Fall Ground Exploration Program for Lithium-Cesium-Tungsten Targets - StreetInsider",
+    "url": "https://streetinsider.com/Newsfile/Vinland+Lithium+Commences+Fall+Ground+Exploration+Program+for+Lithium-Cesium-Tungsten+Targets/27189709.html",
+    "source": "Google News - Lithium Discovery",
+    "tier_weight": 1,
+    "score": 11,
+    "published": "2026-10-15",
+    "korean_summary": [
+     "[제목 기반] Vinland Lithium, 리튬-세슘-텅스텐 타깃 대상 가을철 현장 탐사 프로그램 개시했음"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "리튬",
+     "세슘",
+     "텅스텐",
+     "현장탐사",
+     "Vinland Lithium"
+    ],
+    "ai_processed": true,
+    "card_id": "73a3087dcb8b",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Vinland Lithium Commences Fall Ground Exploration Program for Lithium-Cesium-Tungsten Targets&nbsp;&nbsp;StreetInsider",
+    "english_phrases": [
+     {
+      "phrase": "Ground Exploration Program",
+      "meaning": "현장(지표) 탐사 프로그램"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "b7df77a9ba00",
+   "title": "Energy transition faces critical minerals crunch by 2035: report",
+   "title_norm": "energy transition faces critical minerals crunch by 2035 report",
+   "url": "https://mining.com/energy-transition-faces-critical-minerals-crunch-by-2035-report",
+   "gnews_url": null,
+   "source": {
+    "name": "Mining.com",
+    "domain": "mining.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-10-15",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T06:00:49+00:00",
+   "score": 11,
+   "body": {
+    "status": "full",
+    "chars": 1054,
+    "sha256": "d4625b7ae24fb99f04da405e169afb68e3f98a79c83bc0445a65847c414aafd2",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2024-04-11",
+    "quotes": [
+     "Keep reading MINING.COM with a TNM NEWS+MARKETS Membership.",
+     "TNM Memberships is your key to unlocking access to the best news, insights, and data in the mining industry."
+    ],
+    "final_url": "https://www.mining.com/subscribe-login/?id=1216385",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "GEM Mining Consulting이 2035년까지 에너지 전환이 핵심광물 부족에 직면한다고 밝혔음",
+     "채굴량뿐 아니라 가공 병목과 신뢰하기 어려운 프로젝트 전망이 공급을 위협한다고 지적했음",
+     "GEM은 칠레 산티아고에 본사를 둔 컨설팅사이며, 구체적 수치와 후속 일정은 확인 불가임"
+    ],
+    "basis": "body",
+    "key_figures": [],
+    "quotes": [
+     "Keep reading MINING.COM with a TNM NEWS+MARKETS Membership.",
+     "TNM Memberships is your key to unlocking access to the best news, insights, and data in the mining industry."
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "핵심광물",
+     "에너지 전환",
+     "가공 병목",
+     "공급 전망",
+     "칠레"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals crunch",
+      "meaning": "핵심광물 공급 부족 사태"
+     },
+     {
+      "phrase": "processing bottlenecks",
+      "meaning": "가공 단계의 병목"
+     },
+     {
+      "phrase": "unreliable project forecasts",
+      "meaning": "신뢰하기 어려운 프로젝트 전망"
+     }
+    ],
+    "implication": "2035년 핵심광물 공급 부족의 원인이 채굴량뿐 아니라 가공 병목과 부정확한 프로젝트 전망에도 있다는 지적임"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 1054,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T06:00:52+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "67f8c8908e",
+     "v1_url": "https://www.mining.com/energy-transition-faces-critical-minerals-crunch-by-2035-report/",
+     "summary_raw": "Lithium faces the biggest physical shortfall, while China’s refining dominance leaves other mineral chains exposed."
+    }
+   },
+   "v1": {
+    "korean_summary": "2035년까지 에너지 전환 과정에서 핵심광물의 심각한 공급 부족이 예상되고 있으며, 특히 리튬이 가장 큰 물리적 결핍을 직면할 전망입니다. 중국의 정제·가공 부문 지배력이 심화되면서 다른 광물 공급망이 구조적 위험에 노출되어 있음이 확인되었습니다. 이는 글로벌 에너지 전환의 성공을 위해 다층적 공급망 다각화 및 정제 역량 강화가 시급함을 시사합니다.",
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "에너지 전환",
+     "공급망·중국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals crunch",
+      "meaning": "핵심광물 공급 부족 사태"
+     },
+     {
+      "phrase": "physical shortfall",
+      "meaning": "물리적 공급 결핍 (수요 대비 생산 능력 부족)"
+     },
+     {
+      "phrase": "refining dominance",
+      "meaning": "정제·가공 부문의 지배적 위치"
+     },
+     {
+      "phrase": "mineral supply chain resilience",
+      "meaning": "광물 공급망 안정성·회복력"
+     },
+     {
+      "phrase": "energy transition vulnerability",
+      "meaning": "에너지 전환의 취약성·위험 노출"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "67f8c8908e",
+    "title": "Energy transition faces critical minerals crunch by 2035: report",
+    "url": "https://mining.com/energy-transition-faces-critical-minerals-crunch-by-2035-report",
+    "source": "Mining.com",
+    "tier_weight": 3,
+    "score": 11,
+    "published": "2026-10-15",
+    "korean_summary": [
+     "GEM Mining Consulting이 2035년까지 에너지 전환이 핵심광물 부족에 직면한다고 밝혔음",
+     "채굴량뿐 아니라 가공 병목과 신뢰하기 어려운 프로젝트 전망이 공급을 위협한다고 지적했음",
+     "GEM은 칠레 산티아고에 본사를 둔 컨설팅사이며, 구체적 수치와 후속 일정은 확인 불가임"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "핵심광물",
+     "에너지 전환",
+     "가공 병목",
+     "공급 전망",
+     "칠레"
+    ],
+    "ai_processed": true,
+    "card_id": "b7df77a9ba00",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [],
+    "quotes": [
+     "Keep reading MINING.COM with a TNM NEWS+MARKETS Membership.",
+     "TNM Memberships is your key to unlocking access to the best news, insights, and data in the mining industry."
+    ],
+    "summary_raw": "Lithium faces the biggest physical shortfall, while China’s refining dominance leaves other mineral chains exposed.",
+    "english_phrases": [
+     {
+      "phrase": "critical minerals crunch",
+      "meaning": "핵심광물 공급 부족 사태"
+     },
+     {
+      "phrase": "processing bottlenecks",
+      "meaning": "가공 단계의 병목"
+     },
+     {
+      "phrase": "unreliable project forecasts",
+      "meaning": "신뢰하기 어려운 프로젝트 전망"
+     }
+    ],
+    "implication": "2035년 핵심광물 공급 부족의 원인이 채굴량뿐 아니라 가공 병목과 부정확한 프로젝트 전망에도 있다는 지적임",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "799778d2d9f4",
+   "title": "EnergyX signs an offtake agreement with Trafigura for 100,000 metric tons of battery-grade lithium - AutoTechInsight",
+   "title_norm": "energyx signs an offtake agreement with trafigura for 100 000 metric tons of battery grade lithium",
+   "url": "https://autotechinsight.spglobal.com/news/5291112/energyx-signs-an-offtake-agreement-with-trafigura-for-100000-metric-tons-of-battery-grade-lithium",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPRDBNTG9SSzE3ZDhwbHc2ODVaY2RiNVlHUkw5cko5ZVBBZ1Zvbk1SS2ppSUIwdHJLTEw2YXhlakstaGxOZklSVkhYbUFtM1c5dHRCcTVuNFFycENiS0hWbC03MGZNRExVOFU5UXJnV3FUMF9Mc2dqaC1pUHFZR29LVjBrbWlpa2J4V3FtUE1GUVhpcllXX1JRcDFUY1VHb0p1eVVHNnB4S3lTTmZJYWhCZGh3RHhHbHZFNm5Icmt5ZVVhYTRtOHltWFlTR0V6Yl9wS1k5TFNBTy05Z0RtSnJ1bg?oc=5",
+   "source": {
+    "name": "S&P Global - via Google News",
+    "domain": "autotechinsight.spglobal.com",
+    "tier": null,
+    "tier_weight": 4,
+    "language": null
+   },
+   "published": "2026-10-15",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T06:00:53+00:00",
+   "score": 10,
+   "body": {
+    "status": "full",
+    "chars": 921,
+    "sha256": "4ce0374f440c4292cc61d282838321b78f8dd0b531ccfc009213ce68879b25a8",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-10-15",
+    "quotes": [
+     "EnergyX signs an offtake agreement with Trafigura for 100,000 metric tons of battery-grade lithium",
+     "EnergyX said a significant share of the lithium covered by the agreement will be directed to the US battery supply chain"
+    ],
+    "final_url": "https://autotechinsight.spglobal.com/news/5291112/energyx-signs-an-offtake-agreement-with-trafigura-for-100000-metric-tons-of-battery-grade-lithium",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "EnergyX가 Trafigura와 10-year binding definitive 리튬 offtake 계약을 체결했음",
+     "계약 대상은 battery-grade lithium 100,000 metric tons 규모임",
+     "계약 물량 중 상당 부분은 미국 배터리 공급망으로 향할 것이라고 EnergyX가 밝혔음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "100,000 metric tons",
+     "10-year"
+    ],
+    "quotes": [
+     "EnergyX signs an offtake agreement with Trafigura for 100,000 metric tons of battery-grade lithium",
+     "EnergyX said a significant share of the lithium covered by the agreement will be directed to the US battery supply chain"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "오프테이크 계약",
+     "배터리 공급망",
+     "미국",
+     "원자재 트레이딩"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "offtake agreement",
+      "meaning": "생산물을 장기간 구매하기로 하는 인수 계약"
+     },
+     {
+      "phrase": "battery-grade lithium",
+      "meaning": "배터리 제조에 쓰이는 등급의 리튬"
+     },
+     {
+      "phrase": "binding definitive",
+      "meaning": "법적 구속력이 있는 최종 계약"
+     }
+    ],
+    "implication": "10년 장기 구속력 계약으로 상당 물량이 미국 배터리 공급망으로 향해, 미국 내 배터리용 리튬 조달 기반이 강화될 수 있음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 921,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T06:01:05+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 5줄)"
+    ],
+    "retry_tails": [
+     "},\n    {\"phrase\": \"binding definitive\", \"meaning\": \"법적 구속력이 있는 최종 계약\"}\n  ],\n  \"implication\": \"10년 장기 구속력 계약으로 배터리 등급 리튬 물량이 확보되고, 상당 부분이 미국 배터리 공급망으로 향할 예정임.\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "4c4e32ce18",
+     "v1_url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPRDBNTG9SSzE3ZDhwbHc2ODVaY2RiNVlHUkw5cko5ZVBBZ1Zvbk1SS2ppSUIwdHJLTEw2YXhlakstaGxOZklSVkhYbUFtM1c5dHRCcTVuNFFycENiS0hWbC03MGZNRExVOFU5UXJnV3FUMF9Mc2dqaC1pUHFZR29LVjBrbWlpa2J4V3FtUE1GUVhpcllXX1JRcDFUY1VHb0p1eVVHNnB4S3lTTmZJYWhCZGh3RHhHbHZFNm5Icmt5ZVVhYTRtOHltWFlTR0V6Yl9wS1k5TFNBTy05Z0RtSnJ1bg?oc=5",
+     "summary_raw": "EnergyX signs an offtake agreement with Trafigura for 100,000 metric tons of battery-grade lithium&nbsp;&nbsp;AutoTechInsight"
+    }
+   },
+   "v1": {
+    "korean_summary": "미국의 리튬 추출 기업 EnergyX가 글로벌 상품 거래사 Trafigura와 배터리급 리튬 10만 톤에 대한 선물 구매 계약을 체결했음이 확인되었습니다. 본 계약은 전기차 배터리 수요 증가에 대응한 핵심광물 공급망 안정화의 중요한 사례로 평가됩니다. 장기적 안정적 공급 확보를 통해 글로벌 에너지 전환 가속화에 기여할 것으로 전망됩니다.",
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "배터리 공급망",
+     "에너지 전환"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "offtake agreement",
+      "meaning": "선물 구매 계약; 생산자가 장기간 일정량의 광물·제품을 구매자에게 공급하기로 합의한 계약"
+     },
+     {
+      "phrase": "battery-grade lithium",
+      "meaning": "배터리급 리튬; 전기차 배터리 제조에 필요한 고순도의 리튬"
+     },
+     {
+      "phrase": "supply chain security for critical minerals",
+      "meaning": "핵심광물 공급망 보안(안정화); 핵심광물의 안정적이고 신뢰할 수 있는 공급 확보"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "4c4e32ce18",
+    "title": "EnergyX signs an offtake agreement with Trafigura for 100,000 metric tons of battery-grade lithium - AutoTechInsight",
+    "url": "https://autotechinsight.spglobal.com/news/5291112/energyx-signs-an-offtake-agreement-with-trafigura-for-100000-metric-tons-of-battery-grade-lithium",
+    "source": "S&P Global - via Google News",
+    "tier_weight": 4,
+    "score": 10,
+    "published": "2026-10-15",
+    "korean_summary": [
+     "EnergyX가 Trafigura와 10-year binding definitive 리튬 offtake 계약을 체결했음",
+     "계약 대상은 battery-grade lithium 100,000 metric tons 규모임",
+     "계약 물량 중 상당 부분은 미국 배터리 공급망으로 향할 것이라고 EnergyX가 밝혔음"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "오프테이크 계약",
+     "배터리 공급망",
+     "미국",
+     "원자재 트레이딩"
+    ],
+    "ai_processed": true,
+    "card_id": "799778d2d9f4",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "100,000 metric tons",
+     "10-year"
+    ],
+    "quotes": [
+     "EnergyX signs an offtake agreement with Trafigura for 100,000 metric tons of battery-grade lithium",
+     "EnergyX said a significant share of the lithium covered by the agreement will be directed to the US battery supply chain"
+    ],
+    "summary_raw": "EnergyX signs an offtake agreement with Trafigura for 100,000 metric tons of battery-grade lithium&nbsp;&nbsp;AutoTechInsight",
+    "english_phrases": [
+     {
+      "phrase": "offtake agreement",
+      "meaning": "생산물을 장기간 구매하기로 하는 인수 계약"
+     },
+     {
+      "phrase": "battery-grade lithium",
+      "meaning": "배터리 제조에 쓰이는 등급의 리튬"
+     },
+     {
+      "phrase": "binding definitive",
+      "meaning": "법적 구속력이 있는 최종 계약"
+     }
+    ],
+    "implication": "10년 장기 구속력 계약으로 상당 물량이 미국 배터리 공급망으로 향해, 미국 내 배터리용 리튬 조달 기반이 강화될 수 있음",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "df431348a17f",
+   "title": "Australia's PLS greenlights $1.3bn expansion to lift Pilgangoora lithium output - Mining Weekly",
+   "title_norm": "australia s pls greenlights 1 3bn expansion to lift pilgangoora lithium output",
+   "url": "https://miningweekly.com/article/australias-pls-greenlights-13bn-expansion-to-lift-pilgangoora-lithium-output-2026-10-16",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOd1B0X2pUM1dqaVVnVjFnWDFfdTB0MDY3VER6TWo0Wi1oRXlFZF9DbEtqODI5VzQxcEdaazEzNWJhZTV1UU1YWkhHZ3JseWF1YmlmZDE1RmRnMmQ2WTBMbFRZSUFrZGlmOEtTNjVQQXphUFZIaXBNM1cwNjU4MzI2Z1duRHQzU2dLMGJxaVNMcjRLWmg3SzFiRDJ2Yjh2MFNFYThKMF9OR2ZyMWw3OW9lZWxwT3hSVzZHUlptbzBBSE5yQQ?oc=5",
+   "source": {
+    "name": "Mining Weekly - via Google News",
+    "domain": "miningweekly.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-10-16",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T06:01:06+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 4025,
+    "sha256": "61ea6f5d9737994155870489c771cb1067007883a3dc07ad606e163d8266ddfc",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-10-16",
+    "quotes": [
+     "Australia's PLS greenlights $1.3bn expansion to lift Pilgangoora lithium output",
+     "Its shares rose more than 6% in early trading, set for their best day since August 24."
+    ],
+    "final_url": "https://www.miningweekly.com/article/australias-pls-greenlights-13bn-expansion-to-lift-pilgangoora-lithium-output-2026-10-16",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "호주 PLS Group이 Pilgangoora 리튬 광산의 A$1.9-billion 규모 P2000 확장을 승인했음",
+     "새 Jimmagunya 가공공장을 지어 2029년부터 스포듀민 정광을 nearly 2-million tonnes per annum 생산할 계획임",
+     "부대 인프라에 A$600-million to A$650-million을 추가 투자할 계획임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "A$1.9-billion",
+     "nearly 2-million tonnes per annum",
+     "A$600-million to A$650-million"
+    ],
+    "quotes": [
+     "Australia's PLS greenlights $1.3bn expansion to lift Pilgangoora lithium output",
+     "Its shares rose more than 6% in early trading, set for their best day since August 24."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "스포듀민",
+     "PLS",
+     "Pilgangoora",
+     "호주"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "spodumene concentrate",
+      "meaning": "스포듀민 정광(리튬 함유 정광)"
+     },
+     {
+      "phrase": "global lithium cost curve",
+      "meaning": "글로벌 리튬 생산비용 곡선"
+     },
+     {
+      "phrase": "by-product",
+      "meaning": "부산물"
+     }
+    ],
+    "implication": "가격 변동성에도 2029년부터 호주발 스포듀민 정광 공급이 연 nearly 2-million tonnes per annum 수준으로 늘어날 전망임"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T06:01:17+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 4줄)"
+    ],
+    "retry_tails": [
+     " 정광)\"},\n    {\"phrase\": \"global lithium cost curve\", \"meaning\": \"글로벌 리튬 생산비용 곡선\"},\n    {\"phrase\": \"by-product\", \"meaning\": \"부산물\"}\n  ],\n  \"implication\": \"해당 없음\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "cc0f8e81c1",
+     "v1_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOd1B0X2pUM1dqaVVnVjFnWDFfdTB0MDY3VER6TWo0Wi1oRXlFZF9DbEtqODI5VzQxcEdaazEzNWJhZTV1UU1YWkhHZ3JseWF1YmlmZDE1RmRnMmQ2WTBMbFRZSUFrZGlmOEtTNjVQQXphUFZIaXBNM1cwNjU4MzI2Z1duRHQzU2dLMGJxaVNMcjRLWmg3SzFiRDJ2Yjh2MFNFYThKMF9OR2ZyMWw3OW9lZWxwT3hSVzZHUlptbzBBSE5yQQ?oc=5",
+     "summary_raw": "Australia's PLS greenlights $1.3bn expansion to lift Pilgangoora lithium output&nbsp;&nbsp;Mining Weekly"
+    }
+   },
+   "v1": {
+    "korean_summary": "호주의 광업 기업 PLS가 필강고라(Pilgangoora) 리튬 광산의 산출량 확대를 위해 13억 달러 규모의 확장 사업을 승인했음이 확인되었습니다. 본 프로젝트는 글로벌 리튬 공급망에서 호주의 핵심광물 생산 기지로서의 역할을 강화할 것으로 전망됩니다. 이는 전기자동차 배터리 수요 증가에 대응하기 위한 주요 생산 확대 사례로 평가됩니다.",
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "광산개발",
+     "호주"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "greenlight an expansion project",
+      "meaning": "확장 사업을 승인하다"
+     },
+     {
+      "phrase": "lift output capacity",
+      "meaning": "생산 능력을 증대하다"
+     },
+     {
+      "phrase": "lithium supply chain security",
+      "meaning": "리튬 공급망 안정성"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "cc0f8e81c1",
+    "title": "Australia's PLS greenlights $1.3bn expansion to lift Pilgangoora lithium output - Mining Weekly",
+    "url": "https://miningweekly.com/article/australias-pls-greenlights-13bn-expansion-to-lift-pilgangoora-lithium-output-2026-10-16",
+    "source": "Mining Weekly - via Google News",
+    "tier_weight": 3,
+    "score": 9,
+    "published": "2026-10-16",
+    "korean_summary": [
+     "호주 PLS Group이 Pilgangoora 리튬 광산의 A$1.9-billion 규모 P2000 확장을 승인했음",
+     "새 Jimmagunya 가공공장을 지어 2029년부터 스포듀민 정광을 nearly 2-million tonnes per annum 생산할 계획임",
+     "부대 인프라에 A$600-million to A$650-million을 추가 투자할 계획임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "스포듀민",
+     "PLS",
+     "Pilgangoora",
+     "호주"
+    ],
+    "ai_processed": true,
+    "card_id": "df431348a17f",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "A$1.9-billion",
+     "nearly 2-million tonnes per annum",
+     "A$600-million to A$650-million"
+    ],
+    "quotes": [
+     "Australia's PLS greenlights $1.3bn expansion to lift Pilgangoora lithium output",
+     "Its shares rose more than 6% in early trading, set for their best day since August 24."
+    ],
+    "summary_raw": "Australia's PLS greenlights $1.3bn expansion to lift Pilgangoora lithium output&nbsp;&nbsp;Mining Weekly",
+    "english_phrases": [
+     {
+      "phrase": "spodumene concentrate",
+      "meaning": "스포듀민 정광(리튬 함유 정광)"
+     },
+     {
+      "phrase": "global lithium cost curve",
+      "meaning": "글로벌 리튬 생산비용 곡선"
+     },
+     {
+      "phrase": "by-product",
+      "meaning": "부산물"
+     }
+    ],
+    "implication": "가격 변동성에도 2029년부터 호주발 스포듀민 정광 공급이 연 nearly 2-million tonnes per annum 수준으로 늘어날 전망임",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "774ccc3461f2",
+   "title": "Correction to cobalt hydroxide payable indicator, min 30% Co, cif China, % payable; inferred price - Fastmarkets",
+   "title_norm": "correction to cobalt hydroxide payable indicator min 30 co cif china payable inferred price",
+   "url": "https://fastmarkets.com/insights/correction-to-cobalt-hydroxide-payable-indicator-min-30-co-cif-china-payable-inferred-price",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPY25qY2N6VTg5RjF4X2w4UlRBSExTM3VzYUxUcU53SE91Q000MURPRi1vT3Z6ZDRnVnFpaGp4T3N1M1JwZ09xMVFoY1U3MnF1MkxQdGE0RjNIa3htWkJCOHVoSEFIbktsN2NtUHZQVDNFNzZUYXdWaU9STUdnNzUxcE1KSmphLUYzeHhWYmF6amtzbFdLS3JkZ1hldDFaU0dHa2FQR2dwSWlaNWVzbjVwV0paTFhlRGpPRm9UNmhJd2ZvY3UwNWdmdQ?oc=5",
+   "source": {
+    "name": "Fastmarkets - via Google News",
+    "domain": "fastmarkets.com",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-10-16",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T06:01:18+00:00",
+   "score": 9,
+   "body": {
+    "status": "partial",
+    "chars": 376,
+    "sha256": "78a8803278e9f921d5caf36ed050bf0f80464de276030ad1e6993c60ee451d9e",
+    "source": "og_description",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [
+     "MB-CO-0021 Cobalt hydroxide payable indicator, min 30% Co, cif China, % payable of Fastmarkets’ standard-grade cobalt price (low-end) was published in error at 65.00-70.00%.",
+     "This has been corrected to 67.00-70.00%."
+    ],
+    "final_url": "https://www.fastmarkets.com/insights/correction-to-cobalt-hydroxide-payable-indicator-min-30-co-cif-china-payable-inferred-price/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Fastmarkets가 코발트 수산화물 payable 지표(MB-CO-0021)의 게재 오류를 정정했음",
+     "표준등급 코발트 가격 대비 하단 값이 65.00-70.00%에서 67.00-70.00%로 수정됐음",
+     "추정가격 MB-CO-0023도 $14.41 per…로 오게재돼 정정됐으며 수정값은 확인 불가임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "65.00-70.00%",
+     "67.00-70.00%",
+     "$14.41"
+    ],
+    "quotes": [
+     "MB-CO-0021 Cobalt hydroxide payable indicator, min 30% Co, cif China, % payable of Fastmarkets’ standard-grade cobalt price (low-end) was published in error at 65.00-70.00%.",
+     "This has been corrected to 67.00-70.00%."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "코발트",
+     "수산화코발트",
+     "가격지표",
+     "Fastmarkets",
+     "중국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "payable indicator",
+      "meaning": "정련업체가 지급하는 금속 가치 비율 지표"
+     },
+     {
+      "phrase": "cif China",
+      "meaning": "운임·보험료 포함 중국 도착 조건"
+     },
+     {
+      "phrase": "inferred price",
+      "meaning": "다른 지표로 산출한 추정 가격"
+     }
+    ],
+    "implication": "중국 cif 기준 코발트 수산화물 payable 하단이 67.00%로 정정돼 정산 및 가격 참고 수준이 달라짐."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "partial",
+    "input_chars": 376,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T06:01:28+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "5d933b28d9",
+     "v1_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPY25qY2N6VTg5RjF4X2w4UlRBSExTM3VzYUxUcU53SE91Q000MURPRi1vT3Z6ZDRnVnFpaGp4T3N1M1JwZ09xMVFoY1U3MnF1MkxQdGE0RjNIa3htWkJCOHVoSEFIbktsN2NtUHZQVDNFNzZUYXdWaU9STUdnNzUxcE1KSmphLUYzeHhWYmF6amtzbFdLS3JkZ1hldDFaU0dHa2FQR2dwSWlaNWVzbjVwV0paTFhlRGpPRm9UNmhJd2ZvY3UwNWdmdQ?oc=5",
+     "summary_raw": "Correction to cobalt hydroxide payable indicator, min 30% Co, cif China, % payable; inferred price&nbsp;&nbsp;Fastmarkets"
+    }
+   },
+   "v1": {
+    "korean_summary": "Fastmarkets가 중국 CIF 기준 최소 30% 코발트 함유 코발트 수산화물의 지불 가능 지표(payable indicator)를 수정 발표했습니다. 본 지표는 핵심광물인 코발트의 국제 시장 가격 형성 및 거래 기준점으로 활용되고 있습니다. 이러한 정정은 핵심광물 공급망의 투명성과 거래 신뢰성을 강화하는 데 중요한 역할을 할 것으로 예상됩니다.",
+    "category": "supply_chain",
+    "tags": [
+     "코발트",
+     "가격 지표·공급망",
+     "중국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "payable indicator",
+      "meaning": "지불 가능 지표 (광물 품질 및 함량에 따른 실제 지불 가격 산정 기준)"
+     },
+     {
+      "phrase": "cobalt hydroxide, min 30% Co",
+      "meaning": "코발트 수산화물, 최소 30% 코발트 함량 (핵심광물 거래의 표준 규격)"
+     },
+     {
+      "phrase": "inferred price, cif China",
+      "meaning": "중국 CIF(운임·보험료 포함) 기준 추정 가격 (국제 핵심광물 거래 지표)"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "5d933b28d9",
+    "title": "Correction to cobalt hydroxide payable indicator, min 30% Co, cif China, % payable; inferred price - Fastmarkets",
+    "url": "https://fastmarkets.com/insights/correction-to-cobalt-hydroxide-payable-indicator-min-30-co-cif-china-payable-inferred-price",
+    "source": "Fastmarkets - via Google News",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-10-16",
+    "korean_summary": [
+     "Fastmarkets가 코발트 수산화물 payable 지표(MB-CO-0021)의 게재 오류를 정정했음",
+     "표준등급 코발트 가격 대비 하단 값이 65.00-70.00%에서 67.00-70.00%로 수정됐음",
+     "추정가격 MB-CO-0023도 $14.41 per…로 오게재돼 정정됐으며 수정값은 확인 불가임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "코발트",
+     "수산화코발트",
+     "가격지표",
+     "Fastmarkets",
+     "중국"
+    ],
+    "ai_processed": true,
+    "card_id": "774ccc3461f2",
+    "basis": "body",
+    "body_status": "partial",
+    "key_figures": [
+     "65.00-70.00%",
+     "67.00-70.00%",
+     "$14.41"
+    ],
+    "quotes": [
+     "MB-CO-0021 Cobalt hydroxide payable indicator, min 30% Co, cif China, % payable of Fastmarkets’ standard-grade cobalt price (low-end) was published in error at 65.00-70.00%.",
+     "This has been corrected to 67.00-70.00%."
+    ],
+    "summary_raw": "Correction to cobalt hydroxide payable indicator, min 30% Co, cif China, % payable; inferred price&nbsp;&nbsp;Fastmarkets",
+    "english_phrases": [
+     {
+      "phrase": "payable indicator",
+      "meaning": "정련업체가 지급하는 금속 가치 비율 지표"
+     },
+     {
+      "phrase": "cif China",
+      "meaning": "운임·보험료 포함 중국 도착 조건"
+     },
+     {
+      "phrase": "inferred price",
+      "meaning": "다른 지표로 산출한 추정 가격"
+     }
+    ],
+    "implication": "중국 cif 기준 코발트 수산화물 payable 하단이 67.00%로 정정돼 정산 및 가격 참고 수준이 달라짐.",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "c196aeedad77",
+   "title": "Vanadium in May 2026",
+   "title_norm": "vanadium in may 2026",
+   "url": "https://usgs.gov/centers/national-minerals-information-center/vanadium-statistics-and-information",
+   "gnews_url": null,
+   "source": {
+    "name": "USGS Minerals Periodicals",
+    "domain": "usgs.gov",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-10-15",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T06:01:30+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 1579,
+    "sha256": "0b08c97b45bdfd3eaceae0402faf410f508d99cf781fe3dff104488f063489d1",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2006-01-01",
+    "quotes": [
+     "An official website of the United States government",
+     "A .gov website belongs to an official government organization in the United States."
+    ],
+    "final_url": "https://www.usgs.gov/centers/national-minerals-information-center/vanadium-statistics-and-information",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "USGS Minerals Periodicals가 바나듐의 전 세계 수급·유통 통계와 정보를 다루는 'Vanadium in May 2026' 페이지를 게시했음",
+     "바나듐은 일부 철계 합금에 소량 들어가도 물성을 크게 높이며, 티타늄 합금에서는 알루미늄과 함께 강도를 내는 데 쓰인다고 설명했음",
+     "USGS는 데이터셋을 ScienceBase 플랫폼으로 옮기는 중이며, 구독자에게 간행물별로 이메일 알림을 보낼 예정이라고 밝혔음"
+    ],
+    "basis": "body",
+    "key_figures": [],
+    "quotes": [
+     "An official website of the United States government",
+     "A .gov website belongs to an official government organization in the United States."
+    ],
+    "category": "research",
+    "tags": [
+     "바나듐",
+     "USGS",
+     "광물 통계",
+     "ScienceBase",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Monthly Publications",
+      "meaning": "월간 간행물"
+     },
+     {
+      "phrase": "Mineral Industry Surveys",
+      "meaning": "광물산업 조사 간행물"
+     },
+     {
+      "phrase": "version control",
+      "meaning": "버전 관리"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 1579,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T06:01:33+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "09030afc89",
+     "v1_url": "https://www.usgs.gov/centers/national-minerals-information-center/vanadium-statistics-and-information",
+     "summary_raw": "Category: Mineral Industry Surveys.   (Published 10/15/2026)"
+    }
+   },
+   "v1": {
+    "korean_summary": "(요약 생성 실패 — 원문 참조)",
+    "category": "research",
+    "tags": [],
+    "english_phrases": [],
+    "ai_processed": false
+   },
+   "legacy": {
+    "id": "09030afc89",
+    "title": "Vanadium in May 2026",
+    "url": "https://usgs.gov/centers/national-minerals-information-center/vanadium-statistics-and-information",
+    "source": "USGS Minerals Periodicals",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-10-15",
+    "korean_summary": [
+     "USGS Minerals Periodicals가 바나듐의 전 세계 수급·유통 통계와 정보를 다루는 'Vanadium in May 2026' 페이지를 게시했음",
+     "바나듐은 일부 철계 합금에 소량 들어가도 물성을 크게 높이며, 티타늄 합금에서는 알루미늄과 함께 강도를 내는 데 쓰인다고 설명했음",
+     "USGS는 데이터셋을 ScienceBase 플랫폼으로 옮기는 중이며, 구독자에게 간행물별로 이메일 알림을 보낼 예정이라고 밝혔음"
+    ],
+    "category": "research",
+    "tags": [
+     "바나듐",
+     "USGS",
+     "광물 통계",
+     "ScienceBase",
+     "미국"
+    ],
+    "ai_processed": true,
+    "card_id": "c196aeedad77",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [],
+    "quotes": [
+     "An official website of the United States government",
+     "A .gov website belongs to an official government organization in the United States."
+    ],
+    "summary_raw": "Category: Mineral Industry Surveys.   (Published 10/15/2026)",
+    "english_phrases": [
+     {
+      "phrase": "Monthly Publications",
+      "meaning": "월간 간행물"
+     },
+     {
+      "phrase": "Mineral Industry Surveys",
+      "meaning": "광물산업 조사 간행물"
+     },
+     {
+      "phrase": "version control",
+      "meaning": "버전 관리"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  }
+ ],
+ "excluded": [],
+ "v1_file": "week-2026-10-19.json",
+ "v1_metrics": {
+  "articles": 12,
+  "original_link": 3,
+  "body_based": 0,
+  "failed": 1
+ },
+ "trial": false
+}

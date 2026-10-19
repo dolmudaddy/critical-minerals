@@ -1,0 +1,2228 @@
+{
+ "schema_version": "card.v1",
+ "service": "cmw",
+ "week_of": "2026-08-16",
+ "generated_at": "2026-10-19T05:46:59+00:00",
+ "mincore_version": "0.3.6",
+ "model": "claude-sonnet-5-5",
+ "prompt_version": "v2.2",
+ "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+ "stats": {
+  "v1_articles": 12,
+  "cards": 12,
+  "excluded": 0,
+  "body_got": 12,
+  "body_rate": 1.0,
+  "original_link": 12,
+  "reader_proxy_used": 0,
+  "line_len": {
+   "lines": 36,
+   "median": 55.5,
+   "max": 99,
+   "over60": 12,
+   "over100": 0
+  },
+  "oda_filled": 9,
+  "usage": {
+   "claude-sonnet-5-5": {
+    "calls": 18,
+    "in": 53290,
+    "out": 13558
+   }
+  },
+  "cost_usd": 0.3632,
+  "body_status": {
+   "full": 11,
+   "partial": 1
+  },
+  "body_source": {
+   "trafilatura": 11,
+   "presscorner_api": 1
+  },
+  "resolve": {
+   "direct": 6,
+   "decoder": 6
+  },
+  "fail_reason": {},
+  "basis": {
+   "body": 12
+  },
+  "retry_reason": {
+   "lines는 3줄이어야 함 (현재 4줄)": 5,
+   "lines는 3줄이어야 함 (현재 5줄)": 1,
+   "너무 짧은 줄 1개 (최소 15자)": 1
+  },
+  "flags": {},
+  "model_used": {
+   "claude-sonnet-5-5": 12
+  }
+ },
+ "total": 12,
+ "cards": [
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "55111243d7cf",
+   "title": "Modern Mining eyes US expansion as e-waste emerges as domestic metals resource",
+   "title_norm": "modern mining eyes us expansion as e waste emerges as domestic metals resource",
+   "url": "https://mining.com/modern-mining-eyes-us-expansion-as-e-waste-emerges-as-domestic-metals-resource",
+   "gnews_url": null,
+   "source": {
+    "name": "Mining.com",
+    "domain": "mining.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-08-14",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:44:51+00:00",
+   "score": 11,
+   "body": {
+    "status": "full",
+    "chars": 5579,
+    "sha256": "23d0a696bf4924c9144cc5c16c0ce7cdbf9b5ba60009151092640992df842201",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-08-14",
+    "quotes": [
+     "“We really need to be thinking of [recycling] as the beginning of a brand new supply chain,” Modern Mining CEO Jeet Basi told MINING.COM in an interview.",
+     "“We’re approaching e-waste with the mindset of a mining company rather than a waste management company,” Basi said."
+    ],
+    "final_url": "https://www.mining.com/modern-mining-eyes-us-expansion-as-e-waste-emerges-as-domestic-metals-resource/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Modern Mining이 전자폐기물 처리 기술의 상업화를 준비하며 미국 내 확장을 노리고 있음",
+     "노스캐롤라이나주 그린빌 실증 단계를 거쳐 첫 상업 공장 건설 자금을 조달 중임",
+     "7월 트럼프 대통령이 국방물자생산법에 따라 일부 산업 폐기물 수출을 제한할 권한을 주는 조치에 서명했음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "25–40% by 2050",
+     "roughly 40% for copper and cobalt",
+     "roughly one plant per year"
+    ],
+    "quotes": [
+     "“We really need to be thinking of [recycling] as the beginning of a brand new supply chain,” Modern Mining CEO Jeet Basi told MINING.COM in an interview.",
+     "“We’re approaching e-waste with the mindset of a mining company rather than a waste management company,” Basi said."
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "전자폐기물",
+     "재활용",
+     "국방물자생산법",
+     "희토류",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "above-ground mineral resource",
+      "meaning": "지상 광물자원(폐기물 속 금속 자원)"
+     },
+     {
+      "phrase": "aqueous purification",
+      "meaning": "수계 정제(선택적 화학으로 금속을 분리·농축하는 공정)"
+     },
+     {
+      "phrase": "Defense Production Act",
+      "meaning": "국방물자생산법"
+     },
+     {
+      "phrase": "downstream processing",
+      "meaning": "하류 가공(후공정)"
+     }
+    ],
+    "implication": "일부 산업 폐기물 수출 제한 권한이 마련돼 폐기물 속 핵심광물의 국내 보유 가능성이 커졌으나, 이를 금속으로 바꿀 하류 가공 설비 확충이 과제임"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:45:05+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 4줄)"
+    ],
+    "retry_tails": [
+     " {\"phrase\": \"downstream processing\", \"meaning\": \"하류 가공(후공정)\"}\n  ],\n  \"implication\": \"미국이 전자폐기물 수출을 제한하면 폐기물이 국내 핵심광물 원료로 묶이고, 이를 처리할 하류 가공 인프라 투자 수요가 커질 수 있음\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "4fe3eaed15",
+     "v1_url": "https://www.mining.com/modern-mining-eyes-us-expansion-as-e-waste-emerges-as-domestic-metals-resource/",
+     "summary_raw": "Trump signed a measure that gives officials authority under the Defense Production Act to implement export restrictions on some industrial waste in a bid to retain critical minerals."
+    }
+   },
+   "v1": {
+    "korean_summary": "트럼프 행정부가 국방생산법(Defense Production Act)을 통해 산업 폐기물의 수출 제한 권한을 부여함으로써 국내 핵심광물 확보에 나섰습니다. 전자폐기물(e-waste)이 국내 금속 자원의 주요 공급원으로 부상하면서 Modern Mining 등 국내 채굴업체들의 미국 내 사업 확장이 활발해질 전망입니다. 이는 해외 광물 의존도 감축과 순환경제 기반의 공급망 재편이 동시에 추진되는 중요한 정책 신호로 평가됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "전자폐기물(e-waste)",
+     "순환자원 회수(urban mining)",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals retention through export restrictions on industrial waste",
+      "meaning": "산업 폐기물의 수출 제한을 통한 핵심광물 확보"
+     },
+     {
+      "phrase": "Defense Production Act authority implementation",
+      "meaning": "국방생산법에 따른 권한 행사"
+     },
+     {
+      "phrase": "e-waste as a domestic metals resource",
+      "meaning": "국내 금속 자원으로서의 전자폐기물 활용"
+     },
+     {
+      "phrase": "circular economy-based mineral supply chain",
+      "meaning": "순환경제 기반의 광물 공급망"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "4fe3eaed15",
+    "title": "Modern Mining eyes US expansion as e-waste emerges as domestic metals resource",
+    "url": "https://mining.com/modern-mining-eyes-us-expansion-as-e-waste-emerges-as-domestic-metals-resource",
+    "source": "Mining.com",
+    "tier_weight": 3,
+    "score": 11,
+    "published": "2026-08-14",
+    "korean_summary": [
+     "Modern Mining이 전자폐기물 처리 기술의 상업화를 준비하며 미국 내 확장을 노리고 있음",
+     "노스캐롤라이나주 그린빌 실증 단계를 거쳐 첫 상업 공장 건설 자금을 조달 중임",
+     "7월 트럼프 대통령이 국방물자생산법에 따라 일부 산업 폐기물 수출을 제한할 권한을 주는 조치에 서명했음"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "전자폐기물",
+     "재활용",
+     "국방물자생산법",
+     "희토류",
+     "미국"
+    ],
+    "ai_processed": true,
+    "card_id": "55111243d7cf",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "25–40% by 2050",
+     "roughly 40% for copper and cobalt",
+     "roughly one plant per year"
+    ],
+    "quotes": [
+     "“We really need to be thinking of [recycling] as the beginning of a brand new supply chain,” Modern Mining CEO Jeet Basi told MINING.COM in an interview.",
+     "“We’re approaching e-waste with the mindset of a mining company rather than a waste management company,” Basi said."
+    ],
+    "summary_raw": "Trump signed a measure that gives officials authority under the Defense Production Act to implement export restrictions on some industrial waste in a bid to retain critical minerals.",
+    "english_phrases": [
+     {
+      "phrase": "above-ground mineral resource",
+      "meaning": "지상 광물자원(폐기물 속 금속 자원)"
+     },
+     {
+      "phrase": "aqueous purification",
+      "meaning": "수계 정제(선택적 화학으로 금속을 분리·농축하는 공정)"
+     },
+     {
+      "phrase": "Defense Production Act",
+      "meaning": "국방물자생산법"
+     },
+     {
+      "phrase": "downstream processing",
+      "meaning": "하류 가공(후공정)"
+     }
+    ],
+    "implication": "일부 산업 폐기물 수출 제한 권한이 마련돼 폐기물 속 핵심광물의 국내 보유 가능성이 커졌으나, 이를 금속으로 바꿀 하류 가공 설비 확충이 과제임",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "dd05f87bdf02",
+   "title": "Savannah Resources signs agreements with local communities for Barroso lithium project",
+   "title_norm": "savannah resources signs agreements with local communities for barroso lithium project",
+   "url": "https://mining.com/savannah-resources-signs-agreements-with-local-communities-for-barroso-lithium-project",
+   "gnews_url": null,
+   "source": {
+    "name": "Mining.com",
+    "domain": "mining.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-08-12",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:45:06+00:00",
+   "score": 11,
+   "body": {
+    "status": "full",
+    "chars": 3231,
+    "sha256": "70a8ee0d609a1c7e296826846cd6ce191583037fef96eec13bd4de17a21da24b",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-08-12",
+    "quotes": [
+     "In 2025, Savannah lifted the reserve estimate by 40%.",
+     "The London-listed company now pegs reserves at more than 39 million tonnes, up from a previous estimate of 28 million tonnes."
+    ],
+    "final_url": "https://www.mining.com/savannah-resources-signs-agreements-with-local-communities-for-barroso-lithium-project/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Savannah Resources가 포르투갈 Barroso 리튬 사업 인근 공유지 관리 공동체 3곳과 이익공유 협약을 체결했다고 밝혔음",
+     "Alijó·Canedo·Penalonga 마을 Baldio, Couto de Dornelas Baldio, Trás-os-Montes e Alto Douro 지역 사무국과 맺었음",
+     "최종 환경 허가는 2026년 3분기, 최종투자결정은 연말, 생산은 2028년 목표임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "€110 million ($128 million)",
+     "39 million tonnes",
+     "500,000 electric vehicles"
+    ],
+    "quotes": [
+     "In 2025, Savannah lifted the reserve estimate by 40%.",
+     "The London-listed company now pegs reserves at more than 39 million tonnes, up from a previous estimate of 28 million tonnes."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "스포듀민",
+     "포르투갈",
+     "이익공유협약",
+     "EU 핵심원자재법"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "benefit sharing agreements",
+      "meaning": "지역 공동체와 사업 이익을 나누는 협약"
+     },
+     {
+      "phrase": "Strategic Project",
+      "meaning": "EU 핵심원자재법상 전략 프로젝트"
+     },
+     {
+      "phrase": "final investment decision",
+      "meaning": "최종투자결정"
+     },
+     {
+      "phrase": "land access agreement",
+      "meaning": "토지 접근 협약"
+     }
+    ],
+    "implication": "지역 반대에 직면한 유럽 최대 스포듀민 리튬 사업이 토지 접근권을 확보해 2028년 생산 목표 달성 가능성을 높였음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 3231,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:45:12+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "cae6860323",
+     "v1_url": "https://www.mining.com/savannah-resources-signs-agreements-with-local-communities-for-barroso-lithium-project/",
+     "summary_raw": "Barroso has been deemed a 'Strategic Project' under the European Critical Raw Materials Act and Europe's largest spodumene lithium deposit."
+    }
+   },
+   "v1": {
+    "korean_summary": "사바나 자원사는 포르투갈 바로소 리튬 프로젝트에 대해 지역사회와의 협약을 체결하였으며, 동 프로젝트는 유럽연합 핵심광물법상 전략프로젝트로 지정되었습니다. 바로소 광상은 유럽 최대 규모의 스포듀멘 리튬 매장지로 확인되었으며, 이는 유럽의 핵심광물 공급 안보에 중요한 역할을 할 전망입니다. 지역사회와의 협력적 개발 체계 구축은 향후 핵심광물 프로젝트의 사회적 수용성 확보에 있어 모범 사례가 될 것으로 기대됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "유럽 핵심광물 전략",
+     "포르투갈"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Strategic Project under the European Critical Raw Materials Act",
+      "meaning": "유럽연합 핵심광물법상 전략프로젝트 지정"
+     },
+     {
+      "phrase": "Europe's largest spodumene lithium deposit",
+      "meaning": "유럽 최대 규모의 스포듀멘 리튬 매장지"
+     },
+     {
+      "phrase": "community agreements and stakeholder engagement",
+      "meaning": "지역사회 협약 및 이해관계자 참여"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "cae6860323",
+    "title": "Savannah Resources signs agreements with local communities for Barroso lithium project",
+    "url": "https://mining.com/savannah-resources-signs-agreements-with-local-communities-for-barroso-lithium-project",
+    "source": "Mining.com",
+    "tier_weight": 3,
+    "score": 11,
+    "published": "2026-08-12",
+    "korean_summary": [
+     "Savannah Resources가 포르투갈 Barroso 리튬 사업 인근 공유지 관리 공동체 3곳과 이익공유 협약을 체결했다고 밝혔음",
+     "Alijó·Canedo·Penalonga 마을 Baldio, Couto de Dornelas Baldio, Trás-os-Montes e Alto Douro 지역 사무국과 맺었음",
+     "최종 환경 허가는 2026년 3분기, 최종투자결정은 연말, 생산은 2028년 목표임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "스포듀민",
+     "포르투갈",
+     "이익공유협약",
+     "EU 핵심원자재법"
+    ],
+    "ai_processed": true,
+    "card_id": "dd05f87bdf02",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "€110 million ($128 million)",
+     "39 million tonnes",
+     "500,000 electric vehicles"
+    ],
+    "quotes": [
+     "In 2025, Savannah lifted the reserve estimate by 40%.",
+     "The London-listed company now pegs reserves at more than 39 million tonnes, up from a previous estimate of 28 million tonnes."
+    ],
+    "summary_raw": "Barroso has been deemed a 'Strategic Project' under the European Critical Raw Materials Act and Europe's largest spodumene lithium deposit.",
+    "english_phrases": [
+     {
+      "phrase": "benefit sharing agreements",
+      "meaning": "지역 공동체와 사업 이익을 나누는 협약"
+     },
+     {
+      "phrase": "Strategic Project",
+      "meaning": "EU 핵심원자재법상 전략 프로젝트"
+     },
+     {
+      "phrase": "final investment decision",
+      "meaning": "최종투자결정"
+     },
+     {
+      "phrase": "land access agreement",
+      "meaning": "토지 접근 협약"
+     }
+    ],
+    "implication": "지역 반대에 직면한 유럽 최대 스포듀민 리튬 사업이 토지 접근권을 확보해 2028년 생산 목표 달성 가능성을 높였음",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "e393321db272",
+   "title": "Andhra’s Rs 150 cr exploration MoU for lithium, gallium as Centre pushes critical mineral self-reliance - ThePrint",
+   "title_norm": "andhra s rs 150 cr exploration mou for lithium gallium as centre pushes critical mineral self reliance",
+   "url": "https://theprint.in/economy/andhras-rs-150-cr-exploration-push-for-lithium-gallium-as-centre-pushes-critical-mineral-self-reliance/3014776",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOMFZRXzNva1hudk1ZQklCS0hlVDJ3V1JVMlQ5UUJNTmdwNDdVRWhDYjZ4ZkhXZVBwZjhlSTN5a21zUnFFMWVvZUFsdk5uRVZfZWxVbDhjTUYxZ01VNjd5YVlHTEE0ZTB6aDJVcTBDdUg0SWc5S1NEaFF1eWNna0hKeHRmSTlpS012NXYtSXJzZFFTLWZ5S0lRUkdQeF9Sbm5rRGJWSW5fcHZ1b1EzZWtIMHRaYlZZZjF5c2VlWDhWTjNLSnpEYjRoM3kzc29SejVBVnFGY1pR0gHbAUFVX3lxTFBEaWxIU01TblBLYlZQU2I5eXFad1RBam8xYkZ3SmpEcG9lcUdhYzZmcm9nQkp3TXFmNy1ya0hJWnBJYkNyQk9FZVVaX1ZrOU1yNlVZWDlhXzNtV3UzR1VNNS1mWUgyTzRvaVAwZFJhcWp0V0tvQ2N2TkU3ZV9VZERDMUFzNzJlemVKMUxOUmFxVVNRVHM4NTJiaUZIVjVsUGxXVXRKTXV3RFhPeGJBWkZ2QUs0XzhWQzJzUXJTWndzSDBXTGNOMlZaSVRDRVdVLXN6WmFLd1lrd2VqNA?oc=5",
+   "source": {
+    "name": "Google News - Critical Minerals Exploration",
+    "domain": "theprint.in",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-08-14",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:45:12+00:00",
+   "score": 11,
+   "body": {
+    "status": "full",
+    "chars": 3479,
+    "sha256": "63b22d0508e4435472cca6bf64c5073bac1d098dc9707369e5c5e4b66adee2ba",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-08-14",
+    "quotes": [
+     "Estimates suggest lithium levels reaching up to 1,000 parts per million (ppm) and gallium up to 250 ppm.",
+     "The project will be undertaken with 100 percent funding from the National Mineral Exploration Trust (NMET), at an estimated cost of nearly Rs 150 crore."
+    ],
+    "final_url": "https://theprint.in/economy/andhras-rs-150-cr-exploration-push-for-lithium-gallium-as-centre-pushes-critical-mineral-self-reliance/3014776/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "인도 안드라프라데시주가 카다파 분지 벰팔레 일대에서 리튬·갈륨 대규모 탐사에 착수했음",
+     "CSIR-NGRI와 주 광업지질국이 MoU를 체결했으며 NMET가 비용 100 percent를 지원하고 총 약 Rs 150 crore가 소요됨",
+     "NGRI 예비조사에서 리튬 최대 1,000 ppm, 갈륨 최대 250 ppm이 확인돼 추가 연구를 진행할 예정임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "Rs 150 crore",
+     "1,000 parts per million (ppm)",
+     "1,200 exploration projects"
+    ],
+    "quotes": [
+     "Estimates suggest lithium levels reaching up to 1,000 parts per million (ppm) and gallium up to 250 ppm.",
+     "The project will be undertaken with 100 percent funding from the National Mineral Exploration Trust (NMET), at an estimated cost of nearly Rs 150 crore."
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "리튬",
+     "갈륨",
+     "탐사",
+     "인도",
+     "안드라프라데시"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "National Critical Minerals Mission (NCMM)",
+      "meaning": "인도 정부의 국가 핵심광물 미션"
+     },
+     {
+      "phrase": "National Mineral Exploration Trust (NMET)",
+      "meaning": "국가광물탐사신탁"
+     },
+     {
+      "phrase": "mineral resource parks",
+      "meaning": "광물자원 단지"
+     },
+     {
+      "phrase": "centre of excellence",
+      "meaning": "우수연구센터"
+     }
+    ],
+    "implication": "인도가 중앙정부 미션과 주 정부 탐사 협약을 연계해 리튬·갈륨 국내 자원 확보를 추진하며 중국 등 수입 의존 축소를 노리고 있음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 3479,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:45:24+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "78975711ef",
+     "v1_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOMFZRXzNva1hudk1ZQklCS0hlVDJ3V1JVMlQ5UUJNTmdwNDdVRWhDYjZ4ZkhXZVBwZjhlSTN5a21zUnFFMWVvZUFsdk5uRVZfZWxVbDhjTUYxZ01VNjd5YVlHTEE0ZTB6aDJVcTBDdUg0SWc5S1NEaFF1eWNna0hKeHRmSTlpS012NXYtSXJzZFFTLWZ5S0lRUkdQeF9Sbm5rRGJWSW5fcHZ1b1EzZWtIMHRaYlZZZjF5c2VlWDhWTjNLSnpEYjRoM3kzc29SejVBVnFGY1pR0gHbAUFVX3lxTFBEaWxIU01TblBLYlZQU2I5eXFad1RBam8xYkZ3SmpEcG9lcUdhYzZmcm9nQkp3TXFmNy1ya0hJWnBJYkNyQk9FZVVaX1ZrOU1yNlVZWDlhXzNtV3UzR1VNNS1mWUgyTzRvaVAwZFJhcWp0V0tvQ2N2TkU3ZV9VZERDMUFzNzJlemVKMUxOUmFxVVNRVHM4NTJiaUZIVjVsUGxXVXRKTXV3RFhPeGJBWkZ2QUs0XzhWQzJzUXJTWndzSDBXTGNOMlZaSVRDRVdVLXN6WmFLd1lrd2VqNA?oc=5",
+     "summary_raw": "Andhra’s Rs 150 cr exploration MoU for lithium, gallium as Centre pushes critical mineral self-reliance&nbsp;&nbsp;ThePrint"
+    }
+   },
+   "v1": {
+    "korean_summary": "인도 안드라프라데시 주가 리튬과 갈륨 탐사를 위해 150억 루피(약 1,800억 원) 규모의 양해각서를 체결하여 핵심광물 자급률 확보에 나섰습니다. 인도 중앙정부의 핵심광물 자립화 정책 추진 기조 속에서 국내 탐사 역량 강화와 공급망 다변화가 동시에 추진되고 있음으로 확인되었습니다. 이는 글로벌 핵심광물 확보 경쟁이 심화되는 가운데 주(state) 수준의 탐사 투자 확대로 이어지고 있음을 시사합니다.",
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "갈륨",
+     "인도(안드라프라데시)"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical mineral self-reliance",
+      "meaning": "핵심광물 자급 자립화"
+     },
+     {
+      "phrase": "exploration MoU",
+      "meaning": "탐사 양해각서(협력협정)"
+     },
+     {
+      "phrase": "supply chain diversification",
+      "meaning": "공급망 다변화"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "78975711ef",
+    "title": "Andhra’s Rs 150 cr exploration MoU for lithium, gallium as Centre pushes critical mineral self-reliance - ThePrint",
+    "url": "https://theprint.in/economy/andhras-rs-150-cr-exploration-push-for-lithium-gallium-as-centre-pushes-critical-mineral-self-reliance/3014776",
+    "source": "Google News - Critical Minerals Exploration",
+    "tier_weight": 1,
+    "score": 11,
+    "published": "2026-08-14",
+    "korean_summary": [
+     "인도 안드라프라데시주가 카다파 분지 벰팔레 일대에서 리튬·갈륨 대규모 탐사에 착수했음",
+     "CSIR-NGRI와 주 광업지질국이 MoU를 체결했으며 NMET가 비용 100 percent를 지원하고 총 약 Rs 150 crore가 소요됨",
+     "NGRI 예비조사에서 리튬 최대 1,000 ppm, 갈륨 최대 250 ppm이 확인돼 추가 연구를 진행할 예정임"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "리튬",
+     "갈륨",
+     "탐사",
+     "인도",
+     "안드라프라데시"
+    ],
+    "ai_processed": true,
+    "card_id": "e393321db272",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "Rs 150 crore",
+     "1,000 parts per million (ppm)",
+     "1,200 exploration projects"
+    ],
+    "quotes": [
+     "Estimates suggest lithium levels reaching up to 1,000 parts per million (ppm) and gallium up to 250 ppm.",
+     "The project will be undertaken with 100 percent funding from the National Mineral Exploration Trust (NMET), at an estimated cost of nearly Rs 150 crore."
+    ],
+    "summary_raw": "Andhra’s Rs 150 cr exploration MoU for lithium, gallium as Centre pushes critical mineral self-reliance&nbsp;&nbsp;ThePrint",
+    "english_phrases": [
+     {
+      "phrase": "National Critical Minerals Mission (NCMM)",
+      "meaning": "인도 정부의 국가 핵심광물 미션"
+     },
+     {
+      "phrase": "National Mineral Exploration Trust (NMET)",
+      "meaning": "국가광물탐사신탁"
+     },
+     {
+      "phrase": "mineral resource parks",
+      "meaning": "광물자원 단지"
+     },
+     {
+      "phrase": "centre of excellence",
+      "meaning": "우수연구센터"
+     }
+    ],
+    "implication": "인도가 중앙정부 미션과 주 정부 탐사 협약을 연계해 리튬·갈륨 국내 자원 확보를 추진하며 중국 등 수입 의존 축소를 노리고 있음",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "7c49419de017",
+   "title": "Commission greenlights Poland's fifth payment request for €7.9 billion under NextGenerationEU",
+   "title_norm": "commission greenlights poland s fifth payment request for 7 9 billion under nextgenerationeu",
+   "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1730",
+   "gnews_url": null,
+   "source": {
+    "name": "European Commission - Energy",
+    "domain": "ec.europa.eu",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-08-10",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:45:25+00:00",
+   "score": 10,
+   "body": {
+    "status": "full",
+    "chars": 4007,
+    "sha256": "df760c0c2188834a1778dbcb2b1d3df683d4cdd3362e58cbba0d524035d13f67",
+    "source": "presscorner_api",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [
+     "Today, the European Commission positively assessed Poland's fifth payment request for €7.9 billion under the Recovery and Resilience Facility , the centrepiece of NextGenerationEU.",
+     "The plan will be financed by €54.72 billion (€25.28 billion in grants and €29.44 billion in loans)."
+    ],
+    "final_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1730",
+    "strategies_tried": [
+     "presscorner_api"
+    ]
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "유럽위원회가 폴란드의 회복복원력기금(RRF) 다섯 번째 지급 요청 €7.9 billion을 긍정 평가했음",
+     "위원회는 폴란드가 이정표 16개와 목표 13개를 충족했다고 판단했음",
+     "경제금융위원회(EFC)가 4주 내 의견을 내고 위원회가 지급 결정을 채택하면 지급이 가능함"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "€7.9 billion",
+     "€42.05 billion",
+     "76.85%"
+    ],
+    "quotes": [
+     "Today, the European Commission positively assessed Poland's fifth payment request for €7.9 billion under the Recovery and Resilience Facility , the centrepiece of NextGenerationEU.",
+     "The plan will be financed by €54.72 billion (€25.28 billion in grants and €29.44 billion in loans)."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "폴란드",
+     "회복복원력기금",
+     "NextGenerationEU",
+     "전력망",
+     "REPowerEU"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Recovery and Resilience Facility",
+      "meaning": "회복복원력기금"
+     },
+     {
+      "phrase": "payment request",
+      "meaning": "지급 요청"
+     },
+     {
+      "phrase": "milestones and targets",
+      "meaning": "이정표와 목표"
+     },
+     {
+      "phrase": "pre-financing",
+      "meaning": "선지급 자금"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:45:43+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 4줄)"
+    ],
+    "retry_tails": [
+     ": \"지급 요청\"},\n    {\"phrase\": \"milestones and targets\", \"meaning\": \"이정표와 목표\"},\n    {\"phrase\": \"pre-financing\", \"meaning\": \"선지급 자금\"}\n  ],\n  \"implication\": \"해당 없음\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "86c46cdc23",
+     "v1_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1730",
+     "summary_raw": "European Commission Press release Brussels, 10 Aug 2026 Today, the European Commission positively assessed Poland's fifth payment request for €7.9 billion under the Recovery and Resilience Facility, the centrepiece of NextGenerationEU."
+    }
+   },
+   "v1": {
+    "korean_summary": "유럽연합 집행위원회가 폴란드의 차세대유럽펀드(NextGenerationEU) 하에서 79억 유로 규모의 다섯 번째 지급 요청을 긍정적으로 평가했습니다. 회복탄력성기금(Recovery and Resilience Facility)을 중심으로 한 이번 지원은 유럽의 녹색 전환과 산업 재편을 가속화하는 전략적 투자입니다. 폴란드 등 중동부 유럽 국가들의 핵심광물 확보 및 공급망 다각화 노력이 EU의 에너지 독립성 강화 정책과 맞물려 있는 것으로 평가됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "에너지 정책",
+     "자원 공급망",
+     "폴란드·유럽연합"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Recovery and Resilience Facility (RRF)",
+      "meaning": "회복탄력성기금 - EU의 경제 회복 및 구조적 전환을 지원하는 주요 재정 메커니즘"
+     },
+     {
+      "phrase": "NextGenerationEU",
+      "meaning": "차세대유럽펀드 - EU의 중장기 재정 지원 프로그램으로 회원국의 녹색 및 디지털 전환 투자에 자금 지원"
+     },
+     {
+      "phrase": "payment request assessment",
+      "meaning": "지급 요청 심사 - EU가 회원국의 이행 성과를 검증 후 자금 집행을 승인하는 절차"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "86c46cdc23",
+    "title": "Commission greenlights Poland's fifth payment request for €7.9 billion under NextGenerationEU",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1730",
+    "source": "European Commission - Energy",
+    "tier_weight": 5,
+    "score": 10,
+    "published": "2026-08-10",
+    "korean_summary": [
+     "유럽위원회가 폴란드의 회복복원력기금(RRF) 다섯 번째 지급 요청 €7.9 billion을 긍정 평가했음",
+     "위원회는 폴란드가 이정표 16개와 목표 13개를 충족했다고 판단했음",
+     "경제금융위원회(EFC)가 4주 내 의견을 내고 위원회가 지급 결정을 채택하면 지급이 가능함"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "폴란드",
+     "회복복원력기금",
+     "NextGenerationEU",
+     "전력망",
+     "REPowerEU"
+    ],
+    "ai_processed": true,
+    "card_id": "7c49419de017",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "€7.9 billion",
+     "€42.05 billion",
+     "76.85%"
+    ],
+    "quotes": [
+     "Today, the European Commission positively assessed Poland's fifth payment request for €7.9 billion under the Recovery and Resilience Facility , the centrepiece of NextGenerationEU.",
+     "The plan will be financed by €54.72 billion (€25.28 billion in grants and €29.44 billion in loans)."
+    ],
+    "summary_raw": "European Commission Press release Brussels, 10 Aug 2026 Today, the European Commission positively assessed Poland's fifth payment request for €7.9 billion under the Recovery and Resilience Facility, the centrepiece of NextGenerationEU.",
+    "english_phrases": [
+     {
+      "phrase": "Recovery and Resilience Facility",
+      "meaning": "회복복원력기금"
+     },
+     {
+      "phrase": "payment request",
+      "meaning": "지급 요청"
+     },
+     {
+      "phrase": "milestones and targets",
+      "meaning": "이정표와 목표"
+     },
+     {
+      "phrase": "pre-financing",
+      "meaning": "선지급 자금"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "cdddedc20a44",
+   "title": "Duke University, UCT make tangible investment recommendations ahead of lithium, rare earths boom - Mining Weekly",
+   "title_norm": "duke university uct make tangible investment recommendations ahead of lithium rare earths boom",
+   "url": "https://miningweekly.com/article/duke-university-uct-make-tangible-investment-recommendations-ahead-of-lithium-rare-earths-boom-2026-08-14",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSG9tbzN1Nk8yUzZUWUZZOE9zWDJTeTJWRkJvRDNfMkV3X29CYUN1RGlIVzZoVmlWempibVUzNlRSSFRkLTNZWjM1blBUT3pJTkFxalJnWnJxYkhsS09MLXd1dThmbS1zblhEN19HcVFsaFhjSzlwcG5oYkJ4M25IT1FNUzJVZEhreElPRG04VVdHNkxhdFRQVnJXRlJSSGsyYVFVeS1NLUlQQUtOdTNpaG93SmtQMUxTdTF6TWhFOC1NRVF2UzNnbVBySkV6UTJ2dzU1Q1paa2hVQQ?oc=5",
+   "source": {
+    "name": "Mining Weekly - via Google News",
+    "domain": "miningweekly.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-08-14",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:45:45+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 10628,
+    "sha256": "daa0252622caeb94953f0e84bc21e6c026f79133e9d7b24e236c57315c6dba12",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-08-14",
+    "quotes": [
+     "DLE technologies, on the other hand, particularly those in China, Argentina and at pilot stage elsewhere, can recover more than 90% of lithium in hours.",
+     "Duke University, UCT make tangible investment recommendations ahead of lithium, rare earths boom"
+    ],
+    "final_url": "https://www.miningweekly.com/article/duke-university-uct-make-tangible-investment-recommendations-ahead-of-lithium-rare-earths-boom-2026-08-14",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Duke University와 UCT 연구진이 리튬·희토류 가공 R&D 기회를 정리한 보고서를 냈음",
+     "기업 투자 우선순위로 가공 병목 가치 확보, 파일럿-실증 단계 공략 등 5가지를 제시했음",
+     "보고서는 Council for Critical Minerals Development in the Global South 활동에 참고됨"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "60% and 70%",
+     "more than 85%",
+     "more than 90%"
+    ],
+    "quotes": [
+     "DLE technologies, on the other hand, particularly those in China, Argentina and at pilot stage elsewhere, can recover more than 90% of lithium in hours.",
+     "Duke University, UCT make tangible investment recommendations ahead of lithium, rare earths boom"
+    ],
+    "category": "research",
+    "tags": [
+     "리튬",
+     "희토류",
+     "가공",
+     "직접리튬추출",
+     "글로벌 사우스"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "midstream processing",
+      "meaning": "중류 단계 가공"
+     },
+     {
+      "phrase": "chokepoint",
+      "meaning": "공급망 병목 지점"
+     },
+     {
+      "phrase": "direct lithium extraction (DLE)",
+      "meaning": "직접 리튬 추출"
+     },
+     {
+      "phrase": "technology readiness levels",
+      "meaning": "기술성숙도"
+     }
+    ],
+    "implication": "중국이 리튬 전환의 60%~70%, 희토류 분리의 85% 초과를 통제해 채굴보다 중류 가공 단계가 공급망의 핵심 병목임"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:45:59+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 5줄)"
+    ],
+    "retry_tails": [
+     "e\": \"direct lithium extraction (DLE)\", \"meaning\": \"직접 리튬 추출\"},\n    {\"phrase\": \"technology readiness levels\", \"meaning\": \"기술성숙도\"}\n  ],\n  \"implication\": \"해당 없음\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "26d59986ad",
+     "v1_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSG9tbzN1Nk8yUzZUWUZZOE9zWDJTeTJWRkJvRDNfMkV3X29CYUN1RGlIVzZoVmlWempibVUzNlRSSFRkLTNZWjM1blBUT3pJTkFxalJnWnJxYkhsS09MLXd1dThmbS1zblhEN19HcVFsaFhjSzlwcG5oYkJ4M25IT1FNUzJVZEhreElPRG04VVdHNkxhdFRQVnJXRlJSSGsyYVFVeS1NLUlQQUtOdTNpaG93SmtQMUxTdTF6TWhFOC1NRVF2UzNnbVBySkV6UTJ2dzU1Q1paa2hVQQ?oc=5",
+     "summary_raw": "Duke University, UCT make tangible investment recommendations ahead of lithium, rare earths boom&nbsp;&nbsp;Mining Weekly"
+    }
+   },
+   "v1": {
+    "korean_summary": "Duke University와 UCT(University of Cape Town)는 리튬과 희토류 붐을 앞두고 구체적인 투자 권고안을 제시하였으며, 이는 향후 핵심광물 공급망 안정화에 중요한 지침이 될 것으로 판단됩니다. 두 기관의 공동 분석은 리튬과 희토류 수요 급증에 대응하기 위한 탐사·개발 전략의 과학적 근거를 제공하고 있습니다. 이러한 투자 권고는 글로벌 에너지 전환 시대에 핵심광물 자원의 전략적 확보 필요성을 강조하는 학술적 신호로 해석됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "희토류",
+     "투자정책"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "tangible investment recommendations",
+      "meaning": "구체적·실행 가능한 투자 권고안"
+     },
+     {
+      "phrase": "critical minerals supply chain",
+      "meaning": "핵심광물 공급망"
+     },
+     {
+      "phrase": "lithium and rare earths boom",
+      "meaning": "리튬 및 희토류 수요 급증"
+     },
+     {
+      "phrase": "strategic mineral security",
+      "meaning": "핵심광물 확보 전략"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "26d59986ad",
+    "title": "Duke University, UCT make tangible investment recommendations ahead of lithium, rare earths boom - Mining Weekly",
+    "url": "https://miningweekly.com/article/duke-university-uct-make-tangible-investment-recommendations-ahead-of-lithium-rare-earths-boom-2026-08-14",
+    "source": "Mining Weekly - via Google News",
+    "tier_weight": 3,
+    "score": 9,
+    "published": "2026-08-14",
+    "korean_summary": [
+     "Duke University와 UCT 연구진이 리튬·희토류 가공 R&D 기회를 정리한 보고서를 냈음",
+     "기업 투자 우선순위로 가공 병목 가치 확보, 파일럿-실증 단계 공략 등 5가지를 제시했음",
+     "보고서는 Council for Critical Minerals Development in the Global South 활동에 참고됨"
+    ],
+    "category": "research",
+    "tags": [
+     "리튬",
+     "희토류",
+     "가공",
+     "직접리튬추출",
+     "글로벌 사우스"
+    ],
+    "ai_processed": true,
+    "card_id": "cdddedc20a44",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "60% and 70%",
+     "more than 85%",
+     "more than 90%"
+    ],
+    "quotes": [
+     "DLE technologies, on the other hand, particularly those in China, Argentina and at pilot stage elsewhere, can recover more than 90% of lithium in hours.",
+     "Duke University, UCT make tangible investment recommendations ahead of lithium, rare earths boom"
+    ],
+    "summary_raw": "Duke University, UCT make tangible investment recommendations ahead of lithium, rare earths boom&nbsp;&nbsp;Mining Weekly",
+    "english_phrases": [
+     {
+      "phrase": "midstream processing",
+      "meaning": "중류 단계 가공"
+     },
+     {
+      "phrase": "chokepoint",
+      "meaning": "공급망 병목 지점"
+     },
+     {
+      "phrase": "direct lithium extraction (DLE)",
+      "meaning": "직접 리튬 추출"
+     },
+     {
+      "phrase": "technology readiness levels",
+      "meaning": "기술성숙도"
+     }
+    ],
+    "implication": "중국이 리튬 전환의 60%~70%, 희토류 분리의 85% 초과를 통제해 채굴보다 중류 가공 단계가 공급망의 핵심 병목임",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "30a71a0d5f14",
+   "title": "Newmont backs explorer Headwater on 3rd Nevada gold project",
+   "title_norm": "newmont backs explorer headwater on 3rd nevada gold project",
+   "url": "https://mining.com/newmont-backs-explorer-headwater-on-3rd-nevada-gold-project",
+   "gnews_url": null,
+   "source": {
+    "name": "Mining.com",
+    "domain": "mining.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-08-13",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:46:00+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 1009,
+    "sha256": "bbaf7cca16b799bb74038d47fe01fdc4c9f5b030f59b2abb0f0c8fb0668c8232",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2024-04-11",
+    "quotes": [
+     "Keep reading MINING.COM with a TNM NEWS+MARKETS Membership.",
+     "TNM Memberships is your key to unlocking access to the best news, insights, and data in the mining industry."
+    ],
+    "final_url": "https://www.mining.com/subscribe-login/?id=1212617",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Newmont가 Headwater Gold의 네바다주 Jupiter 금 프로젝트 지배권을 확보하기로 합의했음",
+     "탐사 비용 부담과 사전타당성조사(prefeasibility study) 완료가 지배권 취득 조건임",
+     "Headwater가 해당 부지를 확보한 지 석 달 남짓 지난 시점이며, 구체적 금액과 후속 일정은 확인 불가임"
+    ],
+    "basis": "body",
+    "key_figures": [],
+    "quotes": [
+     "Keep reading MINING.COM with a TNM NEWS+MARKETS Membership.",
+     "TNM Memberships is your key to unlocking access to the best news, insights, and data in the mining industry."
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "금",
+     "탐사",
+     "네바다",
+     "Newmont",
+     "Headwater Gold"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "prefeasibility study",
+      "meaning": "사전타당성조사"
+     },
+     {
+      "phrase": "earn control",
+      "meaning": "비용 부담 등 조건 이행으로 지배권을 취득함"
+     },
+     {
+      "phrase": "junior",
+      "meaning": "소규모 탐사·개발 기업"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 1009,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:46:03+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "5e6d6a661e",
+     "v1_url": "https://www.mining.com/newmont-backs-explorer-headwater-on-3rd-nevada-gold-project/",
+     "summary_raw": "Newmont has agreed to earn control of Jupiter gold project by covering exploration costs."
+    }
+   },
+   "v1": {
+    "korean_summary": "뉴몬트(Newmont)가 탐사 업체 헤드워터(Headwater)의 네바다 주 주피터 금광 프로젝트에 대한 통제권을 획득하기로 합의했으며, 탐사 비용 전액을 부담하기로 확인되었습니다. 본 계약은 뉴몬트가 네바다 지역에서 추진 중인 세 번째 금광 프로젝트로, 북미 귀금속 공급망 강화 전략의 일환으로 평가됩니다. 이는 주요 광산 기업의 조기 탐사 단계 지분 참여 모델이 확대되는 추세를 반영하고 있습니다.",
+    "category": "exploration_tech",
+    "tags": [
+     "금(Au)",
+     "광물탐사",
+     "미국 네바다"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "earn-in agreement on exploration costs",
+      "meaning": "탐사 비용 부담을 통한 지분 확보 계약"
+     },
+     {
+      "phrase": "gain control of a mineral project",
+      "meaning": "광물 프로젝트에 대한 통제권 획득"
+     },
+     {
+      "phrase": "junior explorer backed by major operator",
+      "meaning": "대형 광산업체의 지원을 받는 주니어 탐사 업체"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "5e6d6a661e",
+    "title": "Newmont backs explorer Headwater on 3rd Nevada gold project",
+    "url": "https://mining.com/newmont-backs-explorer-headwater-on-3rd-nevada-gold-project",
+    "source": "Mining.com",
+    "tier_weight": 3,
+    "score": 9,
+    "published": "2026-08-13",
+    "korean_summary": [
+     "Newmont가 Headwater Gold의 네바다주 Jupiter 금 프로젝트 지배권을 확보하기로 합의했음",
+     "탐사 비용 부담과 사전타당성조사(prefeasibility study) 완료가 지배권 취득 조건임",
+     "Headwater가 해당 부지를 확보한 지 석 달 남짓 지난 시점이며, 구체적 금액과 후속 일정은 확인 불가임"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "금",
+     "탐사",
+     "네바다",
+     "Newmont",
+     "Headwater Gold"
+    ],
+    "ai_processed": true,
+    "card_id": "30a71a0d5f14",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [],
+    "quotes": [
+     "Keep reading MINING.COM with a TNM NEWS+MARKETS Membership.",
+     "TNM Memberships is your key to unlocking access to the best news, insights, and data in the mining industry."
+    ],
+    "summary_raw": "Newmont has agreed to earn control of Jupiter gold project by covering exploration costs.",
+    "english_phrases": [
+     {
+      "phrase": "prefeasibility study",
+      "meaning": "사전타당성조사"
+     },
+     {
+      "phrase": "earn control",
+      "meaning": "비용 부담 등 조건 이행으로 지배권을 취득함"
+     },
+     {
+      "phrase": "junior",
+      "meaning": "소규모 탐사·개발 기업"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "07d7f4f515b0",
+   "title": "Bitterroot National Forest : Feature Story - Sheep Creek Rare Earth Exploration Project - fs.usda.gov",
+   "title_norm": "bitterroot national forest feature story sheep creek rare earth exploration project",
+   "url": "https://fs.usda.gov/r01/bitterroot/newsroom/stories/sheep-creek-rare-earth-exploration-project",
+   "gnews_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOaGdSUmJZUDVRSC15Q2x5NERkeFFkMTJxaTlIVEFPVUpGWVpDdEVUM1Fhbnl3RFpiNERrby0zdE9yMk10M19ZMFZqdExWb1l0WE44SlJXZ3hIQUlLdzNBV3JHYWNudS1YLTRXaDZzZUJEZnJNb3hyT1V5eEpvbXVQb0swTWkwTVdtWEtvZU1mTlZMbUlvS3FwQTVrVlRMZUU?oc=5",
+   "source": {
+    "name": "Google News - Rare Earth Elements",
+    "domain": "fs.usda.gov",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-08-15",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:46:05+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 3260,
+    "sha256": "2bb1c24b559527f70ca0f343584c90f149f3380803e2b1bd22410e79aa84115f",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-08-14",
+    "quotes": [
+     "Sheep Creek Rare Earth Exploration Project",
+     "The Bitterroot National Forest is preparing to initiate the environmental review of the Sheep Creek Rare Earth Exploration Project’s initial draft Plan of Operations (Plan)."
+    ],
+    "final_url": "https://www.fs.usda.gov/r01/bitterroot/newsroom/stories/sheep-creek-rare-earth-exploration-project",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "미국 산림청 비터루트 국유림이 Sheep Creek 희토류 탐사 계획서의 공개의견 수렴을 시작했음",
+     "의견 접수는 2026년 8월 14일부터 30일간 진행되며 9월 13일에 종료됨",
+     "광구권자 US Critical Materials의 탐사는 약 1년간이며 광석 가공과 상업 채굴은 제외됨"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "30 DAYS",
+     "four locations",
+     "less than one acre"
+    ],
+    "quotes": [
+     "Sheep Creek Rare Earth Exploration Project",
+     "The Bitterroot National Forest is preparing to initiate the environmental review of the Sheep Creek Rare Earth Exploration Project’s initial draft Plan of Operations (Plan)."
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "희토류",
+     "탐사",
+     "인허가",
+     "갈륨",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Plan of Operations",
+      "meaning": "운영계획서"
+     },
+     {
+      "phrase": "Categorical Exclusion",
+      "meaning": "환경영향평가 간소화 대상(범주적 제외)"
+     },
+     {
+      "phrase": "unpatented mining claims",
+      "meaning": "소유권이 이전되지 않은 채굴 광구권"
+     },
+     {
+      "phrase": "diamond-core drilling",
+      "meaning": "다이아몬드 코어 시추"
+     }
+    ],
+    "implication": "미국 희토류 탐사 사업이 범주적 제외(CE) 절차로 우선 검토되고 FAST-41 일정 공개 대상에 올랐음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 3260,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:46:20+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 4줄)"
+    ],
+    "retry_tails": [
+     "\"unpatented mining claims\", \"meaning\": \"소유권이 이전되지 않은 채굴 광구권\"},\n    {\"phrase\": \"diamond-core drilling\", \"meaning\": \"다이아몬드 코어 시추\"}\n  ],\n  \"implication\": \"해당 없음\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "1998bafb70",
+     "v1_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOaGdSUmJZUDVRSC15Q2x5NERkeFFkMTJxaTlIVEFPVUpGWVpDdEVUM1Fhbnl3RFpiNERrby0zdE9yMk10M19ZMFZqdExWb1l0WE44SlJXZ3hIQUlLdzNBV3JHYWNudS1YLTRXaDZzZUJEZnJNb3hyT1V5eEpvbXVQb0swTWkwTVdtWEtvZU1mTlZMbUlvS3FwQTVrVlRMZUU?oc=5",
+     "summary_raw": "Bitterroot National Forest : Feature Story - Sheep Creek Rare Earth Exploration Project&nbsp;&nbsp;fs.usda.gov"
+    }
+   },
+   "v1": {
+    "korean_summary": "미국 Bitterroot National Forest의 Sheep Creek 지역에서 희토류 원소 탐사 프로젝트가 진행 중이며, 이는 북미의 핵심광물 공급망 확보를 위한 중요한 시도로 평가되고 있습니다. 본 프로젝트는 국내 희토류 자원 개발 정책 수립 및 탐사 기술 고도화에 있어 참고할 만한 사례를 제공합니다. 핵심광물의 전략적 확보는 향후 첨단산업 경쟁력 확보의 핵심 요소임을 시사하고 있습니다.",
+    "category": "exploration_tech",
+    "tags": [
+     "희토류",
+     "광물탐사",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Rare Earth Elements (REE) exploration project",
+      "meaning": "희토류 원소 탐사 프로젝트"
+     },
+     {
+      "phrase": "Critical minerals supply security",
+      "meaning": "핵심광물 공급 안정성 확보"
+     },
+     {
+      "phrase": "Domestic resource development initiative",
+      "meaning": "국내 자원 개발 추진 계획"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "1998bafb70",
+    "title": "Bitterroot National Forest : Feature Story - Sheep Creek Rare Earth Exploration Project - fs.usda.gov",
+    "url": "https://fs.usda.gov/r01/bitterroot/newsroom/stories/sheep-creek-rare-earth-exploration-project",
+    "source": "Google News - Rare Earth Elements",
+    "tier_weight": 1,
+    "score": 9,
+    "published": "2026-08-15",
+    "korean_summary": [
+     "미국 산림청 비터루트 국유림이 Sheep Creek 희토류 탐사 계획서의 공개의견 수렴을 시작했음",
+     "의견 접수는 2026년 8월 14일부터 30일간 진행되며 9월 13일에 종료됨",
+     "광구권자 US Critical Materials의 탐사는 약 1년간이며 광석 가공과 상업 채굴은 제외됨"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "희토류",
+     "탐사",
+     "인허가",
+     "갈륨",
+     "미국"
+    ],
+    "ai_processed": true,
+    "card_id": "07d7f4f515b0",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "30 DAYS",
+     "four locations",
+     "less than one acre"
+    ],
+    "quotes": [
+     "Sheep Creek Rare Earth Exploration Project",
+     "The Bitterroot National Forest is preparing to initiate the environmental review of the Sheep Creek Rare Earth Exploration Project’s initial draft Plan of Operations (Plan)."
+    ],
+    "summary_raw": "Bitterroot National Forest : Feature Story - Sheep Creek Rare Earth Exploration Project&nbsp;&nbsp;fs.usda.gov",
+    "english_phrases": [
+     {
+      "phrase": "Plan of Operations",
+      "meaning": "운영계획서"
+     },
+     {
+      "phrase": "Categorical Exclusion",
+      "meaning": "환경영향평가 간소화 대상(범주적 제외)"
+     },
+     {
+      "phrase": "unpatented mining claims",
+      "meaning": "소유권이 이전되지 않은 채굴 광구권"
+     },
+     {
+      "phrase": "diamond-core drilling",
+      "meaning": "다이아몬드 코어 시추"
+     }
+    ],
+    "implication": "미국 희토류 탐사 사업이 범주적 제외(CE) 절차로 우선 검토되고 FAST-41 일정 공개 대상에 올랐음",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "de3ea0c82d52",
+   "title": "Steadright Critical Minerals granted mining licence for Morocco titanium project",
+   "title_norm": "steadright critical minerals granted mining licence for morocco titanium project",
+   "url": "https://mining.com/steadright-critical-minerals-granted-mining-licence-for-morocco-titanium-project",
+   "gnews_url": null,
+   "source": {
+    "name": "Mining.com",
+    "domain": "mining.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-08-13",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:46:20+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 1328,
+    "sha256": "f24957f7fa484f1ea7443b26270267671299d1b18d704b847705c6254c048ae7",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-08-13",
+    "quotes": [
+     "Steadright Critical Minerals granted mining licence for Morocco titanium project",
+     "Steadright Critical Minerals (CSE: SCM) said Thursday the company has been granted the Mining Licence for its TitanBeach titanium project in Morocco."
+    ],
+    "final_url": "https://www.mining.com/steadright-critical-minerals-granted-mining-licence-for-morocco-titanium-project/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Steadright Critical Minerals가 모로코 TitanBeach 티타늄 프로젝트의 채굴 허가(Mining Licence)를 받았다고 밝혔음",
+     "허가는 Steadright가 76.5% 지분을 가진 NSM Capital Sarl을 통해 모로코 당국이 부여했으며 승인 면적은 약 16 square kilometres임",
+     "회사는 지정 면적 규모 면에서 모로코 최초의 사례라고 밝혔으며, 후속 일정은 확인 불가임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "76.5% stake",
+     "192 sq/km",
+     "approximately 16 square kilometres"
+    ],
+    "quotes": [
+     "Steadright Critical Minerals granted mining licence for Morocco titanium project",
+     "Steadright Critical Minerals (CSE: SCM) said Thursday the company has been granted the Mining Licence for its TitanBeach titanium project in Morocco."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "티타늄",
+     "채굴허가",
+     "모로코",
+     "일메나이트",
+     "핵심광물"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Mining Licence",
+      "meaning": "채굴 허가"
+     },
+     {
+      "phrase": "ilmenite",
+      "meaning": "티타늄 광석인 일메나이트(티탄철석)"
+     },
+     {
+      "phrase": "strength-to-weight ratio",
+      "meaning": "중량 대비 강도"
+     },
+     {
+      "phrase": "corrosion resistance",
+      "meaning": "내식성(부식에 견디는 성질)"
+     }
+    ],
+    "implication": "미국·EU·캐나다가 핵심광물로 보는 티타늄의 채굴 허가가 모로코에서 나와, 북아프리카의 신규 티타늄 공급원 후보가 생겼음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 1328,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:46:24+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "39e54f1643",
+     "v1_url": "https://www.mining.com/steadright-critical-minerals-granted-mining-licence-for-morocco-titanium-project/",
+     "summary_raw": "Exploration at the 192 sq/km TitanBeach project revealed the existence of potential ilmenite, titanomagnetite, magnetite, leucoxene and rutile bearing sand."
+    }
+   },
+   "v1": {
+    "korean_summary": "모로코의 TitanBeach 프로젝트(192㎢)에서 Steadright Critical Minerals이 채광허가를 획득하였으며, 해당 지역에서 티타늄 관련 핵심광물의 상당한 매장 가능성이 확인되었습니다. 일메나이트, 티타노자철석, 자철석, 류콕센, 금홍석 등 5개 티타늄 함유 광물이 사암층에 부존하는 것으로 조사되었습니다. 본 프로젝트는 세계적 티타늄 핵심광물 공급처 다변화에 기여할 것으로 예상됩니다.",
+    "category": "discovery",
+    "tags": [
+     "티타늄",
+     "사암형 광상",
+     "모로코"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "granted mining licence",
+      "meaning": "채광허가 획득"
+     },
+     {
+      "phrase": "ilmenite, titanomagnetite, magnetite, leucoxene and rutile bearing sand",
+      "meaning": "일메나이트, 티타노자철석, 자철석, 류콕센, 금홍석 함유 사암"
+     },
+     {
+      "phrase": "Exploration revealed the existence of potential",
+      "meaning": "탐사로 ~의 부존 가능성 확인"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "39e54f1643",
+    "title": "Steadright Critical Minerals granted mining licence for Morocco titanium project",
+    "url": "https://mining.com/steadright-critical-minerals-granted-mining-licence-for-morocco-titanium-project",
+    "source": "Mining.com",
+    "tier_weight": 3,
+    "score": 9,
+    "published": "2026-08-13",
+    "korean_summary": [
+     "Steadright Critical Minerals가 모로코 TitanBeach 티타늄 프로젝트의 채굴 허가(Mining Licence)를 받았다고 밝혔음",
+     "허가는 Steadright가 76.5% 지분을 가진 NSM Capital Sarl을 통해 모로코 당국이 부여했으며 승인 면적은 약 16 square kilometres임",
+     "회사는 지정 면적 규모 면에서 모로코 최초의 사례라고 밝혔으며, 후속 일정은 확인 불가임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "티타늄",
+     "채굴허가",
+     "모로코",
+     "일메나이트",
+     "핵심광물"
+    ],
+    "ai_processed": true,
+    "card_id": "de3ea0c82d52",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "76.5% stake",
+     "192 sq/km",
+     "approximately 16 square kilometres"
+    ],
+    "quotes": [
+     "Steadright Critical Minerals granted mining licence for Morocco titanium project",
+     "Steadright Critical Minerals (CSE: SCM) said Thursday the company has been granted the Mining Licence for its TitanBeach titanium project in Morocco."
+    ],
+    "summary_raw": "Exploration at the 192 sq/km TitanBeach project revealed the existence of potential ilmenite, titanomagnetite, magnetite, leucoxene and rutile bearing sand.",
+    "english_phrases": [
+     {
+      "phrase": "Mining Licence",
+      "meaning": "채굴 허가"
+     },
+     {
+      "phrase": "ilmenite",
+      "meaning": "티타늄 광석인 일메나이트(티탄철석)"
+     },
+     {
+      "phrase": "strength-to-weight ratio",
+      "meaning": "중량 대비 강도"
+     },
+     {
+      "phrase": "corrosion resistance",
+      "meaning": "내식성(부식에 견디는 성질)"
+     }
+    ],
+    "implication": "미국·EU·캐나다가 핵심광물로 보는 티타늄의 채굴 허가가 모로코에서 나와, 북아프리카의 신규 티타늄 공급원 후보가 생겼음",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "d3ab73a954b8",
+   "title": "China is sending scientists to Iran for rare earth ‘exploration and processing’ - South China Morning Post",
+   "title_norm": "china is sending scientists to iran for rare earth exploration and processing",
+   "url": "https://scmp.com/news/china/science/article/3363814/china-sending-scientists-iran-rare-earth-exploration-and-processing",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZjA2RFZTd0tPOXBrNGo4UUFHX2F6RG8yeU4zOXh4SzRBejNwa2EtRmlVcm50QXJNcVF5ajZ2Ui1pb0RtdTNCWXBJYlJ2d2tJaUxJb0Jnc0IwRlhlbmpyMV9mRk9oZXVsTG5HMXA4bV96bmJlU1VOWVhLSTZJeDdOVnU5X2JTRlM3dGpzazVBVEgtVm9Ubm1OWTMyR05uTFRJT0JkeENmUHNXRnN0aEk5ZmVnaWNKMzN4TkF1bWY1anjSAcABQVVfeXFMT1dqam5IVlJKTnFyRmhseDg1YS14SEhXczhfYWpBdUdDbU1Rc0VJT1lQaTNEd1FMUEFGbDlpT1RLaG10Mlk0X3YwRlprOU9uRkZnckhKNm5NTXp2MGV4cVRmN2ZfNDBHcGtYSUcyVGRvOXN3aU1PdnhyVWJza08tRWhFRUFSdWR2VV9kSGdHNFhBbmpqME9xUThWMjl6YjdLaWhmMGdFdm9VamZvY2JJazM1Zm1xelZabUxUWmFpU2RM?oc=5",
+   "source": {
+    "name": "Google News - Rare Earth Elements",
+    "domain": "scmp.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-08-12",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:46:25+00:00",
+   "score": 11,
+   "body": {
+    "status": "partial",
+    "chars": 531,
+    "sha256": "6e37922cd87174336eab28a64fbd5d030714f80690a861bf2da8ca1085480550",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-08-12",
+    "quotes": [
+     "China is sending scientists to Iran for rare earth ‘exploration and processing’"
+    ],
+    "final_url": "https://www.scmp.com/news/china/science/article/3363814/china-sending-scientists-iran-rare-earth-exploration-and-processing",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "중국과 이란의 자연과학재단이 올해 공동 워크숍 프로그램에 희토류를 포함했음",
+     "중국 측은 워크숍 1회당 30,000 yuan (US$4,200)을 회의·숙박·국내 이동비로 지원함",
+     "이란 국가과학재단은 이란 참가자 국제 이동과 방문 중국 연구자 숙박을 돕는다고 NSFC가 밝혔음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "30,000 yuan (US$4,200)"
+    ],
+    "quotes": [
+     "China is sending scientists to Iran for rare earth ‘exploration and processing’"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "희토류",
+     "중국",
+     "이란",
+     "탐사·가공",
+     "과학협력"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "exploration and processing",
+      "meaning": "탐사와 가공"
+     },
+     {
+      "phrase": "strategically sensitive metals",
+      "meaning": "전략적으로 민감한 금속"
+     },
+     {
+      "phrase": "joint workshop programme",
+      "meaning": "공동 워크숍 프로그램"
+     }
+    ],
+    "implication": "중국이 전략적으로 민감한 희토류의 탐사·가공 분야로 이란과의 과학 협력 범위를 넓히고 있음."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "partial",
+    "input_chars": 531,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:46:37+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 4줄)",
+     "너무 짧은 줄 1개 (최소 15자)"
+    ],
+    "retry_tails": [
+     "\"전략적으로 민감한 금속\"},\n    {\"phrase\": \"joint workshop programme\", \"meaning\": \"공동 워크숍 프로그램\"}\n  ],\n  \"implication\": \"중국이 전략적으로 민감한 희토류의 탐사·가공 분야로 이란과의 과학 협력을 넓히고 있음.\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "3d6dfd5027",
+     "v1_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZjA2RFZTd0tPOXBrNGo4UUFHX2F6RG8yeU4zOXh4SzRBejNwa2EtRmlVcm50QXJNcVF5ajZ2Ui1pb0RtdTNCWXBJYlJ2d2tJaUxJb0Jnc0IwRlhlbmpyMV9mRk9oZXVsTG5HMXA4bV96bmJlU1VOWVhLSTZJeDdOVnU5X2JTRlM3dGpzazVBVEgtVm9Ubm1OWTMyR05uTFRJT0JkeENmUHNXRnN0aEk5ZmVnaWNKMzN4TkF1bWY1anjSAcABQVVfeXFMT1dqam5IVlJKTnFyRmhseDg1YS14SEhXczhfYWpBdUdDbU1Rc0VJT1lQaTNEd1FMUEFGbDlpT1RLaG10Mlk0X3YwRlprOU9uRkZnckhKNm5NTXp2MGV4cVRmN2ZfNDBHcGtYSUcyVGRvOXN3aU1PdnhyVWJza08tRWhFRUFSdWR2VV9kSGdHNFhBbmpqME9xUThWMjl6YjdLaWhmMGdFdm9VamZvY2JJazM1Zm1xelZabUxUWmFpU2RM?oc=5",
+     "summary_raw": "China is sending scientists to Iran for rare earth ‘exploration and processing’&nbsp;&nbsp;South China Morning Post"
+    }
+   },
+   "v1": {
+    "korean_summary": "중국이 이란의 희토류 탐사 및 처리 분야에 과학자 파견단을 보내고 있는 것으로 확인되었습니다. 이는 핵심광물 공급망 다변화를 추구하는 중국의 전략적 움직임으로 평가되며, 향후 글로벌 희토류 시장 구도에 영향을 미칠 것으로 전망됩니다. 이란의 풍부한 희토류 부존량과 중국의 정제 기술 결합을 통해 서방의 핵심광물 의존도를 약화시키려는 의도로 해석됩니다.",
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "광물탐사·정제",
+     "중국-이란 협력"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "rare earth exploration and processing",
+      "meaning": "희토류 탐사 및 처리 기술"
+     },
+     {
+      "phrase": "critical mineral supply chain diversification",
+      "meaning": "핵심광물 공급망 다변화"
+     },
+     {
+      "phrase": "technical cooperation in mineral resources",
+      "meaning": "광물자원 분야 기술협력"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "3d6dfd5027",
+    "title": "China is sending scientists to Iran for rare earth ‘exploration and processing’ - South China Morning Post",
+    "url": "https://scmp.com/news/china/science/article/3363814/china-sending-scientists-iran-rare-earth-exploration-and-processing",
+    "source": "Google News - Rare Earth Elements",
+    "tier_weight": 1,
+    "score": 11,
+    "published": "2026-08-12",
+    "korean_summary": [
+     "중국과 이란의 자연과학재단이 올해 공동 워크숍 프로그램에 희토류를 포함했음",
+     "중국 측은 워크숍 1회당 30,000 yuan (US$4,200)을 회의·숙박·국내 이동비로 지원함",
+     "이란 국가과학재단은 이란 참가자 국제 이동과 방문 중국 연구자 숙박을 돕는다고 NSFC가 밝혔음"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "희토류",
+     "중국",
+     "이란",
+     "탐사·가공",
+     "과학협력"
+    ],
+    "ai_processed": true,
+    "card_id": "d3ab73a954b8",
+    "basis": "body",
+    "body_status": "partial",
+    "key_figures": [
+     "30,000 yuan (US$4,200)"
+    ],
+    "quotes": [
+     "China is sending scientists to Iran for rare earth ‘exploration and processing’"
+    ],
+    "summary_raw": "China is sending scientists to Iran for rare earth ‘exploration and processing’&nbsp;&nbsp;South China Morning Post",
+    "english_phrases": [
+     {
+      "phrase": "exploration and processing",
+      "meaning": "탐사와 가공"
+     },
+     {
+      "phrase": "strategically sensitive metals",
+      "meaning": "전략적으로 민감한 금속"
+     },
+     {
+      "phrase": "joint workshop programme",
+      "meaning": "공동 워크숍 프로그램"
+     }
+    ],
+    "implication": "중국이 전략적으로 민감한 희토류의 탐사·가공 분야로 이란과의 과학 협력 범위를 넓히고 있음.",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "c196aeedad77",
+   "title": "Vanadium in January 2026",
+   "title_norm": "vanadium in january 2026",
+   "url": "https://usgs.gov/centers/national-minerals-information-center/vanadium-statistics-and-information",
+   "gnews_url": null,
+   "source": {
+    "name": "USGS Minerals Periodicals",
+    "domain": "usgs.gov",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-08-13",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:46:39+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 1579,
+    "sha256": "0b08c97b45bdfd3eaceae0402faf410f508d99cf781fe3dff104488f063489d1",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2006-01-01",
+    "quotes": [
+     "An official website of the United States government",
+     "A .gov website belongs to an official government organization in the United States."
+    ],
+    "final_url": "https://www.usgs.gov/centers/national-minerals-information-center/vanadium-statistics-and-information",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "USGS Minerals Periodicals가 바나듐 2026년 1월자 월간 통계 페이지를 게시했음",
+     "해당 페이지는 바나듐의 전 세계 공급·수요·흐름 통계를 다루며 구체 수치는 확인 불가임",
+     "USGS는 데이터셋을 ScienceBase 플랫폼으로 이전 중이며 간행물별로 구독자에게 알릴 예정임"
+    ],
+    "basis": "body",
+    "key_figures": [],
+    "quotes": [
+     "An official website of the United States government",
+     "A .gov website belongs to an official government organization in the United States."
+    ],
+    "category": "research",
+    "tags": [
+     "바나듐",
+     "USGS",
+     "통계",
+     "철합금",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Monthly Publications",
+      "meaning": "월간 간행물"
+     },
+     {
+      "phrase": "Mineral Industry Surveys",
+      "meaning": "광물산업 조사 간행물"
+     },
+     {
+      "phrase": "USGS ScienceBase platform",
+      "meaning": "USGS의 과학 데이터 플랫폼"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 1579,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:46:48+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 4줄)"
+    ],
+    "retry_tails": [
+     "eral Industry Surveys\", \"meaning\": \"광물산업 조사 간행물\"},\n    {\"phrase\": \"USGS ScienceBase platform\", \"meaning\": \"USGS의 과학 데이터 공유 플랫폼\"}\n  ],\n  \"implication\": \"해당 없음\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "09030afc89",
+     "v1_url": "https://www.usgs.gov/centers/national-minerals-information-center/vanadium-statistics-and-information",
+     "summary_raw": "Category: Mineral Industry Surveys.   (Published 8/13/2026)"
+    }
+   },
+   "v1": {
+    "korean_summary": "바나듐은 철강 강화 및 에너지저장장치(ESS) 핵심 소재로서 글로벌 수요가 지속 증가하고 있으며, 주요 생산국의 광산 운영 현황이 시장 공급에 큰 영향을 미치는 것으로 확인되었습니다. 2026년 초 바나듐 가격은 원유 시장 변동성과 중국의 철강 생산량에 따라 변동하는 추세를 보이고 있습니다. 향후 전기차 확대 및 재생에너지 저장 기술 발전에 따른 바나듐 수급 불균형 가능성에 주목할 필요가 있을 전망입니다.",
+    "category": "supply_chain",
+    "tags": [
+     "바나듐",
+     "에너지저장장치(ESS)",
+     "공급망 안정성"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "vanadium supply-demand balance",
+      "meaning": "바나듐 수급 균형"
+     },
+     {
+      "phrase": "vanadium redox flow battery (VRFB)",
+      "meaning": "바나듐 산화환원 흐름 전지"
+     },
+     {
+      "phrase": "primary vanadium production and recycling rates",
+      "meaning": "1차 바나듐 생산 및 재활용률"
+     },
+     {
+      "phrase": "critical mineral supply chain vulnerability",
+      "meaning": "핵심광물 공급망 취약성"
+     },
+     {
+      "phrase": "vanadium as a strategic element for energy storage",
+      "meaning": "에너지 저장용 전략광물로서의 바나듐"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "09030afc89",
+    "title": "Vanadium in January 2026",
+    "url": "https://usgs.gov/centers/national-minerals-information-center/vanadium-statistics-and-information",
+    "source": "USGS Minerals Periodicals",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-08-13",
+    "korean_summary": [
+     "USGS Minerals Periodicals가 바나듐 2026년 1월자 월간 통계 페이지를 게시했음",
+     "해당 페이지는 바나듐의 전 세계 공급·수요·흐름 통계를 다루며 구체 수치는 확인 불가임",
+     "USGS는 데이터셋을 ScienceBase 플랫폼으로 이전 중이며 간행물별로 구독자에게 알릴 예정임"
+    ],
+    "category": "research",
+    "tags": [
+     "바나듐",
+     "USGS",
+     "통계",
+     "철합금",
+     "미국"
+    ],
+    "ai_processed": true,
+    "card_id": "c196aeedad77",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [],
+    "quotes": [
+     "An official website of the United States government",
+     "A .gov website belongs to an official government organization in the United States."
+    ],
+    "summary_raw": "Category: Mineral Industry Surveys.   (Published 8/13/2026)",
+    "english_phrases": [
+     {
+      "phrase": "Monthly Publications",
+      "meaning": "월간 간행물"
+     },
+     {
+      "phrase": "Mineral Industry Surveys",
+      "meaning": "광물산업 조사 간행물"
+     },
+     {
+      "phrase": "USGS ScienceBase platform",
+      "meaning": "USGS의 과학 데이터 플랫폼"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "f648915c3442",
+   "title": "REalloys fully funded for upgrading SRC rare earth processing facility, building metallization plant - Mining Weekly",
+   "title_norm": "realloys fully funded for upgrading src rare earth processing facility building metallization plant",
+   "url": "https://miningweekly.com/article/realloys-fully-funded-for-upgrading-src-rare-earth-processing-facility-building-metallization-plant-2026-08-14",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSUl0ekdGTERnWi1HSC1FOGlqZk5uaEZJdVhaZllpV0trbER2QkF5djZyMHJZWmh4enhYQnJIaHp5TkpCeTFjMS1uVkRVR3ROd3UyQnY4RWlzMm9vbEt2TEFhRVhoOVMyV1NiXzBiRHU1c1NOc09hRWtORFhJRXBWazVPbC1OYWVCd1dxRU9JUTFWaFZiOHBFSl9LYWdURFZUMk9udGFCVlpXV0ZUTkF3Rk42WjFLeW40NXozQWVqX0dXMDZka0lVSHd1T3Q4dUVFemVGWkd0YzdJSTNlb3NucA?oc=5",
+   "source": {
+    "name": "Mining Weekly - via Google News",
+    "domain": "miningweekly.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-08-14",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:46:49+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 4397,
+    "sha256": "17839dce1f0175a5ead838cbebb241cb8d06d9ea55834d283309a1e4cf73c6c7",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-08-14",
+    "quotes": [
+     "REalloys fully funded for upgrading SRC rare earth processing facility, building metallization plant",
+     "Receive a weekly copy of Creamer Media's Engineering News & Mining Weekly magazine"
+    ],
+    "final_url": "https://www.miningweekly.com/article/realloys-fully-funded-for-upgrading-src-rare-earth-processing-facility-building-metallization-plant-2026-08-14",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "나스닥 상장사 REalloys가 SRC 희토류 처리시설 업그레이드와 금속화 시설 건설 자금을 모두 확보했다고 확인했음",
+     "$58.3-million을 기존 현금으로 조달하며, SRC 공사는 3분기, 금속화 시설 시운전은 2028년 1분기 목표임",
+     "SRC 상업 인수는 2027년 3분기 예정이며, Tooele Army Depot 장기 임대 협상은 9월 중순까지 마무리 예상임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "$58.3-million",
+     "525 t",
+     "50 t"
+    ],
+    "quotes": [
+     "REalloys fully funded for upgrading SRC rare earth processing facility, building metallization plant",
+     "Receive a weekly copy of Creamer Media's Engineering News & Mining Weekly magazine"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "NdPr",
+     "디스프로슘",
+     "테르븀",
+     "금속화"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "fully funded",
+      "meaning": "자금을 완전히 확보한"
+     },
+     {
+      "phrase": "metallization facility",
+      "meaning": "금속화 시설"
+     },
+     {
+      "phrase": "enhanced use lease",
+      "meaning": "(군 부지 등의) 강화된 사용 임대"
+     },
+     {
+      "phrase": "feedstock",
+      "meaning": "공정에 투입되는 원료"
+     }
+    ],
+    "implication": "북미에서 중희토류 금속화·가공 시설이 상업 규모로 추진되어, 미국 국방·산업 기반용 동맹국 공급원이 늘어날 수 있음."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:46:53+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "b11eaddb91",
+     "v1_url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSUl0ekdGTERnWi1HSC1FOGlqZk5uaEZJdVhaZllpV0trbER2QkF5djZyMHJZWmh4enhYQnJIaHp5TkpCeTFjMS1uVkRVR3ROd3UyQnY4RWlzMm9vbEt2TEFhRVhoOVMyV1NiXzBiRHU1c1NOc09hRWtORFhJRXBWazVPbC1OYWVCd1dxRU9JUTFWaFZiOHBFSl9LYWdURFZUMk9udGFCVlpXV0ZUTkF3Rk42WjFLeW40NXozQWVqX0dXMDZka0lVSHd1T3Q4dUVFemVGWkd0YzdJSTNlb3NucA?oc=5",
+     "summary_raw": "REalloys fully funded for upgrading SRC rare earth processing facility, building metallization plant&nbsp;&nbsp;Mining Weekly"
+    }
+   },
+   "v1": {
+    "korean_summary": "REalloys가 희토류 정련 시설 업그레이드 및 야금화 공장 건설을 위한 완전 자금 조달을 확보한 것으로 확인되었음. 이는 남아프리카공화국의 SRC(Separated Rare earth metals) 희토류 처리 설비의 현대화와 함께 핵심광물 공급망 강화에 기여할 전망임. 본 프로젝트는 글로벌 희토류 정련 역량 확대 및 전략적 자급률 제고에 중요한 의미를 갖는 것으로 평가됨.",
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "제련·야금",
+     "남아프리카공화국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "rare earth processing facility upgrade",
+      "meaning": "희토류 정련 시설 업그레이드"
+     },
+     {
+      "phrase": "metallization plant",
+      "meaning": "야금화 공장 (희토류 금속화 처리 시설)"
+     },
+     {
+      "phrase": "fully funded project",
+      "meaning": "완전 자금 조달된 사업 (자금 확보 완료)"
+     },
+     {
+      "phrase": "critical minerals supply chain",
+      "meaning": "핵심광물 공급망"
+     },
+     {
+      "phrase": "rare earth separation and refining",
+      "meaning": "희토류 분리 및 정련"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "b11eaddb91",
+    "title": "REalloys fully funded for upgrading SRC rare earth processing facility, building metallization plant - Mining Weekly",
+    "url": "https://miningweekly.com/article/realloys-fully-funded-for-upgrading-src-rare-earth-processing-facility-building-metallization-plant-2026-08-14",
+    "source": "Mining Weekly - via Google News",
+    "tier_weight": 3,
+    "score": 9,
+    "published": "2026-08-14",
+    "korean_summary": [
+     "나스닥 상장사 REalloys가 SRC 희토류 처리시설 업그레이드와 금속화 시설 건설 자금을 모두 확보했다고 확인했음",
+     "$58.3-million을 기존 현금으로 조달하며, SRC 공사는 3분기, 금속화 시설 시운전은 2028년 1분기 목표임",
+     "SRC 상업 인수는 2027년 3분기 예정이며, Tooele Army Depot 장기 임대 협상은 9월 중순까지 마무리 예상임"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "NdPr",
+     "디스프로슘",
+     "테르븀",
+     "금속화"
+    ],
+    "ai_processed": true,
+    "card_id": "f648915c3442",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "$58.3-million",
+     "525 t",
+     "50 t"
+    ],
+    "quotes": [
+     "REalloys fully funded for upgrading SRC rare earth processing facility, building metallization plant",
+     "Receive a weekly copy of Creamer Media's Engineering News & Mining Weekly magazine"
+    ],
+    "summary_raw": "REalloys fully funded for upgrading SRC rare earth processing facility, building metallization plant&nbsp;&nbsp;Mining Weekly",
+    "english_phrases": [
+     {
+      "phrase": "fully funded",
+      "meaning": "자금을 완전히 확보한"
+     },
+     {
+      "phrase": "metallization facility",
+      "meaning": "금속화 시설"
+     },
+     {
+      "phrase": "enhanced use lease",
+      "meaning": "(군 부지 등의) 강화된 사용 임대"
+     },
+     {
+      "phrase": "feedstock",
+      "meaning": "공정에 투입되는 원료"
+     }
+    ],
+    "implication": "북미에서 중희토류 금속화·가공 시설이 상업 규모로 추진되어, 미국 국방·산업 기반용 동맹국 공급원이 늘어날 수 있음.",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "9ad9fedf71c1",
+   "title": "China, Iran join rare earth hunt as demand for minerals grows - Interesting Engineering",
+   "title_norm": "china iran join rare earth hunt as demand for minerals grows",
+   "url": "https://interestingengineering.com/energy/china-iran-rare-earth-processing-cooperation",
+   "gnews_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNU190ckZyanpSU19JVWJ4bFJVWk9jNzczT3lqMlRfeUlCbUhRWms4M3o1ZGhHcDFITk1vLTBTcHNYSHllYkhuU0kwTzA0Q0k2YVJwd3BlS0dQOW0ycHJ5bERVZWM1dS0yYkJPaU02V2plZlFHd2tQRjBCQ001UkxPSUxMSEpYZVBXV0xHWGJOSQ?oc=5",
+   "source": {
+    "name": "Google News - Rare Earth Elements",
+    "domain": "interestingengineering.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-08-14",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:46:55+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 3854,
+    "sha256": "7c2a5837029216aa48ab0e7e99e7fcbb51c611dffe8a0e662488e177766d4e67",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-08-14",
+    "quotes": [
+     "Under the program, the Chinese side will provide 30,000 yuan, or about $4,200, for each workshop.",
+     "The Trump administration recently announced $3 billion in investments targeting critical-mineral and battery projects."
+    ],
+    "final_url": "https://interestingengineering.com/energy/china-iran-rare-earth-processing-cooperation",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "중국 국가자연과학기금위원회(NSFC)와 이란 국가과학재단이 희토류 탐사·가공을 공동 워크숍 분야로 선정했음",
+     "중국 측이 워크숍마다 30,000 yuan(약 $4,200)을 지원하고, 이란 측은 이란 참가자 국제 출장비 등을 부담하기로 했음",
+     "공동 워크숍 프로그램은 2024년에 시작됐고 양 기관은 2017년 베이징에서 MOU를 체결했음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "30,000 yuan",
+     "7,000 square kilometers",
+     "$3 billion"
+    ],
+    "quotes": [
+     "Under the program, the Chinese side will provide 30,000 yuan, or about $4,200, for each workshop.",
+     "The Trump administration recently announced $3 billion in investments targeting critical-mineral and battery projects."
+    ],
+    "category": "research",
+    "tags": [
+     "희토류",
+     "중국",
+     "이란",
+     "과학협력",
+     "가공기술"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "rare earth exploration and processing",
+      "meaning": "희토류 탐사 및 가공"
+     },
+     {
+      "phrase": "joint workshops",
+      "meaning": "공동 워크숍"
+     },
+     {
+      "phrase": "export controls",
+      "meaning": "수출 통제"
+     },
+     {
+      "phrase": "rare earth anomalies",
+      "meaning": "희토류 이상대(매장 가능성을 시사하는 지질 징후)"
+     }
+    ],
+    "implication": "중국이 희토류 가공기술 이전을 제한하는 가운데 이란과 연구협력에 나서, 이란의 탐사·가공 역량 향상 여부가 새 변수로 부상함."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 3854,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:46:59+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "28038485f7",
+     "v1_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNU190ckZyanpSU19JVWJ4bFJVWk9jNzczT3lqMlRfeUlCbUhRWms4M3o1ZGhHcDFITk1vLTBTcHNYSHllYkhuU0kwTzA0Q0k2YVJwd3BlS0dQOW0ycHJ5bERVZWM1dS0yYkJPaU02V2plZlFHd2tQRjBCQ001UkxPSUxMSEpYZVBXV0xHWGJOSQ?oc=5",
+     "summary_raw": "China, Iran join rare earth hunt as demand for minerals grows&nbsp;&nbsp;Interesting Engineering"
+    }
+   },
+   "v1": {
+    "korean_summary": "글로벌 핵심광물 수요 증가에 따라 중국과 이란이 희토류 탐사·개발에 본격 참여하고 있는 것으로 확인되었습니다. 특히 중국의 희토류 공급 독점 현황과 이란의 광물자원 개발 전략이 국제 광물 시장의 구도 변화를 주도할 것으로 전망됩니다. 핵심광물 확보를 위한 국제적 경쟁이 심화되는 가운데 우리나라의 선제적 자원외교 및 탐사 기술 고도화의 중요성이 대두되고 있습니다.",
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "핵심광물 수급",
+     "중국·이란"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals demand surge",
+      "meaning": "핵심광물 수요 급증"
+     },
+     {
+      "phrase": "rare earth element supply chain security",
+      "meaning": "희토류 원소 공급망 보안"
+     },
+     {
+      "phrase": "mineral exploration and extraction cooperation",
+      "meaning": "광물 탐사 및 채취 협력"
+     },
+     {
+      "phrase": "geopolitical implications of mineral resources",
+      "meaning": "광물자원의 지정학적 함의"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "28038485f7",
+    "title": "China, Iran join rare earth hunt as demand for minerals grows - Interesting Engineering",
+    "url": "https://interestingengineering.com/energy/china-iran-rare-earth-processing-cooperation",
+    "source": "Google News - Rare Earth Elements",
+    "tier_weight": 1,
+    "score": 9,
+    "published": "2026-08-14",
+    "korean_summary": [
+     "중국 국가자연과학기금위원회(NSFC)와 이란 국가과학재단이 희토류 탐사·가공을 공동 워크숍 분야로 선정했음",
+     "중국 측이 워크숍마다 30,000 yuan(약 $4,200)을 지원하고, 이란 측은 이란 참가자 국제 출장비 등을 부담하기로 했음",
+     "공동 워크숍 프로그램은 2024년에 시작됐고 양 기관은 2017년 베이징에서 MOU를 체결했음"
+    ],
+    "category": "research",
+    "tags": [
+     "희토류",
+     "중국",
+     "이란",
+     "과학협력",
+     "가공기술"
+    ],
+    "ai_processed": true,
+    "card_id": "9ad9fedf71c1",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "30,000 yuan",
+     "7,000 square kilometers",
+     "$3 billion"
+    ],
+    "quotes": [
+     "Under the program, the Chinese side will provide 30,000 yuan, or about $4,200, for each workshop.",
+     "The Trump administration recently announced $3 billion in investments targeting critical-mineral and battery projects."
+    ],
+    "summary_raw": "China, Iran join rare earth hunt as demand for minerals grows&nbsp;&nbsp;Interesting Engineering",
+    "english_phrases": [
+     {
+      "phrase": "rare earth exploration and processing",
+      "meaning": "희토류 탐사 및 가공"
+     },
+     {
+      "phrase": "joint workshops",
+      "meaning": "공동 워크숍"
+     },
+     {
+      "phrase": "export controls",
+      "meaning": "수출 통제"
+     },
+     {
+      "phrase": "rare earth anomalies",
+      "meaning": "희토류 이상대(매장 가능성을 시사하는 지질 징후)"
+     }
+    ],
+    "implication": "중국이 희토류 가공기술 이전을 제한하는 가운데 이란과 연구협력에 나서, 이란의 탐사·가공 역량 향상 여부가 새 변수로 부상함.",
+    "trial": false
+   },
+   "trial": false
+  }
+ ],
+ "excluded": [],
+ "v1_file": "week-2026-08-16.json",
+ "v1_metrics": {
+  "articles": 12,
+  "original_link": 6,
+  "body_based": 0,
+  "failed": 0
+ },
+ "trial": false
+}

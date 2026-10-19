@@ -1,0 +1,2048 @@
+{
+ "schema_version": "card.v1",
+ "service": "cmw",
+ "week_of": "2026-09-21",
+ "generated_at": "2026-10-19T05:56:10+00:00",
+ "mincore_version": "0.3.6",
+ "model": "claude-sonnet-5-5",
+ "prompt_version": "v2.2",
+ "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+ "stats": {
+  "v1_articles": 12,
+  "cards": 12,
+  "excluded": 0,
+  "body_got": 6,
+  "body_rate": 0.5,
+  "original_link": 12,
+  "reader_proxy_used": 0,
+  "line_len": {
+   "lines": 30,
+   "median": 54.5,
+   "max": 84,
+   "over60": 9,
+   "over100": 0
+  },
+  "oda_filled": 4,
+  "usage": {
+   "claude-sonnet-5-5": {
+    "calls": 16,
+    "in": 40997,
+    "out": 12608
+   }
+  },
+  "cost_usd": 0.3121,
+  "body_status": {
+   "lead_only": 6,
+   "full": 6
+  },
+  "body_source": {
+   "og_description": 6,
+   "presscorner_api": 1,
+   "trafilatura": 5
+  },
+  "resolve": {
+   "decoder": 7,
+   "direct": 5
+  },
+  "fail_reason": {},
+  "basis": {
+   "lead": 6,
+   "body": 6
+  },
+  "retry_reason": {
+   "lines는 3줄이어야 함 (현재 4줄)": 3
+  },
+  "flags": {
+   "soft_retry": 1
+  },
+  "model_used": {
+   "claude-sonnet-5-5": 12
+  }
+ },
+ "total": 12,
+ "cards": [
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "094fc1229e1a",
+   "title": "Pentagon backs ReElement Technologies with US$25M investment to expand domestic critical minerals processing capacity - Project Blue",
+   "title_norm": "pentagon backs reelement technologies with us 25m investment to expand domestic critical minerals processing capacity",
+   "url": "https://projectblue.com/blue/news-analysis/1613/pentagon-backs-reelement-technologies-with-us25m-investment-to-expand-domestic-critical-minerals-processing-capacity",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOU3NJMXo1ZUw0ZmNXNWg1Z2s1X1ZYWUM3MkNRUjJYd0E2S01GRzlYd3FORktnZWl5b1hLT2VJaml1eUR5V2FDd0hiengxdGJnVDJGWGNJMjYweXVJdWVtMDIxUGpWNk1MaXFHX2t0c0ZBc2U0MVVYWmE0OWplUk1vMWZoT3R4RGpmWnFkX2JVLWdaSUlKSGdKaEtnZWdETjN0M0dWdFFzMUIyVWI3WUlfcGtJZ3NMeE9KbnI2bzJXd1Y3aEFXX3ZJZ2t0YVhMSS1BUENyUzhfVHhob0dIM29OdW5ZTXZudGRXS0s3UFZjT3dGdG9DSW5kQVBtTUE?oc=5",
+   "source": {
+    "name": "Project Blue - via Google News",
+    "domain": "projectblue.com",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-09-17",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:54:28+00:00",
+   "score": 13,
+   "body": {
+    "status": "lead_only",
+    "chars": 272,
+    "sha256": "36311d9ed0d1394df2543543504e49ea8b75100224d59f4c8c74f2dce4420e83",
+    "source": "og_description",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": "2026-03-11",
+    "quotes": [],
+    "final_url": "https://www.projectblue.com/blue?article=1613&type=blueview",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "미 국방부, ReElement Technologies에 US$25M 투자해 자국 내 핵심광물 가공 역량 확대 지원함",
+     "2026년 7월 13일 미 Department of War가 ReElement의 Indiana 정제 설비 확장을 위해 US$25M 직접 투자를 발표했음"
+    ],
+    "basis": "lead",
+    "key_figures": [],
+    "quotes": [],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "핵심광물",
+     "정제",
+     "투자",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "direct investment",
+      "meaning": "직접 투자"
+     },
+     {
+      "phrase": "refining capacity",
+      "meaning": "정제 능력"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "lead_only",
+    "input_chars": 272,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:54:30+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "28eab9c7c8",
+     "v1_url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOU3NJMXo1ZUw0ZmNXNWg1Z2s1X1ZYWUM3MkNRUjJYd0E2S01GRzlYd3FORktnZWl5b1hLT2VJaml1eUR5V2FDd0hiengxdGJnVDJGWGNJMjYweXVJdWVtMDIxUGpWNk1MaXFHX2t0c0ZBc2U0MVVYWmE0OWplUk1vMWZoT3R4RGpmWnFkX2JVLWdaSUlKSGdKaEtnZWdETjN0M0dWdFFzMUIyVWI3WUlfcGtJZ3NMeE9KbnI2bzJXd1Y3aEFXX3ZJZ2t0YVhMSS1BUENyUzhfVHhob0dIM29OdW5ZTXZudGRXS0s3UFZjT3dGdG9DSW5kQVBtTUE?oc=5",
+     "summary_raw": "Pentagon backs ReElement Technologies with US$25M investment to expand domestic critical minerals processing capacity&nbsp;&nbsp;Project Blue"
+    }
+   },
+   "v1": {
+    "korean_summary": "미국 국방부가 ReElement Technologies에 2,500만 달러를 투자하여 국내 핵심광물 처리 역량 확대를 지원하는 Project Blue를 추진 중으로 확인되었습니다. 본 사업은 미국의 핵심광물 공급망 자립화 및 처리 기술 고도화를 목표로 하고 있습니다. 이는 첨단산업 및 국방력 강화를 위한 핵심광물 확보의 전략적 중요성이 점차 부각되고 있음을 시사합니다.",
+    "category": "policy_market",
+    "tags": [
+     "핵심광물 처리",
+     "공급망 안보",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "domestic critical minerals processing capacity",
+      "meaning": "국내 핵심광물 처리 역량"
+     },
+     {
+      "phrase": "supply chain resilience",
+      "meaning": "공급망 복원력/자립성"
+     },
+     {
+      "phrase": "federal investment in extraction and processing technology",
+      "meaning": "채광 및 처리 기술에 대한 연방정부 투자"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "28eab9c7c8",
+    "title": "Pentagon backs ReElement Technologies with US$25M investment to expand domestic critical minerals processing capacity - Project Blue",
+    "url": "https://projectblue.com/blue/news-analysis/1613/pentagon-backs-reelement-technologies-with-us25m-investment-to-expand-domestic-critical-minerals-processing-capacity",
+    "source": "Project Blue - via Google News",
+    "tier_weight": 5,
+    "score": 13,
+    "published": "2026-09-17",
+    "korean_summary": [
+     "[본문 미확보] 미 국방부, ReElement Technologies에 US$25M 투자해 자국 내 핵심광물 가공 역량 확대 지원함",
+     "2026년 7월 13일 미 Department of War가 ReElement의 Indiana 정제 설비 확장을 위해 US$25M 직접 투자를 발표했음"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "핵심광물",
+     "정제",
+     "투자",
+     "미국"
+    ],
+    "ai_processed": true,
+    "card_id": "094fc1229e1a",
+    "basis": "lead",
+    "body_status": "lead_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Pentagon backs ReElement Technologies with US$25M investment to expand domestic critical minerals processing capacity&nbsp;&nbsp;Project Blue",
+    "english_phrases": [
+     {
+      "phrase": "direct investment",
+      "meaning": "직접 투자"
+     },
+     {
+      "phrase": "refining capacity",
+      "meaning": "정제 능력"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "3bf028580e4e",
+   "title": "Speech by Commissioner Jørgensen at the inauguration of the Greensand CCS project",
+   "title_norm": "speech by commissioner jørgensen at the inauguration of the greensand ccs project",
+   "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1908",
+   "gnews_url": null,
+   "source": {
+    "name": "European Commission - Energy",
+    "domain": "ec.europa.eu",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-09-18",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:54:32+00:00",
+   "score": 12,
+   "body": {
+    "status": "full",
+    "chars": 5681,
+    "sha256": "a96e272f6af2d9a610cbd0e5269f0c9d132046c07c23d11505908f6f0a4f8bdd",
+    "source": "presscorner_api",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [
+     "By 2030, we want to make at least 50 million tonnes of CO2 storage capacity available per year.",
+     "That's equal to the emissions released by about 12 million combustion-engine cars."
+    ],
+    "final_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1908",
+    "strategies_tried": [
+     "presscorner_api"
+    ]
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "요르겐센 집행위원이 에스비에르의 Greensand CCS 프로젝트 개소식에서 연설했음",
+     "덴마크 북해의 고갈된 유전에 CO2를 주입하는 EU 최초의 완전 가동 해상 탄소저장 시설임",
+     "EU는 2030년까지 연간 최소 50 million tonnes의 CO2 저장 용량 확보를 목표로 한다고 밝혔음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "€41 million",
+     "50 million tonnes",
+     "€100 billion"
+    ],
+    "quotes": [
+     "By 2030, we want to make at least 50 million tonnes of CO2 storage capacity available per year.",
+     "That's equal to the emissions released by about 12 million combustion-engine cars."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "탄소포집저장",
+     "CCS",
+     "EU",
+     "덴마크",
+     "이노베이션 펀드"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "offshore carbon storage",
+      "meaning": "해상 탄소 저장"
+     },
+     {
+      "phrase": "Innovation Fund",
+      "meaning": "EU 혁신기금"
+     },
+     {
+      "phrase": "de-risk investments",
+      "meaning": "투자 위험을 낮추다"
+     },
+     {
+      "phrase": "cross-border infrastructure",
+      "meaning": "국경 간 인프라"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:54:40+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "455d697b1b",
+     "v1_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1908",
+     "summary_raw": "European Commission Speech Esbjerg, 18 Sep 2026 Your Majesty,\nYour excellency, Sir James,\nMinister Hummelgaard, dear Peter;\nDistinguished guests,\nDear friends,\nIt is a great pleasure to be here today.\nI've ha..."
+    }
+   },
+   "v1": {
+    "korean_summary": "유럽연합 집행위원회는 덴마크 에스비에르그에서 개최한 그린샌드 탄소포집·저장(CCS) 프로젝트 개막식을 통해 유럽의 에너지 전환과 산업 경쟁력 강화 방향을 제시하였습니다. 본 프로젝트는 재생에너지 기반 산업 생태계 구축 및 핵심광물 공급망 안정화라는 유럽의 전략적 목표와 연계되어 있음을 확인할 수 있습니다. 이는 유럽이 탄소중립 달성과 함께 글로벌 공급망에서의 자주성 확보를 동시에 추진하고 있음을 보여주는 정책 사례로 평가됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "탄소포집·저장(CCS)",
+     "유럽연합"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals supply chain security",
+      "meaning": "핵심광물 공급망 보안"
+     },
+     {
+      "phrase": "carbon capture and storage (CCS) infrastructure",
+      "meaning": "탄소포집·저장 인프라"
+     },
+     {
+      "phrase": "green energy transition and industrial competitiveness",
+      "meaning": "녹색에너지 전환과 산업 경쟁력"
+     },
+     {
+      "phrase": "strategic autonomy in raw material sourcing",
+      "meaning": "원료 조달의 전략적 자주성"
+     },
+     {
+      "phrase": "decarbonization pathway for industrial sectors",
+      "meaning": "산업 부문 탈탄소화 경로"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "455d697b1b",
+    "title": "Speech by Commissioner Jørgensen at the inauguration of the Greensand CCS project",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1908",
+    "source": "European Commission - Energy",
+    "tier_weight": 5,
+    "score": 12,
+    "published": "2026-09-18",
+    "korean_summary": [
+     "요르겐센 집행위원이 에스비에르의 Greensand CCS 프로젝트 개소식에서 연설했음",
+     "덴마크 북해의 고갈된 유전에 CO2를 주입하는 EU 최초의 완전 가동 해상 탄소저장 시설임",
+     "EU는 2030년까지 연간 최소 50 million tonnes의 CO2 저장 용량 확보를 목표로 한다고 밝혔음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "탄소포집저장",
+     "CCS",
+     "EU",
+     "덴마크",
+     "이노베이션 펀드"
+    ],
+    "ai_processed": true,
+    "card_id": "3bf028580e4e",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "€41 million",
+     "50 million tonnes",
+     "€100 billion"
+    ],
+    "quotes": [
+     "By 2030, we want to make at least 50 million tonnes of CO2 storage capacity available per year.",
+     "That's equal to the emissions released by about 12 million combustion-engine cars."
+    ],
+    "summary_raw": "European Commission Speech Esbjerg, 18 Sep 2026 Your Majesty,\nYour excellency, Sir James,\nMinister Hummelgaard, dear Peter;\nDistinguished guests,\nDear friends,\nIt is a great pleasure to be here today.\nI've ha...",
+    "english_phrases": [
+     {
+      "phrase": "offshore carbon storage",
+      "meaning": "해상 탄소 저장"
+     },
+     {
+      "phrase": "Innovation Fund",
+      "meaning": "EU 혁신기금"
+     },
+     {
+      "phrase": "de-risk investments",
+      "meaning": "투자 위험을 낮추다"
+     },
+     {
+      "phrase": "cross-border infrastructure",
+      "meaning": "국경 간 인프라"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "3fc4cda941af",
+   "title": "Gold is tariff-proof. Canada has $11 billion a year of it stuck in permitting",
+   "title_norm": "gold is tariff proof canada has 11 billion a year of it stuck in permitting",
+   "url": "https://mining.com/gold-is-tariff-proof-canada-has-11-billion-a-year-of-it-stuck-in-permitting",
+   "gnews_url": null,
+   "source": {
+    "name": "Mining.com",
+    "domain": "mining.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-09-18",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:54:40+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 11753,
+    "sha256": "df70eec8a6c291e15dff3ab806f3fcc6b7403db0c9e4473ceed20d229bd913b7",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-09-18",
+    "quotes": [
+     "Canada has $11 billion a year of it stuck in permitting",
+     "Ottawa has been tight-lipped, but leaked reports count about $360 billion in pledges."
+    ],
+    "final_url": "https://www.mining.com/gold-is-tariff-proof-canada-has-11-billion-a-year-of-it-stuck-in-permitting/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Mining.com이 캐나다 금 개발 프로젝트 15건을 선별해 인허가 대기 규모를 분석했음",
+     "현 금 가격 기준 연 매출은 $11 billion에 약간 못 미치고 초기 자본은 $9.4 billion임",
+     "금은 미국에 무관세로 들어가 50% 관세가 부과된 품목들과 상황이 다르다고 짚었음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "$11 billion",
+     "$9.4 billion",
+     "213 tonnes"
+    ],
+    "quotes": [
+     "Canada has $11 billion a year of it stuck in permitting",
+     "Ottawa has been tight-lipped, but leaked reports count about $360 billion in pledges."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "금",
+     "인허가",
+     "관세",
+     "캐나다",
+     "개발 프로젝트"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "tariff-proof",
+      "meaning": "관세 영향을 받지 않는"
+     },
+     {
+      "phrase": "permitting queue",
+      "meaning": "인허가 대기 목록"
+     },
+     {
+      "phrase": "construction decision",
+      "meaning": "건설 결정"
+     },
+     {
+      "phrase": "contained gold",
+      "meaning": "광석에 함유된 금의 총량"
+     }
+    ],
+    "implication": "관세 영향이 적은 캐나다 금 프로젝트 15건이 인허가 단계에 묶여 있어, 승인 속도가 금 생산 확대의 관건임"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:54:51+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "93de910c0c",
+     "v1_url": "https://www.mining.com/gold-is-tariff-proof-canada-has-11-billion-a-year-of-it-stuck-in-permitting/",
+     "summary_raw": "We screen Canada's gold development projects for three things."
+    }
+   },
+   "v1": {
+    "korean_summary": "캐나다는 연간 110억 달러 규모의 금(Gold) 개발 프로젝트가 인허가 단계에서 정체되어 있는 것으로 확인되었습니다. 금은 관세 정책의 영향을 받지 않는 상품으로서 장기적 수익성이 보장되나, 환경 및 규제 심사 지연이 프로젝트 실현을 저해하고 있습니다. 캐나다의 광물 개발 인프라 구조 개선은 국가 핵심광물 공급망 강화와 경제 활성화를 위한 시급한 과제로 판단됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "금(Au)",
+     "광산인허가·규제",
+     "캐나다"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "tariff-proof commodity",
+      "meaning": "관세 정책의 영향을 받지 않는 상품(금과 같은 고부가가치 광물)"
+     },
+     {
+      "phrase": "permitting bottleneck",
+      "meaning": "인허가 절차상의 병목 현상"
+     },
+     {
+      "phrase": "development pipeline",
+      "meaning": "개발 단계의 광산 프로젝트 포트폴리오"
+     },
+     {
+      "phrase": "regulatory hurdle",
+      "meaning": "규제 승인 장애물"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "93de910c0c",
+    "title": "Gold is tariff-proof. Canada has $11 billion a year of it stuck in permitting",
+    "url": "https://mining.com/gold-is-tariff-proof-canada-has-11-billion-a-year-of-it-stuck-in-permitting",
+    "source": "Mining.com",
+    "tier_weight": 3,
+    "score": 9,
+    "published": "2026-09-18",
+    "korean_summary": [
+     "Mining.com이 캐나다 금 개발 프로젝트 15건을 선별해 인허가 대기 규모를 분석했음",
+     "현 금 가격 기준 연 매출은 $11 billion에 약간 못 미치고 초기 자본은 $9.4 billion임",
+     "금은 미국에 무관세로 들어가 50% 관세가 부과된 품목들과 상황이 다르다고 짚었음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "금",
+     "인허가",
+     "관세",
+     "캐나다",
+     "개발 프로젝트"
+    ],
+    "ai_processed": true,
+    "card_id": "3fc4cda941af",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "$11 billion",
+     "$9.4 billion",
+     "213 tonnes"
+    ],
+    "quotes": [
+     "Canada has $11 billion a year of it stuck in permitting",
+     "Ottawa has been tight-lipped, but leaked reports count about $360 billion in pledges."
+    ],
+    "summary_raw": "We screen Canada's gold development projects for three things.",
+    "english_phrases": [
+     {
+      "phrase": "tariff-proof",
+      "meaning": "관세 영향을 받지 않는"
+     },
+     {
+      "phrase": "permitting queue",
+      "meaning": "인허가 대기 목록"
+     },
+     {
+      "phrase": "construction decision",
+      "meaning": "건설 결정"
+     },
+     {
+      "phrase": "contained gold",
+      "meaning": "광석에 함유된 금의 총량"
+     }
+    ],
+    "implication": "관세 영향이 적은 캐나다 금 프로젝트 15건이 인허가 단계에 묶여 있어, 승인 속도가 금 생산 확대의 관건임",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "29a9b3ec00db",
+   "title": "US DOE looks to industry for critical minerals cleanup at legacy sites",
+   "title_norm": "us doe looks to industry for critical minerals cleanup at legacy sites",
+   "url": "https://mining.com/us-doe-looks-to-industry-for-critical-minerals-and-materials-cleanup-at-legacy-sites",
+   "gnews_url": null,
+   "source": {
+    "name": "Mining.com",
+    "domain": "mining.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-09-18",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:54:51+00:00",
+   "score": 11,
+   "body": {
+    "status": "full",
+    "chars": 2730,
+    "sha256": "e8c1f7eea640885d93636a20a013024d8bf09a46c40dbd96345d65d3d1c7fc62",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-09-18",
+    "quotes": [
+     "“EM is transforming the legacy of America’s nuclear mission into opportunity,” EM Infrastructure, Disposition and Regulatory Policy Director Rob Seifert said in a news release.",
+     "“This EOI is the first step in that conversation with the private sector.”"
+    ],
+    "final_url": "https://www.mining.com/us-doe-looks-to-industry-for-critical-minerals-and-materials-cleanup-at-legacy-sites/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "미국 에너지부 환경관리국(EM)이 잉여 핵심광물 이전 관련 관심표명서(EOI)를 공개했음",
+     "Paducah, Portsmouth, Oak Ridge, Nevada National Security Site, Moab 5개 부지가 참여함",
+     "EM은 Sept. 30에 가상 Industry Day를 열어 EOI 절차를 설명할 예정임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "Sept. 30",
+     "more than 37 years"
+    ],
+    "quotes": [
+     "“EM is transforming the legacy of America’s nuclear mission into opportunity,” EM Infrastructure, Disposition and Regulatory Policy Director Rob Seifert said in a news release.",
+     "“This EOI is the first step in that conversation with the private sector.”"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "희토류",
+     "미국 에너지부",
+     "잉여물질",
+     "정화부지"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "expression of interest (EOI)",
+      "meaning": "관심표명서"
+     },
+     {
+      "phrase": "surplus materials",
+      "meaning": "잉여 물질"
+     },
+     {
+      "phrase": "legacy sites",
+      "meaning": "과거 핵 활동이 남긴 유산 부지"
+     },
+     {
+      "phrase": "Industry Day",
+      "meaning": "업계 설명회"
+     }
+    ],
+    "implication": "미국 정부가 핵 정화 부지의 잉여 광물을 민간에 넘기는 방식으로 국내 핵심광물 공급원을 확보하려는 시도임."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 2730,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:55:03+00:00",
+    "flags": {
+     "soft_retry": [
+      "줄 길이 초과"
+     ]
+    }
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "438ae1c26c",
+     "v1_url": "https://www.mining.com/us-doe-looks-to-industry-for-critical-minerals-and-materials-cleanup-at-legacy-sites/",
+     "summary_raw": "Materials subject to the EOI are aluminum, cesium, chloride, copper, fluorine, lead, lithium hydride, platinum, selenium, silver, tungsten and vanadium."
+    }
+   },
+   "v1": {
+    "korean_summary": "미국 에너지부(DOE)가 유산광산 부지에서 핵심광물 회수를 위해 산업계의 참여를 모색하고 있으며, 알루미늄, 리튬, 텅스텐, 바나듐 등 12개 핵심광물이 대상으로 선정되었음이 확인되었습니다. 폐기된 광산 및 가공시설에서 핵심광물을 재활용하는 방식으로 미국 내 공급망 다원화와 자원 자립도 강화를 도모하고 있습니다. 이는 친환경적 폐광산 정화와 핵심광물 확보를 동시에 달성하는 정책으로, 한국의 자원순환 및 도시광업 전략 수립에 참고할 가치가 높습니다.",
+    "category": "supply_chain",
+    "tags": [
+     "알루미늄·리튬·텅스텐·바나듐",
+     "폐광산 정화·광물 회수·도시광업",
+     "미국·에너지부"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "legacy sites",
+      "meaning": "유산 부지, 역사적 광산·제련 시설 등 과거 산업활동으로 인한 폐기 부지"
+     },
+     {
+      "phrase": "Expression of Interest (EOI)",
+      "meaning": "관심 표시 공고, 산업 참여 의향을 수집하기 위한 초기 단계의 공식 제안 요청"
+     },
+     {
+      "phrase": "critical minerals recovery and cleanup",
+      "meaning": "폐광산으로부터의 핵심광물 회수 및 환경정화 병행"
+     },
+     {
+      "phrase": "supply chain resilience",
+      "meaning": "공급망 탄력성, 공급망 안정성 및 다원화"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "438ae1c26c",
+    "title": "US DOE looks to industry for critical minerals cleanup at legacy sites",
+    "url": "https://mining.com/us-doe-looks-to-industry-for-critical-minerals-and-materials-cleanup-at-legacy-sites",
+    "source": "Mining.com",
+    "tier_weight": 3,
+    "score": 11,
+    "published": "2026-09-18",
+    "korean_summary": [
+     "미국 에너지부 환경관리국(EM)이 잉여 핵심광물 이전 관련 관심표명서(EOI)를 공개했음",
+     "Paducah, Portsmouth, Oak Ridge, Nevada National Security Site, Moab 5개 부지가 참여함",
+     "EM은 Sept. 30에 가상 Industry Day를 열어 EOI 절차를 설명할 예정임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "희토류",
+     "미국 에너지부",
+     "잉여물질",
+     "정화부지"
+    ],
+    "ai_processed": true,
+    "card_id": "29a9b3ec00db",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "Sept. 30",
+     "more than 37 years"
+    ],
+    "quotes": [
+     "“EM is transforming the legacy of America’s nuclear mission into opportunity,” EM Infrastructure, Disposition and Regulatory Policy Director Rob Seifert said in a news release.",
+     "“This EOI is the first step in that conversation with the private sector.”"
+    ],
+    "summary_raw": "Materials subject to the EOI are aluminum, cesium, chloride, copper, fluorine, lead, lithium hydride, platinum, selenium, silver, tungsten and vanadium.",
+    "english_phrases": [
+     {
+      "phrase": "expression of interest (EOI)",
+      "meaning": "관심표명서"
+     },
+     {
+      "phrase": "surplus materials",
+      "meaning": "잉여 물질"
+     },
+     {
+      "phrase": "legacy sites",
+      "meaning": "과거 핵 활동이 남긴 유산 부지"
+     },
+     {
+      "phrase": "Industry Day",
+      "meaning": "업계 설명회"
+     }
+    ],
+    "implication": "미국 정부가 핵 정화 부지의 잉여 광물을 민간에 넘기는 방식으로 국내 핵심광물 공급원을 확보하려는 시도임.",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "a5206272f646",
+   "title": "Rinehart’s nine-deal spree takes her well beyond iron ore",
+   "title_norm": "rinehart s nine deal spree takes her well beyond iron ore",
+   "url": "https://mining.com/rineharts-nine-deal-spree-takes-her-well-beyond-iron-ore",
+   "gnews_url": null,
+   "source": {
+    "name": "Mining.com",
+    "domain": "mining.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-09-17",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:55:04+00:00",
+   "score": 11,
+   "body": {
+    "status": "full",
+    "chars": 4397,
+    "sha256": "5ea63495fbdbbe9f80dfdb9853403b957a3d2bb41483dff50e42113d3aca5d2b",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-09-17",
+    "quotes": [
+     "The latest is an A$8.77-million investment ($6.2 million) in White Cliff Minerals (ASX: WCN), which will give Hancock a 13.5% stake in the Australian explorer and exposure to its Rae copper project in Nunavut, Canada.",
+     "Hancock added another piece in July by committing A$7.95 million to G50 Corp."
+    ],
+    "final_url": "https://www.mining.com/rineharts-nine-deal-spree-takes-her-well-beyond-iron-ore/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Hancock Prospecting이 약 1년간 공시된 광업·금속 투자 9건으로 철광석 너머로 확장했음",
+     "최신 건은 White Cliff Minerals에 A$8.77-million을 투자해 13.5% 지분을 확보하는 것임",
+     "이 거래는 주주 승인이 필요하며, 투자금은 Nunavut의 Rae 구리 프로젝트 시추 가속에 쓰일 예정임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "A$8.77-million",
+     "13.5%",
+     "A$125 million"
+    ],
+    "quotes": [
+     "The latest is an A$8.77-million investment ($6.2 million) in White Cliff Minerals (ASX: WCN), which will give Hancock a 13.5% stake in the Australian explorer and exposure to its Rae copper project in Nunavut, Canada.",
+     "Hancock added another piece in July by committing A$7.95 million to G50 Corp."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "구리",
+     "갈륨",
+     "투자",
+     "호주"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "nine-deal spree",
+      "meaning": "아홉 건의 연속 거래"
+     },
+     {
+      "phrase": "ex-China supply chain",
+      "meaning": "중국 제외 공급망"
+     },
+     {
+      "phrase": "placement",
+      "meaning": "제3자 배정 신주 발행"
+     },
+     {
+      "phrase": "rebalancing",
+      "meaning": "포트폴리오 재조정"
+     }
+    ],
+    "implication": "대형 민간 자본이 희토류·구리·갈륨 등 서방 공급망용 광물 프로젝트로 유입되며 중국 외 공급망의 자금 조달이 확대되고 있음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:55:18+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 4줄)"
+    ],
+    "retry_tails": [
+     "ng\": \"중국 제외 공급망\"},\n    {\"phrase\": \"placement\", \"meaning\": \"제3자 배정 신주 발행\"},\n    {\"phrase\": \"rebalancing\", \"meaning\": \"포트폴리오 재조정\"}\n  ],\n  \"implication\": \"해당 없음\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "cda20b8469",
+     "v1_url": "https://www.mining.com/rineharts-nine-deal-spree-takes-her-well-beyond-iron-ore/",
+     "summary_raw": "Australia’s richest person is building a strategic-metals portfolio spanning rare earths, copper, gallium, antimony and gold."
+    }
+   },
+   "v1": {
+    "korean_summary": "호주의 최부자 리네하르트(Gina Rinehart)가 철광석을 넘어 희토류, 구리, 갈륨, 안티몬, 금 등 핵심광물 포트폴리오 확대를 위해 9건의 연쇄적 인수합병을 추진 중으로 확인되었습니다. 이는 글로벌 탈탄소화와 전자산업 수요 증가에 대응하는 민간 광산업계의 전략적 대응을 보여주는 사례입니다. 호주의 핵심광물 공급망 강화가 인도·태평양 지역 자원 안보와 기술 패권 경쟁에 미치는 영향이 주목됩니다.",
+    "category": "supply_chain",
+    "tags": [
+     "희토류·구리·안티몬",
+     "자원포트폴리오 다각화",
+     "호주"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals portfolio",
+      "meaning": "핵심광물 포트폴리오/사업 구성"
+     },
+     {
+      "phrase": "strategic-metals acquisition spree",
+      "meaning": "전략광물 인수 확대 움직임"
+     },
+     {
+      "phrase": "diversification beyond iron ore",
+      "meaning": "철광석을 벗어난 광종 다각화"
+     },
+     {
+      "phrase": "supply chain security for green technology",
+      "meaning": "친환경 기술을 위한 공급망 보안"
+     },
+     {
+      "phrase": "rare earth elements (REE) expansion",
+      "meaning": "희토류(REE) 사업 확대"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "cda20b8469",
+    "title": "Rinehart’s nine-deal spree takes her well beyond iron ore",
+    "url": "https://mining.com/rineharts-nine-deal-spree-takes-her-well-beyond-iron-ore",
+    "source": "Mining.com",
+    "tier_weight": 3,
+    "score": 11,
+    "published": "2026-09-17",
+    "korean_summary": [
+     "Hancock Prospecting이 약 1년간 공시된 광업·금속 투자 9건으로 철광석 너머로 확장했음",
+     "최신 건은 White Cliff Minerals에 A$8.77-million을 투자해 13.5% 지분을 확보하는 것임",
+     "이 거래는 주주 승인이 필요하며, 투자금은 Nunavut의 Rae 구리 프로젝트 시추 가속에 쓰일 예정임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "구리",
+     "갈륨",
+     "투자",
+     "호주"
+    ],
+    "ai_processed": true,
+    "card_id": "a5206272f646",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "A$8.77-million",
+     "13.5%",
+     "A$125 million"
+    ],
+    "quotes": [
+     "The latest is an A$8.77-million investment ($6.2 million) in White Cliff Minerals (ASX: WCN), which will give Hancock a 13.5% stake in the Australian explorer and exposure to its Rae copper project in Nunavut, Canada.",
+     "Hancock added another piece in July by committing A$7.95 million to G50 Corp."
+    ],
+    "summary_raw": "Australia’s richest person is building a strategic-metals portfolio spanning rare earths, copper, gallium, antimony and gold.",
+    "english_phrases": [
+     {
+      "phrase": "nine-deal spree",
+      "meaning": "아홉 건의 연속 거래"
+     },
+     {
+      "phrase": "ex-China supply chain",
+      "meaning": "중국 제외 공급망"
+     },
+     {
+      "phrase": "placement",
+      "meaning": "제3자 배정 신주 발행"
+     },
+     {
+      "phrase": "rebalancing",
+      "meaning": "포트폴리오 재조정"
+     }
+    ],
+    "implication": "대형 민간 자본이 희토류·구리·갈륨 등 서방 공급망용 광물 프로젝트로 유입되며 중국 외 공급망의 자금 조달이 확대되고 있음",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "a85bbc849382",
+   "title": "Manganese in March 2026",
+   "title_norm": "manganese in march 2026",
+   "url": "https://usgs.gov/centers/national-minerals-information-center/manganese-statistics-and-information",
+   "gnews_url": null,
+   "source": {
+    "name": "USGS Minerals Periodicals",
+    "domain": "usgs.gov",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-09-18",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:55:19+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 1858,
+    "sha256": "87bae0881c87842b537a11c048d14f0c6cd0d931bc2d0fe7dc85f1189e6af5b5",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2006-01-01",
+    "quotes": [
+     "Steelmaking, including its ironmaking component, accounts for most domestic manganese demand, presently in the range of 85% to 90% of the total.",
+     "An official website of the United States government"
+    ],
+    "final_url": "https://www.usgs.gov/centers/national-minerals-information-center/manganese-statistics-and-information",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "USGS Minerals Periodicals가 망간의 세계 공급·수요·흐름 통계 페이지 'Manganese in March 2026'을 게시했음",
+     "철강 제조(제철 포함)가 domestic 망간 수요의 85% to 90%를 차지하며 페로망간·실리콘망간이 주로 쓰인다고 밝혔음",
+     "데이터셋을 USGS ScienceBase 플랫폼으로 이전 중이며 구독자에게 자료별로 공지할 예정임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "85% to 90%"
+    ],
+    "quotes": [
+     "Steelmaking, including its ironmaking component, accounts for most domestic manganese demand, presently in the range of 85% to 90% of the total.",
+     "An official website of the United States government"
+    ],
+    "category": "research",
+    "tags": [
+     "망간",
+     "철강",
+     "페로망간",
+     "USGS",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "sulfur-fixing, deoxidizing, and alloying properties",
+      "meaning": "황 고정, 탈산, 합금 특성"
+     },
+     {
+      "phrase": "Manganese ferroalloys",
+      "meaning": "망간 합금철"
+     },
+     {
+      "phrase": "Mineral Industry Surveys",
+      "meaning": "광물산업 조사(USGS 간행물)"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 1858,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:55:30+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 4줄)"
+    ],
+    "retry_tails": [
+     "rase\": \"Manganese ferroalloys\", \"meaning\": \"망간 합금철\"},\n    {\"phrase\": \"Mineral Industry Surveys\", \"meaning\": \"광물산업 조사(USGS 간행물)\"}\n  ],\n  \"implication\": \"해당 없음\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "7cdab2e7fb",
+     "v1_url": "https://www.usgs.gov/centers/national-minerals-information-center/manganese-statistics-and-information",
+     "summary_raw": "Category: Mineral Industry Surveys.   (Published 9/18/2026)"
+    }
+   },
+   "v1": {
+    "korean_summary": "망간은 철강, 배터리, 화학산업의 필수 핵심광물로서 글로벌 공급망에서 중요한 역할을 담당하고 있음이 확인되었습니다. 2026년 3월 현황 조사에 따르면 주요 생산국의 생산량 변동과 수출입 추이가 산업 수요에 미치는 영향을 주시할 필요가 있을 전망입니다. 특히 에너지 전환과 첨단산업 육성 정책에 따른 망간 수요 증가에 대응하기 위해 안정적인 공급망 확보와 국내 자원개발 전략의 강화가 시급한 상황입니다.",
+    "category": "supply_chain",
+    "tags": [
+     "망간",
+     "핵심광물",
+     "공급망 안정화"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical mineral supply chain",
+      "meaning": "핵심광물 공급망"
+     },
+     {
+      "phrase": "manganese production and consumption statistics",
+      "meaning": "망간 생산 및 소비 통계"
+     },
+     {
+      "phrase": "global manganese market dynamics",
+      "meaning": "글로벌 망간 시장 동향"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "7cdab2e7fb",
+    "title": "Manganese in March 2026",
+    "url": "https://usgs.gov/centers/national-minerals-information-center/manganese-statistics-and-information",
+    "source": "USGS Minerals Periodicals",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-09-18",
+    "korean_summary": [
+     "USGS Minerals Periodicals가 망간의 세계 공급·수요·흐름 통계 페이지 'Manganese in March 2026'을 게시했음",
+     "철강 제조(제철 포함)가 domestic 망간 수요의 85% to 90%를 차지하며 페로망간·실리콘망간이 주로 쓰인다고 밝혔음",
+     "데이터셋을 USGS ScienceBase 플랫폼으로 이전 중이며 구독자에게 자료별로 공지할 예정임"
+    ],
+    "category": "research",
+    "tags": [
+     "망간",
+     "철강",
+     "페로망간",
+     "USGS",
+     "미국"
+    ],
+    "ai_processed": true,
+    "card_id": "a85bbc849382",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "85% to 90%"
+    ],
+    "quotes": [
+     "Steelmaking, including its ironmaking component, accounts for most domestic manganese demand, presently in the range of 85% to 90% of the total.",
+     "An official website of the United States government"
+    ],
+    "summary_raw": "Category: Mineral Industry Surveys.   (Published 9/18/2026)",
+    "english_phrases": [
+     {
+      "phrase": "sulfur-fixing, deoxidizing, and alloying properties",
+      "meaning": "황 고정, 탈산, 합금 특성"
+     },
+     {
+      "phrase": "Manganese ferroalloys",
+      "meaning": "망간 합금철"
+     },
+     {
+      "phrase": "Mineral Industry Surveys",
+      "meaning": "광물산업 조사(USGS 간행물)"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "bece24309afa",
+   "title": "Green River lithium project, US – update - Mining Weekly",
+   "title_norm": "green river lithium project us update",
+   "url": "https://miningweekly.com/article/green-river-lithium-project-us-update-2026-09-18",
+   "gnews_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdHN4SHVVV05zOF92ZFhWWjRsSTFmYVhLaHJjODBrcFRjTHZtZkN3cldkRnRITy00OTJXZEFNc2t0R0ZGV19nS3gwV2hzcEV0dU1ncjBmZHNvN3F4a25mLWNSYU04T0V3Zi0xdTNnSFdrTWhDMDlHMUNybFQ5bnBrb2hCcTNqUV9BUTM4NVpR?oc=5",
+   "source": {
+    "name": "Mining Weekly - via Google News",
+    "domain": "miningweekly.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-09-17",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:55:31+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 7296,
+    "sha256": "2b9e7003ba7433071c965cae91edc43803bba0e24b33292f4ab5c94595129d7a",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-09-18",
+    "quotes": [
+     "The FEP-1 scoping study estimates a base-case pretax net present value (NPV), at an 8% discount rate, of $1.37-billion and an IRR of 27.5%.",
+     "The base-case after-tax NPV is estimated at $896-million, with an after-tax internal rate of return of 21.7%."
+    ],
+    "final_url": "https://www.miningweekly.com/article/green-river-lithium-project-us-update-2026-09-18",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "UIPA 이사회가 Anson 미국 자회사 A1 Lithium에 $193-million 인센티브를 승인했음",
+     "인센티브는 운영 20년간 연 약 $8-million의 세금 환급으로 제공될 예정임",
+     "확정 타당성조사는 약 6~7개월 소요 예상이며 첫 탄산리튬 공급은 2029년 목표임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "$193-million",
+     "10 000 t/y",
+     "$568.47-million"
+    ],
+    "quotes": [
+     "The FEP-1 scoping study estimates a base-case pretax net present value (NPV), at an 8% discount rate, of $1.37-billion and an IRR of 27.5%.",
+     "The base-case after-tax NPV is estimated at $896-million, with an after-tax internal rate of return of 21.7%."
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "직접리튬추출",
+     "탄산리튬",
+     "미국",
+     "유타"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "direct lithium extraction (DLE)",
+      "meaning": "직접 리튬 추출"
+     },
+     {
+      "phrase": "tax rebate",
+      "meaning": "세금 환급"
+     },
+     {
+      "phrase": "final investment decision",
+      "meaning": "최종 투자 결정"
+     }
+    ],
+    "implication": "유타 지역 당국이 세금 환급과 인프라 채권 지원을 제공해 미국 내 DLE 리튬 프로젝트의 개발 여건이 개선됨"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:55:45+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 4줄)"
+    ],
+    "retry_tails": [
+     "nd engineering design\", \"meaning\": \"기본설계(FEED) 단계 엔지니어링 설계\"},\n    {\"phrase\": \"final investment decision\", \"meaning\": \"최종 투자 결정\"}\n  ],\n  \"implication\": \"해당 없음\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "710531b141",
+     "v1_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdHN4SHVVV05zOF92ZFhWWjRsSTFmYVhLaHJjODBrcFRjTHZtZkN3cldkRnRITy00OTJXZEFNc2t0R0ZGV19nS3gwV2hzcEV0dU1ncjBmZHNvN3F4a25mLWNSYU04T0V3Zi0xdTNnSFdrTWhDMDlHMUNybFQ5bnBrb2hCcTNqUV9BUTM4NVpR?oc=5",
+     "summary_raw": "Green River lithium project, US – update&nbsp;&nbsp;Mining Weekly"
+    }
+   },
+   "v1": {
+    "korean_summary": "미국 Green River 리튬 프로젝트는 국내 핵심광물 공급망 확보 전략의 벤치마킹 대상으로 주목되고 있습니다. 본 프로젝트의 최신 진전 상황은 미국의 에너지 전환 목표 달성을 위한 리튬 자급화 노력을 반영하고 있습니다. 향후 광물 추출 기술 및 환경 규제 동향이 국내 염수 리튬 개발 정책 수립에 중요한 참고자료가 될 전망입니다.",
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "염수 광상",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals supply chain security",
+      "meaning": "핵심광물 공급망 안정성 확보"
+     },
+     {
+      "phrase": "domestic lithium production capacity",
+      "meaning": "국내 리튬 생산 능력"
+     },
+     {
+      "phrase": "energy transition targets",
+      "meaning": "에너지 전환 목표"
+     },
+     {
+      "phrase": "brine lithium extraction technology",
+      "meaning": "염수 리튬 추출 기술"
+     },
+     {
+      "phrase": "project development timeline and milestones",
+      "meaning": "프로젝트 개발 일정 및 주요 이정표"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "710531b141",
+    "title": "Green River lithium project, US – update - Mining Weekly",
+    "url": "https://miningweekly.com/article/green-river-lithium-project-us-update-2026-09-18",
+    "source": "Mining Weekly - via Google News",
+    "tier_weight": 3,
+    "score": 9,
+    "published": "2026-09-17",
+    "korean_summary": [
+     "UIPA 이사회가 Anson 미국 자회사 A1 Lithium에 $193-million 인센티브를 승인했음",
+     "인센티브는 운영 20년간 연 약 $8-million의 세금 환급으로 제공될 예정임",
+     "확정 타당성조사는 약 6~7개월 소요 예상이며 첫 탄산리튬 공급은 2029년 목표임"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "직접리튬추출",
+     "탄산리튬",
+     "미국",
+     "유타"
+    ],
+    "ai_processed": true,
+    "card_id": "bece24309afa",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "$193-million",
+     "10 000 t/y",
+     "$568.47-million"
+    ],
+    "quotes": [
+     "The FEP-1 scoping study estimates a base-case pretax net present value (NPV), at an 8% discount rate, of $1.37-billion and an IRR of 27.5%.",
+     "The base-case after-tax NPV is estimated at $896-million, with an after-tax internal rate of return of 21.7%."
+    ],
+    "summary_raw": "Green River lithium project, US – update&nbsp;&nbsp;Mining Weekly",
+    "english_phrases": [
+     {
+      "phrase": "direct lithium extraction (DLE)",
+      "meaning": "직접 리튬 추출"
+     },
+     {
+      "phrase": "tax rebate",
+      "meaning": "세금 환급"
+     },
+     {
+      "phrase": "final investment decision",
+      "meaning": "최종 투자 결정"
+     }
+    ],
+    "implication": "유타 지역 당국이 세금 환급과 인프라 채권 지원을 제공해 미국 내 DLE 리튬 프로젝트의 개발 여건이 개선됨",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "d347843d1469",
+   "title": "Neo begins commercial shipments from Estonia rare earth magnet plant - Fastmarkets",
+   "title_norm": "neo begins commercial shipments from estonia rare earth magnet plant",
+   "url": "https://fastmarkets.com/insights/neo-begins-commercial-shipments-from-estonia-rare-earth-magnet-plant",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdFJNYmxZa3VEQU1tM0JnVFNnN2pDeGY2Y0JVY2Vvby1IRHRJZDlxWnNaN3BSSDY5OXZPNGphWERpY1QwS2xWUi1pcDlmYlNFYmMtUHo5c0lnU3JBMjNUTGpNaXMyc2lLYUFKNUpkdDN5VHczcjVrZUJidEYwa1pabXVfSzdBaFpWYWV4Nkoxdmw2cUV6cUQzWDRtT1FSYlVIOHdjSGlVNlB2dw?oc=5",
+   "source": {
+    "name": "Fastmarkets - via Google News",
+    "domain": "fastmarkets.com",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-09-17",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:55:46+00:00",
+   "score": 9,
+   "body": {
+    "status": "lead_only",
+    "chars": 113,
+    "sha256": "b0f81f512d3c6e2412539d21dc19438ce38dd5314f87dc2032953b40c939f527",
+    "source": "og_description",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [
+     "Explore the significance of rare earths in building Europe's magnet industry for automotive and renewable energy."
+    ],
+    "final_url": "https://www.fastmarkets.com/insights/neo-begins-commercial-shipments-from-estonia-rare-earth-magnet-plant/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Neo가 에스토니아 희토류 자석 공장에서 상업 출하를 시작했음",
+     "리드는 유럽 자석 산업 구축에서 자동차·재생에너지용 희토류의 중요성을 짚어보자는 내용임"
+    ],
+    "basis": "lead",
+    "key_figures": [],
+    "quotes": [],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "영구자석",
+     "에스토니아",
+     "유럽",
+     "상업 출하"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "commercial shipments",
+      "meaning": "상업 출하"
+     },
+     {
+      "phrase": "rare earth magnet plant",
+      "meaning": "희토류 자석 공장"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "lead_only",
+    "input_chars": 113,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:55:48+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "e3a77de1d0",
+     "v1_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdFJNYmxZa3VEQU1tM0JnVFNnN2pDeGY2Y0JVY2Vvby1IRHRJZDlxWnNaN3BSSDY5OXZPNGphWERpY1QwS2xWUi1pcDlmYlNFYmMtUHo5c0lnU3JBMjNUTGpNaXMyc2lLYUFKNUpkdDN5VHczcjVrZUJidEYwa1pabXVfSzdBaFpWYWV4Nkoxdmw2cUV6cUQzWDRtT1FSYlVIOHdjSGlVNlB2dw?oc=5",
+     "summary_raw": "Neo begins commercial shipments from Estonia rare earth magnet plant&nbsp;&nbsp;Fastmarkets"
+    }
+   },
+   "v1": {
+    "korean_summary": "네오(Neo)가 에스토니아의 희토류 자석 제조 공장에서 상업적 출하를 개시함으로써 유럽 내 핵심광물 공급망 다각화가 진전되고 있음이 확인되었습니다. 이는 중국 의존도를 낮추고 서방 진영의 희토류 자석 자급역량을 강화하는 전략적 의미를 지닙니다. 유럽연합의 핵심광물 공급망 재편 정책과 맞물려 향후 글로벌 희토류 시장의 구도 변화를 주도할 것으로 전망됩니다.",
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "희토류자석",
+     "에스토니아"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "commercial shipments from a rare earth magnet plant",
+      "meaning": "희토류 자석 공장으로부터의 상업적 출하"
+     },
+     {
+      "phrase": "supply chain diversification of critical minerals",
+      "meaning": "핵심광물 공급망의 다각화"
+     },
+     {
+      "phrase": "localization of rare earth permanent magnet production",
+      "meaning": "희토류 영구자석 생산의 국지화(현지화)"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "e3a77de1d0",
+    "title": "Neo begins commercial shipments from Estonia rare earth magnet plant - Fastmarkets",
+    "url": "https://fastmarkets.com/insights/neo-begins-commercial-shipments-from-estonia-rare-earth-magnet-plant",
+    "source": "Fastmarkets - via Google News",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-09-17",
+    "korean_summary": [
+     "[본문 미확보] Neo가 에스토니아 희토류 자석 공장에서 상업 출하를 시작했음",
+     "리드는 유럽 자석 산업 구축에서 자동차·재생에너지용 희토류의 중요성을 짚어보자는 내용임"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "영구자석",
+     "에스토니아",
+     "유럽",
+     "상업 출하"
+    ],
+    "ai_processed": true,
+    "card_id": "d347843d1469",
+    "basis": "lead",
+    "body_status": "lead_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Neo begins commercial shipments from Estonia rare earth magnet plant&nbsp;&nbsp;Fastmarkets",
+    "english_phrases": [
+     {
+      "phrase": "commercial shipments",
+      "meaning": "상업 출하"
+     },
+     {
+      "phrase": "rare earth magnet plant",
+      "meaning": "희토류 자석 공장"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "6dde5da8c987",
+   "title": "Correction to assessment of Indonesian domestic trade laterite ore with 1.6% nickel content on September 15 - Fastmarkets",
+   "title_norm": "correction to assessment of indonesian domestic trade laterite ore with 1 6 nickel content on september 15",
+   "url": "https://fastmarkets.com/insights/correction-to-assessment-of-indonesian-domestic-trade-laterite-ore-with-1-6-nickel-content-on-september-15",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNc1MzajlRTEZlX01INDVyNVRUeUpnUkN1OGxZeWNONFJGU09NbFRDT2psai1ub28xYnRROHpiSFVKd1EyUEcyQW5qbnJNOWJqUzI2SkJuZEdQVXZLM0ZEN09OU0dENzI3S1laNU9MdEFuSXY2Sm9lVm14UnN6TzdnbE5CSXNBT19IZ2MzT3BrM2VOTHFNdTB0Wm4xbHdXVm9Pc29FSWY2Y1pWSXNYbTA4aVRYb21JSDNoYVY4WUR2WFljRnJyMmxva1RmNG9hQnJ4aU8tSUJ2RGU1emVf?oc=5",
+   "source": {
+    "name": "Fastmarkets - via Google News",
+    "domain": "fastmarkets.com",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-09-17",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:55:49+00:00",
+   "score": 9,
+   "body": {
+    "status": "lead_only",
+    "chars": 218,
+    "sha256": "a8607b064314031fca637dd3d56e7f3b8b7a285e3455c6178566242ef1cb045e",
+    "source": "og_description",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [
+     "Fastmarkets has corrected the MB-NIO-0008 Laterite ore with 1.6% nickel content, Indonesia domestic trade, delivered, $/tonne assessment, which was published incorrectly on Tuesday September 15 due to a reporter error."
+    ],
+    "final_url": "https://www.fastmarkets.com/insights/correction-to-assessment-of-indonesian-domestic-trade-laterite-ore-with-1-6-nickel-content-on-september-15/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Fastmarkets가 9월 15일자 인도네시아 내수 거래 니켈 1.6% 라테라이트 광석 평가를 정정했음",
+     "MB-NIO-0008 평가가 기자 오류로 화요일인 9월 15일 잘못 게재됐다고 밝혔음"
+    ],
+    "basis": "lead",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "니켈",
+     "라테라이트 광석",
+     "인도네시아",
+     "가격평가",
+     "정정"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "reporter error",
+      "meaning": "기자 오류"
+     },
+     {
+      "phrase": "domestic trade, delivered",
+      "meaning": "내수 거래, 인도 조건"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "lead_only",
+    "input_chars": 218,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:55:55+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "7bfdf90034",
+     "v1_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNc1MzajlRTEZlX01INDVyNVRUeUpnUkN1OGxZeWNONFJGU09NbFRDT2psai1ub28xYnRROHpiSFVKd1EyUEcyQW5qbnJNOWJqUzI2SkJuZEdQVXZLM0ZEN09OU0dENzI3S1laNU9MdEFuSXY2Sm9lVm14UnN6TzdnbE5CSXNBT19IZ2MzT3BrM2VOTHFNdTB0Wm4xbHdXVm9Pc29FSWY2Y1pWSXNYbTA4aVRYb21JSDNoYVY4WUR2WFljRnJyMmxva1RmNG9hQnJ4aU8tSUJ2RGU1emVf?oc=5",
+     "summary_raw": "Correction to assessment of Indonesian domestic trade laterite ore with 1.6% nickel content on September 15&nbsp;&nbsp;Fastmarkets"
+    }
+   },
+   "v1": {
+    "korean_summary": "Fastmarkets가 9월 15일 인도네시아 국내 거래 라테라이트 광석의 니켈 함량 평가를 수정 발표했습니다. 해당 정정은 니켈 1.6% 함유 라테라이트 광석의 가격 평가 기준을 재조정한 것으로 확인되었습니다. 이는 핵심광물인 니켈의 시장 가격 지표 설정 과정에서 데이터 정확성 강화의 중요성을 시사합니다.",
+    "category": "supply_chain",
+    "tags": [
+     "니켈",
+     "라테라이트 광석",
+     "인도네시아"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "laterite ore assessment",
+      "meaning": "라테라이트 광석 평가(품위, 가치 평가)"
+     },
+     {
+      "phrase": "domestic trade correction",
+      "meaning": "국내 거래 정정(시장 데이터 수정)"
+     },
+     {
+      "phrase": "nickel content grade",
+      "meaning": "니켈 함량 등급(품위 기준)"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "7bfdf90034",
+    "title": "Correction to assessment of Indonesian domestic trade laterite ore with 1.6% nickel content on September 15 - Fastmarkets",
+    "url": "https://fastmarkets.com/insights/correction-to-assessment-of-indonesian-domestic-trade-laterite-ore-with-1-6-nickel-content-on-september-15",
+    "source": "Fastmarkets - via Google News",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-09-17",
+    "korean_summary": [
+     "[본문 미확보] Fastmarkets가 9월 15일자 인도네시아 내수 거래 니켈 1.6% 라테라이트 광석 평가를 정정했음",
+     "MB-NIO-0008 평가가 기자 오류로 화요일인 9월 15일 잘못 게재됐다고 밝혔음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "니켈",
+     "라테라이트 광석",
+     "인도네시아",
+     "가격평가",
+     "정정"
+    ],
+    "ai_processed": true,
+    "card_id": "6dde5da8c987",
+    "basis": "lead",
+    "body_status": "lead_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Correction to assessment of Indonesian domestic trade laterite ore with 1.6% nickel content on September 15&nbsp;&nbsp;Fastmarkets",
+    "english_phrases": [
+     {
+      "phrase": "reporter error",
+      "meaning": "기자 오류"
+     },
+     {
+      "phrase": "domestic trade, delivered",
+      "meaning": "내수 거래, 인도 조건"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "c6e63015c093",
+   "title": "Magnesium metal supply agreement terminated - Project Blue",
+   "title_norm": "magnesium metal supply agreement terminated",
+   "url": "https://projectblue.com/blue?type=blueview&article=973",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE93ZVU3NjBNOUd0aTBYYjk1MFl5MGlaLWRwLUFEZ0ZHUEY1LWdHcy1GdU9BMnhvbkN3VFpHMWxEQjdwOTdJOW51TnppSVNLTVVVM1BoWHF3TGR1UGRud2NJc0hPQTlpbTdxOXc?oc=5",
+   "source": {
+    "name": "Project Blue - via Google News",
+    "domain": "projectblue.com",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-09-19",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:55:56+00:00",
+   "score": 9,
+   "body": {
+    "status": "lead_only",
+    "chars": 119,
+    "sha256": "be45bf9521e356a03425ae1646375866c2fb394a9dd6a298a3ec58da4c84f68f",
+    "source": "og_description",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": "2026-03-11",
+    "quotes": [],
+    "final_url": "https://www.projectblue.com/blue?type=blueview&article=973",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "마그네슘 금속 공급 계약이 종료되었음",
+     "QSLM이 Magontec의 계약 수정 요청 거부 후 마그네슘 금속 공급 계약을 해지했다고 전해졌음"
+    ],
+    "basis": "lead",
+    "key_figures": [],
+    "quotes": [],
+    "category": "supply_chain",
+    "tags": [
+     "마그네슘",
+     "공급계약",
+     "계약 해지",
+     "QSLM",
+     "Magontec"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "supply agreement terminated",
+      "meaning": "공급 계약 종료"
+     },
+     {
+      "phrase": "purportedly terminated",
+      "meaning": "해지한 것으로 알려진"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "lead_only",
+    "input_chars": 119,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:55:58+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "850347c09f",
+     "v1_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE93ZVU3NjBNOUd0aTBYYjk1MFl5MGlaLWRwLUFEZ0ZHUEY1LWdHcy1GdU9BMnhvbkN3VFpHMWxEQjdwOTdJOW51TnppSVNLTVVVM1BoWHF3TGR1UGRud2NJc0hPQTlpbTdxOXc?oc=5",
+     "summary_raw": "Magnesium metal supply agreement terminated&nbsp;&nbsp;Project Blue"
+    }
+   },
+   "v1": {
+    "korean_summary": "Project Blue의 마그네슘 금속 공급 계약이 종료됨에 따라 핵심광물 공급망의 불확실성이 증대될 것으로 예상됩니다. 이는 배터리 및 경량 소재 산업의 마그네슘 수급에 직접적인 영향을 미칠 것으로 판단됩니다. 향후 국내 핵심광물 자급률 확대 및 안정적인 공급망 확보의 중요성이 더욱 강조될 것으로 전망됩니다.",
+    "category": "supply_chain",
+    "tags": [
+     "마그네슘",
+     "핵심광물 공급망",
+     "프로젝트 블루"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "supply agreement terminated",
+      "meaning": "공급 계약 종료"
+     },
+     {
+      "phrase": "magnesium metal supply chain disruption",
+      "meaning": "마그네슘 금속 공급망 차질"
+     },
+     {
+      "phrase": "critical mineral security",
+      "meaning": "핵심광물 수급 안보"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "850347c09f",
+    "title": "Magnesium metal supply agreement terminated - Project Blue",
+    "url": "https://projectblue.com/blue?type=blueview&article=973",
+    "source": "Project Blue - via Google News",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-09-19",
+    "korean_summary": [
+     "[본문 미확보] 마그네슘 금속 공급 계약이 종료되었음",
+     "QSLM이 Magontec의 계약 수정 요청 거부 후 마그네슘 금속 공급 계약을 해지했다고 전해졌음"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "마그네슘",
+     "공급계약",
+     "계약 해지",
+     "QSLM",
+     "Magontec"
+    ],
+    "ai_processed": true,
+    "card_id": "c6e63015c093",
+    "basis": "lead",
+    "body_status": "lead_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Magnesium metal supply agreement terminated&nbsp;&nbsp;Project Blue",
+    "english_phrases": [
+     {
+      "phrase": "supply agreement terminated",
+      "meaning": "공급 계약 종료"
+     },
+     {
+      "phrase": "purportedly terminated",
+      "meaning": "해지한 것으로 알려진"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "4e7dab84b88e",
+   "title": "US Critical Minerals merges with Nova Resources, acquires historical tantalum operation in Alabama - Project Blue",
+   "title_norm": "us critical minerals merges with nova resources acquires historical tantalum operation in alabama",
+   "url": "https://projectblue.com/blue?article=1668&type=blueview",
+   "gnews_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5VTHc2OTRRRmxKS19acnZnaTFURFpQc3ZDVHhoMjkxb0VDaGR1U1BUQ2hvVE5NQnpnRl9JdVRpbHJOZ29FSWlUWTgwRjJpdjhzQmh3NERncHZQYzZ6Q05XVU1PLTl5ZmpSc25Z?oc=5",
+   "source": {
+    "name": "Project Blue - via Google News",
+    "domain": "projectblue.com",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-09-17",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:55:59+00:00",
+   "score": 9,
+   "body": {
+    "status": "lead_only",
+    "chars": 242,
+    "sha256": "fdf559f3faf1087b0d8d1ba4b15d9afed761936e1c788571dfc72f7e8c5b9151",
+    "source": "og_description",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": "2026-03-11",
+    "quotes": [
+     "On 9 September, US Critical Minerals (USCM) announced it had entered into a binding framework agreement for a merger with Nova Resources (Nova).",
+     "Additionally, the McAllister tantalum mine, mineral rights, and processing mill will be acquired."
+    ],
+    "final_url": "https://www.projectblue.com/blue?article=1668&type=blueview",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "US Critical Minerals가 Nova Resources와 합병하고 앨라배마의 과거 탄탈럼 사업장을 인수함",
+     "USCM이 9월 9일 Nova와 구속력 있는 합병 기본합의를 맺었고 McAllister 탄탈럼 광산·광물권·가공공장을 인수할 예정임"
+    ],
+    "basis": "lead",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "탄탈럼",
+     "합병",
+     "인수",
+     "앨라배마",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "binding framework agreement",
+      "meaning": "구속력 있는 기본 합의"
+     },
+     {
+      "phrase": "mineral rights",
+      "meaning": "광물권"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "lead_only",
+    "input_chars": 242,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:56:07+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "ebed09375a",
+     "v1_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5VTHc2OTRRRmxKS19acnZnaTFURFpQc3ZDVHhoMjkxb0VDaGR1U1BUQ2hvVE5NQnpnRl9JdVRpbHJOZ29FSWlUWTgwRjJpdjhzQmh3NERncHZQYzZ6Q05XVU1PLTl5ZmpSc25Z?oc=5",
+     "summary_raw": "US Critical Minerals merges with Nova Resources, acquires historical tantalum operation in Alabama&nbsp;&nbsp;Project Blue"
+    }
+   },
+   "v1": {
+    "korean_summary": "미국의 US Critical Minerals가 Nova Resources와 합병하여 앨라배마주의 역사적 탄탈륨 광산을 인수함으로써 국내 핵심광물 공급망 강화에 나섰습니다. 이번 인수를 통해 미국은 전자기기, 반도체, 방위산업 등에 필수적인 탄탈륨의 자급 능력을 확대할 것으로 예상됩니다. Project Blue 프로젝트로 명명된 본 사업은 미국의 핵심광물 자립화 전략의 핵심 추진 과제로 평가되고 있습니다.",
+    "category": "supply_chain",
+    "tags": [
+     "탄탈륨",
+     "광산재개발",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "merger and acquisition of historical critical minerals operation",
+      "meaning": "역사적 핵심광물 광산 운영의 합병·인수"
+     },
+     {
+      "phrase": "domestic supply chain resilience for critical minerals",
+      "meaning": "핵심광물의 국내 공급망 회복력 강화"
+     },
+     {
+      "phrase": "strategic resource independence in tantalum production",
+      "meaning": "탄탈륨 생산에 있어 전략적 자립도 확보"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "ebed09375a",
+    "title": "US Critical Minerals merges with Nova Resources, acquires historical tantalum operation in Alabama - Project Blue",
+    "url": "https://projectblue.com/blue?article=1668&type=blueview",
+    "source": "Project Blue - via Google News",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-09-17",
+    "korean_summary": [
+     "[본문 미확보] US Critical Minerals가 Nova Resources와 합병하고 앨라배마의 과거 탄탈럼 사업장을 인수함",
+     "USCM이 9월 9일 Nova와 구속력 있는 합병 기본합의를 맺었고 McAllister 탄탈럼 광산·광물권·가공공장을 인수할 예정임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "탄탈럼",
+     "합병",
+     "인수",
+     "앨라배마",
+     "미국"
+    ],
+    "ai_processed": true,
+    "card_id": "4e7dab84b88e",
+    "basis": "lead",
+    "body_status": "lead_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "US Critical Minerals merges with Nova Resources, acquires historical tantalum operation in Alabama&nbsp;&nbsp;Project Blue",
+    "english_phrases": [
+     {
+      "phrase": "binding framework agreement",
+      "meaning": "구속력 있는 기본 합의"
+     },
+     {
+      "phrase": "mineral rights",
+      "meaning": "광물권"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "83989faf174f",
+   "title": "Korea Zinc and Lockheed Martin sign MoU for germanium supply and procurement - Project Blue",
+   "title_norm": "korea zinc and lockheed martin sign mou for germanium supply and procurement",
+   "url": "https://projectblue.com/blue?type=blueview&article=1298",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9FbS1lUW5RZlBsLUxhQ0w5T0RmZWNzX0FWTzlhbUthU3dPLVhRMEJLXzVLbDNFblFkQ3dqZkJuN1Q5SzFub3BaMFVkOXIxc2ZzM2Z1UEhTVWdGZXE5SmNfa3pOUG1WUQ?oc=5",
+   "source": {
+    "name": "Project Blue - via Google News",
+    "domain": "projectblue.com",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-09-17",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:56:08+00:00",
+   "score": 9,
+   "body": {
+    "status": "lead_only",
+    "chars": 180,
+    "sha256": "6d1e203da1f8f79b4ccde2eb5e9220d960864ace6153a79c0aa25fb6577d99ba",
+    "source": "og_description",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": "2026-03-11",
+    "quotes": [
+     "In an effort to establish a China-free supply chain, Korea Zinc and Lockheed Martin agreed to collaborate on an independent germanium supply chain, from mining to refined material."
+    ],
+    "final_url": "https://projectblue.com/blue?type=blueview&article=1298",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "고려아연과 록히드마틴이 게르마늄 공급·조달을 위한 양해각서(MoU)를 체결했음",
+     "중국 의존 없는 공급망 구축을 위해 채굴부터 정제물까지 독립적인 게르마늄 공급망을 협력하기로 했음"
+    ],
+    "basis": "lead",
+    "key_figures": [],
+    "quotes": [],
+    "category": "supply_chain",
+    "tags": [
+     "게르마늄",
+     "공급망",
+     "MoU",
+     "고려아연",
+     "록히드마틴"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "China-free supply chain",
+      "meaning": "중국 의존이 없는 공급망"
+     },
+     {
+      "phrase": "from mining to refined material",
+      "meaning": "채굴부터 정제물까지"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "lead_only",
+    "input_chars": 180,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:56:10+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "b8828c3812",
+     "v1_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9FbS1lUW5RZlBsLUxhQ0w5T0RmZWNzX0FWTzlhbUthU3dPLVhRMEJLXzVLbDNFblFkQ3dqZkJuN1Q5SzFub3BaMFVkOXIxc2ZzM2Z1UEhTVWdGZXE5SmNfa3pOUG1WUQ?oc=5",
+     "summary_raw": "Korea Zinc and Lockheed Martin sign MoU for germanium supply and procurement&nbsp;&nbsp;Project Blue"
+    }
+   },
+   "v1": {
+    "korean_summary": "한국의 Korea Zinc과 미국 방위산업체 Lockheed Martin이 게르마늄 공급 및 조달에 관한 양해각서(MoU)를 체결하였으며, 이는 Project Blue라는 핵심광물 공급망 안정화 프로젝트의 일환으로 추진되고 있습니다. 본 협력을 통해 반도체 및 방위용 소재로 활용되는 게르마늄의 안정적 확보가 가능할 것으로 기대됩니다. 한·미 양국 간 핵심광물 공급망 구축이 지정학적 리스크 완화와 공급 다각화 전략에 기여할 전망입니다.",
+    "category": "supply_chain",
+    "tags": [
+     "게르마늄",
+     "공급망 안정화",
+     "한·미 협력"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Memorandum of Understanding (MoU) for critical mineral supply chain",
+      "meaning": "핵심광물 공급망 구축을 위한 양해각서"
+     },
+     {
+      "phrase": "Strategic sourcing and procurement of germanium",
+      "meaning": "게르마늄의 전략적 수급 및 조달"
+     },
+     {
+      "phrase": "Supply chain diversification for critical materials security",
+      "meaning": "핵심광물 확보 안정성을 위한 공급망 다각화"
+     },
+     {
+      "phrase": "Public-private partnership in critical mineral development",
+      "meaning": "핵심광물 개발에 있어 관·민 협력체계"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "b8828c3812",
+    "title": "Korea Zinc and Lockheed Martin sign MoU for germanium supply and procurement - Project Blue",
+    "url": "https://projectblue.com/blue?type=blueview&article=1298",
+    "source": "Project Blue - via Google News",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-09-17",
+    "korean_summary": [
+     "[본문 미확보] 고려아연과 록히드마틴이 게르마늄 공급·조달을 위한 양해각서(MoU)를 체결했음",
+     "중국 의존 없는 공급망 구축을 위해 채굴부터 정제물까지 독립적인 게르마늄 공급망을 협력하기로 했음"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "게르마늄",
+     "공급망",
+     "MoU",
+     "고려아연",
+     "록히드마틴"
+    ],
+    "ai_processed": true,
+    "card_id": "83989faf174f",
+    "basis": "lead",
+    "body_status": "lead_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Korea Zinc and Lockheed Martin sign MoU for germanium supply and procurement&nbsp;&nbsp;Project Blue",
+    "english_phrases": [
+     {
+      "phrase": "China-free supply chain",
+      "meaning": "중국 의존이 없는 공급망"
+     },
+     {
+      "phrase": "from mining to refined material",
+      "meaning": "채굴부터 정제물까지"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  }
+ ],
+ "excluded": [],
+ "v1_file": "week-2026-09-21.json",
+ "v1_metrics": {
+  "articles": 12,
+  "original_link": 5,
+  "body_based": 0,
+  "failed": 0
+ },
+ "trial": false
+}
