@@ -1,0 +1,1949 @@
+{
+ "schema_version": "card.v1",
+ "service": "cmw",
+ "week_of": "2026-07-06",
+ "generated_at": "2026-10-19T05:25:49+00:00",
+ "mincore_version": "0.3.6",
+ "model": "claude-sonnet-5-5",
+ "prompt_version": "v2.2",
+ "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+ "stats": {
+  "v1_articles": 12,
+  "cards": 12,
+  "excluded": 0,
+  "body_got": 5,
+  "body_rate": 0.417,
+  "original_link": 12,
+  "reader_proxy_used": 0,
+  "line_len": {
+   "lines": 22,
+   "median": 62.0,
+   "max": 85,
+   "over60": 12,
+   "over100": 0
+  },
+  "oda_filled": 3,
+  "usage": {
+   "claude-sonnet-5-5": {
+    "calls": 13,
+    "in": 26567,
+    "out": 4923
+   }
+  },
+  "cost_usd": 0.1535,
+  "body_status": {
+   "title_only": 7,
+   "full": 4,
+   "partial": 1
+  },
+  "body_source": {
+   "none": 7,
+   "presscorner_api": 1,
+   "trafilatura": 3,
+   "og_description": 1
+  },
+  "resolve": {
+   "decoder": 11,
+   "direct": 1
+  },
+  "fail_reason": {},
+  "basis": {
+   "title": 7,
+   "body": 5
+  },
+  "retry_reason": {
+   "JSON 파싱 실패: 문법 오류(Expecting value, 위치 195)": 1
+  },
+  "flags": {},
+  "model_used": {
+   "claude-sonnet-5-5": 12
+  }
+ },
+ "total": 12,
+ "cards": [
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "fa6ec999ef3c",
+   "title": "India-UK Critical Minerals Global Supply Chain Observatory – Policies - IEA – International Energy Agency",
+   "title_norm": "india uk critical minerals global supply chain observatory policies iea",
+   "url": "https://iea.org/policies/32110-india-uk-critical-minerals-global-supply-chain-observatory",
+   "gnews_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSnRWaTRrMF9wRURXcnNXSzN0Um5TejIzcEluRnNUYkR2Mkx4V09CT1I3bnBKQ3lJQ3NmSFVlc281RTY1ZHFiNzdwTVhlTG9vZm5PdEFHaUx4QTRRenducnU5M0p4X25LVU1QcmhQUEc5dXRINTNIUFlJb19CYTYwOVdvM0V0dkV6bjlyUzBaamtnUGlpaGIzOA?oc=5",
+   "source": {
+    "name": "IEA - via Google News",
+    "domain": "iea.org",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-07-02",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:25:02+00:00",
+   "score": 12,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "bot_block",
+    "http_status": 403,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.iea.org/policies/32110-india-uk-critical-minerals-global-supply-chain-observatory",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "인도-영국 핵심광물 글로벌 공급망 관측소 – 정책 – IEA(국제에너지기구)임"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "공급망",
+     "정책",
+     "인도",
+     "영국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Global Supply Chain Observatory",
+      "meaning": "글로벌 공급망 관측소"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:25:04+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "599c4db727",
+     "v1_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSnRWaTRrMF9wRURXcnNXSzN0Um5TejIzcEluRnNUYkR2Mkx4V09CT1I3bnBKQ3lJQ3NmSFVlc281RTY1ZHFiNzdwTVhlTG9vZm5PdEFHaUx4QTRRenducnU5M0p4X25LVU1QcmhQUEc5dXRINTNIUFlJb19CYTYwOVdvM0V0dkV6bjlyUzBaamtnUGlpaGIzOA?oc=5",
+     "summary_raw": "India-UK Critical Minerals Global Supply Chain Observatory – Policies&nbsp;&nbsp;IEA – International Energy Agency"
+    }
+   },
+   "v1": {
+    "korean_summary": "인도와 영국이 IEA와 협력하여 핵심광물 글로벌 공급망 관측소를 설립하고 공급망 투명성 강화 및 정책 조율을 위한 국제 협력 체계를 구축하였습니다. 본 관측소는 핵심광물 수급 현황의 실시간 모니터링과 글로벌 공급망 리스크 평가를 통해 에너지 전환 기반 광물 안정성을 확보하는 것을 목표로 하고 있습니다. 이러한 협력은 주요 소비국과 생산국 간의 정책 대화 강화 및 공급망 다변화 전략 수립에 기여할 것으로 예상됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "리튬·코발트·니켈",
+     "공급망 정책",
+     "인도·영국·국제협력"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Critical Minerals Global Supply Chain Observatory",
+      "meaning": "핵심광물 글로벌 공급망 관측소"
+     },
+     {
+      "phrase": "supply chain transparency and resilience",
+      "meaning": "공급망 투명성 및 회복력"
+     },
+     {
+      "phrase": "policy coordination framework for critical mineral security",
+      "meaning": "핵심광물 보안을 위한 정책 조율 체계"
+     },
+     {
+      "phrase": "real-time monitoring of global mineral flows",
+      "meaning": "글로벌 광물 흐름의 실시간 모니터링"
+     },
+     {
+      "phrase": "supply chain diversification strategy",
+      "meaning": "공급망 다변화 전략"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "599c4db727",
+    "title": "India-UK Critical Minerals Global Supply Chain Observatory – Policies - IEA – International Energy Agency",
+    "url": "https://iea.org/policies/32110-india-uk-critical-minerals-global-supply-chain-observatory",
+    "source": "IEA - via Google News",
+    "tier_weight": 5,
+    "score": 12,
+    "published": "2026-07-02",
+    "korean_summary": [
+     "[제목 기반] 인도-영국 핵심광물 글로벌 공급망 관측소 – 정책 – IEA(국제에너지기구)임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "공급망",
+     "정책",
+     "인도",
+     "영국"
+    ],
+    "ai_processed": true,
+    "card_id": "fa6ec999ef3c",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "India-UK Critical Minerals Global Supply Chain Observatory – Policies&nbsp;&nbsp;IEA – International Energy Agency",
+    "english_phrases": [
+     {
+      "phrase": "Global Supply Chain Observatory",
+      "meaning": "글로벌 공급망 관측소"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "73bc694debbc",
+   "title": "Commission partially greenlights Spain's sixth payment request for €5.7 billion under NextGenerationEU*",
+   "title_norm": "commission partially greenlights spain s sixth payment request for 5 7 billion under nextgenerationeu",
+   "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1511",
+   "gnews_url": null,
+   "source": {
+    "name": "European Commission - Energy",
+    "domain": "ec.europa.eu",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-07-02",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:25:05+00:00",
+   "score": 12,
+   "body": {
+    "status": "full",
+    "chars": 6597,
+    "sha256": "77e97fee22790eae88e6ddffa2540612a8faec6d81a6e4cd225aab77d2e201da",
+    "source": "presscorner_api",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [
+     "Today, the European Commission partially greenlighted Spain's sixth payment request worth €5.7 billion under the Recovery and Resilience Facility , the centrepiece of NextGenerationEU.",
+     "This will represent an additional €277 million."
+    ],
+    "final_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1511",
+    "strategies_tried": [
+     "presscorner_api"
+    ]
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "유럽집행위원회가 스페인의 여섯 번째 지급 요청을 부분 승인했다고 발표했음",
+     "지급 요청 규모는 €5.7 billion이며 51개 이정표와 25개 목표 중 22개 이행을 확인했음",
+     "EFC가 4주 내 의견을 내면 지급 결정이 가능하며, 미결 목표 3건은 스페인이 1개월 내 의견을 제출해야 함"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "€5.7 billion",
+     "€25 million",
+     "€277 million"
+    ],
+    "quotes": [
+     "Today, the European Commission partially greenlighted Spain's sixth payment request worth €5.7 billion under the Recovery and Resilience Facility , the centrepiece of NextGenerationEU.",
+     "This will represent an additional €277 million."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "스페인",
+     "NextGenerationEU",
+     "회복탄력성기금",
+     "유럽집행위원회",
+     "지급 요청"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Recovery and Resilience Facility",
+      "meaning": "회복탄력성기금"
+     },
+     {
+      "phrase": "milestones and targets",
+      "meaning": "이정표와 목표"
+     },
+     {
+      "phrase": "payment request",
+      "meaning": "지급 요청"
+     },
+     {
+      "phrase": "Economic and Financial Committee",
+      "meaning": "경제금융위원회"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:25:09+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "fff8aa0842",
+     "v1_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1511",
+     "summary_raw": "European Commission Press release Brussels, 03 Jul 2026 Today, the European Commission partially greenlighted Spain's sixth payment request worth €5.7 billion under the Recovery and Resilience Facility, the centrepiece of NextGenerationEU. At the same time, it has greenlighted a payment for two milestones suspended earlier under the fifth payment request."
+    }
+   },
+   "v1": {
+    "korean_summary": "유럽연합 집행위원회는 스페인의 차세대유럽기금(NextGenerationEU) 6차 지급 신청 57억 유로를 부분적으로 승인하였음을 발표했습니다. 동시에 이전 5차 지급 요청에서 보류되었던 두 개의 마일스톤에 대한 지급도 승인함으로써 회복력 있는 자원 전략 추진을 가속화하고 있습니다. 이는 유럽의 핵심광물 공급망 확보 및 에너지 전환 인프라 구축을 위한 전략적 투자의 지속성을 보여주는 사례로 평가됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "자원 회복력 전략",
+     "스페인/유럽연합"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Recovery and Resilience Facility",
+      "meaning": "회복력 있는 경제로의 전환을 위한 금융 지원 체계"
+     },
+     {
+      "phrase": "partially greenlighted payment request",
+      "meaning": "조건부 승인된 지급 신청"
+     },
+     {
+      "phrase": "milestones suspended",
+      "meaning": "보류 중인 달성 목표/조건"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "fff8aa0842",
+    "title": "Commission partially greenlights Spain's sixth payment request for €5.7 billion under NextGenerationEU*",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1511",
+    "source": "European Commission - Energy",
+    "tier_weight": 5,
+    "score": 12,
+    "published": "2026-07-02",
+    "korean_summary": [
+     "유럽집행위원회가 스페인의 여섯 번째 지급 요청을 부분 승인했다고 발표했음",
+     "지급 요청 규모는 €5.7 billion이며 51개 이정표와 25개 목표 중 22개 이행을 확인했음",
+     "EFC가 4주 내 의견을 내면 지급 결정이 가능하며, 미결 목표 3건은 스페인이 1개월 내 의견을 제출해야 함"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "스페인",
+     "NextGenerationEU",
+     "회복탄력성기금",
+     "유럽집행위원회",
+     "지급 요청"
+    ],
+    "ai_processed": true,
+    "card_id": "73bc694debbc",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "€5.7 billion",
+     "€25 million",
+     "€277 million"
+    ],
+    "quotes": [
+     "Today, the European Commission partially greenlighted Spain's sixth payment request worth €5.7 billion under the Recovery and Resilience Facility , the centrepiece of NextGenerationEU.",
+     "This will represent an additional €277 million."
+    ],
+    "summary_raw": "European Commission Press release Brussels, 03 Jul 2026 Today, the European Commission partially greenlighted Spain's sixth payment request worth €5.7 billion under the Recovery and Resilience Facility, the centrepiece of NextGenerationEU. At the same time, it has greenlighted a payment for two milestones suspended earlier under the fifth payment request.",
+    "english_phrases": [
+     {
+      "phrase": "Recovery and Resilience Facility",
+      "meaning": "회복탄력성기금"
+     },
+     {
+      "phrase": "milestones and targets",
+      "meaning": "이정표와 목표"
+     },
+     {
+      "phrase": "payment request",
+      "meaning": "지급 요청"
+     },
+     {
+      "phrase": "Economic and Financial Committee",
+      "meaning": "경제금융위원회"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "31601f405bb1",
+   "title": "Brazil-India Memorandum of Understanding on Rare Earth Elements and Critical Minerals – Policies - IEA – International Energy Agency",
+   "title_norm": "brazil india memorandum of understanding on rare earth elements and critical minerals policies iea",
+   "url": "https://iea.org/policies/32100-brazil-india-memorandum-of-understanding-on-rare-earth-elements-and-critical-minerals",
+   "gnews_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNblhUcUVEMjZiV3ByUVgzajA2ZzlaWGVOYk1XMmphelhpWFhpa2xFc1lwcjgtUVVhYjVzdl9qSndKd3VCNzJaQUFmWnM5UmpOVU9CNmV2OXpKeEJaSEFBaDd0SE92Q3M4eUFURVpjT1ZmcTAtbG5FSEFLOTR0Rjd3OWFSZk5FNGw4MGtvdElLRjZ3R0lFcUd2RDdIS1pjUGp0ZVRTc3FfbGtVU0Zuc3V3YkoxeXNVZTdWc2FvRw?oc=5",
+   "source": {
+    "name": "IEA - via Google News",
+    "domain": "iea.org",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-07-02",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:25:09+00:00",
+   "score": 11,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "bot_block",
+    "http_status": 403,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.iea.org/policies/32100-brazil-india-memorandum-of-understanding-on-rare-earth-elements-and-critical-minerals",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "브라질-인도 희토류 및 핵심광물 양해각서(MOU) – 정책 – IEA 국제에너지기구"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "핵심광물",
+     "양해각서",
+     "브라질",
+     "인도"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Memorandum of Understanding",
+      "meaning": "양해각서"
+     },
+     {
+      "phrase": "Rare Earth Elements",
+      "meaning": "희토류 원소"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:25:10+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "9b1684636c",
+     "v1_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNblhUcUVEMjZiV3ByUVgzajA2ZzlaWGVOYk1XMmphelhpWFhpa2xFc1lwcjgtUVVhYjVzdl9qSndKd3VCNzJaQUFmWnM5UmpOVU9CNmV2OXpKeEJaSEFBaDd0SE92Q3M4eUFURVpjT1ZmcTAtbG5FSEFLOTR0Rjd3OWFSZk5FNGw4MGtvdElLRjZ3R0lFcUd2RDdIS1pjUGp0ZVRTc3FfbGtVU0Zuc3V3YkoxeXNVZTdWc2FvRw?oc=5",
+     "summary_raw": "Brazil-India Memorandum of Understanding on Rare Earth Elements and Critical Minerals – Policies&nbsp;&nbsp;IEA – International Energy Agency"
+    }
+   },
+   "v1": {
+    "korean_summary": "브라질과 인도가 희토류 및 핵심광물 분야에서 양해각서(MOU)를 체결하였으며, 이는 두 국가 간 공급망 협력 및 기술 교류를 강화하는 계기로 작용할 전망입니다. 해당 협약은 글로벌 핵심광물 수급 안정화 및 전략적 공급망 다원화에 기여할 것으로 기대되고 있습니다. 이러한 국제 협력은 에너지 전환 및 첨단산업 발전을 뒷받침하는 핵심광물 확보 경쟁이 심화되는 상황에서 중요한 정책적 신호로 평가됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "공급망 협력",
+     "브라질-인도"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Memorandum of Understanding on Rare Earth Elements and Critical Minerals",
+      "meaning": "희토류 및 핵심광물 양해각서"
+     },
+     {
+      "phrase": "supply chain cooperation and mineral security",
+      "meaning": "공급망 협력 및 광물 안보"
+     },
+     {
+      "phrase": "diversification of strategic mineral sourcing",
+      "meaning": "전략광물 조달처의 다원화"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "9b1684636c",
+    "title": "Brazil-India Memorandum of Understanding on Rare Earth Elements and Critical Minerals – Policies - IEA – International Energy Agency",
+    "url": "https://iea.org/policies/32100-brazil-india-memorandum-of-understanding-on-rare-earth-elements-and-critical-minerals",
+    "source": "IEA - via Google News",
+    "tier_weight": 5,
+    "score": 11,
+    "published": "2026-07-02",
+    "korean_summary": [
+     "[제목 기반] 브라질-인도 희토류 및 핵심광물 양해각서(MOU) – 정책 – IEA 국제에너지기구"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "핵심광물",
+     "양해각서",
+     "브라질",
+     "인도"
+    ],
+    "ai_processed": true,
+    "card_id": "31601f405bb1",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Brazil-India Memorandum of Understanding on Rare Earth Elements and Critical Minerals – Policies&nbsp;&nbsp;IEA – International Energy Agency",
+    "english_phrases": [
+     {
+      "phrase": "Memorandum of Understanding",
+      "meaning": "양해각서"
+     },
+     {
+      "phrase": "Rare Earth Elements",
+      "meaning": "희토류 원소"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "abf27ebdf7c2",
+   "title": "FASTMARKETS LITHIUM SOUTH AMERICA - Fastmarkets",
+   "title_norm": "fastmarkets lithium south america",
+   "url": "https://fastmarkets.com/uploads/2026/07/Working-Agenda-Lithium-South-America-Fastmarkets-2026-FINAL-010726.pdf",
+   "gnews_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbndUX1IwMnRwWlRoYkNQV1FLSW9iZTBpemM4VzM4T0tvZmkxRHlqZElZOFZicHFqSjNWTEx3dnNmWHUwSU1mRm9USklwQTV1QlBMWkJobEp5YVFWYjhoT1pTN0dDTXFIbnVmamtaN3FHU1lUN3paUmVsNWZUMWFnWndpSkFuc2xmOGdEUzE1TjBVUVJMMzBvd1BnNmhFM201emNEWmFMWExrRjVIbHNWU09TM2w?oc=5",
+   "source": {
+    "name": "Fastmarkets - via Google News",
+    "domain": "fastmarkets.com",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-07-02",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:25:11+00:00",
+   "score": 9,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.fastmarkets.com/uploads/2026/07/Working-Agenda-Lithium-South-America-Fastmarkets-2026-FINAL-010726.pdf",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Fastmarkets 리튬 남미(FASTMARKETS LITHIUM SOUTH AMERICA)임"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "남미",
+     "Fastmarkets"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "FASTMARKETS LITHIUM SOUTH AMERICA",
+      "meaning": "Fastmarkets 리튬 남미 (행사 또는 콘텐츠명으로 추정되나 확인 불가)"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:25:13+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "a524513f1c",
+     "v1_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbndUX1IwMnRwWlRoYkNQV1FLSW9iZTBpemM4VzM4T0tvZmkxRHlqZElZOFZicHFqSjNWTEx3dnNmWHUwSU1mRm9USklwQTV1QlBMWkJobEp5YVFWYjhoT1pTN0dDTXFIbnVmamtaN3FHU1lUN3paUmVsNWZUMWFnWndpSkFuc2xmOGdEUzE1TjBVUVJMMzBvd1BnNmhFM201emNEWmFMWExrRjVIbHNWU09TM2w?oc=5",
+     "summary_raw": "FASTMARKETS LITHIUM SOUTH AMERICA&nbsp;&nbsp;Fastmarkets"
+    }
+   },
+   "v1": {
+    "korean_summary": "남미 지역의 리튬 시장이 글로벌 핵심광물 수급 구도에서 전략적 중요성을 더욱 강화하고 있음이 확인되었습니다. Fastmarkets의 최신 분석에 따르면 남미 리튬 생산 및 가격 동향이 세계 에너지 전환 정책과 배터리 산업 수요에 직결되어 있을 전망입니다. 한국 자원공학계는 남미 핵심광물 공급망의 변동성을 모니터링하며 국내 자원 안보 전략 수립에 활용할 필요가 있습니다.",
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "남미 광물자원",
+     "핵심광물 공급망"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals supply chain in South America",
+      "meaning": "남미 지역의 핵심광물 공급망"
+     },
+     {
+      "phrase": "lithium market dynamics",
+      "meaning": "리튬 시장 동향 및 가격 변동성"
+     },
+     {
+      "phrase": "resource security and strategic reserves",
+      "meaning": "자원 안보 및 전략적 비축 전략"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "a524513f1c",
+    "title": "FASTMARKETS LITHIUM SOUTH AMERICA - Fastmarkets",
+    "url": "https://fastmarkets.com/uploads/2026/07/Working-Agenda-Lithium-South-America-Fastmarkets-2026-FINAL-010726.pdf",
+    "source": "Fastmarkets - via Google News",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-07-02",
+    "korean_summary": [
+     "[제목 기반] Fastmarkets 리튬 남미(FASTMARKETS LITHIUM SOUTH AMERICA)임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "남미",
+     "Fastmarkets"
+    ],
+    "ai_processed": true,
+    "card_id": "abf27ebdf7c2",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "FASTMARKETS LITHIUM SOUTH AMERICA&nbsp;&nbsp;Fastmarkets",
+    "english_phrases": [
+     {
+      "phrase": "FASTMARKETS LITHIUM SOUTH AMERICA",
+      "meaning": "Fastmarkets 리튬 남미 (행사 또는 콘텐츠명으로 추정되나 확인 불가)"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "0c738ea589ed",
+   "title": "US critical minerals push reignites Thunder Mountain antimony-tungsten district - Stockhead",
+   "title_norm": "us critical minerals push reignites thunder mountain antimony tungsten district",
+   "url": "https://stockhead.com.au/resources/us-critical-minerals-push-reignites-thunder-mountain-antimony-tungsten-district",
+   "gnews_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQV3d6c1hUUGNFWEQ5UFhWdWdtRkViaERjcmZWOTN1UGg5b0VNeFJ3Q2VBc2JqWVZNa1hMZWNwV0hHSmJZR0d2d2IwcFpHS19Wb1lvaGU5NkRUbDYzQlREMXRuektvS1l0eTdnWmpKeEgwT3RDa21BanA4UVFkVzNQa1Vpb3NTNVdTR1F3M3RDNVBabFVXVG9vdHN6QllFUkFVZjF6QndfQUhjdkVSUWozZGxWVUhuZw?oc=5",
+   "source": {
+    "name": "Google News - Critical Minerals Exploration",
+    "domain": "stockhead.com.au",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-07-05",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:25:14+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 10527,
+    "sha256": "15988fa4b621b416f571c1ce6c42efb3f74cc2d4d6cb2156e6b5d3f766f93735",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-07-05",
+    "quotes": [
+     "Historical estimates suggest the region supplied up to 90% of antimony and about half of tungsten used in America’s WWII efforts.",
+     "China dominates global supply, producing about 80% of the world’s tungsten and more than half of all antimony."
+    ],
+    "final_url": "https://stockhead.com.au/resources/us-critical-minerals-push-reignites-thunder-mountain-antimony-tungsten-district/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "미국 아이다호주 Stibnite-Thunder Mountain 지역에서 안티모니·텅스텐 사업 활동이 다시 활발해졌음",
+     "Resolution Minerals의 Antimony Ridge 프로스펙트가 4월 FAST-41 Transparency Projects 목록에 추가되었음",
+     "Executive Order 14241이 핵심광물 인허가 가속을 지시했으며, FAST-41은 승인을 보장하지는 않는다고 밝혔음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "4.8Moz",
+     "about 80%",
+     "more than half"
+    ],
+    "quotes": [
+     "Historical estimates suggest the region supplied up to 90% of antimony and about half of tungsten used in America’s WWII efforts.",
+     "China dominates global supply, producing about 80% of the world’s tungsten and more than half of all antimony."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "안티모니",
+     "텅스텐",
+     "FAST-41",
+     "인허가",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "FAST-41 Transparency Projects list",
+      "meaning": "FAST-41 투명성 프로젝트 목록"
+     },
+     {
+      "phrase": "Executive Order 14241",
+      "meaning": "행정명령 14241호"
+     },
+     {
+      "phrase": "import-reliant",
+      "meaning": "수입 의존적인"
+     },
+     {
+      "phrase": "regulatory certainty",
+      "meaning": "규제 확실성"
+     }
+    ],
+    "implication": "미국이 인허가 가속으로 안티모니·텅스텐 자국 공급 확대를 추진하며, 중국의 수출 통제에 따른 수입 의존을 줄이려 함."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:25:19+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "2987df7937",
+     "v1_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQV3d6c1hUUGNFWEQ5UFhWdWdtRkViaERjcmZWOTN1UGg5b0VNeFJ3Q2VBc2JqWVZNa1hMZWNwV0hHSmJZR0d2d2IwcFpHS19Wb1lvaGU5NkRUbDYzQlREMXRuektvS1l0eTdnWmpKeEgwT3RDa21BanA4UVFkVzNQa1Vpb3NTNVdTR1F3M3RDNVBabFVXVG9vdHN6QllFUkFVZjF6QndfQUhjdkVSUWozZGxWVUhuZw?oc=5",
+     "summary_raw": "US critical minerals push reignites Thunder Mountain antimony-tungsten district&nbsp;&nbsp;Stockhead"
+    }
+   },
+   "v1": {
+    "korean_summary": "미국의 핵심광물 확보 정책 강화로 Thunder Mountain 지구의 안티몬-텅스텐 광상 개발이 재조명받고 있습니다. 동 지구는 북미 주요 핵심광물 부존지로서 국내 광물 자급률 제고에 전략적 가치를 지니고 있습니다. 미국의 공급망 안정화 정책에 따라 이 지역의 탐사 및 개발 활동이 향후 가속화될 것으로 전망됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "안티몬",
+     "텅스텐",
+     "광상재평가"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals push",
+      "meaning": "핵심광물 확보 정책 추진"
+     },
+     {
+      "phrase": "antimony-tungsten district",
+      "meaning": "안티몬-텅스텐 광상 지구"
+     },
+     {
+      "phrase": "reignite exploration activities",
+      "meaning": "탐사 활동의 재개/재활성화"
+     },
+     {
+      "phrase": "domestic supply chain resilience",
+      "meaning": "국내 공급망 안정성"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "2987df7937",
+    "title": "US critical minerals push reignites Thunder Mountain antimony-tungsten district - Stockhead",
+    "url": "https://stockhead.com.au/resources/us-critical-minerals-push-reignites-thunder-mountain-antimony-tungsten-district",
+    "source": "Google News - Critical Minerals Exploration",
+    "tier_weight": 1,
+    "score": 9,
+    "published": "2026-07-05",
+    "korean_summary": [
+     "미국 아이다호주 Stibnite-Thunder Mountain 지역에서 안티모니·텅스텐 사업 활동이 다시 활발해졌음",
+     "Resolution Minerals의 Antimony Ridge 프로스펙트가 4월 FAST-41 Transparency Projects 목록에 추가되었음",
+     "Executive Order 14241이 핵심광물 인허가 가속을 지시했으며, FAST-41은 승인을 보장하지는 않는다고 밝혔음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "안티모니",
+     "텅스텐",
+     "FAST-41",
+     "인허가",
+     "미국"
+    ],
+    "ai_processed": true,
+    "card_id": "0c738ea589ed",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "4.8Moz",
+     "about 80%",
+     "more than half"
+    ],
+    "quotes": [
+     "Historical estimates suggest the region supplied up to 90% of antimony and about half of tungsten used in America’s WWII efforts.",
+     "China dominates global supply, producing about 80% of the world’s tungsten and more than half of all antimony."
+    ],
+    "summary_raw": "US critical minerals push reignites Thunder Mountain antimony-tungsten district&nbsp;&nbsp;Stockhead",
+    "english_phrases": [
+     {
+      "phrase": "FAST-41 Transparency Projects list",
+      "meaning": "FAST-41 투명성 프로젝트 목록"
+     },
+     {
+      "phrase": "Executive Order 14241",
+      "meaning": "행정명령 14241호"
+     },
+     {
+      "phrase": "import-reliant",
+      "meaning": "수입 의존적인"
+     },
+     {
+      "phrase": "regulatory certainty",
+      "meaning": "규제 확실성"
+     }
+    ],
+    "implication": "미국이 인허가 가속으로 안티모니·텅스텐 자국 공급 확대를 추진하며, 중국의 수출 통제에 따른 수입 의존을 줄이려 함.",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "8591644dcc8c",
+   "title": "St George Mining Draws Interest: Is Critical Minerals Exploration Back on Investors' Screens? - Kalkine",
+   "title_norm": "st george mining draws interest is critical minerals exploration back on investors screens",
+   "url": "https://kalkine.com.au/news/general-news/st-george-mining-draws-interest-is-critical-minerals-exploration-back-on-investors-screens",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcEJHWENFVE03bjJsemtBbzZjcWFyVmtYdE9ZNDBhWklCNGFGbnYwRVVwaWJURkptQmwwRUs2UE5hNmVPWG0zXzNNazlxWUl1dThOUldzTXBTTUhiTGsxUHRnQTlxRG1CN3hhZ1NwZjJDZEdpbVZGSjZWdTFKNFlHZ3ZwNG5La1dzLWRKVDN1aFRkNnJrYnFCOEZBSW1KelFRNWlOZldYX3FiZzBkSk1WSTdYWktTZFEtVGdDU1oxNXZ4eU9LZ0ZHUGdiTQ?oc=5",
+   "source": {
+    "name": "Google News - Critical Minerals Exploration",
+    "domain": "kalkine.com.au",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-07-03",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:25:19+00:00",
+   "score": 9,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "bot_block",
+    "http_status": 403,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://kalkine.com.au/news/general-news/st-george-mining-draws-interest-is-critical-minerals-exploration-back-on-investors-screens",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "St George Mining이 관심을 끌고 있으며 핵심광물 탐사가 다시 투자자들의 관심 대상이 됐는지를 묻는 Kalkine 기사임"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "exploration_tech",
+    "tags": [
+     "핵심광물",
+     "탐사",
+     "St George Mining",
+     "투자"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Critical Minerals Exploration",
+      "meaning": "핵심광물 탐사"
+     },
+     {
+      "phrase": "Draws Interest",
+      "meaning": "관심을 끌다"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:25:21+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "2c8c2488c3",
+     "v1_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcEJHWENFVE03bjJsemtBbzZjcWFyVmtYdE9ZNDBhWklCNGFGbnYwRVVwaWJURkptQmwwRUs2UE5hNmVPWG0zXzNNazlxWUl1dThOUldzTXBTTUhiTGsxUHRnQTlxRG1CN3hhZ1NwZjJDZEdpbVZGSjZWdTFKNFlHZ3ZwNG5La1dzLWRKVDN1aFRkNnJrYnFCOEZBSW1KelFRNWlOZldYX3FiZzBkSk1WSTdYWktTZFEtVGdDU1oxNXZ4eU9LZ0ZHUGdiTQ?oc=5",
+     "summary_raw": "St George Mining Draws Interest: Is Critical Minerals Exploration Back on Investors' Screens?&nbsp;&nbsp;Kalkine"
+    }
+   },
+   "v1": {
+    "korean_summary": "St George Mining의 사례를 통해 핵심광물 탐사 부문이 투자자들의 관심을 다시 회복하고 있는 것으로 확인되었습니다. 에너지 전환 및 국방 산업의 수요 증가에 따라 핵심광물 탐사 프로젝트에 대한 자본 유입이 재개되고 있는 추세입니다. 이는 지정학적 공급망 안정화와 자원 안보 강화를 위한 글로벌 전략의 일환으로 볼 수 있습니다.",
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "광물탐사투자",
+     "글로벌 공급망"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals exploration regaining investor interest",
+      "meaning": "핵심광물 탐사가 투자자들의 관심을 회복하고 있음"
+     },
+     {
+      "phrase": "energy transition and defense applications driving demand",
+      "meaning": "에너지 전환과 국방 응용이 수요를 주도하고 있음"
+     },
+     {
+      "phrase": "capital inflow to critical minerals projects",
+      "meaning": "핵심광물 프로젝트에 대한 자본 유입"
+     },
+     {
+      "phrase": "supply chain security and resource sovereignty",
+      "meaning": "공급망 안정화 및 자원 자주권"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "2c8c2488c3",
+    "title": "St George Mining Draws Interest: Is Critical Minerals Exploration Back on Investors' Screens? - Kalkine",
+    "url": "https://kalkine.com.au/news/general-news/st-george-mining-draws-interest-is-critical-minerals-exploration-back-on-investors-screens",
+    "source": "Google News - Critical Minerals Exploration",
+    "tier_weight": 1,
+    "score": 9,
+    "published": "2026-07-03",
+    "korean_summary": [
+     "[제목 기반] St George Mining이 관심을 끌고 있으며 핵심광물 탐사가 다시 투자자들의 관심 대상이 됐는지를 묻는 Kalkine 기사임"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "핵심광물",
+     "탐사",
+     "St George Mining",
+     "투자"
+    ],
+    "ai_processed": true,
+    "card_id": "8591644dcc8c",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "St George Mining Draws Interest: Is Critical Minerals Exploration Back on Investors' Screens?&nbsp;&nbsp;Kalkine",
+    "english_phrases": [
+     {
+      "phrase": "Critical Minerals Exploration",
+      "meaning": "핵심광물 탐사"
+     },
+     {
+      "phrase": "Draws Interest",
+      "meaning": "관심을 끌다"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "b9133811e03f",
+   "title": "Search - Introducing the Critical Minerals Policy Tracker - Reports - IEA – International Energy Agency",
+   "title_norm": "search introducing the critical minerals policy tracker reports iea",
+   "url": "https://iea.org/search/reports?q=Introducing+the+Critical+Minerals+Policy+Tracker&page=4",
+   "gnews_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOUpmT1pZM211UVhjT1dHWmltdHRNMy0tVDFjY0dOQnZpdlNYSHAyTjFFR0tIQzRsUUpwdUFuM05nLVFwMFZ6MVRSR0ZsUlJac21DNWVuY3VMNWFRYkgyNkw0bVBvSVNJTGptblVQVUJBNFU1YnFLWVJPOFRWOUNBSGo0R3A3OW91TnlEOWZtQnJzek9KVzc5Ry1zaXFlVnd0NDE5Rw?oc=5",
+   "source": {
+    "name": "IEA - via Google News",
+    "domain": "iea.org",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-06-29",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:25:21+00:00",
+   "score": 7,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "bot_block",
+    "http_status": 403,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.iea.org/search/reports?q=Introducing%20the%20Critical%20Minerals%20Policy%20Tracker&page=4",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "IEA, 핵심광물 정책 트래커(Critical Minerals Policy Tracker)를 소개하는 보고서를 공개했음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "정책 트래커",
+     "IEA",
+     "보고서"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Critical Minerals Policy Tracker",
+      "meaning": "핵심광물 정책 트래커"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:25:22+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "5cb731a281",
+     "v1_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOUpmT1pZM211UVhjT1dHWmltdHRNMy0tVDFjY0dOQnZpdlNYSHAyTjFFR0tIQzRsUUpwdUFuM05nLVFwMFZ6MVRSR0ZsUlJac21DNWVuY3VMNWFRYkgyNkw0bVBvSVNJTGptblVQVUJBNFU1YnFLWVJPOFRWOUNBSGo0R3A3OW91TnlEOWZtQnJzek9KVzc5Ry1zaXFlVnd0NDE5Rw?oc=5",
+     "summary_raw": "Search - Introducing the Critical Minerals Policy Tracker - Reports&nbsp;&nbsp;IEA – International Energy Agency"
+    }
+   },
+   "v1": {
+    "korean_summary": "국제에너지기구(IEA)가 각국의 핵심광물 정책을 추적·분석하는 '핵심광물 정책 추적 시스템(Critical Minerals Policy Tracker)'을 새롭게 도입했음이 확인되었습니다. 본 플랫폼은 전 지구적 에너지 전환에 필수적인 핵심광물 확보를 위한 각국 정책 동향을 체계적으로 모니터링함으로써 공급망 투명성 강화에 기여할 전망입니다. 이는 핵심광물 자급화 및 선순환 경제 구축을 위한 국제협력의 근거 기반 마련에 중요한 역할을 할 것으로 예상됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "정책·시장",
+     "국제협력"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Critical Minerals Policy Tracker",
+      "meaning": "핵심광물 정책 추적 시스템/플랫폼"
+     },
+     {
+      "phrase": "policy monitoring and benchmarking",
+      "meaning": "정책 모니터링 및 벤치마킹"
+     },
+     {
+      "phrase": "supply chain transparency and resilience",
+      "meaning": "공급망 투명성 및 복원력 강화"
+     },
+     {
+      "phrase": "energy transition materials",
+      "meaning": "에너지 전환 필수 광물"
+     },
+     {
+      "phrase": "policy landscape analysis",
+      "meaning": "정책 환경 분석"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "5cb731a281",
+    "title": "Search - Introducing the Critical Minerals Policy Tracker - Reports - IEA – International Energy Agency",
+    "url": "https://iea.org/search/reports?q=Introducing+the+Critical+Minerals+Policy+Tracker&page=4",
+    "source": "IEA - via Google News",
+    "tier_weight": 5,
+    "score": 7,
+    "published": "2026-06-29",
+    "korean_summary": [
+     "[제목 기반] IEA, 핵심광물 정책 트래커(Critical Minerals Policy Tracker)를 소개하는 보고서를 공개했음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "정책 트래커",
+     "IEA",
+     "보고서"
+    ],
+    "ai_processed": true,
+    "card_id": "b9133811e03f",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Search - Introducing the Critical Minerals Policy Tracker - Reports&nbsp;&nbsp;IEA – International Energy Agency",
+    "english_phrases": [
+     {
+      "phrase": "Critical Minerals Policy Tracker",
+      "meaning": "핵심광물 정책 트래커"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "64242b9e877b",
+   "title": "Global Critical Minerals Outlook 2026 - IEA – International Energy Agency",
+   "title_norm": "global critical minerals outlook 2026 iea",
+   "url": "https://iea.org/events/global-critical-minerals-outlook-2026",
+   "gnews_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ZVVdTRVlVUDFWSnlrcHljVEdJTDRrZUotbFp2MVlfTDZ6WlZhaTBwOE5oLUpJMURCem1kb1VVU0FMSm1OY0NfdHNlQkFPWHdBYkZQaHAxX0lEckZLUzFKZ3Itekd2X1AwRmFFRlNlSWVIUQ?oc=5",
+   "source": {
+    "name": "IEA - via Google News",
+    "domain": "iea.org",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-06-30",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:25:22+00:00",
+   "score": 7,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "bot_block",
+    "http_status": 403,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.iea.org/events/global-critical-minerals-outlook-2026",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "IEA가 '글로벌 핵심광물 전망 2026'을 발표했음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "IEA",
+     "시장 전망",
+     "국제에너지기구"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Global Critical Minerals Outlook 2026",
+      "meaning": "글로벌 핵심광물 전망 2026"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:25:24+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "f9d73a3cf4",
+     "v1_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ZVVdTRVlVUDFWSnlrcHljVEdJTDRrZUotbFp2MVlfTDZ6WlZhaTBwOE5oLUpJMURCem1kb1VVU0FMSm1OY0NfdHNlQkFPWHdBYkZQaHAxX0lEckZLUzFKZ3Itekd2X1AwRmFFRlNlSWVIUQ?oc=5",
+     "summary_raw": "Global Critical Minerals Outlook 2026&nbsp;&nbsp;IEA – International Energy Agency"
+    }
+   },
+   "v1": {
+    "korean_summary": "IEA의 2026 글로벌 핵심광물 전망 보고서는 에너지 전환에 필수적인 핵심광물의 수급 불균형 심화를 경고하고 있습니다. 리튬, 코발트, 니켈 등 주요 핵심광물의 공급 부족이 재생에너지 및 전기차 보급 확대를 제약할 것으로 전망되고 있습니다. 선진국 및 신흥국의 전략적 비축, 채굴 투자 확대, 순환경제 강화가 공급 안정화의 핵심 과제로 제시되었습니다.",
+    "category": "policy_market",
+    "tags": [
+     "리튬·코발트·니켈",
+     "공급안정성·순환경제",
+     "글로벌 에너지 전환"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Global Critical Minerals Outlook",
+      "meaning": "글로벌 핵심광물 전망보고서"
+     },
+     {
+      "phrase": "supply-demand imbalance",
+      "meaning": "수급 불균형"
+     },
+     {
+      "phrase": "energy transition minerals",
+      "meaning": "에너지 전환용 핵심광물"
+     },
+     {
+      "phrase": "mineral supply security",
+      "meaning": "핵심광물 공급 안정성"
+     },
+     {
+      "phrase": "circular economy for minerals",
+      "meaning": "광물자원의 순환경제 체계"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "f9d73a3cf4",
+    "title": "Global Critical Minerals Outlook 2026 - IEA – International Energy Agency",
+    "url": "https://iea.org/events/global-critical-minerals-outlook-2026",
+    "source": "IEA - via Google News",
+    "tier_weight": 5,
+    "score": 7,
+    "published": "2026-06-30",
+    "korean_summary": [
+     "[제목 기반] IEA가 '글로벌 핵심광물 전망 2026'을 발표했음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "IEA",
+     "시장 전망",
+     "국제에너지기구"
+    ],
+    "ai_processed": true,
+    "card_id": "64242b9e877b",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Global Critical Minerals Outlook 2026&nbsp;&nbsp;IEA – International Energy Agency",
+    "english_phrases": [
+     {
+      "phrase": "Global Critical Minerals Outlook 2026",
+      "meaning": "글로벌 핵심광물 전망 2026"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "e9c0c544f86e",
+   "title": "Gold Mountain extends rare earth footprint at Irajuba - Mining.com.au",
+   "title_norm": "gold mountain extends rare earth footprint at irajuba",
+   "url": "https://mining.com.au/gold-mountain-extends-rare-earth-footprint-at-irajuba",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMEJULV9OSUtvMnBlX3ZGOGJoNlgyQWdoMXB2UHQyNHBpYnA5VXJUSGhfbUdONzRlU0loTF9VT2RuQVlNVU53c21OS0JqX1pTcVJiSVVvOUhIdVBBWW1heFZvZVpzbjNUQUFJamR1N2k4NDZzbTdWMGZ6LWFiNWVHYmtn?oc=5",
+   "source": {
+    "name": "Google News - Rare Earth Elements",
+    "domain": "mining.com.au",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-07-02",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:25:26+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 1902,
+    "sha256": "219c525566ace077953c4fe84f320a59dd43c37d0fe90cd32ea86b1678623715",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-07-02",
+    "quotes": [
+     "Drillhole IRDD260090 returned 11m at 2,892 parts per million (ppm) total rare earth oxide (TREO) with 41.1% magnet rare earth oxide (MREO)/TREO, including 6m at 4,406 ppm TREO and 48.1% MREO/TREO."
+    ],
+    "final_url": "https://mining.com.au/gold-mountain-extends-rare-earth-footprint-at-irajuba/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Gold Mountain(ASX:GMN)이 브라질 Irajuba 프로스펙트에서 기존 탐사목표 범위를 넘어 희토류 광화대를 확장했다고 밝혔음",
+     "IRDD260090 시추공은 11m 구간 2,892 ppm TREO, IRDD260092는 20m 구간 1,515 ppm TREO를 기록했음",
+     "2025년 12월 보고한 탐사목표는 40–45 million tonnes, 1,200–1,400 ppm TREO였으며 추가 시추 인허가를 진행 중임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "11m at 2,892 parts per million (ppm)",
+     "20m at 1,515 ppm TREO",
+     "40–45 million tonnes at 1,200–1,400 ppm TREO"
+    ],
+    "quotes": [
+     "Drillhole IRDD260090 returned 11m at 2,892 parts per million (ppm) total rare earth oxide (TREO) with 41.1% magnet rare earth oxide (MREO)/TREO, including 6m at 4,406 ppm TREO and 48.1% MREO/TREO."
+    ],
+    "category": "discovery",
+    "tags": [
+     "희토류",
+     "이온흡착점토",
+     "탐사",
+     "브라질",
+     "바이아"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "total rare earth oxide (TREO)",
+      "meaning": "총 희토류 산화물 함량"
+     },
+     {
+      "phrase": "magnet rare earth oxide (MREO)",
+      "meaning": "영구자석용 희토류 산화물"
+     },
+     {
+      "phrase": "Exploration Target",
+      "meaning": "탐사 목표(자원량 추정 이전 단계의 규모 범위)"
+     },
+     {
+      "phrase": "ionic-adsorption clay",
+      "meaning": "이온흡착 점토"
+     }
+    ],
+    "implication": "자석용 희토류 비중이 평균 41.7%인 광화대가 1.2km 이상 이어져, 브라질 이온점토형 희토류 프로젝트의 규모 확대 가능성을 보여줌."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 1902,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:25:30+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "ce51799ca5",
+     "v1_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMEJULV9OSUtvMnBlX3ZGOGJoNlgyQWdoMXB2UHQyNHBpYnA5VXJUSGhfbUdONzRlU0loTF9VT2RuQVlNVU53c21OS0JqX1pTcVJiSVVvOUhIdVBBWW1heFZvZVpzbjNUQUFJamR1N2k4NDZzbTdWMGZ6LWFiNWVHYmtn?oc=5",
+     "summary_raw": "Gold Mountain extends rare earth footprint at Irajuba&nbsp;&nbsp;Mining.com.au"
+    }
+   },
+   "v1": {
+    "korean_summary": "Gold Mountain이 브라질 Irajuba 지역에서 희토류 광물 탐사 범위를 확대하고 있으며, 이는 핵심광물 공급망 다각화를 추구하는 글로벌 추세와 부합하는 것으로 확인되었습니다. 금-희토류 결합 광상 개발은 채산성 강화 및 자원 효율성 증대를 통해 북미 및 선진국의 핵심광물 수급 불안정성 완화에 기여할 전망입니다. 브라질의 광물 자원 기반 강화는 중국 의존도 감소 및 공급망 재편에 전략적 의의가 있을 것으로 판단됩니다.",
+    "category": "discovery",
+    "tags": [
+     "희토류",
+     "광상탐사",
+     "브라질"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "extend rare earth footprint",
+      "meaning": "희토류 광물 탐사·개발 범위 확대"
+     },
+     {
+      "phrase": "critical minerals supply chain diversification",
+      "meaning": "핵심광물 공급망 다각화"
+     },
+     {
+      "phrase": "polymetallic deposit development",
+      "meaning": "금-희토류 등 복합 금속광상 개발"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "ce51799ca5",
+    "title": "Gold Mountain extends rare earth footprint at Irajuba - Mining.com.au",
+    "url": "https://mining.com.au/gold-mountain-extends-rare-earth-footprint-at-irajuba",
+    "source": "Google News - Rare Earth Elements",
+    "tier_weight": 1,
+    "score": 9,
+    "published": "2026-07-02",
+    "korean_summary": [
+     "Gold Mountain(ASX:GMN)이 브라질 Irajuba 프로스펙트에서 기존 탐사목표 범위를 넘어 희토류 광화대를 확장했다고 밝혔음",
+     "IRDD260090 시추공은 11m 구간 2,892 ppm TREO, IRDD260092는 20m 구간 1,515 ppm TREO를 기록했음",
+     "2025년 12월 보고한 탐사목표는 40–45 million tonnes, 1,200–1,400 ppm TREO였으며 추가 시추 인허가를 진행 중임"
+    ],
+    "category": "discovery",
+    "tags": [
+     "희토류",
+     "이온흡착점토",
+     "탐사",
+     "브라질",
+     "바이아"
+    ],
+    "ai_processed": true,
+    "card_id": "e9c0c544f86e",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "11m at 2,892 parts per million (ppm)",
+     "20m at 1,515 ppm TREO",
+     "40–45 million tonnes at 1,200–1,400 ppm TREO"
+    ],
+    "quotes": [
+     "Drillhole IRDD260090 returned 11m at 2,892 parts per million (ppm) total rare earth oxide (TREO) with 41.1% magnet rare earth oxide (MREO)/TREO, including 6m at 4,406 ppm TREO and 48.1% MREO/TREO."
+    ],
+    "summary_raw": "Gold Mountain extends rare earth footprint at Irajuba&nbsp;&nbsp;Mining.com.au",
+    "english_phrases": [
+     {
+      "phrase": "total rare earth oxide (TREO)",
+      "meaning": "총 희토류 산화물 함량"
+     },
+     {
+      "phrase": "magnet rare earth oxide (MREO)",
+      "meaning": "영구자석용 희토류 산화물"
+     },
+     {
+      "phrase": "Exploration Target",
+      "meaning": "탐사 목표(자원량 추정 이전 단계의 규모 범위)"
+     },
+     {
+      "phrase": "ionic-adsorption clay",
+      "meaning": "이온흡착 점토"
+     }
+    ],
+    "implication": "자석용 희토류 비중이 평균 41.7%인 광화대가 1.2km 이상 이어져, 브라질 이온점토형 희토류 프로젝트의 규모 확대 가능성을 보여줌.",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "7e3feede33d1",
+   "title": "Delayed publication of lithium spot CIF CJK daily assessments - Fastmarkets",
+   "title_norm": "delayed publication of lithium spot cif cjk daily assessments",
+   "url": "https://fastmarkets.com/insights/delayed-publication-of-lithium-spot-cif-cjk-daily-assessments",
+   "gnews_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPM1BXT180dUtkaVBod0dZVUloYnpPQkFHZVByaDNuTWxwclhzbWIxZGFyQzZfNjRSam5OUE0way1fN292aUJkS2dLMDBxclBZaDllN0o5LTRRYlIwQnZwTEJKNldSOVNvMjFkdTBVQkZHRG1QV0tqTEt4bVNBUVBEelNLMmxObm5pMHpyNllYbjRVbi1VSjhURDdtUlRmanJS?oc=5",
+   "source": {
+    "name": "Fastmarkets - via Google News",
+    "domain": "fastmarkets.com",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-07-02",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:25:32+00:00",
+   "score": 9,
+   "body": {
+    "status": "partial",
+    "chars": 370,
+    "sha256": "6e68393d8890df2370cf730998e03eb98d44c69ff0b3b6c59f01b532525bf686",
+    "source": "og_description",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.fastmarkets.com/insights/delayed-publication-of-lithium-spot-cif-cjk-daily-assessments/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Fastmarkets가 리튬 현물 CIF CJK 일일 평가가격의 발행이 지연되었다고 공지했음",
+     "대상은 7월 2일(목요일)자 배터리급 탄산리튬·수산화리튬 일수화물 평가가격과 중간값 전환 스프레드임",
+     "지연 원인은 기자 오류이며 가격 데이터베이스는 갱신되었음, 후속 일정은 확인 불가임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "min 99.5% Li2CO3 min",
+     "56.5% LiOH min"
+    ],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "탄산리튬",
+     "수산화리튬",
+     "가격평가",
+     "CIF CJK"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "spot CIF CJK assessments",
+      "meaning": "CIF CJK 현물 가격 평가"
+     },
+     {
+      "phrase": "battery grade",
+      "meaning": "배터리용 등급"
+     },
+     {
+      "phrase": "midpoint transitional spread",
+      "meaning": "중간값 전환 스프레드"
+     },
+     {
+      "phrase": "reporter error",
+      "meaning": "기자 오류"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "partial",
+    "input_chars": 370,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:25:42+00:00",
+    "retry_reasons": [
+     "JSON 파싱 실패: 문법 오류(Expecting value, 위치 195) — 주변: '이며, 가격 데이터베이스는 갱신되었다고 밝혔음\",\\n  ],\\n  \"key_figures\": [\"min 99.5'"
+    ],
+    "retry_tails": [
+     ",\n    {\"phrase\": \"midpoint transitional spread\", \"meaning\": \"중간값 전환 스프레드\"},\n    {\"phrase\": \"reporter error\", \"meaning\": \"기자 오류\"}\n  ],\n  \"implication\": \"해당 없음\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "e3d9c95206",
+     "v1_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPM1BXT180dUtkaVBod0dZVUloYnpPQkFHZVByaDNuTWxwclhzbWIxZGFyQzZfNjRSam5OUE0way1fN292aUJkS2dLMDBxclBZaDllN0o5LTRRYlIwQnZwTEJKNldSOVNvMjFkdTBVQkZHRG1QV0tqTEt4bVNBUVBEelNLMmxObm5pMHpyNllYbjRVbi1VSjhURDdtUlRmanJS?oc=5",
+     "summary_raw": "Delayed publication of lithium spot CIF CJK daily assessments&nbsp;&nbsp;Fastmarkets"
+    }
+   },
+   "v1": {
+    "korean_summary": "Fastmarkets는 리튬 현물 CIF CJK 일일 평가 지수의 발표 일정이 지연되었음을 공식 발표하였습니다. 본 지연은 시장 데이터 수집 및 검증 과정의 기술적 이슈로 인한 것으로 확인되었습니다. 글로벌 핵심광물 가격 지표의 투명성 확보를 위해 신속한 정상화가 요구되는 상황입니다.",
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "가격평가지수",
+     "중국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "lithium spot CIF CJK daily assessments",
+      "meaning": "리튬 현물 중국항만 인도조건(CIF) 일일 가격 평가"
+     },
+     {
+      "phrase": "delayed publication",
+      "meaning": "발표 일정 지연"
+     },
+     {
+      "phrase": "price index integrity",
+      "meaning": "가격지수의 신뢰성 및 정확성"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "e3d9c95206",
+    "title": "Delayed publication of lithium spot CIF CJK daily assessments - Fastmarkets",
+    "url": "https://fastmarkets.com/insights/delayed-publication-of-lithium-spot-cif-cjk-daily-assessments",
+    "source": "Fastmarkets - via Google News",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-07-02",
+    "korean_summary": [
+     "Fastmarkets가 리튬 현물 CIF CJK 일일 평가가격의 발행이 지연되었다고 공지했음",
+     "대상은 7월 2일(목요일)자 배터리급 탄산리튬·수산화리튬 일수화물 평가가격과 중간값 전환 스프레드임",
+     "지연 원인은 기자 오류이며 가격 데이터베이스는 갱신되었음, 후속 일정은 확인 불가임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "탄산리튬",
+     "수산화리튬",
+     "가격평가",
+     "CIF CJK"
+    ],
+    "ai_processed": true,
+    "card_id": "7e3feede33d1",
+    "basis": "body",
+    "body_status": "partial",
+    "key_figures": [
+     "min 99.5% Li2CO3 min",
+     "56.5% LiOH min"
+    ],
+    "quotes": [],
+    "summary_raw": "Delayed publication of lithium spot CIF CJK daily assessments&nbsp;&nbsp;Fastmarkets",
+    "english_phrases": [
+     {
+      "phrase": "spot CIF CJK assessments",
+      "meaning": "CIF CJK 현물 가격 평가"
+     },
+     {
+      "phrase": "battery grade",
+      "meaning": "배터리용 등급"
+     },
+     {
+      "phrase": "midpoint transitional spread",
+      "meaning": "중간값 전환 스프레드"
+     },
+     {
+      "phrase": "reporter error",
+      "meaning": "기자 오류"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "e9442ada9298",
+   "title": "Why Multi-Critical Mineral Projects May Become the West's Supply Chain Priority - Crux Investor",
+   "title_norm": "why multi critical mineral projects may become the west s supply chain priority",
+   "url": "https://cruxinvestor.com/posts/why-multi-critical-mineral-projects-may-become-the-wests-supply-chain-priority",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcVVPWlJHWGFNNU14azYxRlVaSkZldHQzM05MSXpSRUlwQXZpR0FYNVRSQm1oQnZ0SkhYOG1VcFBUdllEclJka3J6QlVKX090Rzlud25aQjZXVmx4ZGdtVHBXZkZhX1hvQ1dWVWxQU2puQlhpRTMwb0xKbko2OURpeGs4VmV0Q0ViU0hVYzl1MDA5MWVHSnBWbUpzVWZHa0R4SVhlWTN3QW1KWlVqZWRzV2k0cw?oc=5",
+   "source": {
+    "name": "Project Blue Mentions in Industry News",
+    "domain": "cruxinvestor.com",
+    "tier": null,
+    "tier_weight": 4,
+    "language": null
+   },
+   "published": "2026-06-30",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:25:43+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 10786,
+    "sha256": "7bb6db8b504c587cb918e0d4f7997e87f67ab106c3e4df009987369d873e0a89",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-06-30",
+    "quotes": [
+     "told the Senate Armed Services Committee that China controls 95% of global heavy rare earth output, that the US imports almost 100% of what it uses, and that 90% of that supply comes from China.",
+     "The US is described as 100% reliant on imports for its yttrium needs."
+    ],
+    "final_url": "https://www.cruxinvestor.com/posts/why-multi-critical-mineral-projects-may-become-the-wests-supply-chain-priority",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "서방 정부·투자자가 핵심광물 프로젝트를 자원 규모보다 공급망 회복력 기준으로 평가하기 시작했다고 Crux Investor가 전했음",
+     "2026년 2월 24일 미 Cadenazzi 차관보는 중국이 중희토류 생산의 95%를 통제한다고 상원에서 증언했음",
+     "Sovereign Metals의 Kasiya 프로젝트는 티타늄·흑연 DFS 단계이며 같은 공정에서 중희토류 추가를 추진 중임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "95%",
+     "approximately 60%",
+     "2 Japanese producers"
+    ],
+    "quotes": [
+     "told the Senate Armed Services Committee that China controls 95% of global heavy rare earth output, that the US imports almost 100% of what it uses, and that 90% of that supply comes from China.",
+     "The US is described as 100% reliant on imports for its yttrium needs."
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "다중광물",
+     "중희토류",
+     "흑연",
+     "티타늄",
+     "말라위"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "multi-commodity supply chains",
+      "meaning": "여러 광물을 아우르는 공급망"
+     },
+     {
+      "phrase": "by-products",
+      "meaning": "부산물"
+     },
+     {
+      "phrase": "flowsheet",
+      "meaning": "광물 처리 공정도"
+     },
+     {
+      "phrase": "Definitive Feasibility Study (DFS)",
+      "meaning": "최종 타당성 조사"
+     },
+     {
+      "phrase": "single point of failure",
+      "meaning": "단일 실패 지점"
+     }
+    ],
+    "implication": "서방에서 중국 등 소수 공급국 의존이 여러 광물에 겹치면서, 한 광체에서 복수 광물을 공급하는 프로젝트가 우선 투자 대상으로 부상할 수 있음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:25:47+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "177d795f03",
+     "v1_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcVVPWlJHWGFNNU14azYxRlVaSkZldHQzM05MSXpSRUlwQXZpR0FYNVRSQm1oQnZ0SkhYOG1VcFBUdllEclJka3J6QlVKX090Rzlud25aQjZXVmx4ZGdtVHBXZkZhX1hvQ1dWVWxQU2puQlhpRTMwb0xKbko2OURpeGs4VmV0Q0ViU0hVYzl1MDA5MWVHSnBWbUpzVWZHa0R4SVhlWTN3QW1KWlVqZWRzV2k0cw?oc=5",
+     "summary_raw": "Why Multi-Critical Mineral Projects May Become the West's Supply Chain Priority&nbsp;&nbsp;Crux Investor"
+    }
+   },
+   "v1": {
+    "korean_summary": "서방 국가들의 공급망 안보 확보를 위해 단일 광종이 아닌 복수의 핵심광물을 동시에 산출하는 다중 핵심광물 프로젝트가 전략적 우선순위로 부상할 것으로 전망됩니다. 이러한 통합형 프로젝트는 탐사 효율성 증대, 개발 비용 절감, 리스크 분산을 통해 에너지 전환 및 국방산업의 안정적 원료 공급을 가능하게 할 것으로 기대됩니다. 향후 서방의 핵심광물 정책 및 투자 결정은 단일 광종 프로젝트보다 복합 광종 포트폴리오를 갖춘 개발 사업에 집중될 가능성이 높습니다.",
+    "category": "supply_chain",
+    "tags": [
+     "리튬·코발트·니켈",
+     "공급망 안보 정책",
+     "서방 선진국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "multi-critical mineral projects",
+      "meaning": "복수의 핵심광물을 동시에 산출하는 광산 개발 프로젝트"
+     },
+     {
+      "phrase": "supply chain resilience",
+      "meaning": "공급망 안정성 및 회복력 강화"
+     },
+     {
+      "phrase": "portfolio approach to mineral security",
+      "meaning": "핵심광물 수급 안보를 위한 포트폴리오 기반 전략"
+     },
+     {
+      "phrase": "synergistic mineral deposits",
+      "meaning": "상호보완적 광체 구성 및 개발 시너지"
+     },
+     {
+      "phrase": "de-risking exploration and development",
+      "meaning": "탐사·개발 단계의 경제적·기술적 리스크 경감"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "177d795f03",
+    "title": "Why Multi-Critical Mineral Projects May Become the West's Supply Chain Priority - Crux Investor",
+    "url": "https://cruxinvestor.com/posts/why-multi-critical-mineral-projects-may-become-the-wests-supply-chain-priority",
+    "source": "Project Blue Mentions in Industry News",
+    "tier_weight": 4,
+    "score": 9,
+    "published": "2026-06-30",
+    "korean_summary": [
+     "서방 정부·투자자가 핵심광물 프로젝트를 자원 규모보다 공급망 회복력 기준으로 평가하기 시작했다고 Crux Investor가 전했음",
+     "2026년 2월 24일 미 Cadenazzi 차관보는 중국이 중희토류 생산의 95%를 통제한다고 상원에서 증언했음",
+     "Sovereign Metals의 Kasiya 프로젝트는 티타늄·흑연 DFS 단계이며 같은 공정에서 중희토류 추가를 추진 중임"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "다중광물",
+     "중희토류",
+     "흑연",
+     "티타늄",
+     "말라위"
+    ],
+    "ai_processed": true,
+    "card_id": "e9442ada9298",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "95%",
+     "approximately 60%",
+     "2 Japanese producers"
+    ],
+    "quotes": [
+     "told the Senate Armed Services Committee that China controls 95% of global heavy rare earth output, that the US imports almost 100% of what it uses, and that 90% of that supply comes from China.",
+     "The US is described as 100% reliant on imports for its yttrium needs."
+    ],
+    "summary_raw": "Why Multi-Critical Mineral Projects May Become the West's Supply Chain Priority&nbsp;&nbsp;Crux Investor",
+    "english_phrases": [
+     {
+      "phrase": "multi-commodity supply chains",
+      "meaning": "여러 광물을 아우르는 공급망"
+     },
+     {
+      "phrase": "by-products",
+      "meaning": "부산물"
+     },
+     {
+      "phrase": "flowsheet",
+      "meaning": "광물 처리 공정도"
+     },
+     {
+      "phrase": "Definitive Feasibility Study (DFS)",
+      "meaning": "최종 타당성 조사"
+     },
+     {
+      "phrase": "single point of failure",
+      "meaning": "단일 실패 지점"
+     }
+    ],
+    "implication": "서방에서 중국 등 소수 공급국 의존이 여러 광물에 겹치면서, 한 광체에서 복수 광물을 공급하는 프로젝트가 우선 투자 대상으로 부상할 수 있음",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "ecc6bb961933",
+   "title": "India Charts a Path to Critical Minerals Supply Chain - ESG News.earth",
+   "title_norm": "india charts a path to critical minerals supply chain",
+   "url": "https://esgnews.earth/latest-news/india-charts-a-path-to-critical-minerals-supply-chain/20413.html",
+   "gnews_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSHpSTHc5QXZDU19LeFFwM2NPMGhfTmFsWnBTQWVMejdIdFJlZ1ZhX1IwSGwyRzBTcDRaT3NzRG9oblk2eWlObnE0eWtxNUhFbnNVSFNkcU8ySlBCdmY4MEZtVURrR2JfT3ZkY29CcEdZMXE4YmpBTEdLSWJxQW9KWFpmRFlENnRENXcwRDd0Sl9aUkxad0NkbmJFWW9ibEFDaldsOQ?oc=5",
+   "source": {
+    "name": "Google News - Critical Minerals Exploration",
+    "domain": "esgnews.earth",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-07-04",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:25:47+00:00",
+   "score": 8,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "bot_block",
+    "http_status": 403,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.esgnews.earth/latest-news/india-charts-a-path-to-critical-minerals-supply-chain/20413.html",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "인도가 핵심광물 공급망 구축의 길을 모색하고 있음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "supply_chain",
+    "tags": [
+     "핵심광물",
+     "공급망",
+     "인도",
+     "ESG"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Critical Minerals Supply Chain",
+      "meaning": "핵심광물 공급망"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:25:49+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "9092a5489d",
+     "v1_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSHpSTHc5QXZDU19LeFFwM2NPMGhfTmFsWnBTQWVMejdIdFJlZ1ZhX1IwSGwyRzBTcDRaT3NzRG9oblk2eWlObnE0eWtxNUhFbnNVSFNkcU8ySlBCdmY4MEZtVURrR2JfT3ZkY29CcEdZMXE4YmpBTEdLSWJxQW9KWFpmRFlENnRENXcwRDd0Sl9aUkxad0NkbmJFWW9ibEFDaldsOQ?oc=5",
+     "summary_raw": "India Charts a Path to Critical Minerals Supply Chain&nbsp;&nbsp;ESG News.earth"
+    }
+   },
+   "v1": {
+    "korean_summary": "인도는 핵심광물 공급망 자립화를 위한 종합 전략을 추진 중이며, 국내 광물 자원 개발과 국제 협력을 통해 의존도를 감소시키려는 노력을 기울이고 있습니다. 이러한 정책적 추진은 인도-태평양 지역 내 핵심광물 확보 경쟁이 심화되는 가운데 인도의 전략적 위상 강화를 목표로 합니다. 관련 부처 간 협력과 민간 산업 참여를 통해 탐사에서 가공·정제까지 전주기 자급역량 확충이 예상됩니다.",
+    "category": "supply_chain",
+    "tags": [
+     "리튬·코발트·니켈",
+     "공급망 전략",
+     "인도"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals supply chain",
+      "meaning": "핵심광물 공급망"
+     },
+     {
+      "phrase": "domestic resource development",
+      "meaning": "국내 자원 개발"
+     },
+     {
+      "phrase": "supply chain resilience",
+      "meaning": "공급망 탄력성"
+     },
+     {
+      "phrase": "exploration and extraction capacity",
+      "meaning": "탐사 및 채광 역량"
+     },
+     {
+      "phrase": "strategic autonomy",
+      "meaning": "전략적 자율성"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "9092a5489d",
+    "title": "India Charts a Path to Critical Minerals Supply Chain - ESG News.earth",
+    "url": "https://esgnews.earth/latest-news/india-charts-a-path-to-critical-minerals-supply-chain/20413.html",
+    "source": "Google News - Critical Minerals Exploration",
+    "tier_weight": 1,
+    "score": 8,
+    "published": "2026-07-04",
+    "korean_summary": [
+     "[제목 기반] 인도가 핵심광물 공급망 구축의 길을 모색하고 있음"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "핵심광물",
+     "공급망",
+     "인도",
+     "ESG"
+    ],
+    "ai_processed": true,
+    "card_id": "ecc6bb961933",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "India Charts a Path to Critical Minerals Supply Chain&nbsp;&nbsp;ESG News.earth",
+    "english_phrases": [
+     {
+      "phrase": "Critical Minerals Supply Chain",
+      "meaning": "핵심광물 공급망"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  }
+ ],
+ "excluded": [],
+ "v1_file": "week-2026-07-06.json",
+ "v1_metrics": {
+  "articles": 12,
+  "original_link": 1,
+  "body_based": 0,
+  "failed": 0
+ },
+ "trial": false
+}

@@ -1,0 +1,2015 @@
+{
+ "schema_version": "card.v1",
+ "service": "cmw",
+ "week_of": "2026-05-12",
+ "generated_at": "2026-10-19T05:14:10+00:00",
+ "mincore_version": "0.3.6",
+ "model": "claude-sonnet-5-5",
+ "prompt_version": "v2.2",
+ "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+ "stats": {
+  "v1_articles": 12,
+  "cards": 12,
+  "excluded": 0,
+  "body_got": 8,
+  "body_rate": 0.667,
+  "original_link": 12,
+  "reader_proxy_used": 0,
+  "line_len": {
+   "lines": 28,
+   "median": 56.0,
+   "max": 66,
+   "over60": 8,
+   "over100": 0
+  },
+  "oda_filled": 4,
+  "usage": {
+   "claude-sonnet-5-5": {
+    "calls": 14,
+    "in": 36326,
+    "out": 11075
+   }
+  },
+  "cost_usd": 0.2751,
+  "body_status": {
+   "full": 6,
+   "partial": 2,
+   "title_only": 4
+  },
+  "body_source": {
+   "presscorner_api": 1,
+   "og_description": 2,
+   "trafilatura": 5,
+   "none": 4
+  },
+  "resolve": {
+   "direct": 2,
+   "decoder": 10
+  },
+  "fail_reason": {},
+  "basis": {
+   "body": 8,
+   "title": 4
+  },
+  "retry_reason": {
+   "lines는 3줄이어야 함 (현재 5줄)": 1,
+   "JSON 파싱 실패: 문법 오류(Expecting ',' delimiter, 위치 295)": 1
+  },
+  "flags": {},
+  "model_used": {
+   "claude-sonnet-5-5": 12
+  }
+ },
+ "total": 12,
+ "cards": [
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "438b58d63ec0",
+   "title": "Speech by Commissioner Piotr Serafin during the signing ceremony of the SAFE loan agreement between the EU and Poland",
+   "title_norm": "speech by commissioner piotr serafin during the signing ceremony of the safe loan agreement between the eu and poland",
+   "url": "https://ec.europa.eu/commission/presscorner/detail/pl/speech_26_1050",
+   "gnews_url": null,
+   "source": {
+    "name": "European Commission - Energy",
+    "domain": "ec.europa.eu",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-05-11",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:12:25+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 3658,
+    "sha256": "3cbff356545eb394fcff2606fed1cce3e62bf5a9cfc4ff6b3e9d2c49461ccde8",
+    "source": "presscorner_api",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://ec.europa.eu/commission/presscorner/detail/pl/speech_26_1050",
+    "strategies_tried": [
+     "presscorner_api"
+    ]
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "피오트르 세라핀 집행위원이 EU와 폴란드의 SAFE 대출 협정 서명식에서 연설했음",
+     "SAFE는 EU 예산이 보증하는 최대 150 mld euro 규모의 저금리 대출 프로그램이라고 설명했음",
+     "2028년 시행될 EU 다년 예산 협상에서도 국방을 우선순위로 제안할 계획이라고 밝혔음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "150 mld euro",
+     "1,5 mld euro"
+    ],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "SAFE",
+     "EU 국방 금융",
+     "폴란드",
+     "대출 협정",
+     "다년 예산"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "SAFE is made in Poland",
+      "meaning": "SAFE는 폴란드에서 만들어졌다는 뜻의 연설 표현"
+     },
+     {
+      "phrase": "signing ceremony",
+      "meaning": "서명식"
+     },
+     {
+      "phrase": "loan agreement",
+      "meaning": "대출 협정"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 3658,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:12:34+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "aa0ee0f33d",
+     "v1_url": "https://ec.europa.eu/commission/presscorner/detail/pl/speech_26_1050",
+     "summary_raw": "European Commission Przemówienie Warsaw, 11 May 2026 Panie Premierze,\nPanie Premierze Ministrze Obrony,\nPanie i Panowie Ministrowie,\nPanowie Generałowie, Panie Komisarzu,\nTowarzyszy nam dzisiaj głębokie przekonani..."
+    }
+   },
+   "v1": {
+    "korean_summary": "유럽연합이 폴란드와 체결한 SAFE 차입금 협약 서명식에서 피오트르 세라핀 유럽연합 집행위원이 연설했으며, 이는 EU의 핵심광물 공급망 확보 및 에너지 안보 강화 전략의 일환으로 평가됩니다. 폴란드를 포함한 동유럽 국가들과의 협력을 통해 EU는 중국 의존도를 낮추고 역내 핵심광물 자급률 제고를 추진 중입니다. 이번 협약은 전략적 자원 확보를 위한 EU의 제도적 노력과 회원국 간 연대의 중요성을 보여주는 사례입니다.",
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "공급망 안보",
+     "유럽연합"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals supply chain security",
+      "meaning": "핵심광물 공급망 안보"
+     },
+     {
+      "phrase": "strategic autonomy in raw materials",
+      "meaning": "원자재 분야의 전략적 자립성"
+     },
+     {
+      "phrase": "SAFE loan agreement",
+      "meaning": "SAFE(Sovereignty, Affordability, Functioning Economy) 차입금 협약"
+     },
+     {
+      "phrase": "diversification of supply sources",
+      "meaning": "공급원 다변화"
+     },
+     {
+      "phrase": "domestic extraction and processing capacity",
+      "meaning": "국내 채굴 및 가공 역량"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "aa0ee0f33d",
+    "title": "Speech by Commissioner Piotr Serafin during the signing ceremony of the SAFE loan agreement between the EU and Poland",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/pl/speech_26_1050",
+    "source": "European Commission - Energy",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-05-11",
+    "korean_summary": [
+     "피오트르 세라핀 집행위원이 EU와 폴란드의 SAFE 대출 협정 서명식에서 연설했음",
+     "SAFE는 EU 예산이 보증하는 최대 150 mld euro 규모의 저금리 대출 프로그램이라고 설명했음",
+     "2028년 시행될 EU 다년 예산 협상에서도 국방을 우선순위로 제안할 계획이라고 밝혔음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "SAFE",
+     "EU 국방 금융",
+     "폴란드",
+     "대출 협정",
+     "다년 예산"
+    ],
+    "ai_processed": true,
+    "card_id": "438b58d63ec0",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "150 mld euro",
+     "1,5 mld euro"
+    ],
+    "quotes": [],
+    "summary_raw": "European Commission Przemówienie Warsaw, 11 May 2026 Panie Premierze,\nPanie Premierze Ministrze Obrony,\nPanie i Panowie Ministrowie,\nPanowie Generałowie, Panie Komisarzu,\nTowarzyszy nam dzisiaj głębokie przekonani...",
+    "english_phrases": [
+     {
+      "phrase": "SAFE is made in Poland",
+      "meaning": "SAFE는 폴란드에서 만들어졌다는 뜻의 연설 표현"
+     },
+     {
+      "phrase": "signing ceremony",
+      "meaning": "서명식"
+     },
+     {
+      "phrase": "loan agreement",
+      "meaning": "대출 협정"
+     }
+    ],
+    "implication": "",
+    "trial": true
+   },
+   "trial": true
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "b076b7d6907d",
+   "title": "Fastmarkets clarifies inclusion of government-set benchmark pricing in Indonesia nickel ore assessment - Fastmarkets",
+   "title_norm": "fastmarkets clarifies inclusion of government set benchmark pricing in indonesia nickel ore assessment",
+   "url": "https://fastmarkets.com/insights/fastmarkets-clarifies-inclusion-of-government-set-benchmark-pricing-in-indonesia-nickel-ore-assessment",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMldmanBNZldVUkJkWTZTeFdzMVoyOHVHZnptMDJ0T2pIRDdJRXdaMXA3SUZzVS1YSHNuNFB5eE9FamhwSzUxMmlfdjBuSjhwa0lyRWxSTTlWMUd1UE40NW11WV9jWUhNZTRJMWpyTnNUS1NTMDgtQThsVm1LWUxKYkVGVm5zRldIS0xNNGZkYXlQQmpIaDlIM0RRSEU5cVBUaUtkb0puLXl5aVN4X1BlREhTNURGRnZDRlBGSWFJaTRZZ1JVNWpQcjM4ZDg5eHpxY3k3bk9wRQ?oc=5",
+   "source": {
+    "name": "Fastmarkets - via Google News",
+    "domain": "fastmarkets.com",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-05-08",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:12:35+00:00",
+   "score": 9,
+   "body": {
+    "status": "partial",
+    "chars": 329,
+    "sha256": "e9c60d1a71f5350d101f30460b60ecb688a0b15613c0d84628a4da8da4eaaaf7",
+    "source": "og_description",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [
+     "Fastmarkets wishes to clarify that it accepts data submissions in outright price and as a differential to the Mineral Benchmark Price (HPM)-plus-premium for its Indonesian domestic trade nickel ore price assessments."
+    ],
+    "final_url": "https://www.fastmarkets.com/insights/fastmarkets-clarifies-inclusion-of-government-set-benchmark-pricing-in-indonesia-nickel-ore-assessment/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Fastmarkets가 인도네시아 니켈 광석 가격 평가의 데이터 제출 방식에 관해 입장을 명확히 했음",
+     "내수 거래 니켈 광석 평가에서 확정 가격 또는 HPM(광물 기준가격)+프리미엄 대비 차액 형태의 제출을 받는다고 밝혔음",
+     "인도네시아 정부의 최근 HPM 사양 변경에 대해 시장 의견을 구하고 있으며 후속 일정은 확인 불가임"
+    ],
+    "basis": "body",
+    "key_figures": [],
+    "quotes": [
+     "Fastmarkets wishes to clarify that it accepts data submissions in outright price and as a differential to the Mineral Benchmark Price (HPM)-plus-premium for its Indonesian domestic trade nickel ore price assessments."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "니켈",
+     "니켈 광석",
+     "가격 평가",
+     "HPM",
+     "인도네시아"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Mineral Benchmark Price (HPM)",
+      "meaning": "인도네시아 정부가 정하는 광물 기준가격"
+     },
+     {
+      "phrase": "differential to the Mineral Benchmark Price (HPM)-plus-premium",
+      "meaning": "HPM에 프리미엄을 더한 값 대비 차액"
+     },
+     {
+      "phrase": "outright price",
+      "meaning": "차액이 아닌 확정 가격"
+     }
+    ],
+    "implication": "인도네시아 내수 니켈 광석 가격 평가에 정부 기준가격(HPM) 연동 방식이 반영되고, HPM 사양 변경이 시장 가격 산정에 영향을 줄 수 있음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "partial",
+    "input_chars": 329,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:12:39+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "dce20b7290",
+     "v1_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMldmanBNZldVUkJkWTZTeFdzMVoyOHVHZnptMDJ0T2pIRDdJRXdaMXA3SUZzVS1YSHNuNFB5eE9FamhwSzUxMmlfdjBuSjhwa0lyRWxSTTlWMUd1UE40NW11WV9jWUhNZTRJMWpyTnNUS1NTMDgtQThsVm1LWUxKYkVGVm5zRldIS0xNNGZkYXlQQmpIaDlIM0RRSEU5cVBUaUtkb0puLXl5aVN4X1BlREhTNURGRnZDRlBGSWFJaTRZZ1JVNWpQcjM4ZDg5eHpxY3k3bk9wRQ?oc=5",
+     "summary_raw": "Fastmarkets clarifies inclusion of government-set benchmark pricing in Indonesia nickel ore assessment&nbsp;&nbsp;Fastmarkets"
+    }
+   },
+   "v1": {
+    "korean_summary": "Fastmarkets가 인도네시아 니켈광석 가격평가에 정부 설정 벤치마크 가격을 포함시키는 방식을 명확히 했으며, 이는 핵심광물 공급망의 가격 투명성 강화를 의미함. 정부 개입형 가격책정 메커니즘의 도입으로 인도네시아 니켈 시장의 국제 가격지수 산정 신뢰도가 제고될 전망임. 이러한 변화는 글로벌 핵심광물 공급망에서 가격 변동성을 완화하고 시장 안정성을 강화하는 긍정적 신호로 해석됨.",
+    "category": "policy_market",
+    "tags": [
+     "니켈",
+     "가격평가방법론",
+     "인도네시아"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "government-set benchmark pricing",
+      "meaning": "정부가 설정한 벤치마크 가격책정"
+     },
+     {
+      "phrase": "nickel ore assessment",
+      "meaning": "니켈광석 가격평가 및 시장평가"
+     },
+     {
+      "phrase": "clarifies inclusion",
+      "meaning": "포함 방식을 명확히/명시하다"
+     },
+     {
+      "phrase": "price transparency in critical mineral supply chains",
+      "meaning": "핵심광물 공급망에서의 가격 투명성"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "dce20b7290",
+    "title": "Fastmarkets clarifies inclusion of government-set benchmark pricing in Indonesia nickel ore assessment - Fastmarkets",
+    "url": "https://fastmarkets.com/insights/fastmarkets-clarifies-inclusion-of-government-set-benchmark-pricing-in-indonesia-nickel-ore-assessment",
+    "source": "Fastmarkets - via Google News",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-05-08",
+    "korean_summary": [
+     "Fastmarkets가 인도네시아 니켈 광석 가격 평가의 데이터 제출 방식에 관해 입장을 명확히 했음",
+     "내수 거래 니켈 광석 평가에서 확정 가격 또는 HPM(광물 기준가격)+프리미엄 대비 차액 형태의 제출을 받는다고 밝혔음",
+     "인도네시아 정부의 최근 HPM 사양 변경에 대해 시장 의견을 구하고 있으며 후속 일정은 확인 불가임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "니켈",
+     "니켈 광석",
+     "가격 평가",
+     "HPM",
+     "인도네시아"
+    ],
+    "ai_processed": true,
+    "card_id": "b076b7d6907d",
+    "basis": "body",
+    "body_status": "partial",
+    "key_figures": [],
+    "quotes": [
+     "Fastmarkets wishes to clarify that it accepts data submissions in outright price and as a differential to the Mineral Benchmark Price (HPM)-plus-premium for its Indonesian domestic trade nickel ore price assessments."
+    ],
+    "summary_raw": "Fastmarkets clarifies inclusion of government-set benchmark pricing in Indonesia nickel ore assessment&nbsp;&nbsp;Fastmarkets",
+    "english_phrases": [
+     {
+      "phrase": "Mineral Benchmark Price (HPM)",
+      "meaning": "인도네시아 정부가 정하는 광물 기준가격"
+     },
+     {
+      "phrase": "differential to the Mineral Benchmark Price (HPM)-plus-premium",
+      "meaning": "HPM에 프리미엄을 더한 값 대비 차액"
+     },
+     {
+      "phrase": "outright price",
+      "meaning": "차액이 아닌 확정 가격"
+     }
+    ],
+    "implication": "인도네시아 내수 니켈 광석 가격 평가에 정부 기준가격(HPM) 연동 방식이 반영되고, HPM 사양 변경이 시장 가격 산정에 영향을 줄 수 있음",
+    "trial": true
+   },
+   "trial": true
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "ef71fdeb9752",
+   "title": "US rare earth champion views Iran war as demand ‘accelerant’ - Mining.com",
+   "title_norm": "us rare earth champion views iran war as demand accelerant",
+   "url": "https://mining.com/web/us-rare-earth-champion-views-iran-war-as-demand-accelerant",
+   "gnews_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQU0ZYYzFtbWZpaDg3WGtyajdwNlVCSm8yeEQtM2RHVzJiUzZTWHB3S3pzUlZRYktvWmc5S3EyYjhDRlZTMGRERHUwUUx0dlMwaVhoUEtJWXBLalZlLWg2TTJjZUJBbm1vNmZXc0JmbXoyb2RMdnNBV25tUXRNRFNXZVYwdHN1QnVBcUpJOThjOA?oc=5",
+   "source": {
+    "name": "Google News - Rare Earth Elements",
+    "domain": "mining.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-05-08",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:12:39+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 3384,
+    "sha256": "8ceb6f00420b855ffdedf576e6c832cf113b6ccc89bff129959170c8da5b4d97",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-05-08",
+    "quotes": [
+     "MP got a $400 million equity investment from the Department of Defense last year to back its planned expansion from America’s sole rare earths miner to the country’s leading producer of magnets.",
+     "“Prices will go up for NdPr, but I don’t think as much for the heavies,” Litinsky said."
+    ],
+    "final_url": "https://www.mining.com/web/us-rare-earth-champion-views-iran-war-as-demand-accelerant/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "MP Materials CEO가 분기 실적 발표에서 이란 전쟁을 희토류 자석 수요의 '가속제'로 평가했음",
+     "MP는 지난해 Department of Defense로부터 $400 million 지분 투자를 받았음",
+     "분리된 중희토류 생산이 곧 시작될 예정이라고 밝혔음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "$400 million",
+     "$36.6 million",
+     "60,000 tons"
+    ],
+    "quotes": [
+     "MP got a $400 million equity investment from the Department of Defense last year to back its planned expansion from America’s sole rare earths miner to the country’s leading producer of magnets.",
+     "“Prices will go up for NdPr, but I don’t think as much for the heavies,” Litinsky said."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "영구자석",
+     "중희토류",
+     "NdPr",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "demand accelerant",
+      "meaning": "수요 가속제"
+     },
+     {
+      "phrase": "heavy rare earths",
+      "meaning": "중희토류"
+     },
+     {
+      "phrase": "export controls",
+      "meaning": "수출 통제"
+     },
+     {
+      "phrase": "uncommitted NdPr supply",
+      "meaning": "판매처가 확정되지 않은 NdPr 공급량"
+     }
+    ],
+    "implication": "서방 자석 설비 증설 규모에 비해 계약이 확정되지 않은 NdPr 공급이 매우 제한적이어서 경희토류 수급이 빠듯해질 수 있음."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 3384,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:12:52+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 5줄)"
+    ],
+    "retry_tails": [
+     "ted NdPr supply\", \"meaning\": \"판매처가 확정되지 않은 NdPr 공급량\"}\n  ],\n  \"implication\": \"서방 자석 설비 증설에 비해 계약 미확정 NdPr 물량이 매우 적어 경경희토류 수급이 빠듯해질 수 있고, 중희토류 가격은 하락 가능성이 제기됨.\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "7423ef3b02",
+     "v1_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQU0ZYYzFtbWZpaDg3WGtyajdwNlVCSm8yeEQtM2RHVzJiUzZTWHB3S3pzUlZRYktvWmc5S3EyYjhDRlZTMGRERHUwUUx0dlMwaVhoUEtJWXBLalZlLWg2TTJjZUJBbm1vNmZXc0JmbXoyb2RMdnNBV25tUXRNRFNXZVYwdHN1QnVBcUpJOThjOA?oc=5",
+     "summary_raw": "US rare earth champion views Iran war as demand ‘accelerant’&nbsp;&nbsp;Mining.com"
+    }
+   },
+   "v1": {
+    "korean_summary": "미국의 희토류 산업 주도 기업이 이란 지역 긴장을 핵심광물 수요 촉진 요인으로 평가하고 있는 것으로 확인되었습니다. 지정학적 불안정성이 글로벌 공급망 재편을 가속화하면서 희토류 원소에 대한 수요 증가가 예상되고 있습니다. 미국 내 핵심광물 자급화 전략과 동맹국과의 공급망 다원화가 향후 산업 발전의 핵심 과제로 대두될 전망입니다.",
+    "category": "policy_market",
+    "tags": [
+     "희토류 원소(REE)",
+     "지정학·공급망 안보",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "demand accelerant",
+      "meaning": "수요 촉진 요인, 수요 증가를 가속화하는 요소"
+     },
+     {
+      "phrase": "geopolitical tension and supply chain resilience",
+      "meaning": "지정학적 긴장과 공급망 회복력"
+     },
+     {
+      "phrase": "rare earth element (REE) dependency and diversification strategy",
+      "meaning": "희토류 원소 의존도 및 다원화 전략"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "7423ef3b02",
+    "title": "US rare earth champion views Iran war as demand ‘accelerant’ - Mining.com",
+    "url": "https://mining.com/web/us-rare-earth-champion-views-iran-war-as-demand-accelerant",
+    "source": "Google News - Rare Earth Elements",
+    "tier_weight": 1,
+    "score": 9,
+    "published": "2026-05-08",
+    "korean_summary": [
+     "MP Materials CEO가 분기 실적 발표에서 이란 전쟁을 희토류 자석 수요의 '가속제'로 평가했음",
+     "MP는 지난해 Department of Defense로부터 $400 million 지분 투자를 받았음",
+     "분리된 중희토류 생산이 곧 시작될 예정이라고 밝혔음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "영구자석",
+     "중희토류",
+     "NdPr",
+     "미국"
+    ],
+    "ai_processed": true,
+    "card_id": "ef71fdeb9752",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "$400 million",
+     "$36.6 million",
+     "60,000 tons"
+    ],
+    "quotes": [
+     "MP got a $400 million equity investment from the Department of Defense last year to back its planned expansion from America’s sole rare earths miner to the country’s leading producer of magnets.",
+     "“Prices will go up for NdPr, but I don’t think as much for the heavies,” Litinsky said."
+    ],
+    "summary_raw": "US rare earth champion views Iran war as demand ‘accelerant’&nbsp;&nbsp;Mining.com",
+    "english_phrases": [
+     {
+      "phrase": "demand accelerant",
+      "meaning": "수요 가속제"
+     },
+     {
+      "phrase": "heavy rare earths",
+      "meaning": "중희토류"
+     },
+     {
+      "phrase": "export controls",
+      "meaning": "수출 통제"
+     },
+     {
+      "phrase": "uncommitted NdPr supply",
+      "meaning": "판매처가 확정되지 않은 NdPr 공급량"
+     }
+    ],
+    "implication": "서방 자석 설비 증설 규모에 비해 계약이 확정되지 않은 NdPr 공급이 매우 제한적이어서 경희토류 수급이 빠듯해질 수 있음.",
+    "trial": true
+   },
+   "trial": true
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "14a5de67a675",
+   "title": "Rare Earths Americas IPO: Stock price will be closely watched today as 'exploration stage' firm lists on NYSE - Fast Company",
+   "title_norm": "rare earths americas ipo stock price will be closely watched today as exploration stage firm lists on nyse",
+   "url": "https://fastcompany.com/91537577/rare-earths-americas-ipo-stock-price-today-nyse-trading-debut",
+   "gnews_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQzlrdERNdVZpYzNXeFIzNGN6SWlYSndNYldYN1F6R2E5VUdKUEg3S29ORi1NeXBHYUpidDFkcTJ5ZHZ1dUh0MkliWDNabmpqRmNDLUVRblhsRVZFRTAzTWxWWVVjeWpvcERLSXFnNVF3SndZSjRNUGJMYzRHeE0xTFBpOHVmV3hMT285bGU4SUVoWklQamttTjVfUXZiblE?oc=5",
+   "source": {
+    "name": "Google News - Rare Earth Elements",
+    "domain": "fastcompany.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-05-06",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:12:52+00:00",
+   "score": 8,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "bot_block",
+    "http_status": 403,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.fastcompany.com/91537577/rare-earths-americas-ipo-stock-price-today-nyse-trading-debut",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Rare Earths Americas IPO, '탐사 단계' 기업의 NYSE 상장에 오늘 주가가 주목받을 전망임"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "기업공개",
+     "NYSE",
+     "탐사 단계 기업"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "exploration stage",
+      "meaning": "탐사 단계"
+     },
+     {
+      "phrase": "IPO",
+      "meaning": "기업공개(신규 상장)"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:12:56+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "bb74b5bcc0",
+     "v1_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQzlrdERNdVZpYzNXeFIzNGN6SWlYSndNYldYN1F6R2E5VUdKUEg3S29ORi1NeXBHYUpidDFkcTJ5ZHZ1dUh0MkliWDNabmpqRmNDLUVRblhsRVZFRTAzTWxWWVVjeWpvcERLSXFnNVF3SndZSjRNUGJMYzRHeE0xTFBpOHVmV3hMT285bGU4SUVoWklQamttTjVfUXZiblE?oc=5",
+     "summary_raw": "Rare Earths Americas IPO: Stock price will be closely watched today as 'exploration stage' firm lists on NYSE&nbsp;&nbsp;Fast Company"
+    }
+   },
+   "v1": {
+    "korean_summary": "미국 희토류 탐사 기업인 Rare Earths Americas가 뉴욕증권거래소(NYSE)에 상장되었으며, 탐사 단계 기업으로서 주가 움직임이 주목되고 있습니다. 이는 북미 지역의 핵심광물 자급화 전략 속에서 희토류 광산 개발 프로젝트에 대한 시장의 관심도를 보여주는 사례입니다. 향후 미국의 핵심광물 공급망 확보 정책과 연계하여 탐사·개발 기업들의 자본시장 활동이 활발할 것으로 전망됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "광물탐사",
+     "북미"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "exploration stage company",
+      "meaning": "탐사 단계 기업 (상업화 이전 단계의 광물자원 탐사 기업)"
+     },
+     {
+      "phrase": "IPO listing on NYSE",
+      "meaning": "뉴욕증권거래소 상장공모"
+     },
+     {
+      "phrase": "stock price closely watched",
+      "meaning": "주가 변동이 밀접하게 관찰되다"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "bb74b5bcc0",
+    "title": "Rare Earths Americas IPO: Stock price will be closely watched today as 'exploration stage' firm lists on NYSE - Fast Company",
+    "url": "https://fastcompany.com/91537577/rare-earths-americas-ipo-stock-price-today-nyse-trading-debut",
+    "source": "Google News - Rare Earth Elements",
+    "tier_weight": 1,
+    "score": 8,
+    "published": "2026-05-06",
+    "korean_summary": [
+     "[제목 기반] Rare Earths Americas IPO, '탐사 단계' 기업의 NYSE 상장에 오늘 주가가 주목받을 전망임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "기업공개",
+     "NYSE",
+     "탐사 단계 기업"
+    ],
+    "ai_processed": true,
+    "card_id": "14a5de67a675",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Rare Earths Americas IPO: Stock price will be closely watched today as 'exploration stage' firm lists on NYSE&nbsp;&nbsp;Fast Company",
+    "english_phrases": [
+     {
+      "phrase": "exploration stage",
+      "meaning": "탐사 단계"
+     },
+     {
+      "phrase": "IPO",
+      "meaning": "기업공개(신규 상장)"
+     }
+    ],
+    "implication": "",
+    "trial": true
+   },
+   "trial": true
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "3b955021f001",
+   "title": "The No.1 Rare Earth Stock for 2026 - Crude Oil Prices Today | OilPrice.com",
+   "title_norm": "the no 1 rare earth stock for 2026 crude oil prices today",
+   "url": "https://oilprice.com/Energy/Energy-General/The-No1-Rare-Earth-Stock-for-2026.html",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQ3lHUEJlR2JyR1hvRkxDTWY1RGFKOENhNzgtZGZZTU9XbG5KcVZ5YV9PV1ZvUFR3ZHZLaTUxWC0xRzgtOFNMMXhLR3FPanRGUXBiRktJOTA2X1lrRTk3dVJJcHVkcGtGcXgtaS1TbHUwS2hIXzBlZ3Fpc1RQZmwxNi1EQjV4NE5i0gGOAUFVX3lxTE1HNnN4bnpRUENYeEthSmdWSTQxNmF2OHhmd3hFV3I2cmF0ZXBuS2VhNjhqWWV4VGxvOFdHWXlfTVVQcDlPMFVhVUdRQmtwajlvaVBrUng4X1hjU045SVNSckRnQVhyMHJsRWFESV9ENFNIcmE0RUxxSElDd3pCR1NSWjhRSUQyVHVZajlfX1E?oc=5",
+   "source": {
+    "name": "Google News - Rare Earth Elements",
+    "domain": "oilprice.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-05-12",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:12:57+00:00",
+   "score": 8,
+   "body": {
+    "status": "full",
+    "chars": 16981,
+    "sha256": "c10b600fa09253a3f8b730ba6b28e3e2279583cbb7c797a61ef44f4408c71758",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-05-11",
+    "quotes": [
+     "By the time anyone in the West noticed how dependent they’d become, China controlled approximately 90–95% of global rare earth processing and an even larger share of finished magnet production.",
+     "The West didn’t lose its rare earth processing capability to espionage or theft."
+    ],
+    "final_url": "https://oilprice.com/Energy/Energy-General/The-No1-Rare-Earth-Stock-for-2026.html",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "기사가 REalloys(Nasdaq: ALOY)를 미국 내 희토류 가공 역량 재건을 추진하는 기업으로 소개했음",
+     "CSIS가 희토류 금속화·합금화를 중국 밖에서 재건하기 가장 어려운 역량으로 꼽았다고 전했음",
+     "중국이 희토류 가공의 약 90–95%를 차지하며, 미국 Mountain Pass 광산은 2002년 폐쇄됐다고 설명했음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "approximately 90–95%",
+     "2002"
+    ],
+    "quotes": [
+     "By the time anyone in the West noticed how dependent they’d become, China controlled approximately 90–95% of global rare earth processing and an even larger share of finished magnet production.",
+     "The West didn’t lose its rare earth processing capability to espionage or theft."
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "금속화",
+     "합금화",
+     "가공역량",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "rare earth metallization and alloying",
+      "meaning": "희토류 금속화 및 합금화"
+     },
+     {
+      "phrase": "institutional knowledge",
+      "meaning": "조직 내에 축적된 지식·노하우"
+     },
+     {
+      "phrase": "integrated industrial chain",
+      "meaning": "통합 산업 체인"
+     }
+    ],
+    "implication": "중국이 희토류 가공의 약 90–95%를 차지하는 가운데, 금속화·합금화 역량이 서방 공급망 재건의 가장 큰 병목으로 지목되었음."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:13:07+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "5a4c0ef85a",
+     "v1_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQ3lHUEJlR2JyR1hvRkxDTWY1RGFKOENhNzgtZGZZTU9XbG5KcVZ5YV9PV1ZvUFR3ZHZLaTUxWC0xRzgtOFNMMXhLR3FPanRGUXBiRktJOTA2X1lrRTk3dVJJcHVkcGtGcXgtaS1TbHUwS2hIXzBlZ3Fpc1RQZmwxNi1EQjV4NE5i0gGOAUFVX3lxTE1HNnN4bnpRUENYeEthSmdWSTQxNmF2OHhmd3hFV3I2cmF0ZXBuS2VhNjhqWWV4VGxvOFdHWXlfTVVQcDlPMFVhVUdRQmtwajlvaVBrUng4X1hjU045SVNSckRnQVhyMHJsRWFESV9ENFNIcmE0RUxxSElDd3pCR1NSWjhRSUQyVHVZajlfX1E?oc=5",
+     "summary_raw": "The No.1 Rare Earth Stock for 2026&nbsp;&nbsp;Crude Oil Prices Today | OilPrice.com"
+    }
+   },
+   "v1": {
+    "korean_summary": "2026년 핵심광물 시장에서 희토류 관련 주식이 주목할 만한 투자 기회로 평가되고 있으며, 글로벌 에너지 전환 및 첨단기술 수요 증가에 따른 희토류 수급 불균형이 심화될 전망으로 확인되었음. 희토류 생산 및 공급망 다변화 전략이 국가 에너지 안보와 자원 독립성 확보의 핵심 과제로 부상하고 있음. 희토류 가격 상승과 공급 제약 우려가 글로벌 광물 포트폴리오 재편에 직결될 것으로 예상됨.",
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "광물시장분석",
+     "글로벌 공급망"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals supply chain diversification",
+      "meaning": "핵심광물 공급망 다변화"
+     },
+     {
+      "phrase": "rare earth elements market outlook",
+      "meaning": "희토류 시장 전망"
+     },
+     {
+      "phrase": "energy transition demand drivers",
+      "meaning": "에너지 전환 수요 요인"
+     },
+     {
+      "phrase": "mineral resource security",
+      "meaning": "광물자원 안보"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "5a4c0ef85a",
+    "title": "The No.1 Rare Earth Stock for 2026 - Crude Oil Prices Today | OilPrice.com",
+    "url": "https://oilprice.com/Energy/Energy-General/The-No1-Rare-Earth-Stock-for-2026.html",
+    "source": "Google News - Rare Earth Elements",
+    "tier_weight": 1,
+    "score": 8,
+    "published": "2026-05-12",
+    "korean_summary": [
+     "기사가 REalloys(Nasdaq: ALOY)를 미국 내 희토류 가공 역량 재건을 추진하는 기업으로 소개했음",
+     "CSIS가 희토류 금속화·합금화를 중국 밖에서 재건하기 가장 어려운 역량으로 꼽았다고 전했음",
+     "중국이 희토류 가공의 약 90–95%를 차지하며, 미국 Mountain Pass 광산은 2002년 폐쇄됐다고 설명했음"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "금속화",
+     "합금화",
+     "가공역량",
+     "미국"
+    ],
+    "ai_processed": true,
+    "card_id": "3b955021f001",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "approximately 90–95%",
+     "2002"
+    ],
+    "quotes": [
+     "By the time anyone in the West noticed how dependent they’d become, China controlled approximately 90–95% of global rare earth processing and an even larger share of finished magnet production.",
+     "The West didn’t lose its rare earth processing capability to espionage or theft."
+    ],
+    "summary_raw": "The No.1 Rare Earth Stock for 2026&nbsp;&nbsp;Crude Oil Prices Today | OilPrice.com",
+    "english_phrases": [
+     {
+      "phrase": "rare earth metallization and alloying",
+      "meaning": "희토류 금속화 및 합금화"
+     },
+     {
+      "phrase": "institutional knowledge",
+      "meaning": "조직 내에 축적된 지식·노하우"
+     },
+     {
+      "phrase": "integrated industrial chain",
+      "meaning": "통합 산업 체인"
+     }
+    ],
+    "implication": "중국이 희토류 가공의 약 90–95%를 차지하는 가운데, 금속화·합금화 역량이 서방 공급망 재건의 가장 큰 병목으로 지목되었음.",
+    "trial": true
+   },
+   "trial": true
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "b7933157df31",
+   "title": "G7 trade talks target critical minerals as US-EU tariff rift strains unity - Reuters",
+   "title_norm": "g7 trade talks target critical minerals as us eu tariff rift strains unity",
+   "url": "https://reuters.com/world/china/g7-trade-ministers-discuss-critical-minerals-supply-chain-french-minister-says-2026-05-06",
+   "gnews_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZDhmSW9wWHFrOHF6RnFCMUpGMGlpcTRybjVjZE9oTGltUmpRY2M3MHFsTmgxcy04TVcyanBJa2tGbUMyR1V1c3lsWkJRVE5tYWEwLWdqdXo1TGhwZnQ3bUpxNmZQZERjaDZQQ09WUkhxcWZwMTQ5NTZCeU9kVjBIVDlwX19MUWlTa2F1bE9nNzN1QXNPc2RDb0xWSFFnSF9tOVJJVmtNXzJBdV8tdmk1MlF1dEdvV2FkNU4xM3hEbUhtR2Zf?oc=5",
+   "source": {
+    "name": "Reuters - via Google News",
+    "domain": "reuters.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-05-06",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:13:07+00:00",
+   "score": 7,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "skipped",
+    "http_status": null,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": null,
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "G7 무역 협상이 핵심광물을 겨냥했으며 미국-EU 관세 균열이 결속을 압박하고 있음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "G7",
+     "무역협상",
+     "관세",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "tariff rift",
+      "meaning": "관세를 둘러싼 균열·갈등"
+     },
+     {
+      "phrase": "strains unity",
+      "meaning": "결속을 압박하다"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:13:09+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "f09672dc17",
+     "v1_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZDhmSW9wWHFrOHF6RnFCMUpGMGlpcTRybjVjZE9oTGltUmpRY2M3MHFsTmgxcy04TVcyanBJa2tGbUMyR1V1c3lsWkJRVE5tYWEwLWdqdXo1TGhwZnQ3bUpxNmZQZERjaDZQQ09WUkhxcWZwMTQ5NTZCeU9kVjBIVDlwX19MUWlTa2F1bE9nNzN1QXNPc2RDb0xWSFFnSF9tOVJJVmtNXzJBdV8tdmk1MlF1dEdvV2FkNU4xM3hEbUhtR2Zf?oc=5",
+     "summary_raw": "G7 trade talks target critical minerals as US-EU tariff rift strains unity&nbsp;&nbsp;Reuters"
+    }
+   },
+   "v1": {
+    "korean_summary": "G7 무역회담에서 핵심광물 공급망 안정화가 주요 의제로 부상하고 있으며, 이는 미국-EU 간 관세 분쟁으로 인한 단결 약화를 극복하려는 노력으로 확인되었습니다. 선진국들은 중국의 핵심광물 시장 지배에 대응하고 글로벌 공급망 다각화를 추진할 전망입니다. 핵심광물의 전략적 중요성이 국제 통상 협상의 핵심 사안으로 자리 잡고 있음을 시사합니다.",
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "국제통상·공급망",
+     "G7·미국·EU·중국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals supply chain diversification",
+      "meaning": "핵심광물 공급망 다각화"
+     },
+     {
+      "phrase": "US-EU tariff rift",
+      "meaning": "미국-EU 간 관세 분쟁"
+     },
+     {
+      "phrase": "mitigate market concentration",
+      "meaning": "시장 집중도 완화"
+     },
+     {
+      "phrase": "trade unity among developed nations",
+      "meaning": "선진국 간 통상 단결"
+     },
+     {
+      "phrase": "strategic leverage in critical minerals",
+      "meaning": "핵심광물에서의 전략적 우위"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "f09672dc17",
+    "title": "G7 trade talks target critical minerals as US-EU tariff rift strains unity - Reuters",
+    "url": "https://reuters.com/world/china/g7-trade-ministers-discuss-critical-minerals-supply-chain-french-minister-says-2026-05-06",
+    "source": "Reuters - via Google News",
+    "tier_weight": 3,
+    "score": 7,
+    "published": "2026-05-06",
+    "korean_summary": [
+     "[제목 기반] G7 무역 협상이 핵심광물을 겨냥했으며 미국-EU 관세 균열이 결속을 압박하고 있음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "G7",
+     "무역협상",
+     "관세",
+     "미국"
+    ],
+    "ai_processed": true,
+    "card_id": "b7933157df31",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "G7 trade talks target critical minerals as US-EU tariff rift strains unity&nbsp;&nbsp;Reuters",
+    "english_phrases": [
+     {
+      "phrase": "tariff rift",
+      "meaning": "관세를 둘러싼 균열·갈등"
+     },
+     {
+      "phrase": "strains unity",
+      "meaning": "결속을 압박하다"
+     }
+    ],
+    "implication": "",
+    "trial": true
+   },
+   "trial": true
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "6c222d3886d3",
+   "title": "India, Peru likely to hold talks on free trade pact in June, diplomat says - Reuters",
+   "title_norm": "india peru likely to hold talks on free trade pact in june diplomat says",
+   "url": "https://reuters.com/world/india/india-peru-likely-hold-talks-free-trade-pact-june-diplomat-says-2026-05-11",
+   "gnews_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUFFIY01PM1ZodTNXcFE3S1JQeVlyTmJKQmxfTVZTQmxjSW9LZ1M3QjdWZmxad3o1RTJIbGVGcVM2cmlIRWIydHRBZEJOSEUySlAybG0wUFEyNldnUDlza2xPUlJjZU02NEVDRGFIeE5STldXMFFDZDJ2cUhWLXFmOWF6b05semN2VExwZW11eFo2bzNRVDFGdWtYSnhvWm1WVFlCU0QyMzVvdDFSTXZvLQ?oc=5",
+   "source": {
+    "name": "Reuters - via Google News",
+    "domain": "reuters.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-05-11",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:13:09+00:00",
+   "score": 7,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "skipped",
+    "http_status": null,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": null,
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "인도와 페루가 6월에 자유무역협정 협상을 가질 가능성이 높다고 외교관이 밝혔음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "자유무역협정",
+     "인도",
+     "페루",
+     "무역협상"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "free trade pact",
+      "meaning": "자유무역협정"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:13:10+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "c7ec9c14b8",
+     "v1_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUFFIY01PM1ZodTNXcFE3S1JQeVlyTmJKQmxfTVZTQmxjSW9LZ1M3QjdWZmxad3o1RTJIbGVGcVM2cmlIRWIydHRBZEJOSEUySlAybG0wUFEyNldnUDlza2xPUlJjZU02NEVDRGFIeE5STldXMFFDZDJ2cUhWLXFmOWF6b05semN2VExwZW11eFo2bzNRVDFGdWtYSnhvWm1WVFlCU0QyMzVvdDFSTXZvLQ?oc=5",
+     "summary_raw": "India, Peru likely to hold talks on free trade pact in June, diplomat says&nbsp;&nbsp;Reuters"
+    }
+   },
+   "v1": {
+    "korean_summary": "인도와 페루가 6월 자유무역협정(FTA) 협상을 개최할 가능성이 높은 것으로 확인되었습니다. 양국은 핵심광물을 포함한 광물 자원 협력을 FTA 협상의 주요 의제로 다룰 것으로 예상됩니다. 이는 인도의 광물 수급 다원화 전략과 페루의 주요 광물 수출국으로서의 지위 강화를 동시에 추진하는 전략적 협력입니다.",
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "자유무역협정",
+     "인도·페루"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "free trade pact",
+      "meaning": "자유무역협정(FTA)"
+     },
+     {
+      "phrase": "critical minerals cooperation",
+      "meaning": "핵심광물 협력"
+     },
+     {
+      "phrase": "bilateral trade negotiations",
+      "meaning": "양자 무역 협상"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "c7ec9c14b8",
+    "title": "India, Peru likely to hold talks on free trade pact in June, diplomat says - Reuters",
+    "url": "https://reuters.com/world/india/india-peru-likely-hold-talks-free-trade-pact-june-diplomat-says-2026-05-11",
+    "source": "Reuters - via Google News",
+    "tier_weight": 3,
+    "score": 7,
+    "published": "2026-05-11",
+    "korean_summary": [
+     "[제목 기반] 인도와 페루가 6월에 자유무역협정 협상을 가질 가능성이 높다고 외교관이 밝혔음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "자유무역협정",
+     "인도",
+     "페루",
+     "무역협상"
+    ],
+    "ai_processed": true,
+    "card_id": "6c222d3886d3",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "India, Peru likely to hold talks on free trade pact in June, diplomat says&nbsp;&nbsp;Reuters",
+    "english_phrases": [
+     {
+      "phrase": "free trade pact",
+      "meaning": "자유무역협정"
+     }
+    ],
+    "implication": "",
+    "trial": true
+   },
+   "trial": true
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "334a6f02535c",
+   "title": "Total Metals Completes 25 Hole, 8,408 metre Exploration Drilling Program on its Electrolode Critical Minerals Project - TradingView",
+   "title_norm": "total metals completes 25 hole 8 408 metre exploration drilling program on its electrolode critical minerals project",
+   "url": "https://tradingview.com/news/reuters.com,2026-05-06:newsml_Tnw2zhnKb:0-total-metals-completes-25-hole-8-408-metre-exploration-drilling-program-on-its-electrolode-critical-minerals-project",
+   "gnews_url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQVkhSVHZ5VEl3WkN4SUJaZzFqSW1FQ2F2Z290cl9DbVNiMXltbzlmbHJ6VERHTDQ0b3A3SGVzTUV2anpqOF85QU92amJSM1lNR2g4YWNGZEdFblBsU3hBdXlmcmJxdWhRd0ZPRFg5ZmE4RU5adVlGVzNGRnYtYzZ4SmJWSHlLa1ZTTC01c1Nzb21KMEJDRmhFUHA5RC1HN0UySlY4blNhckNEZFNDT2JITEJraVF5TXEwaU9vQWRzZnF4TW9pOG9QMU5kTVlmbEFLWGVwVGk3aldKTHNHSm5WVERzN2VfTkJ3RXRxcUNxRmpiYVJQZUJlT0hxVVpGVEdYS2hTSFFtSFlTQVFpeTJQRVZLaGgydEctdmRZbg?oc=5",
+   "source": {
+    "name": "Google News - Critical Minerals Exploration",
+    "domain": "tradingview.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-05-06",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:13:11+00:00",
+   "score": 8,
+   "body": {
+    "status": "full",
+    "chars": 10087,
+    "sha256": "307b3760d89e60fd12c6a7d869d1c8808a19a131da6a2f0f56932f1878249a75",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-05-06",
+    "quotes": [
+     "These werethen evaluated and ranked, such that the upper 10% were selected fordrill testing.",
+     "Mineral Resources were estimated and reported with aneffective date of October 15, 2020, using 3% Zn as a lower cut-off,are summarized in the statement and table above."
+    ],
+    "final_url": "https://www.tradingview.com/news/reuters.com,2026-05-06:newsml_Tnw2zhnKb:0-total-metals-completes-25-hole-8-408-metre-exploration-drilling-program-on-its-electrolode-critical-minerals-project/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "TotalMetals Corp.가 Electrolode 핵심광물 프로젝트의 탐사 시추 프로그램을 완료했다고 밝혔음",
+     "25개 공, 8,408 metre 규모이며 100% 보유한 Electrolode 프로퍼티에서 진행했음",
+     "시추 코어는 현재 실험실에서 처리 중이며 분석 결과는 앞으로 몇 주 안에 발표할 예정임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "25 hole, 8,408 metre",
+     "5,500-metre",
+     "12 historical critical-metals targets"
+    ],
+    "quotes": [
+     "These werethen evaluated and ranked, such that the upper 10% were selected fordrill testing.",
+     "Mineral Resources were estimated and reported with aneffective date of October 15, 2020, using 3% Zn as a lower cut-off,are summarized in the statement and table above."
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "핵심광물",
+     "탐사시추",
+     "VMS",
+     "온타리오",
+     "TotalMetals"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "assay results",
+      "meaning": "시료의 성분 함량 분석 결과"
+     },
+     {
+      "phrase": "VTEM",
+      "meaning": "항공 전자탐사 자료(본문 표기)"
+     },
+     {
+      "phrase": "VMS deposits",
+      "meaning": "화산성 괴상 황화물 광상"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:13:23+00:00",
+    "retry_reasons": [
+     "JSON 파싱 실패: 문법 오류(Expecting ',' delimiter, 위치 295) — 주변: '쳐 상위 10% 표적을 시추 대상으로 선정했음\"\\n  ].slice(0,3),\\n  \"key_figures\": '"
+    ],
+    "retry_tails": [
+     "결과\"},\n    {\"phrase\": \"VTEM\", \"meaning\": \"헬기 탑재 시간영역 전자탐사 방식(본문 표기)\"},\n    {\"phrase\": \"VMS deposits\", \"meaning\": \"화산성 块상 황화물 광상\"}\n  ],\n  \"implication\": \"해당 없음\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "99cb63513e",
+     "v1_url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQVkhSVHZ5VEl3WkN4SUJaZzFqSW1FQ2F2Z290cl9DbVNiMXltbzlmbHJ6VERHTDQ0b3A3SGVzTUV2anpqOF85QU92amJSM1lNR2g4YWNGZEdFblBsU3hBdXlmcmJxdWhRd0ZPRFg5ZmE4RU5adVlGVzNGRnYtYzZ4SmJWSHlLa1ZTTC01c1Nzb21KMEJDRmhFUHA5RC1HN0UySlY4blNhckNEZFNDT2JITEJraVF5TXEwaU9vQWRzZnF4TW9pOG9QMU5kTVlmbEFLWGVwVGk3aldKTHNHSm5WVERzN2VfTkJ3RXRxcUNxRmpiYVJQZUJlT0hxVVpGVEdYS2hTSFFtSFlTQVFpeTJQRVZLaGgydEctdmRZbg?oc=5",
+     "summary_raw": "Total Metals Completes 25 Hole, 8,408 metre Exploration Drilling Program on its Electrolode Critical Minerals Project&nbsp;&nbsp;TradingView"
+    }
+   },
+   "v1": {
+    "korean_summary": "Total Metals사가 Electrolode 핵심광물 프로젝트에서 25개 공 8,408미터 규모의 탐사 시추 프로그램을 완료하였습니다. 본 프로그램은 핵심광물 부존량 확인 및 광체 특성 파악을 위한 체계적 탐사의 일환으로 진행되었습니다. 이는 국내 핵심광물 자원 탐사 기술 및 사업 모델 개발에 시사점을 제공할 수 있을 것으로 판단됩니다.",
+    "category": "exploration_tech",
+    "tags": [
+     "핵심광물",
+     "탐사시추",
+     "자원탐사"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "exploration drilling program",
+      "meaning": "탐사 시추 프로그램"
+     },
+     {
+      "phrase": "critical minerals project",
+      "meaning": "핵심광물 프로젝트"
+     },
+     {
+      "phrase": "drill hole completion",
+      "meaning": "시추공 완료"
+     },
+     {
+      "phrase": "mineral resource estimation",
+      "meaning": "광물자원 추정"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "99cb63513e",
+    "title": "Total Metals Completes 25 Hole, 8,408 metre Exploration Drilling Program on its Electrolode Critical Minerals Project - TradingView",
+    "url": "https://tradingview.com/news/reuters.com,2026-05-06:newsml_Tnw2zhnKb:0-total-metals-completes-25-hole-8-408-metre-exploration-drilling-program-on-its-electrolode-critical-minerals-project",
+    "source": "Google News - Critical Minerals Exploration",
+    "tier_weight": 1,
+    "score": 8,
+    "published": "2026-05-06",
+    "korean_summary": [
+     "TotalMetals Corp.가 Electrolode 핵심광물 프로젝트의 탐사 시추 프로그램을 완료했다고 밝혔음",
+     "25개 공, 8,408 metre 규모이며 100% 보유한 Electrolode 프로퍼티에서 진행했음",
+     "시추 코어는 현재 실험실에서 처리 중이며 분석 결과는 앞으로 몇 주 안에 발표할 예정임"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "핵심광물",
+     "탐사시추",
+     "VMS",
+     "온타리오",
+     "TotalMetals"
+    ],
+    "ai_processed": true,
+    "card_id": "334a6f02535c",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "25 hole, 8,408 metre",
+     "5,500-metre",
+     "12 historical critical-metals targets"
+    ],
+    "quotes": [
+     "These werethen evaluated and ranked, such that the upper 10% were selected fordrill testing.",
+     "Mineral Resources were estimated and reported with aneffective date of October 15, 2020, using 3% Zn as a lower cut-off,are summarized in the statement and table above."
+    ],
+    "summary_raw": "Total Metals Completes 25 Hole, 8,408 metre Exploration Drilling Program on its Electrolode Critical Minerals Project&nbsp;&nbsp;TradingView",
+    "english_phrases": [
+     {
+      "phrase": "assay results",
+      "meaning": "시료의 성분 함량 분석 결과"
+     },
+     {
+      "phrase": "VTEM",
+      "meaning": "항공 전자탐사 자료(본문 표기)"
+     },
+     {
+      "phrase": "VMS deposits",
+      "meaning": "화산성 괴상 황화물 광상"
+     }
+    ],
+    "implication": "",
+    "trial": true
+   },
+   "trial": true
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "ee93351ef337",
+   "title": "Slovakia’s Antimony Deposit and the EU Critical Minerals Supply Chain - Discovery Alert",
+   "title_norm": "slovakia s antimony deposit and the eu critical minerals supply chain",
+   "url": "https://discoveryalert.com.au/eu-critical-minerals-antimony-slovakia-governance-crisis-2026",
+   "gnews_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbUpFNmJqbXEzd1RkSGZnSmZtdWtveG5WMmZQdHlLaTdLOUdSN2tXbEp2RjloQjViYk9KSFcwSURNMDQzX2ZzenEwQnNmTkpyNzVNUGR5ZW5WN04xM1dfSTd0M2h5c0dHMDF5Y2N1b2d4T25zcUs0akFLaFNsRFMtTlpQNHZHMG1NZFQ2WWN1d2k3Wl9yRENF?oc=5",
+   "source": {
+    "name": "Google News - IRA CRMA Policy",
+    "domain": "discoveryalert.com.au",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-05-11",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:13:38+00:00",
+   "score": 10,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "timeout",
+    "http_status": null,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": null,
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "슬로바키아의 안티모니 광床과 EU 핵심광물 공급망 - 디스커버리 알림임"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "discovery",
+    "tags": [
+     "안티모니",
+     "슬로바키아",
+     "EU",
+     "핵심광물",
+     "공급망"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Discovery Alert",
+      "meaning": "신규 발견 소식을 전하는 알림 형식의 제목 표현"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:13:40+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "df13751632",
+     "v1_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbUpFNmJqbXEzd1RkSGZnSmZtdWtveG5WMmZQdHlLaTdLOUdSN2tXbEp2RjloQjViYk9KSFcwSURNMDQzX2ZzenEwQnNmTkpyNzVNUGR5ZW5WN04xM1dfSTd0M2h5c0dHMDF5Y2N1b2d4T25zcUs0akFLaFNsRFMtTlpQNHZHMG1NZFQ2WWN1d2k3Wl9yRENF?oc=5",
+     "summary_raw": "Slovakia’s Antimony Deposit and the EU Critical Minerals Supply Chain&nbsp;&nbsp;Discovery Alert"
+    }
+   },
+   "v1": {
+    "korean_summary": "슬로바키아에서 발견된 안티몬 광상이 EU의 핵심광물 공급망 안정화에 중요한 자산으로 평가되고 있습니다. 이 발견은 중국 의존도가 높은 안티몬의 유럽 내 자급 기반 구축에 기여할 것으로 전망됩니다. EU의 핵심광물 전략 추진 맥락에서 동유럽 지역의 광물자원 개발 확대가 가속화될 것으로 예상됩니다.",
+    "category": "discovery",
+    "tags": [
+     "안티몬",
+     "핵심광물 공급망",
+     "슬로바키아·EU"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals supply chain diversification",
+      "meaning": "핵심광물 공급망 다원화"
+     },
+     {
+      "phrase": "domestic mineral security in the EU",
+      "meaning": "EU 내 광물자원 자주성 확보"
+     },
+     {
+      "phrase": "strategic deposit exploration and development",
+      "meaning": "전략광상 탐사 및 개발"
+     },
+     {
+      "phrase": "antimony concentrate production capacity",
+      "meaning": "안티몬 정광 생산 역량"
+     },
+     {
+      "phrase": "mineral supply chain resilience",
+      "meaning": "광물 공급망 복원력"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "df13751632",
+    "title": "Slovakia’s Antimony Deposit and the EU Critical Minerals Supply Chain - Discovery Alert",
+    "url": "https://discoveryalert.com.au/eu-critical-minerals-antimony-slovakia-governance-crisis-2026",
+    "source": "Google News - IRA CRMA Policy",
+    "tier_weight": 1,
+    "score": 10,
+    "published": "2026-05-11",
+    "korean_summary": [
+     "[제목 기반] 슬로바키아의 안티모니 광床과 EU 핵심광물 공급망 - 디스커버리 알림임"
+    ],
+    "category": "discovery",
+    "tags": [
+     "안티모니",
+     "슬로바키아",
+     "EU",
+     "핵심광물",
+     "공급망"
+    ],
+    "ai_processed": true,
+    "card_id": "ee93351ef337",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Slovakia’s Antimony Deposit and the EU Critical Minerals Supply Chain&nbsp;&nbsp;Discovery Alert",
+    "english_phrases": [
+     {
+      "phrase": "Discovery Alert",
+      "meaning": "신규 발견 소식을 전하는 알림 형식의 제목 표현"
+     }
+    ],
+    "implication": "",
+    "trial": true
+   },
+   "trial": true
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "90979de124f4",
+   "title": "Delta Lithium uncovers high-grade fluorite surprise at Yinnetharra while Mt Ida lithium drilling delivers strong infill results - Proactive financial news",
+   "title_norm": "delta lithium uncovers high grade fluorite surprise at yinnetharra while mt ida lithium drilling delivers strong infill results",
+   "url": "https://proactiveinvestors.com/companies/news/1092013/delta-lithium-uncovers-high-grade-fluorite-surprise-at-yinnetharra-while-mt-ida-lithium-drilling-delivers-strong-infill-results-1092013.html",
+   "gnews_url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNcDVWaE5JNzhNWWxyR09BcEhUNmxRWWk2bzNmeXh3ZHk3VXV6VXlXeDVqbDEyWVhkMm5PSzJWb0lXUEZjOENub3ZYZjVJRnpneTlEN3oyQW1HcVVkd1hZZmdEeWhRUlM2VXd5Uk9IZEZVeFFYS1B2N203U1VkRTI0QnNSWjM0VUg4eWxhTDJJQnExdzRGNHAzaWE1S2FmRXkwa0RRcHhnSGltNWxGU1FQeGJ3bFROanF1b1VNSUhWT2RkbHJQVTlFdDV3NnhBcWVFWFk1bGRna0hqRGxUWklYVXVqZ1hoWkJMTXZIX1RjTklyLTlaUmxIbkNHVl9HZkgwRHRZMm9IWUlGTFdKSUp0OHFiUXpBM3RrZm5aOGxPQ3JRdWV4?oc=5",
+   "source": {
+    "name": "Google News - Lithium Discovery",
+    "domain": "proactiveinvestors.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-05-11",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:13:45+00:00",
+   "score": 8,
+   "body": {
+    "status": "full",
+    "chars": 6989,
+    "sha256": "1f088f080e721dab2b1c32e5d80bc68db1b7ca4eb88b5a591632d60997ff978b",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-05-11",
+    "quotes": [
+     "The market splits between acid-grade material (greater than 97% CaF₂), which commands premium pricing for use in chemical, battery and semiconductor applications, and lower-value metallurgical grades.",
+     "Mt Ida lithium: resource confidence building ahead of scoping study"
+    ],
+    "final_url": "https://www.proactiveinvestors.com/companies/news/1092013/delta-lithium-uncovers-high-grade-fluorite-surprise-at-yinnetharra-while-mt-ida-lithium-drilling-delivers-strong-infill-results-1092013.html",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Delta Lithium(ASX:DLI)이 Yinnetharra 프로젝트에서 고품위 형석 결과를 발표했음",
+     "Quartz Fluorine Veins 암석시료에서 최고 86.09% CaF₂가 나왔음",
+     "James Croser 대표이사는 시추 결과가 향후 후속 조사할 가치가 있다고 밝혔음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "86.09% CaF₂",
+     "876 metres",
+     "more than 16 kilometres"
+    ],
+    "quotes": [
+     "The market splits between acid-grade material (greater than 97% CaF₂), which commands premium pricing for use in chemical, battery and semiconductor applications, and lower-value metallurgical grades.",
+     "Mt Ida lithium: resource confidence building ahead of scoping study"
+    ],
+    "category": "discovery",
+    "tags": [
+     "형석",
+     "리튬",
+     "탐사",
+     "서호주",
+     "Delta Lithium"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "acid-grade",
+      "meaning": "산 등급(CaF₂ 97% 초과의 고순도 형석 규격)"
+     },
+     {
+      "phrase": "infill",
+      "meaning": "기존 시추 간격 사이를 메우는 보충 시추"
+     },
+     {
+      "phrase": "opportunistic drilling",
+      "meaning": "기회를 활용한 단기 시추"
+     }
+    ],
+    "implication": "형석이 여러 주요국에서 핵심광물로 분류되고 공급이 중국에 집중돼, 서호주의 신규 형석 공급원 가능성이 주목받음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:13:56+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "54af8954c0",
+     "v1_url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNcDVWaE5JNzhNWWxyR09BcEhUNmxRWWk2bzNmeXh3ZHk3VXV6VXlXeDVqbDEyWVhkMm5PSzJWb0lXUEZjOENub3ZYZjVJRnpneTlEN3oyQW1HcVVkd1hZZmdEeWhRUlM2VXd5Uk9IZEZVeFFYS1B2N203U1VkRTI0QnNSWjM0VUg4eWxhTDJJQnExdzRGNHAzaWE1S2FmRXkwa0RRcHhnSGltNWxGU1FQeGJ3bFROanF1b1VNSUhWT2RkbHJQVTlFdDV3NnhBcWVFWFk1bGRna0hqRGxUWklYVXVqZ1hoWkJMTXZIX1RjTklyLTlaUmxIbkNHVl9HZkgwRHRZMm9IWUlGTFdKSUp0OHFiUXpBM3RrZm5aOGxPQ3JRdWV4?oc=5",
+     "summary_raw": "Delta Lithium uncovers high-grade fluorite surprise at Yinnetharra while Mt Ida lithium drilling delivers strong infill results&nbsp;&nbsp;Proactive financial news"
+    }
+   },
+   "v1": {
+    "korean_summary": "Delta Lithium은 호주 Yinnetharra 프로젝트에서 예상치 못한 고품위 형석(fluorite) 광체를 발견하여 핵심광물 다원화의 기회를 확보한 것으로 확인되었습니다. 동시에 Mt Ida 리튬 시추 사업에서 강력한 충전(infill) 시추 결과를 달성하여 기존 리튬 자원 평가를 보강할 전망입니다. 이는 단일 광구에서 복수 핵심광물의 경제적 회수 가능성을 시사하는 사례로서 자원 효율성 극대화 차원의 의미를 지닙니다.",
+    "category": "discovery",
+    "tags": [
+     "형석",
+     "리튬",
+     "호주"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "high-grade fluorite discovery",
+      "meaning": "고품위 형석 발견"
+     },
+     {
+      "phrase": "infill drilling results",
+      "meaning": "충전(보강) 시추 결과"
+     },
+     {
+      "phrase": "critical minerals diversification",
+      "meaning": "핵심광물 다원화"
+     },
+     {
+      "phrase": "resource estimation",
+      "meaning": "자원량 평가"
+     },
+     {
+      "phrase": "co-product recovery",
+      "meaning": "부산물 회수"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "54af8954c0",
+    "title": "Delta Lithium uncovers high-grade fluorite surprise at Yinnetharra while Mt Ida lithium drilling delivers strong infill results - Proactive financial news",
+    "url": "https://proactiveinvestors.com/companies/news/1092013/delta-lithium-uncovers-high-grade-fluorite-surprise-at-yinnetharra-while-mt-ida-lithium-drilling-delivers-strong-infill-results-1092013.html",
+    "source": "Google News - Lithium Discovery",
+    "tier_weight": 1,
+    "score": 8,
+    "published": "2026-05-11",
+    "korean_summary": [
+     "Delta Lithium(ASX:DLI)이 Yinnetharra 프로젝트에서 고품위 형석 결과를 발표했음",
+     "Quartz Fluorine Veins 암석시료에서 최고 86.09% CaF₂가 나왔음",
+     "James Croser 대표이사는 시추 결과가 향후 후속 조사할 가치가 있다고 밝혔음"
+    ],
+    "category": "discovery",
+    "tags": [
+     "형석",
+     "리튬",
+     "탐사",
+     "서호주",
+     "Delta Lithium"
+    ],
+    "ai_processed": true,
+    "card_id": "90979de124f4",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "86.09% CaF₂",
+     "876 metres",
+     "more than 16 kilometres"
+    ],
+    "quotes": [
+     "The market splits between acid-grade material (greater than 97% CaF₂), which commands premium pricing for use in chemical, battery and semiconductor applications, and lower-value metallurgical grades.",
+     "Mt Ida lithium: resource confidence building ahead of scoping study"
+    ],
+    "summary_raw": "Delta Lithium uncovers high-grade fluorite surprise at Yinnetharra while Mt Ida lithium drilling delivers strong infill results&nbsp;&nbsp;Proactive financial news",
+    "english_phrases": [
+     {
+      "phrase": "acid-grade",
+      "meaning": "산 등급(CaF₂ 97% 초과의 고순도 형석 규격)"
+     },
+     {
+      "phrase": "infill",
+      "meaning": "기존 시추 간격 사이를 메우는 보충 시추"
+     },
+     {
+      "phrase": "opportunistic drilling",
+      "meaning": "기회를 활용한 단기 시추"
+     }
+    ],
+    "implication": "형석이 여러 주요국에서 핵심광물로 분류되고 공급이 중국에 집중돼, 서호주의 신규 형석 공급원 가능성이 주목받음",
+    "trial": true
+   },
+   "trial": true
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "680d5b1bdf18",
+   "title": "Fastmarkets extends consultation on proposal to launch price assessment for tungsten unwrought metal bar, CIF main ports Europe, US, Japan - Fastmarkets",
+   "title_norm": "fastmarkets extends consultation on proposal to launch price assessment for tungsten unwrought metal bar cif main ports europe us japan",
+   "url": "https://fastmarkets.com/insights/fastmarkets-extends-consultation-on-proposal-to-launch-price-assessment-for-tungsten-unwrought-metal-bar-cif-main-ports-europe-us-japan",
+   "gnews_url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNSjI4X0FTTlJEQ2hKc0NoRjhoNG9KSDhZamhRQnBBYUIxUElFYzBXS2dIZlZjN0xyV2lkc21tZTFZLW5WVlRPU3FhQUhHWUpBT29TQ2ZiVzJ0THBhMjBibV9BQWhHeS1rXzBuWDhKRll1cnQ5STI2M2ZVVWNhMHV1b1VxLWtlaV9NRTlpUExiVXk3clNRLXh4djUyNVpDS3YwUmtJQ0dVc0NVRnlUaEtYZTdPbHZ4YW9EQkpLVlg3ay10THdxeTlxdDlhYVBheUtuR0tUeVBiV3pPWERZS2hwQlAtcmFQajJXMVViUkFMQTlOVVgzX3Jrcm1XeTdyUEFGZ1Z3?oc=5",
+   "source": {
+    "name": "Fastmarkets - via Google News",
+    "domain": "fastmarkets.com",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-05-11",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:13:57+00:00",
+   "score": 9,
+   "body": {
+    "status": "partial",
+    "chars": 325,
+    "sha256": "ce4fc262b587207b99ca7ed659fcd5d54d847e425b76f9bb66259d4d65918a75",
+    "source": "og_description",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [
+     "The consultation considers launching a new tungsten metal bar price assessment, with […]"
+    ],
+    "final_url": "https://www.fastmarkets.com/insights/fastmarkets-extends-consultation-on-proposal-to-launch-price-assessment-for-tungsten-unwrought-metal-bar-cif-main-ports-europe-us-japan/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Fastmarkets가 텅스텐 지금(unwrought metal) 바 가격평가 신설안에 대한 의견수렴 기간을 연장했음",
+     "의견수렴은 4월 8일 시작해 5월 8일까지였으나 5월 26일로 연장됐고, 결정은 5월 29일까지 공표될 예정임",
+     "당초 5월 15일까지 출시 예정이었으며 시장 의견에 따라 달라질 수 있었고, 새 평가의 세부 내용은 확인 불가임"
+    ],
+    "basis": "body",
+    "key_figures": [],
+    "quotes": [
+     "The consultation considers launching a new tungsten metal bar price assessment, with […]"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "텅스텐",
+     "가격평가",
+     "Fastmarkets",
+     "의견수렴",
+     "CIF"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "consultation",
+      "meaning": "의견수렴, 공개 협의"
+     },
+     {
+      "phrase": "price assessment",
+      "meaning": "가격평가"
+     },
+     {
+      "phrase": "subject to market feedback",
+      "meaning": "시장 의견에 따라 달라질 수 있음"
+     },
+     {
+      "phrase": "unwrought metal bar",
+      "meaning": "가공 전 지금 형태의 금속 바"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "partial",
+    "input_chars": 325,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:14:01+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "a3f344f654",
+     "v1_url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNSjI4X0FTTlJEQ2hKc0NoRjhoNG9KSDhZamhRQnBBYUIxUElFYzBXS2dIZlZjN0xyV2lkc21tZTFZLW5WVlRPU3FhQUhHWUpBT29TQ2ZiVzJ0THBhMjBibV9BQWhHeS1rXzBuWDhKRll1cnQ5STI2M2ZVVWNhMHV1b1VxLWtlaV9NRTlpUExiVXk3clNRLXh4djUyNVpDS3YwUmtJQ0dVc0NVRnlUaEtYZTdPbHZ4YW9EQkpLVlg3ay10THdxeTlxdDlhYVBheUtuR0tUeVBiV3pPWERZS2hwQlAtcmFQajJXMVViUkFMQTlOVVgzX3Jrcm1XeTdyUEFGZ1Z3?oc=5",
+     "summary_raw": "Fastmarkets extends consultation on proposal to launch price assessment for tungsten unwrought metal bar, CIF main ports Europe, US, Japan&nbsp;&nbsp;Fastmarkets"
+    }
+   },
+   "v1": {
+    "korean_summary": "Fastmarkets가 유럽, 미국, 일본의 주요 항구를 대상으로 한 미가공 텅스텐 봉(unwrought metal bar) 가격평가 제도 도입을 위한 협의 기간을 연장하였음. 이는 핵심광물인 텅스텐의 국제 가격 투명성 강화 및 시장 지표 정립을 위한 주요 움직임으로 평가됨. 동 제도는 텅스텐 공급망의 국제 거래 기준 마련에 중요한 역할을 할 것으로 전망됨.",
+    "category": "supply_chain",
+    "tags": [
+     "텅스텐",
+     "가격평가제도",
+     "국제광물거래"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "price assessment for unwrought metal",
+      "meaning": "미가공 금속의 가격평가 제도"
+     },
+     {
+      "phrase": "CIF main ports (Cost, Insurance, and Freight)",
+      "meaning": "주요 항구 인도 기준의 운임·보험료 포함 가격"
+     },
+     {
+      "phrase": "market transparency and price discovery mechanism",
+      "meaning": "시장 투명성 및 가격 지표 형성 메커니즘"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "a3f344f654",
+    "title": "Fastmarkets extends consultation on proposal to launch price assessment for tungsten unwrought metal bar, CIF main ports Europe, US, Japan - Fastmarkets",
+    "url": "https://fastmarkets.com/insights/fastmarkets-extends-consultation-on-proposal-to-launch-price-assessment-for-tungsten-unwrought-metal-bar-cif-main-ports-europe-us-japan",
+    "source": "Fastmarkets - via Google News",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-05-11",
+    "korean_summary": [
+     "Fastmarkets가 텅스텐 지금(unwrought metal) 바 가격평가 신설안에 대한 의견수렴 기간을 연장했음",
+     "의견수렴은 4월 8일 시작해 5월 8일까지였으나 5월 26일로 연장됐고, 결정은 5월 29일까지 공표될 예정임",
+     "당초 5월 15일까지 출시 예정이었으며 시장 의견에 따라 달라질 수 있었고, 새 평가의 세부 내용은 확인 불가임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "텅스텐",
+     "가격평가",
+     "Fastmarkets",
+     "의견수렴",
+     "CIF"
+    ],
+    "ai_processed": true,
+    "card_id": "680d5b1bdf18",
+    "basis": "body",
+    "body_status": "partial",
+    "key_figures": [],
+    "quotes": [
+     "The consultation considers launching a new tungsten metal bar price assessment, with […]"
+    ],
+    "summary_raw": "Fastmarkets extends consultation on proposal to launch price assessment for tungsten unwrought metal bar, CIF main ports Europe, US, Japan&nbsp;&nbsp;Fastmarkets",
+    "english_phrases": [
+     {
+      "phrase": "consultation",
+      "meaning": "의견수렴, 공개 협의"
+     },
+     {
+      "phrase": "price assessment",
+      "meaning": "가격평가"
+     },
+     {
+      "phrase": "subject to market feedback",
+      "meaning": "시장 의견에 따라 달라질 수 있음"
+     },
+     {
+      "phrase": "unwrought metal bar",
+      "meaning": "가공 전 지금 형태의 금속 바"
+     }
+    ],
+    "implication": "",
+    "trial": true
+   },
+   "trial": true
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "c024fd8b9731",
+   "title": "A Reproducible Method for Mapping Electricity Transmission Infrastructure for Space Weather Risk Assessment",
+   "title_norm": "a reproducible method for mapping electricity transmission infrastructure for space weather risk assessment",
+   "url": "https://arxiv.org/abs/2412.17685",
+   "gnews_url": null,
+   "source": {
+    "name": "arXiv Geophysics",
+    "domain": "arxiv.org",
+    "tier": null,
+    "tier_weight": 4,
+    "language": null
+   },
+   "published": "2026-05-12",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:14:01+00:00",
+   "score": 11,
+   "body": {
+    "status": "full",
+    "chars": 2538,
+    "sha256": "0177a077d199765af425093d477626a66123626e8c5179fd475ac54ee21fcdfc",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2024-12-23",
+    "quotes": [
+     "This gives a median TVA 95th-percentile peak ground GIC of 29.1 A, with a 90 percent confidence interval of 23.9-36.1 A."
+    ],
+    "final_url": "https://arxiv.org/abs/2412.17685",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "OpenStreetMap 변전소 위치로 송전 설비를 구성요소 단위로 매핑하는 재현 가능한 방법을 제안했음",
+     "고전압(>=230 kV) 변전소 1,313곳을 52,273개 구성요소로 변환해 변압기 7,949개를 식별했음",
+     "운영사 데이터 없이 공간 명시적 스크리닝 수준의 GIC 평가가 가능할 것으로 제시했음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "52,273 components",
+     "7,949 transformers",
+     "29.1 A"
+    ],
+    "quotes": [
+     "This gives a median TVA 95th-percentile peak ground GIC of 29.1 A, with a 90 percent confidence interval of 23.9-36.1 A."
+    ],
+    "category": "research",
+    "tags": [
+     "우주기상",
+     "지자기유도전류",
+     "송전 인프라",
+     "OpenStreetMap",
+     "몬테카를로"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "geomagnetically induced currents (GICs)",
+      "meaning": "지자기 폭풍으로 송전망에 유도되는 전류"
+     },
+     {
+      "phrase": "Monte Carlo ensemble",
+      "meaning": "무작위 표본 추출을 반복하는 몬테카를로 앙상블"
+     },
+     {
+      "phrase": "screening-level",
+      "meaning": "정밀 평가 전 단계의 선별 수준"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 2538,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:14:10+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "ae41ef4458",
+     "v1_url": "https://arxiv.org/abs/2412.17685",
+     "summary_raw": "arXiv:2412.17685v2 Announce Type: replace \nAbstract: Space weather risk assessment is constrained by the lack of available asset information needed to model Geomagnetically Induced Currents (GICs) in electricity transmission infrastructure. We propose a reproducible method that enables risk analysts to collect their own open-source substation data. Utilizing an innovative web-browser platform for annotation, we convert OpenStreetMap substation locations to high-resolution, component-level mappin"
+    }
+   },
+   "v1": {
+    "korean_summary": "본 연구는 지자기 유도 전류(GICs)에 의한 전력망 피해를 평가하기 위해 개방형 지리정보(OpenStreetMap)를 활용하여 변전소 위치를 고해상도 단위의 구성요소 수준으로 매핑하는 재현 가능한 방법을 제시하고 있습니다. 웹 브라우저 기반의 주석 플랫폼을 통해 위험 분석가들이 자체 오픈소스 데이터를 수집할 수 있도록 함으로써 우주날씨 위험 평가의 데이터 부족 문제 해결을 목표로 하고 있습니다. 이는 전력 인프라의 취약성 분석과 핵심광물 관련 에너지 보안 리스크 관리 측면에서 실질적 기여를 할 것으로 예상됩니다.",
+    "category": "research",
+    "tags": [
+     "전력인프라",
+     "우주날씨 리스크",
+     "지리정보시스템(GIS)"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Geomagnetically Induced Currents (GICs)",
+      "meaning": "지자기 유도 전류 (우주날씨 현상이 전력망에 미치는 영향)"
+     },
+     {
+      "phrase": "component-level mapping",
+      "meaning": "구성요소 수준의 매핑 (세부 인프라 단위의 위험평가)"
+     },
+     {
+      "phrase": "reproducible method for risk assessment",
+      "meaning": "위험 평가를 위한 재현 가능한 방법론 (개방형 자료 기반의 표준화된 접근)"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "ae41ef4458",
+    "title": "A Reproducible Method for Mapping Electricity Transmission Infrastructure for Space Weather Risk Assessment",
+    "url": "https://arxiv.org/abs/2412.17685",
+    "source": "arXiv Geophysics",
+    "tier_weight": 4,
+    "score": 11,
+    "published": "2026-05-12",
+    "korean_summary": [
+     "OpenStreetMap 변전소 위치로 송전 설비를 구성요소 단위로 매핑하는 재현 가능한 방법을 제안했음",
+     "고전압(>=230 kV) 변전소 1,313곳을 52,273개 구성요소로 변환해 변압기 7,949개를 식별했음",
+     "운영사 데이터 없이 공간 명시적 스크리닝 수준의 GIC 평가가 가능할 것으로 제시했음"
+    ],
+    "category": "research",
+    "tags": [
+     "우주기상",
+     "지자기유도전류",
+     "송전 인프라",
+     "OpenStreetMap",
+     "몬테카를로"
+    ],
+    "ai_processed": true,
+    "card_id": "c024fd8b9731",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "52,273 components",
+     "7,949 transformers",
+     "29.1 A"
+    ],
+    "quotes": [
+     "This gives a median TVA 95th-percentile peak ground GIC of 29.1 A, with a 90 percent confidence interval of 23.9-36.1 A."
+    ],
+    "summary_raw": "arXiv:2412.17685v2 Announce Type: replace \nAbstract: Space weather risk assessment is constrained by the lack of available asset information needed to model Geomagnetically Induced Currents (GICs) in electricity transmission infrastructure. We propose a reproducible method that enables risk analysts to collect their own open-source substation data. Utilizing an innovative web-browser platform for annotation, we convert OpenStreetMap substation locations to high-resolution, component-level mappin",
+    "english_phrases": [
+     {
+      "phrase": "geomagnetically induced currents (GICs)",
+      "meaning": "지자기 폭풍으로 송전망에 유도되는 전류"
+     },
+     {
+      "phrase": "Monte Carlo ensemble",
+      "meaning": "무작위 표본 추출을 반복하는 몬테카를로 앙상블"
+     },
+     {
+      "phrase": "screening-level",
+      "meaning": "정밀 평가 전 단계의 선별 수준"
+     }
+    ],
+    "implication": "",
+    "trial": true
+   },
+   "trial": true
+  }
+ ],
+ "excluded": [],
+ "v1_file": "week-2026-05-12.json",
+ "v1_metrics": {
+  "articles": 12,
+  "original_link": 2,
+  "body_based": 0,
+  "failed": 0
+ },
+ "trial": true
+}

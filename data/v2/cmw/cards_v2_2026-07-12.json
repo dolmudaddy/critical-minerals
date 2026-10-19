@@ -1,0 +1,2024 @@
+{
+ "schema_version": "card.v1",
+ "service": "cmw",
+ "week_of": "2026-07-12",
+ "generated_at": "2026-10-19T05:27:43+00:00",
+ "mincore_version": "0.3.6",
+ "model": "claude-sonnet-5-5",
+ "prompt_version": "v2.2",
+ "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+ "stats": {
+  "v1_articles": 12,
+  "cards": 12,
+  "excluded": 0,
+  "body_got": 7,
+  "body_rate": 0.583,
+  "original_link": 12,
+  "reader_proxy_used": 0,
+  "line_len": {
+   "lines": 27,
+   "median": 57,
+   "max": 80,
+   "over60": 13,
+   "over100": 0
+  },
+  "oda_filled": 7,
+  "usage": {
+   "claude-sonnet-5-5": {
+    "calls": 15,
+    "in": 41215,
+    "out": 11272
+   }
+  },
+  "cost_usd": 0.2927,
+  "body_status": {
+   "title_only": 4,
+   "full": 7,
+   "lead_only": 1
+  },
+  "body_source": {
+   "none": 4,
+   "trafilatura": 7,
+   "og_description": 1
+  },
+  "resolve": {
+   "decoder": 12
+  },
+  "fail_reason": {},
+  "basis": {
+   "title": 4,
+   "body": 7,
+   "lead": 1
+  },
+  "retry_reason": {
+   "lines는 3줄이어야 함 (현재 4줄)": 2,
+   "lines는 3줄이어야 함 (현재 5줄)": 1
+  },
+  "flags": {},
+  "model_used": {
+   "claude-sonnet-5-5": 12
+  }
+ },
+ "total": 12,
+ "cards": [
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "a4e62a738813",
+   "title": "Critical Minerals Review of Norway 2026 – Analysis - IEA – International Energy Agency",
+   "title_norm": "critical minerals review of norway 2026 analysis iea",
+   "url": "https://iea.org/reports/critical-minerals-review-of-norway-2026",
+   "gnews_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5GZWh1YU9hZmVsYWR0UEdSS2w4d2hIdGQyMG5xenF0d0JLLVp5Z3pjRGxmcjBhRmJLSkJRblB5ei1fU3JEVjFSei1GY29qNXRaSVEzUGkxWENfYnFyM0N4MkZwUU5JeFdVU2YzVDlRTk1fTDd3TVE?oc=5",
+   "source": {
+    "name": "IEA - via Google News",
+    "domain": "iea.org",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-07-10",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:25:56+00:00",
+   "score": 9,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "bot_block",
+    "http_status": 403,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.iea.org/reports/critical-minerals-review-of-norway-2026",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "IEA, '2026 노르웨이 핵심광물 검토' 분석을 발표했음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "노르웨이",
+     "IEA",
+     "정책 분석"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Critical Minerals Review of Norway 2026",
+      "meaning": "2026 노르웨이 핵심광물 검토"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:25:58+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "a5caaad996",
+     "v1_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5GZWh1YU9hZmVsYWR0UEdSS2w4d2hIdGQyMG5xenF0d0JLLVp5Z3pjRGxmcjBhRmJLSkJRblB5ei1fU3JEVjFSei1GY29qNXRaSVEzUGkxWENfYnFyM0N4MkZwUU5JeFdVU2YzVDlRTk1fTDd3TVE?oc=5",
+     "summary_raw": "Critical Minerals Review of Norway 2026 – Analysis&nbsp;&nbsp;IEA – International Energy Agency"
+    }
+   },
+   "v1": {
+    "korean_summary": "IEA가 2026년 노르웨이의 핵심광물 현황을 분석한 보고서를 발표했으며, 이는 북유럽 지역의 핵심광물 공급 안정성 평가에 중요한 참고자료로 활용될 전망입니다. 노르웨이는 유럽의 핵심광물 수급 다원화 전략에서 전략적 파트너로서의 역할이 강조되고 있습니다. 이 분석은 국내 자원 외교 및 핵심광물 확보 정책 수립 시 벤치마킹 가능한 선진 사례를 제시하고 있습니다.",
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "공급망 안정성",
+     "노르웨이"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Critical Minerals Review",
+      "meaning": "핵심광물 실태조사 및 평가 분석"
+     },
+     {
+      "phrase": "supply chain resilience",
+      "meaning": "공급망 회복력 강화"
+     },
+     {
+      "phrase": "resource diversification strategy",
+      "meaning": "자원 공급처 다원화 전략"
+     },
+     {
+      "phrase": "mineral security assessment",
+      "meaning": "광물 자원 안보 평가"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "a5caaad996",
+    "title": "Critical Minerals Review of Norway 2026 – Analysis - IEA – International Energy Agency",
+    "url": "https://iea.org/reports/critical-minerals-review-of-norway-2026",
+    "source": "IEA - via Google News",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-07-10",
+    "korean_summary": [
+     "[제목 기반] IEA, '2026 노르웨이 핵심광물 검토' 분석을 발표했음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "노르웨이",
+     "IEA",
+     "정책 분석"
+    ],
+    "ai_processed": true,
+    "card_id": "a4e62a738813",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Critical Minerals Review of Norway 2026 – Analysis&nbsp;&nbsp;IEA – International Energy Agency",
+    "english_phrases": [
+     {
+      "phrase": "Critical Minerals Review of Norway 2026",
+      "meaning": "2026 노르웨이 핵심광물 검토"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "2f9145bb7139",
+   "title": "Rare earths startup ReElement no longer seeking $80 million Pentagon loan, administration sources say - Reuters",
+   "title_norm": "rare earths startup reelement no longer seeking 80 million pentagon loan administration sources say",
+   "url": "https://reuters.com/business/rare-earths-startup-reelement-no-longer-seeking-80-million-pentagon-loan-2026-07-10",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVnNrRWFyN3JGUlIxalpyejN4ckRpdDBTcmZPVTAwVDR5QWk1a0VpWDgwLXYwMGcxYVduSlVYTWdWeWdGTnF5WUFmeU1vaHZicU1rWmxFeW8tdmdfdHZuYUtkSVFHZld5aHh5SlJzWHR6OENjdTd3WTNuTUJrUnAwTVJnbEJNNTJ1RTg3eVZVczZiSkpydDgzeTVfWTRCMmtsZnFVOXdtSGprYUNKd1VCazNBMVVoTnVT?oc=5",
+   "source": {
+    "name": "Reuters - via Google News",
+    "domain": "reuters.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-07-10",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:25:58+00:00",
+   "score": 9,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "skipped",
+    "http_status": null,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": null,
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "희토류 스타트업 ReElement가 $80 million 규모 펜타곤 대출을 더 이상 추진하지 않는다고 행정부 소식통이 전했음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "ReElement",
+     "펜타곤 대출",
+     "스타트업"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "no longer seeking",
+      "meaning": "더 이상 추진하지 않음"
+     },
+     {
+      "phrase": "administration sources",
+      "meaning": "행정부 소식통"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:26:16+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "2811cc1194",
+     "v1_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVnNrRWFyN3JGUlIxalpyejN4ckRpdDBTcmZPVTAwVDR5QWk1a0VpWDgwLXYwMGcxYVduSlVYTWdWeWdGTnF5WUFmeU1vaHZicU1rWmxFeW8tdmdfdHZuYUtkSVFHZld5aHh5SlJzWHR6OENjdTd3WTNuTUJrUnAwTVJnbEJNNTJ1RTg3eVZVczZiSkpydDgzeTVfWTRCMmtsZnFVOXdtSGprYUNKd1VCazNBMVVoTnVT?oc=5",
+     "summary_raw": "Rare earths startup ReElement no longer seeking $80 million Pentagon loan, administration sources say&nbsp;&nbsp;Reuters"
+    }
+   },
+   "v1": {
+    "korean_summary": "희토류 신생기업 ReElement가 미국 국방부로부터 추진 중이던 8천만 달러 대출 지원 신청을 철회한 것으로 확인되었습니다. 이는 바이든 행정부의 핵심광물 공급망 강화 정책의 방향 전환을 시사하는 사례로 평가됩니다. 국내 희토류 자원 개발 및 정제 기술 자립화 전략 수립에 중요한 정책적 참고사항이 될 것으로 전망됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "희토류(REE)",
+     "공급망 정책",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "rare earths startup",
+      "meaning": "희토류 신생기업"
+     },
+     {
+      "phrase": "Pentagon loan",
+      "meaning": "국방부 정부 지원 대출"
+     },
+     {
+      "phrase": "critical minerals supply chain",
+      "meaning": "핵심광물 공급망"
+     },
+     {
+      "phrase": "administration sources",
+      "meaning": "행정부 관계자"
+     },
+     {
+      "phrase": "domestic rare earth processing",
+      "meaning": "국내 희토류 정제 기술"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "2811cc1194",
+    "title": "Rare earths startup ReElement no longer seeking $80 million Pentagon loan, administration sources say - Reuters",
+    "url": "https://reuters.com/business/rare-earths-startup-reelement-no-longer-seeking-80-million-pentagon-loan-2026-07-10",
+    "source": "Reuters - via Google News",
+    "tier_weight": 3,
+    "score": 9,
+    "published": "2026-07-10",
+    "korean_summary": [
+     "[제목 기반] 희토류 스타트업 ReElement가 $80 million 규모 펜타곤 대출을 더 이상 추진하지 않는다고 행정부 소식통이 전했음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "ReElement",
+     "펜타곤 대출",
+     "스타트업"
+    ],
+    "ai_processed": true,
+    "card_id": "2f9145bb7139",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Rare earths startup ReElement no longer seeking $80 million Pentagon loan, administration sources say&nbsp;&nbsp;Reuters",
+    "english_phrases": [
+     {
+      "phrase": "no longer seeking",
+      "meaning": "더 이상 추진하지 않음"
+     },
+     {
+      "phrase": "administration sources",
+      "meaning": "행정부 소식통"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "f522285b4e44",
+   "title": "Greenland-focused Critical Minerals tasks adviser to evaluate non-core asset portfolio - Mining Weekly",
+   "title_norm": "greenland focused critical minerals tasks adviser to evaluate non core asset portfolio",
+   "url": "https://miningweekly.com/article/greenland-focused-critical-minerals-tasks-adviser-to-evaluate-non-core-asset-portfolio-2026-07-09",
+   "gnews_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObVN0MDRpUUtMVzZ5SHlCRFJjaE1UYnNzSEZzX2JkYjBSMVN0OXJIWlRFOFpnNDFhWFBRZGZ3Wjluakp4anZXSHRrTHRTSnlScUUwUllWczUtdjZqRzc3MExWZjhTYVF3dEQ3TTVQckVkbHJoMVRZaks0TXg4MXdsMjJJcGZZVi05M20zWHc2S1I4c1M3Sk1nNWt4d0NUekgtcHE4cko4RW9uNngxVTNOTFdGTXJFdnEwZFppajdUdUtEeFkyeGwwbFJTWDdVaHM?oc=5",
+   "source": {
+    "name": "Mining Weekly - via Google News",
+    "domain": "miningweekly.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-07-09",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:26:18+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 3374,
+    "sha256": "6d5ed8856f35076d270be862b9aa80b99b81270a38508b9bce9308b4787be244",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-07-09",
+    "quotes": [
+     "Greenland-focused Critical Minerals tasks adviser to evaluate non-core asset portfolio",
+     "Critical Minerals' other assets include, for example, the Wolfsberg lithium project, in Austria, which is expected to be the next major producer of key lithium products to support the European market."
+    ],
+    "final_url": "https://www.miningweekly.com/article/greenland-focused-critical-minerals-tasks-adviser-to-evaluate-non-core-asset-portfolio-2026-07-09",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "나스닥 상장사 Critical Minerals Corporation이 비핵심 자산의 가치 실현 절차를 발표했음",
+     "Clear Street를 재무 자문사로 선임, 스핀오프·자산 매각·합작투자 등을 검토하기로 했음",
+     "그린란드 Tanbreez 희토류 프로젝트 개발 가속을 위해 자본을 핵심 자산에 재배치할 계획임"
+    ],
+    "basis": "body",
+    "key_figures": [],
+    "quotes": [
+     "Greenland-focused Critical Minerals tasks adviser to evaluate non-core asset portfolio",
+     "Critical Minerals' other assets include, for example, the Wolfsberg lithium project, in Austria, which is expected to be the next major producer of key lithium products to support the European market."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "그린란드",
+     "Tanbreez",
+     "리튬",
+     "자산 재편"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "noncore assets",
+      "meaning": "비핵심 자산"
+     },
+     {
+      "phrase": "pure-play Western source of heavy rare earths",
+      "meaning": "중희토류에 특화된 서방 공급원"
+     },
+     {
+      "phrase": "value-maximising pathways",
+      "meaning": "가치를 극대화하는 방안"
+     }
+    ],
+    "implication": "비핵심 자산을 정리하고 그린란드 Tanbreez 중희토류 개발에 자본을 집중해, 서방 중희토류 공급원 육성 움직임이 구체화됨"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 3374,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:26:29+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "74d6b7d343",
+     "v1_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObVN0MDRpUUtMVzZ5SHlCRFJjaE1UYnNzSEZzX2JkYjBSMVN0OXJIWlRFOFpnNDFhWFBRZGZ3Wjluakp4anZXSHRrTHRTSnlScUUwUllWczUtdjZqRzc3MExWZjhTYVF3dEQ3TTVQckVkbHJoMVRZaks0TXg4MXdsMjJJcGZZVi05M20zWHc2S1I4c1M3Sk1nNWt4d0NUekgtcHE4cko4RW9uNngxVTNOTFdGTXJFdnEwZFppajdUdUtEeFkyeGwwbFJTWDdVaHM?oc=5",
+     "summary_raw": "Greenland-focused Critical Minerals tasks adviser to evaluate non-core asset portfolio&nbsp;&nbsp;Mining Weekly"
+    }
+   },
+   "v1": {
+    "korean_summary": "그린란드에 초점을 맞춘 핵심광물 개발 기업이 비핵심 자산 포트폴리오를 평가하기 위해 자문가를 지정하였으며, 이는 장기적인 사업 포트폴리오 최적화 전략의 일환으로 확인되었습니다. 그린란드의 풍부한 핵심광물 자원에 대한 글로벌 수요 증가에 대응하여 전략적 자산 재편이 추진 중인 것으로 판단됩니다. 이러한 포트폴리오 재정렬은 핵심광물 사업으로의 자원 집중도를 높일 것으로 전망됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "레어어스·희토류",
+     "포트폴리오 최적화",
+     "그린란드"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "non-core asset portfolio evaluation",
+      "meaning": "비핵심 자산 포트폴리오 평가"
+     },
+     {
+      "phrase": "critical minerals portfolio optimization",
+      "meaning": "핵심광물 포트폴리오 최적화"
+     },
+     {
+      "phrase": "Greenland-focused mineral strategy",
+      "meaning": "그린란드 중심의 광물 전략"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "74d6b7d343",
+    "title": "Greenland-focused Critical Minerals tasks adviser to evaluate non-core asset portfolio - Mining Weekly",
+    "url": "https://miningweekly.com/article/greenland-focused-critical-minerals-tasks-adviser-to-evaluate-non-core-asset-portfolio-2026-07-09",
+    "source": "Mining Weekly - via Google News",
+    "tier_weight": 3,
+    "score": 9,
+    "published": "2026-07-09",
+    "korean_summary": [
+     "나스닥 상장사 Critical Minerals Corporation이 비핵심 자산의 가치 실현 절차를 발표했음",
+     "Clear Street를 재무 자문사로 선임, 스핀오프·자산 매각·합작투자 등을 검토하기로 했음",
+     "그린란드 Tanbreez 희토류 프로젝트 개발 가속을 위해 자본을 핵심 자산에 재배치할 계획임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "그린란드",
+     "Tanbreez",
+     "리튬",
+     "자산 재편"
+    ],
+    "ai_processed": true,
+    "card_id": "f522285b4e44",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [],
+    "quotes": [
+     "Greenland-focused Critical Minerals tasks adviser to evaluate non-core asset portfolio",
+     "Critical Minerals' other assets include, for example, the Wolfsberg lithium project, in Austria, which is expected to be the next major producer of key lithium products to support the European market."
+    ],
+    "summary_raw": "Greenland-focused Critical Minerals tasks adviser to evaluate non-core asset portfolio&nbsp;&nbsp;Mining Weekly",
+    "english_phrases": [
+     {
+      "phrase": "noncore assets",
+      "meaning": "비핵심 자산"
+     },
+     {
+      "phrase": "pure-play Western source of heavy rare earths",
+      "meaning": "중희토류에 특화된 서방 공급원"
+     },
+     {
+      "phrase": "value-maximising pathways",
+      "meaning": "가치를 극대화하는 방안"
+     }
+    ],
+    "implication": "비핵심 자산을 정리하고 그린란드 Tanbreez 중희토류 개발에 자본을 집중해, 서방 중희토류 공급원 육성 움직임이 구체화됨",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "6162d9c4ba44",
+   "title": "Peruvian miner American Lithium welcomes 'mining positive' Presidential election outcome - Mining Weekly",
+   "title_norm": "peruvian miner american lithium welcomes mining positive presidential election outcome",
+   "url": "https://miningweekly.com/article/peruvian-miner-american-lithium-welcomes-mining-positive-presidential-election-outcome-2026-07-09",
+   "gnews_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNa19lZmMwbFRzOXpkT2ZaVkJnQWFPRGlCNmY2M2RBVEVYU3BMWS1JVnFPVUd2cnB2aVU4ZnB6d3pTSzlpU2tZWHFzRVp2VU13cGxyRG80c1RIV0hMSHZOWGhlM1ZTanJBajFBb296TXFiRF9nS3Rpck1mVE4xMVBKZXZmSURHQ2p0eXloanRaWU5zY0NRN3RYOG15WldzcVlUV3JRT3lyc3lkTTJHZG50TXZSc3lXMFM2X1g4N251MjlFZVQzVDdGVjlTYzFCUkU?oc=5",
+   "source": {
+    "name": "Mining Weekly - via Google News",
+    "domain": "miningweekly.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-07-09",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:26:30+00:00",
+   "score": 7,
+   "body": {
+    "status": "full",
+    "chars": 3883,
+    "sha256": "4904e4ad7ef541b62abb9b26b08798787dece6e0903093762c75370080b719ff",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-07-09",
+    "quotes": [
+     "Peruvian miner American Lithium welcomes 'mining positive' Presidential election outcome",
+     "The renewed political clarity comes at a time when American Lithium is advancing its Falchani lithium and Macusani uranium projects in the country."
+    ],
+    "final_url": "https://www.miningweekly.com/article/peruvian-miner-american-lithium-welcomes-mining-positive-presidential-election-outcome-2026-07-09",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "TSX-V 상장사 American Lithium이 페루 대선에서 Keiko Fujimori의 당선이 공식 확인된 것을 환영했음",
+     "회사는 Puno 지역의 Falchani 리튬 프로젝트와 Macusani 우라늄 프로젝트를 추진 중이라고 밝혔음",
+     "페루가 최근 리튬·우라늄을 국가적 중요 광물로 선언하는 Supreme Decree를 발표했다고 CEO가 언급했음"
+    ],
+    "basis": "body",
+    "key_figures": [],
+    "quotes": [
+     "Peruvian miner American Lithium welcomes 'mining positive' Presidential election outcome",
+     "The renewed political clarity comes at a time when American Lithium is advancing its Falchani lithium and Macusani uranium projects in the country."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "우라늄",
+     "페루",
+     "대선",
+     "광업 투자"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "mining positive",
+      "meaning": "광업에 긍정적인"
+     },
+     {
+      "phrase": "Supreme Decree",
+      "meaning": "대통령령(최고 법령)"
+     },
+     {
+      "phrase": "mining jurisdiction",
+      "meaning": "광업 관할권(광업 투자 환경을 가진 국가·지역)"
+     },
+     {
+      "phrase": "national importance",
+      "meaning": "국가적 중요성"
+     }
+    ],
+    "implication": "페루 신정부의 경제 안정·투자 중시 기조와 리튬·우라늄의 국가적 중요성 선언으로 현지 대형 광물 프로젝트 추진 환경이 개선될 가능성이 있음."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 3883,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:26:34+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "40a1703d1c",
+     "v1_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNa19lZmMwbFRzOXpkT2ZaVkJnQWFPRGlCNmY2M2RBVEVYU3BMWS1JVnFPVUd2cnB2aVU4ZnB6d3pTSzlpU2tZWHFzRVp2VU13cGxyRG80c1RIV0hMSHZOWGhlM1ZTanJBajFBb296TXFiRF9nS3Rpck1mVE4xMVBKZXZmSURHQ2p0eXloanRaWU5zY0NRN3RYOG15WldzcVlUV3JRT3lyc3lkTTJHZG50TXZSc3lXMFM2X1g4N251MjlFZVQzVDdGVjlTYzFCUkU?oc=5",
+     "summary_raw": "Peruvian miner American Lithium welcomes 'mining positive' Presidential election outcome&nbsp;&nbsp;Mining Weekly"
+    }
+   },
+   "v1": {
+    "korean_summary": "페루의 미국 리튬 광업사가 최근 대선 결과를 채광 친화적(mining positive)인 결과로 평가하며 긍정적 반응을 보였습니다. 이는 페루의 핵심광물 개발 환경 개선에 대한 기대감을 반영하고 있습니다. 향후 페루의 리튬 등 핵심광물 생산 활성화가 글로벌 공급망 안정화에 기여할 전망입니다.",
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "핵심광물정책",
+     "페루"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "mining positive outcome",
+      "meaning": "채광 산업에 우호적인 결과, 광물 개발에 긍정적 신호"
+     },
+     {
+      "phrase": "critical minerals development",
+      "meaning": "핵심광물 개발, 전략적 광물자원의 개발 및 생산"
+     },
+     {
+      "phrase": "supply chain stabilization",
+      "meaning": "공급망 안정화, 광물자원의 안정적 공급 체계 구축"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "40a1703d1c",
+    "title": "Peruvian miner American Lithium welcomes 'mining positive' Presidential election outcome - Mining Weekly",
+    "url": "https://miningweekly.com/article/peruvian-miner-american-lithium-welcomes-mining-positive-presidential-election-outcome-2026-07-09",
+    "source": "Mining Weekly - via Google News",
+    "tier_weight": 3,
+    "score": 7,
+    "published": "2026-07-09",
+    "korean_summary": [
+     "TSX-V 상장사 American Lithium이 페루 대선에서 Keiko Fujimori의 당선이 공식 확인된 것을 환영했음",
+     "회사는 Puno 지역의 Falchani 리튬 프로젝트와 Macusani 우라늄 프로젝트를 추진 중이라고 밝혔음",
+     "페루가 최근 리튬·우라늄을 국가적 중요 광물로 선언하는 Supreme Decree를 발표했다고 CEO가 언급했음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "우라늄",
+     "페루",
+     "대선",
+     "광업 투자"
+    ],
+    "ai_processed": true,
+    "card_id": "6162d9c4ba44",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [],
+    "quotes": [
+     "Peruvian miner American Lithium welcomes 'mining positive' Presidential election outcome",
+     "The renewed political clarity comes at a time when American Lithium is advancing its Falchani lithium and Macusani uranium projects in the country."
+    ],
+    "summary_raw": "Peruvian miner American Lithium welcomes 'mining positive' Presidential election outcome&nbsp;&nbsp;Mining Weekly",
+    "english_phrases": [
+     {
+      "phrase": "mining positive",
+      "meaning": "광업에 긍정적인"
+     },
+     {
+      "phrase": "Supreme Decree",
+      "meaning": "대통령령(최고 법령)"
+     },
+     {
+      "phrase": "mining jurisdiction",
+      "meaning": "광업 관할권(광업 투자 환경을 가진 국가·지역)"
+     },
+     {
+      "phrase": "national importance",
+      "meaning": "국가적 중요성"
+     }
+    ],
+    "implication": "페루 신정부의 경제 안정·투자 중시 기조와 리튬·우라늄의 국가적 중요성 선언으로 현지 대형 광물 프로젝트 추진 환경이 개선될 가능성이 있음.",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "0c085b6d9e38",
+   "title": "Stillwater Critical Minerals Expands 2026 Exploration Program and Provides Project Update - marketscreener.com",
+   "title_norm": "stillwater critical minerals expands 2026 exploration program and provides project update",
+   "url": "https://marketscreener.com/news/stillwater-critical-minerals-expands-2026-exploration-program-and-provides-project-update-ce7f5eded98bf52d",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxONVc5Y013emxPMnZEaVQzTzdmbEdQYVVmME9qTWtqSGQ0WGVfQS1GSnhVQlczRGNNY0hvR2NQdFJpTGxXX25NQVpTT3FNV3hCYjZoTWNsTWVpeTRZRU5GcUVLTTRSaVRuN3B5VmNyMEFaMW9aa3ZsV1NuNTlhMlVLYXgtNURsRVRGSVdDQlMwSE9PLVN1R0FScXIyNVh0ZS1ra3VDU2kteDEwY0R0OUhxd2xZWFhkYjlqdHVwWXowTnJGamtxdE1HSGd2YmpLSmdDRVo2bWdHeDJodw?oc=5",
+   "source": {
+    "name": "Google News - Critical Minerals Exploration",
+    "domain": "marketscreener.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-07-09",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:26:35+00:00",
+   "score": 9,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "bot_block",
+    "http_status": 403,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.marketscreener.com/news/stillwater-critical-minerals-expands-2026-exploration-program-and-provides-project-update-ce7f5eded98bf52d",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Stillwater Critical Minerals가 2026년 탐사 프로그램을 확대하고 프로젝트 현황을 발표했음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "exploration_tech",
+    "tags": [
+     "핵심광물",
+     "탐사",
+     "Stillwater Critical Minerals",
+     "프로젝트 업데이트"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Expands 2026 Exploration Program",
+      "meaning": "2026년 탐사 프로그램 확대"
+     },
+     {
+      "phrase": "Project Update",
+      "meaning": "프로젝트 현황 업데이트"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:26:36+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "d055a94d68",
+     "v1_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxONVc5Y013emxPMnZEaVQzTzdmbEdQYVVmME9qTWtqSGQ0WGVfQS1GSnhVQlczRGNNY0hvR2NQdFJpTGxXX25NQVpTT3FNV3hCYjZoTWNsTWVpeTRZRU5GcUVLTTRSaVRuN3B5VmNyMEFaMW9aa3ZsV1NuNTlhMlVLYXgtNURsRVRGSVdDQlMwSE9PLVN1R0FScXIyNVh0ZS1ra3VDU2kteDEwY0R0OUhxd2xZWFhkYjlqdHVwWXowTnJGamtxdE1HSGd2YmpLSmdDRVo2bWdHeDJodw?oc=5",
+     "summary_raw": "Stillwater Critical Minerals Expands 2026 Exploration Program and Provides Project Update&nbsp;&nbsp;marketscreener.com"
+    }
+   },
+   "v1": {
+    "korean_summary": "Stillwater Critical Minerals는 2026년 핵심광물 탐사 프로그램을 확대하며 프로젝트 진행 현황을 공개했습니다. 동사는 팔라듐, 백금족 금속 등 전략적으로 중요한 광종에 대한 탐사 활동을 강화할 계획입니다. 이는 북미 지역의 핵심광물 공급 안정화 및 에너지 전환 산업 지원을 위한 핵심 기업의 움직임으로 평가됩니다.",
+    "category": "exploration_tech",
+    "tags": [
+     "팔라듐",
+     "백금족금속",
+     "북미"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals exploration program expansion",
+      "meaning": "핵심광물 탐사 프로그램 확대"
+     },
+     {
+      "phrase": "palladium and platinum group metals (PGM)",
+      "meaning": "팔라듐 및 백금족 금속"
+     },
+     {
+      "phrase": "project update and resource assessment",
+      "meaning": "프로젝트 진행 현황 및 자원량 평가"
+     },
+     {
+      "phrase": "domestic supply chain security",
+      "meaning": "국내 공급망 보안"
+     },
+     {
+      "phrase": "mineral resource evaluation",
+      "meaning": "광물자원 평가"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "d055a94d68",
+    "title": "Stillwater Critical Minerals Expands 2026 Exploration Program and Provides Project Update - marketscreener.com",
+    "url": "https://marketscreener.com/news/stillwater-critical-minerals-expands-2026-exploration-program-and-provides-project-update-ce7f5eded98bf52d",
+    "source": "Google News - Critical Minerals Exploration",
+    "tier_weight": 1,
+    "score": 9,
+    "published": "2026-07-09",
+    "korean_summary": [
+     "[제목 기반] Stillwater Critical Minerals가 2026년 탐사 프로그램을 확대하고 프로젝트 현황을 발표했음"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "핵심광물",
+     "탐사",
+     "Stillwater Critical Minerals",
+     "프로젝트 업데이트"
+    ],
+    "ai_processed": true,
+    "card_id": "0c085b6d9e38",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Stillwater Critical Minerals Expands 2026 Exploration Program and Provides Project Update&nbsp;&nbsp;marketscreener.com",
+    "english_phrases": [
+     {
+      "phrase": "Expands 2026 Exploration Program",
+      "meaning": "2026년 탐사 프로그램 확대"
+     },
+     {
+      "phrase": "Project Update",
+      "meaning": "프로젝트 현황 업데이트"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "f5532a4feac9",
+   "title": "Africa's Critical Minerals: Reshaping Global Supply Chains and Geopolitical Power - S&P Global",
+   "title_norm": "africa s critical minerals reshaping global supply chains and geopolitical power",
+   "url": "https://pages.marketintelligence.spglobal.com/africa-critical-minerals-reshaping-global-supply-chains-and-geopolitical-power-register-2026.html",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOM0g4U291SDU2dXpteWxNTzB0SVA5cFIwUkdHOHNxTEM0aHRjdDBkQWlUZk1wUEJuU01sRkN3TkhMTEtBczBpZDNqZjZsQlFOSXd2Tk9rNDJzOFU1eFJfUVREck9fT2s4WVVXTG1PbkhzRVc2TUp6dzBqV2JKdkRyU0o0UjZhb1VHQlVjeW5GaTZRMjJrY2VCZmo2ZnpKLWJjNi1rUDRwbjFhN003RDNyRUJmRUxTRU5iXzdQSlk5OUV0a1hSNTAyWWxaQnhUOGdWcjBLR00wR202Tnc?oc=5",
+   "source": {
+    "name": "S&P Global - via Google News",
+    "domain": "pages.marketintelligence.spglobal.com",
+    "tier": null,
+    "tier_weight": 4,
+    "language": null
+   },
+   "published": "2026-07-10",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:26:37+00:00",
+   "score": 11,
+   "body": {
+    "status": "full",
+    "chars": 6662,
+    "sha256": "34b5b38bbb9e35da1135209cf83ffee66100b6e5165ff6955204c1d2019e33b4",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2018-05-23",
+    "quotes": [
+     "Africa's Critical Minerals: Reshaping Global Supply Chains and Geopolitical Power",
+     "Africa's vast reserves of lithium, copper, cobalt, graphite, and rare earth elements are positioning the continent at the center of the global race for critical minerals."
+    ],
+    "final_url": "https://pages.marketintelligence.spglobal.com/africa-critical-minerals-reshaping-global-supply-chains-and-geopolitical-power-register-2026.html",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "S&P Global이 아프리카 핵심광물이 글로벌 공급망과 시장을 바꾸는 방식을 논의하는 전문가 행사를 소개했음",
+     "리튬·구리·코발트·흑연·희토류 매장량과 수출 통제, 산업정책, 인프라 협력, 자원 민족주의를 거론했음",
+     "아프리카 각국이 강대국 경쟁 속에서 광물 가치를 더 확보하려 한다는 내용이며, 행사 일정은 확인 불가임"
+    ],
+    "basis": "body",
+    "key_figures": [],
+    "quotes": [
+     "Africa's Critical Minerals: Reshaping Global Supply Chains and Geopolitical Power",
+     "Africa's vast reserves of lithium, copper, cobalt, graphite, and rare earth elements are positioning the continent at the center of the global race for critical minerals."
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "핵심광물",
+     "아프리카",
+     "리튬",
+     "구리",
+     "코발트"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "resource nationalism",
+      "meaning": "자원 민족주의"
+     },
+     {
+      "phrase": "export controls",
+      "meaning": "수출 통제"
+     },
+     {
+      "phrase": "industrial policies",
+      "meaning": "산업정책"
+     }
+    ],
+    "implication": "아프리카 국가들이 수출 통제와 산업정책으로 광물 부가가치를 더 확보하려 해 핵심광물 공급망에서 협상력이 커지고 있음."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:26:45+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "f5c23c70bb",
+     "v1_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOM0g4U291SDU2dXpteWxNTzB0SVA5cFIwUkdHOHNxTEM0aHRjdDBkQWlUZk1wUEJuU01sRkN3TkhMTEtBczBpZDNqZjZsQlFOSXd2Tk9rNDJzOFU1eFJfUVREck9fT2s4WVVXTG1PbkhzRVc2TUp6dzBqV2JKdkRyU0o0UjZhb1VHQlVjeW5GaTZRMjJrY2VCZmo2ZnpKLWJjNi1rUDRwbjFhN003RDNyRUJmRUxTRU5iXzdQSlk5OUV0a1hSNTAyWWxaQnhUOGdWcjBLR00wR202Tnc?oc=5",
+     "summary_raw": "Africa's Critical Minerals: Reshaping Global Supply Chains and Geopolitical Power&nbsp;&nbsp;S&amp;P Global"
+    }
+   },
+   "v1": {
+    "korean_summary": "아프리카의 풍부한 핵심광물 매장량이 글로벌 공급망 재편과 지정학적 영향력 재분배의 핵심 요소로 부상하고 있음이 확인되었습니다. 코발트, 리튬, 희토류 등 에너지 전환에 필수적인 광물에 대한 아프리카의 공급 주도권이 강화되면서 국제 자원 경쟁 구도가 재편될 전망입니다. 아프리카 지역 자원의 안정적 개발과 부가가치 창출이 선진국과 개도국의 에너지 안보 및 경제 전략의 중요한 변수가 될 것으로 예상됩니다.",
+    "category": "supply_chain",
+    "tags": [
+     "코발트·리튬·희토류",
+     "글로벌 공급망·에너지 전환",
+     "아프리카"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals supply chain resilience",
+      "meaning": "핵심광물 공급망 회복력"
+     },
+     {
+      "phrase": "geopolitical leverage through resource endowment",
+      "meaning": "자원 부존량을 통한 지정학적 영향력"
+     },
+     {
+      "phrase": "energy transition mineral demand",
+      "meaning": "에너지 전환에 필요한 광물 수요"
+     },
+     {
+      "phrase": "African resource sovereignty and value addition",
+      "meaning": "아프리카 자원 자주권 및 부가가치 창출"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "f5c23c70bb",
+    "title": "Africa's Critical Minerals: Reshaping Global Supply Chains and Geopolitical Power - S&P Global",
+    "url": "https://pages.marketintelligence.spglobal.com/africa-critical-minerals-reshaping-global-supply-chains-and-geopolitical-power-register-2026.html",
+    "source": "S&P Global - via Google News",
+    "tier_weight": 4,
+    "score": 11,
+    "published": "2026-07-10",
+    "korean_summary": [
+     "S&P Global이 아프리카 핵심광물이 글로벌 공급망과 시장을 바꾸는 방식을 논의하는 전문가 행사를 소개했음",
+     "리튬·구리·코발트·흑연·희토류 매장량과 수출 통제, 산업정책, 인프라 협력, 자원 민족주의를 거론했음",
+     "아프리카 각국이 강대국 경쟁 속에서 광물 가치를 더 확보하려 한다는 내용이며, 행사 일정은 확인 불가임"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "핵심광물",
+     "아프리카",
+     "리튬",
+     "구리",
+     "코발트"
+    ],
+    "ai_processed": true,
+    "card_id": "f5532a4feac9",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [],
+    "quotes": [
+     "Africa's Critical Minerals: Reshaping Global Supply Chains and Geopolitical Power",
+     "Africa's vast reserves of lithium, copper, cobalt, graphite, and rare earth elements are positioning the continent at the center of the global race for critical minerals."
+    ],
+    "summary_raw": "Africa's Critical Minerals: Reshaping Global Supply Chains and Geopolitical Power&nbsp;&nbsp;S&amp;P Global",
+    "english_phrases": [
+     {
+      "phrase": "resource nationalism",
+      "meaning": "자원 민족주의"
+     },
+     {
+      "phrase": "export controls",
+      "meaning": "수출 통제"
+     },
+     {
+      "phrase": "industrial policies",
+      "meaning": "산업정책"
+     }
+    ],
+    "implication": "아프리카 국가들이 수출 통제와 산업정책으로 광물 부가가치를 더 확보하려 해 핵심광물 공급망에서 협상력이 커지고 있음.",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "59c1c79d4e2f",
+   "title": "Critical Metals reviews assets to accelerate Greenland rare earth project - S&P Global",
+   "title_norm": "critical metals reviews assets to accelerate greenland rare earth project",
+   "url": "https://spglobal.com/energy/en/news-research/latest-news/metals/070926-critical-metals-reviews-assets-to-accelerate-greenland-rare-earth-project",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNTWdfVmI0dGZadGxWMUZFbWY0UFFveVdlY3hZanVHYjBNbzBEcGRHaVMwWndKb1d6a3dwQTBLdllfeXpqTE1iUEdNMUFFbmp1aWcya3pUX2IyUnNweFZsaTRzOW1VeVZzWDgzd2IxSjN4b3IwS2xwdzVqRzlsT1JPS1FlbWpXcm1kOVJ6dzNuRlo1RWFHbFFMVjZuUTJjalhpS1BSSkx4cHBSMVNQWmxBNG9JTi12MzU1bzd6N09ndllvbmFMZUdmdmZKTWVPWmU0cnJMSkpXTmg0c2hmalNlazNn?oc=5",
+   "source": {
+    "name": "S&P Global - via Google News",
+    "domain": "spglobal.com",
+    "tier": null,
+    "tier_weight": 4,
+    "language": null
+   },
+   "published": "2026-07-10",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:26:45+00:00",
+   "score": 10,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "bot_block",
+    "http_status": 403,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.spglobal.com/energy/en/news-research/latest-news/metals/070926-critical-metals-reviews-assets-to-accelerate-greenland-rare-earth-project",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Critical Metals가 그린란드 희토류 프로젝트 가속화를 위해 자산을 검토한다고 S&P Global이 전했음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "exploration_tech",
+    "tags": [
+     "희토류",
+     "그린란드",
+     "자산 검토",
+     "프로젝트 가속화"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "reviews assets",
+      "meaning": "자산을 검토함"
+     },
+     {
+      "phrase": "accelerate",
+      "meaning": "가속화하다"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:26:47+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "d887de8c4e",
+     "v1_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNTWdfVmI0dGZadGxWMUZFbWY0UFFveVdlY3hZanVHYjBNbzBEcGRHaVMwWndKb1d6a3dwQTBLdllfeXpqTE1iUEdNMUFFbmp1aWcya3pUX2IyUnNweFZsaTRzOW1VeVZzWDgzd2IxSjN4b3IwS2xwdzVqRzlsT1JPS1FlbWpXcm1kOVJ6dzNuRlo1RWFHbFFMVjZuUTJjalhpS1BSSkx4cHBSMVNQWmxBNG9JTi12MzU1bzd6N09ndllvbmFMZUdmdmZKTWVPWmU0cnJMSkpXTmg0c2hmalNlazNn?oc=5",
+     "summary_raw": "Critical Metals reviews assets to accelerate Greenland rare earth project&nbsp;&nbsp;S&amp;P Global"
+    }
+   },
+   "v1": {
+    "korean_summary": "Critical Metals가 그린란드 희토류 광산 프로젝트 가속화를 위해 자산 포트폴리오를 재검토 중인 것으로 확인되었습니다. 이는 북대서양 지역 핵심광물 공급망 다원화의 중요한 움직임으로 평가됩니다. 그린란드의 희토류 개발은 중국 의존도 감소와 서방 국가의 전략적 자립도 강화에 기여할 전망입니다.",
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "핵심광물 공급망",
+     "그린란드"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "review assets to accelerate project development",
+      "meaning": "프로젝트 가속화를 위해 자산을 재검토하다"
+     },
+     {
+      "phrase": "rare earth project in Greenland",
+      "meaning": "그린란드 희토류 광산 프로젝트"
+     },
+     {
+      "phrase": "critical minerals supply chain diversification",
+      "meaning": "핵심광물 공급망 다원화"
+     },
+     {
+      "phrase": "portfolio optimization",
+      "meaning": "포트폴리오 최적화"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "d887de8c4e",
+    "title": "Critical Metals reviews assets to accelerate Greenland rare earth project - S&P Global",
+    "url": "https://spglobal.com/energy/en/news-research/latest-news/metals/070926-critical-metals-reviews-assets-to-accelerate-greenland-rare-earth-project",
+    "source": "S&P Global - via Google News",
+    "tier_weight": 4,
+    "score": 10,
+    "published": "2026-07-10",
+    "korean_summary": [
+     "[제목 기반] Critical Metals가 그린란드 희토류 프로젝트 가속화를 위해 자산을 검토한다고 S&P Global이 전했음"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "희토류",
+     "그린란드",
+     "자산 검토",
+     "프로젝트 가속화"
+    ],
+    "ai_processed": true,
+    "card_id": "59c1c79d4e2f",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Critical Metals reviews assets to accelerate Greenland rare earth project&nbsp;&nbsp;S&amp;P Global",
+    "english_phrases": [
+     {
+      "phrase": "reviews assets",
+      "meaning": "자산을 검토함"
+     },
+     {
+      "phrase": "accelerate",
+      "meaning": "가속화하다"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "907c195f143e",
+   "title": "KIGAM and Mongolia expand supply chain cooperation on rare earths and lithium - 동아사이언스",
+   "title_norm": "kigam and mongolia expand supply chain cooperation on rare earths and lithium",
+   "url": "https://dongascience.com/en/news/78872",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9GRnZrZ2Z4b3B5SjNVZXVSR1BxYnlBV3dpM0xjSzVYdEs2QThBUnBpSVQxMW1jaFVaOXY4VS00YXNpZDhCQWJBeGhZNU1LVkU?oc=5",
+   "source": {
+    "name": "Google News - Lithium Discovery",
+    "domain": "dongascience.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-07-10",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:26:48+00:00",
+   "score": 10,
+   "body": {
+    "status": "full",
+    "chars": 3390,
+    "sha256": "ba772e9ee3ab7252a92dedd17450acc08251a46cd9a83765626801e8f3c480d9",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-07-10",
+    "quotes": [
+     "Mongolia is rich in mineral resources such as rare earth elements, nickel, copper, and lithium, making it a key partner for supply chain cooperation linked with Korea’s geoscience and resource technologies."
+    ],
+    "final_url": "https://dongascience.com/en/news/78872",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "KIGAM이 몽골 울란바토르에서 MAS·MRPAM·NGS와 잇따라 MOU를 체결했다고 10일 밝혔음",
+     "8~9일 열린 제3차 한-몽 과학기술공동위원회·포럼에서 핵심광물 공동연구 확대에 합의했음",
+     "NGS와 니켈·구리 유망지역 공동탐사를 늘리고 한국 기업의 몽골 자원개발 진출을 지원할 계획임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "17 agreements",
+     "more than 30 international joint research projects",
+     "since 2017"
+    ],
+    "quotes": [
+     "Mongolia is rich in mineral resources such as rare earth elements, nickel, copper, and lithium, making it a key partner for supply chain cooperation linked with Korea’s geoscience and resource technologies."
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "리튬",
+     "니켈",
+     "구리",
+     "몽골"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "supply chain cooperation",
+      "meaning": "공급망 협력"
+     },
+     {
+      "phrase": "memorandums of understanding (MOUs)",
+      "meaning": "양해각서"
+     },
+     {
+      "phrase": "Rare Metals Cooperation Center",
+      "meaning": "희소금속협력센터"
+     },
+     {
+      "phrase": "joint exploration",
+      "meaning": "공동 탐사"
+     }
+    ],
+    "implication": "한국과 몽골이 니켈·구리 유망지역 공동탐사와 자료 공유를 추진하며 핵심광물 공급망 협력이 탐사 단계로 확장되고 있음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 3390,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:27:01+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 4줄)"
+    ],
+    "retry_tails": [
+     "},\n    {\"phrase\": \"joint exploration\", \"meaning\": \"공동 탐사\"}\n  ],\n  \"implication\": \"한국이 몽골 지질조사기관과 공동탐사·자료 공유 체계를 갖추면서 희토류·니켈·구리 등 핵심광물 확보 경로가 탐사 단계부터 구체화되고 있음\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "39d359a4db",
+     "v1_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9GRnZrZ2Z4b3B5SjNVZXVSR1BxYnlBV3dpM0xjSzVYdEs2QThBUnBpSVQxMW1jaFVaOXY4VS00YXNpZDhCQWJBeGhZNU1LVkU?oc=5",
+     "summary_raw": "KIGAM and Mongolia expand supply chain cooperation on rare earths and lithium&nbsp;&nbsp;동아사이언스"
+    }
+   },
+   "v1": {
+    "korean_summary": "KIGAM과 몽골이 희토류와 리튬을 중심으로 한 핵심광물 공급망 협력을 확대하기로 합의했으며, 이는 글로벌 핵심광물 수급 안정화에 중요한 역할을 할 전망입니다. 몽골은 풍부한 희토류 및 리튬 자원을 보유한 전략적 공급국으로서, 양국 간 자원 탐사·개발·가공 분야의 협업 강화가 추진될 예정입니다. 이번 협력은 한국의 에너지 전환 및 첨단산업 발전을 위한 안정적인 핵심광물 확보 체계 구축에 크게 기여할 것으로 기대됩니다.",
+    "category": "supply_chain",
+    "tags": [
+     "희토류·리튬",
+     "공급망 협력",
+     "몽골"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "expand supply chain cooperation",
+      "meaning": "공급망 협력 확대"
+     },
+     {
+      "phrase": "rare earths and lithium resource security",
+      "meaning": "희토류·리튬 자원 안보"
+     },
+     {
+      "phrase": "critical mineral supply chain diversification",
+      "meaning": "핵심광물 공급망 다원화"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "39d359a4db",
+    "title": "KIGAM and Mongolia expand supply chain cooperation on rare earths and lithium - 동아사이언스",
+    "url": "https://dongascience.com/en/news/78872",
+    "source": "Google News - Lithium Discovery",
+    "tier_weight": 1,
+    "score": 10,
+    "published": "2026-07-10",
+    "korean_summary": [
+     "KIGAM이 몽골 울란바토르에서 MAS·MRPAM·NGS와 잇따라 MOU를 체결했다고 10일 밝혔음",
+     "8~9일 열린 제3차 한-몽 과학기술공동위원회·포럼에서 핵심광물 공동연구 확대에 합의했음",
+     "NGS와 니켈·구리 유망지역 공동탐사를 늘리고 한국 기업의 몽골 자원개발 진출을 지원할 계획임"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "리튬",
+     "니켈",
+     "구리",
+     "몽골"
+    ],
+    "ai_processed": true,
+    "card_id": "907c195f143e",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "17 agreements",
+     "more than 30 international joint research projects",
+     "since 2017"
+    ],
+    "quotes": [
+     "Mongolia is rich in mineral resources such as rare earth elements, nickel, copper, and lithium, making it a key partner for supply chain cooperation linked with Korea’s geoscience and resource technologies."
+    ],
+    "summary_raw": "KIGAM and Mongolia expand supply chain cooperation on rare earths and lithium&nbsp;&nbsp;동아사이언스",
+    "english_phrases": [
+     {
+      "phrase": "supply chain cooperation",
+      "meaning": "공급망 협력"
+     },
+     {
+      "phrase": "memorandums of understanding (MOUs)",
+      "meaning": "양해각서"
+     },
+     {
+      "phrase": "Rare Metals Cooperation Center",
+      "meaning": "희소금속협력센터"
+     },
+     {
+      "phrase": "joint exploration",
+      "meaning": "공동 탐사"
+     }
+    ],
+    "implication": "한국과 몽골이 니켈·구리 유망지역 공동탐사와 자료 공유를 추진하며 핵심광물 공급망 협력이 탐사 단계로 확장되고 있음",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "2df5b0c381e6",
+   "title": "Charging Power: Lithium as a Critical Metal for the Supply Chain - Investing News Network",
+   "title_norm": "charging power lithium as a critical metal for the supply chain",
+   "url": "https://investingnews.com/charging-power-lithium-as-a-critical-metal-for-the-supply-chain",
+   "gnews_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUDUwazh1Q3oxSWNhRldmWFlUUDh5X2RDVWFvdDdYMHlhLW5DV1NSbU9fUUkxRGVLX2xqWENFS0ttZl9TQWs1SWZYNXYtRXNwVXNXUm5XQzBVUmc1RmJYUVhZQ1h5YmFwYUY2R1BlN0VBRUNpWlo5V29qQzZRSE1abFY5ejF3N3lPZDNZSDNJX1pSaDVD?oc=5",
+   "source": {
+    "name": "Google News - Lithium Discovery",
+    "domain": "investingnews.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-07-09",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:27:01+00:00",
+   "score": 8,
+   "body": {
+    "status": "full",
+    "chars": 8684,
+    "sha256": "5b7d688b9d2ec545cdc27b64fbf2e6107ce3fb0fa91a1d5fe379bd6fa3bb34f6",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-07-08",
+    "quotes": [
+     "Lithium, specifically, is expected to see a rise in demand by more than 350 percent by 2040.",
+     "Accounting for 87 percent of the total demand is its application in rechargeable batteries for electronics, electric vehicles (EVs) and grid storage."
+    ],
+    "final_url": "https://investingnews.com/charging-power-lithium-as-a-critical-metal-for-the-supply-chain/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Investing News Network가 리튬을 공급망 핵심광물로 조명하며 인프라·관할권이 좋은 탐사 자산이 유리하다고 짚었음",
+     "UN Trade and Development 2026년 6월호는 리튬 수요가 2040년까지 350% 넘게 늘 것으로 전망했다고 했음",
+     "2025년 호주·칠레·중국이 세계 리튬의 70% 넘게 생산했으며, 기사는 Apex Resources의 Lithium Creek 프로젝트를 소개함"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "more than 350 percent by 2040",
+     "87 percent",
+     "over 70 percent"
+    ],
+    "quotes": [
+     "Lithium, specifically, is expected to see a rise in demand by more than 350 percent by 2040.",
+     "Accounting for 87 percent of the total demand is its application in rechargeable batteries for electronics, electric vehicles (EVs) and grid storage."
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "공급망",
+     "탐사",
+     "네바다",
+     "배터리"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals",
+      "meaning": "핵심광물"
+     },
+     {
+      "phrase": "closed-loop supply chain",
+      "meaning": "순환형 폐쇄 공급망"
+     },
+     {
+      "phrase": "mining-friendly jurisdictions",
+      "meaning": "광업 친화적 관할권"
+     },
+     {
+      "phrase": "Investment Attractiveness Index",
+      "meaning": "투자 매력도 지수"
+     }
+    ],
+    "implication": "리튬 생산이 호주·칠레·중국에 70% 넘게 집중돼 있어, 인프라와 법적 안정성을 갖춘 서방 탐사 프로젝트로 투자 관심이 쏠릴 수 있음."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:27:05+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "ee5abf1e43",
+     "v1_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUDUwazh1Q3oxSWNhRldmWFlUUDh5X2RDVWFvdDdYMHlhLW5DV1NSbU9fUUkxRGVLX2xqWENFS0ttZl9TQWs1SWZYNXYtRXNwVXNXUm5XQzBVUmc1RmJYUVhZQ1h5YmFwYUY2R1BlN0VBRUNpWlo5V29qQzZRSE1abFY5ejF3N3lPZDNZSDNJX1pSaDVD?oc=5",
+     "summary_raw": "Charging Power: Lithium as a Critical Metal for the Supply Chain&nbsp;&nbsp;Investing News Network"
+    }
+   },
+   "v1": {
+    "korean_summary": "리튬은 전기차 배터리 및 에너지 저장 시스템의 핵심 소재로서 글로벌 공급망에서 핵심광물의 지위가 강화되고 있음이 확인되었습니다. 향후 전기화 전환 가속화에 따라 리튬 수요는 지속적으로 증가할 전망이며, 이에 따른 안정적인 공급망 확보가 산업 경쟁력의 중요 요소로 작용할 것으로 예상됩니다. 리튬 자원의 지정학적 집중화 현상에 대응하기 위해 새로운 탐사·채취 기술 개발 및 재활용 체계 구축이 시급한 상황입니다.",
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "배터리 공급망",
+     "에너지 전환"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical metal for the supply chain",
+      "meaning": "공급망의 핵심광물"
+     },
+     {
+      "phrase": "energy transition",
+      "meaning": "에너지 전환"
+     },
+     {
+      "phrase": "battery supply security",
+      "meaning": "배터리 공급 안보"
+     },
+     {
+      "phrase": "lithium demand trajectory",
+      "meaning": "리튬 수요 추이"
+     },
+     {
+      "phrase": "resource concentration risk",
+      "meaning": "자원 편중 위험"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "ee5abf1e43",
+    "title": "Charging Power: Lithium as a Critical Metal for the Supply Chain - Investing News Network",
+    "url": "https://investingnews.com/charging-power-lithium-as-a-critical-metal-for-the-supply-chain",
+    "source": "Google News - Lithium Discovery",
+    "tier_weight": 1,
+    "score": 8,
+    "published": "2026-07-09",
+    "korean_summary": [
+     "Investing News Network가 리튬을 공급망 핵심광물로 조명하며 인프라·관할권이 좋은 탐사 자산이 유리하다고 짚었음",
+     "UN Trade and Development 2026년 6월호는 리튬 수요가 2040년까지 350% 넘게 늘 것으로 전망했다고 했음",
+     "2025년 호주·칠레·중국이 세계 리튬의 70% 넘게 생산했으며, 기사는 Apex Resources의 Lithium Creek 프로젝트를 소개함"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "공급망",
+     "탐사",
+     "네바다",
+     "배터리"
+    ],
+    "ai_processed": true,
+    "card_id": "2df5b0c381e6",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "more than 350 percent by 2040",
+     "87 percent",
+     "over 70 percent"
+    ],
+    "quotes": [
+     "Lithium, specifically, is expected to see a rise in demand by more than 350 percent by 2040.",
+     "Accounting for 87 percent of the total demand is its application in rechargeable batteries for electronics, electric vehicles (EVs) and grid storage."
+    ],
+    "summary_raw": "Charging Power: Lithium as a Critical Metal for the Supply Chain&nbsp;&nbsp;Investing News Network",
+    "english_phrases": [
+     {
+      "phrase": "critical minerals",
+      "meaning": "핵심광물"
+     },
+     {
+      "phrase": "closed-loop supply chain",
+      "meaning": "순환형 폐쇄 공급망"
+     },
+     {
+      "phrase": "mining-friendly jurisdictions",
+      "meaning": "광업 친화적 관할권"
+     },
+     {
+      "phrase": "Investment Attractiveness Index",
+      "meaning": "투자 매력도 지수"
+     }
+    ],
+    "implication": "리튬 생산이 호주·칠레·중국에 70% 넘게 집중돼 있어, 인프라와 법적 안정성을 갖춘 서방 탐사 프로젝트로 투자 관심이 쏠릴 수 있음.",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "af3383bdd6c3",
+   "title": "Rare Earth Stocks To Watch As Lynas And US Supply Chains Gain Attention - simplywall.st",
+   "title_norm": "rare earth stocks to watch as lynas and us supply chains gain attention",
+   "url": "https://simplywall.st/stocks/us/materials/nasdaq-crml/critical-metals/news/rare-earth-stocks-to-watch-as-lynas-and-us-supply-chains-gai",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQTUzelJaOGVZRUVUSnhuYVZBNkF3OG91WmVEVnpBSzRsWWVpRjFvem1KVHpmeGtrcW53VG1kZm9URkJDdHpXVHVQUmJYeUFkYVRNSDBpclJnNjJtRXFzUTh1N2RwNjZNN0VEa25ocTRycTBpa2FkQnFlRV92d0tEWDR2NFE4QzgxUUJlZHNEVnBKOTlsOVR0b2tNWXdEbGxaRWFrUzRqeHhrMGtEXzRPSGdqUjlZQkRRajN6anZ4TzBoSlVVSXFoaHd6LTkwR2p20gHWAUFVX3lxTE9kdG9uZjZ2WkZ0WG9jZjlfeHo0MC1OZ1hLR0d3TDBzQThpRVZyNzZibi0zUi1JOF9nNldaU3JIYy1lUFMwRW5IUmhpdThLTF9Gc1k2YkVoS3hQV2FMRkZXNDlCRmcxQnJfQTdMTFFpYlJCX216M2RQeGxTZ0ZDd0VlN3RBd2loQTlCXzFab0UxVHdmclp6S00wVHFYbjdjekhxbnRaamlEekZZV1p2d245dGtlNzRUVXZweUQ1THZkM2tCSDhHUGV5SDFmYzBJQ3Z0dHdIbmc?oc=5",
+   "source": {
+    "name": "Google News - Rare Earth Elements",
+    "domain": "simplywall.st",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-07-10",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:27:06+00:00",
+   "score": 8,
+   "body": {
+    "status": "full",
+    "chars": 7519,
+    "sha256": "b98b871180df2d534c3a3f91c2ce535725c608ba2b86a2cf901679901d6539c5",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-07-10",
+    "quotes": [
+     "Operations: Critical Metals currently generates around US$0.8m in revenue entirely from mineral exploration activities.",
+     "Operations: Lynas Rare Earths generates A$715.9m in revenue from its Rare Earth Operations segment."
+    ],
+    "final_url": "https://simplywall.st/stocks/us/materials/nasdaq-crml/critical-metals/news/rare-earth-stocks-to-watch-as-lynas-and-us-supply-chains-gai",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "simplywall.st가 희토류 스크리너에서 Critical Metals, USA Rare Earth, Lynas 3개 종목을 소개했음",
+     "시가총액은 Critical Metals US$1.24b, USA Rare Earth US$4.22b, Lynas A$16.7b로 제시했음",
+     "USA Rare Earth는 에너지부·상무부 지원 가능성과 MP Materials 소송이 함께 거론됐음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "US$1.24b",
+     "US$4.22b",
+     "A$16.7b"
+    ],
+    "quotes": [
+     "Operations: Critical Metals currently generates around US$0.8m in revenue entirely from mineral exploration activities.",
+     "Operations: Lynas Rare Earths generates A$715.9m in revenue from its Rare Earth Operations segment."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "Lynas",
+     "USA Rare Earth",
+     "Critical Metals",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "mine to magnet",
+      "meaning": "광산에서 자석 제조까지 이어지는 수직계열화 공급망"
+     },
+     {
+      "phrase": "offtake",
+      "meaning": "생산량 장기 구매 계약"
+     },
+     {
+      "phrase": "cash runway",
+      "meaning": "현금으로 버틸 수 있는 기간"
+     }
+    ],
+    "implication": "미국 에너지부·상무부 등 정부 기관의 지원 가능성이 USA Rare Earth의 자국 내 희토류 공급망 구축 구상을 뒷받침하고 있음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:27:24+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 5줄)"
+    ],
+    "retry_tails": [
+     "\n    {\"phrase\": \"cash runway\", \"meaning\": \"현금으로 버틸 수 있는 기간\"}\n  ],\n  \"implication\": \"미국 에너지부·상무부 등 정부 기관의 지원 가능성이 USA Rare Earth의 자국 내 희토류 공급망 구축 구상을 뒷받침하고 있음\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "9cfd326fd7",
+     "v1_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQTUzelJaOGVZRUVUSnhuYVZBNkF3OG91WmVEVnpBSzRsWWVpRjFvem1KVHpmeGtrcW53VG1kZm9URkJDdHpXVHVQUmJYeUFkYVRNSDBpclJnNjJtRXFzUTh1N2RwNjZNN0VEa25ocTRycTBpa2FkQnFlRV92d0tEWDR2NFE4QzgxUUJlZHNEVnBKOTlsOVR0b2tNWXdEbGxaRWFrUzRqeHhrMGtEXzRPSGdqUjlZQkRRajN6anZ4TzBoSlVVSXFoaHd6LTkwR2p20gHWAUFVX3lxTE9kdG9uZjZ2WkZ0WG9jZjlfeHo0MC1OZ1hLR0d3TDBzQThpRVZyNzZibi0zUi1JOF9nNldaU3JIYy1lUFMwRW5IUmhpdThLTF9Gc1k2YkVoS3hQV2FMRkZXNDlCRmcxQnJfQTdMTFFpYlJCX216M2RQeGxTZ0ZDd0VlN3RBd2loQTlCXzFab0UxVHdmclp6S00wVHFYbjdjekhxbnRaamlEekZZV1p2d245dGtlNzRUVXZweUQ1THZkM2tCSDhHUGV5SDFmYzBJQ3Z0dHdIbmc?oc=5",
+     "summary_raw": "Rare Earth Stocks To Watch As Lynas And US Supply Chains Gain Attention&nbsp;&nbsp;simplywall.st"
+    }
+   },
+   "v1": {
+    "korean_summary": "미국 공급망 재편과 라이나스(Lynas) 같은 주요 희토류 기업에 대한 관심 증대로 희토류 관련 주식들이 주목받고 있는 것으로 확인되었습니다. 핵심광물의 안정적 공급을 위한 미국 내 희토류 생산 기지 구축 및 자급화 전략이 강화되고 있습니다. 이는 지정학적 리스크를 완화하고 국내 자원 산업의 경쟁력 강화 필요성을 시사하는 바입니다.",
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "공급망 안정화",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "rare earth supply chain resilience",
+      "meaning": "희토류 공급망 안정성·복원력"
+     },
+     {
+      "phrase": "domestic production capacity for critical minerals",
+      "meaning": "핵심광물 국내 생산 역량"
+     },
+     {
+      "phrase": "supply chain diversification",
+      "meaning": "공급망 다원화"
+     },
+     {
+      "phrase": "geopolitical risk mitigation",
+      "meaning": "지정학적 리스크 완화"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "9cfd326fd7",
+    "title": "Rare Earth Stocks To Watch As Lynas And US Supply Chains Gain Attention - simplywall.st",
+    "url": "https://simplywall.st/stocks/us/materials/nasdaq-crml/critical-metals/news/rare-earth-stocks-to-watch-as-lynas-and-us-supply-chains-gai",
+    "source": "Google News - Rare Earth Elements",
+    "tier_weight": 1,
+    "score": 8,
+    "published": "2026-07-10",
+    "korean_summary": [
+     "simplywall.st가 희토류 스크리너에서 Critical Metals, USA Rare Earth, Lynas 3개 종목을 소개했음",
+     "시가총액은 Critical Metals US$1.24b, USA Rare Earth US$4.22b, Lynas A$16.7b로 제시했음",
+     "USA Rare Earth는 에너지부·상무부 지원 가능성과 MP Materials 소송이 함께 거론됐음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "Lynas",
+     "USA Rare Earth",
+     "Critical Metals",
+     "미국"
+    ],
+    "ai_processed": true,
+    "card_id": "af3383bdd6c3",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "US$1.24b",
+     "US$4.22b",
+     "A$16.7b"
+    ],
+    "quotes": [
+     "Operations: Critical Metals currently generates around US$0.8m in revenue entirely from mineral exploration activities.",
+     "Operations: Lynas Rare Earths generates A$715.9m in revenue from its Rare Earth Operations segment."
+    ],
+    "summary_raw": "Rare Earth Stocks To Watch As Lynas And US Supply Chains Gain Attention&nbsp;&nbsp;simplywall.st",
+    "english_phrases": [
+     {
+      "phrase": "mine to magnet",
+      "meaning": "광산에서 자석 제조까지 이어지는 수직계열화 공급망"
+     },
+     {
+      "phrase": "offtake",
+      "meaning": "생산량 장기 구매 계약"
+     },
+     {
+      "phrase": "cash runway",
+      "meaning": "현금으로 버틸 수 있는 기간"
+     }
+    ],
+    "implication": "미국 에너지부·상무부 등 정부 기관의 지원 가능성이 USA Rare Earth의 자국 내 희토류 공급망 구축 구상을 뒷받침하고 있음",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "eac7fb710786",
+   "title": "Chile's lithium export value nearly triples in H1 on rising prices, strong demand - Mining Weekly",
+   "title_norm": "chile s lithium export value nearly triples in h1 on rising prices strong demand",
+   "url": "https://miningweekly.com/article/chiles-lithium-export-value-nearly-triples-in-h1-on-rising-prices-strong-demand-2026-07-09",
+   "gnews_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTm92bjN2OHJTMVlpcmtKcU9mQ0gxZUlzaTcwR010WUxXYTRmNktwVC1tdVZoWVZVYndSRlZUQVpEU3NFRzIyLWJoWV9JTDhOTEVILXZQUkZUVEllQm1IeGhHNW1mZ2s2QmVSVUNEZWkwVjhvczA0elBxUENHTlBHZG82SDNfSTVQQTlsUzFLT2F5YjEyRmxzMHMzdWNZeWxlaEZnSVdPbE9rd1BWNi1PODd1MlVXUlAzMGhNdURPUlF5UWlkRFE?oc=5",
+   "source": {
+    "name": "Mining Weekly - via Google News",
+    "domain": "miningweekly.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-07-09",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:27:25+00:00",
+   "score": 7,
+   "body": {
+    "status": "full",
+    "chars": 3319,
+    "sha256": "ff21e49134dc4b8ffec667827e3788afe0017faa51e83ac96e5f80d0e64d81ee",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-07-09",
+    "quotes": [
+     "Lithium export revenue reached $3.2-billion between January and June, almost three times the level of the same period last year.",
+     "That was also 34.4% higher than the total Chile exported in all of 2025."
+    ],
+    "final_url": "https://www.miningweekly.com/article/chiles-lithium-export-value-nearly-triples-in-h1-on-rising-prices-strong-demand-2026-07-09",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "칠레 정부가 상반기 리튬 수출액이 전년 동기 대비 거의 3배로 늘었다고 수요일에 밝혔음",
+     "1~6월 리튬 수출액은 $3.2-billion으로 2025년 전체 수출액보다 34.4% 높았음",
+     "생산자는 SQM과 Albemarle 두 곳뿐이며 국가 파트너십과 민간 프로젝트로 확대를 추진 중임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "$3.2-billion",
+     "34.4%",
+     "$36.9-billion"
+    ],
+    "quotes": [
+     "Lithium export revenue reached $3.2-billion between January and June, almost three times the level of the same period last year.",
+     "That was also 34.4% higher than the total Chile exported in all of 2025."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "칠레",
+     "수출",
+     "탄산리튬",
+     "구리"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "State partnerships",
+      "meaning": "국가(정부) 파트너십"
+     },
+     {
+      "phrase": "lithium carbonate",
+      "meaning": "탄산리튬"
+     },
+     {
+      "phrase": "year-on-year",
+      "meaning": "전년 동기 대비"
+     }
+    ],
+    "implication": "가격 상승과 수요 강세로 칠레 리튬 수출이 급증했으며, 칠레는 두 생산자 중심의 공급 구조를 국가 파트너십과 민간 프로젝트로 넓히려 함"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 3319,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:27:36+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 4줄)"
+    ],
+    "retry_tails": [
+     "\n    {\"phrase\": \"year-on-year\", \"meaning\": \"전년 동기 대비\"}\n  ],\n  \"implication\": \"칠레 리튬 수출액이 가격 상승과 수요 덕에 급증했으나 생산자가 SQM과 Albemarle 두 곳뿐이어서 공급 확대는 신규 프로젝트에 달려 있음\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "0ee6b0a6bd",
+     "v1_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTm92bjN2OHJTMVlpcmtKcU9mQ0gxZUlzaTcwR010WUxXYTRmNktwVC1tdVZoWVZVYndSRlZUQVpEU3NFRzIyLWJoWV9JTDhOTEVILXZQUkZUVEllQm1IeGhHNW1mZ2s2QmVSVUNEZWkwVjhvczA0elBxUENHTlBHZG82SDNfSTVQQTlsUzFLT2F5YjEyRmxzMHMzdWNZeWxlaEZnSVdPbE9rd1BWNi1PODd1MlVXUlAzMGhNdURPUlF5UWlkRFE?oc=5",
+     "summary_raw": "Chile's lithium export value nearly triples in H1 on rising prices, strong demand&nbsp;&nbsp;Mining Weekly"
+    }
+   },
+   "v1": {
+    "korean_summary": "칠레의 리튬 수출액이 상반기에 가격 상승과 강한 수요에 힘입어 거의 3배 증가한 것으로 확인되었습니다. 이는 전기자동차 및 에너지 저장장치 산업의 급속한 성장에 따른 핵심광물 수급 확대 추세를 반영하고 있습니다. 칠레는 세계 최대 리튬 생산국으로서 글로벌 핵심광물 공급망에서의 전략적 중요성이 더욱 부각되고 있습니다.",
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "공급망·무역",
+     "칠레"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals supply chain",
+      "meaning": "핵심광물 공급망"
+     },
+     {
+      "phrase": "export value surge",
+      "meaning": "수출액 급증"
+     },
+     {
+      "phrase": "lithium demand driven by EV market",
+      "meaning": "전기자동차 시장에 의한 리튬 수요 증대"
+     },
+     {
+      "phrase": "commodity price volatility",
+      "meaning": "광물 가격 변동성"
+     },
+     {
+      "phrase": "strategic mineral producer",
+      "meaning": "전략광물 생산국"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "0ee6b0a6bd",
+    "title": "Chile's lithium export value nearly triples in H1 on rising prices, strong demand - Mining Weekly",
+    "url": "https://miningweekly.com/article/chiles-lithium-export-value-nearly-triples-in-h1-on-rising-prices-strong-demand-2026-07-09",
+    "source": "Mining Weekly - via Google News",
+    "tier_weight": 3,
+    "score": 7,
+    "published": "2026-07-09",
+    "korean_summary": [
+     "칠레 정부가 상반기 리튬 수출액이 전년 동기 대비 거의 3배로 늘었다고 수요일에 밝혔음",
+     "1~6월 리튬 수출액은 $3.2-billion으로 2025년 전체 수출액보다 34.4% 높았음",
+     "생산자는 SQM과 Albemarle 두 곳뿐이며 국가 파트너십과 민간 프로젝트로 확대를 추진 중임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "칠레",
+     "수출",
+     "탄산리튬",
+     "구리"
+    ],
+    "ai_processed": true,
+    "card_id": "eac7fb710786",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "$3.2-billion",
+     "34.4%",
+     "$36.9-billion"
+    ],
+    "quotes": [
+     "Lithium export revenue reached $3.2-billion between January and June, almost three times the level of the same period last year.",
+     "That was also 34.4% higher than the total Chile exported in all of 2025."
+    ],
+    "summary_raw": "Chile's lithium export value nearly triples in H1 on rising prices, strong demand&nbsp;&nbsp;Mining Weekly",
+    "english_phrases": [
+     {
+      "phrase": "State partnerships",
+      "meaning": "국가(정부) 파트너십"
+     },
+     {
+      "phrase": "lithium carbonate",
+      "meaning": "탄산리튬"
+     },
+     {
+      "phrase": "year-on-year",
+      "meaning": "전년 동기 대비"
+     }
+    ],
+    "implication": "가격 상승과 수요 강세로 칠레 리튬 수출이 급증했으며, 칠레는 두 생산자 중심의 공급 구조를 국가 파트너십과 민간 프로젝트로 넓히려 함",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "49f13009feaf",
+   "title": "As AI drives demand for advanced chips, molybdenum gains attention as tungsten alternative - Fastmarkets",
+   "title_norm": "as ai drives demand for advanced chips molybdenum gains attention as tungsten alternative",
+   "url": "https://fastmarkets.com/insights/as-ai-drives-demand-for-advanced-chips-molybdenum-gains-attention-as-tungsten-alternative",
+   "gnews_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZzVqWVA0eXJ0X0FPREtoXzkzUHZXbnBEc2VkUlkwT04zYU9VbV9Zemphd1dvaUp2dUdqODBidnZEWlFJX1hIbWloMVF5V0IyUEg4YjYxVllYd0VBZXIyallTYnN1MGZ3b3B4STZ1WmhRWFVpeTM4LWluckUyUjVSMVFXS3FkZGNjQ1NEN25RdTdiNnlaWWZBeDNFOTQ3a2NKZHpxeUJmZFhuUjh5YW5NekdyTVlPWEpEaXBzVFU4dmE0NTVUNXc?oc=5",
+   "source": {
+    "name": "Fastmarkets - via Google News",
+    "domain": "fastmarkets.com",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-07-07",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:27:40+00:00",
+   "score": 7,
+   "body": {
+    "status": "lead_only",
+    "chars": 101,
+    "sha256": "f8b1f08e8f9865a4a2c730899dde241835e3e0a234ef595b472b444b3497085f",
+    "source": "og_description",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [
+     "Learn how molybdenum is replacing tungsten in advanced memory chips and what it means for the market."
+    ],
+    "final_url": "https://www.fastmarkets.com/insights/as-ai-drives-demand-for-advanced-chips-molybdenum-gains-attention-as-tungsten-alternative/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "AI가 첨단 칩 수요를 끌어올리는 가운데 몰리브덴이 텅스텐 대체재로 주목받고 있음",
+     "첨단 메모리 칩에서 몰리브덴이 텅스텐을 대체하고 있으며 이것이 시장에 미칠 영향을 소개하는 내용임"
+    ],
+    "basis": "lead",
+    "key_figures": [],
+    "quotes": [],
+    "category": "supply_chain",
+    "tags": [
+     "몰리브덴",
+     "텅스텐",
+     "메모리 칩",
+     "AI",
+     "대체재"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "tungsten alternative",
+      "meaning": "텅스텐 대체재"
+     },
+     {
+      "phrase": "advanced memory chips",
+      "meaning": "첨단 메모리 칩"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "lead_only",
+    "input_chars": 101,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:27:43+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "dcd52f2f09",
+     "v1_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZzVqWVA0eXJ0X0FPREtoXzkzUHZXbnBEc2VkUlkwT04zYU9VbV9Zemphd1dvaUp2dUdqODBidnZEWlFJX1hIbWloMVF5V0IyUEg4YjYxVllYd0VBZXIyallTYnN1MGZ3b3B4STZ1WmhRWFVpeTM4LWluckUyUjVSMVFXS3FkZGNjQ1NEN25RdTdiNnlaWWZBeDNFOTQ3a2NKZHpxeUJmZFhuUjh5YW5NekdyTVlPWEpEaXBzVFU4dmE0NTVUNXc?oc=5",
+     "summary_raw": "As AI drives demand for advanced chips, molybdenum gains attention as tungsten alternative&nbsp;&nbsp;Fastmarkets"
+    }
+   },
+   "v1": {
+    "korean_summary": "인공지능 기반 첨단칩 수요 증가에 따라 텅스텐의 대체 소재로서 몰리브덴의 중요성이 부각되고 있는 것으로 확인되었습니다. 몰리브덴은 반도체 제조 공정에서 우수한 성능을 제공하며 공급망 리스크 측면에서도 텅스텐 대비 유리한 것으로 평가되고 있습니다. 향후 AI 칩 개발 경쟁 심화에 따라 몰리브덴에 대한 수요 및 전략적 가치가 지속적으로 상승할 전망입니다.",
+    "category": "supply_chain",
+    "tags": [
+     "몰리브덴",
+     "핵심광물 공급안보",
+     "반도체산업"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "molybdenum as a substitute material for tungsten",
+      "meaning": "텅스텐을 대체할 수 있는 소재로서의 몰리브덴"
+     },
+     {
+      "phrase": "critical minerals supply chain resilience",
+      "meaning": "핵심광물 공급망 회복력"
+     },
+     {
+      "phrase": "advanced semiconductor fabrication process",
+      "meaning": "첨단 반도체 제조 공정"
+     },
+     {
+      "phrase": "AI-driven demand trajectory",
+      "meaning": "인공지능 구동형 수요 추이"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "dcd52f2f09",
+    "title": "As AI drives demand for advanced chips, molybdenum gains attention as tungsten alternative - Fastmarkets",
+    "url": "https://fastmarkets.com/insights/as-ai-drives-demand-for-advanced-chips-molybdenum-gains-attention-as-tungsten-alternative",
+    "source": "Fastmarkets - via Google News",
+    "tier_weight": 5,
+    "score": 7,
+    "published": "2026-07-07",
+    "korean_summary": [
+     "[본문 미확보] AI가 첨단 칩 수요를 끌어올리는 가운데 몰리브덴이 텅스텐 대체재로 주목받고 있음",
+     "첨단 메모리 칩에서 몰리브덴이 텅스텐을 대체하고 있으며 이것이 시장에 미칠 영향을 소개하는 내용임"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "몰리브덴",
+     "텅스텐",
+     "메모리 칩",
+     "AI",
+     "대체재"
+    ],
+    "ai_processed": true,
+    "card_id": "49f13009feaf",
+    "basis": "lead",
+    "body_status": "lead_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "As AI drives demand for advanced chips, molybdenum gains attention as tungsten alternative&nbsp;&nbsp;Fastmarkets",
+    "english_phrases": [
+     {
+      "phrase": "tungsten alternative",
+      "meaning": "텅스텐 대체재"
+     },
+     {
+      "phrase": "advanced memory chips",
+      "meaning": "첨단 메모리 칩"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  }
+ ],
+ "excluded": [],
+ "v1_file": "week-2026-07-12.json",
+ "v1_metrics": {
+  "articles": 12,
+  "original_link": 0,
+  "body_based": 0,
+  "failed": 0
+ },
+ "trial": false
+}

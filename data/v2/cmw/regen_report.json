@@ -1,0 +1,723 @@
+{
+ "service": "cmw",
+ "issues": [
+  {
+   "line_median": 59.5,
+   "line_max": 87,
+   "over100": 0,
+   "oda_filled": 3,
+   "flags": {},
+   "model_used": {
+    "claude-sonnet-5-5": 12
+   },
+   "retry_reason": {
+    "lines는 3줄이어야 함 (현재 4줄)": 1
+   },
+   "cost_usd": 0.2215,
+   "usage": {
+    "claude-sonnet-5-5": {
+     "calls": 13,
+     "in": 30215,
+     "out": 8727
+    }
+   },
+   "week": "2026-05-07",
+   "test": true,
+   "trial": true,
+   "v1_articles": 12,
+   "cards": 12,
+   "excluded": 0,
+   "body_got": 7,
+   "body_status": {
+    "title_only": 5,
+    "full": 7
+   },
+   "basis": {
+    "title": 5,
+    "body": 7
+   },
+   "original_link": 12,
+   "reader_proxy_used": 0,
+   "fail_reason": {},
+   "v1_original_link": 2,
+   "v1_failed": 0,
+   "model": "claude-sonnet-5-5",
+   "prompt_version": "v2.2"
+  },
+  {
+   "line_median": 54.5,
+   "line_max": 100,
+   "over100": 0,
+   "oda_filled": 3,
+   "flags": {},
+   "model_used": {
+    "claude-sonnet-5-5": 12
+   },
+   "retry_reason": {
+    "lines는 3줄이어야 함 (현재 4줄)": 1,
+    "lines는 3줄이어야 함 (현재 5줄)": 1
+   },
+   "cost_usd": 0.256,
+   "usage": {
+    "claude-sonnet-5-5": {
+     "calls": 14,
+     "in": 37527,
+     "out": 9559
+    }
+   },
+   "week": "2026-05-08",
+   "test": true,
+   "trial": true,
+   "v1_articles": 12,
+   "cards": 12,
+   "excluded": 0,
+   "body_got": 8,
+   "body_status": {
+    "title_only": 4,
+    "full": 8
+   },
+   "basis": {
+    "title": 4,
+    "body": 8
+   },
+   "original_link": 12,
+   "reader_proxy_used": 0,
+   "fail_reason": {},
+   "v1_original_link": 3,
+   "v1_failed": 0,
+   "model": "claude-sonnet-5-5",
+   "prompt_version": "v2.2"
+  },
+  {
+   "line_median": 55,
+   "line_max": 77,
+   "over100": 0,
+   "oda_filled": 3,
+   "flags": {},
+   "model_used": {
+    "claude-sonnet-5-5": 12
+   },
+   "retry_reason": {
+    "lines는 3줄이어야 함 (현재 5줄)": 1
+   },
+   "cost_usd": 0.1964,
+   "usage": {
+    "claude-sonnet-5-5": {
+     "calls": 13,
+     "in": 28732,
+     "out": 7350
+    }
+   },
+   "week": "2026-05-10",
+   "test": true,
+   "trial": true,
+   "v1_articles": 12,
+   "cards": 12,
+   "excluded": 0,
+   "body_got": 5,
+   "body_status": {
+    "full": 4,
+    "partial": 1,
+    "title_only": 6,
+    "lead_only": 1
+   },
+   "basis": {
+    "body": 5,
+    "title": 6,
+    "lead": 1
+   },
+   "original_link": 12,
+   "reader_proxy_used": 0,
+   "fail_reason": {},
+   "v1_original_link": 2,
+   "v1_failed": 0,
+   "model": "claude-sonnet-5-5",
+   "prompt_version": "v2.2"
+  },
+  {
+   "line_median": 58.0,
+   "line_max": 78,
+   "over100": 0,
+   "oda_filled": 6,
+   "flags": {},
+   "model_used": {
+    "claude-sonnet-5-5": 12
+   },
+   "retry_reason": {
+    "lines는 3줄이어야 함 (현재 4줄)": 2,
+    "너무 짧은 줄 1개 (최소 15자)": 1
+   },
+   "cost_usd": 0.2315,
+   "usage": {
+    "claude-sonnet-5-5": {
+     "calls": 14,
+     "in": 35032,
+     "out": 8427
+    }
+   },
+   "week": "2026-05-11",
+   "test": true,
+   "trial": true,
+   "v1_articles": 12,
+   "cards": 12,
+   "excluded": 0,
+   "body_got": 8,
+   "body_status": {
+    "full": 7,
+    "partial": 1,
+    "title_only": 4
+   },
+   "basis": {
+    "body": 8,
+    "title": 4
+   },
+   "original_link": 12,
+   "reader_proxy_used": 0,
+   "fail_reason": {},
+   "v1_original_link": 6,
+   "v1_failed": 0,
+   "model": "claude-sonnet-5-5",
+   "prompt_version": "v2.2"
+  },
+  {
+   "line_median": 56.0,
+   "line_max": 66,
+   "over100": 0,
+   "oda_filled": 4,
+   "flags": {},
+   "model_used": {
+    "claude-sonnet-5-5": 12
+   },
+   "retry_reason": {
+    "lines는 3줄이어야 함 (현재 5줄)": 1,
+    "JSON 파싱 실패: 문법 오류(Expecting ',' delimiter, 위치 295)": 1
+   },
+   "cost_usd": 0.2751,
+   "usage": {
+    "claude-sonnet-5-5": {
+     "calls": 14,
+     "in": 36326,
+     "out": 11075
+    }
+   },
+   "week": "2026-05-12",
+   "test": true,
+   "trial": true,
+   "v1_articles": 12,
+   "cards": 12,
+   "excluded": 0,
+   "body_got": 8,
+   "body_status": {
+    "full": 6,
+    "partial": 2,
+    "title_only": 4
+   },
+   "basis": {
+    "body": 8,
+    "title": 4
+   },
+   "original_link": 12,
+   "reader_proxy_used": 0,
+   "fail_reason": {},
+   "v1_original_link": 2,
+   "v1_failed": 0,
+   "model": "claude-sonnet-5-5",
+   "prompt_version": "v2.2"
+  },
+  {
+   "line_median": 51.0,
+   "line_max": 79,
+   "over100": 0,
+   "oda_filled": 4,
+   "flags": {
+    "soft_retry": 2
+   },
+   "model_used": {
+    "claude-sonnet-5-5": 12
+   },
+   "retry_reason": {
+    "lines는 3줄이어야 함 (현재 4줄)": 1,
+    "lines는 3줄이어야 함 (현재 5줄)": 1
+   },
+   "cost_usd": 0.326,
+   "usage": {
+    "claude-sonnet-5-5": {
+     "calls": 16,
+     "in": 45773,
+     "out": 12582
+    }
+   },
+   "week": "2026-05-17",
+   "test": false,
+   "trial": false,
+   "v1_articles": 12,
+   "cards": 12,
+   "excluded": 0,
+   "body_got": 8,
+   "body_status": {
+    "full": 8,
+    "title_only": 2,
+    "lead_only": 2
+   },
+   "basis": {
+    "body": 8,
+    "title": 2,
+    "lead": 2
+   },
+   "original_link": 12,
+   "reader_proxy_used": 0,
+   "fail_reason": {},
+   "v1_original_link": 5,
+   "v1_failed": 1,
+   "model": "claude-sonnet-5-5",
+   "prompt_version": "v2.2"
+  },
+  {
+   "line_median": 48.5,
+   "line_max": 82,
+   "over100": 0,
+   "oda_filled": 5,
+   "flags": {},
+   "model_used": {
+    "claude-sonnet-5-5": 12
+   },
+   "retry_reason": {
+    "lines는 3줄이어야 함 (현재 5줄)": 1,
+    "lines는 3줄이어야 함 (현재 4줄)": 2
+   },
+   "cost_usd": 0.2422,
+   "usage": {
+    "claude-sonnet-5-5": {
+     "calls": 15,
+     "in": 36421,
+     "out": 8864
+    }
+   },
+   "week": "2026-05-24",
+   "test": false,
+   "trial": false,
+   "v1_articles": 12,
+   "cards": 12,
+   "excluded": 0,
+   "body_got": 6,
+   "body_status": {
+    "full": 5,
+    "title_only": 6,
+    "partial": 1
+   },
+   "basis": {
+    "body": 6,
+    "title": 6
+   },
+   "original_link": 12,
+   "reader_proxy_used": 0,
+   "fail_reason": {},
+   "v1_original_link": 1,
+   "v1_failed": 0,
+   "model": "claude-sonnet-5-5",
+   "prompt_version": "v2.2"
+  },
+  {
+   "line_median": 50.0,
+   "line_max": 70,
+   "over100": 0,
+   "oda_filled": 6,
+   "flags": {},
+   "model_used": {
+    "claude-sonnet-5-5": 12
+   },
+   "retry_reason": {
+    "lines는 3줄이어야 함 (현재 4줄)": 2,
+    "JSON 파싱 실패: 문법 오류(Expecting value, 위치 219)": 1
+   },
+   "cost_usd": 0.2636,
+   "usage": {
+    "claude-sonnet-5-5": {
+     "calls": 15,
+     "in": 38231,
+     "out": 9929
+    }
+   },
+   "week": "2026-05-25",
+   "test": false,
+   "trial": false,
+   "v1_articles": 12,
+   "cards": 12,
+   "excluded": 0,
+   "body_got": 8,
+   "body_status": {
+    "full": 6,
+    "partial": 2,
+    "title_only": 4
+   },
+   "basis": {
+    "body": 8,
+    "title": 4
+   },
+   "original_link": 12,
+   "reader_proxy_used": 0,
+   "fail_reason": {},
+   "v1_original_link": 2,
+   "v1_failed": 0,
+   "model": "claude-sonnet-5-5",
+   "prompt_version": "v2.2"
+  },
+  {
+   "line_median": 54.5,
+   "line_max": 86,
+   "over100": 0,
+   "oda_filled": 5,
+   "flags": {},
+   "model_used": {
+    "claude-sonnet-5-5": 12
+   },
+   "retry_reason": {
+    "lines는 3줄이어야 함 (현재 4줄)": 4,
+    "lines는 3줄이어야 함 (현재 5줄)": 1
+   },
+   "cost_usd": 0.3133,
+   "usage": {
+    "claude-sonnet-5-5": {
+     "calls": 17,
+     "in": 45303,
+     "out": 11826
+    }
+   },
+   "week": "2026-06-01",
+   "test": false,
+   "trial": false,
+   "v1_articles": 12,
+   "cards": 12,
+   "excluded": 0,
+   "body_got": 6,
+   "body_status": {
+    "full": 6,
+    "title_only": 4,
+    "lead_only": 2
+   },
+   "basis": {
+    "body": 6,
+    "title": 4,
+    "lead": 2
+   },
+   "original_link": 12,
+   "reader_proxy_used": 0,
+   "fail_reason": {},
+   "v1_original_link": 0,
+   "v1_failed": 0,
+   "model": "claude-sonnet-5-5",
+   "prompt_version": "v2.2"
+  },
+  {
+   "line_median": 56,
+   "line_max": 89,
+   "over100": 0,
+   "oda_filled": 4,
+   "flags": {},
+   "model_used": {
+    "claude-sonnet-5-5": 12
+   },
+   "retry_reason": {
+    "lines는 3줄이어야 함 (현재 4줄)": 1
+   },
+   "cost_usd": 0.2043,
+   "usage": {
+    "claude-sonnet-5-5": {
+     "calls": 13,
+     "in": 31949,
+     "out": 7230
+    }
+   },
+   "week": "2026-06-08",
+   "test": false,
+   "trial": false,
+   "v1_articles": 12,
+   "cards": 12,
+   "excluded": 0,
+   "body_got": 6,
+   "body_status": {
+    "title_only": 5,
+    "full": 6,
+    "lead_only": 1
+   },
+   "basis": {
+    "title": 5,
+    "body": 6,
+    "lead": 1
+   },
+   "original_link": 12,
+   "reader_proxy_used": 0,
+   "fail_reason": {},
+   "v1_original_link": 0,
+   "v1_failed": 1,
+   "model": "claude-sonnet-5-5",
+   "prompt_version": "v2.2"
+  },
+  {
+   "line_median": 59,
+   "line_max": 78,
+   "over100": 0,
+   "oda_filled": 3,
+   "flags": {},
+   "model_used": {
+    "claude-sonnet-5-5": 12
+   },
+   "retry_reason": {},
+   "cost_usd": 0.1325,
+   "usage": {
+    "claude-sonnet-5-5": {
+     "calls": 12,
+     "in": 23475,
+     "out": 4141
+    }
+   },
+   "week": "2026-06-15",
+   "test": false,
+   "trial": false,
+   "v1_articles": 12,
+   "cards": 12,
+   "excluded": 0,
+   "body_got": 4,
+   "body_status": {
+    "full": 4,
+    "title_only": 7,
+    "lead_only": 1
+   },
+   "basis": {
+    "body": 4,
+    "title": 7,
+    "lead": 1
+   },
+   "original_link": 12,
+   "reader_proxy_used": 0,
+   "fail_reason": {},
+   "v1_original_link": 1,
+   "v1_failed": 0,
+   "model": "claude-sonnet-5-5",
+   "prompt_version": "v2.2"
+  },
+  {
+   "line_median": 46,
+   "line_max": 65,
+   "over100": 0,
+   "oda_filled": 2,
+   "flags": {},
+   "model_used": {
+    "claude-sonnet-5-5": 12
+   },
+   "retry_reason": {
+    "lines는 3줄이어야 함 (현재 4줄)": 1
+   },
+   "cost_usd": 0.1954,
+   "usage": {
+    "claude-sonnet-5-5": {
+     "calls": 13,
+     "in": 28550,
+     "out": 7317
+    }
+   },
+   "week": "2026-06-22",
+   "test": false,
+   "trial": false,
+   "v1_articles": 12,
+   "cards": 12,
+   "excluded": 0,
+   "body_got": 5,
+   "body_status": {
+    "full": 4,
+    "lead_only": 5,
+    "title_only": 2,
+    "partial": 1
+   },
+   "basis": {
+    "body": 5,
+    "lead": 5,
+    "title": 2
+   },
+   "original_link": 12,
+   "reader_proxy_used": 0,
+   "fail_reason": {},
+   "v1_original_link": 2,
+   "v1_failed": 0,
+   "model": "claude-sonnet-5-5",
+   "prompt_version": "v2.2"
+  },
+  {
+   "line_median": 58.5,
+   "line_max": 86,
+   "over100": 0,
+   "oda_filled": 3,
+   "flags": {},
+   "model_used": {
+    "claude-sonnet-5-5": 12
+   },
+   "retry_reason": {
+    "lines는 3줄이어야 함 (현재 4줄)": 1
+   },
+   "cost_usd": 0.17,
+   "usage": {
+    "claude-sonnet-5-5": {
+     "calls": 13,
+     "in": 27152,
+     "out": 5902
+    }
+   },
+   "week": "2026-06-29",
+   "test": false,
+   "trial": false,
+   "v1_articles": 12,
+   "cards": 12,
+   "excluded": 0,
+   "body_got": 5,
+   "body_status": {
+    "title_only": 5,
+    "full": 4,
+    "partial": 1,
+    "lead_only": 2
+   },
+   "basis": {
+    "title": 5,
+    "body": 5,
+    "lead": 2
+   },
+   "original_link": 12,
+   "reader_proxy_used": 0,
+   "fail_reason": {},
+   "v1_original_link": 2,
+   "v1_failed": 0,
+   "model": "claude-sonnet-5-5",
+   "prompt_version": "v2.2"
+  },
+  {
+   "line_median": 62.0,
+   "line_max": 85,
+   "over100": 0,
+   "oda_filled": 3,
+   "flags": {},
+   "model_used": {
+    "claude-sonnet-5-5": 12
+   },
+   "retry_reason": {
+    "JSON 파싱 실패: 문법 오류(Expecting value, 위치 195)": 1
+   },
+   "cost_usd": 0.1535,
+   "usage": {
+    "claude-sonnet-5-5": {
+     "calls": 13,
+     "in": 26567,
+     "out": 4923
+    }
+   },
+   "week": "2026-07-06",
+   "test": false,
+   "trial": false,
+   "v1_articles": 12,
+   "cards": 12,
+   "excluded": 0,
+   "body_got": 5,
+   "body_status": {
+    "title_only": 7,
+    "full": 4,
+    "partial": 1
+   },
+   "basis": {
+    "title": 7,
+    "body": 5
+   },
+   "original_link": 12,
+   "reader_proxy_used": 0,
+   "fail_reason": {},
+   "v1_original_link": 1,
+   "v1_failed": 0,
+   "model": "claude-sonnet-5-5",
+   "prompt_version": "v2.2"
+  },
+  {
+   "line_median": 57,
+   "line_max": 80,
+   "over100": 0,
+   "oda_filled": 7,
+   "flags": {},
+   "model_used": {
+    "claude-sonnet-5-5": 12
+   },
+   "retry_reason": {
+    "lines는 3줄이어야 함 (현재 4줄)": 2,
+    "lines는 3줄이어야 함 (현재 5줄)": 1
+   },
+   "cost_usd": 0.2927,
+   "usage": {
+    "claude-sonnet-5-5": {
+     "calls": 15,
+     "in": 41215,
+     "out": 11272
+    }
+   },
+   "week": "2026-07-12",
+   "test": false,
+   "trial": false,
+   "v1_articles": 12,
+   "cards": 12,
+   "excluded": 0,
+   "body_got": 7,
+   "body_status": {
+    "title_only": 4,
+    "full": 7,
+    "lead_only": 1
+   },
+   "basis": {
+    "title": 4,
+    "body": 7,
+    "lead": 1
+   },
+   "original_link": 12,
+   "reader_proxy_used": 0,
+   "fail_reason": {},
+   "v1_original_link": 0,
+   "v1_failed": 0,
+   "model": "claude-sonnet-5-5",
+   "prompt_version": "v2.2"
+  }
+ ],
+ "total": {
+  "v1_articles": 180,
+  "cards": 180,
+  "excluded": 0,
+  "body_got": 96,
+  "original_link": 180,
+  "reader_proxy_used": 0,
+  "v1_original_link": 29,
+  "v1_failed": 2,
+  "cost_usd": 3.4739999999999998,
+  "basis_body": 96
+ },
+ "operational": {
+  "v1_articles": 120,
+  "cards": 120,
+  "excluded": 0,
+  "body_got": 60,
+  "original_link": 120,
+  "reader_proxy_used": 0,
+  "v1_original_link": 14,
+  "v1_failed": 2,
+  "cost_usd": 2.2935000000000003,
+  "basis_body": 60
+ },
+ "fail_reasons": {},
+ "retry_reasons": {
+  "lines는 3줄이어야 함 (현재 4줄)": 18,
+  "lines는 3줄이어야 함 (현재 5줄)": 7,
+  "너무 짧은 줄 1개 (최소 15자)": 1,
+  "JSON 파싱 실패: 문법 오류(Expecting ',' delimiter, 위치 295)": 1,
+  "JSON 파싱 실패: 문법 오류(Expecting value, 위치 219)": 1,
+  "JSON 파싱 실패: 문법 오류(Expecting value, 위치 195)": 1
+ },
+ "flags": {
+  "soft_retry": 2
+ },
+ "line_len": {
+  "lines": 387,
+  "median": 55,
+  "max": 100
+ }
+}

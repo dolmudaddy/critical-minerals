@@ -1,0 +1,1958 @@
+{
+ "schema_version": "card.v1",
+ "service": "cmw",
+ "week_of": "2026-05-07",
+ "generated_at": "2026-10-19T05:07:59+00:00",
+ "mincore_version": "0.3.6",
+ "model": "claude-sonnet-5-5",
+ "prompt_version": "v2.2",
+ "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+ "stats": {
+  "v1_articles": 12,
+  "cards": 12,
+  "excluded": 0,
+  "body_got": 7,
+  "body_rate": 0.583,
+  "original_link": 12,
+  "reader_proxy_used": 0,
+  "line_len": {
+   "lines": 26,
+   "median": 59.5,
+   "max": 87,
+   "over60": 11,
+   "over100": 0
+  },
+  "oda_filled": 3,
+  "usage": {
+   "claude-sonnet-5-5": {
+    "calls": 13,
+    "in": 30215,
+    "out": 8727
+   }
+  },
+  "cost_usd": 0.2215,
+  "body_status": {
+   "title_only": 5,
+   "full": 7
+  },
+  "body_source": {
+   "none": 5,
+   "presscorner_api": 1,
+   "trafilatura": 6
+  },
+  "resolve": {
+   "decoder": 10,
+   "direct": 2
+  },
+  "fail_reason": {},
+  "basis": {
+   "title": 5,
+   "body": 7
+  },
+  "retry_reason": {
+   "lines는 3줄이어야 함 (현재 4줄)": 1
+  },
+  "flags": {},
+  "model_used": {
+   "claude-sonnet-5-5": 12
+  }
+ },
+ "total": 12,
+ "cards": [
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "14a5de67a675",
+   "title": "Rare Earths Americas IPO: Stock price will be closely watched today as 'exploration stage' firm lists on NYSE - Fast Company",
+   "title_norm": "rare earths americas ipo stock price will be closely watched today as exploration stage firm lists on nyse",
+   "url": "https://fastcompany.com/91537577/rare-earths-americas-ipo-stock-price-today-nyse-trading-debut",
+   "gnews_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQzlrdERNdVZpYzNXeFIzNGN6SWlYSndNYldYN1F6R2E5VUdKUEg3S29ORi1NeXBHYUpidDFkcTJ5ZHZ1dUh0MkliWDNabmpqRmNDLUVRblhsRVZFRTAzTWxWWVVjeWpvcERLSXFnNVF3SndZSjRNUGJMYzRHeE0xTFBpOHVmV3hMT285bGU4SUVoWklQamttTjVfUXZiblE?oc=5",
+   "source": {
+    "name": "Google News - Rare Earth Elements",
+    "domain": "fastcompany.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-05-06",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:06:19+00:00",
+   "score": 8,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "bot_block",
+    "http_status": 403,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.fastcompany.com/91537577/rare-earths-americas-ipo-stock-price-today-nyse-trading-debut",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Rare Earths Americas IPO: '탐사 단계' 기업이 NYSE에 상장하며 오늘 주가가 면밀히 주목받을 것임"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "IPO",
+     "NYSE 상장",
+     "탐사 단계"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "exploration stage",
+      "meaning": "탐사 단계"
+     },
+     {
+      "phrase": "IPO",
+      "meaning": "기업공개(신규 상장)"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:06:25+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "bb74b5bcc0",
+     "v1_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQzlrdERNdVZpYzNXeFIzNGN6SWlYSndNYldYN1F6R2E5VUdKUEg3S29ORi1NeXBHYUpidDFkcTJ5ZHZ1dUh0MkliWDNabmpqRmNDLUVRblhsRVZFRTAzTWxWWVVjeWpvcERLSXFnNVF3SndZSjRNUGJMYzRHeE0xTFBpOHVmV3hMT285bGU4SUVoWklQamttTjVfUXZiblE?oc=5",
+     "summary_raw": "Rare Earths Americas IPO: Stock price will be closely watched today as 'exploration stage' firm lists on NYSE&nbsp;&nbsp;Fast Company"
+    }
+   },
+   "v1": {
+    "korean_summary": "미국 희토류 탐사 기업인 Rare Earths Americas가 뉴욕증권거래소(NYSE)에 상장함으로써 북미 지역 희토류 개발의 중요성이 재부각되고 있습니다. 탐사 단계 기업의 상장은 글로벌 공급망 다변화에 대한 투자자의 높은 관심을 반영하고 있습니다. 오늘의 주가 움직임은 희토류 섹터 전체의 시장 심리와 투자 심리를 가늠할 수 있는 주요 지표가 될 것으로 예상됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "탐사개발",
+     "북미"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "exploration stage firm",
+      "meaning": "탐사 단계 기업 (개발·생산이 아닌 초기 탐사 단계에 있는 광산 회사)"
+     },
+     {
+      "phrase": "IPO listing on NYSE",
+      "meaning": "뉴욕증권거래소 상장공모 (자본 조달을 통한 공개 시장 진출)"
+     },
+     {
+      "phrase": "closely watched stock price",
+      "meaning": "시가 추이 면밀 관찰 (시장 신뢰도 및 섹터 투자 흐름을 나타내는 지표)"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "bb74b5bcc0",
+    "title": "Rare Earths Americas IPO: Stock price will be closely watched today as 'exploration stage' firm lists on NYSE - Fast Company",
+    "url": "https://fastcompany.com/91537577/rare-earths-americas-ipo-stock-price-today-nyse-trading-debut",
+    "source": "Google News - Rare Earth Elements",
+    "tier_weight": 1,
+    "score": 8,
+    "published": "2026-05-06",
+    "korean_summary": [
+     "[제목 기반] Rare Earths Americas IPO: '탐사 단계' 기업이 NYSE에 상장하며 오늘 주가가 면밀히 주목받을 것임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "IPO",
+     "NYSE 상장",
+     "탐사 단계"
+    ],
+    "ai_processed": true,
+    "card_id": "14a5de67a675",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Rare Earths Americas IPO: Stock price will be closely watched today as 'exploration stage' firm lists on NYSE&nbsp;&nbsp;Fast Company",
+    "english_phrases": [
+     {
+      "phrase": "exploration stage",
+      "meaning": "탐사 단계"
+     },
+     {
+      "phrase": "IPO",
+      "meaning": "기업공개(신규 상장)"
+     }
+    ],
+    "implication": "",
+    "trial": true
+   },
+   "trial": true
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "f267beaf818f",
+   "title": "EU agrees to simplify AI rules to boost innovation and ban ‘nudification' apps to protect citizens",
+   "title_norm": "eu agrees to simplify ai rules to boost innovation and ban nudification apps to protect citizens",
+   "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1024",
+   "gnews_url": null,
+   "source": {
+    "name": "European Commission - Energy",
+    "domain": "ec.europa.eu",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-05-07",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:06:26+00:00",
+   "score": 7,
+   "body": {
+    "status": "full",
+    "chars": 3214,
+    "sha256": "df546dfaf0986da42a555db0e391857630bb0cc292ae60ff066767ce94f908d3",
+    "source": "presscorner_api",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1024",
+    "strategies_tried": [
+     "presscorner_api"
+    ]
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "유럽의회와 EU 이사회가 AI 규칙 간소화안인 Digital Omnibus on AI에 정치적 합의를 이뤘음",
+     "고위험 AI 규칙은 2 December 2027부터, 제품 내장 시스템은 2 August 2028부터 적용됨",
+     "양 기관의 공식 채택 후 관보에 게재되며 게재 3일 뒤 발효될 예정임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "2 December 2027",
+     "2 August 2028",
+     "19 November 2025"
+    ],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "EU",
+     "AI법",
+     "규제 간소화",
+     "디지털 옴니버스",
+     "규제 샌드박스"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Digital Omnibus on AI",
+      "meaning": "AI법 등 규칙을 간소화하기 위한 EU 디지털 옴니버스 패키지"
+     },
+     {
+      "phrase": "high-risk AI systems",
+      "meaning": "고위험 AI 시스템"
+     },
+     {
+      "phrase": "regulatory sandboxes",
+      "meaning": "규제 샌드박스(실제 환경에서 AI 솔루션을 시험하는 제도)"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 3214,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:06:34+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "a92a76de20",
+     "v1_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1024",
+     "summary_raw": "European Commission Press release Brussels, 07 May 2026"
+    }
+   },
+   "v1": {
+    "korean_summary": "유럽연합이 인공지능 규제를 단순화하여 혁신 촉진과 시민 보호 간의 균형을 도모하고 있으며, 특히 딥페이크 기술 악용을 규제하는 방향으로 정책을 추진 중으로 확인되었습니다. 이러한 규제 완화 기조는 향후 EU 내 중요광물 자원탐사 및 처리 분야에서의 AI 활용 기술 개발을 촉진할 것으로 예상됩니다. 디지털 기술과 자원산업의 융합이 강화되면서 한국의 관련 산업도 글로벌 표준 수립에 선제적으로 대응할 필요성이 제기됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "인공지능",
+     "규제정책",
+     "EU"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "streamline AI regulations",
+      "meaning": "인공지능 규제를 간소화하다"
+     },
+     {
+      "phrase": "boost innovation while safeguarding citizen protection",
+      "meaning": "혁신 촉진과 시민 보호 간 균형을 도모하다"
+     },
+     {
+      "phrase": "ban 'nudification' applications powered by generative AI",
+      "meaning": "생성형 AI 기반 딥페이크 앱을 규제하다"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "a92a76de20",
+    "title": "EU agrees to simplify AI rules to boost innovation and ban ‘nudification' apps to protect citizens",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1024",
+    "source": "European Commission - Energy",
+    "tier_weight": 5,
+    "score": 7,
+    "published": "2026-05-07",
+    "korean_summary": [
+     "유럽의회와 EU 이사회가 AI 규칙 간소화안인 Digital Omnibus on AI에 정치적 합의를 이뤘음",
+     "고위험 AI 규칙은 2 December 2027부터, 제품 내장 시스템은 2 August 2028부터 적용됨",
+     "양 기관의 공식 채택 후 관보에 게재되며 게재 3일 뒤 발효될 예정임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "EU",
+     "AI법",
+     "규제 간소화",
+     "디지털 옴니버스",
+     "규제 샌드박스"
+    ],
+    "ai_processed": true,
+    "card_id": "f267beaf818f",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "2 December 2027",
+     "2 August 2028",
+     "19 November 2025"
+    ],
+    "quotes": [],
+    "summary_raw": "European Commission Press release Brussels, 07 May 2026",
+    "english_phrases": [
+     {
+      "phrase": "Digital Omnibus on AI",
+      "meaning": "AI법 등 규칙을 간소화하기 위한 EU 디지털 옴니버스 패키지"
+     },
+     {
+      "phrase": "high-risk AI systems",
+      "meaning": "고위험 AI 시스템"
+     },
+     {
+      "phrase": "regulatory sandboxes",
+      "meaning": "규제 샌드박스(실제 환경에서 AI 솔루션을 시험하는 제도)"
+     }
+    ],
+    "implication": "",
+    "trial": true
+   },
+   "trial": true
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "8446b9ca92d9",
+   "title": "Total Metals Completes 25 Hole, 8,408 metre Exploration Drilling Program on its Electrolode Critical Minerals Project - NAI500",
+   "title_norm": "total metals completes 25 hole 8 408 metre exploration drilling program on its electrolode critical minerals project",
+   "url": "https://nai500.com/blog/press_releases/total-metals-completes-25-hole-8408-metre-exploration-drilling-program-on-its-electrolode-critical-minerals-project",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQNHlmQVhFSFV4eEZNTThCSUxPa0F1MXpYZXBwcnNvODB4NHNBdEhRdTJ1VUVkUXZnVElSRGRLM1E5aFZzWUsxbHliSGxOY2VZeFFXaEFhbFNYdkg1ZDRhWi1mbElhMkdRbzBkS2g5ZTlMc2FWWTFiUXRGZDF2andLY1dGOFp0eWdidWIzSGw4YVh3dGFXYU1vMEsxVGNtLWVCTnZZa2xESDMySVQ5X05XOUFybVZucmgtOV9ra2k4aWhZNjBMelRDOVVOeE1oTVFQRThjR1Rxb2dCWDdqckdPeS11WUVZa3lrRFNR?oc=5",
+   "source": {
+    "name": "Google News - Critical Minerals Exploration",
+    "domain": "nai500.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-05-06",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:06:49+00:00",
+   "score": 8,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "timeout",
+    "http_status": null,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": null,
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Total Metals가 Electrolode 핵심광물 프로젝트의 25개 홀, 8,408 metre 탐사 시추 프로그램을 완료했음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "exploration_tech",
+    "tags": [
+     "핵심광물",
+     "탐사 시추",
+     "Electrolode 프로젝트",
+     "Total Metals"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Exploration Drilling Program",
+      "meaning": "탐사 시추 프로그램"
+     },
+     {
+      "phrase": "Critical Minerals Project",
+      "meaning": "핵심광물 프로젝트"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:06:55+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "c150af2532",
+     "v1_url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQNHlmQVhFSFV4eEZNTThCSUxPa0F1MXpYZXBwcnNvODB4NHNBdEhRdTJ1VUVkUXZnVElSRGRLM1E5aFZzWUsxbHliSGxOY2VZeFFXaEFhbFNYdkg1ZDRhWi1mbElhMkdRbzBkS2g5ZTlMc2FWWTFiUXRGZDF2andLY1dGOFp0eWdidWIzSGw4YVh3dGFXYU1vMEsxVGNtLWVCTnZZa2xESDMySVQ5X05XOUFybVZucmgtOV9ra2k4aWhZNjBMelRDOVVOeE1oTVFQRThjR1Rxb2dCWDdqckdPeS11WUVZa3lrRFNR?oc=5",
+     "summary_raw": "Total Metals Completes 25 Hole, 8,408 metre Exploration Drilling Program on its Electrolode Critical Minerals Project&nbsp;&nbsp;NAI500"
+    }
+   },
+   "v1": {
+    "korean_summary": "토탈 메탈스사가 Electrolode 중요광물 프로젝트에서 25개 공(hole)을 대상으로 총 8,408미터의 탐사 시추를 완료하였으며, 이는 프로젝트의 광물화 잠재력을 평가하기 위한 중요한 단계로 확인되었음. 본 탐사 프로그램은 NAI500 구역에서의 광체 규모와 품위를 파악하기 위한 기초 자료를 제공할 전망임. 향후 시추 코어 분석 및 해석을 통해 개발 가능성이 검토될 예정임.",
+    "category": "exploration_tech",
+    "tags": [
+     "중요광물",
+     "탐사 시추",
+     "호주"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Exploration drilling program",
+      "meaning": "탐사 시추 프로그램"
+     },
+     {
+      "phrase": "Critical minerals project",
+      "meaning": "중요광물 개발 사업"
+     },
+     {
+      "phrase": "Mineralization potential assessment",
+      "meaning": "광물화 잠재력 평가"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "c150af2532",
+    "title": "Total Metals Completes 25 Hole, 8,408 metre Exploration Drilling Program on its Electrolode Critical Minerals Project - NAI500",
+    "url": "https://nai500.com/blog/press_releases/total-metals-completes-25-hole-8408-metre-exploration-drilling-program-on-its-electrolode-critical-minerals-project",
+    "source": "Google News - Critical Minerals Exploration",
+    "tier_weight": 1,
+    "score": 8,
+    "published": "2026-05-06",
+    "korean_summary": [
+     "[제목 기반] Total Metals가 Electrolode 핵심광물 프로젝트의 25개 홀, 8,408 metre 탐사 시추 프로그램을 완료했음"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "핵심광물",
+     "탐사 시추",
+     "Electrolode 프로젝트",
+     "Total Metals"
+    ],
+    "ai_processed": true,
+    "card_id": "8446b9ca92d9",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Total Metals Completes 25 Hole, 8,408 metre Exploration Drilling Program on its Electrolode Critical Minerals Project&nbsp;&nbsp;NAI500",
+    "english_phrases": [
+     {
+      "phrase": "Exploration Drilling Program",
+      "meaning": "탐사 시추 프로그램"
+     },
+     {
+      "phrase": "Critical Minerals Project",
+      "meaning": "핵심광물 프로젝트"
+     }
+    ],
+    "implication": "",
+    "trial": true
+   },
+   "trial": true
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "7772f7c4a14d",
+   "title": "Enova Mining Advances Brazilian Critical Minerals Drilling and Raises $2m to Fund Exploration - TipRanks",
+   "title_norm": "enova mining advances brazilian critical minerals drilling and raises 2m to fund exploration",
+   "url": "https://tipranks.com/news/company-announcements/enova-mining-advances-brazilian-critical-minerals-drilling-and-raises-2m-to-fund-exploration",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNnRqNmppcExZUmlFWDc4N1FTcHl1M0kyWEVxcUVwUWdRdVdSSk1DYmRuYklvQ2NlZXUwSzRZdG9ubTlEY2xFV3NxYklZOUJ2Tm1WV3JpZzM4S2ZOQnhHdFBfYkRIaVVGaEw5RUMtaWN3SmVOcm5wODhCOHY5M2tWS29HODF1S0ZyQ2tnNlpDdXpqLXotU3hudkNIeExZYy05bktEZ0d3ZkFHMFViMXlaMldNMnEyV05fUURIUWZpMmt4U3ZWNHhuOW1lNms1VUtrb3U2TXVTSWlPRklM?oc=5",
+   "source": {
+    "name": "Google News - Critical Minerals Exploration",
+    "domain": "tipranks.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-04-30",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:06:55+00:00",
+   "score": 6,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "bot_block",
+    "http_status": 403,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.tipranks.com/news/company-announcements/enova-mining-advances-brazilian-critical-minerals-drilling-and-raises-2m-to-fund-exploration",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Enova Mining이 브라질 핵심광물 시추를 진전시키고 탐사 자금 $2m을 조달했음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "exploration_tech",
+    "tags": [
+     "핵심광물",
+     "탐사",
+     "시추",
+     "자금조달",
+     "브라질"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Raises $2m to Fund Exploration",
+      "meaning": "탐사 자금 마련을 위해 $2m을 조달함"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:06:59+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "60f42bfbdd",
+     "v1_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNnRqNmppcExZUmlFWDc4N1FTcHl1M0kyWEVxcUVwUWdRdVdSSk1DYmRuYklvQ2NlZXUwSzRZdG9ubTlEY2xFV3NxYklZOUJ2Tm1WV3JpZzM4S2ZOQnhHdFBfYkRIaVVGaEw5RUMtaWN3SmVOcm5wODhCOHY5M2tWS29HODF1S0ZyQ2tnNlpDdXpqLXotU3hudkNIeExZYy05bktEZ0d3ZkFHMFViMXlaMldNMnEyV05fUURIUWZpMmt4U3ZWNHhuOW1lNms1VUtrb3U2TXVTSWlPRklM?oc=5",
+     "summary_raw": "Enova Mining Advances Brazilian Critical Minerals Drilling and Raises $2m to Fund Exploration&nbsp;&nbsp;TipRanks"
+    }
+   },
+   "v1": {
+    "korean_summary": "브라질의 에노바 마이닝(Enova Mining)이 중요광물 시추 프로젝트를 진전시키면서 탐사 자금 조성을 위해 200만 달러를 모금한 것으로 확인되었습니다. 이번 자금 조달은 브라질의 풍부한 중요광물 자원 개발을 가속화하는 전략적 움직임으로 평가됩니다. 향후 본격적인 시추 및 광체 평가 작업이 추진될 전망입니다.",
+    "category": "exploration_tech",
+    "tags": [
+     "중요광물",
+     "광물탐사",
+     "브라질"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals drilling program",
+      "meaning": "중요광물 시추 프로그램"
+     },
+     {
+      "phrase": "exploration funding",
+      "meaning": "탐사 자금 조성"
+     },
+     {
+      "phrase": "advance exploration activities",
+      "meaning": "탐사 활동 진전/추진"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "60f42bfbdd",
+    "title": "Enova Mining Advances Brazilian Critical Minerals Drilling and Raises $2m to Fund Exploration - TipRanks",
+    "url": "https://tipranks.com/news/company-announcements/enova-mining-advances-brazilian-critical-minerals-drilling-and-raises-2m-to-fund-exploration",
+    "source": "Google News - Critical Minerals Exploration",
+    "tier_weight": 1,
+    "score": 6,
+    "published": "2026-04-30",
+    "korean_summary": [
+     "[제목 기반] Enova Mining이 브라질 핵심광물 시추를 진전시키고 탐사 자금 $2m을 조달했음"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "핵심광물",
+     "탐사",
+     "시추",
+     "자금조달",
+     "브라질"
+    ],
+    "ai_processed": true,
+    "card_id": "7772f7c4a14d",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Enova Mining Advances Brazilian Critical Minerals Drilling and Raises $2m to Fund Exploration&nbsp;&nbsp;TipRanks",
+    "english_phrases": [
+     {
+      "phrase": "Raises $2m to Fund Exploration",
+      "meaning": "탐사 자금 마련을 위해 $2m을 조달함"
+     }
+    ],
+    "implication": "",
+    "trial": true
+   },
+   "trial": true
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "b9a87c02eca0",
+   "title": "Mount Ridley Mines 3D Gravity Modelling Expands Critical Minerals Potential - Discovery Alert",
+   "title_norm": "mount ridley mines 3d gravity modelling expands critical minerals potential",
+   "url": "https://discoveryalert.com.au/mount-ridley-mines-3d-gravity-critical-minerals-expansion",
+   "gnews_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRl85bzBaenFKVF9XRXZYVHdSMHVyN1BJRUY5bzV0QVVZTHcza19jNXFWTWFXaTBKVDd6QS1kQndONlhyZTd6dndQellIUXJOREUzNVdpYTMyUVFBS2ZTTEVTTGN6NnFuR0JLWldRcHNkQWlSWmxvenltcHhYa1ZZb09uYnhMR09xRGlRUTZtc3dwUQ?oc=5",
+   "source": {
+    "name": "Google News - Critical Minerals Exploration",
+    "domain": "discoveryalert.com.au",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-05-05",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:07:07+00:00",
+   "score": 6,
+   "body": {
+    "status": "full",
+    "chars": 5129,
+    "sha256": "6cc3f952a8adc8a91a83778e9a4177d39f165af41d5a9245b4c458d380923d41",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-05-04",
+    "quotes": [
+     "Discovery Alert provides readers with access to market news, educational content, and commentary from financial services professionals, industry experts, and companies (“Contributors”)."
+    ],
+    "final_url": "https://discoveryalert.com/mount-ridley-mines-3d-gravity-critical-minerals-expansion/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Mount Ridley Mines(ASX: MRD)가 3D 중력 역산 모델링 결과를 발표했음",
+     "서호주 Mount Ridley Critical Mineral Project 전역에서 Core Geophysics Pty Ltd가 수행했음",
+     "기존 Mineral Resource 경계 밖에서 신규 우선 타깃이 여럿 확인됐고 후속 일정은 확인 불가임"
+    ],
+    "basis": "body",
+    "key_figures": [],
+    "quotes": [
+     "Discovery Alert provides readers with access to market news, educational content, and commentary from financial services professionals, industry experts, and companies (“Contributors”)."
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "핵심광물",
+     "3D 중력 역산",
+     "탐사",
+     "서호주",
+     "ASX"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "3D gravity inversion modelling",
+      "meaning": "3차원 중력 역산 모델링"
+     },
+     {
+      "phrase": "Mineral Resource",
+      "meaning": "광물자원량(기존 확인 자원)"
+     },
+     {
+      "phrase": "high-priority targets",
+      "meaning": "우선순위가 높은 탐사 타깃"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:07:10+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "7a35b35e9e",
+     "v1_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRl85bzBaenFKVF9XRXZYVHdSMHVyN1BJRUY5bzV0QVVZTHcza19jNXFWTWFXaTBKVDd6QS1kQndONlhyZTd6dndQellIUXJOREUzNVdpYTMyUVFBS2ZTTEVTTGN6NnFuR0JLWldRcHNkQWlSWmxvenltcHhYa1ZZb09uYnhMR09xRGlRUTZtc3dwUQ?oc=5",
+     "summary_raw": "Mount Ridley Mines 3D Gravity Modelling Expands Critical Minerals Potential&nbsp;&nbsp;Discovery Alert"
+    }
+   },
+   "v1": {
+    "korean_summary": "Mount Ridley Mines는 3차원 중력 모델링(3D Gravity Modelling) 기법을 적용하여 중요광물 부존 가능성을 확대한 것으로 확인되었습니다. 이러한 지구물리 해석 기술의 적용은 탐사 효율성 향상과 매장량 추정 정확도 개선에 기여할 전망입니다. 해당 프로젝트는 중요광물 탐사 분야에서 첨단 모델링 기법의 실제 적용 사례로서 의미 있는 발견으로 평가됩니다.",
+    "category": "exploration_tech",
+    "tags": [
+     "중요광물",
+     "3D 중력탐사",
+     "호주"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "3D gravity modelling",
+      "meaning": "3차원 중력 모델링 (지하 밀도 변화를 입체적으로 해석하는 지구물리 기법)"
+     },
+     {
+      "phrase": "critical minerals potential expansion",
+      "meaning": "중요광물 부존 가능성의 확대 (탐사 대상 영역 또는 매장량 추정치 증가)"
+     },
+     {
+      "phrase": "discovery alert",
+      "meaning": "발견 속보 (신규 광상 또는 중요 탐사 진전에 대한 긴급 공지)"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "7a35b35e9e",
+    "title": "Mount Ridley Mines 3D Gravity Modelling Expands Critical Minerals Potential - Discovery Alert",
+    "url": "https://discoveryalert.com.au/mount-ridley-mines-3d-gravity-critical-minerals-expansion",
+    "source": "Google News - Critical Minerals Exploration",
+    "tier_weight": 1,
+    "score": 6,
+    "published": "2026-05-05",
+    "korean_summary": [
+     "Mount Ridley Mines(ASX: MRD)가 3D 중력 역산 모델링 결과를 발표했음",
+     "서호주 Mount Ridley Critical Mineral Project 전역에서 Core Geophysics Pty Ltd가 수행했음",
+     "기존 Mineral Resource 경계 밖에서 신규 우선 타깃이 여럿 확인됐고 후속 일정은 확인 불가임"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "핵심광물",
+     "3D 중력 역산",
+     "탐사",
+     "서호주",
+     "ASX"
+    ],
+    "ai_processed": true,
+    "card_id": "b9a87c02eca0",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [],
+    "quotes": [
+     "Discovery Alert provides readers with access to market news, educational content, and commentary from financial services professionals, industry experts, and companies (“Contributors”)."
+    ],
+    "summary_raw": "Mount Ridley Mines 3D Gravity Modelling Expands Critical Minerals Potential&nbsp;&nbsp;Discovery Alert",
+    "english_phrases": [
+     {
+      "phrase": "3D gravity inversion modelling",
+      "meaning": "3차원 중력 역산 모델링"
+     },
+     {
+      "phrase": "Mineral Resource",
+      "meaning": "광물자원량(기존 확인 자원)"
+     },
+     {
+      "phrase": "high-priority targets",
+      "meaning": "우선순위가 높은 탐사 타깃"
+     }
+    ],
+    "implication": "",
+    "trial": true
+   },
+   "trial": true
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "a241ed6e283b",
+   "title": "Highland Critical Minerals to launch summer exploration program at Church property - Proactive financial news",
+   "title_norm": "highland critical minerals to launch summer exploration program at church property",
+   "url": "https://proactiveinvestors.com/companies/news/1091739/highland-critical-minerals-to-launch-summer-exploration-program-at-church-property-1091739.html",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQY1F3NXFQTHNZcHlORmphX0oxdzhDaWtVRWJDTFBkcHIyeE9Hb2pLSWhheWp4dGRWLWI3Wnl1MWtMakZDWEJwV01IcERZZ1JvZEkxY1JWZTlHTnRsSGl3cGF3WHVTVFIzT2dlR0hoZlJXZ0dtV09sZWdXaVItdkpybUNseFpDWkRnUHVObzRDRnIyMUZ5Q3FnS2FwUDBHRjRvLWl1Q3UwZ3QyTUd4Z2tkY2JLaGhFTHotY3JZRnl1WHZiTzRQM2NEU2J0dVdYS28wZV9vQWhxeTI5aGItenROREkyaW5FYnhu?oc=5",
+   "source": {
+    "name": "Google News - Critical Minerals Exploration",
+    "domain": "proactiveinvestors.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-05-05",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:07:11+00:00",
+   "score": 5,
+   "body": {
+    "status": "full",
+    "chars": 1418,
+    "sha256": "a9ef644662609bccbd5734339569530473bb497578f23e351bab948f92b088d1",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-05-05",
+    "quotes": [
+     "The company is planning the exploration program following the successful close of a non-brokered flow-through private placement that raised gross proceeds of $400,000.",
+     "Shares of Highland Critical Minerals were up about 20% following the announcement."
+    ],
+    "final_url": "https://www.proactiveinvestors.com/companies/news/1091739/highland-critical-minerals-to-launch-summer-exploration-program-at-church-property-1091739.html",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Highland Critical Minerals가 온타리오 북부 Church property의 여름 탐사 계획을 발표했음",
+     "라디오메트릭·LiDAR 지구물리 탐사와 시료 채취를 5월 말 시작할 예정임",
+     "비중개 flow-through 사모 유상증자로 $400,000를 조달했으며 탐사비는 적격 지출이 될 전망임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "$400,000",
+     "about 20%"
+    ],
+    "quotes": [
+     "The company is planning the exploration program following the successful close of a non-brokered flow-through private placement that raised gross proceeds of $400,000.",
+     "Shares of Highland Critical Minerals were up about 20% following the announcement."
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "핵심광물",
+     "탐사",
+     "온타리오",
+     "캐나다",
+     "지구물리탐사"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "flow-through private placement",
+      "meaning": "탐사비 세제 혜택이 연계된 사모 유상증자"
+     },
+     {
+      "phrase": "radiometric and LiDAR geophysical survey",
+      "meaning": "방사능 측정 및 라이다 기반 지구물리 탐사"
+     },
+     {
+      "phrase": "eligible expenditures",
+      "meaning": "적격 지출(flow-through 자금으로 쓸 수 있는 비용)"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 1418,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:07:22+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 4줄)"
+    ],
+    "retry_tails": [
+     "y\", \"meaning\": \"방사능 측정 및 라이다 기반 지구물리 탐사\"},\n    {\"phrase\": \"eligible expenditures\", \"meaning\": \"적격 지출(flow-through 자금 사용 가능 비용)\"}\n  ],\n  \"implication\": \"해당 없음\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "383abcd048",
+     "v1_url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQY1F3NXFQTHNZcHlORmphX0oxdzhDaWtVRWJDTFBkcHIyeE9Hb2pLSWhheWp4dGRWLWI3Wnl1MWtMakZDWEJwV01IcERZZ1JvZEkxY1JWZTlHTnRsSGl3cGF3WHVTVFIzT2dlR0hoZlJXZ0dtV09sZWdXaVItdkpybUNseFpDWkRnUHVObzRDRnIyMUZ5Q3FnS2FwUDBHRjRvLWl1Q3UwZ3QyTUd4Z2tkY2JLaGhFTHotY3JZRnl1WHZiTzRQM2NEU2J0dVdYS28wZV9vQWhxeTI5aGItenROREkyaW5FYnhu?oc=5",
+     "summary_raw": "Highland Critical Minerals to launch summer exploration program at Church property&nbsp;&nbsp;Proactive financial news"
+    }
+   },
+   "v1": {
+    "korean_summary": "Highland Critical Minerals는 Church 광산 부지에서 하계 탐사 프로그램을 개시할 계획으로 확인되었습니다. 본 탐사 프로그램은 중요광물 자원의 부존량 평가 및 경제성 검토를 위한 실질적 단계로 추진될 전망입니다. 이는 북미 지역의 중요광물 공급망 확보 전략의 일환으로 평가됩니다.",
+    "category": "exploration_tech",
+    "tags": [
+     "중요광물",
+     "탐사개발",
+     "북미"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "summer exploration program",
+      "meaning": "하계 탐사 프로그램 (광산개발의 초기 탐사단계)"
+     },
+     {
+      "phrase": "critical minerals property",
+      "meaning": "중요광물 채광 대상 광산(부지)"
+     },
+     {
+      "phrase": "resource assessment and economic viability",
+      "meaning": "자원 평가 및 경제성 검토"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "383abcd048",
+    "title": "Highland Critical Minerals to launch summer exploration program at Church property - Proactive financial news",
+    "url": "https://proactiveinvestors.com/companies/news/1091739/highland-critical-minerals-to-launch-summer-exploration-program-at-church-property-1091739.html",
+    "source": "Google News - Critical Minerals Exploration",
+    "tier_weight": 1,
+    "score": 5,
+    "published": "2026-05-05",
+    "korean_summary": [
+     "Highland Critical Minerals가 온타리오 북부 Church property의 여름 탐사 계획을 발표했음",
+     "라디오메트릭·LiDAR 지구물리 탐사와 시료 채취를 5월 말 시작할 예정임",
+     "비중개 flow-through 사모 유상증자로 $400,000를 조달했으며 탐사비는 적격 지출이 될 전망임"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "핵심광물",
+     "탐사",
+     "온타리오",
+     "캐나다",
+     "지구물리탐사"
+    ],
+    "ai_processed": true,
+    "card_id": "a241ed6e283b",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "$400,000",
+     "about 20%"
+    ],
+    "quotes": [
+     "The company is planning the exploration program following the successful close of a non-brokered flow-through private placement that raised gross proceeds of $400,000.",
+     "Shares of Highland Critical Minerals were up about 20% following the announcement."
+    ],
+    "summary_raw": "Highland Critical Minerals to launch summer exploration program at Church property&nbsp;&nbsp;Proactive financial news",
+    "english_phrases": [
+     {
+      "phrase": "flow-through private placement",
+      "meaning": "탐사비 세제 혜택이 연계된 사모 유상증자"
+     },
+     {
+      "phrase": "radiometric and LiDAR geophysical survey",
+      "meaning": "방사능 측정 및 라이다 기반 지구물리 탐사"
+     },
+     {
+      "phrase": "eligible expenditures",
+      "meaning": "적격 지출(flow-through 자금으로 쓸 수 있는 비용)"
+     }
+    ],
+    "implication": "",
+    "trial": true
+   },
+   "trial": true
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "2550e8a4366c",
+   "title": "USGS Finds 328 Years of Lithium Imports Buried in Appalachia - Crude Oil Prices Today | OilPrice.com",
+   "title_norm": "usgs finds 328 years of lithium imports buried in appalachia crude oil prices today",
+   "url": "https://oilprice.com/Energy/Energy-General/USGS-Finds-328-Years-of-Lithium-Imports-Buried-in-Appalachia.html",
+   "gnews_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMWd1NFlEc1ZlaU5Hd0lFcld5eVlUR19WUnlBb19TNEhuTHRDNkNmNHZOZXRuM1Q5OGJuR3RlbThiT2FzNTM1ZU9yZ2lDTWg0Z1NUMndudUhnVDRVR2dFNHQycXd5TFUzZXhlcmxmeXYxa1hXZEtnQnVteVpLTkJSenNnZVpiYWRienNKcGpjYnlpWE1JRGc1MFhXQmR0Q2x6N0V3UG5zOTN3dTll0gGyAUFVX3lxTFBsX3hIZWtENjhxMEFDcndEMC1zZlA3ckY0VTNCRWxfSDNhNEVtVTF6VFNORTVaczFHSGR4a0Y3OFRlX1hXb2VKRmtOYjduRTBfUkZyYllXOTJmQ1dEemNBd3JVQTJsWkV6dkM2eEY1ZDRqMTM0eXo2NEVzVTlWeXh1QjdfcmxQVWlsYU9sZ0pRcVR4SlFYNjc2QjNST2p0T1RiS1lnSjU5LVg5c0RNZWlLeWc?oc=5",
+   "source": {
+    "name": "Google News - Lithium Discovery",
+    "domain": "oilprice.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-05-03",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:07:22+00:00",
+   "score": 6,
+   "body": {
+    "status": "full",
+    "chars": 3151,
+    "sha256": "e1112b912970ea339a7bcaa8a5897919874291cdd6a41a62f01d75a1ef21710b",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-05-03",
+    "quotes": [
+     "That's about 2.3 million metric tons of undiscovered but economically recoverable lithium -- aka \"white gold.\"",
+     "Added up, it's enough to put the requisite lithium in 130 million electric vehicles, or a thousand years worth of laptop production."
+    ],
+    "final_url": "https://oilprice.com/Energy/Energy-General/USGS-Finds-328-Years-of-Lithium-Imports-Buried-in-Appalachia.html",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "USGS가 애팔래치아에 지난해 리튬 수입량 약 328년치가 매장돼 있다고 분석했음",
+     "미발견 회수 가능 리튬 약 2.3 million metric tons, 남부 1.43 million·북부 900,000 metric tons임",
+     "현재 미국의 가동 리튬 광산은 네바다의 Albemarle Silver Peak Mine 한 곳뿐임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "328 years",
+     "2.3 million metric tons",
+     "1.43 million metric tons"
+    ],
+    "quotes": [
+     "That's about 2.3 million metric tons of undiscovered but economically recoverable lithium -- aka \"white gold.\"",
+     "Added up, it's enough to put the requisite lithium in 130 million electric vehicles, or a thousand years worth of laptop production."
+    ],
+    "category": "discovery",
+    "tags": [
+     "리튬",
+     "USGS",
+     "애팔래치아",
+     "미국",
+     "자원평가"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "undiscovered but economically recoverable",
+      "meaning": "아직 발견되지 않았지만 경제성 있게 회수 가능한"
+     },
+     {
+      "phrase": "white gold",
+      "meaning": "리튬을 가리키는 별칭인 '백색 황금'"
+     },
+     {
+      "phrase": "mineral independence",
+      "meaning": "광물 자립"
+     },
+     {
+      "phrase": "Lithium-rich pegmatites",
+      "meaning": "리튬이 풍부한 페그마타이트(조립질 화성암)"
+     }
+    ],
+    "implication": "미국 내 대규모 리튬 잠재량이 제시됐으나 미발견 자원이고 가동 광산이 한 곳뿐이라, 공급 전환은 향후 개발 속도에 달려 있음."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 3151,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:07:36+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "a16376a74b",
+     "v1_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMWd1NFlEc1ZlaU5Hd0lFcld5eVlUR19WUnlBb19TNEhuTHRDNkNmNHZOZXRuM1Q5OGJuR3RlbThiT2FzNTM1ZU9yZ2lDTWg0Z1NUMndudUhnVDRVR2dFNHQycXd5TFUzZXhlcmxmeXYxa1hXZEtnQnVteVpLTkJSenNnZVpiYWRienNKcGpjYnlpWE1JRGc1MFhXQmR0Q2x6N0V3UG5zOTN3dTll0gGyAUFVX3lxTFBsX3hIZWtENjhxMEFDcndEMC1zZlA3ckY0VTNCRWxfSDNhNEVtVTF6VFNORTVaczFHSGR4a0Y3OFRlX1hXb2VKRmtOYjduRTBfUkZyYllXOTJmQ1dEemNBd3JVQTJsWkV6dkM2eEY1ZDRqMTM0eXo2NEVzVTlWeXh1QjdfcmxQVWlsYU9sZ0pRcVR4SlFYNjc2QjNST2p0T1RiS1lnSjU5LVg5c0RNZWlLeWc?oc=5",
+     "summary_raw": "USGS Finds 328 Years of Lithium Imports Buried in Appalachia&nbsp;&nbsp;Crude Oil Prices Today | OilPrice.com"
+    }
+   },
+   "v1": {
+    "korean_summary": "미국지질조사소(USGS)가 애팔래치아 지역에서 328년분의 리튬 수입량에 해당하는 대규모 리튬 매장량을 발견했으므로, 이는 미국의 중요광물 자급률 향상에 획기적인 기여를 할 전망입니다. 해당 지역의 유전 개발 부산물인 지층수(brine)에 용존된 리튬 자원의 추출 가능성이 확인되어 국내 에너지·자원 정책에도 중요한 시사점을 제공합니다. 향후 채산성 있는 추출 기술 개발과 환경영향평가가 진행될 경우, 배터리 산업의 공급망 안정화에 크게 기여할 수 있을 것으로 예상됩니다.",
+    "category": "discovery",
+    "tags": [
+     "리튬",
+     "광물자원탐사",
+     "미국(애팔래치아)"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Critical mineral resources in petroleum-bearing formations",
+      "meaning": "석유 함유 지층에 부존된 중요광물 자원"
+     },
+     {
+      "phrase": "Lithium-enriched brines from oil and gas operations",
+      "meaning": "유·가스 개발에서 발생하는 리튬 농축 지층수"
+     },
+     {
+      "phrase": "Domestic supply security and import substitution potential",
+      "meaning": "국내 공급 안보 및 수입 대체 가능성"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "a16376a74b",
+    "title": "USGS Finds 328 Years of Lithium Imports Buried in Appalachia - Crude Oil Prices Today | OilPrice.com",
+    "url": "https://oilprice.com/Energy/Energy-General/USGS-Finds-328-Years-of-Lithium-Imports-Buried-in-Appalachia.html",
+    "source": "Google News - Lithium Discovery",
+    "tier_weight": 1,
+    "score": 6,
+    "published": "2026-05-03",
+    "korean_summary": [
+     "USGS가 애팔래치아에 지난해 리튬 수입량 약 328년치가 매장돼 있다고 분석했음",
+     "미발견 회수 가능 리튬 약 2.3 million metric tons, 남부 1.43 million·북부 900,000 metric tons임",
+     "현재 미국의 가동 리튬 광산은 네바다의 Albemarle Silver Peak Mine 한 곳뿐임"
+    ],
+    "category": "discovery",
+    "tags": [
+     "리튬",
+     "USGS",
+     "애팔래치아",
+     "미국",
+     "자원평가"
+    ],
+    "ai_processed": true,
+    "card_id": "2550e8a4366c",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "328 years",
+     "2.3 million metric tons",
+     "1.43 million metric tons"
+    ],
+    "quotes": [
+     "That's about 2.3 million metric tons of undiscovered but economically recoverable lithium -- aka \"white gold.\"",
+     "Added up, it's enough to put the requisite lithium in 130 million electric vehicles, or a thousand years worth of laptop production."
+    ],
+    "summary_raw": "USGS Finds 328 Years of Lithium Imports Buried in Appalachia&nbsp;&nbsp;Crude Oil Prices Today | OilPrice.com",
+    "english_phrases": [
+     {
+      "phrase": "undiscovered but economically recoverable",
+      "meaning": "아직 발견되지 않았지만 경제성 있게 회수 가능한"
+     },
+     {
+      "phrase": "white gold",
+      "meaning": "리튬을 가리키는 별칭인 '백색 황금'"
+     },
+     {
+      "phrase": "mineral independence",
+      "meaning": "광물 자립"
+     },
+     {
+      "phrase": "Lithium-rich pegmatites",
+      "meaning": "리튬이 풍부한 페그마타이트(조립질 화성암)"
+     }
+    ],
+    "implication": "미국 내 대규모 리튬 잠재량이 제시됐으나 미발견 자원이고 가동 광산이 한 곳뿐이라, 공급 전환은 향후 개발 속도에 달려 있음.",
+    "trial": true
+   },
+   "trial": true
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "c84364685ea1",
+   "title": "Anson Resources Lifts Green River Lithium Resource by 650% After New Drilling - TipRanks",
+   "title_norm": "anson resources lifts green river lithium resource by 650 after new drilling",
+   "url": "https://tipranks.com/news/company-announcements/anson-resources-lifts-green-river-lithium-resource-by-650-after-new-drilling",
+   "gnews_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSnFHMVJwMEQyV0Fwd29QR0trUGIybjVQVDh6ckFXbl92YnpuVmlVbWhkQ0s1WHNqbGZIV0U1Rzk3bGxRU1M2OW9yMEVvS2VxNFhqR3VqeDZiSExBS2l3TjBrMjA5ajluM3M4UDhmMXVFLUYweHNvVkxGM3hpbi1oQUE2T0h2M0VZcGNNVnhFMkRKbXRPQlBrS004YXJIV09aYVoxSHBCVWpjc2xiQXJXbVR6MkNSOFFzaGxEeGZjblkzNGxNc1Zz?oc=5",
+   "source": {
+    "name": "Google News - Lithium Discovery",
+    "domain": "tipranks.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-05-03",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:07:36+00:00",
+   "score": 6,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "bot_block",
+    "http_status": 403,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.tipranks.com/news/company-announcements/anson-resources-lifts-green-river-lithium-resource-by-650-after-new-drilling",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Anson Resources, 신규 시추 후 Green River 리튬 자원량 650% 상향했음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "discovery",
+    "tags": [
+     "리튬",
+     "자원량 상향",
+     "시추",
+     "Green River"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Lifts Green River Lithium Resource by 650%",
+      "meaning": "Green River 리튬 자원량을 650% 늘렸다"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:07:37+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "5fc479473c",
+     "v1_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSnFHMVJwMEQyV0Fwd29QR0trUGIybjVQVDh6ckFXbl92YnpuVmlVbWhkQ0s1WHNqbGZIV0U1Rzk3bGxRU1M2OW9yMEVvS2VxNFhqR3VqeDZiSExBS2l3TjBrMjA5ajluM3M4UDhmMXVFLUYweHNvVkxGM3hpbi1oQUE2T0h2M0VZcGNNVnhFMkRKbXRPQlBrS004YXJIV09aYVoxSHBCVWpjc2xiQXJXbVR6MkNSOFFzaGxEeGZjblkzNGxNc1Zz?oc=5",
+     "summary_raw": "Anson Resources Lifts Green River Lithium Resource by 650% After New Drilling&nbsp;&nbsp;TipRanks"
+    }
+   },
+   "v1": {
+    "korean_summary": "Anson Resources는 Green River 지역에서의 신규 시추를 통해 리튬 광물자원량을 650% 증가시키는 성과를 달성하였음이 보도되었습니다. 이는 미국 내 주요 리튬 부존지역에서의 대규모 자원량 확대로서 향후 공급 안정성 확보에 기여할 것으로 전망됩니다. 상세한 기술 데이터와 개발 일정은 추가 공식 발표를 통해 공개될 예정입니다.",
+    "category": "discovery",
+    "tags": [
+     "리튬",
+     "시추탐사",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "resource upgrade by drilling",
+      "meaning": "시추를 통한 광물자원량 상향 평가"
+     },
+     {
+      "phrase": "Green River lithium deposit",
+      "meaning": "Green River 리튬 광상(미국 와이오밍주 Soda Lake 지역)"
+     },
+     {
+      "phrase": "mineral resource estimation increase",
+      "meaning": "광물자원량 추정치의 대폭 증가"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "5fc479473c",
+    "title": "Anson Resources Lifts Green River Lithium Resource by 650% After New Drilling - TipRanks",
+    "url": "https://tipranks.com/news/company-announcements/anson-resources-lifts-green-river-lithium-resource-by-650-after-new-drilling",
+    "source": "Google News - Lithium Discovery",
+    "tier_weight": 1,
+    "score": 6,
+    "published": "2026-05-03",
+    "korean_summary": [
+     "[제목 기반] Anson Resources, 신규 시추 후 Green River 리튬 자원량 650% 상향했음"
+    ],
+    "category": "discovery",
+    "tags": [
+     "리튬",
+     "자원량 상향",
+     "시추",
+     "Green River"
+    ],
+    "ai_processed": true,
+    "card_id": "c84364685ea1",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Anson Resources Lifts Green River Lithium Resource by 650% After New Drilling&nbsp;&nbsp;TipRanks",
+    "english_phrases": [
+     {
+      "phrase": "Lifts Green River Lithium Resource by 650%",
+      "meaning": "Green River 리튬 자원량을 650% 늘렸다"
+     }
+    ],
+    "implication": "",
+    "trial": true
+   },
+   "trial": true
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "c38e4ae3db86",
+   "title": "Rare Earth Metal Stocks To Watch As Supply Chains Shift - simplywall.st",
+   "title_norm": "rare earth metal stocks to watch as supply chains shift",
+   "url": "https://simplywall.st/stocks/us/materials/nasdaq-usar/usa-rare-earth/news/rare-earth-metal-stocks-to-watch-as-supply-chains-shift",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSWpFR0RwQmdKd09JSnZkZ05aeGx0UGtyajd2ZnNOWnhGcHE4cmxYMzY1RlRxYzZGakhEU3c4cE94MmlKYjVPUDhyWXl2N0otYUlYZWE5eWQwRjBRWFQtQnFuS0NZb2RMNkRZZXpVbG1DT0tHSkFxNnh1dHEtd2s0OVhta3c4MWZUMmxvQlJRTDBvbFZNb055ekNDdjlCOHRMNHV0Yk9Ja0hRMWNPdWRDV2tIQmdCTjktYU4zb3RKVTYyWjdITjRXZdIBzgFBVV95cUxNNkMwZUZYM2NfRk1ad2tFMlNsS3Ezdm50a2dqWUxLYm5WeDF4YUxfaFBRYXM3bmxFMXZWMWloVGZRZi1LRFFHdWd0MktsWW9rc1JJSHAzOS1vVjFrN2xfQTVTWDdhdTlsQlZMNE1DZzhlTHNRWWZVdlRCc1g2N0d6SDJleUxVSjNETDJ6WWlheVdyelhoWnFrYUVHRURieEU4MHNYc0JPR1VTRzlqOUxlM096SjMtV2FHTG1oZ3ZYOXFmVlRLa2o0RkRBc0dpUQ?oc=5",
+   "source": {
+    "name": "Google News - Rare Earth Elements",
+    "domain": "simplywall.st",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-05-06",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:07:38+00:00",
+   "score": 6,
+   "body": {
+    "status": "full",
+    "chars": 8956,
+    "sha256": "33b3a48b1b5ab3276a8617a3771474b16b3df6f1a1e2fb621da8e48566a57cc0",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-05-06",
+    "quotes": [
+     "Operations: The company currently generates about US$1.6 million in revenue from a domestic rare earth element magnet production supply chain in the United States.",
+     "Operations: Lynas currently generates about A$715.9 million in revenue from its Rare Earth Operations segment."
+    ],
+    "final_url": "https://simplywall.st/stocks/us/materials/nasdaq-usar/usa-rare-earth/news/rare-earth-metal-stocks-to-watch-as-supply-chains-shift",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "simplywall.st가 희토류 채굴 기업 스크리너 결과로 관심 종목 3개를 소개했음",
+     "USA Rare Earth는 Round Top 프로젝트와 Stillwater 자석 공장을 보유하며 시가총액 US$5.6b, 매출 US$1.6 million임",
+     "Sumitomo Metal Mining(시가총액 ¥2,578.9b)과 Lynas Rare Earths(ASX:LYC)도 포함됐으며 후속 일정은 확인 불가임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "US$1.6 million",
+     "US$5.6b",
+     "¥2,578.9b"
+    ],
+    "quotes": [
+     "Operations: The company currently generates about US$1.6 million in revenue from a domestic rare earth element magnet production supply chain in the United States.",
+     "Operations: Lynas currently generates about A$715.9 million in revenue from its Rare Earth Operations segment."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "투자종목",
+     "자석공급망",
+     "미국",
+     "일본"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "mine to magnets",
+      "meaning": "채굴에서 자석 생산까지 잇는 일관 공급망"
+     },
+     {
+      "phrase": "offtake agreement",
+      "meaning": "생산물 장기 구매 계약"
+     },
+     {
+      "phrase": "pre revenue",
+      "meaning": "본격적인 매출이 발생하기 전 단계"
+     },
+     {
+      "phrase": "pure play",
+      "meaning": "특정 사업에만 집중한 기업"
+     }
+    ],
+    "implication": "USA Rare Earth의 Serra Verde 인수 계획과 15 year offtake agreement는 중국 외 희토류 공급망 구축 움직임이 투자 대상으로 부각됨을 보여줌."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:07:42+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "44196ab682",
+     "v1_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSWpFR0RwQmdKd09JSnZkZ05aeGx0UGtyajd2ZnNOWnhGcHE4cmxYMzY1RlRxYzZGakhEU3c4cE94MmlKYjVPUDhyWXl2N0otYUlYZWE5eWQwRjBRWFQtQnFuS0NZb2RMNkRZZXpVbG1DT0tHSkFxNnh1dHEtd2s0OVhta3c4MWZUMmxvQlJRTDBvbFZNb055ekNDdjlCOHRMNHV0Yk9Ja0hRMWNPdWRDV2tIQmdCTjktYU4zb3RKVTYyWjdITjRXZdIBzgFBVV95cUxNNkMwZUZYM2NfRk1ad2tFMlNsS3Ezdm50a2dqWUxLYm5WeDF4YUxfaFBRYXM3bmxFMXZWMWloVGZRZi1LRFFHdWd0MktsWW9rc1JJSHAzOS1vVjFrN2xfQTVTWDdhdTlsQlZMNE1DZzhlTHNRWWZVdlRCc1g2N0d6SDJleUxVSjNETDJ6WWlheVdyelhoWnFrYUVHRURieEU4MHNYc0JPR1VTRzlqOUxlM096SjMtV2FHTG1oZ3ZYOXFmVlRLa2o0RkRBc0dpUQ?oc=5",
+     "summary_raw": "Rare Earth Metal Stocks To Watch As Supply Chains Shift&nbsp;&nbsp;simplywall.st"
+    }
+   },
+   "v1": {
+    "korean_summary": "희토류 금속 공급망의 지정학적 변화에 따라 주요 광물 자원 보유 기업들의 주식이 재평가되고 있는 상황으로 확인되었습니다. 글로벌 경제의 에너지 전환과 첨단기술 산업 확대에 따라 희토류 원소의 전략적 중요성이 높아지고 있으며, 이에 대응하기 위한 공급망 다원화 전략이 활발히 추진되고 있습니다. 투자자들은 공급망 재편 과정에서 새롭게 부상하는 희토류 생산 기업들의 장기 성장 가능성을 주목할 필요가 있을 것으로 판단됩니다.",
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "공급망 재편",
+     "투자시장"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Supply chain shift",
+      "meaning": "공급망의 지정학적·경제적 재편"
+     },
+     {
+      "phrase": "Critical minerals portfolio",
+      "meaning": "중요광물 포트폴리오/자산"
+     },
+     {
+      "phrase": "Rare earth element stocks to watch",
+      "meaning": "주목할 희토류 원소 관련 상장사"
+     },
+     {
+      "phrase": "Diversification of supply sources",
+      "meaning": "공급원의 다원화"
+     },
+     {
+      "phrase": "Strategic minerals outlook",
+      "meaning": "전략 광물의 시장 전망"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "44196ab682",
+    "title": "Rare Earth Metal Stocks To Watch As Supply Chains Shift - simplywall.st",
+    "url": "https://simplywall.st/stocks/us/materials/nasdaq-usar/usa-rare-earth/news/rare-earth-metal-stocks-to-watch-as-supply-chains-shift",
+    "source": "Google News - Rare Earth Elements",
+    "tier_weight": 1,
+    "score": 6,
+    "published": "2026-05-06",
+    "korean_summary": [
+     "simplywall.st가 희토류 채굴 기업 스크리너 결과로 관심 종목 3개를 소개했음",
+     "USA Rare Earth는 Round Top 프로젝트와 Stillwater 자석 공장을 보유하며 시가총액 US$5.6b, 매출 US$1.6 million임",
+     "Sumitomo Metal Mining(시가총액 ¥2,578.9b)과 Lynas Rare Earths(ASX:LYC)도 포함됐으며 후속 일정은 확인 불가임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "투자종목",
+     "자석공급망",
+     "미국",
+     "일본"
+    ],
+    "ai_processed": true,
+    "card_id": "c38e4ae3db86",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "US$1.6 million",
+     "US$5.6b",
+     "¥2,578.9b"
+    ],
+    "quotes": [
+     "Operations: The company currently generates about US$1.6 million in revenue from a domestic rare earth element magnet production supply chain in the United States.",
+     "Operations: Lynas currently generates about A$715.9 million in revenue from its Rare Earth Operations segment."
+    ],
+    "summary_raw": "Rare Earth Metal Stocks To Watch As Supply Chains Shift&nbsp;&nbsp;simplywall.st",
+    "english_phrases": [
+     {
+      "phrase": "mine to magnets",
+      "meaning": "채굴에서 자석 생산까지 잇는 일관 공급망"
+     },
+     {
+      "phrase": "offtake agreement",
+      "meaning": "생산물 장기 구매 계약"
+     },
+     {
+      "phrase": "pre revenue",
+      "meaning": "본격적인 매출이 발생하기 전 단계"
+     },
+     {
+      "phrase": "pure play",
+      "meaning": "특정 사업에만 집중한 기업"
+     }
+    ],
+    "implication": "USA Rare Earth의 Serra Verde 인수 계획과 15 year offtake agreement는 중국 외 희토류 공급망 구축 움직임이 투자 대상으로 부각됨을 보여줌.",
+    "trial": true
+   },
+   "trial": true
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "6a315180ffdf",
+   "title": "USA Rare Earth's $2.8B power play to secure the supply chain - MSN",
+   "title_norm": "usa rare earth s 2 8b power play to secure the supply chain",
+   "url": "https://msn.com/en-us/money/topstocks/usa-rare-earth-s-2-8b-power-play-to-secure-the-supply-chain/ar-AA21A7qS",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPNEFORC00cGpyWUlxM1lRRWJ5NDZEMmE1Mm1PY0VpUVBkXzJ5U3lJZUROcTVkU050WkpERFFLNUoxZzBib0tlZXJydElmdlJNNEl0dVZfaHdjNklTRGxsSmx2a180bW84UFVobkl1Y3JxQUx1RW5TZzNydjR6U05MSFN3eUhvTDkzUFo0OWM5ZG1obkF2d2pCd0o1YnFqeXFQOC1aWHZiZnBldF91UzFYVzNUZFFvNWFJOFNPdTV0ZGFSbEU4a1RFQ3h0V0kzLThiUkw3Zkpn?oc=5",
+   "source": {
+    "name": "Google News - Rare Earth Elements",
+    "domain": "msn.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-05-06",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:07:42+00:00",
+   "score": 6,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.msn.com/en-us/money/topstocks/usa-rare-earth-s-2-8b-power-play-to-secure-the-supply-chain/ar-AA21A7qS?ocid=finance-verthp-feeds",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "USA Rare Earth의 공급망 확보를 위한 $2.8B 승부수임"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "공급망",
+     "USA Rare Earth"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "power play",
+      "meaning": "승부수, 전략적 행보"
+     },
+     {
+      "phrase": "secure the supply chain",
+      "meaning": "공급망을 확보하다"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:07:47+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "55f5c0e9d7",
+     "v1_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPNEFORC00cGpyWUlxM1lRRWJ5NDZEMmE1Mm1PY0VpUVBkXzJ5U3lJZUROcTVkU050WkpERFFLNUoxZzBib0tlZXJydElmdlJNNEl0dVZfaHdjNklTRGxsSmx2a180bW84UFVobkl1Y3JxQUx1RW5TZzNydjR6U05MSFN3eUhvTDkzUFo0OWM5ZG1obkF2d2pCd0o1YnFqeXFQOC1aWHZiZnBldF91UzFYVzNUZFFvNWFJOFNPdTV0ZGFSbEU4a1RFQ3h0V0kzLThiUkw3Zkpn?oc=5",
+     "summary_raw": "USA Rare Earth's $2.8B power play to secure the supply chain&nbsp;&nbsp;MSN"
+    }
+   },
+   "v1": {
+    "korean_summary": "USA Rare Earth가 공급망 확보를 위해 28억 달러 규모의 전략적 투자를 추진 중인 것으로 확인되었습니다. 본 사업은 미국 내 희토류 생산 기반 구축과 중국 의존도 감소를 목표로 하고 있습니다. 이러한 움직임은 북미 지역 중요광물 자주성 확보의 중요한 전환점이 될 전망입니다.",
+    "category": "supply_chain",
+    "tags": [
+     "희토류(REE)",
+     "공급망 안정화",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "secure the supply chain",
+      "meaning": "공급망 확보/안정화"
+     },
+     {
+      "phrase": "critical minerals independence",
+      "meaning": "중요광물 자주성/자립도"
+     },
+     {
+      "phrase": "domestic rare earth production capacity",
+      "meaning": "국내 희토류 생산 역량"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "55f5c0e9d7",
+    "title": "USA Rare Earth's $2.8B power play to secure the supply chain - MSN",
+    "url": "https://msn.com/en-us/money/topstocks/usa-rare-earth-s-2-8b-power-play-to-secure-the-supply-chain/ar-AA21A7qS",
+    "source": "Google News - Rare Earth Elements",
+    "tier_weight": 1,
+    "score": 6,
+    "published": "2026-05-06",
+    "korean_summary": [
+     "[제목 기반] USA Rare Earth의 공급망 확보를 위한 $2.8B 승부수임"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "공급망",
+     "USA Rare Earth"
+    ],
+    "ai_processed": true,
+    "card_id": "6a315180ffdf",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "USA Rare Earth's $2.8B power play to secure the supply chain&nbsp;&nbsp;MSN",
+    "english_phrases": [
+     {
+      "phrase": "power play",
+      "meaning": "승부수, 전략적 행보"
+     },
+     {
+      "phrase": "secure the supply chain",
+      "meaning": "공급망을 확보하다"
+     }
+    ],
+    "implication": "",
+    "trial": true
+   },
+   "trial": true
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "d6668f122eb8",
+   "title": "OECD sees Türkiye as key hub for diversifying critical minerals supply chains - Anadolu Ajansı",
+   "title_norm": "oecd sees türkiye as key hub for diversifying critical minerals supply chains",
+   "url": "https://aa.com.tr/en/energy/general/oecd-sees-turkiye-as-key-hub-for-diversifying-critical-minerals-supply-chains/56854",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYkF3WDJLajY0a2FDWEVPTF81UEhlWTJ1SWYwa20tMjNlZ3U1aXNJWnlFSEZFZ2U5TGZQdkpicW43b3VSMXZ1V0xDR0dUNTl2azgxRnAtT1AwaEZjVWhqNEJUUG1SbUpDaDFHcWNpQjBMaDZKTFhhNEU2ckZqcS1qRGlYbEJQcm84NDJiYUdaVERuVnlZMXNSNkpiV2thUlNsQXpUd1NuU2txZFI3bEd2cUhzZTNJNmZzMHg5bFo0aUw?oc=5",
+   "source": {
+    "name": "Google News - IRA CRMA Policy",
+    "domain": "aa.com.tr",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-05-06",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:07:50+00:00",
+   "score": 6,
+   "body": {
+    "status": "full",
+    "chars": 4104,
+    "sha256": "ba8c81cb18796da8e97b1b0b6da7a1cba768ade6336ba758d10fbb8c04ad0c55",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-05-06",
+    "quotes": [
+     "Many critical mineral markets are highly concentrated, with some cases where a single country accounts for up to 90% of global supply, either in extraction or processing.",
+     "\"So this is one of the countries where more investment could take place.\""
+    ],
+    "final_url": "https://www.aa.com.tr/en/energy/general/oecd-sees-turkiye-as-key-hub-for-diversifying-critical-minerals-supply-chains/56854",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "OECD 고위 관계자가 튀르키예를 핵심광물 공급망 다변화의 주요 거점으로 평가했음",
+     "OECD 무역농업국 Marion Jansen 국장이 이스탄불 OECD 핵심광물 포럼에서 아나돌루에 밝혔음",
+     "붕산염 공급국이자 희토류 매장량 보유국이며 2022년 에스키셰히르에서 세계 2위 규모 희토류 매장지를 발견했음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "up to 90%",
+     "nearly fivefold",
+     "between 2009 and 2024"
+    ],
+    "quotes": [
+     "Many critical mineral markets are highly concentrated, with some cases where a single country accounts for up to 90% of global supply, either in extraction or processing.",
+     "\"So this is one of the countries where more investment could take place.\""
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "튀르키예",
+     "OECD",
+     "희토류",
+     "수출제한"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "export credit arrangement",
+      "meaning": "수출신용 협정"
+     },
+     {
+      "phrase": "diversification",
+      "meaning": "다변화"
+     },
+     {
+      "phrase": "export restrictions",
+      "meaning": "수출 제한"
+     },
+     {
+      "phrase": "price formation",
+      "meaning": "가격 형성"
+     }
+    ],
+    "implication": "일부 광물은 한 나라가 공급의 최대 90%를 차지하고 수출 제한도 크게 늘어, 채굴·가공 금융 확대와 공급국 다변화 압력이 커지고 있음."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:07:55+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "d019a34cae",
+     "v1_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYkF3WDJLajY0a2FDWEVPTF81UEhlWTJ1SWYwa20tMjNlZ3U1aXNJWnlFSEZFZ2U5TGZQdkpicW43b3VSMXZ1V0xDR0dUNTl2azgxRnAtT1AwaEZjVWhqNEJUUG1SbUpDaDFHcWNpQjBMaDZKTFhhNEU2ckZqcS1qRGlYbEJQcm84NDJiYUdaVERuVnlZMXNSNkpiV2thUlNsQXpUd1NuU2txZFI3bEd2cUhzZTNJNmZzMHg5bFo0aUw?oc=5",
+     "summary_raw": "OECD sees Türkiye as key hub for diversifying critical minerals supply chains&nbsp;&nbsp;Anadolu Ajansı"
+    }
+   },
+   "v1": {
+    "korean_summary": "OECD는 터키를 중요광물 공급망 다변화의 핵심 허브로 평가하고 있으며, 지정학적 위험 분산과 전략적 자원 확보 측면에서 중요한 위치에 있음을 강조하였습니다. 이는 주요국들의 중국 의존도 감소 전략과 맞물려 터키의 중요광물 산업에 대한 투자 및 협력 확대 기회를 창출할 것으로 전망됩니다. 우리나라도 동맹국의 공급망 안정화에 참여하면서 자체 자원 확보 전략을 동시에 추진할 필요가 있습니다.",
+    "category": "supply_chain",
+    "tags": [
+     "중요광물",
+     "공급망 다변화",
+     "터키"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals supply chain diversification",
+      "meaning": "중요광물 공급망의 다변화"
+     },
+     {
+      "phrase": "strategic hub for resource security",
+      "meaning": "자원 안보를 위한 전략적 거점"
+     },
+     {
+      "phrase": "geopolitical risk mitigation in mineral sourcing",
+      "meaning": "광물 공급원의 지정학적 위험 완화"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "d019a34cae",
+    "title": "OECD sees Türkiye as key hub for diversifying critical minerals supply chains - Anadolu Ajansı",
+    "url": "https://aa.com.tr/en/energy/general/oecd-sees-turkiye-as-key-hub-for-diversifying-critical-minerals-supply-chains/56854",
+    "source": "Google News - IRA CRMA Policy",
+    "tier_weight": 1,
+    "score": 6,
+    "published": "2026-05-06",
+    "korean_summary": [
+     "OECD 고위 관계자가 튀르키예를 핵심광물 공급망 다변화의 주요 거점으로 평가했음",
+     "OECD 무역농업국 Marion Jansen 국장이 이스탄불 OECD 핵심광물 포럼에서 아나돌루에 밝혔음",
+     "붕산염 공급국이자 희토류 매장량 보유국이며 2022년 에스키셰히르에서 세계 2위 규모 희토류 매장지를 발견했음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "튀르키예",
+     "OECD",
+     "희토류",
+     "수출제한"
+    ],
+    "ai_processed": true,
+    "card_id": "d6668f122eb8",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "up to 90%",
+     "nearly fivefold",
+     "between 2009 and 2024"
+    ],
+    "quotes": [
+     "Many critical mineral markets are highly concentrated, with some cases where a single country accounts for up to 90% of global supply, either in extraction or processing.",
+     "\"So this is one of the countries where more investment could take place.\""
+    ],
+    "summary_raw": "OECD sees Türkiye as key hub for diversifying critical minerals supply chains&nbsp;&nbsp;Anadolu Ajansı",
+    "english_phrases": [
+     {
+      "phrase": "export credit arrangement",
+      "meaning": "수출신용 협정"
+     },
+     {
+      "phrase": "diversification",
+      "meaning": "다변화"
+     },
+     {
+      "phrase": "export restrictions",
+      "meaning": "수출 제한"
+     },
+     {
+      "phrase": "price formation",
+      "meaning": "가격 형성"
+     }
+    ],
+    "implication": "일부 광물은 한 나라가 공급의 최대 90%를 차지하고 수출 제한도 크게 늘어, 채굴·가공 금융 확대와 공급국 다변화 압력이 커지고 있음.",
+    "trial": true
+   },
+   "trial": true
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "a580b9a15bf2",
+   "title": "Turbulent damping of fast tidal oscillations by three-dimensional Rayleigh-B\\'enard convection with a radiating free surface",
+   "title_norm": "turbulent damping of fast tidal oscillations by three dimensional rayleigh b enard convection with a radiating free surface",
+   "url": "https://arxiv.org/abs/2605.05108",
+   "gnews_url": null,
+   "source": {
+    "name": "arXiv Geophysics",
+    "domain": "arxiv.org",
+    "tier": null,
+    "tier_weight": 4,
+    "language": null
+   },
+   "published": "2026-05-07",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:07:55+00:00",
+   "score": 6,
+   "body": {
+    "status": "full",
+    "chars": 2578,
+    "sha256": "c4a8a001354aceea349d63f3338a0ca7eb6e178a381ebd406b44b11c3f547235",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-05-06",
+    "quotes": [],
+    "final_url": "https://arxiv.org/abs/2605.05108",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "복사 방사 자유 상부 표면을 가진 3차원 레일리-베나르 대류에 조석 진동 강제를 가한 Dedalus 시뮬레이션을 제시했음",
+     "강제 주기는 대류 시간 척도 t_conv보다 10-100배 짧으며, 진동이 평균 흐름에 D_R ~ u'^2 t_conv^-1 비율로 운동에너지를 전달했음",
+     "이 결과는 Terquem (2021)이 제안한 빠른 조석 소산 공식을 검증하며, 강체 상부 경계는 상관관계를 인위적으로 바꾼다고 밝혔음"
+    ],
+    "basis": "body",
+    "key_figures": [],
+    "quotes": [],
+    "category": "research",
+    "tags": [
+     "조석 소산",
+     "레일리-베나르 대류",
+     "Dedalus",
+     "천체물리",
+     "수치 시뮬레이션"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Rayleigh-Bénard convection",
+      "meaning": "아래에서 가열되는 유체층에서 일어나는 열대류"
+     },
+     {
+      "phrase": "Reynolds decomposition",
+      "meaning": "속도장을 평균 성분과 변동 성분으로 나누는 방법"
+     },
+     {
+      "phrase": "equilibrium-tide framework",
+      "meaning": "평형 조석 이론 틀"
+     },
+     {
+      "phrase": "free surface",
+      "meaning": "자유 표면"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 2578,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:07:59+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "802f33d551",
+     "v1_url": "https://arxiv.org/abs/2605.05108",
+     "summary_raw": "arXiv:2605.05108v1 Announce Type: cross \nAbstract: We present three-dimensional Dedalus simulations of Rayleigh-B\\'enard convection with a blackbody-radiating free upper surface, subject to a low-amplitude oscillatory forcing that mimics tidal perturbations in convective envelopes of stars and planets. The forcing period is 10-100 times shorter than the convective timescale, $t_{\\rm conv}$. Using a Reynolds decomposition of the velocity field averaged over one oscillation period, in which the ti"
+    }
+   },
+   "v1": {
+    "korean_summary": "본 연구는 항성 및 행성의 대류층에서 발생하는 조석 섭동을 모사하기 위해 복사 자유표면을 가진 3차원 레일리-베나르 대류를 수치해석으로 분석하였습니다. 대류 시간규모보다 10~100배 짧은 주기의 저진폭 진동 강제에 대한 응답을 검토한 결과, 대류 구조가 빠른 조석 진동을 감쇠시키는 메커니즘을 규명하였습니다. 본 성과는 행성 내부의 열·물질 순환 과정에서 조석력의 영향을 평가하는 데 중요한 기초 자료로 활용될 수 있을 것으로 기대됩니다.",
+    "category": "research",
+    "tags": [
+     "지열에너지",
+     "수치해석/전산지구물리",
+     "행성과학"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Rayleigh-Bénard convection with a blackbody-radiating free surface",
+      "meaning": "흑체 복사를 하는 자유표면을 가진 레일리-베나르 대류"
+     },
+     {
+      "phrase": "turbulent damping of oscillatory forcing",
+      "meaning": "진동 강제에 대한 난류 감쇠"
+     },
+     {
+      "phrase": "Reynolds decomposition of the velocity field",
+      "meaning": "속도장의 레이놀즈 분해"
+     },
+     {
+      "phrase": "convective envelope of stars and planets",
+      "meaning": "항성 및 행성의 대류층"
+     },
+     {
+      "phrase": "tidal perturbations in convective systems",
+      "meaning": "대류 시스템에서의 조석 섭동"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "802f33d551",
+    "title": "Turbulent damping of fast tidal oscillations by three-dimensional Rayleigh-B\\'enard convection with a radiating free surface",
+    "url": "https://arxiv.org/abs/2605.05108",
+    "source": "arXiv Geophysics",
+    "tier_weight": 4,
+    "score": 6,
+    "published": "2026-05-07",
+    "korean_summary": [
+     "복사 방사 자유 상부 표면을 가진 3차원 레일리-베나르 대류에 조석 진동 강제를 가한 Dedalus 시뮬레이션을 제시했음",
+     "강제 주기는 대류 시간 척도 t_conv보다 10-100배 짧으며, 진동이 평균 흐름에 D_R ~ u'^2 t_conv^-1 비율로 운동에너지를 전달했음",
+     "이 결과는 Terquem (2021)이 제안한 빠른 조석 소산 공식을 검증하며, 강체 상부 경계는 상관관계를 인위적으로 바꾼다고 밝혔음"
+    ],
+    "category": "research",
+    "tags": [
+     "조석 소산",
+     "레일리-베나르 대류",
+     "Dedalus",
+     "천체물리",
+     "수치 시뮬레이션"
+    ],
+    "ai_processed": true,
+    "card_id": "a580b9a15bf2",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "arXiv:2605.05108v1 Announce Type: cross \nAbstract: We present three-dimensional Dedalus simulations of Rayleigh-B\\'enard convection with a blackbody-radiating free upper surface, subject to a low-amplitude oscillatory forcing that mimics tidal perturbations in convective envelopes of stars and planets. The forcing period is 10-100 times shorter than the convective timescale, $t_{\\rm conv}$. Using a Reynolds decomposition of the velocity field averaged over one oscillation period, in which the ti",
+    "english_phrases": [
+     {
+      "phrase": "Rayleigh-Bénard convection",
+      "meaning": "아래에서 가열되는 유체층에서 일어나는 열대류"
+     },
+     {
+      "phrase": "Reynolds decomposition",
+      "meaning": "속도장을 평균 성분과 변동 성분으로 나누는 방법"
+     },
+     {
+      "phrase": "equilibrium-tide framework",
+      "meaning": "평형 조석 이론 틀"
+     },
+     {
+      "phrase": "free surface",
+      "meaning": "자유 표면"
+     }
+    ],
+    "implication": "",
+    "trial": true
+   },
+   "trial": true
+  }
+ ],
+ "excluded": [],
+ "v1_file": "week-2026-05-07.json",
+ "v1_metrics": {
+  "articles": 12,
+  "original_link": 2,
+  "body_based": 0,
+  "failed": 0
+ },
+ "trial": true
+}

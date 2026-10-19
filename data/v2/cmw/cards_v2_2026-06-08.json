@@ -1,0 +1,1980 @@
+{
+ "schema_version": "card.v1",
+ "service": "cmw",
+ "week_of": "2026-06-08",
+ "generated_at": "2026-10-19T05:21:42+00:00",
+ "mincore_version": "0.3.6",
+ "model": "claude-sonnet-5-5",
+ "prompt_version": "v2.2",
+ "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+ "stats": {
+  "v1_articles": 12,
+  "cards": 12,
+  "excluded": 0,
+  "body_got": 6,
+  "body_rate": 0.5,
+  "original_link": 12,
+  "reader_proxy_used": 0,
+  "line_len": {
+   "lines": 25,
+   "median": 56,
+   "max": 89,
+   "over60": 9,
+   "over100": 0
+  },
+  "oda_filled": 4,
+  "usage": {
+   "claude-sonnet-5-5": {
+    "calls": 13,
+    "in": 31949,
+    "out": 7230
+   }
+  },
+  "cost_usd": 0.2043,
+  "body_status": {
+   "title_only": 5,
+   "full": 6,
+   "lead_only": 1
+  },
+  "body_source": {
+   "none": 5,
+   "trafilatura": 6,
+   "og_description": 1
+  },
+  "resolve": {
+   "decoder": 12
+  },
+  "fail_reason": {},
+  "basis": {
+   "title": 5,
+   "body": 6,
+   "lead": 1
+  },
+  "retry_reason": {
+   "lines는 3줄이어야 함 (현재 4줄)": 1
+  },
+  "flags": {},
+  "model_used": {
+   "claude-sonnet-5-5": 12
+  }
+ },
+ "total": 12,
+ "cards": [
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "82954489bcee",
+   "title": "India to soon unveil incentives for lithium, nickel processing with around 30 bln rupees outlay, sources say - Reuters",
+   "title_norm": "india to soon unveil incentives for lithium nickel processing with around 30 bln rupees outlay sources say",
+   "url": "https://reuters.com/world/india/india-soon-unveil-incentives-lithium-nickel-processing-with-around-30-bln-rupees-2026-06-04",
+   "gnews_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSzJzdTZMczdsVUF5ZHBLYXFGN3hpUWRITmdRUEVLbktBZTc0WTBibTVCelp4aVNpS2JVNHRLb2JjcVJVUVJxQ2JweXd5d2JnOVI1QTNqMEtyVzk4ZnpoTEtuUE1rTVRVbGFqTHU4QVhXMUJLZm42SUNuT244VHdINk0yNDN5Q1RiZnRnMU02REtRbHA1R0F0YVV0a2FJd0pDZkZnbTUzVm1LbWNxWjNkanBiY3ctdEJYYlp3eUFTdEVTVjFkWmQw?oc=5",
+   "source": {
+    "name": "Reuters - via Google News",
+    "domain": "reuters.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-06-04",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:20:37+00:00",
+   "score": 11,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "skipped",
+    "http_status": null,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": null,
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "인도가 약 30 bln rupees 규모의 리튬·니켈 가공 인센티브를 곧 공개할 예정이라고 소식통들이 밝혔음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "니켈",
+     "가공",
+     "인센티브",
+     "인도"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "outlay",
+      "meaning": "지출 규모, 투입 예산"
+     },
+     {
+      "phrase": "sources say",
+      "meaning": "소식통에 따르면"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:20:42+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "0d04aaed42",
+     "v1_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSzJzdTZMczdsVUF5ZHBLYXFGN3hpUWRITmdRUEVLbktBZTc0WTBibTVCelp4aVNpS2JVNHRLb2JjcVJVUVJxQ2JweXd5d2JnOVI1QTNqMEtyVzk4ZnpoTEtuUE1rTVRVbGFqTHU4QVhXMUJLZm42SUNuT244VHdINk0yNDN5Q1RiZnRnMU02REtRbHA1R0F0YVV0a2FJd0pDZkZnbTUzVm1LbWNxWjNkanBiY3ctdEJYYlp3eUFTdEVTVjFkWmQw?oc=5",
+     "summary_raw": "India to soon unveil incentives for lithium, nickel processing with around 30 bln rupees outlay, sources say&nbsp;&nbsp;Reuters"
+    }
+   },
+   "v1": {
+    "korean_summary": "인도가 리튬과 니켈 처리 산업 육성을 위해 약 300억 루피(약 3,800억 원) 규모의 인센티브 정책을 곧 공개할 예정인 것으로 확인되었음. 이는 인도의 핵심광물 자급률 향상 및 배터리 밸류체인 국내화 전략의 일환으로 평가됨. 해당 정책이 시행될 경우 동남아 지역의 핵심광물 처리 기지 구축 경쟁이 심화될 것으로 전망됨.",
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "니켈",
+     "인도",
+     "정책지원",
+     "정제산업",
+     "핵심광물 전략"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "incentive scheme for critical minerals processing",
+      "meaning": "핵심광물 처리 산업 활성화를 위한 인센티브 정책"
+     },
+     {
+      "phrase": "downstream value chain development",
+      "meaning": "광물 처리·정제 등 후공정 밸류체인 발전"
+     },
+     {
+      "phrase": "domestic refining capacity expansion",
+      "meaning": "국내 정제 능력 확대"
+     },
+     {
+      "phrase": "battery supply chain localization",
+      "meaning": "배터리 공급망의 현지화·자급화"
+     },
+     {
+      "phrase": "regional mineral processing hub",
+      "meaning": "지역 광물 처리 허브 구축"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "0d04aaed42",
+    "title": "India to soon unveil incentives for lithium, nickel processing with around 30 bln rupees outlay, sources say - Reuters",
+    "url": "https://reuters.com/world/india/india-soon-unveil-incentives-lithium-nickel-processing-with-around-30-bln-rupees-2026-06-04",
+    "source": "Reuters - via Google News",
+    "tier_weight": 3,
+    "score": 11,
+    "published": "2026-06-04",
+    "korean_summary": [
+     "[제목 기반] 인도가 약 30 bln rupees 규모의 리튬·니켈 가공 인센티브를 곧 공개할 예정이라고 소식통들이 밝혔음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "니켈",
+     "가공",
+     "인센티브",
+     "인도"
+    ],
+    "ai_processed": true,
+    "card_id": "82954489bcee",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "India to soon unveil incentives for lithium, nickel processing with around 30 bln rupees outlay, sources say&nbsp;&nbsp;Reuters",
+    "english_phrases": [
+     {
+      "phrase": "outlay",
+      "meaning": "지출 규모, 투입 예산"
+     },
+     {
+      "phrase": "sources say",
+      "meaning": "소식통에 따르면"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "166473d7acd3",
+   "title": "Resource Nationalism Reshapes Critical Minerals Landscape for Lithium and Rare Earth Investors - IndexBox",
+   "title_norm": "resource nationalism reshapes critical minerals landscape for lithium and rare earth investors",
+   "url": "https://indexbox.io/blog/resource-nationalism-reshapes-critical-minerals-landscape-for-lithium-and-rare-earth-investors",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNY0JFWEllbkJZYldvZzFOMkIydjlJY0JzejVacmlxY3VfelZhN2p3RS1NNXdKNEJwQlk1TTVUbHE2dm5mLTBBNHBlS1p1aXc0OG5BVXNZNXd5LXJ4OXh0OWtqaU5uWEg0MVNVTnZUUl82VmZoQngzbDI2bTNlWlJhU2d2WERidC1jZjBZNDNiM2dNT25rYy1YbnF0UnFPcUlFWkNSOFpNbi1rOWxNWVA2MWJKX1I1NnZVLTlITUwyekFldw?oc=5",
+   "source": {
+    "name": "Google News - Lithium Discovery",
+    "domain": "indexbox.io",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-06-04",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:20:43+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 26560,
+    "sha256": "2695be4e9cd8fe1339eb0c02ade89a0dfab03c411a0104c0afe220fea3b83853",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-06-04",
+    "quotes": [
+     "Resource Nationalism Reshapes Critical Minerals Landscape for Lithium and Rare Earth Investors",
+     "This evolution is recasting critical minerals from a standard mining enterprise into a geopolitical struggle, as observed by international law firm Gibson Dunn."
+    ],
+    "final_url": "https://www.indexbox.io/blog/resource-nationalism-reshapes-critical-minerals-landscape-for-lithium-and-rare-earth-investors/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "국제 로펌 Gibson Dunn이 자원민족주의가 리튬·희토류 투자 환경을 바꾸고 있다고 밝혔음",
+     "중국은 2025년 10월 희토류 수출통제를 확대했고 한 달 뒤 이를 유예했음",
+     "수출 제한·생산 쿼터가 투자조약 분쟁과 간접수용 주장으로 이어질 수 있다고 봤음"
+    ],
+    "basis": "body",
+    "key_figures": [],
+    "quotes": [
+     "Resource Nationalism Reshapes Critical Minerals Landscape for Lithium and Rare Earth Investors",
+     "This evolution is recasting critical minerals from a standard mining enterprise into a geopolitical struggle, as observed by international law firm Gibson Dunn."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "자원민족주의",
+     "리튬",
+     "희토류",
+     "수출통제",
+     "투자분쟁"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "resource nationalism",
+      "meaning": "자원민족주의"
+     },
+     {
+      "phrase": "force majeure",
+      "meaning": "불가항력"
+     },
+     {
+      "phrase": "stabilization clauses",
+      "meaning": "투자자를 규제 변경으로부터 보호하는 안정화 조항"
+     },
+     {
+      "phrase": "indirect expropriation",
+      "meaning": "간접수용"
+     }
+    ],
+    "implication": "수출제한·생산 쿼터·가공 의무 같은 조치가 늘면서 리튬·희토류 프로젝트의 경제성이 흔들리고 투자 분쟁 위험이 커지고 있음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:20:56+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 4줄)"
+    ],
+    "retry_tails": [
+     ": \"stabilization clauses\", \"meaning\": \"투자자를 규제 변경으로부터 보호하는 안정화 조항\"},\n    {\"phrase\": \"indirect expropriation\", \"meaning\": \"간접수용\"}\n  ],\n  \"implication\": \"해당 없음\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "8672b25de4",
+     "v1_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNY0JFWEllbkJZYldvZzFOMkIydjlJY0JzejVacmlxY3VfelZhN2p3RS1NNXdKNEJwQlk1TTVUbHE2dm5mLTBBNHBlS1p1aXc0OG5BVXNZNXd5LXJ4OXh0OWtqaU5uWEg0MVNVTnZUUl82VmZoQngzbDI2bTNlWlJhU2d2WERidC1jZjBZNDNiM2dNT25rYy1YbnF0UnFPcUlFWkNSOFpNbi1rOWxNWVA2MWJKX1I1NnZVLTlITUwyekFldw?oc=5",
+     "summary_raw": "Resource Nationalism Reshapes Critical Minerals Landscape for Lithium and Rare Earth Investors&nbsp;&nbsp;IndexBox"
+    }
+   },
+   "v1": {
+    "korean_summary": "자원민족주의(Resource Nationalism) 정책 강화로 인해 리튬 및 희토류 채굴·투자 환경이 급변하고 있으며, 특히 주요 핵심광물 생산국들의 규제 강화가 글로벌 공급망 재편을 촉발하고 있음이 확인되었습니다. 이는 향후 핵심광물 확보 전략에서 지정학적 리스크 관리와 국내 자원 개발의 중요성을 더욱 부각시킬 전망입니다. 한국 기업 및 자원개발 부문의 전략적 대응이 필요할 것으로 예상됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "희토류",
+     "자원민족주의",
+     "공급망 재편"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Resource Nationalism",
+      "meaning": "자원 민족주의 - 정부가 국내 광물 자원의 소유권과 통제권을 강화하는 정책"
+     },
+     {
+      "phrase": "Critical Minerals Landscape",
+      "meaning": "핵심광물 시장 환경 및 공급 구도"
+     },
+     {
+      "phrase": "Supply Chain Resilience",
+      "meaning": "공급망 회복력 - 지정학적 리스크에 대응하는 공급 안정성"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "8672b25de4",
+    "title": "Resource Nationalism Reshapes Critical Minerals Landscape for Lithium and Rare Earth Investors - IndexBox",
+    "url": "https://indexbox.io/blog/resource-nationalism-reshapes-critical-minerals-landscape-for-lithium-and-rare-earth-investors",
+    "source": "Google News - Lithium Discovery",
+    "tier_weight": 1,
+    "score": 9,
+    "published": "2026-06-04",
+    "korean_summary": [
+     "국제 로펌 Gibson Dunn이 자원민족주의가 리튬·희토류 투자 환경을 바꾸고 있다고 밝혔음",
+     "중국은 2025년 10월 희토류 수출통제를 확대했고 한 달 뒤 이를 유예했음",
+     "수출 제한·생산 쿼터가 투자조약 분쟁과 간접수용 주장으로 이어질 수 있다고 봤음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "자원민족주의",
+     "리튬",
+     "희토류",
+     "수출통제",
+     "투자분쟁"
+    ],
+    "ai_processed": true,
+    "card_id": "166473d7acd3",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [],
+    "quotes": [
+     "Resource Nationalism Reshapes Critical Minerals Landscape for Lithium and Rare Earth Investors",
+     "This evolution is recasting critical minerals from a standard mining enterprise into a geopolitical struggle, as observed by international law firm Gibson Dunn."
+    ],
+    "summary_raw": "Resource Nationalism Reshapes Critical Minerals Landscape for Lithium and Rare Earth Investors&nbsp;&nbsp;IndexBox",
+    "english_phrases": [
+     {
+      "phrase": "resource nationalism",
+      "meaning": "자원민족주의"
+     },
+     {
+      "phrase": "force majeure",
+      "meaning": "불가항력"
+     },
+     {
+      "phrase": "stabilization clauses",
+      "meaning": "투자자를 규제 변경으로부터 보호하는 안정화 조항"
+     },
+     {
+      "phrase": "indirect expropriation",
+      "meaning": "간접수용"
+     }
+    ],
+    "implication": "수출제한·생산 쿼터·가공 의무 같은 조치가 늘면서 리튬·희토류 프로젝트의 경제성이 흔들리고 투자 분쟁 위험이 커지고 있음",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "bf6b6565662e",
+   "title": "Three major proxy firms side with Pacira in boardroom showdown - Stock Titan",
+   "title_norm": "three major proxy firms side with pacira in boardroom showdown",
+   "url": "https://stocktitan.net/news/PCRX/pacira-bio-sciences-reminds-stockholders-to-vote-the-blue-proxy-card-bf5k6i2licxc.html",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQ3Q1SGg2V0NsQ2FfTXFFd0FYUXlsUUlzQ3BqX0o5U2FDZ3JaaHpMcHYzT25TdlhUNzJTSi1BaVFOVE5jVS1BNnNEbVdGTEotd25NdmtCNnJKUHZmM194dU9yckR6ZUtURUhPdWJQTUROT3dNOGFVWHdLUzVmTDlaclNmaE1fRl94TkZxb0pZeTdHX3pyMEEyMmRETUgtM1h0VlBmNHZlUWpxU1poaUZ4RDFYNkwycTl6OUt4T0VxVWo?oc=5",
+   "source": {
+    "name": "Google News - IRA CRMA Policy",
+    "domain": "stocktitan.net",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-06-04",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:20:57+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 20109,
+    "sha256": "a726c1f8e6f033244c58bc0d19e0dd88c53ddd51454c838aa930bdf1194c23a1",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-06-04",
+    "quotes": [
+     "- Q1 2026 EXPAREL revenue $143.3M, up 5% year-over-year",
+     "- Q1 2026 ZILRETTA revenue $26.8M, up 15% year-over-year"
+    ],
+    "final_url": "https://www.stocktitan.net/news/PCRX/pacira-bio-sciences-reminds-stockholders-to-vote-the-blue-proxy-card-bf5k6i2licxc.html",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Pacira BioSciences가 6월 9일 주총을 앞두고 이사 후보 3명에 대한 BLUE 위임장 찬성 투표를 촉구했음",
+     "ISS, Glass Lewis, Egan-Jones 등 3개 의결권 자문사가 Pacira 후보진 지지를 권고했음",
+     "회사는 DOMA 후보가 1명이라도 선출되면 성장 모멘텀이 훼손될 수 있다고 주장했음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "$143.3M",
+     "$26.8M",
+     "$6.2M"
+    ],
+    "quotes": [
+     "- Q1 2026 EXPAREL revenue $143.3M, up 5% year-over-year",
+     "- Q1 2026 ZILRETTA revenue $26.8M, up 15% year-over-year"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "위임장 대결",
+     "Pacira",
+     "DOMA",
+     "주주총회",
+     "의결권 자문사"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "BLUE proxy card",
+      "meaning": "Pacira 측이 주주에게 투표를 요청한 파란색 위임장 카드"
+     },
+     {
+      "phrase": "5x30 strategy",
+      "meaning": "Pacira가 내세우는 성장 전략의 명칭"
+     },
+     {
+      "phrase": "proxy advisory firms",
+      "meaning": "주주총회 안건에 대한 의결권 행사 의견을 제시하는 자문 업체"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:21:06+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "2e0eb4cd9f",
+     "v1_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQ3Q1SGg2V0NsQ2FfTXFFd0FYUXlsUUlzQ3BqX0o5U2FDZ3JaaHpMcHYzT25TdlhUNzJTSi1BaVFOVE5jVS1BNnNEbVdGTEotd25NdmtCNnJKUHZmM194dU9yckR6ZUtURUhPdWJQTUROT3dNOGFVWHdLUzVmTDlaclNmaE1fRl94TkZxb0pZeTdHX3pyMEEyMmRETUgtM1h0VlBmNHZlUWpxU1poaUZ4RDFYNkwycTl6OUt4T0VxVWo?oc=5",
+     "summary_raw": "Three major proxy firms side with Pacira in boardroom showdown&nbsp;&nbsp;Stock Titan"
+    }
+   },
+   "v1": {
+    "korean_summary": "Pacira를 둘러싼 이사회 경영권 분쟁에서 3대 주요 의결권 자문회사들이 Pacira 측에 지지를 표명함으로써 기업 지배구조 투표가 향후 핵심광물 관련 산업 정책에 미칠 영향이 주목되고 있습니다. 이는 핵심광물 확보 전략이 단순한 자원 외교를 넘어 미국 기업의 지배구조 및 투자 결정에 까지 영향을 미치는 복합적 구조임을 시사합니다. 향후 우리나라의 핵심광물 공급망 다변화 정책 수립 시 글로벌 기업 거버넌스 변화를 반영한 접근이 필요할 것으로 판단됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "미국 정책",
+     "기업지배구조",
+     "공급망 안보"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "proxy firms' recommendation",
+      "meaning": "의결권 자문회사의 투표 권고"
+     },
+     {
+      "phrase": "boardroom showdown / governance dispute",
+      "meaning": "이사회 경영권 분쟁 / 기업 지배구조 갈등"
+     },
+     {
+      "phrase": "critical minerals supply chain governance",
+      "meaning": "핵심광물 공급망 관리체계"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "2e0eb4cd9f",
+    "title": "Three major proxy firms side with Pacira in boardroom showdown - Stock Titan",
+    "url": "https://stocktitan.net/news/PCRX/pacira-bio-sciences-reminds-stockholders-to-vote-the-blue-proxy-card-bf5k6i2licxc.html",
+    "source": "Google News - IRA CRMA Policy",
+    "tier_weight": 1,
+    "score": 9,
+    "published": "2026-06-04",
+    "korean_summary": [
+     "Pacira BioSciences가 6월 9일 주총을 앞두고 이사 후보 3명에 대한 BLUE 위임장 찬성 투표를 촉구했음",
+     "ISS, Glass Lewis, Egan-Jones 등 3개 의결권 자문사가 Pacira 후보진 지지를 권고했음",
+     "회사는 DOMA 후보가 1명이라도 선출되면 성장 모멘텀이 훼손될 수 있다고 주장했음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "위임장 대결",
+     "Pacira",
+     "DOMA",
+     "주주총회",
+     "의결권 자문사"
+    ],
+    "ai_processed": true,
+    "card_id": "bf6b6565662e",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "$143.3M",
+     "$26.8M",
+     "$6.2M"
+    ],
+    "quotes": [
+     "- Q1 2026 EXPAREL revenue $143.3M, up 5% year-over-year",
+     "- Q1 2026 ZILRETTA revenue $26.8M, up 15% year-over-year"
+    ],
+    "summary_raw": "Three major proxy firms side with Pacira in boardroom showdown&nbsp;&nbsp;Stock Titan",
+    "english_phrases": [
+     {
+      "phrase": "BLUE proxy card",
+      "meaning": "Pacira 측이 주주에게 투표를 요청한 파란색 위임장 카드"
+     },
+     {
+      "phrase": "5x30 strategy",
+      "meaning": "Pacira가 내세우는 성장 전략의 명칭"
+     },
+     {
+      "phrase": "proxy advisory firms",
+      "meaning": "주주총회 안건에 대한 의결권 행사 의견을 제시하는 자문 업체"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "8880a060a658",
+   "title": "US-Argentina Memorandum of Understanding on Cooperation on Critical Minerals – Policies - IEA – International Energy Agency",
+   "title_norm": "us argentina memorandum of understanding on cooperation on critical minerals policies iea",
+   "url": "https://iea.org/policies/29545-us-argentina-memorandum-of-understanding-on-cooperation-on-critical-minerals",
+   "gnews_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObVRmVTdWZlV5Y2pVWTVoZnZkSzhWTENxTnE1eVlIamk5TXlBN2tkdjVkXzJ6TG1ZbmxiRHJaNGhpMW9ZVWtHZGJvYW9yVFVGejF2OERhZUloWnpoNlJKQW1naXFaV2NEUFhkVEJnTEJBSVA3bk01eWdFbzVVS0duYi13dk52OGp4SDQ1WFVMTXZ0RHR3TUZHLUtlN1NmaEg2RllTUnpKemJQOW1nbUV4OA?oc=5",
+   "source": {
+    "name": "IEA - via Google News",
+    "domain": "iea.org",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-05-31",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:21:07+00:00",
+   "score": 7,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "bot_block",
+    "http_status": 403,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.iea.org/policies/29545-us-argentina-memorandum-of-understanding-on-cooperation-on-critical-minerals",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "미국-아르헨티나, 핵심광물 협력 관련 양해각서(MOU) 체결 — IEA 정책 데이터베이스 게재임"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "양해각서",
+     "미국",
+     "아르헨티나",
+     "IEA"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Memorandum of Understanding",
+      "meaning": "양해각서"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:21:09+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "de08b289a9",
+     "v1_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObVRmVTdWZlV5Y2pVWTVoZnZkSzhWTENxTnE1eVlIamk5TXlBN2tkdjVkXzJ6TG1ZbmxiRHJaNGhpMW9ZVWtHZGJvYW9yVFVGejF2OERhZUloWnpoNlJKQW1naXFaV2NEUFhkVEJnTEJBSVA3bk01eWdFbzVVS0duYi13dk52OGp4SDQ1WFVMTXZ0RHR3TUZHLUtlN1NmaEg2RllTUnpKemJQOW1nbUV4OA?oc=5",
+     "summary_raw": "US-Argentina Memorandum of Understanding on Cooperation on Critical Minerals – Policies&nbsp;&nbsp;IEA – International Energy Agency"
+    }
+   },
+   "v1": {
+    "korean_summary": "미국과 아르헨티나가 핵심광물 협력에 관한 양해각서를 체결하여 공급망 안보와 에너지 전환을 위한 전략적 파트너십을 강화하였습니다. 아르헨티나의 풍부한 리튬, 코발트 등 핵심광물 자원과 미국의 기술·자본이 결합되어 글로벌 핵심광물 시장에서의 영향력 확대가 예상됩니다. 이는 중국 중심의 핵심광물 공급망 의존도를 낮추고 민주주의 국가 간 협력 체계를 구축하려는 국제 에너지 정책의 핵심 사례로 평가됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "리튬·코발트",
+     "정책·국제협력",
+     "미국·아르헨티나"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Memorandum of Understanding on Cooperation on Critical Minerals",
+      "meaning": "핵심광물 협력 양해각서"
+     },
+     {
+      "phrase": "Critical minerals supply chain security",
+      "meaning": "핵심광물 공급망 안보"
+     },
+     {
+      "phrase": "Energy transition and decarbonization",
+      "meaning": "에너지 전환 및 탄소중립화"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "de08b289a9",
+    "title": "US-Argentina Memorandum of Understanding on Cooperation on Critical Minerals – Policies - IEA – International Energy Agency",
+    "url": "https://iea.org/policies/29545-us-argentina-memorandum-of-understanding-on-cooperation-on-critical-minerals",
+    "source": "IEA - via Google News",
+    "tier_weight": 5,
+    "score": 7,
+    "published": "2026-05-31",
+    "korean_summary": [
+     "[제목 기반] 미국-아르헨티나, 핵심광물 협력 관련 양해각서(MOU) 체결 — IEA 정책 데이터베이스 게재임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "양해각서",
+     "미국",
+     "아르헨티나",
+     "IEA"
+    ],
+    "ai_processed": true,
+    "card_id": "8880a060a658",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "US-Argentina Memorandum of Understanding on Cooperation on Critical Minerals – Policies&nbsp;&nbsp;IEA – International Energy Agency",
+    "english_phrases": [
+     {
+      "phrase": "Memorandum of Understanding",
+      "meaning": "양해각서"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "9d9bfe3c25cb",
+   "title": "Critical Minerals List for New Zealand – Policies - IEA – International Energy Agency",
+   "title_norm": "critical minerals list for new zealand policies iea",
+   "url": "https://iea.org/policies/29659-critical-minerals-list-for-new-zealand",
+   "gnews_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1OZHRpeEt2ZXFzZ0FuNG9FbXZsdnd5MWZHZHR5VU9ONF9LTElVeTNHNzI4dVcySXRfZlR1Z080NkFCY2tRakFxeU9SWGNGZnRBR1ROT2NHSHBIaldfZ0JKMVFGcUJESllLTm9aV09HZF80U2x6Mlc0U2lsX0FZZw?oc=5",
+   "source": {
+    "name": "IEA - via Google News",
+    "domain": "iea.org",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-05-31",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:21:09+00:00",
+   "score": 7,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "bot_block",
+    "http_status": 403,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.iea.org/policies/29659-critical-minerals-list-for-new-zealand",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "뉴질랜드 핵심광물 목록 – 정책 – IEA(국제에너지기구)"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "뉴질랜드",
+     "정책",
+     "IEA"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Critical Minerals List",
+      "meaning": "핵심광물 목록"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:21:10+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "9e38937448",
+     "v1_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1OZHRpeEt2ZXFzZ0FuNG9FbXZsdnd5MWZHZHR5VU9ONF9LTElVeTNHNzI4dVcySXRfZlR1Z080NkFCY2tRakFxeU9SWGNGZnRBR1ROT2NHSHBIaldfZ0JKMVFGcUJESllLTm9aV09HZF80U2x6Mlc0U2lsX0FZZw?oc=5",
+     "summary_raw": "Critical Minerals List for New Zealand – Policies&nbsp;&nbsp;IEA – International Energy Agency"
+    }
+   },
+   "v1": {
+    "korean_summary": "국제에너지기구(IEA)가 뉴질랜드의 핵심광물 목록 및 관련 정책을 발표하였으며, 이는 에너지전환 시대에 필수 광물 자원의 공급망 안정화를 위한 각국의 정책 추진 현황을 보여주는 사례로 확인되었습니다. 뉴질랜드는 태평양 지역 핵심광물 공급 거점으로서의 전략적 위상을 강화하고 있으며, 이는 글로벌 에너지전환 목표 달성에 필수적인 광물 자원 확보 경쟁이 심화되고 있음을 시사합니다. 우리나라 자원외교 및 핵심광물 국가전략 수립 시 선진국의 정책 동향을 벤치마킹할 필요성이 높아질 전망입니다.",
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "에너지전환정책",
+     "뉴질랜드"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Critical Minerals List",
+      "meaning": "핵심광물 목록 또는 지정 리스트"
+     },
+     {
+      "phrase": "supply chain security and resilience",
+      "meaning": "공급망 안정성과 회복력 확보"
+     },
+     {
+      "phrase": "energy transition minerals",
+      "meaning": "에너지전환 필수 광물"
+     },
+     {
+      "phrase": "resource security policy",
+      "meaning": "자원 안보 정책"
+     },
+     {
+      "phrase": "domestic resource potential assessment",
+      "meaning": "국내 광물자원 부존량 평가"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "9e38937448",
+    "title": "Critical Minerals List for New Zealand – Policies - IEA – International Energy Agency",
+    "url": "https://iea.org/policies/29659-critical-minerals-list-for-new-zealand",
+    "source": "IEA - via Google News",
+    "tier_weight": 5,
+    "score": 7,
+    "published": "2026-05-31",
+    "korean_summary": [
+     "[제목 기반] 뉴질랜드 핵심광물 목록 – 정책 – IEA(국제에너지기구)"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "뉴질랜드",
+     "정책",
+     "IEA"
+    ],
+    "ai_processed": true,
+    "card_id": "9d9bfe3c25cb",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Critical Minerals List for New Zealand – Policies&nbsp;&nbsp;IEA – International Energy Agency",
+    "english_phrases": [
+     {
+      "phrase": "Critical Minerals List",
+      "meaning": "핵심광물 목록"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "1e40b6b3949f",
+   "title": "Lithium bust is over but will battery metal boom again? - Reuters",
+   "title_norm": "lithium bust is over but will battery metal boom again",
+   "url": "https://reuters.com/commentary/reuters-open-interest/lithium-bust-is-over-will-battery-metal-boom-again-2026-06-05",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORmV2c2F5OExoRk1SUy0yb1FFNDFLbUxFc1ZiVUY0bjB0WTliZVZWUVFQLVF1NENubzRJZ2dKVlBzN21xV2lUWTV4RnJ3MmxyWHVYMnlQcm9zbDBFcUtmR3E5b1JqODA5T1c2Z2x5bGF6RDN3Nl9ldHRIaEk3VHhhWkhveWw1eTZBRUN1Qi1EMlpjVkt1SGRBcW9vN0lSdG81cS1QRnpXR05RWG1Lb3BaQmpENnI1ODhPRHRF?oc=5",
+   "source": {
+    "name": "Reuters - via Google News",
+    "domain": "reuters.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-06-05",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:21:10+00:00",
+   "score": 7,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "skipped",
+    "http_status": null,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": null,
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "리튬 불황은 끝났으나 배터리 금속 호황이 다시 올지는 불투명함"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "배터리 금속",
+     "시장 동향",
+     "가격 전망"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Lithium bust is over",
+      "meaning": "리튬 불황은 끝났다"
+     },
+     {
+      "phrase": "battery metal boom",
+      "meaning": "배터리 금속 호황"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:21:12+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "4db3ae40cc",
+     "v1_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORmV2c2F5OExoRk1SUy0yb1FFNDFLbUxFc1ZiVUY0bjB0WTliZVZWUVFQLVF1NENubzRJZ2dKVlBzN21xV2lUWTV4RnJ3MmxyWHVYMnlQcm9zbDBFcUtmR3E5b1JqODA5T1c2Z2x5bGF6RDN3Nl9ldHRIaEk3VHhhWkhveWw1eTZBRUN1Qi1EMlpjVkt1SGRBcW9vN0lSdG81cS1QRnpXR05RWG1Lb3BaQmpENnI1ODhPRHRF?oc=5",
+     "summary_raw": "Lithium bust is over but will battery metal boom again?&nbsp;&nbsp;Reuters"
+    }
+   },
+   "v1": {
+    "korean_summary": "리튬 시장의 공급 과잉 위기는 진정 국면에 접어들었으나, 배터리 금속으로서의 수요 회복 시점은 여전히 불확실한 것으로 분석되었음. 핵심광물 공급망 안정화를 위해서는 가격 변동성 완화와 장기 수요 예측의 개선이 필수적일 전망임. 에너지 전환 가속화에 따른 핵심광물의 전략적 중요성이 재조명되는 가운데, 지속가능한 채광 및 2차 자원 활용 확대가 향후 시장 구조를 좌우할 것으로 예상됨.",
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "배터리용 핵심광물",
+     "시장공급 안정화"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals supply chain",
+      "meaning": "핵심광물 공급망"
+     },
+     {
+      "phrase": "battery metal demand recovery",
+      "meaning": "배터리용 금속 수요 회복"
+     },
+     {
+      "phrase": "market glut and price volatility",
+      "meaning": "시장 공급과잉 및 가격 변동성"
+     },
+     {
+      "phrase": "secondary resources and circular economy",
+      "meaning": "2차 자원 및 순환경제"
+     },
+     {
+      "phrase": "energy transition acceleration",
+      "meaning": "에너지 전환 가속화"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "4db3ae40cc",
+    "title": "Lithium bust is over but will battery metal boom again? - Reuters",
+    "url": "https://reuters.com/commentary/reuters-open-interest/lithium-bust-is-over-will-battery-metal-boom-again-2026-06-05",
+    "source": "Reuters - via Google News",
+    "tier_weight": 3,
+    "score": 7,
+    "published": "2026-06-05",
+    "korean_summary": [
+     "[제목 기반] 리튬 불황은 끝났으나 배터리 금속 호황이 다시 올지는 불투명함"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "배터리 금속",
+     "시장 동향",
+     "가격 전망"
+    ],
+    "ai_processed": true,
+    "card_id": "1e40b6b3949f",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Lithium bust is over but will battery metal boom again?&nbsp;&nbsp;Reuters",
+    "english_phrases": [
+     {
+      "phrase": "Lithium bust is over",
+      "meaning": "리튬 불황은 끝났다"
+     },
+     {
+      "phrase": "battery metal boom",
+      "meaning": "배터리 금속 호황"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "ee5a571d6948",
+   "title": "North America Lithium and Gold Corp. Identifies Multiple High-Priority Lithium Targets at Midnight Owl Following Advanced Hyperspectral Refinement - TradingView",
+   "title_norm": "north america lithium and gold corp identifies multiple high priority lithium targets at midnight owl following advanced hyperspectral refinement",
+   "url": "https://tradingview.com/news/tmx_newsfile:0b88ef235094b:0-north-america-lithium-and-gold-corp-identifies-multiple-high-priority-lithium-targets-at-midnight-owl-following-advanced-hyperspectral-refinement",
+   "gnews_url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxNVnEtRVI5aTk0UGJwM0kwYzJjMjFWQ001M3pSLVRLbE9zWFQ2X0Jab3M1dEdNWk5GdUdoM2pFQjlKVjB5eGVMWEx3ZW03dlVLcGNXaUdSSXRJZFpUaXN4a2t1Njc1amtOUEpWOExoWVF3TldOeTdxblVHVTRmNnprT0xpS2hIZTBJZGhHSWNOTGZFbWNVVGhOOGpLdGtieS1UY0k4cmVIZHNLWXdwei1sbjB3RUVfOFBzdVhJaHdMc05MNHM5Mlktbnk3a25VSEpSTk9ONVhiYjlib2pDaHpvOWFEVVFtbi1NdmMyLUZKMy1iNWptRE5QZW50NV9FZ29ON2dQQVBVSmFVRFMwd1hBc2I1WWJIZC1PVWxHYTVfSmw1ak1wSHlrMDRoOGZHMUVUbEE?oc=5",
+   "source": {
+    "name": "Google News - Critical Minerals Exploration",
+    "domain": "tradingview.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-06-03",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:21:12+00:00",
+   "score": 8,
+   "body": {
+    "status": "full",
+    "chars": 10211,
+    "sha256": "61639d6d24dbfd7ab1db4ec4f00b83fd9a87ab8f8580f46eb207ba92e063de68",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-06-03",
+    "quotes": [
+     "The Company holds 100% ownership of the Midnight Owl Mine along with an adjoining 5,040 acres (244 lode claims).",
+     "Identifies Multiple High-Priority Lithium Targets at Midnight Owl Following Advanced Hyperspectral Refinement"
+    ],
+    "final_url": "https://www.tradingview.com/news/tmx_newsfile:0b88ef235094b:0-north-america-lithium-and-gold-corp-identifies-multiple-high-priority-lithium-targets-at-midnight-owl-following-advanced-hyperspectral-refinement/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "North America Lithium and Gold Corp.가 Midnight Owl 프로젝트의 초분광 타깃 정밀화 1단계 작업 완료를 발표했음",
+     "미국 애리조나 White Picacho Pegmatite District 내 지역이며 David Coulter 박사가 SpecTIR 항공 초분광 자료를 분석했음",
+     "스포듈민 연관 고우선순위 타깃을 확인했으며 회사는 현장 검증과 향후 시추 시험이 필요하다고 밝혔음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "approximately one-meter ground resolution",
+     "approximately two-meter ground resolution"
+    ],
+    "quotes": [
+     "The Company holds 100% ownership of the Midnight Owl Mine along with an adjoining 5,040 acres (244 lode claims).",
+     "Identifies Multiple High-Priority Lithium Targets at Midnight Owl Following Advanced Hyperspectral Refinement"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "리튬",
+     "초분광",
+     "스포듈민",
+     "페그마타이트",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "hyperspectral target refinement",
+      "meaning": "초분광 자료로 탐사 타깃을 정밀화하는 작업"
+     },
+     {
+      "phrase": "spodumene-associated target zones",
+      "meaning": "스포듈민과 연관된 타깃 구역"
+     },
+     {
+      "phrase": "field verification",
+      "meaning": "현장 검증"
+     },
+     {
+      "phrase": "lithium-bearing pegmatite systems",
+      "meaning": "리튬을 함유한 페그마타이트 계통"
+     }
+    ],
+    "implication": "항공 초분광 분석으로 리튬 페그마타이트 타깃을 좁혀 현장 검증과 시추 계획의 우선순위를 정하는 탐사 방식을 보여줌."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:21:17+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "9f62cb4df8",
+     "v1_url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxNVnEtRVI5aTk0UGJwM0kwYzJjMjFWQ001M3pSLVRLbE9zWFQ2X0Jab3M1dEdNWk5GdUdoM2pFQjlKVjB5eGVMWEx3ZW03dlVLcGNXaUdSSXRJZFpUaXN4a2t1Njc1amtOUEpWOExoWVF3TldOeTdxblVHVTRmNnprT0xpS2hIZTBJZGhHSWNOTGZFbWNVVGhOOGpLdGtieS1UY0k4cmVIZHNLWXdwei1sbjB3RUVfOFBzdVhJaHdMc05MNHM5Mlktbnk3a25VSEpSTk9ONVhiYjlib2pDaHpvOWFEVVFtbi1NdmMyLUZKMy1iNWptRE5QZW50NV9FZ29ON2dQQVBVSmFVRFMwd1hBc2I1WWJIZC1PVWxHYTVfSmw1ak1wSHlrMDRoOGZHMUVUbEE?oc=5",
+     "summary_raw": "North America Lithium and Gold Corp. Identifies Multiple High-Priority Lithium Targets at Midnight Owl Following Advanced Hyperspectral Refinement&nbsp;&nbsp;TradingView"
+    }
+   },
+   "v1": {
+    "korean_summary": "North America Lithium and Gold Corp.는 고급 초분광 분석 기법을 적용하여 Midnight Owl 광산에서 복수의 고우선순위 리튬 탐사 대상을 확인하였습니다. 이는 핵심광물 탐사에서 첨단 원격탐사 기술의 활용을 통해 탐사 효율성을 대폭 향상시킨 사례로 평가됩니다. 북미 지역의 리튬 자원 개발이 가속화되고 있는 가운데, 정밀 탐사 기술의 고도화가 핵심광물 공급망 안정화에 중요한 역할을 할 것으로 전망됩니다.",
+    "category": "exploration_tech",
+    "tags": [
+     "리튬",
+     "초분광탐사",
+     "북미"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Advanced Hyperspectral Refinement",
+      "meaning": "고급 초분광 분석 기법 (암석의 광물 조성을 파장별로 정밀 분석하는 기술)"
+     },
+     {
+      "phrase": "High-Priority Lithium Targets",
+      "meaning": "고우선순위 리튬 탐사 대상 (경제성이 높은 것으로 평가되는 광상)"
+     },
+     {
+      "phrase": "Critical Minerals Exploration",
+      "meaning": "핵심광물 탐사 (국가 산업 경쟁력에 필수적인 광물 자원의 탐사)"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "9f62cb4df8",
+    "title": "North America Lithium and Gold Corp. Identifies Multiple High-Priority Lithium Targets at Midnight Owl Following Advanced Hyperspectral Refinement - TradingView",
+    "url": "https://tradingview.com/news/tmx_newsfile:0b88ef235094b:0-north-america-lithium-and-gold-corp-identifies-multiple-high-priority-lithium-targets-at-midnight-owl-following-advanced-hyperspectral-refinement",
+    "source": "Google News - Critical Minerals Exploration",
+    "tier_weight": 1,
+    "score": 8,
+    "published": "2026-06-03",
+    "korean_summary": [
+     "North America Lithium and Gold Corp.가 Midnight Owl 프로젝트의 초분광 타깃 정밀화 1단계 작업 완료를 발표했음",
+     "미국 애리조나 White Picacho Pegmatite District 내 지역이며 David Coulter 박사가 SpecTIR 항공 초분광 자료를 분석했음",
+     "스포듈민 연관 고우선순위 타깃을 확인했으며 회사는 현장 검증과 향후 시추 시험이 필요하다고 밝혔음"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "리튬",
+     "초분광",
+     "스포듈민",
+     "페그마타이트",
+     "미국"
+    ],
+    "ai_processed": true,
+    "card_id": "ee5a571d6948",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "approximately one-meter ground resolution",
+     "approximately two-meter ground resolution"
+    ],
+    "quotes": [
+     "The Company holds 100% ownership of the Midnight Owl Mine along with an adjoining 5,040 acres (244 lode claims).",
+     "Identifies Multiple High-Priority Lithium Targets at Midnight Owl Following Advanced Hyperspectral Refinement"
+    ],
+    "summary_raw": "North America Lithium and Gold Corp. Identifies Multiple High-Priority Lithium Targets at Midnight Owl Following Advanced Hyperspectral Refinement&nbsp;&nbsp;TradingView",
+    "english_phrases": [
+     {
+      "phrase": "hyperspectral target refinement",
+      "meaning": "초분광 자료로 탐사 타깃을 정밀화하는 작업"
+     },
+     {
+      "phrase": "spodumene-associated target zones",
+      "meaning": "스포듈민과 연관된 타깃 구역"
+     },
+     {
+      "phrase": "field verification",
+      "meaning": "현장 검증"
+     },
+     {
+      "phrase": "lithium-bearing pegmatite systems",
+      "meaning": "리튬을 함유한 페그마타이트 계통"
+     }
+    ],
+    "implication": "항공 초분광 분석으로 리튬 페그마타이트 타깃을 좁혀 현장 검증과 시추 계획의 우선순위를 정하는 탐사 방식을 보여줌.",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "9fb75d7bb755",
+   "title": "Delayed publication of nickel, cobalt MHP payable indicators cif China, Japan and South Korea - Fastmarkets",
+   "title_norm": "delayed publication of nickel cobalt mhp payable indicators cif china japan and south korea",
+   "url": "https://fastmarkets.com/insights/delayed-publication-of-nickel-cobalt-mhp-payable-indicators-cif-china-japan-and-south-korea-2",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVDBvM1RpTjRwa25SY2FZelc1dmI4elhWSGpCNWFSZW55a2JyVllrUDA0ckotWm5kbHVhUllqZmpwYUwtWG81eUMwRDc4OGxTQk1FaFViZFo1WW93UmJlU2ZKbGFXdkk2Y3hqaEZSTHAtYVFkanlqdXpuV2Z1dmh5aDN4b2V1NXZzb0pmOXdzLXhGNEQySFRnbmpHVmRtUERjVUNydkpVZFFuSlpBc3NINXJfWlFCZFhXY1plRE5ycjlWY1p0LUlwRDZUZw?oc=5",
+   "source": {
+    "name": "Fastmarkets - via Google News",
+    "domain": "fastmarkets.com",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-06-03",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:21:18+00:00",
+   "score": 9,
+   "body": {
+    "status": "lead_only",
+    "chars": 253,
+    "sha256": "a0882dabd9267c3db71e7b769c76835ee610c5e4f18e30c7e9b866a14b4c09b3",
+    "source": "og_description",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [
+     "The publication of Fastmarkets’ nickel and cobalt mixed hydroxide precipitate (MHP) payable indicators on a CIF China, Japan and South Korea basis on Wednesday June 3 was delayed owing to a reporter error."
+    ],
+    "final_url": "https://www.fastmarkets.com/insights/delayed-publication-of-nickel-cobalt-mhp-payable-indicators-cif-china-japan-and-south-korea-2/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Fastmarkets, 중국·일본·한국 CIF 기준 니켈·코발트 MHP 지급률 지표 발행 지연 공지임",
+     "6월 3일(수) 지표 발행이 기자 오류로 지연되었으며 가격 데이터베이스는 업데이트되었다고 밝혔음"
+    ],
+    "basis": "lead",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "니켈",
+     "코발트",
+     "MHP",
+     "가격지표",
+     "Fastmarkets"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "mixed hydroxide precipitate (MHP)",
+      "meaning": "혼합수산화침전물"
+     },
+     {
+      "phrase": "payable indicators",
+      "meaning": "지급률 지표"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "lead_only",
+    "input_chars": 253,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:21:20+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "b519cd5c55",
+     "v1_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVDBvM1RpTjRwa25SY2FZelc1dmI4elhWSGpCNWFSZW55a2JyVllrUDA0ckotWm5kbHVhUllqZmpwYUwtWG81eUMwRDc4OGxTQk1FaFViZFo1WW93UmJlU2ZKbGFXdkk2Y3hqaEZSTHAtYVFkanlqdXpuV2Z1dmh5aDN4b2V1NXZzb0pmOXdzLXhGNEQySFRnbmpHVmRtUERjVUNydkpVZFFuSlpBc3NINXJfWlFCZFhXY1plRE5ycjlWY1p0LUlwRDZUZw?oc=5",
+     "summary_raw": "Delayed publication of nickel, cobalt MHP payable indicators cif China, Japan and South Korea&nbsp;&nbsp;Fastmarkets"
+    }
+   },
+   "v1": {
+    "korean_summary": "Fastmarkets가 중국, 일본, 한국을 대상으로 한 니켈 및 코발트 MHP(주요 결정 가격) 지표의 발표를 지연시킨 것으로 확인되었습니다. 이는 핵심광물 시장 가격 결정의 투명성과 적시성에 영향을 미칠 것으로 예상됩니다. 아시아 주요 수요국의 핵심광물 가격 지표 지연은 공급망 관리 및 기업의 시장 대응에 제약을 초래할 전망입니다.",
+    "category": "supply_chain",
+    "tags": [
+     "니켈",
+     "코발트",
+     "가격지표"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "MHP payable indicators (주요 결정 가격 지표)",
+      "meaning": "정제 및 처리 광물의 최종 지급 가격을 결정하는 벤치마크 지표"
+     },
+     {
+      "phrase": "delayed publication",
+      "meaning": "지표 발표의 시간 지연"
+     },
+     {
+      "phrase": "critical minerals pricing benchmark",
+      "meaning": "핵심광물의 시장 기준 가격 책정 체계"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "b519cd5c55",
+    "title": "Delayed publication of nickel, cobalt MHP payable indicators cif China, Japan and South Korea - Fastmarkets",
+    "url": "https://fastmarkets.com/insights/delayed-publication-of-nickel-cobalt-mhp-payable-indicators-cif-china-japan-and-south-korea-2",
+    "source": "Fastmarkets - via Google News",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-06-03",
+    "korean_summary": [
+     "[본문 미확보] Fastmarkets, 중국·일본·한국 CIF 기준 니켈·코발트 MHP 지급률 지표 발행 지연 공지임",
+     "6월 3일(수) 지표 발행이 기자 오류로 지연되었으며 가격 데이터베이스는 업데이트되었다고 밝혔음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "니켈",
+     "코발트",
+     "MHP",
+     "가격지표",
+     "Fastmarkets"
+    ],
+    "ai_processed": true,
+    "card_id": "9fb75d7bb755",
+    "basis": "lead",
+    "body_status": "lead_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Delayed publication of nickel, cobalt MHP payable indicators cif China, Japan and South Korea&nbsp;&nbsp;Fastmarkets",
+    "english_phrases": [
+     {
+      "phrase": "mixed hydroxide precipitate (MHP)",
+      "meaning": "혼합수산화침전물"
+     },
+     {
+      "phrase": "payable indicators",
+      "meaning": "지급률 지표"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "9edc72dd4bfa",
+   "title": "UN ECA launches large-scale project to strengthen SADC critical minerals value chains - Mining Weekly",
+   "title_norm": "un eca launches large scale project to strengthen sadc critical minerals value chains",
+   "url": "https://miningweekly.com/article/un-eca-launches-large-scale-project-to-strengthen-sadc-critical-minerals-value-chains-2026-06-03",
+   "gnews_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTHdfLXBRdUhJMTZWV25JMko1QTF3RWwyVTktU1FQaFNZNlptQk9CRDRmS3F2Mkk0RkVjTC1saWh1SUFxbW9EYjl3WGg2N2tOT01XeURfVW1Ob2dRTVZFUzVFNkFhVXFOUGl3TnRTZzMtZTlmb29fYUhRbFZsS0ZDRTdsTDVSWWh2WWg3TUV3Q0VlZzN2YmxLY3pyRENLSDNXUmVwSHVHNjNIZmhaV3pNc25ESDVLdU9xV1ROQ0Q5M3hSRXlReTJkSG5hdGVMQQ?oc=5",
+   "source": {
+    "name": "Mining Weekly - via Google News",
+    "domain": "miningweekly.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-06-03",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:21:21+00:00",
+   "score": 8,
+   "body": {
+    "status": "full",
+    "chars": 7377,
+    "sha256": "2ac7a2d1ed326596a05b8405f6f9f619a728f94515d7581e71a558b45225c23b",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-06-03",
+    "quotes": [
+     "UN ECA launches large-scale project to strengthen SADC critical minerals value chains",
+     "She said the project would help countries move beyond the export of raw minerals by promoting beneficiation, industrial production and stronger linkages between the extractive sector and the wider economy."
+    ],
+    "final_url": "https://www.miningweekly.com/article/un-eca-launches-large-scale-project-to-strengthen-sadc-critical-minerals-value-chains-2026-06-03",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "유엔 아프리카경제위원회(UN ECA)가 SADC 지역 핵심광물 가치사슬 강화 프로젝트를 출범시켰음",
+     "€15-million 규모 5개년(2026~2031) 사업으로 6월 2일 잠비아 루사카에서 공식 출범했음",
+     "DRC·모잠비크·나미비아·남아공·잠비아·짐바브웨에서 시행되며 원광 수출을 넘어 부가가치 창출을 추진함"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "€15-million",
+     "2026 to 2031",
+     "between 7% and 25% of GDP"
+    ],
+    "quotes": [
+     "UN ECA launches large-scale project to strengthen SADC critical minerals value chains",
+     "She said the project would help countries move beyond the export of raw minerals by promoting beneficiation, industrial production and stronger linkages between the extractive sector and the wider economy."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "SADC",
+     "가치사슬",
+     "부가가치",
+     "잠비아"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "value addition",
+      "meaning": "원광 수출에서 나아가 가공·제련 등으로 부가가치를 높이는 것"
+     },
+     {
+      "phrase": "beneficiation",
+      "meaning": "광물을 선광·가공하여 품위와 가치를 높이는 과정"
+     },
+     {
+      "phrase": "energy transition minerals",
+      "meaning": "에너지 전환에 필요한 광물"
+     },
+     {
+      "phrase": "moving up the value chain",
+      "meaning": "가치사슬 상위 단계로 이동함"
+     }
+    ],
+    "implication": "아프리카 산유·산광국이 원광 수출에서 현지 가공·산업화로 전환하려는 움직임이 지역 차원에서 구체화되어 원료 공급 구조 변화 가능성을 시사함"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:21:26+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "9613de9af4",
+     "v1_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTHdfLXBRdUhJMTZWV25JMko1QTF3RWwyVTktU1FQaFNZNlptQk9CRDRmS3F2Mkk0RkVjTC1saWh1SUFxbW9EYjl3WGg2N2tOT01XeURfVW1Ob2dRTVZFUzVFNkFhVXFOUGl3TnRTZzMtZTlmb29fYUhRbFZsS0ZDRTdsTDVSWWh2WWg3TUV3Q0VlZzN2YmxLY3pyRENLSDNXUmVwSHVHNjNIZmhaV3pNc25ESDVLdU9xV1ROQ0Q5M3hSRXlReTJkSG5hdGVMQQ?oc=5",
+     "summary_raw": "UN ECA launches large-scale project to strengthen SADC critical minerals value chains&nbsp;&nbsp;Mining Weekly"
+    }
+   },
+   "v1": {
+    "korean_summary": "UN 아프리카경제위원회(ECA)가 남부아프리카개발공동체(SADC) 역내 핵심광물 가치사슬 강화를 위한 대규모 프로젝트를 출범시켰습니다. 본 사업은 채굴, 정제, 가공 단계의 역량 강화와 부가가치 창출을 통해 SADC 회원국들의 자원 기반 산업화를 촉진할 것으로 전망됩니다. 이는 글로벌 핵심광물 공급망 재편 속에서 아프리카 지역의 전략적 지위를 제고하기 위한 국제적 노력으로 평가되고 있습니다.",
+    "category": "supply_chain",
+    "tags": [
+     "핵심광물",
+     "가치사슬",
+     "남부아프리카"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals value chain strengthening",
+      "meaning": "핵심광물 가치사슬 강화"
+     },
+     {
+      "phrase": "resource-based industrialization",
+      "meaning": "자원 기반 산업화"
+     },
+     {
+      "phrase": "mineral processing and beneficiation capacity",
+      "meaning": "광물 정제 및 선광(選鑛) 역량"
+     },
+     {
+      "phrase": "regional supply chain resilience",
+      "meaning": "지역 공급망 회복력"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "9613de9af4",
+    "title": "UN ECA launches large-scale project to strengthen SADC critical minerals value chains - Mining Weekly",
+    "url": "https://miningweekly.com/article/un-eca-launches-large-scale-project-to-strengthen-sadc-critical-minerals-value-chains-2026-06-03",
+    "source": "Mining Weekly - via Google News",
+    "tier_weight": 3,
+    "score": 8,
+    "published": "2026-06-03",
+    "korean_summary": [
+     "유엔 아프리카경제위원회(UN ECA)가 SADC 지역 핵심광물 가치사슬 강화 프로젝트를 출범시켰음",
+     "€15-million 규모 5개년(2026~2031) 사업으로 6월 2일 잠비아 루사카에서 공식 출범했음",
+     "DRC·모잠비크·나미비아·남아공·잠비아·짐바브웨에서 시행되며 원광 수출을 넘어 부가가치 창출을 추진함"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "SADC",
+     "가치사슬",
+     "부가가치",
+     "잠비아"
+    ],
+    "ai_processed": true,
+    "card_id": "9edc72dd4bfa",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "€15-million",
+     "2026 to 2031",
+     "between 7% and 25% of GDP"
+    ],
+    "quotes": [
+     "UN ECA launches large-scale project to strengthen SADC critical minerals value chains",
+     "She said the project would help countries move beyond the export of raw minerals by promoting beneficiation, industrial production and stronger linkages between the extractive sector and the wider economy."
+    ],
+    "summary_raw": "UN ECA launches large-scale project to strengthen SADC critical minerals value chains&nbsp;&nbsp;Mining Weekly",
+    "english_phrases": [
+     {
+      "phrase": "value addition",
+      "meaning": "원광 수출에서 나아가 가공·제련 등으로 부가가치를 높이는 것"
+     },
+     {
+      "phrase": "beneficiation",
+      "meaning": "광물을 선광·가공하여 품위와 가치를 높이는 과정"
+     },
+     {
+      "phrase": "energy transition minerals",
+      "meaning": "에너지 전환에 필요한 광물"
+     },
+     {
+      "phrase": "moving up the value chain",
+      "meaning": "가치사슬 상위 단계로 이동함"
+     }
+    ],
+    "implication": "아프리카 산유·산광국이 원광 수출에서 현지 가공·산업화로 전환하려는 움직임이 지역 차원에서 구체화되어 원료 공급 구조 변화 가능성을 시사함",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "fc1b8014be90",
+   "title": "USA Rare Earth Investing $1.2B to Build U.S. Magnet Manufacturing Plant - Design and Development Today",
+   "title_norm": "usa rare earth investing 1 2b to build u s magnet manufacturing plant",
+   "url": "https://designdevelopmenttoday.com/industries/manufacturing/news/22968208/usa-rare-earth-investing-12b-to-build-us-magnet-manufacturing-plant",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPSlBMLUNnQ2ZrSUNGUlRsZkRncnhaNWh6Rlg3MzJfZzdPZ2MtLUlvaUt0VExKM0RHMkdwaFVzRmdYeERReFRSbXhHaWE2bmVVeWM1MGZqd1o5cXlsRlZBQnd2VEVJUjIwd0FVeGlrVkJxUkZvMUV0TjVLMGFBNEJHc2ZkdjNlaENmcmFYN3B0ODhJbjQwMHhWcnAxTlY1QldOY3IxcUJ0UWlrRzVZSXlkbENCSW53bjkta2hPUVpCZkotc2otVmtXUTJFRzMyeS0zT0xqWnlhYUkxMWpESkE?oc=5",
+   "source": {
+    "name": "Google News - Rare Earth Elements",
+    "domain": "designdevelopmenttoday.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-06-04",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:21:26+00:00",
+   "score": 8,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "bot_block",
+    "http_status": 403,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.designdevelopmenttoday.com/industries/manufacturing/news/22968208/usa-rare-earth-investing-12b-to-build-us-magnet-manufacturing-plant",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "USA Rare Earth가 미국 내 자석 제조 공장 건설에 1.2B 달러를 투자함"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "영구자석",
+     "제조공장",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Magnet Manufacturing Plant",
+      "meaning": "자석 제조 공장"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:21:28+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "4efc5b058f",
+     "v1_url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPSlBMLUNnQ2ZrSUNGUlRsZkRncnhaNWh6Rlg3MzJfZzdPZ2MtLUlvaUt0VExKM0RHMkdwaFVzRmdYeERReFRSbXhHaWE2bmVVeWM1MGZqd1o5cXlsRlZBQnd2VEVJUjIwd0FVeGlrVkJxUkZvMUV0TjVLMGFBNEJHc2ZkdjNlaENmcmFYN3B0ODhJbjQwMHhWcnAxTlY1QldOY3IxcUJ0UWlrRzVZSXlkbENCSW53bjkta2hPUVpCZkotc2otVmtXUTJFRzMyeS0zT0xqWnlhYUkxMWpESkE?oc=5",
+     "summary_raw": "USA Rare Earth Investing $1.2B to Build U.S. Magnet Manufacturing Plant&nbsp;&nbsp;Design and Development Today"
+    }
+   },
+   "v1": {
+    "korean_summary": "미국의 USA Rare Earth가 12억 달러를 투자하여 미국 내 희토류 자석 제조 시설을 구축할 계획으로 확인되었습니다. 본 프로젝트는 설계 및 개발 단계에 진입하였으며, 미국의 핵심광물 공급망 자립화 전략의 핵심 사업으로 평가됩니다. 희토류 영구자석 제조의 국산화는 전기자동차, 풍력발전 등 미래 에너지 산업의 경쟁력 강화에 기여할 전망입니다.",
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "자석제조",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "rare earth magnet manufacturing",
+      "meaning": "희토류 자석 제조"
+     },
+     {
+      "phrase": "domestic supply chain development",
+      "meaning": "국내 공급망 개발"
+     },
+     {
+      "phrase": "critical minerals sovereignty",
+      "meaning": "핵심광물 자급 전략"
+     },
+     {
+      "phrase": "design and development phase",
+      "meaning": "설계 및 개발 단계"
+     },
+     {
+      "phrase": "vertical integration of rare earth processing",
+      "meaning": "희토류 처리 공정의 수직 통합"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "4efc5b058f",
+    "title": "USA Rare Earth Investing $1.2B to Build U.S. Magnet Manufacturing Plant - Design and Development Today",
+    "url": "https://designdevelopmenttoday.com/industries/manufacturing/news/22968208/usa-rare-earth-investing-12b-to-build-us-magnet-manufacturing-plant",
+    "source": "Google News - Rare Earth Elements",
+    "tier_weight": 1,
+    "score": 8,
+    "published": "2026-06-04",
+    "korean_summary": [
+     "[제목 기반] USA Rare Earth가 미국 내 자석 제조 공장 건설에 1.2B 달러를 투자함"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "영구자석",
+     "제조공장",
+     "미국"
+    ],
+    "ai_processed": true,
+    "card_id": "fc1b8014be90",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "USA Rare Earth Investing $1.2B to Build U.S. Magnet Manufacturing Plant&nbsp;&nbsp;Design and Development Today",
+    "english_phrases": [
+     {
+      "phrase": "Magnet Manufacturing Plant",
+      "meaning": "자석 제조 공장"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "020ff282f8bf",
+   "title": "Creating a sovereign lithium supply chain in Europe ... - eeNews Europe",
+   "title_norm": "creating a sovereign lithium supply chain in europe",
+   "url": "https://eenewseurope.com/en/creating-a-sovereign-lithium-supply-chain-in-europe",
+   "gnews_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWjEtaWNOYnVHZG45MHp3TDRJdWdmY2xCUDYyREN6TnVzZTY2NEVpVHdrcVpBc3k2Q0x5UThCY19SZ2pLNkVmV1c2dVc1bXNjMFlOUFBkTTJHX0g0UUg2ZkU0TmJ6OTgzTklqaWJHaGE4NjhlS0xGZnp2SGg4U3l2NmNmTVdsdmo3SWtGNg?oc=5",
+   "source": {
+    "name": "Google News - IRA CRMA Policy",
+    "domain": "eenewseurope.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-06-05",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:21:29+00:00",
+   "score": 8,
+   "body": {
+    "status": "full",
+    "chars": 14493,
+    "sha256": "11bbca8e0a859ccd8b5bc9864ebb5789e6748eed36b0f17ea95bbe8bd0f147b4",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-06-05",
+    "quotes": [
+     "The ResourceEU Action Plan aims to invest €3bn this year alone to boost production from both mining and recycling.",
+     "“We are the only company in the European region that can produce 100% local anode and cathode active materials."
+    ],
+    "final_url": "https://www.eenewseurope.com/en/creating-a-sovereign-lithium-supply-chain-in-europe/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "유럽 전역에서 올해 리튬 파일럿 가공 공장이 가동에 들어가 자국산 리튬 공급망 구축을 뒷받침한다고 보도했음",
+     "ResourceEU Action Plan은 올해에만 €3bn을 투자할 계획이며, 유럽·영국 리튬 추출·통합 프로젝트 상위 10곳이 소개됐음",
+     "Critical Raw Materials Centre가 이달 말 발표될 예정이며 채굴·재활용 생산 확대, 비축, 공동구매를 다룰 계획임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "€3bn",
+     "7.45 million tonnes",
+     "$2.6 billion"
+    ],
+    "quotes": [
+     "The ResourceEU Action Plan aims to invest €3bn this year alone to boost production from both mining and recycling.",
+     "“We are the only company in the European region that can produce 100% local anode and cathode active materials."
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "유럽연합",
+     "영국",
+     "배터리 재활용",
+     "ResourceEU"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "sovereign supply chain",
+      "meaning": "외부 의존을 줄인 자국·역내 중심의 공급망"
+     },
+     {
+      "phrase": "urban ore lode",
+      "meaning": "폐배터리 등에 축적된 도시광산형 핵심광물 자원"
+     },
+     {
+      "phrase": "joint purchasing",
+      "meaning": "공동구매"
+     },
+     {
+      "phrase": "lighthouse project",
+      "meaning": "다른 사업의 본보기가 되는 대표 프로젝트"
+     }
+    ],
+    "implication": "EU와 영국이 채굴·재활용·비축·공동구매를 묶어 중국산 리튬 의존을 줄이려는 정책 투자를 본격화하고 있음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:21:34+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "a328721fb5",
+     "v1_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWjEtaWNOYnVHZG45MHp3TDRJdWdmY2xCUDYyREN6TnVzZTY2NEVpVHdrcVpBc3k2Q0x5UThCY19SZ2pLNkVmV1c2dVc1bXNjMFlOUFBkTTJHX0g0UUg2ZkU0TmJ6OTgzTklqaWJHaGE4NjhlS0xGZnp2SGg4U3l2NmNmTVdsdmo3SWtGNg?oc=5",
+     "summary_raw": "Creating a sovereign lithium supply chain in Europe ...&nbsp;&nbsp;eeNews Europe"
+    }
+   },
+   "v1": {
+    "korean_summary": "유럽이 리튬 공급망의 자주성 확보를 위해 국내 채굴과 정제 역량 강화에 나서고 있으며, 이는 IRA(인플레이션 감축법)와 CRMA(핵심원자재규정)라는 미국·EU의 정책 지원에 힘입은 것으로 확인되었습니다. 핵심광물의 해외 의존도 심화 위험을 인식한 유럽은 광물 채굴에서 배터리 제조까지 수직 통합된 공급망 구축을 추진하고 있습니다. 이러한 전략적 움직임은 향후 글로벌 핵심광물 시장 구조 변화와 역내 자원 자급률 제고에 중요한 영향을 미칠 전망입니다.",
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "공급망 자주화",
+     "유럽·EU"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "sovereign supply chain",
+      "meaning": "자주적·자급적 공급망, 특정 국가나 지역의 정치적·경제적 독립성을 보장하는 공급망"
+     },
+     {
+      "phrase": "critical minerals sovereignty",
+      "meaning": "핵심광물 자주권, 핵심광물의 안정적 확보와 공급 관리 능력"
+     },
+     {
+      "phrase": "domestic extraction and refining capacity",
+      "meaning": "국내 채굴 및 정제 역량, 원광 채굴에서 정제·고순도화까지의 일관 능력"
+     },
+     {
+      "phrase": "vertical integration in the mineral value chain",
+      "meaning": "광물 가치사슬의 수직 통합, 채굴·정제·가공·제조를 일관 관리하는 구조"
+     },
+     {
+      "phrase": "supply chain resilience",
+      "meaning": "공급망 회복력, 외부 충격에 대응하여 공급을 지속하는 능력"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "a328721fb5",
+    "title": "Creating a sovereign lithium supply chain in Europe ... - eeNews Europe",
+    "url": "https://eenewseurope.com/en/creating-a-sovereign-lithium-supply-chain-in-europe",
+    "source": "Google News - IRA CRMA Policy",
+    "tier_weight": 1,
+    "score": 8,
+    "published": "2026-06-05",
+    "korean_summary": [
+     "유럽 전역에서 올해 리튬 파일럿 가공 공장이 가동에 들어가 자국산 리튬 공급망 구축을 뒷받침한다고 보도했음",
+     "ResourceEU Action Plan은 올해에만 €3bn을 투자할 계획이며, 유럽·영국 리튬 추출·통합 프로젝트 상위 10곳이 소개됐음",
+     "Critical Raw Materials Centre가 이달 말 발표될 예정이며 채굴·재활용 생산 확대, 비축, 공동구매를 다룰 계획임"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "유럽연합",
+     "영국",
+     "배터리 재활용",
+     "ResourceEU"
+    ],
+    "ai_processed": true,
+    "card_id": "020ff282f8bf",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "€3bn",
+     "7.45 million tonnes",
+     "$2.6 billion"
+    ],
+    "quotes": [
+     "The ResourceEU Action Plan aims to invest €3bn this year alone to boost production from both mining and recycling.",
+     "“We are the only company in the European region that can produce 100% local anode and cathode active materials."
+    ],
+    "summary_raw": "Creating a sovereign lithium supply chain in Europe ...&nbsp;&nbsp;eeNews Europe",
+    "english_phrases": [
+     {
+      "phrase": "sovereign supply chain",
+      "meaning": "외부 의존을 줄인 자국·역내 중심의 공급망"
+     },
+     {
+      "phrase": "urban ore lode",
+      "meaning": "폐배터리 등에 축적된 도시광산형 핵심광물 자원"
+     },
+     {
+      "phrase": "joint purchasing",
+      "meaning": "공동구매"
+     },
+     {
+      "phrase": "lighthouse project",
+      "meaning": "다른 사업의 본보기가 되는 대표 프로젝트"
+     }
+    ],
+    "implication": "EU와 영국이 채굴·재활용·비축·공동구매를 묶어 중국산 리튬 의존을 줄이려는 정책 투자를 본격화하고 있음",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "01541235aee8",
+   "title": "Main Street Capital in a Roth IRA: Why the ‘O of BDCs’ Belongs in Your Tax-Free Account - 24/7 Wall St.",
+   "title_norm": "main street capital in a roth ira why the o of bdcs belongs in your tax free account",
+   "url": "https://247wallst.com/investing/2026/06/04/main-street-capital-in-a-roth-ira-why-the-o-of-bdcs-belongs-in-your-tax-free-account",
+   "gnews_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObW1nRXNldDdRWmpMMnhvdFNFbHJmT2ZsRUZEU0daRnprQUxTY2VacU11WjlMUmkyTnV5dGNoUUZETmJSakItbXAzTXQ0NGh5QUxUUHI1YzQ0NzBFeF9uRVFJS0E5cXJQbktQVURnb1pQNUNrUnZmOHNzbFZzNWlnSS1PVDRfSC1nTFVEVnVZVnE3a0NMM1pWREpxMTNLRGZ6ZE9kUVEtaTNQWGhXNjVHUWJPRzZnRnhraEF4WGUyS2VpcWVuTjNN?oc=5",
+   "source": {
+    "name": "Google News - IRA CRMA Policy",
+    "domain": "247wallst.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-06-04",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:21:34+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 4746,
+    "sha256": "b32d9b10302cfde323804c70abcafd7f4c701c50c49172c00cbfdef2038b348f",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-06-04",
+    "quotes": [
+     "For an investor in the 24% federal bracket (income over $105,700 single, $211,400 married filing jointly), that means roughly a quarter of every BDC…",
+     "Using an 8.5% yield assumption, here is what a $100,000 Main Street Capital position throws off at the 24% bracket:"
+    ],
+    "final_url": "https://247wallst.com/investing/2026/06/04/main-street-capital-in-a-roth-ira-why-the-o-of-bdcs-belongs-in-your-tax-free-account/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "24/7 Wall St.가 Main Street Capital(MAIN)을 Roth IRA에 보유해야 하는 이유를 다룬 기사를 냈음",
+     "월 배당 $0.26 per share, 6월 특별배당 $0.30 per share, 2026년 6월 3일 주가 $50.71임",
+     "BDC 분배금 대부분이 일반소득으로 과세돼 24% 구간에서 $100,000당 연 $2,040 차이가 난다고 밝혔음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "$0.26 per share",
+     "$0.30 per share",
+     "$50.71"
+    ],
+    "quotes": [
+     "For an investor in the 24% federal bracket (income over $105,700 single, $211,400 married filing jointly), that means roughly a quarter of every BDC…",
+     "Using an 8.5% yield assumption, here is what a $100,000 Main Street Capital position throws off at the 24% bracket:"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "BDC",
+     "Roth IRA",
+     "Main Street Capital",
+     "배당",
+     "세금"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "business development companies",
+      "meaning": "기업개발회사(BDC), 중소·중견기업에 투자·대출하는 투자회사"
+     },
+     {
+      "phrase": "ordinary income",
+      "meaning": "일반소득(우대세율이 적용되지 않는 소득)"
+     },
+     {
+      "phrase": "qualified dividends",
+      "meaning": "적격배당(우대 세율이 적용되는 배당)"
+     },
+     {
+      "phrase": "supplemental",
+      "meaning": "특별배당(정규 배당 외 추가 배당)"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:21:42+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "de40b491d5",
+     "v1_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObW1nRXNldDdRWmpMMnhvdFNFbHJmT2ZsRUZEU0daRnprQUxTY2VacU11WjlMUmkyTnV5dGNoUUZETmJSakItbXAzTXQ0NGh5QUxUUHI1YzQ0NzBFeF9uRVFJS0E5cXJQbktQVURnb1pQNUNrUnZmOHNzbFZzNWlnSS1PVDRfSC1nTFVEVnVZVnE3a0NMM1pWREpxMTNLRGZ6ZE9kUVEtaTNQWGhXNjVHUWJPRzZnRnhraEF4WGUyS2VpcWVuTjNN?oc=5",
+     "summary_raw": "Main Street Capital in a Roth IRA: Why the ‘O of BDCs’ Belongs in Your Tax-Free Account&nbsp;&nbsp;24/7 Wall St."
+    }
+   },
+   "v1": {
+    "korean_summary": "(요약 생성 실패 — 원문 참조)",
+    "category": "research",
+    "tags": [],
+    "english_phrases": [],
+    "ai_processed": false
+   },
+   "legacy": {
+    "id": "de40b491d5",
+    "title": "Main Street Capital in a Roth IRA: Why the ‘O of BDCs’ Belongs in Your Tax-Free Account - 24/7 Wall St.",
+    "url": "https://247wallst.com/investing/2026/06/04/main-street-capital-in-a-roth-ira-why-the-o-of-bdcs-belongs-in-your-tax-free-account",
+    "source": "Google News - IRA CRMA Policy",
+    "tier_weight": 1,
+    "score": 9,
+    "published": "2026-06-04",
+    "korean_summary": [
+     "24/7 Wall St.가 Main Street Capital(MAIN)을 Roth IRA에 보유해야 하는 이유를 다룬 기사를 냈음",
+     "월 배당 $0.26 per share, 6월 특별배당 $0.30 per share, 2026년 6월 3일 주가 $50.71임",
+     "BDC 분배금 대부분이 일반소득으로 과세돼 24% 구간에서 $100,000당 연 $2,040 차이가 난다고 밝혔음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "BDC",
+     "Roth IRA",
+     "Main Street Capital",
+     "배당",
+     "세금"
+    ],
+    "ai_processed": true,
+    "card_id": "01541235aee8",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "$0.26 per share",
+     "$0.30 per share",
+     "$50.71"
+    ],
+    "quotes": [
+     "For an investor in the 24% federal bracket (income over $105,700 single, $211,400 married filing jointly), that means roughly a quarter of every BDC…",
+     "Using an 8.5% yield assumption, here is what a $100,000 Main Street Capital position throws off at the 24% bracket:"
+    ],
+    "summary_raw": "Main Street Capital in a Roth IRA: Why the ‘O of BDCs’ Belongs in Your Tax-Free Account&nbsp;&nbsp;24/7 Wall St.",
+    "english_phrases": [
+     {
+      "phrase": "business development companies",
+      "meaning": "기업개발회사(BDC), 중소·중견기업에 투자·대출하는 투자회사"
+     },
+     {
+      "phrase": "ordinary income",
+      "meaning": "일반소득(우대세율이 적용되지 않는 소득)"
+     },
+     {
+      "phrase": "qualified dividends",
+      "meaning": "적격배당(우대 세율이 적용되는 배당)"
+     },
+     {
+      "phrase": "supplemental",
+      "meaning": "특별배당(정규 배당 외 추가 배당)"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  }
+ ],
+ "excluded": [],
+ "v1_file": "week-2026-06-08.json",
+ "v1_metrics": {
+  "articles": 12,
+  "original_link": 0,
+  "body_based": 0,
+  "failed": 1
+ },
+ "trial": false
+}

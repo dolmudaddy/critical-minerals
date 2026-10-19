@@ -1,0 +1,1947 @@
+{
+ "schema_version": "card.v1",
+ "service": "cmw",
+ "week_of": "2026-05-10",
+ "generated_at": "2026-10-19T05:10:47+00:00",
+ "mincore_version": "0.3.6",
+ "model": "claude-sonnet-5-5",
+ "prompt_version": "v2.2",
+ "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+ "stats": {
+  "v1_articles": 12,
+  "cards": 12,
+  "excluded": 0,
+  "body_got": 5,
+  "body_rate": 0.417,
+  "original_link": 12,
+  "reader_proxy_used": 0,
+  "line_len": {
+   "lines": 23,
+   "median": 55,
+   "max": 77,
+   "over60": 8,
+   "over100": 0
+  },
+  "oda_filled": 3,
+  "usage": {
+   "claude-sonnet-5-5": {
+    "calls": 13,
+    "in": 28732,
+    "out": 7350
+   }
+  },
+  "cost_usd": 0.1964,
+  "body_status": {
+   "full": 4,
+   "partial": 1,
+   "title_only": 6,
+   "lead_only": 1
+  },
+  "body_source": {
+   "presscorner_api": 2,
+   "og_description": 2,
+   "trafilatura": 2,
+   "none": 6
+  },
+  "resolve": {
+   "direct": 2,
+   "decoder": 10
+  },
+  "fail_reason": {},
+  "basis": {
+   "body": 5,
+   "title": 6,
+   "lead": 1
+  },
+  "retry_reason": {
+   "lines는 3줄이어야 함 (현재 5줄)": 1
+  },
+  "flags": {},
+  "model_used": {
+   "claude-sonnet-5-5": 12
+  }
+ },
+ "total": 12,
+ "cards": [
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "5dcea84ded32",
+   "title": "Speech by Commissioner Kubilius at the signature ceremony for SAFE Agreement with Poland",
+   "title_norm": "speech by commissioner kubilius at the signature ceremony for safe agreement with poland",
+   "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1037",
+   "gnews_url": null,
+   "source": {
+    "name": "European Commission - Energy",
+    "domain": "ec.europa.eu",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-05-08",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:09:46+00:00",
+   "score": 12,
+   "body": {
+    "status": "full",
+    "chars": 3075,
+    "sha256": "59f7ad610c83787c8d3b49f872e59446ecc2a6b9cd49fd0a443674e2b1b4abc0",
+    "source": "presscorner_api",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [
+     "With the biggest amount of 43.7 bln Euros of SAFE loans."
+    ],
+    "final_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1037",
+    "strategies_tried": [
+     "presscorner_api"
+    ]
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "쿠빌리우스 집행위원이 폴란드에서 EU 최초의 SAFE 대출 협정 서명식 연설을 했음",
+     "폴란드는 SAFE 대출 중 최대 규모인 43.7 bln Euros를 활용할 예정이라고 밝혔음",
+     "SAFE는 폴란드 의장국 시기에 기록적 속도로 합의됐으며 폴란드가 첫 서명국이 됐음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "43.7 bln Euros"
+    ],
+    "quotes": [
+     "With the biggest amount of 43.7 bln Euros of SAFE loans."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "SAFE",
+     "유럽연합",
+     "폴란드",
+     "방위",
+     "대출"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "SAFE loan agreement",
+      "meaning": "SAFE 대출 협정"
+     },
+     {
+      "phrase": "Eastern Flank",
+      "meaning": "동부 전선(동부 측면)"
+     },
+     {
+      "phrase": "outproduce Russia",
+      "meaning": "러시아보다 더 많이 생산함"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 3075,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:09:50+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "a097e96607",
+     "v1_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1037",
+     "summary_raw": "European Commission Speech Warsaw, 08 May 2026 Dear friends, \nIt's a great pleasure for me to be here at this monumental occasion. \nToday we sign the first SAFE loan agreement in European Union. \nTo make all..."
+    }
+   },
+   "v1": {
+    "korean_summary": "유럽연합이 폴란드와 체결한 첫 번째 SAFE 차입금 협정으로 핵심광물 확보 전략을 본격화하고 있으며, 이는 유럽의 에너지 자립과 공급망 안정화를 위한 정책적 전환점으로 평가됩니다. 유럽 위원회는 폴란드 등 회원국과의 협력을 통해 녹색 전환에 필수적인 핵심광물의 안정적 수급 체계를 구축할 방침입니다. 한국을 포함한 자원 부존국과의 국제 협력 강화 필요성이 대두되고 있음을 시사합니다.",
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "공급망 정책",
+     "폴란드·유럽연합"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "SAFE loan agreement for critical minerals",
+      "meaning": "핵심광물 확보를 위한 SAFE 차입금 협정"
+     },
+     {
+      "phrase": "supply chain resilience",
+      "meaning": "공급망 탄력성 및 안정성"
+     },
+     {
+      "phrase": "strategic autonomy in raw materials sourcing",
+      "meaning": "원자재 수급에서의 전략적 자립"
+     },
+     {
+      "phrase": "EU-Member State partnership framework",
+      "meaning": "유럽연합-회원국 협력 체계"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "a097e96607",
+    "title": "Speech by Commissioner Kubilius at the signature ceremony for SAFE Agreement with Poland",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1037",
+    "source": "European Commission - Energy",
+    "tier_weight": 5,
+    "score": 12,
+    "published": "2026-05-08",
+    "korean_summary": [
+     "쿠빌리우스 집행위원이 폴란드에서 EU 최초의 SAFE 대출 협정 서명식 연설을 했음",
+     "폴란드는 SAFE 대출 중 최대 규모인 43.7 bln Euros를 활용할 예정이라고 밝혔음",
+     "SAFE는 폴란드 의장국 시기에 기록적 속도로 합의됐으며 폴란드가 첫 서명국이 됐음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "SAFE",
+     "유럽연합",
+     "폴란드",
+     "방위",
+     "대출"
+    ],
+    "ai_processed": true,
+    "card_id": "5dcea84ded32",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "43.7 bln Euros"
+    ],
+    "quotes": [
+     "With the biggest amount of 43.7 bln Euros of SAFE loans."
+    ],
+    "summary_raw": "European Commission Speech Warsaw, 08 May 2026 Dear friends, \nIt's a great pleasure for me to be here at this monumental occasion. \nToday we sign the first SAFE loan agreement in European Union. \nTo make all...",
+    "english_phrases": [
+     {
+      "phrase": "SAFE loan agreement",
+      "meaning": "SAFE 대출 협정"
+     },
+     {
+      "phrase": "Eastern Flank",
+      "meaning": "동부 전선(동부 측면)"
+     },
+     {
+      "phrase": "outproduce Russia",
+      "meaning": "러시아보다 더 많이 생산함"
+     }
+    ],
+    "implication": "",
+    "trial": true
+   },
+   "trial": true
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "950b911cb266",
+   "title": "Eurobarometer shows great majority of Europeans see benefits from EU membership and the EU as a pillar of stability and security",
+   "title_norm": "eurobarometer shows great majority of europeans see benefits from eu membership and the eu as a pillar of stability and security",
+   "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1041",
+   "gnews_url": null,
+   "source": {
+    "name": "European Commission - Energy",
+    "domain": "ec.europa.eu",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-05-08",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:09:51+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 5351,
+    "sha256": "2624791d658a47b1e53dc329d069e21e90661a0d369e45d939d21befcbe124d1",
+    "source": "presscorner_api",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [
+     "Three quarters of respondents (75%) say they feel they are citizens of the EU , matching the highest level ever recorded in spring 2025.",
+     "The EU – a pillar of stability and security Europeans strongly view the EU as a stabilising force in an uncertain world (73%, +6 percentage points)."
+    ],
+    "final_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1041",
+    "strategies_tried": [
+     "presscorner_api"
+    ]
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Europe Day를 앞두고 새 Eurobarometer 설문 결과가 공개됐음",
+     "공동 방위·안보 정책에 대한 지지는 81%로 최근 20년 중 최고 수준이었음",
+     "핵심광물 관련 언급과 후속 일정은 본문에서 확인 불가임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "81%",
+     "80%",
+     "75%"
+    ],
+    "quotes": [
+     "Three quarters of respondents (75%) say they feel they are citizens of the EU , matching the highest level ever recorded in spring 2025.",
+     "The EU – a pillar of stability and security Europeans strongly view the EU as a stabilising force in an uncertain world (73%, +6 percentage points)."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "유럽연합",
+     "유로바로미터",
+     "공동 방위·안보",
+     "무역 다변화"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Eurobarometer",
+      "meaning": "EU 시민 대상 정례 여론조사"
+     },
+     {
+      "phrase": "Europe Day",
+      "meaning": "유럽의 날"
+     },
+     {
+      "phrase": "common defence and security policy",
+      "meaning": "공동 방위·안보 정책"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:10:00+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "231cb9b1d1",
+     "v1_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1041",
+     "summary_raw": "European Commission Press release Brussels, 08 May 2026 Published ahead of Europe Day, the new Eurobarometer survey shows nearly three quarters of Europeans believe their country has benefited from being a member of the EU.  In a challenging global context, Europeans increasingly see the EU as a source of stability, alongside record-high backing for a common defence and security policy. Three quarters of respondents (75%) say they feel they are citizens of the EU, matching the highest level ever"
+    }
+   },
+   "v1": {
+    "korean_summary": "유럽연합 집행위원회가 발표한 유로바로미터 조사에 따르면, 유럽 국민의 약 4분의 3(75%)이 EU 회원국 소속이 자국에 이득이 되었다고 평가하고 있는 것으로 확인되었습니다. 글로벌 불안정성이 심화되는 가운데 유럽 시민들은 EU를 안정성과 안보의 핵심 기둥으로 인식하고 있으며, 공동 방위·안보 정책에 대한 지지도가 역대 최고 수준에 도달한 것으로 나타났습니다. 이러한 조사 결과는 자원·에너지 자급률 강화 및 핵심광물 확보를 위한 EU의 전략적 연대 강화 필요성을 뒷받침하는 것으로 평가됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "EU 핵심광물",
+     "에너지 안보 정책",
+     "유럽"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals security through EU strategic autonomy",
+      "meaning": "EU 전략적 자율성을 통한 핵심광물 수급 안보"
+     },
+     {
+      "phrase": "Eurobarometer survey on resource security perception",
+      "meaning": "자원 안보 인식도에 관한 유로바로미터 조사"
+     },
+     {
+      "phrase": "common defence and security policy framework",
+      "meaning": "공동 방위·안보 정책 체계"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "231cb9b1d1",
+    "title": "Eurobarometer shows great majority of Europeans see benefits from EU membership and the EU as a pillar of stability and security",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1041",
+    "source": "European Commission - Energy",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-05-08",
+    "korean_summary": [
+     "Europe Day를 앞두고 새 Eurobarometer 설문 결과가 공개됐음",
+     "공동 방위·안보 정책에 대한 지지는 81%로 최근 20년 중 최고 수준이었음",
+     "핵심광물 관련 언급과 후속 일정은 본문에서 확인 불가임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "유럽연합",
+     "유로바로미터",
+     "공동 방위·안보",
+     "무역 다변화"
+    ],
+    "ai_processed": true,
+    "card_id": "950b911cb266",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "81%",
+     "80%",
+     "75%"
+    ],
+    "quotes": [
+     "Three quarters of respondents (75%) say they feel they are citizens of the EU , matching the highest level ever recorded in spring 2025.",
+     "The EU – a pillar of stability and security Europeans strongly view the EU as a stabilising force in an uncertain world (73%, +6 percentage points)."
+    ],
+    "summary_raw": "European Commission Press release Brussels, 08 May 2026 Published ahead of Europe Day, the new Eurobarometer survey shows nearly three quarters of Europeans believe their country has benefited from being a member of the EU.  In a challenging global context, Europeans increasingly see the EU as a source of stability, alongside record-high backing for a common defence and security policy. Three quarters of respondents (75%) say they feel they are citizens of the EU, matching the highest level ever",
+    "english_phrases": [
+     {
+      "phrase": "Eurobarometer",
+      "meaning": "EU 시민 대상 정례 여론조사"
+     },
+     {
+      "phrase": "Europe Day",
+      "meaning": "유럽의 날"
+     },
+     {
+      "phrase": "common defence and security policy",
+      "meaning": "공동 방위·안보 정책"
+     }
+    ],
+    "implication": "",
+    "trial": true
+   },
+   "trial": true
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "b076b7d6907d",
+   "title": "Fastmarkets clarifies inclusion of government-set benchmark pricing in Indonesia nickel ore assessment - Fastmarkets",
+   "title_norm": "fastmarkets clarifies inclusion of government set benchmark pricing in indonesia nickel ore assessment",
+   "url": "https://fastmarkets.com/insights/fastmarkets-clarifies-inclusion-of-government-set-benchmark-pricing-in-indonesia-nickel-ore-assessment",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMldmanBNZldVUkJkWTZTeFdzMVoyOHVHZnptMDJ0T2pIRDdJRXdaMXA3SUZzVS1YSHNuNFB5eE9FamhwSzUxMmlfdjBuSjhwa0lyRWxSTTlWMUd1UE40NW11WV9jWUhNZTRJMWpyTnNUS1NTMDgtQThsVm1LWUxKYkVGVm5zRldIS0xNNGZkYXlQQmpIaDlIM0RRSEU5cVBUaUtkb0puLXl5aVN4X1BlREhTNURGRnZDRlBGSWFJaTRZZ1JVNWpQcjM4ZDg5eHpxY3k3bk9wRQ?oc=5",
+   "source": {
+    "name": "Fastmarkets - via Google News",
+    "domain": "fastmarkets.com",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-05-08",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:10:01+00:00",
+   "score": 9,
+   "body": {
+    "status": "partial",
+    "chars": 329,
+    "sha256": "e9c60d1a71f5350d101f30460b60ecb688a0b15613c0d84628a4da8da4eaaaf7",
+    "source": "og_description",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [
+     "Fastmarkets wishes to clarify that it accepts data submissions in outright price and as a differential to the Mineral Benchmark Price (HPM)-plus-premium for its Indonesian domestic trade nickel ore price assessments."
+    ],
+    "final_url": "https://www.fastmarkets.com/insights/fastmarkets-clarifies-inclusion-of-government-set-benchmark-pricing-in-indonesia-nickel-ore-assessment/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Fastmarkets가 인도네시아 니켈 광석 가격 평가에 정부 기준가격 반영 방식을 명확히 밝혔음",
+     "국내 거래 니켈 광석 평가에서 확정 가격과 HPM 플러스 프리미엄 대비 차이값 형태의 데이터 제출을 모두 받는다고 했음",
+     "인도네시아 정부의 최근 HPM 규격 변경에 대해 시장 의견을 구하고 있으며 후속 일정은 확인 불가임"
+    ],
+    "basis": "body",
+    "key_figures": [],
+    "quotes": [
+     "Fastmarkets wishes to clarify that it accepts data submissions in outright price and as a differential to the Mineral Benchmark Price (HPM)-plus-premium for its Indonesian domestic trade nickel ore price assessments."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "니켈",
+     "니켈 광석",
+     "가격 평가",
+     "HPM",
+     "인도네시아"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Mineral Benchmark Price (HPM)",
+      "meaning": "인도네시아 정부가 정하는 광물 기준가격"
+     },
+     {
+      "phrase": "differential to the Mineral Benchmark Price (HPM)-plus-premium",
+      "meaning": "HPM에 프리미엄을 더한 가격 대비 차이값"
+     },
+     {
+      "phrase": "outright price",
+      "meaning": "다른 기준 없이 확정된 단독 가격"
+     }
+    ],
+    "implication": "인도네시아 정부 기준가격 규격 변경이 니켈 광석 국내 거래가 평가 방식에 영향을 줄 수 있어 가격 산정 기준이 조정될 가능성이 있음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "partial",
+    "input_chars": 329,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:10:04+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "dce20b7290",
+     "v1_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMldmanBNZldVUkJkWTZTeFdzMVoyOHVHZnptMDJ0T2pIRDdJRXdaMXA3SUZzVS1YSHNuNFB5eE9FamhwSzUxMmlfdjBuSjhwa0lyRWxSTTlWMUd1UE40NW11WV9jWUhNZTRJMWpyTnNUS1NTMDgtQThsVm1LWUxKYkVGVm5zRldIS0xNNGZkYXlQQmpIaDlIM0RRSEU5cVBUaUtkb0puLXl5aVN4X1BlREhTNURGRnZDRlBGSWFJaTRZZ1JVNWpQcjM4ZDg5eHpxY3k3bk9wRQ?oc=5",
+     "summary_raw": "Fastmarkets clarifies inclusion of government-set benchmark pricing in Indonesia nickel ore assessment&nbsp;&nbsp;Fastmarkets"
+    }
+   },
+   "v1": {
+    "korean_summary": "Fastmarkets는 인도네시아 니켈광석 가격평가에 정부 벤치마크 가격 포함 기준을 명확히 하였습니다. 이는 니켈 시장의 투명성 강화와 공정한 가격발견 메커니즘 구축에 기여할 것으로 평가됩니다. 핵심광물 공급망 안정화를 위한 국제 가격지표 정립의 중요성이 한층 부각되고 있습니다.",
+    "category": "policy_market",
+    "tags": [
+     "니켈",
+     "가격평가",
+     "인도네시아"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "government-set benchmark pricing",
+      "meaning": "정부가 설정한 벤치마크 가격책정"
+     },
+     {
+      "phrase": "nickel ore assessment",
+      "meaning": "니켈광석 가격평가/광물평가"
+     },
+     {
+      "phrase": "price discovery mechanism",
+      "meaning": "가격발견 메커니즘"
+     },
+     {
+      "phrase": "transparent pricing methodology",
+      "meaning": "투명한 가격책정 방식"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "dce20b7290",
+    "title": "Fastmarkets clarifies inclusion of government-set benchmark pricing in Indonesia nickel ore assessment - Fastmarkets",
+    "url": "https://fastmarkets.com/insights/fastmarkets-clarifies-inclusion-of-government-set-benchmark-pricing-in-indonesia-nickel-ore-assessment",
+    "source": "Fastmarkets - via Google News",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-05-08",
+    "korean_summary": [
+     "Fastmarkets가 인도네시아 니켈 광석 가격 평가에 정부 기준가격 반영 방식을 명확히 밝혔음",
+     "국내 거래 니켈 광석 평가에서 확정 가격과 HPM 플러스 프리미엄 대비 차이값 형태의 데이터 제출을 모두 받는다고 했음",
+     "인도네시아 정부의 최근 HPM 규격 변경에 대해 시장 의견을 구하고 있으며 후속 일정은 확인 불가임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "니켈",
+     "니켈 광석",
+     "가격 평가",
+     "HPM",
+     "인도네시아"
+    ],
+    "ai_processed": true,
+    "card_id": "b076b7d6907d",
+    "basis": "body",
+    "body_status": "partial",
+    "key_figures": [],
+    "quotes": [
+     "Fastmarkets wishes to clarify that it accepts data submissions in outright price and as a differential to the Mineral Benchmark Price (HPM)-plus-premium for its Indonesian domestic trade nickel ore price assessments."
+    ],
+    "summary_raw": "Fastmarkets clarifies inclusion of government-set benchmark pricing in Indonesia nickel ore assessment&nbsp;&nbsp;Fastmarkets",
+    "english_phrases": [
+     {
+      "phrase": "Mineral Benchmark Price (HPM)",
+      "meaning": "인도네시아 정부가 정하는 광물 기준가격"
+     },
+     {
+      "phrase": "differential to the Mineral Benchmark Price (HPM)-plus-premium",
+      "meaning": "HPM에 프리미엄을 더한 가격 대비 차이값"
+     },
+     {
+      "phrase": "outright price",
+      "meaning": "다른 기준 없이 확정된 단독 가격"
+     }
+    ],
+    "implication": "인도네시아 정부 기준가격 규격 변경이 니켈 광석 국내 거래가 평가 방식에 영향을 줄 수 있어 가격 산정 기준이 조정될 가능성이 있음",
+    "trial": true
+   },
+   "trial": true
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "ef71fdeb9752",
+   "title": "US rare earth champion views Iran war as demand ‘accelerant’ - Mining.com",
+   "title_norm": "us rare earth champion views iran war as demand accelerant",
+   "url": "https://mining.com/web/us-rare-earth-champion-views-iran-war-as-demand-accelerant",
+   "gnews_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQU0ZYYzFtbWZpaDg3WGtyajdwNlVCSm8yeEQtM2RHVzJiUzZTWHB3S3pzUlZRYktvWmc5S3EyYjhDRlZTMGRERHUwUUx0dlMwaVhoUEtJWXBLalZlLWg2TTJjZUJBbm1vNmZXc0JmbXoyb2RMdnNBV25tUXRNRFNXZVYwdHN1QnVBcUpJOThjOA?oc=5",
+   "source": {
+    "name": "Google News - Rare Earth Elements",
+    "domain": "mining.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-05-08",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:10:05+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 3384,
+    "sha256": "8ceb6f00420b855ffdedf576e6c832cf113b6ccc89bff129959170c8da5b4d97",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-05-08",
+    "quotes": [
+     "MP got a $400 million equity investment from the Department of Defense last year to back its planned expansion from America’s sole rare earths miner to the country’s leading producer of magnets.",
+     "“Prices will go up for NdPr, but I don’t think as much for the heavies,” Litinsky said."
+    ],
+    "final_url": "https://www.mining.com/web/us-rare-earth-champion-views-iran-war-as-demand-accelerant/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "미 국방부 지원을 받는 희토류 생산업체 MP Materials의 CEO가 이란 전쟁을 희토류 수요의 '가속제'로 평가했음",
+     "MP는 지난해 국방부로부터 $400 million 지분 투자를 받았고, 1분기(3월까지) 조정 EBITDA는 $36.6 million이었음",
+     "텍사스에서 자석 공장 1곳을 가동 중이며 열 배 규모의 신규 공장 착공에 들어갔고, 중희토류 분리 생산도 곧 시작할 예정임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "$400 million",
+     "$36.6 million",
+     "60,000 tons"
+    ],
+    "quotes": [
+     "MP got a $400 million equity investment from the Department of Defense last year to back its planned expansion from America’s sole rare earths miner to the country’s leading producer of magnets.",
+     "“Prices will go up for NdPr, but I don’t think as much for the heavies,” Litinsky said."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "영구자석",
+     "중희토류",
+     "MP Materials",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "demand accelerant",
+      "meaning": "수요 가속제, 수요 증가를 앞당기는 요인"
+     },
+     {
+      "phrase": "heavy rare earths",
+      "meaning": "중희토류, 고온에서 자석 성능 유지를 돕는 첨가 원소"
+     },
+     {
+      "phrase": "export controls",
+      "meaning": "수출 통제"
+     },
+     {
+      "phrase": "NdPr",
+      "meaning": "네오디뮴·프라세오디뮴 합금, 희토류 자석의 주원료"
+     }
+    ],
+    "implication": "서방 자석 생산능력이 60,000 tons 넘게 계획된 반면 NdPr 미계약 물량은 매우 적어, NdPr 수급이 빠듯해지고 중희토류 가격은 자석 내 사용량 감소로 약세를 보일 수 있음."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 3384,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:10:11+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "7423ef3b02",
+     "v1_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQU0ZYYzFtbWZpaDg3WGtyajdwNlVCSm8yeEQtM2RHVzJiUzZTWHB3S3pzUlZRYktvWmc5S3EyYjhDRlZTMGRERHUwUUx0dlMwaVhoUEtJWXBLalZlLWg2TTJjZUJBbm1vNmZXc0JmbXoyb2RMdnNBV25tUXRNRFNXZVYwdHN1QnVBcUpJOThjOA?oc=5",
+     "summary_raw": "US rare earth champion views Iran war as demand ‘accelerant’&nbsp;&nbsp;Mining.com"
+    }
+   },
+   "v1": {
+    "korean_summary": "미국 희토류 산업 주도 기업이 이란 정세 불안을 핵심광물 수요 증대의 촉매제로 평가하고 있음이 확인되었습니다. 중동 지역 갈등이 방위산업 및 첨단기술 분야의 핵심광물 공급망 재편을 가속화할 것으로 전망되고 있습니다. 이는 미국의 희토류 자급화 및 동맹국과의 공급망 다원화 전략 강화의 필요성을 더욱 부각시키고 있습니다.",
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "공급망 안보",
+     "미국-중동 정세"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "demand accelerant",
+      "meaning": "수요 증가 촉매제, 가속 요인"
+     },
+     {
+      "phrase": "rare earth supply chain resilience",
+      "meaning": "희토류 공급망 복원력, 공급망 안정성"
+     },
+     {
+      "phrase": "geopolitical risk premium on critical minerals",
+      "meaning": "핵심광물의 지정학적 위험 프리미엄"
+     },
+     {
+      "phrase": "domestic rare earth production capacity",
+      "meaning": "국내 희토류 생산 능력"
+     },
+     {
+      "phrase": "allied supply chain diversification",
+      "meaning": "동맹국과의 공급망 다원화"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "7423ef3b02",
+    "title": "US rare earth champion views Iran war as demand ‘accelerant’ - Mining.com",
+    "url": "https://mining.com/web/us-rare-earth-champion-views-iran-war-as-demand-accelerant",
+    "source": "Google News - Rare Earth Elements",
+    "tier_weight": 1,
+    "score": 9,
+    "published": "2026-05-08",
+    "korean_summary": [
+     "미 국방부 지원을 받는 희토류 생산업체 MP Materials의 CEO가 이란 전쟁을 희토류 수요의 '가속제'로 평가했음",
+     "MP는 지난해 국방부로부터 $400 million 지분 투자를 받았고, 1분기(3월까지) 조정 EBITDA는 $36.6 million이었음",
+     "텍사스에서 자석 공장 1곳을 가동 중이며 열 배 규모의 신규 공장 착공에 들어갔고, 중희토류 분리 생산도 곧 시작할 예정임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "영구자석",
+     "중희토류",
+     "MP Materials",
+     "미국"
+    ],
+    "ai_processed": true,
+    "card_id": "ef71fdeb9752",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "$400 million",
+     "$36.6 million",
+     "60,000 tons"
+    ],
+    "quotes": [
+     "MP got a $400 million equity investment from the Department of Defense last year to back its planned expansion from America’s sole rare earths miner to the country’s leading producer of magnets.",
+     "“Prices will go up for NdPr, but I don’t think as much for the heavies,” Litinsky said."
+    ],
+    "summary_raw": "US rare earth champion views Iran war as demand ‘accelerant’&nbsp;&nbsp;Mining.com",
+    "english_phrases": [
+     {
+      "phrase": "demand accelerant",
+      "meaning": "수요 가속제, 수요 증가를 앞당기는 요인"
+     },
+     {
+      "phrase": "heavy rare earths",
+      "meaning": "중희토류, 고온에서 자석 성능 유지를 돕는 첨가 원소"
+     },
+     {
+      "phrase": "export controls",
+      "meaning": "수출 통제"
+     },
+     {
+      "phrase": "NdPr",
+      "meaning": "네오디뮴·프라세오디뮴 합금, 희토류 자석의 주원료"
+     }
+    ],
+    "implication": "서방 자석 생산능력이 60,000 tons 넘게 계획된 반면 NdPr 미계약 물량은 매우 적어, NdPr 수급이 빠듯해지고 중희토류 가격은 자석 내 사용량 감소로 약세를 보일 수 있음.",
+    "trial": true
+   },
+   "trial": true
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "14a5de67a675",
+   "title": "Rare Earths Americas IPO: Stock price will be closely watched today as 'exploration stage' firm lists on NYSE - Fast Company",
+   "title_norm": "rare earths americas ipo stock price will be closely watched today as exploration stage firm lists on nyse",
+   "url": "https://fastcompany.com/91537577/rare-earths-americas-ipo-stock-price-today-nyse-trading-debut",
+   "gnews_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQzlrdERNdVZpYzNXeFIzNGN6SWlYSndNYldYN1F6R2E5VUdKUEg3S29ORi1NeXBHYUpidDFkcTJ5ZHZ1dUh0MkliWDNabmpqRmNDLUVRblhsRVZFRTAzTWxWWVVjeWpvcERLSXFnNVF3SndZSjRNUGJMYzRHeE0xTFBpOHVmV3hMT285bGU4SUVoWklQamttTjVfUXZiblE?oc=5",
+   "source": {
+    "name": "Google News - Rare Earth Elements",
+    "domain": "fastcompany.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-05-06",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:10:11+00:00",
+   "score": 8,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "bot_block",
+    "http_status": 403,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.fastcompany.com/91537577/rare-earths-americas-ipo-stock-price-today-nyse-trading-debut",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Rare Earths Americas IPO, '탐사 단계' 기업이 NYSE에 상장하며 오늘 주가가 주목받을 것임"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "기업공개",
+     "뉴욕증권거래소",
+     "탐사 단계"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "exploration stage",
+      "meaning": "탐사 단계"
+     },
+     {
+      "phrase": "IPO",
+      "meaning": "기업공개(신규 상장)"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:10:16+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "bb74b5bcc0",
+     "v1_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQzlrdERNdVZpYzNXeFIzNGN6SWlYSndNYldYN1F6R2E5VUdKUEg3S29ORi1NeXBHYUpidDFkcTJ5ZHZ1dUh0MkliWDNabmpqRmNDLUVRblhsRVZFRTAzTWxWWVVjeWpvcERLSXFnNVF3SndZSjRNUGJMYzRHeE0xTFBpOHVmV3hMT285bGU4SUVoWklQamttTjVfUXZiblE?oc=5",
+     "summary_raw": "Rare Earths Americas IPO: Stock price will be closely watched today as 'exploration stage' firm lists on NYSE&nbsp;&nbsp;Fast Company"
+    }
+   },
+   "v1": {
+    "korean_summary": "희토류 광물 탐사 기업인 Rare Earths Americas가 NYSE에 상장되며 탐사 단계 기업의 주가 변동이 시장에서 주목받을 전망입니다. 본 상장은 미주 지역 희토류 공급 확보의 중요성이 증대되는 가운데 핵심광물 산업 내 자본 이동의 신호로 해석됩니다. 미국을 중심으로 한 핵심광물 공급망 자주화 정책이 본격화되는 추세를 반영하고 있습니다.",
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "자본시장·상장",
+     "북미"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "exploration stage firm",
+      "meaning": "탐사 단계 기업 (상업 생산 이전의 광물 부존량 평가·개발 단계 회사)"
+     },
+     {
+      "phrase": "critical minerals supply security",
+      "meaning": "핵심광물 공급 보안 (국가 전략 자원의 안정적 수급 확보)"
+     },
+     {
+      "phrase": "domestic rare earth production capacity",
+      "meaning": "국내 희토류 생산 역량 (지역 공급망 자립도 제고)"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "bb74b5bcc0",
+    "title": "Rare Earths Americas IPO: Stock price will be closely watched today as 'exploration stage' firm lists on NYSE - Fast Company",
+    "url": "https://fastcompany.com/91537577/rare-earths-americas-ipo-stock-price-today-nyse-trading-debut",
+    "source": "Google News - Rare Earth Elements",
+    "tier_weight": 1,
+    "score": 8,
+    "published": "2026-05-06",
+    "korean_summary": [
+     "[제목 기반] Rare Earths Americas IPO, '탐사 단계' 기업이 NYSE에 상장하며 오늘 주가가 주목받을 것임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "기업공개",
+     "뉴욕증권거래소",
+     "탐사 단계"
+    ],
+    "ai_processed": true,
+    "card_id": "14a5de67a675",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Rare Earths Americas IPO: Stock price will be closely watched today as 'exploration stage' firm lists on NYSE&nbsp;&nbsp;Fast Company",
+    "english_phrases": [
+     {
+      "phrase": "exploration stage",
+      "meaning": "탐사 단계"
+     },
+     {
+      "phrase": "IPO",
+      "meaning": "기업공개(신규 상장)"
+     }
+    ],
+    "implication": "",
+    "trial": true
+   },
+   "trial": true
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "b7933157df31",
+   "title": "G7 trade talks target critical minerals as US-EU tariff rift strains unity - Reuters",
+   "title_norm": "g7 trade talks target critical minerals as us eu tariff rift strains unity",
+   "url": "https://reuters.com/world/china/g7-trade-ministers-discuss-critical-minerals-supply-chain-french-minister-says-2026-05-06",
+   "gnews_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZDhmSW9wWHFrOHF6RnFCMUpGMGlpcTRybjVjZE9oTGltUmpRY2M3MHFsTmgxcy04TVcyanBJa2tGbUMyR1V1c3lsWkJRVE5tYWEwLWdqdXo1TGhwZnQ3bUpxNmZQZERjaDZQQ09WUkhxcWZwMTQ5NTZCeU9kVjBIVDlwX19MUWlTa2F1bE9nNzN1QXNPc2RDb0xWSFFnSF9tOVJJVmtNXzJBdV8tdmk1MlF1dEdvV2FkNU4xM3hEbUhtR2Zf?oc=5",
+   "source": {
+    "name": "Reuters - via Google News",
+    "domain": "reuters.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-05-06",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:10:16+00:00",
+   "score": 7,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "skipped",
+    "http_status": null,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": null,
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "G7 무역 협상이 핵심광물을 겨냥했으며 미국-EU 관세 균열로 결속이 흔들리고 있음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "G7",
+     "무역협상",
+     "관세",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "tariff rift",
+      "meaning": "관세를 둘러싼 균열"
+     },
+     {
+      "phrase": "strains unity",
+      "meaning": "결속을 긴장시키다"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:10:17+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "f09672dc17",
+     "v1_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZDhmSW9wWHFrOHF6RnFCMUpGMGlpcTRybjVjZE9oTGltUmpRY2M3MHFsTmgxcy04TVcyanBJa2tGbUMyR1V1c3lsWkJRVE5tYWEwLWdqdXo1TGhwZnQ3bUpxNmZQZERjaDZQQ09WUkhxcWZwMTQ5NTZCeU9kVjBIVDlwX19MUWlTa2F1bE9nNzN1QXNPc2RDb0xWSFFnSF9tOVJJVmtNXzJBdV8tdmk1MlF1dEdvV2FkNU4xM3hEbUhtR2Zf?oc=5",
+     "summary_raw": "G7 trade talks target critical minerals as US-EU tariff rift strains unity&nbsp;&nbsp;Reuters"
+    }
+   },
+   "v1": {
+    "korean_summary": "G7 정상들이 미-EU 관세 갈등 속에서도 핵심광물 공급망 안정화에 합의했으며, 이는 중국 의존도 감소 및 우방국 간 협력 강화를 목표로 하고 있음이 확인되었습니다. 미국의 보호주의 정책과 EU의 개방 입장의 충돌 속에서도 핵심광물 확보는 양측 모두의 전략적 우선순위로 대두되었습니다. 향후 G7 회원국들 간 핵심광물 자원 협력 메커니즘 강화 및 공급망 다변화가 추진될 전망입니다.",
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "공급망 안보",
+     "G7·미국·EU"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals supply chain diversification",
+      "meaning": "핵심광물 공급망 다변화"
+     },
+     {
+      "phrase": "de-risking from China dependency",
+      "meaning": "중국 의존도 감소 및 리스크 완화"
+     },
+     {
+      "phrase": "strategic cooperation framework among allies",
+      "meaning": "우방국 간 전략적 협력 체계 구축"
+     },
+     {
+      "phrase": "trade tensions amid tariff disputes",
+      "meaning": "관세 분쟁으로 인한 무역 긴장"
+     },
+     {
+      "phrase": "mineral-critical industries resilience",
+      "meaning": "핵심광물 의존 산업의 강건성 강화"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "f09672dc17",
+    "title": "G7 trade talks target critical minerals as US-EU tariff rift strains unity - Reuters",
+    "url": "https://reuters.com/world/china/g7-trade-ministers-discuss-critical-minerals-supply-chain-french-minister-says-2026-05-06",
+    "source": "Reuters - via Google News",
+    "tier_weight": 3,
+    "score": 7,
+    "published": "2026-05-06",
+    "korean_summary": [
+     "[제목 기반] G7 무역 협상이 핵심광물을 겨냥했으며 미국-EU 관세 균열로 결속이 흔들리고 있음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "G7",
+     "무역협상",
+     "관세",
+     "미국"
+    ],
+    "ai_processed": true,
+    "card_id": "b7933157df31",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "G7 trade talks target critical minerals as US-EU tariff rift strains unity&nbsp;&nbsp;Reuters",
+    "english_phrases": [
+     {
+      "phrase": "tariff rift",
+      "meaning": "관세를 둘러싼 균열"
+     },
+     {
+      "phrase": "strains unity",
+      "meaning": "결속을 긴장시키다"
+     }
+    ],
+    "implication": "",
+    "trial": true
+   },
+   "trial": true
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "cf0295a27cf7",
+   "title": "Critical minerals surge places infrastructure and energy at the centre of DRC’s mining future - Mining Weekly",
+   "title_norm": "critical minerals surge places infrastructure and energy at the centre of drc s mining future",
+   "url": "https://miningweekly.com/article/critical-minerals-surge-places-infrastructure-and-energy-at-the-centre-of-drcs-mining-future-2026-05-07",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPa3JldndoY05mMmNyQm9lZ0RmZTY0bFJSblFtdlU3eHFkdkNZMERaeXVOemxFNnozRzZhU2dzNWJLcE9UZDNjVDh4V1VzLWZ1OWl0aTNqeGtwQ2didHAyc3I1b2pHcDh6czJ5cnRpbTZobFhsWVlqSWtTOXJxZE83aTFDLXlraVVzeXhkZ1V6TWIxNUlWVTExNFlaSGw2Xzc0c0pHRnZIWkVqaURzTC1BenI2Zml2Zm5iSVlfUVgtV1pyLW80amhlSDRGcXZ2eExXZjhaVmZkWQ?oc=5",
+   "source": {
+    "name": "Mining Weekly - via Google News",
+    "domain": "miningweekly.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-05-07",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:10:18+00:00",
+   "score": 7,
+   "body": {
+    "status": "full",
+    "chars": 4110,
+    "sha256": "6caae37f016aa65fc525fc784f685b2ca6d517bb4c86b8e7bb940b811901eb2a",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-05-07",
+    "quotes": [
+     "Producing over 70% of the world’s cobalt and rapidly expanding its copper output, the country is no longer just a source of raw materials it is increasingly a strategic hub for global industrial growth.",
+     "Critical minerals surge places infrastructure and energy at the centre of DRC’s mining future"
+    ],
+    "final_url": "https://www.miningweekly.com/article/critical-minerals-surge-places-infrastructure-and-energy-at-the-centre-of-drcs-mining-future-2026-05-07",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Mining Weekly가 핵심광물 수요 증가로 DRC 채굴의 미래에서 인프라·에너지가 중심이 됐다고 보도했음",
+     "DRC는 세계 코발트의 over 70%를 생산하며 구리 생산도 빠르게 늘리고 있다고 전했음",
+     "DRC Mining Week 2026이 6월 17~19일 Lubumbashi에서 열리며 16일 사전 콘퍼런스가 예정돼 있음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "over 70%",
+     "17 to 19 June",
+     "16 June"
+    ],
+    "quotes": [
+     "Producing over 70% of the world’s cobalt and rapidly expanding its copper output, the country is no longer just a source of raw materials it is increasingly a strategic hub for global industrial growth.",
+     "Critical minerals surge places infrastructure and energy at the centre of DRC’s mining future"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "코발트",
+     "구리",
+     "DRC",
+     "인프라",
+     "에너지"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals hub",
+      "meaning": "핵심광물 거점"
+     },
+     {
+      "phrase": "downstream beneficiation",
+      "meaning": "하류 부가가치화(현지 가공)"
+     },
+     {
+      "phrase": "responsible sourcing frameworks",
+      "meaning": "책임 있는 조달 체계"
+     },
+     {
+      "phrase": "offtakers",
+      "meaning": "광물 구매(인수) 계약 당사자"
+     }
+    ],
+    "implication": "세계 코발트의 over 70%를 생산하는 DRC의 전력·물류·자금 조달 병목이 풀리지 않으면 공급 확대가 수요 증가 속도에 뒤처질 수 있음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:10:34+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 5줄)"
+    ],
+    "retry_tails": [
+     "  {\"phrase\": \"offtakers\", \"meaning\": \"광물 구매(인수) 계약 당사자\"}\n  ],\n  \"implication\": \"세계 코발트 70% 이상을 책임지는 DRC의 전력·물류 병목이 해소되지 않으면 코발트·구리 공급 확대 속도가 수요를 따라가지 못할 수 있음\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "f8945a3d01",
+     "v1_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPa3JldndoY05mMmNyQm9lZ0RmZTY0bFJSblFtdlU3eHFkdkNZMERaeXVOemxFNnozRzZhU2dzNWJLcE9UZDNjVDh4V1VzLWZ1OWl0aTNqeGtwQ2didHAyc3I1b2pHcDh6czJ5cnRpbTZobFhsWVlqSWtTOXJxZE83aTFDLXlraVVzeXhkZ1V6TWIxNUlWVTExNFlaSGw2Xzc0c0pHRnZIWkVqaURzTC1BenI2Zml2Zm5iSVlfUVgtV1pyLW80amhlSDRGcXZ2eExXZjhaVmZkWQ?oc=5",
+     "summary_raw": "Critical minerals surge places infrastructure and energy at the centre of DRC’s mining future&nbsp;&nbsp;Mining Weekly"
+    }
+   },
+   "v1": {
+    "korean_summary": "콩고민주공화국(DRC)의 핵심광물 수요 급증이 인프라 및 에너지 부문을 중심으로 광업의 미래 방향을 재편하고 있습니다. DRC는 세계 코발트 매장량의 70% 이상을 보유한 핵심광물 공급국으로서 에너지 전환 시대의 전략적 중요성이 크게 부각되고 있습니다. 향후 지속가능한 광물 개발과 기반시설 투자가 DRC 광업의 지속적 성장을 위한 핵심 과제로 대두될 것으로 전망됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "코발트",
+     "핵심광물 공급망",
+     "콩고민주공화국(DRC)"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals surge",
+      "meaning": "핵심광물 수요의 급증"
+     },
+     {
+      "phrase": "infrastructure and energy transition",
+      "meaning": "인프라 개발과 에너지 전환의 연계"
+     },
+     {
+      "phrase": "supply chain security for critical minerals",
+      "meaning": "핵심광물 공급망 안보"
+     },
+     {
+      "phrase": "sustainable mining development",
+      "meaning": "지속가능한 광물 개발"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "f8945a3d01",
+    "title": "Critical minerals surge places infrastructure and energy at the centre of DRC’s mining future - Mining Weekly",
+    "url": "https://miningweekly.com/article/critical-minerals-surge-places-infrastructure-and-energy-at-the-centre-of-drcs-mining-future-2026-05-07",
+    "source": "Mining Weekly - via Google News",
+    "tier_weight": 3,
+    "score": 7,
+    "published": "2026-05-07",
+    "korean_summary": [
+     "Mining Weekly가 핵심광물 수요 증가로 DRC 채굴의 미래에서 인프라·에너지가 중심이 됐다고 보도했음",
+     "DRC는 세계 코발트의 over 70%를 생산하며 구리 생산도 빠르게 늘리고 있다고 전했음",
+     "DRC Mining Week 2026이 6월 17~19일 Lubumbashi에서 열리며 16일 사전 콘퍼런스가 예정돼 있음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "코발트",
+     "구리",
+     "DRC",
+     "인프라",
+     "에너지"
+    ],
+    "ai_processed": true,
+    "card_id": "cf0295a27cf7",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "over 70%",
+     "17 to 19 June",
+     "16 June"
+    ],
+    "quotes": [
+     "Producing over 70% of the world’s cobalt and rapidly expanding its copper output, the country is no longer just a source of raw materials it is increasingly a strategic hub for global industrial growth.",
+     "Critical minerals surge places infrastructure and energy at the centre of DRC’s mining future"
+    ],
+    "summary_raw": "Critical minerals surge places infrastructure and energy at the centre of DRC’s mining future&nbsp;&nbsp;Mining Weekly",
+    "english_phrases": [
+     {
+      "phrase": "critical minerals hub",
+      "meaning": "핵심광물 거점"
+     },
+     {
+      "phrase": "downstream beneficiation",
+      "meaning": "하류 부가가치화(현지 가공)"
+     },
+     {
+      "phrase": "responsible sourcing frameworks",
+      "meaning": "책임 있는 조달 체계"
+     },
+     {
+      "phrase": "offtakers",
+      "meaning": "광물 구매(인수) 계약 당사자"
+     }
+    ],
+    "implication": "세계 코발트의 over 70%를 생산하는 DRC의 전력·물류·자금 조달 병목이 풀리지 않으면 공급 확대가 수요 증가 속도에 뒤처질 수 있음",
+    "trial": true
+   },
+   "trial": true
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "2e6eda4c9bfe",
+   "title": "India's Critical Minerals Push: Oil India, Hindustan Copper Join Forces For Exploration - MSN",
+   "title_norm": "india s critical minerals push oil india hindustan copper join forces for exploration",
+   "url": "http://msn.com/en-in/news/India/indias-critical-minerals-push-oil-india-hindustan-copper-join-forces-for-exploration/ar-AA1MSXDR?apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxQc1lFeUFNNmdfYnFIQTRiT2Rnd0tSdk1OMk8wWk5ydDMxdWgwNDg1ZDRLNGs5bUtZYzBnRzdRaVZBTWthMjFqY2RvUVk1RVZrY1NxbldJMGtzNFZTeW1wdV94M0lzTTZiSTFxNERpdDhIcEJsUFlKbmZyUUt0Qkk5Y05LME0xcy1KNEZpYndJcGNUSUNpQ1F4YnlYX28xWldDdGVJT25EMUNBV1c1T3VMcjRMc1ctQlZORUphYlVISlpBNVVtQ29BSHFfZTZOeFFjZmNKY0ZQTUhRRXhRUjdZNWo4MERrQ3VFcGdUMDdzZjNERWJvVm1SNTJ0MUZtbnRYSktFOVdqZVFsbVFfN1RPSmhMZDRuNTI1T1dERXBnWkh4WGpvZkxPMkVBRDN2LXpjaUxuamRmYTI4VDBCX3BmT2ZMLWQ5YUZxOVU0dnd0dkk3MHotTEprRl8xNEZTb0cybkRn?oc=5",
+   "source": {
+    "name": "Google News - Critical Minerals Exploration",
+    "domain": "msn.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-05-07",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:10:34+00:00",
+   "score": 7,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.msn.com/en-in/news/India/indias-critical-minerals-push-oil-india-hindustan-copper-join-forces-for-exploration/ar-AA1MSXDR?apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "인도의 핵심광물 확보 추진, Oil India와 Hindustan Copper이 탐사를 위해 협력함"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "exploration_tech",
+    "tags": [
+     "핵심광물",
+     "탐사",
+     "인도",
+     "Oil India",
+     "Hindustan Copper"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Critical Minerals Push",
+      "meaning": "핵심광물 확보 추진"
+     },
+     {
+      "phrase": "Join Forces",
+      "meaning": "협력하다, 힘을 합치다"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:10:36+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "940cc6fc09",
+     "v1_url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxQc1lFeUFNNmdfYnFIQTRiT2Rnd0tSdk1OMk8wWk5ydDMxdWgwNDg1ZDRLNGs5bUtZYzBnRzdRaVZBTWthMjFqY2RvUVk1RVZrY1NxbldJMGtzNFZTeW1wdV94M0lzTTZiSTFxNERpdDhIcEJsUFlKbmZyUUt0Qkk5Y05LME0xcy1KNEZpYndJcGNUSUNpQ1F4YnlYX28xWldDdGVJT25EMUNBV1c1T3VMcjRMc1ctQlZORUphYlVISlpBNVVtQ29BSHFfZTZOeFFjZmNKY0ZQTUhRRXhRUjdZNWo4MERrQ3VFcGdUMDdzZjNERWJvVm1SNTJ0MUZtbnRYSktFOVdqZVFsbVFfN1RPSmhMZDRuNTI1T1dERXBnWkh4WGpvZkxPMkVBRDN2LXpjaUxuamRmYTI4VDBCX3BmT2ZMLWQ5YUZxOVU0dnd0dkk3MHotTEprRl8xNEZTb0cybkRn?oc=5",
+     "summary_raw": "India's Critical Minerals Push: Oil India, Hindustan Copper Join Forces For Exploration&nbsp;&nbsp;MSN"
+    }
+   },
+   "v1": {
+    "korean_summary": "인도의 국영 석유기업 Oil India와 동인도 구리기업 Hindustan Copper가 핵심광물 탐사를 위해 전략적 협력을 추진 중으로 확인되었습니다. 본 협력은 인도 정부의 핵심광물 자급화 정책의 일환으로, 국내 자원 부족을 해결하고 글로벌 공급망 위험을 완화할 전망입니다. 이는 에너지·광물 기업 간 시너지를 통해 인도의 핵심광물 확보 경쟁력을 강화할 것으로 예상됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "구리(동)",
+     "핵심광물 정책",
+     "인도"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Critical minerals exploration consortium",
+      "meaning": "핵심광물 탐사 컨소시엄"
+     },
+     {
+      "phrase": "Strategic resource security",
+      "meaning": "전략적 자원안보"
+     },
+     {
+      "phrase": "Public sector synergy for mineral supply chain resilience",
+      "meaning": "공공부문 협력을 통한 광물 공급망 강화"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "940cc6fc09",
+    "title": "India's Critical Minerals Push: Oil India, Hindustan Copper Join Forces For Exploration - MSN",
+    "url": "http://msn.com/en-in/news/India/indias-critical-minerals-push-oil-india-hindustan-copper-join-forces-for-exploration/ar-AA1MSXDR?apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1",
+    "source": "Google News - Critical Minerals Exploration",
+    "tier_weight": 1,
+    "score": 7,
+    "published": "2026-05-07",
+    "korean_summary": [
+     "[제목 기반] 인도의 핵심광물 확보 추진, Oil India와 Hindustan Copper이 탐사를 위해 협력함"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "핵심광물",
+     "탐사",
+     "인도",
+     "Oil India",
+     "Hindustan Copper"
+    ],
+    "ai_processed": true,
+    "card_id": "2e6eda4c9bfe",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "India's Critical Minerals Push: Oil India, Hindustan Copper Join Forces For Exploration&nbsp;&nbsp;MSN",
+    "english_phrases": [
+     {
+      "phrase": "Critical Minerals Push",
+      "meaning": "핵심광물 확보 추진"
+     },
+     {
+      "phrase": "Join Forces",
+      "meaning": "협력하다, 힘을 합치다"
+     }
+    ],
+    "implication": "",
+    "trial": true
+   },
+   "trial": true
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "e17abd1746df",
+   "title": "Total Metals Completes 25 Hole, 8,408 metre Exploration Drilling Program on its Electrolode Critical Minerals Project - Resource World Magazine",
+   "title_norm": "total metals completes 25 hole 8 408 metre exploration drilling program on its electrolode critical minerals project",
+   "url": "https://resourceworld.com/total-metals-completes-25-hole-8408-metre-exploration-drilling-program-on-its-electrolode-critical-minerals-project",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPaW9CdWpsdVl5NmRGMWJfTFVtcWJ5dzVYYmh2S0tGZFhtMU5lWHBtLUF5dVpFX3BQTl9ET1dram1ndmdGYllTSE9vQlN0R0w2aDRQOG1Wc3oyS3hwQXQxRTJlb1Zjck1pUFNHMTByaEtKemh0Z0hsUldGSG1FZU10bHZ6bFlCcFlMZDhhc1VVYzVkWHR4NDJybFU4aTA5U1hQS1ZkSmR6V3hSYzZwRGlvZ1ZmeTFfSnpCeTlzN2RNdGlNNWo3dXEtUk1sYkhxTU1jcVlfQXUtcXBJQQ?oc=5",
+   "source": {
+    "name": "Google News - Critical Minerals Exploration",
+    "domain": "resourceworld.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-05-06",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:10:36+00:00",
+   "score": 8,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "bot_block",
+    "http_status": 403,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://resourceworld.com/total-metals-completes-25-hole-8408-metre-exploration-drilling-program-on-its-electrolode-critical-minerals-project/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Total Metals가 Electrolode 핵심광물 프로젝트의 25 hole, 8,408 metre 탐사 시추 프로그램을 완료했음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "exploration_tech",
+    "tags": [
+     "핵심광물",
+     "탐사시추",
+     "Total Metals",
+     "Electrolode 프로젝트"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Exploration Drilling Program",
+      "meaning": "탐사 시추 프로그램"
+     },
+     {
+      "phrase": "Critical Minerals Project",
+      "meaning": "핵심광물 프로젝트"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:10:40+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "d1309c23e0",
+     "v1_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPaW9CdWpsdVl5NmRGMWJfTFVtcWJ5dzVYYmh2S0tGZFhtMU5lWHBtLUF5dVpFX3BQTl9ET1dram1ndmdGYllTSE9vQlN0R0w2aDRQOG1Wc3oyS3hwQXQxRTJlb1Zjck1pUFNHMTByaEtKemh0Z0hsUldGSG1FZU10bHZ6bFlCcFlMZDhhc1VVYzVkWHR4NDJybFU4aTA5U1hQS1ZkSmR6V3hSYzZwRGlvZ1ZmeTFfSnpCeTlzN2RNdGlNNWo3dXEtUk1sYkhxTU1jcVlfQXUtcXBJQQ?oc=5",
+     "summary_raw": "Total Metals Completes 25 Hole, 8,408 metre Exploration Drilling Program on its Electrolode Critical Minerals Project&nbsp;&nbsp;Resource World Magazine"
+    }
+   },
+   "v1": {
+    "korean_summary": "Total Metals사가 Electrolode 핵심광물 프로젝트에서 25개 공의 8,408미터 규모 탐사 시추 프로그램을 완료했으며, 이는 프로젝트의 광물화 잠재력을 평가하기 위한 중요한 단계로 평가되고 있습니다. 대규모 시추 프로그램의 완료는 향후 광체 해석 및 자원량 평가를 위한 핵심 데이터를 확보했음을 의미합니다. 이러한 탐사 성과는 핵심광물 개발 프로젝트의 단계적 진전과 글로벌 공급망 확보 움직임의 일환으로 주목됩니다.",
+    "category": "exploration_tech",
+    "tags": [
+     "핵심광물",
+     "시추탐사",
+     "North America"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "exploration drilling program completion",
+      "meaning": "탐사 시추 프로그램 완료"
+     },
+     {
+      "phrase": "critical minerals project advancement",
+      "meaning": "핵심광물 프로젝트 진행"
+     },
+     {
+      "phrase": "mineralization assessment and resource estimation",
+      "meaning": "광물화 평가 및 자원량 추정"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "d1309c23e0",
+    "title": "Total Metals Completes 25 Hole, 8,408 metre Exploration Drilling Program on its Electrolode Critical Minerals Project - Resource World Magazine",
+    "url": "https://resourceworld.com/total-metals-completes-25-hole-8408-metre-exploration-drilling-program-on-its-electrolode-critical-minerals-project",
+    "source": "Google News - Critical Minerals Exploration",
+    "tier_weight": 1,
+    "score": 8,
+    "published": "2026-05-06",
+    "korean_summary": [
+     "[제목 기반] Total Metals가 Electrolode 핵심광물 프로젝트의 25 hole, 8,408 metre 탐사 시추 프로그램을 완료했음"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "핵심광물",
+     "탐사시추",
+     "Total Metals",
+     "Electrolode 프로젝트"
+    ],
+    "ai_processed": true,
+    "card_id": "e17abd1746df",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Total Metals Completes 25 Hole, 8,408 metre Exploration Drilling Program on its Electrolode Critical Minerals Project&nbsp;&nbsp;Resource World Magazine",
+    "english_phrases": [
+     {
+      "phrase": "Exploration Drilling Program",
+      "meaning": "탐사 시추 프로그램"
+     },
+     {
+      "phrase": "Critical Minerals Project",
+      "meaning": "핵심광물 프로젝트"
+     }
+    ],
+    "implication": "",
+    "trial": true
+   },
+   "trial": true
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "c63d73e654e9",
+   "title": "Adamera Minerals Stakes Third Tungsten Property In Washington State - Exploration Program Underway - Junior Mining Network",
+   "title_norm": "adamera minerals stakes third tungsten property in washington state exploration program underway",
+   "url": "https://juniorminingnetwork.com/junior-miner-news/press-releases/635-tsx-venture/adz/202920-adamera-stakes-third-tungsten-property-in-washington-state-exploration-program-underway.html",
+   "gnews_url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPeDJORi1CMFdjN3pGeXREblQ1Y2FhYXZ0X2EzYjhXblJLcHctX250VnUwWF9yRXl6QTJjV1F3MWw1SkhRdzhJV1hJcFdseEVkcHJveE1lLWJUUFRqYTRjb2piQzJvNExpRGROWTk2M1VVdGVLNEZaSTZyQ0lEaGFyM2VwZG9RckxDMzhIMHBDTWMzZVhwR1prZDI0QzlMOHBUM0ZVMWJkR0ZhQ21yN05ENDd1dXhkTk9QVmpFcEZ6TEtDYW1QUEhfWEwwd0dVT2lJRlFLZTJUTHBoOTRkOGtKbXlrUXF6RDVUTXB3NFd5QmoyUEc4S2xKRUUzejk0QzM1WWpyTnM5Q1h5QVM2RWJOeXlUbEpHVW8?oc=5",
+   "source": {
+    "name": "Google News - Critical Minerals Exploration",
+    "domain": "juniorminingnetwork.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-05-07",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:10:41+00:00",
+   "score": 7,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "bot_block",
+    "http_status": 403,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/635-tsx-venture/adz/202920-adamera-stakes-third-tungsten-property-in-washington-state-exploration-program-underway.html",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Adamera Minerals가 워싱턴주에서 세 번째 텅스텐 광구를 확보했으며 탐사 프로그램이 진행 중임"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "exploration_tech",
+    "tags": [
+     "텅스텐",
+     "탐사",
+     "광구 확보",
+     "워싱턴주",
+     "Adamera Minerals"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Stakes",
+      "meaning": "광구 소유권을 확보하다(광구를 설정하다)"
+     },
+     {
+      "phrase": "Exploration Program Underway",
+      "meaning": "탐사 프로그램 진행 중"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:10:43+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "9d408d84cd",
+     "v1_url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPeDJORi1CMFdjN3pGeXREblQ1Y2FhYXZ0X2EzYjhXblJLcHctX250VnUwWF9yRXl6QTJjV1F3MWw1SkhRdzhJV1hJcFdseEVkcHJveE1lLWJUUFRqYTRjb2piQzJvNExpRGROWTk2M1VVdGVLNEZaSTZyQ0lEaGFyM2VwZG9RckxDMzhIMHBDTWMzZVhwR1prZDI0QzlMOHBUM0ZVMWJkR0ZhQ21yN05ENDd1dXhkTk9QVmpFcEZ6TEtDYW1QUEhfWEwwd0dVT2lJRlFLZTJUTHBoOTRkOGtKbXlrUXF6RDVUTXB3NFd5QmoyUEc4S2xKRUUzejk0QzM1WWpyTnM5Q1h5QVM2RWJOeXlUbEpHVW8?oc=5",
+     "summary_raw": "Adamera Minerals Stakes Third Tungsten Property In Washington State - Exploration Program Underway&nbsp;&nbsp;Junior Mining Network"
+    }
+   },
+   "v1": {
+    "korean_summary": "미국 워싱턴주에서 Adamera Minerals가 세 번째 텅스텐 광상을 신규 확보하고 탐사 사업을 추진 중인 것으로 확인되었습니다. 이는 북미 지역 핵심광물 탐사 활동의 확대를 시사하며, 특히 텅스텐의 공급망 다변화 측면에서 의미 있는 움직임으로 평가됩니다. 주니어 광업사의 적극적인 탐사 투자는 향후 핵심광물 자급 확대에 기여할 전망입니다.",
+    "category": "exploration_tech",
+    "tags": [
+     "텅스텐",
+     "광상탐사",
+     "미국(워싱턴주)"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "stake a claim on a property",
+      "meaning": "광상(광물자원 부존지)에 대해 채광권을 확보하다"
+     },
+     {
+      "phrase": "exploration program underway",
+      "meaning": "탐사 사업이 진행 중인 상태"
+     },
+     {
+      "phrase": "junior mining company",
+      "meaning": "중소 규모 광산개발사, 탐사광산사"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "9d408d84cd",
+    "title": "Adamera Minerals Stakes Third Tungsten Property In Washington State - Exploration Program Underway - Junior Mining Network",
+    "url": "https://juniorminingnetwork.com/junior-miner-news/press-releases/635-tsx-venture/adz/202920-adamera-stakes-third-tungsten-property-in-washington-state-exploration-program-underway.html",
+    "source": "Google News - Critical Minerals Exploration",
+    "tier_weight": 1,
+    "score": 7,
+    "published": "2026-05-07",
+    "korean_summary": [
+     "[제목 기반] Adamera Minerals가 워싱턴주에서 세 번째 텅스텐 광구를 확보했으며 탐사 프로그램이 진행 중임"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "텅스텐",
+     "탐사",
+     "광구 확보",
+     "워싱턴주",
+     "Adamera Minerals"
+    ],
+    "ai_processed": true,
+    "card_id": "c63d73e654e9",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Adamera Minerals Stakes Third Tungsten Property In Washington State - Exploration Program Underway&nbsp;&nbsp;Junior Mining Network",
+    "english_phrases": [
+     {
+      "phrase": "Stakes",
+      "meaning": "광구 소유권을 확보하다(광구를 설정하다)"
+     },
+     {
+      "phrase": "Exploration Program Underway",
+      "meaning": "탐사 프로그램 진행 중"
+     }
+    ],
+    "implication": "",
+    "trial": true
+   },
+   "trial": true
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "7f2774e5dd4b",
+   "title": "Australia and Japan sign agreements on energy and critical minerals - Reuters",
+   "title_norm": "australia and japan sign agreements on energy and critical minerals",
+   "url": "https://reuters.com/business/energy/japan-pm-takaichi-set-talks-with-australias-albanese-energy-security-2026-05-04",
+   "gnews_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQU0wzUlpuQnYyaGtkTHl4WGtxVEhBVVdrN2ZKbTV4OURsY1l4SnFwcXl4YkxEQkg3dEpCQ2RpOWZhbWVndTU1di03bTh5WUZaVnFlai00Z0hpWTNCUUtTNHplM0U4LW1uc3hwdjJMMkhFcjhMMU5TRUptS1lfWksyYmNnRW9MQzkwSFhHNDFwNHRWRHYtemM0U05RWjVtLTNsTzJjVUdqN05OeWhHbWx0eFlKMFY0aWtadVNKRA?oc=5",
+   "source": {
+    "name": "Reuters - via Google News",
+    "domain": "reuters.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-05-04",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:10:43+00:00",
+   "score": 7,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "skipped",
+    "http_status": null,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": null,
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "호주와 일본, 에너지 및 핵심광물 관련 협정 체결했음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "에너지",
+     "호주",
+     "일본",
+     "협정"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals",
+      "meaning": "핵심광물"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:10:44+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "aca924e60e",
+     "v1_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQU0wzUlpuQnYyaGtkTHl4WGtxVEhBVVdrN2ZKbTV4OURsY1l4SnFwcXl4YkxEQkg3dEpCQ2RpOWZhbWVndTU1di03bTh5WUZaVnFlai00Z0hpWTNCUUtTNHplM0U4LW1uc3hwdjJMMkhFcjhMMU5TRUptS1lfWksyYmNnRW9MQzkwSFhHNDFwNHRWRHYtemM0U05RWjVtLTNsTzJjVUdqN05OeWhHbWx0eFlKMFY0aWtadVNKRA?oc=5",
+     "summary_raw": "Australia and Japan sign agreements on energy and critical minerals&nbsp;&nbsp;Reuters"
+    }
+   },
+   "v1": {
+    "korean_summary": "호주와 일본이 에너지 및 핵심광물 분야의 협력 강화를 위한 양자 협정을 체결함으로써 인도-태평양 지역의 공급망 안정화를 도모하고 있습니다. 본 협정은 재생에너지 전환과 첨단기술 산업에 필수적인 핵심광물의 안정적 수급을 보장하기 위한 전략적 파트너십으로 평가됩니다. 이는 글로벌 에너지 시장의 지정학적 리스크에 대응하기 위한 민주주의 국가 간의 자원외교 강화 추세를 반영하고 있습니다.",
+    "category": "supply_chain",
+    "tags": [
+     "리튬·코발트·희토류",
+     "자원외교·공급망",
+     "호주·일본"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals supply chain",
+      "meaning": "핵심광물 공급망"
+     },
+     {
+      "phrase": "bilateral cooperation framework",
+      "meaning": "양자 협력 체계"
+     },
+     {
+      "phrase": "energy transition and decarbonization",
+      "meaning": "에너지 전환 및 탈탄소화"
+     },
+     {
+      "phrase": "strategic minerals partnership",
+      "meaning": "전략적 자원 파트너십"
+     },
+     {
+      "phrase": "Indo-Pacific supply security",
+      "meaning": "인도-태평양 지역 공급 안정성"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "aca924e60e",
+    "title": "Australia and Japan sign agreements on energy and critical minerals - Reuters",
+    "url": "https://reuters.com/business/energy/japan-pm-takaichi-set-talks-with-australias-albanese-energy-security-2026-05-04",
+    "source": "Reuters - via Google News",
+    "tier_weight": 3,
+    "score": 7,
+    "published": "2026-05-04",
+    "korean_summary": [
+     "[제목 기반] 호주와 일본, 에너지 및 핵심광물 관련 협정 체결했음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "에너지",
+     "호주",
+     "일본",
+     "협정"
+    ],
+    "ai_processed": true,
+    "card_id": "7f2774e5dd4b",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Australia and Japan sign agreements on energy and critical minerals&nbsp;&nbsp;Reuters",
+    "english_phrases": [
+     {
+      "phrase": "critical minerals",
+      "meaning": "핵심광물"
+     }
+    ],
+    "implication": "",
+    "trial": true
+   },
+   "trial": true
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "e78a1147668a",
+   "title": "Glencore Q1: African copper cathode surges 68%, cobalt production falls 39% y-o-y - Fastmarkets",
+   "title_norm": "glencore q1 african copper cathode surges 68 cobalt production falls 39 y o y",
+   "url": "https://fastmarkets.com/insights/glencore-q1-african-copper-cathode-surges-68-cobalt-production-falls-39-y-o-y",
+   "gnews_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTWNQX28zYmdWNzRqSEFGMjJCZUtSbEU4VEN1OTIyQk1odGE4RGhoMUNVSmVuZTBEeFR5cUtfUkpFWDBmbHFQNk5HckxRMFQxS28wTWQ3aHl1cC02ZUlvRXk1VWNvYjlYRFVIZHpiM19yTjl3VktvOW1YX1pHV0MtY1hVNE8xZWNiNmpDMGlFY2l0YUUwX1ZhU19jd3lQcnFxb3ZkWHBERHpEc21HN3dGczQ0Nk01QQ?oc=5",
+   "source": {
+    "name": "Fastmarkets - via Google News",
+    "domain": "fastmarkets.com",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-05-06",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:10:45+00:00",
+   "score": 7,
+   "body": {
+    "status": "lead_only",
+    "chars": 114,
+    "sha256": "ae2a7aca20eaaab99c8ce053dc617339bff8038a56a2873ea2691680adbd813b",
+    "source": "og_description",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [
+     "Discover how copper cathode production is reshaping Glencore's strategy in Africa amidst evolving supply dynamics."
+    ],
+    "final_url": "https://www.fastmarkets.com/insights/glencore-q1-african-copper-cathode-surges-68-cobalt-production-falls-39-y-o-y/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "글렌코어 1분기, 아프리카 구리 음극 생산 68% 급증, 코발트 생산 전년 대비 39% 감소했음",
+     "리드는 구리 음극 생산이 변화하는 공급 환경 속에서 아프리카 내 글렌코어 전략을 재편하고 있다고 소개했음"
+    ],
+    "basis": "lead",
+    "key_figures": [],
+    "quotes": [],
+    "category": "supply_chain",
+    "tags": [
+     "구리",
+     "코발트",
+     "글렌코어",
+     "아프리카",
+     "생산량"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "copper cathode",
+      "meaning": "구리 음극(전기동)"
+     },
+     {
+      "phrase": "supply dynamics",
+      "meaning": "공급 동향"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "lead_only",
+    "input_chars": 114,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:10:47+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "17e4a715b6",
+     "v1_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTWNQX28zYmdWNzRqSEFGMjJCZUtSbEU4VEN1OTIyQk1odGE4RGhoMUNVSmVuZTBEeFR5cUtfUkpFWDBmbHFQNk5HckxRMFQxS28wTWQ3aHl1cC02ZUlvRXk1VWNvYjlYRFVIZHpiM19yTjl3VktvOW1YX1pHV0MtY1hVNE8xZWNiNmpDMGlFY2l0YUUwX1ZhU19jd3lQcnFxb3ZkWHBERHpEc21HN3dGczQ0Nk01QQ?oc=5",
+     "summary_raw": "Glencore Q1: African copper cathode surges 68%, cobalt production falls 39% y-o-y&nbsp;&nbsp;Fastmarkets"
+    }
+   },
+   "v1": {
+    "korean_summary": "글렌코어의 1분기 실적에서 아프리카 지역 구리 음극재 생산이 전년 동기 대비 68% 증가한 것으로 확인되었습니다. 반면 코발트 생산은 39% 감소하여 핵심광물 생산의 불균형이 심화되는 양상을 보이고 있습니다. 이는 글로벌 핵심광물 공급망 재편 과정에서 지역별·광종별 생산 변동성이 확대되고 있음을 시사합니다.",
+    "category": "supply_chain",
+    "tags": [
+     "구리·코발트",
+     "대형광산 생산실적",
+     "아프리카"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "African copper cathode production surge",
+      "meaning": "아프리카 지역 구리 음극재 생산의 급증"
+     },
+     {
+      "phrase": "year-on-year decline in cobalt output",
+      "meaning": "코발트 산출량의 전년 동기 대비 감소"
+     },
+     {
+      "phrase": "critical minerals supply volatility",
+      "meaning": "핵심광물 공급의 변동성"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "17e4a715b6",
+    "title": "Glencore Q1: African copper cathode surges 68%, cobalt production falls 39% y-o-y - Fastmarkets",
+    "url": "https://fastmarkets.com/insights/glencore-q1-african-copper-cathode-surges-68-cobalt-production-falls-39-y-o-y",
+    "source": "Fastmarkets - via Google News",
+    "tier_weight": 5,
+    "score": 7,
+    "published": "2026-05-06",
+    "korean_summary": [
+     "[본문 미확보] 글렌코어 1분기, 아프리카 구리 음극 생산 68% 급증, 코발트 생산 전년 대비 39% 감소했음",
+     "리드는 구리 음극 생산이 변화하는 공급 환경 속에서 아프리카 내 글렌코어 전략을 재편하고 있다고 소개했음"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "구리",
+     "코발트",
+     "글렌코어",
+     "아프리카",
+     "생산량"
+    ],
+    "ai_processed": true,
+    "card_id": "e78a1147668a",
+    "basis": "lead",
+    "body_status": "lead_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Glencore Q1: African copper cathode surges 68%, cobalt production falls 39% y-o-y&nbsp;&nbsp;Fastmarkets",
+    "english_phrases": [
+     {
+      "phrase": "copper cathode",
+      "meaning": "구리 음극(전기동)"
+     },
+     {
+      "phrase": "supply dynamics",
+      "meaning": "공급 동향"
+     }
+    ],
+    "implication": "",
+    "trial": true
+   },
+   "trial": true
+  }
+ ],
+ "excluded": [],
+ "v1_file": "week-2026-05-10.json",
+ "v1_metrics": {
+  "articles": 12,
+  "original_link": 2,
+  "body_based": 0,
+  "failed": 0
+ },
+ "trial": true
+}

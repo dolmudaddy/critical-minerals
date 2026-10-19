@@ -1,0 +1,1882 @@
+{
+ "schema_version": "card.v1",
+ "service": "cmw",
+ "week_of": "2026-06-15",
+ "generated_at": "2026-10-19T05:22:31+00:00",
+ "mincore_version": "0.3.6",
+ "model": "claude-sonnet-5-5",
+ "prompt_version": "v2.2",
+ "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+ "stats": {
+  "v1_articles": 12,
+  "cards": 12,
+  "excluded": 0,
+  "body_got": 4,
+  "body_rate": 0.333,
+  "original_link": 12,
+  "reader_proxy_used": 0,
+  "line_len": {
+   "lines": 21,
+   "median": 59,
+   "max": 78,
+   "over60": 10,
+   "over100": 0
+  },
+  "oda_filled": 3,
+  "usage": {
+   "claude-sonnet-5-5": {
+    "calls": 12,
+    "in": 23475,
+    "out": 4141
+   }
+  },
+  "cost_usd": 0.1325,
+  "body_status": {
+   "full": 4,
+   "title_only": 7,
+   "lead_only": 1
+  },
+  "body_source": {
+   "presscorner_api": 1,
+   "trafilatura": 3,
+   "none": 7,
+   "og_description": 1
+  },
+  "resolve": {
+   "direct": 1,
+   "decoder": 11
+  },
+  "fail_reason": {},
+  "basis": {
+   "body": 4,
+   "title": 7,
+   "lead": 1
+  },
+  "retry_reason": {},
+  "flags": {},
+  "model_used": {
+   "claude-sonnet-5-5": 12
+  }
+ },
+ "total": 12,
+ "cards": [
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "834d98d3c508",
+   "title": "Statement by President von der Leyen and President Costa on the agreement to open the first accession negotiation cluster with Ukraine and Moldova",
+   "title_norm": "statement by president von der leyen and president costa on the agreement to open the first accession negotiation cluster with ukraine and moldova",
+   "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1357",
+   "gnews_url": null,
+   "source": {
+    "name": "European Commission - Energy",
+    "domain": "ec.europa.eu",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-06-12",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:21:50+00:00",
+   "score": 12,
+   "body": {
+    "status": "full",
+    "chars": 989,
+    "sha256": "fb4e2d19e9b6d3c90421beca4a414d15c22df9ff5274310bafd8c08ef1f75f88",
+    "source": "presscorner_api",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [
+     "At the first Intergovernmental Conference on Monday, we will open the cluster on fundamentals; the backbone of the accession process."
+    ],
+    "final_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1357",
+    "strategies_tried": [
+     "presscorner_api"
+    ]
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "EU 모든 회원국이 우크라이나·몰도바와 첫 가입협상 클러스터를 열기로 합의했다고 집행위원장과 상임의장이 밝혔음",
+     "월요일 첫 정부간 회의(Intergovernmental Conference)에서 기본 사항(fundamentals) 클러스터를 개설할 예정임",
+     "이 클러스터는 법치와 강력한 민주적 제도 등 EU 핵심 가치·원칙을 다루며 가입 절차의 근간이라고 밝혔음"
+    ],
+    "basis": "body",
+    "key_figures": [],
+    "quotes": [
+     "At the first Intergovernmental Conference on Monday, we will open the cluster on fundamentals; the backbone of the accession process."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "EU 확대",
+     "가입협상",
+     "우크라이나",
+     "몰도바"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "accession negotiations cluster",
+      "meaning": "가입협상 분야별 묶음(클러스터)"
+     },
+     {
+      "phrase": "Intergovernmental Conference",
+      "meaning": "정부간 회의"
+     },
+     {
+      "phrase": "rule of law",
+      "meaning": "법치"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 989,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:21:58+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "c3046d18b4",
+     "v1_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1357",
+     "summary_raw": "European Commission Statement Brussels, 12 Jun 2026 Today, the European Union took a major step forward. \nAll Member States agreed to open the first accession negotiations cluster with Ukraine and Moldova.\nAt the..."
+    }
+   },
+   "v1": {
+    "korean_summary": "유럽연합이 우크라이나와 몰도바와의 첫 번째 가입협상 클러스터 개설에 합의함으로써 동유럽 지역의 전략적 통합을 가속화할 전망입니다. 이는 우크라이나의 풍부한 핵심광물 자원을 EU의 공급망에 통합하고 러시아에 대한 의존도를 감소시키는 데 중요한 의미를 갖습니다. EU는 이 협상을 통해 에너지 안보와 자원 다원화를 동시에 강화할 수 있을 것으로 기대됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "우크라이나",
+     "핵심광물 공급망",
+     "EU 정책"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "accession negotiation cluster",
+      "meaning": "가입협상 클러스터 (국제협상 분야별 협상 그룹)"
+     },
+     {
+      "phrase": "critical minerals supply chain",
+      "meaning": "핵심광물 공급망"
+     },
+     {
+      "phrase": "strategic resource integration",
+      "meaning": "전략적 자원 통합"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "c3046d18b4",
+    "title": "Statement by President von der Leyen and President Costa on the agreement to open the first accession negotiation cluster with Ukraine and Moldova",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1357",
+    "source": "European Commission - Energy",
+    "tier_weight": 5,
+    "score": 12,
+    "published": "2026-06-12",
+    "korean_summary": [
+     "EU 모든 회원국이 우크라이나·몰도바와 첫 가입협상 클러스터를 열기로 합의했다고 집행위원장과 상임의장이 밝혔음",
+     "월요일 첫 정부간 회의(Intergovernmental Conference)에서 기본 사항(fundamentals) 클러스터를 개설할 예정임",
+     "이 클러스터는 법치와 강력한 민주적 제도 등 EU 핵심 가치·원칙을 다루며 가입 절차의 근간이라고 밝혔음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "EU 확대",
+     "가입협상",
+     "우크라이나",
+     "몰도바"
+    ],
+    "ai_processed": true,
+    "card_id": "834d98d3c508",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [],
+    "quotes": [
+     "At the first Intergovernmental Conference on Monday, we will open the cluster on fundamentals; the backbone of the accession process."
+    ],
+    "summary_raw": "European Commission Statement Brussels, 12 Jun 2026 Today, the European Union took a major step forward. \nAll Member States agreed to open the first accession negotiations cluster with Ukraine and Moldova.\nAt the...",
+    "english_phrases": [
+     {
+      "phrase": "accession negotiations cluster",
+      "meaning": "가입협상 분야별 묶음(클러스터)"
+     },
+     {
+      "phrase": "Intergovernmental Conference",
+      "meaning": "정부간 회의"
+     },
+     {
+      "phrase": "rule of law",
+      "meaning": "법치"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "42c32a229efe",
+   "title": "Japan Moves Toward Greenland Rare Earth Exploration as Tokyo Seeks Safer Critical Mineral Routes for Clean Energy and Advanced Industry - Travel And Tour World",
+   "title_norm": "japan moves toward greenland rare earth exploration as tokyo seeks safer critical mineral routes for clean energy and advanced industry",
+   "url": "https://travelandtourworld.com/news/article/9ccbp4putv3d",
+   "gnews_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wUzhVTHdESnJXQ1dqSEVlZ2dnZjhXUkhEYng1bWdGd09SX24ta2UyQzhBNE1Wek5sQU56Tl9WcFB6MGJuVjRXYVNvYWhCcVl0dFUwMXhlYW1lVXRJUFVyWVE3UjN1dkdBUk1nR09B?oc=5",
+   "source": {
+    "name": "Google News - Critical Minerals Exploration",
+    "domain": "travelandtourworld.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-06-14",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:21:58+00:00",
+   "score": 11,
+   "body": {
+    "status": "full",
+    "chars": 13663,
+    "sha256": "01e28e30663c6607c21cc922ab586b714c433cdae6a6eadf380af6b36d278d71",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-06-14",
+    "quotes": [
+     "Japan is placing rare earths and critical minerals at the centre of its economic security agenda as Greenland becomes a stronger Arctic focus for future supply chain diversification.",
+     "Japan Places Greenland at the Centre of a Critical Minerals Travel and Investment Story"
+    ],
+    "final_url": "https://www.travelandtourworld.com/news/article/9ccbp4putv3d/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "일본이 희토류와 핵심광물을 경제안보 의제의 중심에 두고 그린란드를 공급망 다변화의 북극 거점으로 주목하고 있음",
+     "일본 정부 공식 자료상 도쿄는 파트너국과 핵심광물 채굴·가공·제조 프로젝트 확보를 추진하며 비축 강화도 방침으로 제시했음",
+     "일본 대표단의 그린란드 방문 일정을 확인해 주는 공식 공지는 아직 없으며, 상업 생산까지는 수년이 걸릴 수 있음"
+    ],
+    "basis": "body",
+    "key_figures": [],
+    "quotes": [
+     "Japan is placing rare earths and critical minerals at the centre of its economic security agenda as Greenland becomes a stronger Arctic focus for future supply chain diversification.",
+     "Japan Places Greenland at the Centre of a Critical Minerals Travel and Investment Story"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "핵심광물",
+     "그린란드",
+     "일본",
+     "경제안보"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "economic security agenda",
+      "meaning": "경제안보 의제"
+     },
+     {
+      "phrase": "supply chain diversification",
+      "meaning": "공급망 다변화"
+     },
+     {
+      "phrase": "concentration risk",
+      "meaning": "특정 국가·단계에 집중되어 생기는 위험"
+     },
+     {
+      "phrase": "critical raw materials",
+      "meaning": "핵심광물(핵심 원자재)"
+     }
+    ],
+    "implication": "일본이 희토류 공급 집중 위험을 줄이려 그린란드를 후보지로 보고 있으나, 탐사·금융·환경 검토 등으로 상업 공급까지는 수년이 걸릴 수 있음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:22:03+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "4dc18e580f",
+     "v1_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wUzhVTHdESnJXQ1dqSEVlZ2dnZjhXUkhEYng1bWdGd09SX24ta2UyQzhBNE1Wek5sQU56Tl9WcFB6MGJuVjRXYVNvYWhCcVl0dFUwMXhlYW1lVXRJUFVyWVE3UjN1dkdBUk1nR09B?oc=5",
+     "summary_raw": "Japan Moves Toward Greenland Rare Earth Exploration as Tokyo Seeks Safer Critical Mineral Routes for Clean Energy and Advanced Industry&nbsp;&nbsp;Travel And Tour World"
+    }
+   },
+   "v1": {
+    "korean_summary": "일본이 청정에너지와 첨단산업 발전을 위해 핵심광물의 안정적 공급망 확보에 나서고 있으며, 그린란드의 희토류 탐사 추진을 검토 중인 것으로 확인되었습니다. 이는 중국 의존도 감소와 지정학적 리스크 완화를 목표로 하는 일본의 전략적 광물 다원화 정책의 일환으로 평가됩니다. 향후 그린란드 지역의 희토류 자원 개발이 진행될 경우, 글로벌 핵심광물 공급 지도에 새로운 변수로 작용할 것으로 전망됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "공급망 다원화",
+     "그린란드"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical mineral routes",
+      "meaning": "핵심광물 공급망/유통경로"
+     },
+     {
+      "phrase": "rare earth exploration",
+      "meaning": "희토류 탐사"
+     },
+     {
+      "phrase": "supply chain diversification",
+      "meaning": "공급망 다원화"
+     },
+     {
+      "phrase": "geopolitical risk mitigation",
+      "meaning": "지정학적 리스크 완화"
+     },
+     {
+      "phrase": "clean energy transition",
+      "meaning": "청정에너지 전환"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "4dc18e580f",
+    "title": "Japan Moves Toward Greenland Rare Earth Exploration as Tokyo Seeks Safer Critical Mineral Routes for Clean Energy and Advanced Industry - Travel And Tour World",
+    "url": "https://travelandtourworld.com/news/article/9ccbp4putv3d",
+    "source": "Google News - Critical Minerals Exploration",
+    "tier_weight": 1,
+    "score": 11,
+    "published": "2026-06-14",
+    "korean_summary": [
+     "일본이 희토류와 핵심광물을 경제안보 의제의 중심에 두고 그린란드를 공급망 다변화의 북극 거점으로 주목하고 있음",
+     "일본 정부 공식 자료상 도쿄는 파트너국과 핵심광물 채굴·가공·제조 프로젝트 확보를 추진하며 비축 강화도 방침으로 제시했음",
+     "일본 대표단의 그린란드 방문 일정을 확인해 주는 공식 공지는 아직 없으며, 상업 생산까지는 수년이 걸릴 수 있음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "핵심광물",
+     "그린란드",
+     "일본",
+     "경제안보"
+    ],
+    "ai_processed": true,
+    "card_id": "42c32a229efe",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [],
+    "quotes": [
+     "Japan is placing rare earths and critical minerals at the centre of its economic security agenda as Greenland becomes a stronger Arctic focus for future supply chain diversification.",
+     "Japan Places Greenland at the Centre of a Critical Minerals Travel and Investment Story"
+    ],
+    "summary_raw": "Japan Moves Toward Greenland Rare Earth Exploration as Tokyo Seeks Safer Critical Mineral Routes for Clean Energy and Advanced Industry&nbsp;&nbsp;Travel And Tour World",
+    "english_phrases": [
+     {
+      "phrase": "economic security agenda",
+      "meaning": "경제안보 의제"
+     },
+     {
+      "phrase": "supply chain diversification",
+      "meaning": "공급망 다변화"
+     },
+     {
+      "phrase": "concentration risk",
+      "meaning": "특정 국가·단계에 집중되어 생기는 위험"
+     },
+     {
+      "phrase": "critical raw materials",
+      "meaning": "핵심광물(핵심 원자재)"
+     }
+    ],
+    "implication": "일본이 희토류 공급 집중 위험을 줄이려 그린란드를 후보지로 보고 있으나, 탐사·금융·환경 검토 등으로 상업 공급까지는 수년이 걸릴 수 있음",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "054e196ce995",
+   "title": "Japan to send delegation to Greenland to evaluate rare earth extraction, Nikkei says - Reuters",
+   "title_norm": "japan to send delegation to greenland to evaluate rare earth extraction nikkei says",
+   "url": "https://reuters.com/world/asia-pacific/japan-send-delegation-greenland-evaluate-rare-earth-extraction-nikkei-says-2026-06-14",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQUxnWFNJaEU1WFNycHo0cE12OXNIWHN2SmQtRld4cWlESTFFS01jNmZ6eTkyVWdIQW1WZDFtUll4S04zd1ctRlhQLWNZeFZRMmRFVVgwRlkwR3JYNmhhaTJpZTVVUmJYWUE2SXd2Y2ExZkxvaWF6SVowd1htWGNrOEZUd1lUbldKcDVvWk40dk9UdVZDYW01M3NWMGV4ci04TEdJeHJjdUFVQ0hMN3h3NmY2VHp1dmJDMGdIY0tPMnFaWHBmWldzVw?oc=5",
+   "source": {
+    "name": "Reuters - via Google News",
+    "domain": "reuters.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-06-14",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:22:03+00:00",
+   "score": 9,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "skipped",
+    "http_status": null,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": null,
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "일본, 희토류 채굴 평가를 위해 그린란드에 대표단 파견 예정이라고 닛케이 보도했음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "그린란드",
+     "일본",
+     "채굴 평가"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "rare earth extraction",
+      "meaning": "희토류 채굴"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:22:05+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "5f85d3efea",
+     "v1_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQUxnWFNJaEU1WFNycHo0cE12OXNIWHN2SmQtRld4cWlESTFFS01jNmZ6eTkyVWdIQW1WZDFtUll4S04zd1ctRlhQLWNZeFZRMmRFVVgwRlkwR3JYNmhhaTJpZTVVUmJYWUE2SXd2Y2ExZkxvaWF6SVowd1htWGNrOEZUd1lUbldKcDVvWk40dk9UdVZDYW01M3NWMGV4ci04TEdJeHJjdUFVQ0hMN3h3NmY2VHp1dmJDMGdIY0tPMnFaWHBmWldzVw?oc=5",
+     "summary_raw": "Japan to send delegation to Greenland to evaluate rare earth extraction, Nikkei says&nbsp;&nbsp;Reuters"
+    }
+   },
+   "v1": {
+    "korean_summary": "일본이 그린란드의 희토류 추출 가능성을 평가하기 위해 현지 조사단을 파견할 계획으로 확인되었습니다. 이는 핵심광물 공급망 다변화를 추진하는 일본의 전략적 움직임으로, 중국 의존도 감소를 목표로 하고 있습니다. 그린란드의 풍부한 희토류 자원은 글로벌 핵심광물 시장에서 새로운 공급처 확보의 가능성을 제시하고 있습니다.",
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "핵심광물 공급망",
+     "그린란드"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "rare earth extraction evaluation",
+      "meaning": "희토류 추출 가능성 평가"
+     },
+     {
+      "phrase": "critical minerals supply chain diversification",
+      "meaning": "핵심광물 공급망 다변화"
+     },
+     {
+      "phrase": "geological assessment mission",
+      "meaning": "지질학적 평가 조사단"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "5f85d3efea",
+    "title": "Japan to send delegation to Greenland to evaluate rare earth extraction, Nikkei says - Reuters",
+    "url": "https://reuters.com/world/asia-pacific/japan-send-delegation-greenland-evaluate-rare-earth-extraction-nikkei-says-2026-06-14",
+    "source": "Reuters - via Google News",
+    "tier_weight": 3,
+    "score": 9,
+    "published": "2026-06-14",
+    "korean_summary": [
+     "[제목 기반] 일본, 희토류 채굴 평가를 위해 그린란드에 대표단 파견 예정이라고 닛케이 보도했음"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "그린란드",
+     "일본",
+     "채굴 평가"
+    ],
+    "ai_processed": true,
+    "card_id": "054e196ce995",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Japan to send delegation to Greenland to evaluate rare earth extraction, Nikkei says&nbsp;&nbsp;Reuters",
+    "english_phrases": [
+     {
+      "phrase": "rare earth extraction",
+      "meaning": "희토류 채굴"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "bc1a41589d7b",
+   "title": "Argentina positions itself as critical minerals investment hub - S&P Global",
+   "title_norm": "argentina positions itself as critical minerals investment hub",
+   "url": "https://spglobal.com/energy/en/news-research/latest-news/metals/061126-argentina-positions-itself-as-critical-minerals-investment-hub",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUW4xdnF3RGFDYWhpU3BUWWlrNDc5TFlyLUZBSVluSXk5YmhKSHpaLUhwa19ldWFfQk5SYXMtYjR3aU5OMHhvbTFBVDJLdmRURUVyRi1XdThTS1UxMlZLMFgwMnJkRmZFeGlVaGkyRGgyRXdOS2hYM0tpaHBYWjZHXzRhWnhnS1lvc3lVSVZoRFhzQXR0WWs2QjY1M1lweDJvM3pZYnRBS3JfNFZQTGhYckEteE5rUHZ4ZnVrVVYwQ2JkQ2tZN3hfV2gzRGN2TVFKTU5j?oc=5",
+   "source": {
+    "name": "S&P Global - via Google News",
+    "domain": "spglobal.com",
+    "tier": null,
+    "tier_weight": 4,
+    "language": null
+   },
+   "published": "2026-06-12",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:22:05+00:00",
+   "score": 8,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "bot_block",
+    "http_status": 403,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.spglobal.com/energy/en/news-research/latest-news/metals/061126-argentina-positions-itself-as-critical-minerals-investment-hub",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "아르헨티나, 핵심광물 투자 허브로 자리매김 중임"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "투자",
+     "아르헨티나",
+     "S&P Global"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals investment hub",
+      "meaning": "핵심광물 투자 허브"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:22:06+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "2bdcfcc3fa",
+     "v1_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUW4xdnF3RGFDYWhpU3BUWWlrNDc5TFlyLUZBSVluSXk5YmhKSHpaLUhwa19ldWFfQk5SYXMtYjR3aU5OMHhvbTFBVDJLdmRURUVyRi1XdThTS1UxMlZLMFgwMnJkRmZFeGlVaGkyRGgyRXdOS2hYM0tpaHBYWjZHXzRhWnhnS1lvc3lVSVZoRFhzQXR0WWs2QjY1M1lweDJvM3pZYnRBS3JfNFZQTGhYckEteE5rUHZ4ZnVrVVYwQ2JkQ2tZN3hfV2gzRGN2TVFKTU5j?oc=5",
+     "summary_raw": "Argentina positions itself as critical minerals investment hub&nbsp;&nbsp;S&amp;P Global"
+    }
+   },
+   "v1": {
+    "korean_summary": "아르헨티나가 핵심광물 투자 허브로서의 입지를 강화하고 있으며, 이는 글로벌 공급망 다변화 추세 속에서 주목할 필요가 있음을 시사합니다. 리튬 등 에너지 전환 관련 핵심광물의 풍부한 매장량과 개발 잠재력이 국제 투자를 견인하고 있을 것으로 전망됩니다. 남미 지역의 광물 자원 경쟁력 강화는 한국의 장기적 자원 확보 전략 수립에 중요한 함의를 제공할 것으로 판단됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "공급망 다변화",
+     "아르헨티나"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals investment hub",
+      "meaning": "핵심광물 투자 거점/중심지"
+     },
+     {
+      "phrase": "supply chain diversification",
+      "meaning": "공급망 다변화"
+     },
+     {
+      "phrase": "lithium-rich deposits",
+      "meaning": "리튬 풍부 매장 지역"
+     },
+     {
+      "phrase": "strategic positioning in the energy transition",
+      "meaning": "에너지 전환에서의 전략적 위치"
+     },
+     {
+      "phrase": "foreign direct investment (FDI) attraction",
+      "meaning": "해외 직접투자 유인"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "2bdcfcc3fa",
+    "title": "Argentina positions itself as critical minerals investment hub - S&P Global",
+    "url": "https://spglobal.com/energy/en/news-research/latest-news/metals/061126-argentina-positions-itself-as-critical-minerals-investment-hub",
+    "source": "S&P Global - via Google News",
+    "tier_weight": 4,
+    "score": 8,
+    "published": "2026-06-12",
+    "korean_summary": [
+     "[제목 기반] 아르헨티나, 핵심광물 투자 허브로 자리매김 중임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "투자",
+     "아르헨티나",
+     "S&P Global"
+    ],
+    "ai_processed": true,
+    "card_id": "bc1a41589d7b",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Argentina positions itself as critical minerals investment hub&nbsp;&nbsp;S&amp;P Global",
+    "english_phrases": [
+     {
+      "phrase": "critical minerals investment hub",
+      "meaning": "핵심광물 투자 허브"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "799b5da1db25",
+   "title": "Reliance, Vedanta, Adani join India's drive to cut China rare earth dependence, sources say - Reuters",
+   "title_norm": "reliance vedanta adani join india s drive to cut china rare earth dependence sources say",
+   "url": "https://reuters.com/world/china/reliance-vedanta-adani-join-indias-drive-cut-china-rare-earth-dependence-sources-2026-06-11",
+   "gnews_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPYkpaSEhWXzY5Y3FVUkxYaDZFNjc4YUROajhzYks3Wks2UTc2Q0pHMjc3Z2hfLW43T2IzdnBFXzc2dHNaTFVsbWt6Y2FiYVR4YWVfY2xTd0VmSHdIcXRnOGotZ2FYNEYzbGttWlc0dllFdlZxNjduSzhObGF6N3pKOGhuRk0yLXA1N2tvWEdES2FSaWZGSmFFUWFwZjJUMXZhMVVOb09ZWTJyay1ua3JGQ2dWOHVweVRBdGd5UUNOdkU1dDdGMFA4?oc=5",
+   "source": {
+    "name": "Reuters - via Google News",
+    "domain": "reuters.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-06-11",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:22:06+00:00",
+   "score": 7,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "skipped",
+    "http_status": null,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": null,
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "릴라이언스·베단타·아다니, 중국 희토류 의존도 줄이려는 인도의 노력에 동참한다고 소식통들이 전했음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "공급망",
+     "탈중국 의존",
+     "인도"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "rare earth dependence",
+      "meaning": "희토류 의존도"
+     },
+     {
+      "phrase": "sources say",
+      "meaning": "소식통들에 따르면"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:22:08+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "7535dfee71",
+     "v1_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPYkpaSEhWXzY5Y3FVUkxYaDZFNjc4YUROajhzYks3Wks2UTc2Q0pHMjc3Z2hfLW43T2IzdnBFXzc2dHNaTFVsbWt6Y2FiYVR4YWVfY2xTd0VmSHdIcXRnOGotZ2FYNEYzbGttWlc0dllFdlZxNjduSzhObGF6N3pKOGhuRk0yLXA1N2tvWEdES2FSaWZGSmFFUWFwZjJUMXZhMVVOb09ZWTJyay1ua3JGQ2dWOHVweVRBdGd5UUNOdkU1dDdGMFA4?oc=5",
+     "summary_raw": "Reliance, Vedanta, Adani join India's drive to cut China rare earth dependence, sources say&nbsp;&nbsp;Reuters"
+    }
+   },
+   "v1": {
+    "korean_summary": "인도의 릴라이언스, 베단타, 아다니 등 주요 기업들이 중국에 대한 희토류 의존도 감소를 위한 인도 정부 주도 사업에 참여할 예정으로 확인되었습니다. 이는 인도의 핵심광물 자립화 전략의 일환으로, 공급망 다변화 및 자국 내 희토류 광물 자원 개발 확대를 목표로 추진되고 있습니다. 향후 인도의 희토류 산업 발전은 글로벌 핵심광물 시장의 지정학적 구도 변화에 실질적인 영향을 미칠 전망입니다.",
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "공급망 안정화",
+     "인도"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "cut dependence on China's rare earth",
+      "meaning": "중국의 희토류 의존도 감소"
+     },
+     {
+      "phrase": "critical mineral supply chain diversification",
+      "meaning": "핵심광물 공급망 다변화"
+     },
+     {
+      "phrase": "domestic rare earth production capacity",
+      "meaning": "자국 내 희토류 생산 능력"
+     },
+     {
+      "phrase": "geopolitical risk mitigation in mineral sourcing",
+      "meaning": "광물 자원 조달 시 지정학적 위험 완화"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "7535dfee71",
+    "title": "Reliance, Vedanta, Adani join India's drive to cut China rare earth dependence, sources say - Reuters",
+    "url": "https://reuters.com/world/china/reliance-vedanta-adani-join-indias-drive-cut-china-rare-earth-dependence-sources-2026-06-11",
+    "source": "Reuters - via Google News",
+    "tier_weight": 3,
+    "score": 7,
+    "published": "2026-06-11",
+    "korean_summary": [
+     "[제목 기반] 릴라이언스·베단타·아다니, 중국 희토류 의존도 줄이려는 인도의 노력에 동참한다고 소식통들이 전했음"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "공급망",
+     "탈중국 의존",
+     "인도"
+    ],
+    "ai_processed": true,
+    "card_id": "799b5da1db25",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Reliance, Vedanta, Adani join India's drive to cut China rare earth dependence, sources say&nbsp;&nbsp;Reuters",
+    "english_phrases": [
+     {
+      "phrase": "rare earth dependence",
+      "meaning": "희토류 의존도"
+     },
+     {
+      "phrase": "sources say",
+      "meaning": "소식통들에 따르면"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "e0c019ab1553",
+   "title": "Panel | Direct Lithium Extraction: Can It Deliver for Europe at Scale? - Fastmarkets",
+   "title_norm": "panel direct lithium extraction can it deliver for europe at scale",
+   "url": "https://globalevents.fastmarkets.com/european-battery-raw-materials/event-agenda/panel-direct-lithium-extraction-deliver-europe-scale",
+   "gnews_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdGlYclMxdi1MNmJMdDVDYlgyeHk4b2VVWFl5ZG1aMEVlTWtFU2RtaUZwYlBhclR5ZnR5cVVlYjNFX0o4TTF4dTZjT014ak8tVDJGNHMweUtZTGhYZ21rOG1OR1A0NHNkSUdDWnpKRnlRMWdaeFBYTkdPSDRDY2EyTXFtSFNZbmdBMG1VMHJwWXhZMThaQVVqZ0RQNVB3Qi1HSjNZU2kzY3VYaDVJY2hsczBKaE0xcWd1ZlZTcFFGV01FYjJ3RUVKY09UNUtSUQ?oc=5",
+   "source": {
+    "name": "Fastmarkets - via Google News",
+    "domain": "globalevents.fastmarkets.com",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-06-11",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:22:09+00:00",
+   "score": 9,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "http_error",
+    "http_status": 404,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://globalevents.fastmarkets.com/european-battery-raw-materials/event-agenda/panel-direct-lithium-extraction-deliver-europe-scale",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "패널 | 직접리튬추출, 유럽에서 대규모로 성과를 낼 수 있을까? - Fastmarkets"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "exploration_tech",
+    "tags": [
+     "리튬",
+     "직접리튬추출",
+     "DLE",
+     "유럽"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Direct Lithium Extraction",
+      "meaning": "직접리튬추출(염수 등에서 리튬을 직접 추출하는 기술)"
+     },
+     {
+      "phrase": "at Scale",
+      "meaning": "대규모로"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:22:11+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "0e70d872cc",
+     "v1_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdGlYclMxdi1MNmJMdDVDYlgyeHk4b2VVWFl5ZG1aMEVlTWtFU2RtaUZwYlBhclR5ZnR5cVVlYjNFX0o4TTF4dTZjT014ak8tVDJGNHMweUtZTGhYZ21rOG1OR1A0NHNkSUdDWnpKRnlRMWdaeFBYTkdPSDRDY2EyTXFtSFNZbmdBMG1VMHJwWXhZMThaQVVqZ0RQNVB3Qi1HSjNZU2kzY3VYaDVJY2hsczBKaE0xcWd1ZlZTcFFGV01FYjJ3RUVKY09UNUtSUQ?oc=5",
+     "summary_raw": "Panel | Direct Lithium Extraction: Can It Deliver for Europe at Scale?&nbsp;&nbsp;Fastmarkets"
+    }
+   },
+   "v1": {
+    "korean_summary": "유럽의 핵심광물 공급 안정화를 위해 직접 리튬 추출(DLE) 기술의 대규모 상용화 가능성이 논의되고 있습니다. 현재 DLE 기술은 기존 광석 채굴 대비 물 소비량 감소 및 환경영향 저감 측면에서 장점을 보유하고 있으나, 경제성 확보와 규모화를 위한 기술 검증이 시급한 상황입니다. 유럽 지역의 리튬 수요 증가에 대응하기 위해 DLE 기술의 조기 상용화 및 투자 확대가 필수적일 전망입니다.",
+    "category": "exploration_tech",
+    "tags": [
+     "리튬",
+     "직접리튬추출(DLE)",
+     "유럽"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Direct Lithium Extraction (DLE)",
+      "meaning": "용출액에서 리튬을 직접 추출하는 신규 채광 기술로, 기존 증발식 채굴 대비 물 사용량 감축 및 추출 속도 향상을 실현"
+     },
+     {
+      "phrase": "scale-up feasibility for critical minerals supply",
+      "meaning": "핵심광물의 안정적 공급을 위한 채굴 기술의 대규모 상용화 실행 가능성 평가"
+     },
+     {
+      "phrase": "environmental footprint reduction in extraction processes",
+      "meaning": "리튬 채굴 시 수자원 소비 및 생태계 훼손을 최소화하는 기술 개발의 중요성"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "0e70d872cc",
+    "title": "Panel | Direct Lithium Extraction: Can It Deliver for Europe at Scale? - Fastmarkets",
+    "url": "https://globalevents.fastmarkets.com/european-battery-raw-materials/event-agenda/panel-direct-lithium-extraction-deliver-europe-scale",
+    "source": "Fastmarkets - via Google News",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-06-11",
+    "korean_summary": [
+     "[제목 기반] 패널 | 직접리튬추출, 유럽에서 대규모로 성과를 낼 수 있을까? - Fastmarkets"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "리튬",
+     "직접리튬추출",
+     "DLE",
+     "유럽"
+    ],
+    "ai_processed": true,
+    "card_id": "e0c019ab1553",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Panel | Direct Lithium Extraction: Can It Deliver for Europe at Scale?&nbsp;&nbsp;Fastmarkets",
+    "english_phrases": [
+     {
+      "phrase": "Direct Lithium Extraction",
+      "meaning": "직접리튬추출(염수 등에서 리튬을 직접 추출하는 기술)"
+     },
+     {
+      "phrase": "at Scale",
+      "meaning": "대규모로"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "a04728418d94",
+   "title": "Drilling 10 km into Alaska’s Red Mountain for silver, critical minerals - Stock Titan",
+   "title_norm": "drilling 10 km into alaska s red mountain for silver critical minerals",
+   "url": "https://stocktitan.net/news/AAGAF/silver47-commences-fully-funded-10-000-meter-drill-program-at-the-m9669q8a24zh.html",
+   "gnews_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOV2JTVGtYVEhJSUsxbGNsX2lUVVQxWFZhOU5jSDlLaUlCT181cnduX3hEUUJaOUYzRkNZQnlnVVBFNWtyUFpjQ3Z4ZUVJelhDRUlqQXpuTWttaFp1TTlWTUIzTzB1UlBaZGFKcHVXLUpRUjJrbFBkUDM4ZEJUVjFSUXVwQnBiZDViOXJtcjRLWVJTWG9uZU5vbzgxR2lZaVl2ZWtKeVp4WmtCNjc1Tld4c2pfdXJ5QVJCVVFtcjJn?oc=5",
+   "source": {
+    "name": "Google News - Critical Minerals Exploration",
+    "domain": "stocktitan.net",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-06-12",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:22:11+00:00",
+   "score": 8,
+   "body": {
+    "status": "full",
+    "chars": 18801,
+    "sha256": "a0b4a5cfb10915a648c664b438965e932a51d1277d4e49b0cbb91eae005319c6",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-06-12",
+    "quotes": [
+     "Drilling targets expansion of the inferred 168.6M silver-equivalent ounce resource and testing new polymetallic VMS targets along a 60 km corridor.",
+     "Silver47 reports about C$48 million in working capital to support the 2026 campaign."
+    ],
+    "final_url": "https://www.stocktitan.net/news/AAGAF/silver47-commences-fully-funded-10-000-meter-drill-program-at-the-m9669q8a24zh.html",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Silver47 Exploration이 알래스카 Red Mountain 프로젝트에서 2026년 여름 시추를 시작했음",
+     "10,000-meter 규모 3기 시추 프로그램이며 현재 1기 가동 중이고 월말에 3기 모두 가동 예정임",
+     "Dry Creek 추정자원 확대와 60 km 구간 신규 다금속 광화대 탐사에 집중하며 약 C$48 million 운전자본 보유함"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "168.6 million silver equivalent ounce",
+     "60 km",
+     "C$48 million"
+    ],
+    "quotes": [
+     "Drilling targets expansion of the inferred 168.6M silver-equivalent ounce resource and testing new polymetallic VMS targets along a 60 km corridor.",
+     "Silver47 reports about C$48 million in working capital to support the 2026 campaign."
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "은",
+     "핵심광물",
+     "시추",
+     "알래스카",
+     "Red Mountain"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "fully funded",
+      "meaning": "필요 자금이 모두 확보된"
+     },
+     {
+      "phrase": "inferred resource",
+      "meaning": "추정자원(신뢰도가 가장 낮은 자원 등급)"
+     },
+     {
+      "phrase": "polymetallic massive sulfide",
+      "meaning": "다금속 块状 황화물"
+     },
+     {
+      "phrase": "working capital",
+      "meaning": "운전자본"
+     }
+    ],
+    "implication": "미국 내 은·핵심광물 자원을 겨냥한 탐사가 알래스카에서 확대되며, 현재 자원이 모두 추정 등급이라 추가 시추 결과가 프로젝트 가치를 좌우함."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:22:16+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "4a63f28dcd",
+     "v1_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOV2JTVGtYVEhJSUsxbGNsX2lUVVQxWFZhOU5jSDlLaUlCT181cnduX3hEUUJaOUYzRkNZQnlnVVBFNWtyUFpjQ3Z4ZUVJelhDRUlqQXpuTWttaFp1TTlWTUIzTzB1UlBaZGFKcHVXLUpRUjJrbFBkUDM4ZEJUVjFSUXVwQnBiZDViOXJtcjRLWVJTWG9uZU5vbzgxR2lZaVl2ZWtKeVp4WmtCNjc1Tld4c2pfdXJ5QVJCVVFtcjJn?oc=5",
+     "summary_raw": "Drilling 10 km into Alaska’s Red Mountain for silver, critical minerals&nbsp;&nbsp;Stock Titan"
+    }
+   },
+   "v1": {
+    "korean_summary": "알래스카의 레드마운틴에서 심도 10km까지의 시추탐사를 통해 은 및 핵심광물 부존 확인이 추진 중인 것으로 알려졌습니다. 본 프로젝트는 북미 지역 핵심광물 공급 확보의 중요성이 증대되는 가운데 대규모 심부탐사 사례로 주목할 가치가 있습니다. 향후 성공적인 자원화에 따라 북미의 핵심광물 자급률 개선에 기여할 것으로 전망됩니다.",
+    "category": "exploration_tech",
+    "tags": [
+     "은(Silver)",
+     "심부탐사·시추",
+     "알래스카"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Deep drilling campaign to 10 km depth",
+      "meaning": "심도 10km까지의 대규모 심부 시추 캠페인"
+     },
+     {
+      "phrase": "Critical mineral exploration in high-risk frontier regions",
+      "meaning": "고위험 미개척 지역에서의 핵심광물 탐사"
+     },
+     {
+      "phrase": "Polymetallic deposit (silver and critical elements)",
+      "meaning": "은 및 핵심원소를 포함하는 다금속 광상"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "4a63f28dcd",
+    "title": "Drilling 10 km into Alaska’s Red Mountain for silver, critical minerals - Stock Titan",
+    "url": "https://stocktitan.net/news/AAGAF/silver47-commences-fully-funded-10-000-meter-drill-program-at-the-m9669q8a24zh.html",
+    "source": "Google News - Critical Minerals Exploration",
+    "tier_weight": 1,
+    "score": 8,
+    "published": "2026-06-12",
+    "korean_summary": [
+     "Silver47 Exploration이 알래스카 Red Mountain 프로젝트에서 2026년 여름 시추를 시작했음",
+     "10,000-meter 규모 3기 시추 프로그램이며 현재 1기 가동 중이고 월말에 3기 모두 가동 예정임",
+     "Dry Creek 추정자원 확대와 60 km 구간 신규 다금속 광화대 탐사에 집중하며 약 C$48 million 운전자본 보유함"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "은",
+     "핵심광물",
+     "시추",
+     "알래스카",
+     "Red Mountain"
+    ],
+    "ai_processed": true,
+    "card_id": "a04728418d94",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "168.6 million silver equivalent ounce",
+     "60 km",
+     "C$48 million"
+    ],
+    "quotes": [
+     "Drilling targets expansion of the inferred 168.6M silver-equivalent ounce resource and testing new polymetallic VMS targets along a 60 km corridor.",
+     "Silver47 reports about C$48 million in working capital to support the 2026 campaign."
+    ],
+    "summary_raw": "Drilling 10 km into Alaska’s Red Mountain for silver, critical minerals&nbsp;&nbsp;Stock Titan",
+    "english_phrases": [
+     {
+      "phrase": "fully funded",
+      "meaning": "필요 자금이 모두 확보된"
+     },
+     {
+      "phrase": "inferred resource",
+      "meaning": "추정자원(신뢰도가 가장 낮은 자원 등급)"
+     },
+     {
+      "phrase": "polymetallic massive sulfide",
+      "meaning": "다금속 块状 황화물"
+     },
+     {
+      "phrase": "working capital",
+      "meaning": "운전자본"
+     }
+    ],
+    "implication": "미국 내 은·핵심광물 자원을 겨냥한 탐사가 알래스카에서 확대되며, 현재 자원이 모두 추정 등급이라 추가 시추 결과가 프로젝트 가치를 좌우함.",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "d63924367524",
+   "title": "Surging lithium demand is outpacing growth of US supply chain: US Elemental - Fastmarkets",
+   "title_norm": "surging lithium demand is outpacing growth of us supply chain us elemental",
+   "url": "https://fastmarkets.com/insights/surging-lithium-demand-outpacing-us-supply-chain-us-elemental",
+   "gnews_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMUlPaldTZE5iMWI1Y21zUUgtZDI1Um5wRFQxbjRHbHY4T2NFWHpLSXBRcUNOZ3Noa29RVzlSM1RocVh6QjVLeFhoSUc1ZW44WXZCNTF0cmJLQy1GakFFaXg5bzhrTEV2RUgxbW1kdS1SaDVjM2V5Nlg3MThqR2NjSW4zSHVWaDFlNWRvY1RqamlULXdXYUo3Y2szZ2hhaFRi?oc=5",
+   "source": {
+    "name": "Fastmarkets - via Google News",
+    "domain": "fastmarkets.com",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-06-10",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:22:16+00:00",
+   "score": 10,
+   "body": {
+    "status": "lead_only",
+    "chars": 240,
+    "sha256": "553b8e4854e638b3406e2b1ac06482f6980d9406b19b7e10e25f0ecd3877286b",
+    "source": "og_description",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.fastmarkets.com/insights/surging-lithium-demand-outpacing-us-supply-chain-us-elemental/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "리튬 수요 급증이 미국 공급망 성장 속도를 앞지르고 있다고 US Elemental이 밝혔음",
+     "리튬 개발사 US Elemental의 Ian Rodger CEO가 6월 3일 수요일 Fastmarkets와의 단독 인터뷰에서 언급했음"
+    ],
+    "basis": "lead",
+    "key_figures": [],
+    "quotes": [],
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "공급망",
+     "미국",
+     "US Elemental",
+     "수요"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "independent US supply chain",
+      "meaning": "미국의 독립적인 공급망"
+     },
+     {
+      "phrase": "exclusive interview",
+      "meaning": "단독 인터뷰"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "lead_only",
+    "input_chars": 240,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:22:18+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "d633a2ab46",
+     "v1_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMUlPaldTZE5iMWI1Y21zUUgtZDI1Um5wRFQxbjRHbHY4T2NFWHpLSXBRcUNOZ3Noa29RVzlSM1RocVh6QjVLeFhoSUc1ZW44WXZCNTF0cmJLQy1GakFFaXg5bzhrTEV2RUgxbW1kdS1SaDVjM2V5Nlg3MThqR2NjSW4zSHVWaDFlNWRvY1RqamlULXdXYUo3Y2szZ2hhaFRi?oc=5",
+     "summary_raw": "Surging lithium demand is outpacing growth of US supply chain: US Elemental&nbsp;&nbsp;Fastmarkets"
+    }
+   },
+   "v1": {
+    "korean_summary": "미국 내 리튬 수요의 급증이 국내 공급망 확대 속도를 크게 상회하고 있는 것으로 확인되었음. 미국 엘리멘탈(US Elemental) 등 업계 관계자들은 배터리 및 에너지저장장치 산업의 성장에 따른 핵심광물 공급 부족이 심화될 우려를 제기하고 있음. 이는 북미 내 핵심광물 자급화 전략의 시급한 추진 필요성을 시사하고 있음.",
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "공급망 확대",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "lithium demand is outpacing growth of supply chain",
+      "meaning": "리튬 수요가 공급망 성장을 초과하다"
+     },
+     {
+      "phrase": "critical mineral supply constraint",
+      "meaning": "핵심광물 공급 제약"
+     },
+     {
+      "phrase": "domestic sourcing capacity",
+      "meaning": "국내 자급 능력"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "d633a2ab46",
+    "title": "Surging lithium demand is outpacing growth of US supply chain: US Elemental - Fastmarkets",
+    "url": "https://fastmarkets.com/insights/surging-lithium-demand-outpacing-us-supply-chain-us-elemental",
+    "source": "Fastmarkets - via Google News",
+    "tier_weight": 5,
+    "score": 10,
+    "published": "2026-06-10",
+    "korean_summary": [
+     "[본문 미확보] 리튬 수요 급증이 미국 공급망 성장 속도를 앞지르고 있다고 US Elemental이 밝혔음",
+     "리튬 개발사 US Elemental의 Ian Rodger CEO가 6월 3일 수요일 Fastmarkets와의 단독 인터뷰에서 언급했음"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "공급망",
+     "미국",
+     "US Elemental",
+     "수요"
+    ],
+    "ai_processed": true,
+    "card_id": "d63924367524",
+    "basis": "lead",
+    "body_status": "lead_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Surging lithium demand is outpacing growth of US supply chain: US Elemental&nbsp;&nbsp;Fastmarkets",
+    "english_phrases": [
+     {
+      "phrase": "independent US supply chain",
+      "meaning": "미국의 독립적인 공급망"
+     },
+     {
+      "phrase": "exclusive interview",
+      "meaning": "단독 인터뷰"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "53c9f6e596fb",
+   "title": "Lithium, rare earths developer Avalon opens offices in two Canadian regions and US - Mining Weekly",
+   "title_norm": "lithium rare earths developer avalon opens offices in two canadian regions and us",
+   "url": "https://miningweekly.com/article/lithium-rare-earths-developer-avalon-opens-offices-in-two-canadian-regions-and-us-2026-06-12",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNM0tpLTh4eVJONi1nU19FWE43aTlEUmt3UUVoY2xkMzVCZnlqbGEycUp6YVlYcEVES3JXV2E5OEhjZjhKNVVkQ2d0b1k5M3FXYy05bml0aXVEUGdWeGZxa3M4NzJhZGhQRGc2R1BhZk1EeDUyb24tNVpJNmlKZ05WV0gzaktMSXlQcnFYZ0tucEFEYjVTQlpVZEtHX3BxbVJZbWktd3RzamZLanhHNUdyZ0VtWnR3X1lwTjlNY0M0cjdVQTlKZXp2aw?oc=5",
+   "source": {
+    "name": "Mining Weekly - via Google News",
+    "domain": "miningweekly.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-06-12",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:22:20+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 4194,
+    "sha256": "16f8ff9493790f7a91c371997880b2c2895ed0a8cca19b4df3066a1c339891ab",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-06-12",
+    "quotes": [
+     "Lithium, rare earths developer Avalon opens offices in two Canadian regions and US",
+     "TSX-listed critical minerals developer Avalon Advanced Materials has opened three office locations to support the advancement of its Canadian and US operations, as well as its market connectivity."
+    ],
+    "final_url": "https://www.miningweekly.com/article/lithium-rare-earths-developer-avalon-opens-offices-in-two-canadian-regions-and-us-2026-06-12",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "TSX 상장 핵심광물 개발사 Avalon Advanced Materials가 사무소 3곳을 새로 열었음",
+     "온타리오주 Thunder Bay, 노스웨스트준주 Yellowknife, 미국 일리노이주 Chicago에 개설했음",
+     "Lake Superior Lithium 수산화리튬 가공시설의 타당성 조사는 2027년 1분기 예정임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "first quarter of 2027"
+    ],
+    "quotes": [
+     "Lithium, rare earths developer Avalon opens offices in two Canadian regions and US",
+     "TSX-listed critical minerals developer Avalon Advanced Materials has opened three office locations to support the advancement of its Canadian and US operations, as well as its market connectivity."
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "희토류",
+     "캐나다",
+     "미국",
+     "Avalon"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "feasibility study",
+      "meaning": "타당성 조사"
+     },
+     {
+      "phrase": "lithium hydroxide processing facility",
+      "meaning": "수산화리튬 가공시설"
+     },
+     {
+      "phrase": "critical minerals ecosystem",
+      "meaning": "핵심광물 생태계"
+     },
+     {
+      "phrase": "end-users",
+      "meaning": "최종 수요자"
+     }
+    ],
+    "implication": "캐나다 리튬·희토류 개발사가 시카고에 거점을 두고 배터리·방산 등 최종 수요처와 직접 연계를 확대해 북미 공급망 구축에 속도를 내는 움직임임."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:22:23+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "f533e42d75",
+     "v1_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNM0tpLTh4eVJONi1nU19FWE43aTlEUmt3UUVoY2xkMzVCZnlqbGEycUp6YVlYcEVES3JXV2E5OEhjZjhKNVVkQ2d0b1k5M3FXYy05bml0aXVEUGdWeGZxa3M4NzJhZGhQRGc2R1BhZk1EeDUyb24tNVpJNmlKZ05WV0gzaktMSXlQcnFYZ0tucEFEYjVTQlpVZEtHX3BxbVJZbWktd3RzamZLanhHNUdyZ0VtWnR3X1lwTjlNY0M0cjdVQTlKZXp2aw?oc=5",
+     "summary_raw": "Lithium, rare earths developer Avalon opens offices in two Canadian regions and US&nbsp;&nbsp;Mining Weekly"
+    }
+   },
+   "v1": {
+    "korean_summary": "리튬과 희토류 개발업체인 아발론(Avalon)이 캐나다 2개 지역과 미국에 신규 사무소를 개설하여 북미 지역 핵심광물 개발 역량을 강화하고 있음이 확인되었습니다. 이는 북미 내 공급망 다원화 및 핵심광물 자급률 제고를 위한 산업 전략의 일환으로 평가됩니다. 캐나다의 지정학적 이점과 광물자원 매장량을 바탕으로 향후 리튬, 희토류 등 핵심광물의 안정적 공급처 확보가 가능할 전망입니다.",
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "희토류",
+     "북미 공급망"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals developer",
+      "meaning": "핵심광물 개발업체"
+     },
+     {
+      "phrase": "supply chain diversification in North America",
+      "meaning": "북미 지역 공급망 다원화"
+     },
+     {
+      "phrase": "regional office expansion strategy",
+      "meaning": "지역 사무소 확대 전략"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "f533e42d75",
+    "title": "Lithium, rare earths developer Avalon opens offices in two Canadian regions and US - Mining Weekly",
+    "url": "https://miningweekly.com/article/lithium-rare-earths-developer-avalon-opens-offices-in-two-canadian-regions-and-us-2026-06-12",
+    "source": "Mining Weekly - via Google News",
+    "tier_weight": 3,
+    "score": 9,
+    "published": "2026-06-12",
+    "korean_summary": [
+     "TSX 상장 핵심광물 개발사 Avalon Advanced Materials가 사무소 3곳을 새로 열었음",
+     "온타리오주 Thunder Bay, 노스웨스트준주 Yellowknife, 미국 일리노이주 Chicago에 개설했음",
+     "Lake Superior Lithium 수산화리튬 가공시설의 타당성 조사는 2027년 1분기 예정임"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "희토류",
+     "캐나다",
+     "미국",
+     "Avalon"
+    ],
+    "ai_processed": true,
+    "card_id": "53c9f6e596fb",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "first quarter of 2027"
+    ],
+    "quotes": [
+     "Lithium, rare earths developer Avalon opens offices in two Canadian regions and US",
+     "TSX-listed critical minerals developer Avalon Advanced Materials has opened three office locations to support the advancement of its Canadian and US operations, as well as its market connectivity."
+    ],
+    "summary_raw": "Lithium, rare earths developer Avalon opens offices in two Canadian regions and US&nbsp;&nbsp;Mining Weekly",
+    "english_phrases": [
+     {
+      "phrase": "feasibility study",
+      "meaning": "타당성 조사"
+     },
+     {
+      "phrase": "lithium hydroxide processing facility",
+      "meaning": "수산화리튬 가공시설"
+     },
+     {
+      "phrase": "critical minerals ecosystem",
+      "meaning": "핵심광물 생태계"
+     },
+     {
+      "phrase": "end-users",
+      "meaning": "최종 수요자"
+     }
+    ],
+    "implication": "캐나다 리튬·희토류 개발사가 시카고에 거점을 두고 배터리·방산 등 최종 수요처와 직접 연계를 확대해 북미 공급망 구축에 속도를 내는 움직임임.",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "6b518537b153",
+   "title": "Presentation | Latin America's Lithium Triangle & The Next Cycle - Fastmarkets",
+   "title_norm": "presentation latin america s lithium triangle the next cycle",
+   "url": "https://globalevents.fastmarkets.com/european-battery-raw-materials/event-agenda/presentation-latin-americas-lithium-triangle-next-cycle",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPU09YSTBSY2VoWWNxMFpsVy1KNmQ5V3FyaFUwWTBWbGlUTkVYVXNiV0pDRXNDUXRmMnpJLUhMQ0NBUzZOSzlCcGN5N2EzSzZHUG5BQUlVRGhEbmNhU2ZORm14WGpUQjM4T0swd1RJSlFuM2xqWkFxUVRqa21tWVFKazNsbmhuQUh6QmlLN1E2M1Q4SUh1a3prY0QwZ3dyekM3eERRcWNESFg3Y0sxTWpyNXVMNXlDUDRCWXloUVhMdU9MX3JzaV90R1ZET3VFQ1ZISFE?oc=5",
+   "source": {
+    "name": "Fastmarkets - via Google News",
+    "domain": "globalevents.fastmarkets.com",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-06-11",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:22:23+00:00",
+   "score": 9,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "http_error",
+    "http_status": 404,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://globalevents.fastmarkets.com/european-battery-raw-materials/event-agenda/presentation-latin-americas-lithium-triangle-next-cycle",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "프레젠테이션: 라틴아메리카의 리튬 트라이앵글과 다음 사이클 - Fastmarkets임"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "리튬 트라이앵글",
+     "라틴아메리카",
+     "시장 사이클"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Lithium Triangle",
+      "meaning": "리튬 트라이앵글(리튬 주요 매장 지역을 가리키는 표현)"
+     },
+     {
+      "phrase": "The Next Cycle",
+      "meaning": "다음 사이클"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:22:25+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "6fefa5c41e",
+     "v1_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPU09YSTBSY2VoWWNxMFpsVy1KNmQ5V3FyaFUwWTBWbGlUTkVYVXNiV0pDRXNDUXRmMnpJLUhMQ0NBUzZOSzlCcGN5N2EzSzZHUG5BQUlVRGhEbmNhU2ZORm14WGpUQjM4T0swd1RJSlFuM2xqWkFxUVRqa21tWVFKazNsbmhuQUh6QmlLN1E2M1Q4SUh1a3prY0QwZ3dyekM3eERRcWNESFg3Y0sxTWpyNXVMNXlDUDRCWXloUVhMdU9MX3JzaV90R1ZET3VFQ1ZISFE?oc=5",
+     "summary_raw": "Presentation | Latin America's Lithium Triangle & The Next Cycle&nbsp;&nbsp;Fastmarkets"
+    }
+   },
+   "v1": {
+    "korean_summary": "라틴아메리카 리튬 삼각지대(칠레, 아르헨티나, 볼리비아)는 전 세계 리튬 공급의 핵심 지역으로 향후 수급 사이클에서 결정적 역할을 할 전망입니다. Fastmarkets의 발표 자료는 이 지역의 핵심광물 생산 역량과 시장 변화를 분석하고 있으며, 전략적 공급망 다변화의 중요성을 강조하고 있습니다. 우리 자원 산업은 라틴아메리카의 리튬 공급 안정성 및 개발 프로젝트 동향을 지속적으로 모니터링할 필요가 있음으로 확인되었습니다.",
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "핵심광물 공급망",
+     "라틴아메리카"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Lithium Triangle",
+      "meaning": "칠레, 아르헨티나, 볼리비아의 리튬 광산지대를 지칭하는 용어"
+     },
+     {
+      "phrase": "supply cycle dynamics",
+      "meaning": "핵심광물 공급의 주기적 변동과 시장 순환 구조"
+     },
+     {
+      "phrase": "strategic mineral production capacity",
+      "meaning": "전략적 광물 생산 역량 및 개발 잠재력"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "6fefa5c41e",
+    "title": "Presentation | Latin America's Lithium Triangle & The Next Cycle - Fastmarkets",
+    "url": "https://globalevents.fastmarkets.com/european-battery-raw-materials/event-agenda/presentation-latin-americas-lithium-triangle-next-cycle",
+    "source": "Fastmarkets - via Google News",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-06-11",
+    "korean_summary": [
+     "[제목 기반] 프레젠테이션: 라틴아메리카의 리튬 트라이앵글과 다음 사이클 - Fastmarkets임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "리튬 트라이앵글",
+     "라틴아메리카",
+     "시장 사이클"
+    ],
+    "ai_processed": true,
+    "card_id": "6b518537b153",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Presentation | Latin America's Lithium Triangle & The Next Cycle&nbsp;&nbsp;Fastmarkets",
+    "english_phrases": [
+     {
+      "phrase": "Lithium Triangle",
+      "meaning": "리튬 트라이앵글(리튬 주요 매장 지역을 가리키는 표현)"
+     },
+     {
+      "phrase": "The Next Cycle",
+      "meaning": "다음 사이클"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "411457dea153",
+   "title": "From vulnerability to viability: can a US-led push diversify the rare earth supply chain? - White & Case LLP",
+   "title_norm": "from vulnerability to viability can a us led push diversify the rare earth supply chain",
+   "url": "https://whitecase.com/insight-alert/vulnerability-viability-can-us-led-push-diversify-rare-earth-supply-chain",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPN0w5cm5WSExXaUhzT19uUFFRZ3ZqODVBWW9tVWMwTkxicFNSeUtlRmxOMkRIVlAxSHJlbTQtTVpOMldyUndPb1dtclBMWVBZQ1hLSzNfMGVOU0ZDZGxvcHdFMjNtcHhxWndZV3ZLWG9seUVETEh3QXlWVUdmcXAtcjJPVFhMTWdlM1JsWG5QNGFNWHRfY01ONmxDQmRhMm9BNGZJY0pUNXdnYzJmeHdXTzFxcw?oc=5",
+   "source": {
+    "name": "Google News - Rare Earth Elements",
+    "domain": "whitecase.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-06-11",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:22:25+00:00",
+   "score": 8,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "bot_block",
+    "http_status": 403,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.whitecase.com/insight-alert/vulnerability-viability-can-us-led-push-diversify-rare-earth-supply-chain",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "취약성에서 지속가능성으로: 미국 주도의 노력이 희토류 공급망을 다변화할 수 있을까 - White & Case LLP"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "공급망 다변화",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "From vulnerability to viability",
+      "meaning": "취약성에서 지속가능성(실현 가능성)으로"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:22:27+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "48d6734cf7",
+     "v1_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPN0w5cm5WSExXaUhzT19uUFFRZ3ZqODVBWW9tVWMwTkxicFNSeUtlRmxOMkRIVlAxSHJlbTQtTVpOMldyUndPb1dtclBMWVBZQ1hLSzNfMGVOU0ZDZGxvcHdFMjNtcHhxWndZV3ZLWG9seUVETEh3QXlWVUdmcXAtcjJPVFhMTWdlM1JsWG5QNGFNWHRfY01ONmxDQmRhMm9BNGZJY0pUNXdnYzJmeHdXTzFxcw?oc=5",
+     "summary_raw": "From vulnerability to viability: can a US-led push diversify the rare earth supply chain?&nbsp;&nbsp;White & Case LLP"
+    }
+   },
+   "v1": {
+    "korean_summary": "미국 주도의 희토류 공급망 다변화 전략이 추진되고 있으며, 중국 의존도 감소를 위한 국내 생산 및 동맹국 협력이 핵심 과제로 대두되고 있음. 핵심광물 확보를 위한 정부 차원의 투자 및 규제 정비가 산업의 경제성 확보에 필수적인 것으로 분석되고 있음. 북미, 오스트레일리아 등 우호국과의 공급망 재편을 통해 지정학적 리스크를 완화하려는 시도가 가시화되고 있는 상황임.",
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "공급망 다변화",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "supply chain diversification",
+      "meaning": "공급망 다변화"
+     },
+     {
+      "phrase": "supply chain vulnerability",
+      "meaning": "공급망 취약성"
+     },
+     {
+      "phrase": "critical mineral security",
+      "meaning": "핵심광물 공급 안정성"
+     },
+     {
+      "phrase": "allied nations partnership",
+      "meaning": "동맹국 협력 체계"
+     },
+     {
+      "phrase": "domestic production capability",
+      "meaning": "국내 생산 역량"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "48d6734cf7",
+    "title": "From vulnerability to viability: can a US-led push diversify the rare earth supply chain? - White & Case LLP",
+    "url": "https://whitecase.com/insight-alert/vulnerability-viability-can-us-led-push-diversify-rare-earth-supply-chain",
+    "source": "Google News - Rare Earth Elements",
+    "tier_weight": 1,
+    "score": 8,
+    "published": "2026-06-11",
+    "korean_summary": [
+     "[제목 기반] 취약성에서 지속가능성으로: 미국 주도의 노력이 희토류 공급망을 다변화할 수 있을까 - White & Case LLP"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "공급망 다변화",
+     "미국"
+    ],
+    "ai_processed": true,
+    "card_id": "411457dea153",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "From vulnerability to viability: can a US-led push diversify the rare earth supply chain?&nbsp;&nbsp;White & Case LLP",
+    "english_phrases": [
+     {
+      "phrase": "From vulnerability to viability",
+      "meaning": "취약성에서 지속가능성(실현 가능성)으로"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "0866b9c4c8cb",
+   "title": "Schneider Electric, Torngat Metals sign MoU to develop resilient, responsible rare earth value chain - International Mining",
+   "title_norm": "schneider electric torngat metals sign mou to develop resilient responsible rare earth value chain",
+   "url": "https://im-mining.com/2026/06/11/schneider-electric-torngat-metals-sign-mou-to-develop-resilient-responsible-rare-earth-value-chain",
+   "gnews_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNV1NUbXZtNjl0X3I1a1ZjTmNHMnlfMU1xR3RZOEJ4bldaSXdlT0t3TDBDcjRaV1pPckZMd0lycGhjUjE5VkZVb2llNjd6MG54SllsLXVXTVEyNm1HQk51YzE4NkQ5YjRoSnVrbWI3M2RNTG1aR0g1OWZsbHlxLThRUXRXVzdyVy1TZ24tMl9ndXdVTTc3emljZnJocnp3am5hUW9MUWNtQTNxU0ZZUzF4VnJfTDlSNkoxa1EwNzNjWlhBUjVBb3JSd3lGUDQ?oc=5",
+   "source": {
+    "name": "Google News - Rare Earth Elements",
+    "domain": "im-mining.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-06-11",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:22:27+00:00",
+   "score": 8,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "bot_block",
+    "http_status": 403,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://im-mining.com/2026/06/11/schneider-electric-torngat-metals-sign-mou-to-develop-resilient-responsible-rare-earth-value-chain/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "슈나이더 일렉트릭과 톤게이트 메탈스가 회복력 있고 책임 있는 희토류 밸류체인 구축을 위한 MoU를 체결했음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "밸류체인",
+     "MoU",
+     "슈나이더 일렉트릭",
+     "톤게이트 메탈스"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "MoU",
+      "meaning": "양해각서"
+     },
+     {
+      "phrase": "value chain",
+      "meaning": "밸류체인(가치사슬)"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:22:31+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "02cc90cf91",
+     "v1_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNV1NUbXZtNjl0X3I1a1ZjTmNHMnlfMU1xR3RZOEJ4bldaSXdlT0t3TDBDcjRaV1pPckZMd0lycGhjUjE5VkZVb2llNjd6MG54SllsLXVXTVEyNm1HQk51YzE4NkQ5YjRoSnVrbWI3M2RNTG1aR0g1OWZsbHlxLThRUXRXVzdyVy1TZ24tMl9ndXdVTTc3emljZnJocnp3am5hUW9MUWNtQTNxU0ZZUzF4VnJfTDlSNkoxa1EwNzNjWlhBUjVBb3JSd3lGUDQ?oc=5",
+     "summary_raw": "Schneider Electric, Torngat Metals sign MoU to develop resilient, responsible rare earth value chain&nbsp;&nbsp;International Mining"
+    }
+   },
+   "v1": {
+    "korean_summary": "슈나이더 일렉트릭과 토르냇 메탈스가 회수 가능하고 책임감 있는 희토류 가치사슬 구축을 위한 양해각서를 체결했으며, 이는 핵심광물 공급망의 회복력 강화를 목표로 하고 있음. 두 기업의 협력을 통해 채굴에서 정제, 최종 소재 생산까지 전주기적 지속가능성 기준을 확보할 전망임. 이러한 민간 주도 협력 모델은 글로벌 핵심광물 수급 안정화와 책임 있는 자원개발의 새로운 표준 제시로 평가될 수 있음.",
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "공급망 안정화",
+     "캐나다"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "resilient, responsible rare earth value chain",
+      "meaning": "회복력 있고 책임감 있는 희토류 가치사슬"
+     },
+     {
+      "phrase": "memorandum of understanding (MoU)",
+      "meaning": "양해각서, 협력 기본합의"
+     },
+     {
+      "phrase": "critical minerals supply chain resilience",
+      "meaning": "핵심광물 공급망 회복력"
+     },
+     {
+      "phrase": "end-to-end traceability",
+      "meaning": "전주기 추적가능성, 투명성"
+     },
+     {
+      "phrase": "responsible sourcing and processing",
+      "meaning": "책임감 있는 채광 및 정제"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "02cc90cf91",
+    "title": "Schneider Electric, Torngat Metals sign MoU to develop resilient, responsible rare earth value chain - International Mining",
+    "url": "https://im-mining.com/2026/06/11/schneider-electric-torngat-metals-sign-mou-to-develop-resilient-responsible-rare-earth-value-chain",
+    "source": "Google News - Rare Earth Elements",
+    "tier_weight": 1,
+    "score": 8,
+    "published": "2026-06-11",
+    "korean_summary": [
+     "[제목 기반] 슈나이더 일렉트릭과 톤게이트 메탈스가 회복력 있고 책임 있는 희토류 밸류체인 구축을 위한 MoU를 체결했음"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "밸류체인",
+     "MoU",
+     "슈나이더 일렉트릭",
+     "톤게이트 메탈스"
+    ],
+    "ai_processed": true,
+    "card_id": "0866b9c4c8cb",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Schneider Electric, Torngat Metals sign MoU to develop resilient, responsible rare earth value chain&nbsp;&nbsp;International Mining",
+    "english_phrases": [
+     {
+      "phrase": "MoU",
+      "meaning": "양해각서"
+     },
+     {
+      "phrase": "value chain",
+      "meaning": "밸류체인(가치사슬)"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  }
+ ],
+ "excluded": [],
+ "v1_file": "week-2026-06-15.json",
+ "v1_metrics": {
+  "articles": 12,
+  "original_link": 1,
+  "body_based": 0,
+  "failed": 0
+ },
+ "trial": false
+}

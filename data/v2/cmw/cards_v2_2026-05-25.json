@@ -1,0 +1,2026 @@
+{
+ "schema_version": "card.v1",
+ "service": "cmw",
+ "week_of": "2026-05-25",
+ "generated_at": "2026-10-19T05:18:44+00:00",
+ "mincore_version": "0.3.6",
+ "model": "claude-sonnet-5-5",
+ "prompt_version": "v2.2",
+ "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+ "stats": {
+  "v1_articles": 12,
+  "cards": 12,
+  "excluded": 0,
+  "body_got": 8,
+  "body_rate": 0.667,
+  "original_link": 12,
+  "reader_proxy_used": 0,
+  "line_len": {
+   "lines": 28,
+   "median": 50.0,
+   "max": 70,
+   "over60": 5,
+   "over100": 0
+  },
+  "oda_filled": 6,
+  "usage": {
+   "claude-sonnet-5-5": {
+    "calls": 15,
+    "in": 38231,
+    "out": 9929
+   }
+  },
+  "cost_usd": 0.2636,
+  "body_status": {
+   "full": 6,
+   "partial": 2,
+   "title_only": 4
+  },
+  "body_source": {
+   "trafilatura": 7,
+   "none": 4,
+   "presscorner_api": 1
+  },
+  "resolve": {
+   "decoder": 10,
+   "direct": 2
+  },
+  "fail_reason": {},
+  "basis": {
+   "body": 8,
+   "title": 4
+  },
+  "retry_reason": {
+   "lines는 3줄이어야 함 (현재 4줄)": 2,
+   "JSON 파싱 실패: 문법 오류(Expecting value, 위치 219)": 1
+  },
+  "flags": {},
+  "model_used": {
+   "claude-sonnet-5-5": 12
+  }
+ },
+ "total": 12,
+ "cards": [
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "d0b0833f1fca",
+   "title": "EU Names Tungsten, Gallium, Rare Earths for First Joint Mineral Reserve as China Tightens Output Controls - Tech Times",
+   "title_norm": "eu names tungsten gallium rare earths for first joint mineral reserve as china tightens output controls",
+   "url": "https://techtimes.com/articles/316956/20260521/eu-names-tungsten-gallium-rare-earths-first-joint-mineral-reserve-china-tightens-output-controls.htm",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQV01aWW02WDF1ZVB0Y0RWRTVmYW1MQjVORkxfUkt4LUg4MzZ1YUZ6R3h6MTdWOUt3Q05lUjFORXpiTzRGdHoxYjVIaWxRVWxZcU1taHVVbmxRMjFhLVl4R1RIODViVm1hbWtvM2FoOXJNdE9BbXNnMjJQdV9GZUZLaW5kUEJyWEdSVTZvTGNIMTBXNmRmal9DVTJWaWZucHFZTS04dHVFNEJNTVg2Z3lVUGp2NEVNUFF1T1U1aVZ4QmNiaTRvSU56UnF0dGJCcTJMQ3l2Nlh5REZaRTVCUlYzeno5dExLdw?oc=5",
+   "source": {
+    "name": "Google News - IRA CRMA Policy",
+    "domain": "techtimes.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-05-21",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:17:26+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 6098,
+    "sha256": "53a319466fed1e99852adef60fe4d51d49409e99487587f3384ef106669619e9",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-05-21",
+    "quotes": [
+     "China refines more than 80 percent of the world's rare earths and accounts for roughly 98 percent of global gallium refining capacity.",
+     "Keit Pentus-Rosimannus, the ECA member responsible for the audit, said the bloc is \"now dangerously dependent on a handful of countries outside the EU.\""
+    ],
+    "final_url": "https://www.techtimes.com/articles/316956/20260521/eu-names-tungsten-gallium-rare-earths-first-joint-mineral-reserve-china-tightens-output-controls.htm",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "EU가 텅스텐·희토류·갈륨을 첫 공동 전략광물 비축 대상으로 압축했다고 로이터가 전했음",
+     "마그네슘·게르마늄·흑연도 검토 중이며, 로테르담 등 주요 항만과 저장 협의 중임",
+     "중국은 같은 날 개정 광물자원법 시행규정을 공표했으며 6월 15일 발효 예정임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "more than 80 percent",
+     "roughly 98 percent",
+     "97 percent"
+    ],
+    "quotes": [
+     "China refines more than 80 percent of the world's rare earths and accounts for roughly 98 percent of global gallium refining capacity.",
+     "Keit Pentus-Rosimannus, the ECA member responsible for the audit, said the bloc is \"now dangerously dependent on a handful of countries outside the EU.\""
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "텅스텐",
+     "갈륨",
+     "희토류",
+     "전략광물 비축",
+     "EU"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "strategic mineral reserve",
+      "meaning": "전략광물 비축"
+     },
+     {
+      "phrase": "single-country threshold",
+      "meaning": "단일 국가 의존 한도"
+     },
+     {
+      "phrase": "RESourceEU Action Plan",
+      "meaning": "EU 집행위원회의 리소스EU 실행계획"
+     }
+    ],
+    "implication": "EU의 공동 비축 추진과 중국의 총생산량 통제 권한 법제화가 맞물리며 갈륨·희토류 등의 공급 안정 확보 경쟁이 구체화되고 있음."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:17:36+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "f2133ab65e",
+     "v1_url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQV01aWW02WDF1ZVB0Y0RWRTVmYW1MQjVORkxfUkt4LUg4MzZ1YUZ6R3h6MTdWOUt3Q05lUjFORXpiTzRGdHoxYjVIaWxRVWxZcU1taHVVbmxRMjFhLVl4R1RIODViVm1hbWtvM2FoOXJNdE9BbXNnMjJQdV9GZUZLaW5kUEJyWEdSVTZvTGNIMTBXNmRmal9DVTJWaWZucHFZTS04dHVFNEJNTVg2Z3lVUGp2NEVNUFF1T1U1aVZ4QmNiaTRvSU56UnF0dGJCcTJMQ3l2Nlh5REZaRTVCUlYzeno5dExLdw?oc=5",
+     "summary_raw": "EU Names Tungsten, Gallium, Rare Earths for First Joint Mineral Reserve as China Tightens Output Controls&nbsp;&nbsp;Tech Times"
+    }
+   },
+   "v1": {
+    "korean_summary": "EU가 중국의 산출 통제 강화에 대응하여 텅스텐, 갈륨, 희토류를 포함한 첫 번째 공동 핵심광물 비축 전략을 발표하였습니다. 이는 유럽의 핵심광물 공급망 자립도 강화 및 중국에 대한 의존도 감소를 목표로 하는 정책적 결정으로 평가됩니다. 해당 광종들은 반도체, 방위산업, 신재생에너지 등 전략적으로 중요한 산업의 필수 원재료로서 글로벌 수급 불균형 심화가 예상됨에 따라 선제적 확보 필요성이 대두되었습니다.",
+    "category": "policy_market",
+    "tags": [
+     "텅스텐, 갈륨, 희토류",
+     "공급망 안보, 전략적 비축",
+     "EU, 중국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Joint Mineral Reserve",
+      "meaning": "공동 광물 비축 제도 (국제협력을 기반으로 한 국가 간 광물 공동 비축 시스템)"
+     },
+     {
+      "phrase": "Supply Chain Resilience",
+      "meaning": "공급망 복원력 (핵심광물 수급 불안정성 대응 능력)"
+     },
+     {
+      "phrase": "Output Controls / Production Restrictions",
+      "meaning": "산출 통제 / 생산 제한 (특정 국가의 광물 수출량 또는 생산량 규제)"
+     },
+     {
+      "phrase": "Strategic Dependency",
+      "meaning": "전략적 의존도 (특정 국가 또는 지역의 광물 수급에 대한 경제적·정치적 의존성)"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "f2133ab65e",
+    "title": "EU Names Tungsten, Gallium, Rare Earths for First Joint Mineral Reserve as China Tightens Output Controls - Tech Times",
+    "url": "https://techtimes.com/articles/316956/20260521/eu-names-tungsten-gallium-rare-earths-first-joint-mineral-reserve-china-tightens-output-controls.htm",
+    "source": "Google News - IRA CRMA Policy",
+    "tier_weight": 1,
+    "score": 9,
+    "published": "2026-05-21",
+    "korean_summary": [
+     "EU가 텅스텐·희토류·갈륨을 첫 공동 전략광물 비축 대상으로 압축했다고 로이터가 전했음",
+     "마그네슘·게르마늄·흑연도 검토 중이며, 로테르담 등 주요 항만과 저장 협의 중임",
+     "중국은 같은 날 개정 광물자원법 시행규정을 공표했으며 6월 15일 발효 예정임"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "텅스텐",
+     "갈륨",
+     "희토류",
+     "전략광물 비축",
+     "EU"
+    ],
+    "ai_processed": true,
+    "card_id": "d0b0833f1fca",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "more than 80 percent",
+     "roughly 98 percent",
+     "97 percent"
+    ],
+    "quotes": [
+     "China refines more than 80 percent of the world's rare earths and accounts for roughly 98 percent of global gallium refining capacity.",
+     "Keit Pentus-Rosimannus, the ECA member responsible for the audit, said the bloc is \"now dangerously dependent on a handful of countries outside the EU.\""
+    ],
+    "summary_raw": "EU Names Tungsten, Gallium, Rare Earths for First Joint Mineral Reserve as China Tightens Output Controls&nbsp;&nbsp;Tech Times",
+    "english_phrases": [
+     {
+      "phrase": "strategic mineral reserve",
+      "meaning": "전략광물 비축"
+     },
+     {
+      "phrase": "single-country threshold",
+      "meaning": "단일 국가 의존 한도"
+     },
+     {
+      "phrase": "RESourceEU Action Plan",
+      "meaning": "EU 집행위원회의 리소스EU 실행계획"
+     }
+    ],
+    "implication": "EU의 공동 비축 추진과 중국의 총생산량 통제 권한 법제화가 맞물리며 갈륨·희토류 등의 공급 안정 확보 경쟁이 구체화되고 있음.",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "6394504c063d",
+   "title": "Export restrictions on critical raw materials increase five-fold since 2009 — OECD - Business Post",
+   "title_norm": "export restrictions on critical raw materials increase five fold since 2009 oecd",
+   "url": "https://businesspost.ie/article/export-restrictions-on-critical-raw-materials-increase-five-fold-since-2009-oecd",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNS2ZFZzUyLTJ3Q3dQa3BXQkxrVlVsNTlSWTgwN25YWDhkS3pWRVdUaEoydl9hajFFSTNKVFd0dmJldnZtVFFndVFPTy04MDFhdFlZRU1RRnpPdzZoZVNxdnVBdnV5Y2lCN0YtYzVmOWJsblNpWk5kXzgyU1FRbnhHT3dGX0ZFeUpkdEJVeWdDOE9pU3F0aXNULWF3WTJ0X3JMNTZpSkRweDVsNTFBQ1Y5WnlSQnBPWTJ1?oc=5",
+   "source": {
+    "name": "Google News - IRA CRMA Policy",
+    "domain": "businesspost.ie",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-05-22",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:17:37+00:00",
+   "score": 9,
+   "body": {
+    "status": "partial",
+    "chars": 687,
+    "sha256": "171f38a320418fd7f68af3cb0937e35fa0ed41383a113ebb36f10e01e6d9fb12",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-04-28",
+    "quotes": [],
+    "final_url": "https://www.businesspost.ie/article/export-restrictions-on-critical-raw-materials-increase-five-fold-since-2009-oecd/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "OECD를 출처로 핵심광물 수출 제한이 2009년 이후 five-fold 늘었다고 보도했음",
+     "대상 광종·국가·조치 건수 등 세부 내용은 확인 불가임",
+     "배경, 후속 계획, 영향은 확인 불가임"
+    ],
+    "basis": "body",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "수출 제한",
+     "OECD",
+     "공급망"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Export restrictions",
+      "meaning": "수출 제한"
+     },
+     {
+      "phrase": "critical raw materials",
+      "meaning": "핵심광물(핵심 원자재)"
+     },
+     {
+      "phrase": "five-fold",
+      "meaning": "5배의 증가"
+     }
+    ],
+    "implication": "핵심광물 수출 제한이 2009년 이후 five-fold 늘었다는 OECD 인용 보도는 자원 보유국의 공급 통제가 확대돼 왔음을 보여줌"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "partial",
+    "input_chars": 687,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:17:47+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "df785c602c",
+     "v1_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNS2ZFZzUyLTJ3Q3dQa3BXQkxrVlVsNTlSWTgwN25YWDhkS3pWRVdUaEoydl9hajFFSTNKVFd0dmJldnZtVFFndVFPTy04MDFhdFlZRU1RRnpPdzZoZVNxdnVBdnV5Y2lCN0YtYzVmOWJsblNpWk5kXzgyU1FRbnhHT3dGX0ZFeUpkdEJVeWdDOE9pU3F0aXNULWF3WTJ0X3JMNTZpSkRweDVsNTFBQ1Y5WnlSQnBPWTJ1?oc=5",
+     "summary_raw": "Export restrictions on critical raw materials increase five-fold since 2009 — OECD&nbsp;&nbsp;Business Post"
+    }
+   },
+   "v1": {
+    "korean_summary": "OECD 분석에 따르면 2009년 이후 핵심광물에 대한 수출제한 조치가 5배 이상 증가한 것으로 확인되었습니다. 이는 주요국들의 공급망 확보 경쟁 심화와 자원 민족주의 강화 추세를 반영하고 있습니다. 핵심광물의 안정적 확보를 위해 국제 협력 체계 재구축과 국내 자급률 제고가 시급한 과제로 대두될 전망입니다.",
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "수출제한정책",
+     "국제공급망"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Export restrictions on critical raw materials",
+      "meaning": "핵심광물에 대한 수출제한 조치"
+     },
+     {
+      "phrase": "Five-fold increase since 2009",
+      "meaning": "2009년 이후 5배 증가"
+     },
+     {
+      "phrase": "Supply chain security",
+      "meaning": "공급망 안보"
+     },
+     {
+      "phrase": "Resource nationalism",
+      "meaning": "자원 민족주의"
+     },
+     {
+      "phrase": "Trade policy instruments",
+      "meaning": "무역정책 수단"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "df785c602c",
+    "title": "Export restrictions on critical raw materials increase five-fold since 2009 — OECD - Business Post",
+    "url": "https://businesspost.ie/article/export-restrictions-on-critical-raw-materials-increase-five-fold-since-2009-oecd",
+    "source": "Google News - IRA CRMA Policy",
+    "tier_weight": 1,
+    "score": 9,
+    "published": "2026-05-22",
+    "korean_summary": [
+     "OECD를 출처로 핵심광물 수출 제한이 2009년 이후 five-fold 늘었다고 보도했음",
+     "대상 광종·국가·조치 건수 등 세부 내용은 확인 불가임",
+     "배경, 후속 계획, 영향은 확인 불가임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "수출 제한",
+     "OECD",
+     "공급망"
+    ],
+    "ai_processed": true,
+    "card_id": "6394504c063d",
+    "basis": "body",
+    "body_status": "partial",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Export restrictions on critical raw materials increase five-fold since 2009 — OECD&nbsp;&nbsp;Business Post",
+    "english_phrases": [
+     {
+      "phrase": "Export restrictions",
+      "meaning": "수출 제한"
+     },
+     {
+      "phrase": "critical raw materials",
+      "meaning": "핵심광물(핵심 원자재)"
+     },
+     {
+      "phrase": "five-fold",
+      "meaning": "5배의 증가"
+     }
+    ],
+    "implication": "핵심광물 수출 제한이 2009년 이후 five-fold 늘었다는 OECD 인용 보도는 자원 보유국의 공급 통제가 확대돼 왔음을 보여줌",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "7975b60a574c",
+   "title": "China squeezes Japan over rare earths in repeat of 2010 showdown - KITCO",
+   "title_norm": "china squeezes japan over rare earths in repeat of 2010 showdown",
+   "url": "https://kitco.com/news/off-the-wire/2026-05-22/china-squeezes-japan-over-rare-earths-repeat-2010-showdown",
+   "gnews_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWmdZQS13dkEyTWZPUFBVX0NpWDZHR2dVVW5WV2FrVXpTVzZFb09taWE5NnVrb1VhWXIzWnl4WnY0N2ItZ1lYdXhMR3pDSWZXYTktUjJLU1o3eEtQaXc4czBYczNyVENXRjhHcWszUWtnSTBUZi15WWdUU2hYVVE4QjBqS05lUHd3cGVaeXVyZkwwRXYwSkpGY19fUEtaS1N3QkpETHZ3Z2EybVBhSFE?oc=5",
+   "source": {
+    "name": "Project Blue Mentions in Industry News",
+    "domain": "kitco.com",
+    "tier": null,
+    "tier_weight": 4,
+    "language": null
+   },
+   "published": "2026-05-22",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:17:47+00:00",
+   "score": 8,
+   "body": {
+    "status": "full",
+    "chars": 3205,
+    "sha256": "89e1637fe44b8d1b78e77e492f04fcd2e5379783346b8950f6b6c60f0ed21d86",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-05-22",
+    "quotes": [
+     "China exported about 14 tons a month of the two minerals to Japan in 2024.",
+     "Japan’s Trade Minister Ryosei Akazawa, who is currently in China, is scheduled to attend meetings on Saturday."
+    ],
+    "final_url": "https://www.kitco.com/news/off-the-wire/2026-05-22/china-squeezes-japan-over-rare-earths-repeat-2010-showdown",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "중국이 대만 문제를 둘러싼 외교 갈등 속에 일본에 대한 일부 중희토류와 갈륨 수출을 최소 4개월간 중단했음",
+     "중국 세관 자료상 12월 이후 디스프로슘·터븀·산화이트륨·갈륨 대일 수출이 소량 이트륨을 제외하고 멈췄음",
+     "일본 당국은 비축분 방출 등을 하고 있으나 세부 내용은 공개하지 않으며, 대체 공급 확보에는 수년이 걸릴 전망임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "8 metric tons",
+     "14 tons a month",
+     "at least four months"
+    ],
+    "quotes": [
+     "China exported about 14 tons a month of the two minerals to Japan in 2024.",
+     "Japan’s Trade Minister Ryosei Akazawa, who is currently in China, is scheduled to attend meetings on Saturday."
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "중희토류",
+     "갈륨",
+     "수출통제",
+     "중국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "diplomatic leverage",
+      "meaning": "외교적 영향력·압박 수단"
+     },
+     {
+      "phrase": "heavy rare earths",
+      "meaning": "중희토류"
+     },
+     {
+      "phrase": "export controls",
+      "meaning": "수출통제"
+     },
+     {
+      "phrase": "stockpiled supplies",
+      "meaning": "비축 물량"
+     }
+    ],
+    "implication": "중국이 핵심광물 수출을 외교 압박 수단으로 쓰는 사례가 이어지며, 중희토류와 갈륨의 중국 의존이 공급 리스크로 부각됨."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 3205,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:17:51+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "8308361c58",
+     "v1_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWmdZQS13dkEyTWZPUFBVX0NpWDZHR2dVVW5WV2FrVXpTVzZFb09taWE5NnVrb1VhWXIzWnl4WnY0N2ItZ1lYdXhMR3pDSWZXYTktUjJLU1o3eEtQaXc4czBYczNyVENXRjhHcWszUWtnSTBUZi15WWdUU2hYVVE4QjBqS05lUHd3cGVaeXVyZkwwRXYwSkpGY19fUEtaS1N3QkpETHZ3Z2EybVBhSFE?oc=5",
+     "summary_raw": "China squeezes Japan over rare earths in repeat of 2010 showdown&nbsp;&nbsp;KITCO"
+    }
+   },
+   "v1": {
+    "korean_summary": "중국이 2010년 희토류 수출 제한 사태를 재현하듯 일본에 대한 핵심광물 공급 압박을 강화하고 있는 것으로 확인되었습니다. 희토류를 포함한 핵심광물의 국제 공급망이 지정학적 갈등에 취약함을 여실히 보여주고 있습니다. 이는 한국 등 핵심광물 수입국들의 공급망 다각화 및 자주성 강화의 필요성을 더욱 대두시키고 있습니다.",
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "공급망 다각화",
+     "중국-일본"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "squeeze over rare earths",
+      "meaning": "희토류를 둘러싼 공급 압박·경제적 압력"
+     },
+     {
+      "phrase": "critical minerals supply vulnerability",
+      "meaning": "핵심광물 공급망의 취약성"
+     },
+     {
+      "phrase": "geopolitical leverage on raw material exports",
+      "meaning": "원자재 수출을 통한 지정학적 영향력 행사"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "8308361c58",
+    "title": "China squeezes Japan over rare earths in repeat of 2010 showdown - KITCO",
+    "url": "https://kitco.com/news/off-the-wire/2026-05-22/china-squeezes-japan-over-rare-earths-repeat-2010-showdown",
+    "source": "Project Blue Mentions in Industry News",
+    "tier_weight": 4,
+    "score": 8,
+    "published": "2026-05-22",
+    "korean_summary": [
+     "중국이 대만 문제를 둘러싼 외교 갈등 속에 일본에 대한 일부 중희토류와 갈륨 수출을 최소 4개월간 중단했음",
+     "중국 세관 자료상 12월 이후 디스프로슘·터븀·산화이트륨·갈륨 대일 수출이 소량 이트륨을 제외하고 멈췄음",
+     "일본 당국은 비축분 방출 등을 하고 있으나 세부 내용은 공개하지 않으며, 대체 공급 확보에는 수년이 걸릴 전망임"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "중희토류",
+     "갈륨",
+     "수출통제",
+     "중국"
+    ],
+    "ai_processed": true,
+    "card_id": "7975b60a574c",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "8 metric tons",
+     "14 tons a month",
+     "at least four months"
+    ],
+    "quotes": [
+     "China exported about 14 tons a month of the two minerals to Japan in 2024.",
+     "Japan’s Trade Minister Ryosei Akazawa, who is currently in China, is scheduled to attend meetings on Saturday."
+    ],
+    "summary_raw": "China squeezes Japan over rare earths in repeat of 2010 showdown&nbsp;&nbsp;KITCO",
+    "english_phrases": [
+     {
+      "phrase": "diplomatic leverage",
+      "meaning": "외교적 영향력·압박 수단"
+     },
+     {
+      "phrase": "heavy rare earths",
+      "meaning": "중희토류"
+     },
+     {
+      "phrase": "export controls",
+      "meaning": "수출통제"
+     },
+     {
+      "phrase": "stockpiled supplies",
+      "meaning": "비축 물량"
+     }
+    ],
+    "implication": "중국이 핵심광물 수출을 외교 압박 수단으로 쓰는 사례가 이어지며, 중희토류와 갈륨의 중국 의존이 공급 리스크로 부각됨.",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "50e8016e323c",
+   "title": "EU shortlists tungsten, rare earths for first stockpile to curb reliance on China - Reuters",
+   "title_norm": "eu shortlists tungsten rare earths for first stockpile to curb reliance on china",
+   "url": "https://reuters.com/world/china/eu-shortlists-tungsten-rare-earths-first-stockpile-curb-china-reliance-2026-05-20",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNMmhvVmxQbzA1anZ0Q2p2WXpFMm83M0VwOW1sZ0ZnN0k0OWNyeF9KZGtvMmxJYUhWWGF5RWlOck82TEtsN0dMSmxjNm10TmMxOFd0TW9fRTQ3OHFza2tXZzhqNkFLVU5oUHVaNGQxNkczaHRDQjR6endqTXNldDNRSWFlUHlOUUdSY1NtQWxGOXlqVWVFY3BaczRkMVBvUFpob0FPOVp1T2hRcXMwa3NuUkR5N1hsLUF1bGc?oc=5",
+   "source": {
+    "name": "Reuters - via Google News",
+    "domain": "reuters.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-05-20",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:17:51+00:00",
+   "score": 7,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "skipped",
+    "http_status": null,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": null,
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "EU, 중국 의존도 낮추기 위한 첫 비축 대상으로 텅스텐·희토류를 후보에 올렸음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "텅스텐",
+     "희토류",
+     "비축",
+     "EU",
+     "중국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "shortlists",
+      "meaning": "최종 후보 명단에 올리다"
+     },
+     {
+      "phrase": "stockpile",
+      "meaning": "비축(물량)"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:17:53+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "4531878c63",
+     "v1_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNMmhvVmxQbzA1anZ0Q2p2WXpFMm83M0VwOW1sZ0ZnN0k0OWNyeF9KZGtvMmxJYUhWWGF5RWlOck82TEtsN0dMSmxjNm10TmMxOFd0TW9fRTQ3OHFza2tXZzhqNkFLVU5oUHVaNGQxNkczaHRDQjR6endqTXNldDNRSWFlUHlOUUdSY1NtQWxGOXlqVWVFY3BaczRkMVBvUFpob0FPOVp1T2hRcXMwa3NuUkR5N1hsLUF1bGc?oc=5",
+     "summary_raw": "EU shortlists tungsten, rare earths for first stockpile to curb reliance on China&nbsp;&nbsp;Reuters"
+    }
+   },
+   "v1": {
+    "korean_summary": "EU가 중국에 대한 의존도 감소를 목표로 텅스텐과 희토류를 첫 핵심광물 비축 대상으로 선정하였음. 이는 EU 핵심광물법(Critical Raw Materials Act) 시행의 일환으로, 전략적 자급률 향상을 위한 실질적 조치로 평가됨. 향후 배터리, 방위산업, 첨단기술 산업의 공급망 안정화에 기여할 것으로 전망됨.",
+    "category": "policy_market",
+    "tags": [
+     "텅스텐",
+     "희토류",
+     "EU 공급망 정책"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals stockpile",
+      "meaning": "핵심광물 전략비축 또는 핵심광물 비축량"
+     },
+     {
+      "phrase": "curb reliance on China",
+      "meaning": "중국에 대한 의존도 감소/억제"
+     },
+     {
+      "phrase": "Critical Raw Materials Act",
+      "meaning": "핵심광물법 또는 핵심광물 관련 입법"
+     },
+     {
+      "phrase": "supply chain resilience",
+      "meaning": "공급망 회복력/복원력"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "4531878c63",
+    "title": "EU shortlists tungsten, rare earths for first stockpile to curb reliance on China - Reuters",
+    "url": "https://reuters.com/world/china/eu-shortlists-tungsten-rare-earths-first-stockpile-curb-china-reliance-2026-05-20",
+    "source": "Reuters - via Google News",
+    "tier_weight": 3,
+    "score": 7,
+    "published": "2026-05-20",
+    "korean_summary": [
+     "[제목 기반] EU, 중국 의존도 낮추기 위한 첫 비축 대상으로 텅스텐·희토류를 후보에 올렸음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "텅스텐",
+     "희토류",
+     "비축",
+     "EU",
+     "중국"
+    ],
+    "ai_processed": true,
+    "card_id": "50e8016e323c",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "EU shortlists tungsten, rare earths for first stockpile to curb reliance on China&nbsp;&nbsp;Reuters",
+    "english_phrases": [
+     {
+      "phrase": "shortlists",
+      "meaning": "최종 후보 명단에 올리다"
+     },
+     {
+      "phrase": "stockpile",
+      "meaning": "비축(물량)"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "086357873810",
+   "title": "Dalaroo plots Greenland critical minerals exploration blitz - SMH.com.au",
+   "title_norm": "dalaroo plots greenland critical minerals exploration blitz",
+   "url": "https://smh.com.au/business/companies/dalaroo-plots-greenland-critical-minerals-exploration-blitz-20260525-p600fu.html",
+   "gnews_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVnpselFrZ1RzWmZxMGhoRUJkeGttWkVyVmlNYWJ3MzdwNnBqc2NKekpZYVdHX2pIR3ZuREthbWpaM0JZVHZmNHJLTVkzeDZvVFFjLXRQbFVxSTQyeEZIcU8yUWdnRi1wamRCRlpPTnN5XzZXVmw2VHBNS3AwRXM2amhLNUVXUDFXeTF3Mm1wN2ZYQWVFYV9aX3FCRmhOdWZvNTkzY2pMalhJYll2U01QSDRWVVJnazhnQllXVjlDRQ?oc=5",
+   "source": {
+    "name": "Google News - Critical Minerals Exploration",
+    "domain": "smh.com.au",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-05-25",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:17:54+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 3830,
+    "sha256": "d4af556c89c99cb4bae3639fa28f0c842d94330fcd5887ba17675f49f03bf745",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-05-25",
+    "quotes": [
+     "Dalaroo Metals chief executive officer John Morgan said: “Finalising the 2026 exploration program marks another significant milestone for Dalaroo as we continue to rapidly advance the Blue Lagoon Project in Greenland.”"
+    ],
+    "final_url": "https://www.smh.com.au/business/companies/dalaroo-plots-greenland-critical-minerals-exploration-blitz-20260525-p600fu.html",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Dalaroo Metals가 그린란드 남부 Blue Lagoon 핵심광물 프로젝트의 2026년 탐사 준비를 마쳤음",
+     "현장 탐사는 6월 중순부터 7월 중순까지 진행되며 육상 오거 시추와 해상 시료 채취를 포함함",
+     "탐사 후 육상·해상 데이터를 통합해 우선 타깃을 정하고 최초 시추 가능성에 대비할 예정임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "2.7 kilometres",
+     "4.42 per cent zirconium oxide",
+     "0.81 per cent"
+    ],
+    "quotes": [
+     "Dalaroo Metals chief executive officer John Morgan said: “Finalising the 2026 exploration program marks another significant milestone for Dalaroo as we continue to rapidly advance the Blue Lagoon Project in Greenland.”"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "지르코늄",
+     "하프늄",
+     "희토류",
+     "탐사",
+     "그린란드"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "district-scale",
+      "meaning": "광역(지구) 규모"
+     },
+     {
+      "phrase": "Van Veen grab sampling",
+      "meaning": "해저 퇴적물을 채취하는 반 빈 그랩 시료 채취"
+     },
+     {
+      "phrase": "auger drilling",
+      "meaning": "오거 시추(나선형 날로 하는 천부 시추)"
+     },
+     {
+      "phrase": "maiden drilling campaign",
+      "meaning": "최초 시추 캠페인"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 3830,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:18:06+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 4줄)"
+    ],
+    "retry_tails": [
+     "ase\": \"auger drilling\", \"meaning\": \"오거 시추(나선형 날로 하는 천부 시추)\"},\n    {\"phrase\": \"maiden drilling campaign\", \"meaning\": \"최초 시추 캠페인\"}\n  ],\n  \"implication\": \"해당 없음\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "1214b8e0d8",
+     "v1_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVnpselFrZ1RzWmZxMGhoRUJkeGttWkVyVmlNYWJ3MzdwNnBqc2NKekpZYVdHX2pIR3ZuREthbWpaM0JZVHZmNHJLTVkzeDZvVFFjLXRQbFVxSTQyeEZIcU8yUWdnRi1wamRCRlpPTnN5XzZXVmw2VHBNS3AwRXM2amhLNUVXUDFXeTF3Mm1wN2ZYQWVFYV9aX3FCRmhOdWZvNTkzY2pMalhJYll2U01QSDRWVVJnazhnQllXVjlDRQ?oc=5",
+     "summary_raw": "Dalaroo plots Greenland critical minerals exploration blitz&nbsp;&nbsp;SMH.com.au"
+    }
+   },
+   "v1": {
+    "korean_summary": "호주의 달라루(Dalaroo)사가 그린란드의 핵심광물 탐사에 본격 투자하며 북극권 자원 개발 경쟁이 심화되고 있습니다. 그린란드는 희토류·네오디뮴 등 전략적 핵심광물의 풍부한 매장지로 평가되며, 글로벌 공급망 다각화의 중요한 거점으로 주목받고 있습니다. 탐사·개발 가속화는 중국 의존도 완화와 선진국의 핵심광물 자주권 확보 전략의 일환으로 해석됩니다.",
+    "category": "exploration_tech",
+    "tags": [
+     "희토류·네오디뮴",
+     "북극 탐사·개발",
+     "그린란드"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals exploration blitz",
+      "meaning": "핵심광물 탐사의 집중 투자 또는 가속화 프로젝트"
+     },
+     {
+      "phrase": "Arctic mineral resource development",
+      "meaning": "북극권 광물자원 개발"
+     },
+     {
+      "phrase": "diversification of supply chain",
+      "meaning": "공급망 다각화"
+     },
+     {
+      "phrase": "resource security and sovereignty",
+      "meaning": "자원 자주권 및 안보"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "1214b8e0d8",
+    "title": "Dalaroo plots Greenland critical minerals exploration blitz - SMH.com.au",
+    "url": "https://smh.com.au/business/companies/dalaroo-plots-greenland-critical-minerals-exploration-blitz-20260525-p600fu.html",
+    "source": "Google News - Critical Minerals Exploration",
+    "tier_weight": 1,
+    "score": 9,
+    "published": "2026-05-25",
+    "korean_summary": [
+     "Dalaroo Metals가 그린란드 남부 Blue Lagoon 핵심광물 프로젝트의 2026년 탐사 준비를 마쳤음",
+     "현장 탐사는 6월 중순부터 7월 중순까지 진행되며 육상 오거 시추와 해상 시료 채취를 포함함",
+     "탐사 후 육상·해상 데이터를 통합해 우선 타깃을 정하고 최초 시추 가능성에 대비할 예정임"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "지르코늄",
+     "하프늄",
+     "희토류",
+     "탐사",
+     "그린란드"
+    ],
+    "ai_processed": true,
+    "card_id": "086357873810",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "2.7 kilometres",
+     "4.42 per cent zirconium oxide",
+     "0.81 per cent"
+    ],
+    "quotes": [
+     "Dalaroo Metals chief executive officer John Morgan said: “Finalising the 2026 exploration program marks another significant milestone for Dalaroo as we continue to rapidly advance the Blue Lagoon Project in Greenland.”"
+    ],
+    "summary_raw": "Dalaroo plots Greenland critical minerals exploration blitz&nbsp;&nbsp;SMH.com.au",
+    "english_phrases": [
+     {
+      "phrase": "district-scale",
+      "meaning": "광역(지구) 규모"
+     },
+     {
+      "phrase": "Van Veen grab sampling",
+      "meaning": "해저 퇴적물을 채취하는 반 빈 그랩 시료 채취"
+     },
+     {
+      "phrase": "auger drilling",
+      "meaning": "오거 시추(나선형 날로 하는 천부 시추)"
+     },
+     {
+      "phrase": "maiden drilling campaign",
+      "meaning": "최초 시추 캠페인"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "2a936324d043",
+   "title": "Tanzania discovers some of the world’s most valuable strategic minerals through Chinese-backed exploration - Business Insider Africa",
+   "title_norm": "tanzania discovers some of the world s most valuable strategic minerals through chinese backed exploration",
+   "url": "https://africa.businessinsider.com/local/markets/tanzania-discovers-some-of-the-worlds-most-valuable-strategic-minerals-through/j4c1f34",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdmdXTy1GeE9oeFIyaW5ZOGpnU0NfMjZjeVJTV1AxRWc5cy1Cekh4NEZMclllWHlhZEFZNmhrUWJXNDdVOUwxVXgxRkduY09ZNWNlZ2JSekVRRk5oWks1cEk5ZHZPbHBBbkdlZFk5VFhCSTdNWXRVVEVJVHF5RDFFQS12SVM1bGNaV1NHTExGMXpNbVhTMkg5SUk0NG9qSWpwaXVaSnBIYzNVT3FYTzJoalo0WVIwU0JkODZ3N2FreXk5WjZ2UmJ0T2dTWEZZYjlv?oc=5",
+   "source": {
+    "name": "Google News - Critical Minerals Exploration",
+    "domain": "africa.businessinsider.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-05-23",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:18:06+00:00",
+   "score": 10,
+   "body": {
+    "status": "full",
+    "chars": 2876,
+    "sha256": "1d1967692d40c69df5190137a9f58c80d869c472b45d8c6a7cedc025c8a18c31",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-05-23",
+    "quotes": [
+     "- Tanzania has discovered rare earth element deposits containing Neodymium and Praseodymium in its southern highlands.",
+     "- These minerals are critical for technologies like electric vehicles, wind turbines, smartphones, defense systems, and renewable energy."
+    ],
+    "final_url": "https://africa.businessinsider.com/local/markets/tanzania-discovers-some-of-the-worlds-most-valuable-strategic-minerals-through/j4c1f34",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "탄자니아가 중국 Hongji Mining Co. Ltd와 협력한 탐사에서 희토류 매장지를 확인했음",
+     "매장지는 Njombe Region Ludewa District의 Mkiu Village에 있으며 네오디뮴·프라세오디뮴을 함유함",
+     "Resident Mining Officer는 대규모 투자·수출 개발에 앞서 규모와 경제성을 평가 중이라고 밝혔음"
+    ],
+    "basis": "body",
+    "key_figures": [],
+    "quotes": [
+     "- Tanzania has discovered rare earth element deposits containing Neodymium and Praseodymium in its southern highlands.",
+     "- These minerals are critical for technologies like electric vehicles, wind turbines, smartphones, defense systems, and renewable energy."
+    ],
+    "category": "discovery",
+    "tags": [
+     "희토류",
+     "네오디뮴",
+     "프라세오디뮴",
+     "탄자니아",
+     "중국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "strategic minerals",
+      "meaning": "전략광물"
+     },
+     {
+      "phrase": "Resident Mining Officer",
+      "meaning": "현지 광업 담당관"
+     },
+     {
+      "phrase": "commercial viability",
+      "meaning": "상업적 타당성"
+     }
+    ],
+    "implication": "상업성과 대규모 채굴이 확인되면 탄자니아가 아프리카 희토류 분야의 신흥 도전자로 부상할 수 있으며, 탐사에는 중국 기업이 참여하고 있음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 2876,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:18:19+00:00",
+    "retry_reasons": [
+     "JSON 파싱 실패: 문법 오류(Expecting value, 위치 219) — 주변: '규모와 경제성을 평가하는 중이며 상업성은 미확인임\",\\n}\\n\\n위 출력은 형식이 잘못되었으므로 아래가 최종 출력'"
+    ],
+    "retry_tails": [
+     "},\n    {\"phrase\": \"commercial viability\", \"meaning\": \"상업적 타당성\"}\n  ],\n  \"implication\": \"중국 기업이 참여한 탐사로 탄자니아가 아프리카 희토류 신흥 후보로 거론되나, 상업성과 대규모 채굴 여부는 아직 확인되지 않았음\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "f6fd31c710",
+     "v1_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdmdXTy1GeE9oeFIyaW5ZOGpnU0NfMjZjeVJTV1AxRWc5cy1Cekh4NEZMclllWHlhZEFZNmhrUWJXNDdVOUwxVXgxRkduY09ZNWNlZ2JSekVRRk5oWks1cEk5ZHZPbHBBbkdlZFk5VFhCSTdNWXRVVEVJVHF5RDFFQS12SVM1bGNaV1NHTExGMXpNbVhTMkg5SUk0NG9qSWpwaXVaSnBIYzNVT3FYTzJoalo0WVIwU0JkODZ3N2FreXk5WjZ2UmJ0T2dTWEZZYjlv?oc=5",
+     "summary_raw": "Tanzania discovers some of the world’s most valuable strategic minerals through Chinese-backed exploration&nbsp;&nbsp;Business Insider Africa"
+    }
+   },
+   "v1": {
+    "korean_summary": "탄자니아가 중국의 지원을 받은 탐사를 통해 세계 최고 가치의 전략광물을 발견한 것으로 확인되었음. 이번 발견은 탄자니아의 광물자원 개발 잠재력을 크게 높이고 글로벌 핵심광물 공급망 재편에 영향을 미칠 것으로 전망됨. 동아프리카 지역의 자원 탐사 투자 확대 및 국제 협력의 중요성을 보여주는 사례로서 의의가 있음.",
+    "category": "discovery",
+    "tags": [
+     "전략광물",
+     "광물탐사",
+     "탄자니아"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Chinese-backed exploration",
+      "meaning": "중국 자금 지원 탐사"
+     },
+     {
+      "phrase": "strategic minerals discovery",
+      "meaning": "전략광물 발견"
+     },
+     {
+      "phrase": "critical mineral supply chain",
+      "meaning": "핵심광물 공급망"
+     },
+     {
+      "phrase": "exploration potential assessment",
+      "meaning": "탐사 잠재력 평가"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "f6fd31c710",
+    "title": "Tanzania discovers some of the world’s most valuable strategic minerals through Chinese-backed exploration - Business Insider Africa",
+    "url": "https://africa.businessinsider.com/local/markets/tanzania-discovers-some-of-the-worlds-most-valuable-strategic-minerals-through/j4c1f34",
+    "source": "Google News - Critical Minerals Exploration",
+    "tier_weight": 1,
+    "score": 10,
+    "published": "2026-05-23",
+    "korean_summary": [
+     "탄자니아가 중국 Hongji Mining Co. Ltd와 협력한 탐사에서 희토류 매장지를 확인했음",
+     "매장지는 Njombe Region Ludewa District의 Mkiu Village에 있으며 네오디뮴·프라세오디뮴을 함유함",
+     "Resident Mining Officer는 대규모 투자·수출 개발에 앞서 규모와 경제성을 평가 중이라고 밝혔음"
+    ],
+    "category": "discovery",
+    "tags": [
+     "희토류",
+     "네오디뮴",
+     "프라세오디뮴",
+     "탄자니아",
+     "중국"
+    ],
+    "ai_processed": true,
+    "card_id": "2a936324d043",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [],
+    "quotes": [
+     "- Tanzania has discovered rare earth element deposits containing Neodymium and Praseodymium in its southern highlands.",
+     "- These minerals are critical for technologies like electric vehicles, wind turbines, smartphones, defense systems, and renewable energy."
+    ],
+    "summary_raw": "Tanzania discovers some of the world’s most valuable strategic minerals through Chinese-backed exploration&nbsp;&nbsp;Business Insider Africa",
+    "english_phrases": [
+     {
+      "phrase": "strategic minerals",
+      "meaning": "전략광물"
+     },
+     {
+      "phrase": "Resident Mining Officer",
+      "meaning": "현지 광업 담당관"
+     },
+     {
+      "phrase": "commercial viability",
+      "meaning": "상업적 타당성"
+     }
+    ],
+    "implication": "상업성과 대규모 채굴이 확인되면 탄자니아가 아프리카 희토류 분야의 신흥 도전자로 부상할 수 있으며, 탐사에는 중국 기업이 참여하고 있음",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "55238550d1d1",
+   "title": "Questions and answers on the EU's Global Agreement with Mexico",
+   "title_norm": "questions and answers on the eu s global agreement with mexico",
+   "url": "https://ec.europa.eu/commission/presscorner/detail/en/qanda_25_249",
+   "gnews_url": null,
+   "source": {
+    "name": "European Commission - Energy",
+    "domain": "ec.europa.eu",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-05-21",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:18:20+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 27966,
+    "sha256": "2345b7f3b6fa6e5740a5baa70a91349790e72e1e285d3fc28d04813e60fe27aa",
+    "source": "presscorner_api",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [
+     "As a dynamic emerging economy of 131 million people, Mexico holds huge potential for EU firms to increase their exports.",
+     "No EU trade agreement forces governments to privatise or deregulate any public service at national or local level."
+    ],
+    "final_url": "https://ec.europa.eu/commission/presscorner/detail/en/qanda_25_249",
+    "strategies_tried": [
+     "presscorner_api"
+    ]
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "EU 집행위원회가 EU와 멕시코 간 글로벌 협정(Global Agreement)의 문답 자료를 발표했음",
+     "1997년 체결되어 2000년(상품)·2001년(서비스) 발효된 기존 협정을 갱신하는 내용임",
+     "신규 협정에는 핵심광물 등 원자재 협력·공급망 개선 조항이 포함되며 시행 일정은 확인 불가임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "€86.8 billions of goods (in 2025)",
+     "€29.7 billions of services (in 2024)",
+     "131 million people"
+    ],
+    "quotes": [
+     "As a dynamic emerging economy of 131 million people, Mexico holds huge potential for EU firms to increase their exports.",
+     "No EU trade agreement forces governments to privatise or deregulate any public service at national or local level."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "EU",
+     "멕시코",
+     "무역협정",
+     "원자재",
+     "공급망"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "raw materials critical for the green and digital transitions",
+      "meaning": "녹색·디지털 전환에 핵심적인 원자재"
+     },
+     {
+      "phrase": "non-tariff barriers",
+      "meaning": "비관세 장벽"
+     },
+     {
+      "phrase": "Geographical Indications (GIs)",
+      "meaning": "지리적 표시"
+     }
+    ],
+    "implication": "EU가 멕시코와의 무역협정 갱신에 녹색·디지털 전환용 핵심 원자재의 공급망 협력 조항을 넣어 중남미 조달 연계를 강화하려는 것으로 해석됨"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:18:24+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "32597b88aa",
+     "v1_url": "https://ec.europa.eu/commission/presscorner/detail/en/qanda_25_249",
+     "summary_raw": "European Commission Questions and answers Brussels, 22 May 2026 Why did the EU update its agreement with Mexico?\nIn 1997, the EU and Mexico signed an Economic Partnership, Political Coordination and Cooperation Agreement. It..."
+    }
+   },
+   "v1": {
+    "korean_summary": "EU는 1997년 체결된 멕시코와의 경제협력협정을 2026년 현재 개정하여 핵심광물 공급망 확보 및 전략적 파트너십을 강화하고 있음을 확인할 수 있습니다. 이번 협정 개정은 전 지구적 핵심광물 수급 불안정성에 대응하기 위한 EU의 전략적 대응으로 평가되며, 멕시코의 풍부한 광물자원과 지리적 근접성을 활용한 공급 다원화를 목표로 하고 있습니다. 본 협정은 EU의 에너지 전환 및 디지털화 추진에 필수적인 핵심광물 자급률 제고에 기여할 전망입니다.",
+    "category": "supply_chain",
+    "tags": [
+     "핵심광물",
+     "공급망 안보",
+     "EU-멕시코 협력"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Global Agreement on critical minerals supply chain",
+      "meaning": "핵심광물 글로벌 공급망에 관한 협정"
+     },
+     {
+      "phrase": "Strategic partnership for raw material security",
+      "meaning": "원료 공급 안정성을 위한 전략적 파트너십"
+     },
+     {
+      "phrase": "Diversification of supply sources for critical minerals",
+      "meaning": "핵심광물 공급원의 다원화"
+     },
+     {
+      "phrase": "Economic Partnership, Political Coordination and Cooperation Agreement",
+      "meaning": "경제동반자협정, 정치조정 및 협력협정"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "32597b88aa",
+    "title": "Questions and answers on the EU's Global Agreement with Mexico",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/qanda_25_249",
+    "source": "European Commission - Energy",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-05-21",
+    "korean_summary": [
+     "EU 집행위원회가 EU와 멕시코 간 글로벌 협정(Global Agreement)의 문답 자료를 발표했음",
+     "1997년 체결되어 2000년(상품)·2001년(서비스) 발효된 기존 협정을 갱신하는 내용임",
+     "신규 협정에는 핵심광물 등 원자재 협력·공급망 개선 조항이 포함되며 시행 일정은 확인 불가임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "EU",
+     "멕시코",
+     "무역협정",
+     "원자재",
+     "공급망"
+    ],
+    "ai_processed": true,
+    "card_id": "55238550d1d1",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "€86.8 billions of goods (in 2025)",
+     "€29.7 billions of services (in 2024)",
+     "131 million people"
+    ],
+    "quotes": [
+     "As a dynamic emerging economy of 131 million people, Mexico holds huge potential for EU firms to increase their exports.",
+     "No EU trade agreement forces governments to privatise or deregulate any public service at national or local level."
+    ],
+    "summary_raw": "European Commission Questions and answers Brussels, 22 May 2026 Why did the EU update its agreement with Mexico?\nIn 1997, the EU and Mexico signed an Economic Partnership, Political Coordination and Cooperation Agreement. It...",
+    "english_phrases": [
+     {
+      "phrase": "raw materials critical for the green and digital transitions",
+      "meaning": "녹색·디지털 전환에 핵심적인 원자재"
+     },
+     {
+      "phrase": "non-tariff barriers",
+      "meaning": "비관세 장벽"
+     },
+     {
+      "phrase": "Geographical Indications (GIs)",
+      "meaning": "지리적 표시"
+     }
+    ],
+    "implication": "EU가 멕시코와의 무역협정 갱신에 녹색·디지털 전환용 핵심 원자재의 공급망 협력 조항을 넣어 중남미 조달 연계를 강화하려는 것으로 해석됨",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "0571d6272d3f",
+   "title": "Critical Metals inks 15-year Greenland rare earth deal with REalloys - Reuters",
+   "title_norm": "critical metals inks 15 year greenland rare earth deal with realloys",
+   "url": "https://reuters.com/world/china/critical-metals-inks-15-year-greenland-rare-earth-deal-with-realloys-2026-05-21",
+   "gnews_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbHBsTm4wQkdrZk5vRUZua1A4T3c3ZkI1eDFGSFlUQWkxTW1zbUJwNHoxNElTVlNyclhyRmdaTVFhcnVyOEFQTzl0M3hGeS1ZYTJiMTY3WFNFeC1WYy01QlFEZkdHN2pkank3N1VvODhyUzNOZXgtQzhoZDZRb3NqN0lNcDJWOG5jb25tbDhTUTZZcmpSN1RDQjhPV2stWW12Mk9LMUFYTzh3UGhsOFJuVExHekUxbnM?oc=5",
+   "source": {
+    "name": "Reuters - via Google News",
+    "domain": "reuters.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-05-21",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:18:24+00:00",
+   "score": 9,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "skipped",
+    "http_status": null,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": null,
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Critical Metals, REalloys와 15년 기간 그린란드 희토류 계약 체결했음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "그린란드",
+     "장기계약",
+     "공급망"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "inks 15-year Greenland rare earth deal",
+      "meaning": "15년 기간의 그린란드 희토류 계약을 체결했다"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:18:25+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "851ed14a8d",
+     "v1_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbHBsTm4wQkdrZk5vRUZua1A4T3c3ZkI1eDFGSFlUQWkxTW1zbUJwNHoxNElTVlNyclhyRmdaTVFhcnVyOEFQTzl0M3hGeS1ZYTJiMTY3WFNFeC1WYy01QlFEZkdHN2pkank3N1VvODhyUzNOZXgtQzhoZDZRb3NqN0lNcDJWOG5jb25tbDhTUTZZcmpSN1RDQjhPV2stWW12Mk9LMUFYTzh3UGhsOFJuVExHekUxbnM?oc=5",
+     "summary_raw": "Critical Metals inks 15-year Greenland rare earth deal with REalloys&nbsp;&nbsp;Reuters"
+    }
+   },
+   "v1": {
+    "korean_summary": "Critical Metals사가 그린란드의 희토류 자원 개발을 위해 REalloys와 15년 장기 공급 계약을 체결했으며, 이는 북대서양 지역의 핵심광물 공급망 다변화를 추진하는 주요 협약으로 평가되고 있습니다. 본 계약을 통해 그린란드는 전략적 희토류 생산 기지로서의 입지를 강화하고, 글로벌 핵심광물 시장에서 북유럽의 공급 역할이 확대될 전망입니다. 이러한 장기 공급 계약은 중국 의존도 감축과 서방권의 핵심광물 자급률 향상을 목표로 하는 국제적 노력의 일환으로 해석됩니다.",
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "공급망 다변화",
+     "그린란드"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "long-term supply agreement (15-year contract)",
+      "meaning": "장기 공급 협약 (15년 계약)"
+     },
+     {
+      "phrase": "rare earth element (REE) production",
+      "meaning": "희토류 원소 생산"
+     },
+     {
+      "phrase": "supply chain diversification for critical minerals",
+      "meaning": "핵심광물의 공급망 다변화"
+     },
+     {
+      "phrase": "sovereign resource development strategy",
+      "meaning": "자국 자원 개발 전략"
+     },
+     {
+      "phrase": "reducing dependency on single-source critical mineral suppliers",
+      "meaning": "단일 공급원 핵심광물 공급자 의존도 감축"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "851ed14a8d",
+    "title": "Critical Metals inks 15-year Greenland rare earth deal with REalloys - Reuters",
+    "url": "https://reuters.com/world/china/critical-metals-inks-15-year-greenland-rare-earth-deal-with-realloys-2026-05-21",
+    "source": "Reuters - via Google News",
+    "tier_weight": 3,
+    "score": 9,
+    "published": "2026-05-21",
+    "korean_summary": [
+     "[제목 기반] Critical Metals, REalloys와 15년 기간 그린란드 희토류 계약 체결했음"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "그린란드",
+     "장기계약",
+     "공급망"
+    ],
+    "ai_processed": true,
+    "card_id": "0571d6272d3f",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Critical Metals inks 15-year Greenland rare earth deal with REalloys&nbsp;&nbsp;Reuters",
+    "english_phrases": [
+     {
+      "phrase": "inks 15-year Greenland rare earth deal",
+      "meaning": "15년 기간의 그린란드 희토류 계약을 체결했다"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "0679a4be66e4",
+   "title": "Nasdaq-Listed Critical Minerals Developer Lands Game-Changing Greenland Rare Earth Deal - TradingView",
+   "title_norm": "nasdaq listed critical minerals developer lands game changing greenland rare earth deal",
+   "url": "https://tradingview.com/news/prnewswire:e0954be5d8ac6:0-nasdaq-listed-critical-minerals-developer-lands-game-changing-greenland-rare-earth-deal",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNZ2F1NWJZQzZLeERRcjJocm9NRXYySGIzU2JhOWlvWmZGN0gycktadldnaTVLeDJXa0pnWkV3LW9icGNUY01udGE2ZEFSVm1kejJYUjhRZ0wwRlF0U0xlbURvLU1vWEdYZ1NxS3Y3dnU4NThyTmRySDh5eDk0N1VpTkF6bWNubkdwbkc5aU50ZUpEUDBuSWRYOEhKLUlHOWJBSmdUMlJUTlBmRGhxdE42YnU2U1ZramxCTHFCdWpsZ05uclRFYWNEckppZDBKWXFPVTNFTFRVSEdRZ0xZS290dmVn?oc=5",
+   "source": {
+    "name": "Google News - Rare Earth Elements",
+    "domain": "tradingview.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-05-21",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:18:25+00:00",
+   "score": 9,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "http_error",
+    "http_status": 404,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.tradingview.com/news/prnewswire:e0954be5d8ac6:0-nasdaq-listed-critical-minerals-developer-lands-game-changing-greenland-rare-earth-deal/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "나스닥 상장 핵심광물 개발업체가 판도를 바꿀 그린란드 희토류 계약을 확보했음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "희토류",
+     "그린란드",
+     "나스닥 상장",
+     "계약"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Game-Changing",
+      "meaning": "판도를 바꿀 만한"
+     },
+     {
+      "phrase": "Nasdaq-Listed",
+      "meaning": "나스닥에 상장된"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:18:30+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "ad6e929cd7",
+     "v1_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNZ2F1NWJZQzZLeERRcjJocm9NRXYySGIzU2JhOWlvWmZGN0gycktadldnaTVLeDJXa0pnWkV3LW9icGNUY01udGE2ZEFSVm1kejJYUjhRZ0wwRlF0U0xlbURvLU1vWEdYZ1NxS3Y3dnU4NThyTmRySDh5eDk0N1VpTkF6bWNubkdwbkc5aU50ZUpEUDBuSWRYOEhKLUlHOWJBSmdUMlJUTlBmRGhxdE42YnU2U1ZramxCTHFCdWpsZ05uclRFYWNEckppZDBKWXFPVTNFTFRVSEdRZ0xZS290dmVn?oc=5",
+     "summary_raw": "Nasdaq-Listed Critical Minerals Developer Lands Game-Changing Greenland Rare Earth Deal&nbsp;&nbsp;TradingView"
+    }
+   },
+   "v1": {
+    "korean_summary": "나스닥 상장 핵심광물 개발사가 그린란드와의 희토류 개발 계약을 체결하여 북대서양 지역 공급망 다변화의 전기를 마련했습니다. 본 계약은 중국 의존도 완화 및 서방 진영의 핵심광물 자급률 향상에 게임 체인징 효과를 가져올 것으로 평가됩니다. 그린란드의 풍부한 희토류 광상 개발이 향후 글로벌 핵심광물 시장 지형에 구조적 변화를 초래할 전망입니다.",
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "공급망 다변화",
+     "그린란드"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "game-changing rare earth deal",
+      "meaning": "희토류 산업 구조를 근본적으로 변화시키는 거래"
+     },
+     {
+      "phrase": "critical minerals supply chain diversification",
+      "meaning": "핵심광물 공급망의 다변화"
+     },
+     {
+      "phrase": "Nasdaq-listed critical minerals developer",
+      "meaning": "나스닥 상장 핵심광물 개발기업"
+     },
+     {
+      "phrase": "strategic mineral dependency reduction",
+      "meaning": "전략광물에 대한 의존도 감소"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "ad6e929cd7",
+    "title": "Nasdaq-Listed Critical Minerals Developer Lands Game-Changing Greenland Rare Earth Deal - TradingView",
+    "url": "https://tradingview.com/news/prnewswire:e0954be5d8ac6:0-nasdaq-listed-critical-minerals-developer-lands-game-changing-greenland-rare-earth-deal",
+    "source": "Google News - Rare Earth Elements",
+    "tier_weight": 1,
+    "score": 9,
+    "published": "2026-05-21",
+    "korean_summary": [
+     "[제목 기반] 나스닥 상장 핵심광물 개발업체가 판도를 바꿀 그린란드 희토류 계약을 확보했음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "희토류",
+     "그린란드",
+     "나스닥 상장",
+     "계약"
+    ],
+    "ai_processed": true,
+    "card_id": "0679a4be66e4",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Nasdaq-Listed Critical Minerals Developer Lands Game-Changing Greenland Rare Earth Deal&nbsp;&nbsp;TradingView",
+    "english_phrases": [
+     {
+      "phrase": "Game-Changing",
+      "meaning": "판도를 바꿀 만한"
+     },
+     {
+      "phrase": "Nasdaq-Listed",
+      "meaning": "나스닥에 상장된"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "f7343da72aaa",
+   "title": "China Expands Rare Earth Controls, Raising Fresh Concerns for EV and Chip Supply Chains - inkl",
+   "title_norm": "china expands rare earth controls raising fresh concerns for ev and chip supply chains",
+   "url": "https://inkl.com/news/china-expands-rare-earth-controls-raising-fresh-concerns-for-ev-and-chip-supply-chains",
+   "gnews_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUnMyQi0wZmtvcXVMTVd6V3dPWVhGXzY5WHdiUzFBUXg4RGl5c1RONEpFcnYxY1Q5ZkV4aDh2c01zNFFYNUVmZDhlWE9xbjF5UWdIbnVscVJjUEpBc2M1STl6Z093Mkp5Y19HaldkSWdLRV9YZTRIOTJfYU1hR2NZbkVURjFScWJoc3Fhd2NWUkJJTmJZeHF4X3VFVUkyWTMyUnFRV0piWjRRRjh3UlRsY0dB?oc=5",
+   "source": {
+    "name": "Google News - IRA CRMA Policy",
+    "domain": "inkl.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-05-22",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:18:30+00:00",
+   "score": 8,
+   "body": {
+    "status": "partial",
+    "chars": 411,
+    "sha256": "f9177e25a6c6e24d02e78042f396ecf4668ab5d8b74c767b58ccab966b58feba",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-05-22",
+    "quotes": [
+     "The regulations come as Western governments accelerate efforts to reduce reliance on Chinese supply chains amid rising geopolitical and trade tensions."
+    ],
+    "final_url": "https://www.inkl.com/news/china-expands-rare-earth-controls-raising-fresh-concerns-for-ev-and-chip-supply-chains",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "중국이 새 공급망 안보 규정을 내놓아 서방 제조업체의 불확실성이 커지고 있음",
+     "이 조치가 전기차·반도체·방위 기술에 필수인 희토류에 대한 베이징의 통제를 강화할 수 있다고 함",
+     "서방 각국 정부는 지정학·무역 긴장 속에 중국 공급망 의존 축소를 서두르는 중이며, 규정 세부 내용과 시행 일정은 확인 불가임"
+    ],
+    "basis": "body",
+    "key_figures": [],
+    "quotes": [
+     "The regulations come as Western governments accelerate efforts to reduce reliance on Chinese supply chains amid rising geopolitical and trade tensions."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "공급망 안보",
+     "수출통제",
+     "전기차",
+     "반도체"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "supply chain security regulations",
+      "meaning": "공급망 안보 규정"
+     },
+     {
+      "phrase": "rare earth minerals",
+      "meaning": "희토류 광물"
+     },
+     {
+      "phrase": "reduce reliance on Chinese supply chains",
+      "meaning": "중국 공급망 의존 축소"
+     }
+    ],
+    "implication": "중국의 공급망 안보 규정이 희토류 통제를 강화할 수 있어 서방의 전기차·반도체·방위 제조업 조달 불확실성이 커질 수 있음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "partial",
+    "input_chars": 411,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:18:33+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "e1106536ad",
+     "v1_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUnMyQi0wZmtvcXVMTVd6V3dPWVhGXzY5WHdiUzFBUXg4RGl5c1RONEpFcnYxY1Q5ZkV4aDh2c01zNFFYNUVmZDhlWE9xbjF5UWdIbnVscVJjUEpBc2M1STl6Z093Mkp5Y19HaldkSWdLRV9YZTRIOTJfYU1hR2NZbkVURjFScWJoc3Fhd2NWUkJJTmJZeHF4X3VFVUkyWTMyUnFRV0piWjRRRjh3UlRsY0dB?oc=5",
+     "summary_raw": "China Expands Rare Earth Controls, Raising Fresh Concerns for EV and Chip Supply Chains&nbsp;&nbsp;inkl"
+    }
+   },
+   "v1": {
+    "korean_summary": "중국이 희토류에 대한 수출 통제를 강화함에 따라 전기차 및 반도체 공급망의 안정성에 대한 우려가 가중되고 있는 것으로 확인되었습니다. 핵심광물 공급의 지정학적 리스크가 심화되면서 선진국들의 공급망 다변화 및 자급화 전략 수립이 시급한 상황으로 전망됩니다. 희토류 등 핵심광물에 대한 국가 차원의 확보 전략과 기술 혁신이 향후 산업 경쟁력의 핵심 요소가 될 것으로 예상됩니다.",
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "공급망 안정성",
+     "중국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals supply chain vulnerability",
+      "meaning": "핵심광물 공급망의 취약성"
+     },
+     {
+      "phrase": "geopolitical risk in rare earth elements",
+      "meaning": "희토류 광물의 지정학적 위험"
+     },
+     {
+      "phrase": "supply chain diversification strategy",
+      "meaning": "공급망 다변화 전략"
+     },
+     {
+      "phrase": "export control measures",
+      "meaning": "수출 통제 조치"
+     },
+     {
+      "phrase": "domestic sourcing and recycling",
+      "meaning": "국내 자급 및 재활용"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "e1106536ad",
+    "title": "China Expands Rare Earth Controls, Raising Fresh Concerns for EV and Chip Supply Chains - inkl",
+    "url": "https://inkl.com/news/china-expands-rare-earth-controls-raising-fresh-concerns-for-ev-and-chip-supply-chains",
+    "source": "Google News - IRA CRMA Policy",
+    "tier_weight": 1,
+    "score": 8,
+    "published": "2026-05-22",
+    "korean_summary": [
+     "중국이 새 공급망 안보 규정을 내놓아 서방 제조업체의 불확실성이 커지고 있음",
+     "이 조치가 전기차·반도체·방위 기술에 필수인 희토류에 대한 베이징의 통제를 강화할 수 있다고 함",
+     "서방 각국 정부는 지정학·무역 긴장 속에 중국 공급망 의존 축소를 서두르는 중이며, 규정 세부 내용과 시행 일정은 확인 불가임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "공급망 안보",
+     "수출통제",
+     "전기차",
+     "반도체"
+    ],
+    "ai_processed": true,
+    "card_id": "f7343da72aaa",
+    "basis": "body",
+    "body_status": "partial",
+    "key_figures": [],
+    "quotes": [
+     "The regulations come as Western governments accelerate efforts to reduce reliance on Chinese supply chains amid rising geopolitical and trade tensions."
+    ],
+    "summary_raw": "China Expands Rare Earth Controls, Raising Fresh Concerns for EV and Chip Supply Chains&nbsp;&nbsp;inkl",
+    "english_phrases": [
+     {
+      "phrase": "supply chain security regulations",
+      "meaning": "공급망 안보 규정"
+     },
+     {
+      "phrase": "rare earth minerals",
+      "meaning": "희토류 광물"
+     },
+     {
+      "phrase": "reduce reliance on Chinese supply chains",
+      "meaning": "중국 공급망 의존 축소"
+     }
+    ],
+    "implication": "중국의 공급망 안보 규정이 희토류 통제를 강화할 수 있어 서방의 전기차·반도체·방위 제조업 조달 불확실성이 커질 수 있음",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "3c9990255b89",
+   "title": "Myanmar military steps up fight for rare earth area and border routes - Reuters",
+   "title_norm": "myanmar military steps up fight for rare earth area and border routes",
+   "url": "https://reuters.com/world/china/myanmar-military-steps-up-fight-rare-earth-area-border-routes-2026-05-25",
+   "gnews_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQM2R5ZEJtWWFtZnBsLXV2TUNhNjdrR3BNOFFfbG5kZW5uQVoxRHAzODBORjE3S1lhSE1JOXEzNkdCWDlYNkkyYV9zOThSZm03bjhFMTVrS01ybktiUU9Gdm1Ock9UbWVCbzllZ3hUYmZ6VzJQb2VtaFR0d3NJSzVGVVFDNDNyN0hxbkxoTlRvbnMtOEZMTEpZbGJKX2JnM1pTM0Rjb0pxMklKbWxwMHc?oc=5",
+   "source": {
+    "name": "Reuters - via Google News",
+    "domain": "reuters.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-05-25",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:18:33+00:00",
+   "score": 7,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "skipped",
+    "http_status": null,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": null,
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "미얀마 군부, 희토류 지역과 국경 통로 장악을 위한 전투 강화했음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "미얀마",
+     "군부",
+     "국경 통로",
+     "공급망"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "rare earth area",
+      "meaning": "희토류 지역"
+     },
+     {
+      "phrase": "border routes",
+      "meaning": "국경 통로"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:18:35+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "6dc0a24e9e",
+     "v1_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQM2R5ZEJtWWFtZnBsLXV2TUNhNjdrR3BNOFFfbG5kZW5uQVoxRHAzODBORjE3S1lhSE1JOXEzNkdCWDlYNkkyYV9zOThSZm03bjhFMTVrS01ybktiUU9Gdm1Ock9UbWVCbzllZ3hUYmZ6VzJQb2VtaFR0d3NJSzVGVVFDNDNyN0hxbkxoTlRvbnMtOEZMTEpZbGJKX2JnM1pTM0Rjb0pxMklKbWxwMHc?oc=5",
+     "summary_raw": "Myanmar military steps up fight for rare earth area and border routes&nbsp;&nbsp;Reuters"
+    }
+   },
+   "v1": {
+    "korean_summary": "미얀마 군부가 희토류 매장지역과 국경 수송로 확보를 위한 분쟁을 격화시키고 있는 것으로 확인되었습니다. 이는 글로벌 핵심광물 공급망에 지정학적 리스크를 초래할 가능성이 높습니다. 미얀마의 정치·안보 불안정이 희토류 생산 및 수출에 미칠 영향에 대한 국제사회의 주시가 필요한 상황입니다.",
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "지정학적 리스크",
+     "미얀마"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "rare earth mineral deposits",
+      "meaning": "희토류 광상"
+     },
+     {
+      "phrase": "supply chain vulnerability",
+      "meaning": "공급망 취약성"
+     },
+     {
+      "phrase": "geopolitical risk in critical minerals sourcing",
+      "meaning": "핵심광물 확보에서의 지정학적 리스크"
+     },
+     {
+      "phrase": "border dispute over strategic mineral routes",
+      "meaning": "전략광물 운송로를 둘러싼 국경분쟁"
+     },
+     {
+      "phrase": "military control of mining operations",
+      "meaning": "광산 운영에 대한 군부 통제"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "6dc0a24e9e",
+    "title": "Myanmar military steps up fight for rare earth area and border routes - Reuters",
+    "url": "https://reuters.com/world/china/myanmar-military-steps-up-fight-rare-earth-area-border-routes-2026-05-25",
+    "source": "Reuters - via Google News",
+    "tier_weight": 3,
+    "score": 7,
+    "published": "2026-05-25",
+    "korean_summary": [
+     "[제목 기반] 미얀마 군부, 희토류 지역과 국경 통로 장악을 위한 전투 강화했음"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "미얀마",
+     "군부",
+     "국경 통로",
+     "공급망"
+    ],
+    "ai_processed": true,
+    "card_id": "3c9990255b89",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Myanmar military steps up fight for rare earth area and border routes&nbsp;&nbsp;Reuters",
+    "english_phrases": [
+     {
+      "phrase": "rare earth area",
+      "meaning": "희토류 지역"
+     },
+     {
+      "phrase": "border routes",
+      "meaning": "국경 통로"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "4224d1096e6f",
+   "title": "Free surfaces in turbulence -- A unified framework from water surfaces to elastic solids",
+   "title_norm": "free surfaces in turbulence a unified framework from water surfaces to elastic solids",
+   "url": "https://arxiv.org/abs/2605.23166",
+   "gnews_url": null,
+   "source": {
+    "name": "arXiv Geophysics",
+    "domain": "arxiv.org",
+    "tier": null,
+    "tier_weight": 4,
+    "language": null
+   },
+   "published": "2026-05-25",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:18:35+00:00",
+   "score": 8,
+   "body": {
+    "status": "full",
+    "chars": 2734,
+    "sha256": "8fdbe8a548f06e09df742f43478ccbd373b747a340a85b5970b7266315a24cd5",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-05-22",
+    "quotes": [],
+    "final_url": "https://arxiv.org/abs/2605.23166",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "난류에 노출된 변형 가능한 표면의 반응을 설명하는 이론 틀을 개발했음",
+     "공기-물 경계면과 변형 가능한 고무층의 수치 시뮬레이션으로 이론을 검증했음",
+     "해양 표면 항공 관측과 양립 가능하나 파동 난류 구분에는 추가 측정이 필요하다고 밝혔음"
+    ],
+    "basis": "body",
+    "key_figures": [],
+    "quotes": [],
+    "category": "research",
+    "tags": [
+     "유체역학",
+     "난류",
+     "자유표면",
+     "파동 난류",
+     "수치 시뮬레이션"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "wave turbulence",
+      "meaning": "파동 난류"
+     },
+     {
+      "phrase": "wave-induced-turbulence",
+      "meaning": "파동 유도 난류"
+     },
+     {
+      "phrase": "turbulence-induced-waves",
+      "meaning": "난류 유도 파동"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 2734,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:18:44+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 4줄)"
+    ],
+    "retry_tails": [
+     " {\"phrase\": \"wave-induced-turbulence\", \"meaning\": \"파동 유도 난류\"},\n    {\"phrase\": \"turbulence-induced-waves\", \"meaning\": \"난류 유도 파동\"}\n  ],\n  \"implication\": \"해당 없음\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "dad73fe6cf",
+     "v1_url": "https://arxiv.org/abs/2605.23166",
+     "summary_raw": "arXiv:2605.23166v1 Announce Type: cross \nAbstract: What do the ocean surface and a swaying flag have in common? Both are deformable surfaces exhibiting chaotic motion when exposed to turbulent flows. Whether such motion is primarily driven by flow turbulence or by nonlinear dynamics intrinsic to the surface remains debated. Surface waves can interact nonlinearly and transfer energy across scales through the cascade of wave turbulence, a behaviour observed at interfaces between otherwise quiescen"
+    }
+   },
+   "v1": {
+    "korean_summary": "본 연구는 해수면과 탄성 고체 표면 등 난류에 노출된 변형성 표면의 동역학을 통합 프레임워크로 설명하고 있습니다. 표면의 혼돈적 운동이 유동 난류에 의해 주도되는지, 아니면 표면 고유의 비선형 동역학에 의해 주도되는지에 대한 근본적인 물리 메커니즘을 규명하였습니다. 파동 난류의 에너지 계단식 전달(cascade) 현상을 통해 다중 스케일에서의 에너지 상호작용을 체계적으로 분석함으로써 광물 자원의 채굴 및 가공 공정에서의 유체-고체 상호작용 모델링에 활용될 수 있을 것으로 전망됩니다.",
+    "category": "research",
+    "tags": [
+     "유체-고체 상호작용",
+     "난류 역학",
+     "표면 동역학"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "deformable surfaces exhibiting chaotic motion",
+      "meaning": "난류 흐름에 노출된 변형성 표면의 혼돈적 운동"
+     },
+     {
+      "phrase": "wave turbulence cascade",
+      "meaning": "파동 난류의 에너지 계단식 전달 현상"
+     },
+     {
+      "phrase": "nonlinear dynamics intrinsic to the surface",
+      "meaning": "표면 고유의 비선형 동역학"
+     },
+     {
+      "phrase": "energy transfer across scales",
+      "meaning": "다중 스케일에서의 에너지 전달"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "dad73fe6cf",
+    "title": "Free surfaces in turbulence -- A unified framework from water surfaces to elastic solids",
+    "url": "https://arxiv.org/abs/2605.23166",
+    "source": "arXiv Geophysics",
+    "tier_weight": 4,
+    "score": 8,
+    "published": "2026-05-25",
+    "korean_summary": [
+     "난류에 노출된 변형 가능한 표면의 반응을 설명하는 이론 틀을 개발했음",
+     "공기-물 경계면과 변형 가능한 고무층의 수치 시뮬레이션으로 이론을 검증했음",
+     "해양 표면 항공 관측과 양립 가능하나 파동 난류 구분에는 추가 측정이 필요하다고 밝혔음"
+    ],
+    "category": "research",
+    "tags": [
+     "유체역학",
+     "난류",
+     "자유표면",
+     "파동 난류",
+     "수치 시뮬레이션"
+    ],
+    "ai_processed": true,
+    "card_id": "4224d1096e6f",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "arXiv:2605.23166v1 Announce Type: cross \nAbstract: What do the ocean surface and a swaying flag have in common? Both are deformable surfaces exhibiting chaotic motion when exposed to turbulent flows. Whether such motion is primarily driven by flow turbulence or by nonlinear dynamics intrinsic to the surface remains debated. Surface waves can interact nonlinearly and transfer energy across scales through the cascade of wave turbulence, a behaviour observed at interfaces between otherwise quiescen",
+    "english_phrases": [
+     {
+      "phrase": "wave turbulence",
+      "meaning": "파동 난류"
+     },
+     {
+      "phrase": "wave-induced-turbulence",
+      "meaning": "파동 유도 난류"
+     },
+     {
+      "phrase": "turbulence-induced-waves",
+      "meaning": "난류 유도 파동"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  }
+ ],
+ "excluded": [],
+ "v1_file": "week-2026-05-25.json",
+ "v1_metrics": {
+  "articles": 12,
+  "original_link": 2,
+  "body_based": 0,
+  "failed": 0
+ },
+ "trial": false
+}

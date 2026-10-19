@@ -1,0 +1,1990 @@
+{
+ "schema_version": "card.v1",
+ "service": "cmw",
+ "week_of": "2026-06-01",
+ "generated_at": "2026-10-19T05:20:30+00:00",
+ "mincore_version": "0.3.6",
+ "model": "claude-sonnet-5-5",
+ "prompt_version": "v2.2",
+ "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+ "stats": {
+  "v1_articles": 12,
+  "cards": 12,
+  "excluded": 0,
+  "body_got": 6,
+  "body_rate": 0.5,
+  "original_link": 12,
+  "reader_proxy_used": 0,
+  "line_len": {
+   "lines": 26,
+   "median": 54.5,
+   "max": 86,
+   "over60": 9,
+   "over100": 0
+  },
+  "oda_filled": 5,
+  "usage": {
+   "claude-sonnet-5-5": {
+    "calls": 17,
+    "in": 45303,
+    "out": 11826
+   }
+  },
+  "cost_usd": 0.3133,
+  "body_status": {
+   "full": 6,
+   "title_only": 4,
+   "lead_only": 2
+  },
+  "body_source": {
+   "trafilatura": 6,
+   "none": 4,
+   "og_description": 2
+  },
+  "resolve": {
+   "decoder": 12
+  },
+  "fail_reason": {},
+  "basis": {
+   "body": 6,
+   "title": 4,
+   "lead": 2
+  },
+  "retry_reason": {
+   "lines는 3줄이어야 함 (현재 4줄)": 4,
+   "lines는 3줄이어야 함 (현재 5줄)": 1
+  },
+  "flags": {},
+  "model_used": {
+   "claude-sonnet-5-5": 12
+  }
+ },
+ "total": 12,
+ "cards": [
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "bb2872ad6f56",
+   "title": "Quad framework sharpens critical minerals supply chain push - Mining Magazine Australia",
+   "title_norm": "quad framework sharpens critical minerals supply chain push",
+   "url": "https://miningmagazine.com.au/quad-framework-sharpens-critical-minerals-supply-chain-push",
+   "gnews_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZU9hc1J0Q2wyaGYzQVZOS2Q2dVlzLXdlVDViZnR2cGt5N0tmYjZ2b0p0UEJjSmRpOTFiLW5WeFJCcGdxOEJOVjRjRVdaTGZhSWN2OW9aX1BrZjRoTHZXOU9NMXFMc0pqVXhtMGlTaXFNVGhlczEwOEhsc2NfdHExeno5d1F5RFBLa05vZ2FFaXdYVzlI?oc=5",
+   "source": {
+    "name": "Google News - Critical Minerals Exploration",
+    "domain": "miningmagazine.com.au",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-05-28",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:18:53+00:00",
+   "score": 8,
+   "body": {
+    "status": "full",
+    "chars": 5097,
+    "sha256": "0b5c1f363b8b3f59223dc59d1c6aa50ac9eb84257f9273bc8605a334253a3a82",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-05-28",
+    "quotes": [
+     "The Quad partners intend to mobilise up to $20 billion in government and private sector support through new and existing efforts, targeting critical minerals supply chains across mining, processing and recycling.",
+     "“We’ve moved that to final investment decision.”"
+    ],
+    "final_url": "https://miningmagazine.com.au/quad-framework-sharpens-critical-minerals-supply-chain-push/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "호주·미국·일본·인도가 Quad 핵심광물 이니셔티브로 공급망 협력 틀을 구체화했음",
+     "채굴·가공·재활용 공급망에 정부·민간 지원 최대 $20 billion 동원을 계획함",
+     "호주 장관은 전략비축 첫 활용으로 Arafura Rare Earths 오프테이크에 비구속 합의했다고 밝혔음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "$20 billion"
+    ],
+    "quotes": [
+     "The Quad partners intend to mobilise up to $20 billion in government and private sector support through new and existing efforts, targeting critical minerals supply chains across mining, processing and recycling.",
+     "“We’ve moved that to final investment decision.”"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "Quad",
+     "핵심광물",
+     "희토류",
+     "공급망",
+     "호주"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Quad nexus",
+      "meaning": "Quad 국가와의 연관성(소재지·운영 기업 본사·공급 시장 기준)"
+     },
+     {
+      "phrase": "economic coercion",
+      "meaning": "경제적 강압"
+     },
+     {
+      "phrase": "Critical Minerals Strategic Reserve",
+      "meaning": "호주의 핵심광물 전략비축"
+     },
+     {
+      "phrase": "offtake",
+      "meaning": "생산물 구매 약정"
+     }
+    ],
+    "implication": "Quad 4개국이 채굴·가공·재활용 전반에 정부·민간 자금을 연계하기로 해, 특정국 의존을 줄이려는 프로젝트의 금융·오프테이크 확보에 힘이 실릴 수 있음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:19:13+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 4줄)"
+    ],
+    "retry_tails": [
+     "\"},\n    {\"phrase\": \"offtake\", \"meaning\": \"생산물 구매 약정\"}\n  ],\n  \"implication\": \"Quad가 채굴·가공·재활용 전반에 정부·민간 자금을 연계하기로 해, 비중국 공급망 프로젝트의 금융 확보와 오프테이크 체결에 힘이 실릴 수 있음\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "b6d42a885a",
+     "v1_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZU9hc1J0Q2wyaGYzQVZOS2Q2dVlzLXdlVDViZnR2cGt5N0tmYjZ2b0p0UEJjSmRpOTFiLW5WeFJCcGdxOEJOVjRjRVdaTGZhSWN2OW9aX1BrZjRoTHZXOU9NMXFMc0pqVXhtMGlTaXFNVGhlczEwOEhsc2NfdHExeno5d1F5RFBLa05vZ2FFaXdYVzlI?oc=5",
+     "summary_raw": "Quad framework sharpens critical minerals supply chain push&nbsp;&nbsp;Mining Magazine Australia"
+    }
+   },
+   "v1": {
+    "korean_summary": "Quad 프레임워크(미국·일본·호주·인도 협력체)가 핵심광물 공급망 구축을 위한 전략적 추진을 강화하고 있음이 확인되었습니다. 이는 중국 의존도 감축 및 민주주의 진영의 공급망 안보 확보를 목표로 하는 지정학적 협력의 심화를 의미합니다. 특히 호주 등 공급국과의 광물 개발·정제 협력 확대가 향후 글로벌 핵심광물 시장의 재편을 주도할 전망입니다.",
+    "category": "policy_market",
+    "tags": [
+     "핵심광물 공급망",
+     "지정학적 협력(Quad)",
+     "호주·미국·일본·인도"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals supply chain resilience",
+      "meaning": "핵심광물 공급망 회복력"
+     },
+     {
+      "phrase": "Quad framework cooperation",
+      "meaning": "쿼드(미·일·호·인) 다자협력 체계"
+     },
+     {
+      "phrase": "de-risking supply chain dependencies",
+      "meaning": "공급망 의존성 위험 감소"
+     },
+     {
+      "phrase": "upstream and midstream value chain integration",
+      "meaning": "채굴·정제 단계의 가치사슬 통합"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "b6d42a885a",
+    "title": "Quad framework sharpens critical minerals supply chain push - Mining Magazine Australia",
+    "url": "https://miningmagazine.com.au/quad-framework-sharpens-critical-minerals-supply-chain-push",
+    "source": "Google News - Critical Minerals Exploration",
+    "tier_weight": 1,
+    "score": 8,
+    "published": "2026-05-28",
+    "korean_summary": [
+     "호주·미국·일본·인도가 Quad 핵심광물 이니셔티브로 공급망 협력 틀을 구체화했음",
+     "채굴·가공·재활용 공급망에 정부·민간 지원 최대 $20 billion 동원을 계획함",
+     "호주 장관은 전략비축 첫 활용으로 Arafura Rare Earths 오프테이크에 비구속 합의했다고 밝혔음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "Quad",
+     "핵심광물",
+     "희토류",
+     "공급망",
+     "호주"
+    ],
+    "ai_processed": true,
+    "card_id": "bb2872ad6f56",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "$20 billion"
+    ],
+    "quotes": [
+     "The Quad partners intend to mobilise up to $20 billion in government and private sector support through new and existing efforts, targeting critical minerals supply chains across mining, processing and recycling.",
+     "“We’ve moved that to final investment decision.”"
+    ],
+    "summary_raw": "Quad framework sharpens critical minerals supply chain push&nbsp;&nbsp;Mining Magazine Australia",
+    "english_phrases": [
+     {
+      "phrase": "Quad nexus",
+      "meaning": "Quad 국가와의 연관성(소재지·운영 기업 본사·공급 시장 기준)"
+     },
+     {
+      "phrase": "economic coercion",
+      "meaning": "경제적 강압"
+     },
+     {
+      "phrase": "Critical Minerals Strategic Reserve",
+      "meaning": "호주의 핵심광물 전략비축"
+     },
+     {
+      "phrase": "offtake",
+      "meaning": "생산물 구매 약정"
+     }
+    ],
+    "implication": "Quad 4개국이 채굴·가공·재활용 전반에 정부·민간 자금을 연계하기로 해, 특정국 의존을 줄이려는 프로젝트의 금융·오프테이크 확보에 힘이 실릴 수 있음",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "a220ad646f1e",
+   "title": "Tanzania, The New Frontrunner In The Race For Critical Minerals - TechTrendsKE",
+   "title_norm": "tanzania the new frontrunner in the race for critical minerals",
+   "url": "https://techtrendske.co.ke/2026/05/29/tanzania-the-new-frontrunner-in-the-race-for-critical-minerals",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPY1dRWFM1LTFYeTlDOVdyYmt4OWxVQmJ5MzRQOHFvWE9mZEZxcWN1SGd4RXNrZUhXRGg3cmEtdERsOUphRHBLaGpXd0FwVGMzU0h0eE9uZ05EQTdlZEVocnBUbVdJdGtXLThraURSbG55cmNlUENtZjdycFZRd3JGR0NXcXAxT1FRRWVmQWNiWldMLUVDN2VieDdBRUN5Y1hzV1pN?oc=5",
+   "source": {
+    "name": "Google News - Critical Minerals Exploration",
+    "domain": "techtrendske.co.ke",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-05-29",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:19:14+00:00",
+   "score": 8,
+   "body": {
+    "status": "full",
+    "chars": 5509,
+    "sha256": "94e1ba76580d480bc3f4e6c2c3543d8900e06936f9b9da1b7bf40f20e1fedd23",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-05-29",
+    "quotes": [
+     "Despite holding 30% of the world’s critical minerals, African countries have not been able to lead in the critical minerals industry.",
+     "Tanzania holds abundant supply of praseodymium, neodymium, as well as 6% of the world’s graphite."
+    ],
+    "final_url": "https://techtrendske.co.ke/2026/05/29/tanzania-the-new-frontrunner-in-the-race-for-critical-minerals/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "탄자니아가 핵심광물 채굴·가공의 중심국으로 도약하려는 행보를 보이고 있음",
+     "Mahenge Graphite Project는 천연흑연 연 60,000 tons 생산을 목표로 함",
+     "5월 Njombe Region에서 네오디뮴·프라세오디뮴 신규 매장지가 확인됐다고 발표했음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "60,000 tons",
+     "6% of the world’s graphite",
+     "30% of the world’s critical minerals"
+    ],
+    "quotes": [
+     "Despite holding 30% of the world’s critical minerals, African countries have not been able to lead in the critical minerals industry.",
+     "Tanzania holds abundant supply of praseodymium, neodymium, as well as 6% of the world’s graphite."
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "탄자니아",
+     "흑연",
+     "희토류",
+     "네오디뮴",
+     "핵심광물"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "commodities super cycle",
+      "meaning": "원자재 슈퍼사이클"
+     },
+     {
+      "phrase": "national critical minerals strategy",
+      "meaning": "국가 핵심광물 전략"
+     },
+     {
+      "phrase": "central processing hub",
+      "meaning": "중심 가공 허브"
+     }
+    ],
+    "implication": "탄자니아 프로젝트가 원광을 현지에서 정광으로 가공하면 가공이 아시아에 맡겨진 아프리카 핵심광물 공급 구조에 변화를 줄 수 있음."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:19:33+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 4줄)"
+    ],
+    "retry_tails": [
+     ": \"climbing the value chain\", \"meaning\": \"가치사슬 상위 단계로 이동함\"}\n  ],\n  \"implication\": \"탄자니아가 흑연·희토류 원광을 자국 내에서 정광으로 가공하면 아프리카의 원광 수출 중심 구조가 바뀌고 가공 공급처가 늘어날 수 있음.\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "b0bbaa23b6",
+     "v1_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPY1dRWFM1LTFYeTlDOVdyYmt4OWxVQmJ5MzRQOHFvWE9mZEZxcWN1SGd4RXNrZUhXRGg3cmEtdERsOUphRHBLaGpXd0FwVGMzU0h0eE9uZ05EQTdlZEVocnBUbVdJdGtXLThraURSbG55cmNlUENtZjdycFZRd3JGR0NXcXAxT1FRRWVmQWNiWldMLUVDN2VieDdBRUN5Y1hzV1pN?oc=5",
+     "summary_raw": "Tanzania, The New Frontrunner In The Race For Critical Minerals&nbsp;&nbsp;TechTrendsKE"
+    }
+   },
+   "v1": {
+    "korean_summary": "탄자니아가 핵심광물 확보 경쟁에서 새로운 선도국으로 부상하고 있으며, 풍부한 광물 자원과 유리한 지정학적 위치를 바탕으로 글로벌 공급망 재편에 중요한 역할을 할 것으로 예상됩니다. 주요 핵심광물 생산 능력 강화와 함께 국제 투자 유치 확대로 아프리카 지역의 광물 자원 개발 허브로 성장할 전망입니다. 이는 선진국의 핵심광물 수급 안정성 확보 및 에너지 전환 정책 추진에 중요한 지정학적 변수가 될 것으로 판단됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "리튬·코발트·희토류",
+     "광물자원정책",
+     "탄자니아"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "new frontrunner in the race for critical minerals",
+      "meaning": "핵심광물 확보 경쟁에서 새로운 선도국"
+     },
+     {
+      "phrase": "critical minerals supply chain",
+      "meaning": "핵심광물 공급망"
+     },
+     {
+      "phrase": "mineral resource endowment",
+      "meaning": "광물 자원 부존량"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "b0bbaa23b6",
+    "title": "Tanzania, The New Frontrunner In The Race For Critical Minerals - TechTrendsKE",
+    "url": "https://techtrendske.co.ke/2026/05/29/tanzania-the-new-frontrunner-in-the-race-for-critical-minerals",
+    "source": "Google News - Critical Minerals Exploration",
+    "tier_weight": 1,
+    "score": 8,
+    "published": "2026-05-29",
+    "korean_summary": [
+     "탄자니아가 핵심광물 채굴·가공의 중심국으로 도약하려는 행보를 보이고 있음",
+     "Mahenge Graphite Project는 천연흑연 연 60,000 tons 생산을 목표로 함",
+     "5월 Njombe Region에서 네오디뮴·프라세오디뮴 신규 매장지가 확인됐다고 발표했음"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "탄자니아",
+     "흑연",
+     "희토류",
+     "네오디뮴",
+     "핵심광물"
+    ],
+    "ai_processed": true,
+    "card_id": "a220ad646f1e",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "60,000 tons",
+     "6% of the world’s graphite",
+     "30% of the world’s critical minerals"
+    ],
+    "quotes": [
+     "Despite holding 30% of the world’s critical minerals, African countries have not been able to lead in the critical minerals industry.",
+     "Tanzania holds abundant supply of praseodymium, neodymium, as well as 6% of the world’s graphite."
+    ],
+    "summary_raw": "Tanzania, The New Frontrunner In The Race For Critical Minerals&nbsp;&nbsp;TechTrendsKE",
+    "english_phrases": [
+     {
+      "phrase": "commodities super cycle",
+      "meaning": "원자재 슈퍼사이클"
+     },
+     {
+      "phrase": "national critical minerals strategy",
+      "meaning": "국가 핵심광물 전략"
+     },
+     {
+      "phrase": "central processing hub",
+      "meaning": "중심 가공 허브"
+     }
+    ],
+    "implication": "탄자니아 프로젝트가 원광을 현지에서 정광으로 가공하면 가공이 아시아에 맡겨진 아프리카 핵심광물 공급 구조에 변화를 줄 수 있음.",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "076ba7b395c8",
+   "title": "U.S. Scores Major Rare Earth Win With Greenland Deposit Deal - Crude Oil Prices Today | OilPrice.com",
+   "title_norm": "u s scores major rare earth win with greenland deposit deal crude oil prices today",
+   "url": "https://oilprice.com/Energy/Energy-General/US-Scores-Major-Rare-Earth-Win-With-Greenland-Deposit-Deal.html",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQV0VYdFcxSWNDRnJ2eVdfRjByaGdNem9yeHcteDVhZEdKRk9RMTFiZ1FWMVQwUmtOMUhIanpWcFN4R2hSZHFZc0J2TnljbUNJODdIN3h2TUhKSUxGeUFvRGtFcWZFejMwQnFfZjF5ZWxuTnlveGNUUUt0NG9Nc1Jlb25JVk82dlFQS2NKWFhjaUxoSFAzWnlzd2Z4WUJpYmYzSXotQmRLZlVyUdIBrwFBVV95cUxQRFZ1b0JPdnlsN3A3QzJCWUVoS1VSV0lOcGdPak5RVC1oUFFxcHFaY1ZaeUEwd1Q3RzJDdzZNX1FjYVNqRHVtVWJHX2dOWDlDSmM0UlR2ZHQ4ZHN4MEFjNFB1Zkx6QnR1T0w1YVBfRHM4ckNPcXZqLXFXU3VybUx1ZFoxX2E1aFFkZTk5VS1DN1RTTGtaNjhna3Y3cXNKRVJVSDdsRHVxb0hQOTF6RVFj?oc=5",
+   "source": {
+    "name": "Google News - Rare Earth Elements",
+    "domain": "oilprice.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-05-28",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:19:33+00:00",
+   "score": 8,
+   "body": {
+    "status": "full",
+    "chars": 13412,
+    "sha256": "34f3c8f61d4a1855ed4fb5c5df757140b89971c3dcebff62e5966914396e6ff9",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-05-27",
+    "quotes": [
+     "Under the deal, REalloys will secure 15% of monthly Phase 1 production from the Greenland project for an initial 15-year term.",
+     "Critical Metals estimates heavy rare earths account for roughly 27% of the project’s total profile."
+    ],
+    "final_url": "https://oilprice.com/Energy/Energy-General/US-Scores-Major-Rare-Earth-Win-With-Greenland-Deposit-Deal.html",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "REalloys가 Critical Metals Corp.와 그린란드 Tanbreez 프로젝트 물량에 대한 15년 확정 오프테이크 계약을 체결했음",
+     "계약은 Tanbreez 1단계 월간 생산량의 15%를 대상으로 하며, 디스프로슘과 터븀을 포함한 중희토류 광상임",
+     "미 국방부의 중국산 소재 금지 시행이 2027년이며 본문 기준 7개월 남았고, REalloys는 오하이오주 유클리드에서 금속화 설비를 확장 중임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "15% of Phase 1 production",
+     "15-year",
+     "92.5% interest"
+    ],
+    "quotes": [
+     "Under the deal, REalloys will secure 15% of monthly Phase 1 production from the Greenland project for an initial 15-year term.",
+     "Critical Metals estimates heavy rare earths account for roughly 27% of the project’s total profile."
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "중희토류",
+     "디스프로슘",
+     "터븀",
+     "그린란드"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "offtake agreement",
+      "meaning": "생산물 장기 구매 계약"
+     },
+     {
+      "phrase": "heavy rare earth",
+      "meaning": "중희토류"
+     },
+     {
+      "phrase": "metallization",
+      "meaning": "산화물을 금속으로 전환하는 공정"
+     },
+     {
+      "phrase": "Western-aligned",
+      "meaning": "서방 진영과 연계된"
+     }
+    ],
+    "implication": "미 국방부의 중국산 소재 금지 시한을 앞두고 중국 외 지역의 중희토류 원료와 금속화 공정 확보 경쟁이 가속되고 있음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:19:38+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "19f457a686",
+     "v1_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQV0VYdFcxSWNDRnJ2eVdfRjByaGdNem9yeHcteDVhZEdKRk9RMTFiZ1FWMVQwUmtOMUhIanpWcFN4R2hSZHFZc0J2TnljbUNJODdIN3h2TUhKSUxGeUFvRGtFcWZFejMwQnFfZjF5ZWxuTnlveGNUUUt0NG9Nc1Jlb25JVk82dlFQS2NKWFhjaUxoSFAzWnlzd2Z4WUJpYmYzSXotQmRLZlVyUdIBrwFBVV95cUxQRFZ1b0JPdnlsN3A3QzJCWUVoS1VSV0lOcGdPak5RVC1oUFFxcHFaY1ZaeUEwd1Q3RzJDdzZNX1FjYVNqRHVtVWJHX2dOWDlDSmM0UlR2ZHQ4ZHN4MEFjNFB1Zkx6QnR1T0w1YVBfRHM4ckNPcXZqLXFXU3VybUx1ZFoxX2E1aFFkZTk5VS1DN1RTTGtaNjhna3Y3cXNKRVJVSDdsRHVxb0hQOTF6RVFj?oc=5",
+     "summary_raw": "U.S. Scores Major Rare Earth Win With Greenland Deposit Deal&nbsp;&nbsp;Crude Oil Prices Today | OilPrice.com"
+    }
+   },
+   "v1": {
+    "korean_summary": "미국이 그린란드의 희토류 광상 개발 협력 합의를 통해 중요한 핵심광물 확보 전략을 추진하고 있는 것으로 확인되었습니다. 이는 중국에 대한 희토류 공급 의존도를 낮추고 북미 지역의 핵심광물 자급력을 강화하려는 지정학적 전략으로 평가됩니다. 향후 그린란드 광상의 상업적 개발 추진 여부가 미국의 핵심광물 공급망 다각화에 미칠 영향이 클 것으로 전망됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "핵심광물 수급안보",
+     "그린란드"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals supply chain diversification",
+      "meaning": "핵심광물 공급망 다각화"
+     },
+     {
+      "phrase": "rare earth element (REE) deposit development",
+      "meaning": "희토류 원소 광상 개발"
+     },
+     {
+      "phrase": "strategic mineral independence from China",
+      "meaning": "중국으로부터의 전략광물 독립"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "19f457a686",
+    "title": "U.S. Scores Major Rare Earth Win With Greenland Deposit Deal - Crude Oil Prices Today | OilPrice.com",
+    "url": "https://oilprice.com/Energy/Energy-General/US-Scores-Major-Rare-Earth-Win-With-Greenland-Deposit-Deal.html",
+    "source": "Google News - Rare Earth Elements",
+    "tier_weight": 1,
+    "score": 8,
+    "published": "2026-05-28",
+    "korean_summary": [
+     "REalloys가 Critical Metals Corp.와 그린란드 Tanbreez 프로젝트 물량에 대한 15년 확정 오프테이크 계약을 체결했음",
+     "계약은 Tanbreez 1단계 월간 생산량의 15%를 대상으로 하며, 디스프로슘과 터븀을 포함한 중희토류 광상임",
+     "미 국방부의 중국산 소재 금지 시행이 2027년이며 본문 기준 7개월 남았고, REalloys는 오하이오주 유클리드에서 금속화 설비를 확장 중임"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "중희토류",
+     "디스프로슘",
+     "터븀",
+     "그린란드"
+    ],
+    "ai_processed": true,
+    "card_id": "076ba7b395c8",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "15% of Phase 1 production",
+     "15-year",
+     "92.5% interest"
+    ],
+    "quotes": [
+     "Under the deal, REalloys will secure 15% of monthly Phase 1 production from the Greenland project for an initial 15-year term.",
+     "Critical Metals estimates heavy rare earths account for roughly 27% of the project’s total profile."
+    ],
+    "summary_raw": "U.S. Scores Major Rare Earth Win With Greenland Deposit Deal&nbsp;&nbsp;Crude Oil Prices Today | OilPrice.com",
+    "english_phrases": [
+     {
+      "phrase": "offtake agreement",
+      "meaning": "생산물 장기 구매 계약"
+     },
+     {
+      "phrase": "heavy rare earth",
+      "meaning": "중희토류"
+     },
+     {
+      "phrase": "metallization",
+      "meaning": "산화물을 금속으로 전환하는 공정"
+     },
+     {
+      "phrase": "Western-aligned",
+      "meaning": "서방 진영과 연계된"
+     }
+    ],
+    "implication": "미 국방부의 중국산 소재 금지 시한을 앞두고 중국 외 지역의 중희토류 원료와 금속화 공정 확보 경쟁이 가속되고 있음",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "ad378080b70a",
+   "title": "Trump issues memo on higher pay for national security staff involved with critical minerals - Reuters",
+   "title_norm": "trump issues memo on higher pay for national security staff involved with critical minerals",
+   "url": "https://reuters.com/world/trump-issues-memo-higher-pay-national-security-staff-involved-with-critical-2026-05-29",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMGRHczdCcEZHc1FWd01zci1UM1ptd0pHNVA3OVpFV0VwYUh0T2FhYWtpcVFNdTFPUzEteEVyTGx4dlV3czNiMzhfOXlBdFdvenVYNUI2YzNMZG1BaHh5dzYwMW8wYk8zd0QzQVZPaFdFMExyNXJvUTFRQUxvUUNVQVNMTEI3SmU0aUNpdlV5cjU2eGtBUWphTWMycU8xNGxKTHBtZFQzck1POGZUbUlLQ3UzMHRmdzRZ?oc=5",
+   "source": {
+    "name": "Reuters - via Google News",
+    "domain": "reuters.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-05-29",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:19:38+00:00",
+   "score": 7,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "skipped",
+    "http_status": null,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": null,
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "트럼프, 핵심광물 관련 국가안보 담당 직원의 급여 인상에 관한 메모 발표했음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "국가안보",
+     "급여 인상",
+     "트럼프 메모",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "national security staff",
+      "meaning": "국가안보 담당 직원"
+     },
+     {
+      "phrase": "critical minerals",
+      "meaning": "핵심광물"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:19:39+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "269735b7f2",
+     "v1_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMGRHczdCcEZHc1FWd01zci1UM1ptd0pHNVA3OVpFV0VwYUh0T2FhYWtpcVFNdTFPUzEteEVyTGx4dlV3czNiMzhfOXlBdFdvenVYNUI2YzNMZG1BaHh5dzYwMW8wYk8zd0QzQVZPaFdFMExyNXJvUTFRQUxvUUNVQVNMTEI3SmU0aUNpdlV5cjU2eGtBUWphTWMycU8xNGxKTHBtZFQzck1POGZUbUlLQ3UzMHRmdzRZ?oc=5",
+     "summary_raw": "Trump issues memo on higher pay for national security staff involved with critical minerals&nbsp;&nbsp;Reuters"
+    }
+   },
+   "v1": {
+    "korean_summary": "트럼프 행정부가 핵심광물 관련 국가안보 업무 담당자들의 급여 인상을 명령하는 행정명령을 발표했으며, 이는 미국의 핵심광물 확보 전략을 강화하기 위한 인력 투자 의지를 나타내는 것으로 평가됩니다. 핵심광물 분야 전문가 및 관계자들의 처우 개선을 통해 미국 정부는 이 분야의 우수 인재 확보 및 정책 추진력 강화를 도모하고 있습니다. 이러한 조치는 글로벌 핵심광물 공급망 확보 경쟁에서 미국의 전략적 우위를 확보하려는 의도로 해석됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "국가안보정책",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals security",
+      "meaning": "핵심광물 안보"
+     },
+     {
+      "phrase": "national security staff compensation",
+      "meaning": "국가안보 담당 인력의 보수/처우"
+     },
+     {
+      "phrase": "executive memorandum on mineral strategy",
+      "meaning": "광물 전략에 관한 행정명령"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "269735b7f2",
+    "title": "Trump issues memo on higher pay for national security staff involved with critical minerals - Reuters",
+    "url": "https://reuters.com/world/trump-issues-memo-higher-pay-national-security-staff-involved-with-critical-2026-05-29",
+    "source": "Reuters - via Google News",
+    "tier_weight": 3,
+    "score": 7,
+    "published": "2026-05-29",
+    "korean_summary": [
+     "[제목 기반] 트럼프, 핵심광물 관련 국가안보 담당 직원의 급여 인상에 관한 메모 발표했음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "국가안보",
+     "급여 인상",
+     "트럼프 메모",
+     "미국"
+    ],
+    "ai_processed": true,
+    "card_id": "ad378080b70a",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Trump issues memo on higher pay for national security staff involved with critical minerals&nbsp;&nbsp;Reuters",
+    "english_phrases": [
+     {
+      "phrase": "national security staff",
+      "meaning": "국가안보 담당 직원"
+     },
+     {
+      "phrase": "critical minerals",
+      "meaning": "핵심광물"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "7692360518dd",
+   "title": "Fastmarkets convenes global critical minerals leaders as markets move to the center of national security and industrial policy - Fastmarkets",
+   "title_norm": "fastmarkets convenes global critical minerals leaders as markets move to the center of national security and industrial policy",
+   "url": "https://fastmarkets.com/insights/fastmarkets-convenes-global-critical-minerals-leaders-as-markets-move-to-the-center-of-national-security-and-industrial-policy",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQSjJpSHVweU4zOWh3VmNjREFNemZsemFSbGZBeFU2VElEa1RSOXVYdktKM216VS1NQkgyX29yWDN0TS1rTjA4MkVJRXRPQjFRaUZ0UnlndXMxcEIta1U5Y2VPbzhmUTJ3S1EtX3NBWWZtd2FSb28yWm1RcDhFem9RTlJDV2Y4X1JJdjlzWGh0Q3lhQ0NTU3h2VG4yMFdzT2tlZXZWcGROUWFWNW9FZlpSbXNRaFRCeDJjSG40T1BGY3lZc3NhdTFNN2tRR3NfUldDNk44cGNtWnBZc0ppUUJud3ZVUUxfV3ljeld6NTB1TkdEblNWdnRn?oc=5",
+   "source": {
+    "name": "Fastmarkets - via Google News",
+    "domain": "fastmarkets.com",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-05-26",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:19:41+00:00",
+   "score": 7,
+   "body": {
+    "status": "lead_only",
+    "chars": 133,
+    "sha256": "9e6637d9f221ef3844dea1d1a474705ce94b8c822be80a3d1b5302c17ef9f65c",
+    "source": "og_description",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [
+     "Connect with industry leaders at the 18th Global Lithium, Battery and Critical Materials Conference."
+    ],
+    "final_url": "https://www.fastmarkets.com/insights/fastmarkets-convenes-global-critical-minerals-leaders-as-markets-move-to-the-center-of-national-security-and-industrial-policy/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Fastmarkets, 시장이 국가안보와 산업정책의 중심으로 이동하는 가운데 전 세계 핵심광물 리더들을 소집했음",
+     "리드는 제18회 Global Lithium, Battery and Critical Materials Conference와 라스베이거스 행사 참여를 안내했음"
+    ],
+    "basis": "lead",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "리튬",
+     "배터리",
+     "국가안보",
+     "산업정책"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals",
+      "meaning": "핵심광물"
+     },
+     {
+      "phrase": "Global Lithium, Battery and Critical Materials Conference",
+      "meaning": "글로벌 리튬·배터리·핵심소재 콘퍼런스"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "lead_only",
+    "input_chars": 133,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:19:43+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "2f37d676ce",
+     "v1_url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQSjJpSHVweU4zOWh3VmNjREFNemZsemFSbGZBeFU2VElEa1RSOXVYdktKM216VS1NQkgyX29yWDN0TS1rTjA4MkVJRXRPQjFRaUZ0UnlndXMxcEIta1U5Y2VPbzhmUTJ3S1EtX3NBWWZtd2FSb28yWm1RcDhFem9RTlJDV2Y4X1JJdjlzWGh0Q3lhQ0NTU3h2VG4yMFdzT2tlZXZWcGROUWFWNW9FZlpSbXNRaFRCeDJjSG40T1BGY3lZc3NhdTFNN2tRR3NfUldDNk44cGNtWnBZc0ppUUJud3ZVUUxfV3ljeld6NTB1TkdEblNWdnRn?oc=5",
+     "summary_raw": "Fastmarkets convenes global critical minerals leaders as markets move to the center of national security and industrial policy&nbsp;&nbsp;Fastmarkets"
+    }
+   },
+   "v1": {
+    "korean_summary": "Fastmarkets가 글로벌 핵심광물 리더들을 소집하여 핵심광물 시장이 국가 안보 및 산업정책의 중심으로 이동하고 있음을 확인하였습니다. 핵심광물의 전략적 중요성이 높아지면서 국제 시장 기구들의 역할이 강화되고 있는 추세를 보이고 있습니다. 이는 글로벌 공급망 안정화 및 국가별 자원 확보 전략 수립의 필요성을 시사하고 있습니다.",
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "국가안보정책",
+     "국제시장"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals move to the center of national security and industrial policy",
+      "meaning": "핵심광물이 국가 안보 및 산업정책의 중심으로 이동함"
+     },
+     {
+      "phrase": "convene global critical minerals leaders",
+      "meaning": "글로벌 핵심광물 산업 지도자들을 소집하다"
+     },
+     {
+      "phrase": "market-driven approach to critical minerals supply chain",
+      "meaning": "핵심광물 공급망에 대한 시장 중심 접근법"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "2f37d676ce",
+    "title": "Fastmarkets convenes global critical minerals leaders as markets move to the center of national security and industrial policy - Fastmarkets",
+    "url": "https://fastmarkets.com/insights/fastmarkets-convenes-global-critical-minerals-leaders-as-markets-move-to-the-center-of-national-security-and-industrial-policy",
+    "source": "Fastmarkets - via Google News",
+    "tier_weight": 5,
+    "score": 7,
+    "published": "2026-05-26",
+    "korean_summary": [
+     "[본문 미확보] Fastmarkets, 시장이 국가안보와 산업정책의 중심으로 이동하는 가운데 전 세계 핵심광물 리더들을 소집했음",
+     "리드는 제18회 Global Lithium, Battery and Critical Materials Conference와 라스베이거스 행사 참여를 안내했음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "리튬",
+     "배터리",
+     "국가안보",
+     "산업정책"
+    ],
+    "ai_processed": true,
+    "card_id": "7692360518dd",
+    "basis": "lead",
+    "body_status": "lead_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Fastmarkets convenes global critical minerals leaders as markets move to the center of national security and industrial policy&nbsp;&nbsp;Fastmarkets",
+    "english_phrases": [
+     {
+      "phrase": "critical minerals",
+      "meaning": "핵심광물"
+     },
+     {
+      "phrase": "Global Lithium, Battery and Critical Materials Conference",
+      "meaning": "글로벌 리튬·배터리·핵심소재 콘퍼런스"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "c299b1211138",
+   "title": "Minister for Coal and Mines G Kishan Reddy urges faster exploration of critical minerals | Akashvani News - Newsonair",
+   "title_norm": "minister for coal and mines g kishan reddy urges faster exploration of critical minerals akashvani news",
+   "url": "https://newsonair.gov.in/minister-for-coal-and-mines-g-kishan-reddy-urges-faster-exploration-of-critical-minerals",
+   "gnews_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOW83S04zZEV2UmVDdEdMZ2hvQ3NZdVdvMU4tblJJLTdmaEJSUkZreng3U3NmU1EydGtkVXBORmlzUGkzRkZJZHJFdkJfbVpSMktzQjdtc2hCeVF6Y0RZUzU0dlJnLTNsY1dtLWR6aHRmSXk0UEpXZmNuY0RDWGVqSGNXOHB2WDBVdFVrNHFNUHJCTzd0aVFuNE9qNmI2QnBPcEIyYlQyTkJ1VTh2NGh0aG1sUDI?oc=5",
+   "source": {
+    "name": "Google News - Critical Minerals Exploration",
+    "domain": "newsonair.gov.in",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-05-30",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:19:44+00:00",
+   "score": 7,
+   "body": {
+    "status": "full",
+    "chars": 1386,
+    "sha256": "8f5da6bba66df8a29260345b3fb47f934662331eb0e11e8793fdd169ddd8988f",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-03-25",
+    "quotes": [
+     "Minister for Coal and Mines G Kishan Reddy today called for accelerated exploration of critical minerals to achieve self-reliance and strengthen India’s economic growth, energy transition and technological advancement."
+    ],
+    "final_url": "https://newsonair.gov.in/minister-for-coal-and-mines-g-kishan-reddy-urges-faster-exploration-of-critical-minerals/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "인도 석탄광업부 장관 G Kishan Reddy가 핵심광물 탐사 가속화를 촉구했음",
+     "뉴델리 National Mineral Exploration and Development Trust 운영위에서 2025-26 회계연도 성과를 점검했음",
+     "주정부에 탐사 사업 신속 추진을 지시했으며, 후속 일정은 확인 불가임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "2025-26"
+    ],
+    "quotes": [
+     "Minister for Coal and Mines G Kishan Reddy today called for accelerated exploration of critical minerals to achieve self-reliance and strengthen India’s economic growth, energy transition and technological advancement."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "광물 탐사",
+     "인도",
+     "인공지능",
+     "드론"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "exploration-to-auction timelines",
+      "meaning": "탐사에서 경매까지 걸리는 기간"
+     },
+     {
+      "phrase": "beneficiation techniques",
+      "meaning": "선광(광석 품위 향상) 기술"
+     },
+     {
+      "phrase": "mineral exploration value chain",
+      "meaning": "광물 탐사 가치사슬"
+     }
+    ],
+    "implication": "인도가 승인 절차 단축과 AI·드론 등 신기술 도입으로 핵심광물 탐사에서 경매까지의 기간을 줄이고 민간 참여를 넓히려는 방향임"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 1386,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:19:52+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 5줄)"
+    ],
+    "retry_tails": [
+     "e\": \"mineral exploration value chain\", \"meaning\": \"광물 탐사 가치사슬\"}\n  ],\n  \"implication\": \"인도가 승인 절차 단축과 AI·드론 등 신기술 도입으로 핵심광물 탐사에서 경매까지의 기간을 줄이고 민간 참여를 넓히려는 방향임\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "b67243fb8f",
+     "v1_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOW83S04zZEV2UmVDdEdMZ2hvQ3NZdVdvMU4tblJJLTdmaEJSUkZreng3U3NmU1EydGtkVXBORmlzUGkzRkZJZHJFdkJfbVpSMktzQjdtc2hCeVF6Y0RZUzU0dlJnLTNsY1dtLWR6aHRmSXk0UEpXZmNuY0RDWGVqSGNXOHB2WDBVdFVrNHFNUHJCTzd0aVFuNE9qNmI2QnBPcEIyYlQyTkJ1VTh2NGh0aG1sUDI?oc=5",
+     "summary_raw": "Minister for Coal and Mines G Kishan Reddy urges faster exploration of critical minerals | Akashvani News&nbsp;&nbsp;Newsonair"
+    }
+   },
+   "v1": {
+    "korean_summary": "인도 석탄광물부 장관 G 키산 레디는 핵심광물의 탐사 가속화를 강력히 촉구하고 있으며, 이는 인도의 에너지 전환과 자급 확보 전략의 핵심으로 평가되고 있습니다. 글로벌 공급망 재편 속에서 핵심광물 확보 경쟁이 심화되는 가운데, 인도 정부는 탐사 인프라 확대와 제도 개선을 통해 국내 매장량 개발을 가속하겠다는 의지를 표명하고 있습니다. 이러한 정책 전환은 인도-태평양 지역의 광물 자원 패러다임 변화와 우리나라 핵심광물 확보 전략에도 시사점을 제공할 것으로 예상됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "탐사 정책",
+     "인도"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "faster exploration of critical minerals",
+      "meaning": "핵심광물 탐사의 가속화"
+     },
+     {
+      "phrase": "accelerate domestic resource development",
+      "meaning": "국내 자원 개발의 가속"
+     },
+     {
+      "phrase": "mineral supply security",
+      "meaning": "광물 공급 안정성/보안"
+     },
+     {
+      "phrase": "geological exploration infrastructure",
+      "meaning": "지질탐사 인프라"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "b67243fb8f",
+    "title": "Minister for Coal and Mines G Kishan Reddy urges faster exploration of critical minerals | Akashvani News - Newsonair",
+    "url": "https://newsonair.gov.in/minister-for-coal-and-mines-g-kishan-reddy-urges-faster-exploration-of-critical-minerals",
+    "source": "Google News - Critical Minerals Exploration",
+    "tier_weight": 1,
+    "score": 7,
+    "published": "2026-05-30",
+    "korean_summary": [
+     "인도 석탄광업부 장관 G Kishan Reddy가 핵심광물 탐사 가속화를 촉구했음",
+     "뉴델리 National Mineral Exploration and Development Trust 운영위에서 2025-26 회계연도 성과를 점검했음",
+     "주정부에 탐사 사업 신속 추진을 지시했으며, 후속 일정은 확인 불가임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "광물 탐사",
+     "인도",
+     "인공지능",
+     "드론"
+    ],
+    "ai_processed": true,
+    "card_id": "c299b1211138",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "2025-26"
+    ],
+    "quotes": [
+     "Minister for Coal and Mines G Kishan Reddy today called for accelerated exploration of critical minerals to achieve self-reliance and strengthen India’s economic growth, energy transition and technological advancement."
+    ],
+    "summary_raw": "Minister for Coal and Mines G Kishan Reddy urges faster exploration of critical minerals | Akashvani News&nbsp;&nbsp;Newsonair",
+    "english_phrases": [
+     {
+      "phrase": "exploration-to-auction timelines",
+      "meaning": "탐사에서 경매까지 걸리는 기간"
+     },
+     {
+      "phrase": "beneficiation techniques",
+      "meaning": "선광(광석 품위 향상) 기술"
+     },
+     {
+      "phrase": "mineral exploration value chain",
+      "meaning": "광물 탐사 가치사슬"
+     }
+    ],
+    "implication": "인도가 승인 절차 단축과 AI·드론 등 신기술 도입으로 핵심광물 탐사에서 경매까지의 기간을 줄이고 민간 참여를 넓히려는 방향임",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "f49b00659af1",
+   "title": "Govt pushes faster mining projects to secure lithium, rare earths and other critical minerals - CNBC TV18",
+   "title_norm": "govt pushes faster mining projects to secure lithium rare earths and other critical minerals",
+   "url": "https://cnbctv18.com/economy/govt-pushes-faster-mining-projects-to-secure-lithium-rare-earths-and-other-critical-minerals-ws-l-19913018.htm",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOLV9MWWowSzZYVkE2Z2dTU3pXalpQVXQxUmNjTHIxOEJBVTdmUnVSWWlFdVpOUk9PVGtxS0tSUUlKY0FQN3BSaDUyM2QwRTdrdUFiWG9wX1ctbF9LbnpvS0loTGYzbzJxY1pxcURHSDE1VVZCWURuMlVvdFNoX25vU0RuVHYtSy1GZGlPeTZRQ0xhVlZ4OHhBNjIydXEwb0prZ2QzaUY0dzJfUWVVYjhha2QyUmZtWXJXTVNURlg0dFJhdVhlSXp2Q3M2Zy1pNndBendtU0dwNkd4V0HSAeABQVVfeXFMTUFCWUZIMmlLbmZpSkJ4MHZhQkdqR0loWUxKTWVKZFZhcEU3aTlmNHdzOWVmNUZPcXNCSVlRSldkMVZFX1V4NWpPRWx5UGR4QkFNQ0dlZnpUenRFN2xYMzBxT2Fwdk8zRGZqMG5PdXV0X0kzaUxDdUlhYUtJZlF4YjBXRzJySDFkTkpLNVdaQW01RTFKZWFpQzdPMWtGSE1wdjJ0SUxUMDN3UzI4dFRIbjRWYWxpR3VScF9kRWQ5NkVtTjNzc01qMDhCR1BpbG05dnJuVHRlNXN3REliUUdqZUw?oc=5",
+   "source": {
+    "name": "Google News - Critical Minerals Exploration",
+    "domain": "cnbctv18.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-05-25",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:19:53+00:00",
+   "score": 7,
+   "body": {
+    "status": "full",
+    "chars": 3016,
+    "sha256": "c7bf37b59412f8840c277291eacb45428fde1c99bc776d43636d9d2bb21e4ab2",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-05-25",
+    "quotes": [
+     "Govt pushes faster mining projects to secure lithium, rare earths and other critical minerals",
+     "The government has asked mining agencies to speed up exploration and auctions of critical minerals needed for electric vehicles, batteries, solar panels and clean energy."
+    ],
+    "final_url": "https://www.cnbctv18.com/economy/govt-pushes-faster-mining-projects-to-secure-lithium-rare-earths-and-other-critical-minerals-ws-l-19913018.htm",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "인도 석탄·광업부 장관이 광업·탐사 기관에 보류 중인 사업을 미션 모드로 신속 추진하라고 지시했음",
+     "FY26에 광물 블록 212개가 경매되어 단일 연도 최다였고, 이 중 22개가 핵심·전략광물 블록이었음",
+     "수입 의존을 줄여 광물 안보를 강화하려는 취지이며 구체적 후속 일정은 확인 불가임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "212 mineral blocks",
+     "22 critical and strategic mineral blocks",
+     "48,000 sq km"
+    ],
+    "quotes": [
+     "Govt pushes faster mining projects to secure lithium, rare earths and other critical minerals",
+     "The government has asked mining agencies to speed up exploration and auctions of critical minerals needed for electric vehicles, batteries, solar panels and clean energy."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "인도",
+     "핵심광물",
+     "광물 블록 경매",
+     "희토류",
+     "리튬"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "mission mode",
+      "meaning": "목표 달성을 위해 집중적으로 추진하는 방식"
+     },
+     {
+      "phrase": "fast-track",
+      "meaning": "절차를 앞당겨 신속히 처리함"
+     },
+     {
+      "phrase": "mineral security",
+      "meaning": "광물 안보, 광물의 안정적 확보"
+     },
+     {
+      "phrase": "operationalisation",
+      "meaning": "광산을 실제 가동 단계로 전환함"
+     }
+    ],
+    "implication": "인도가 핵심·전략광물 블록 경매와 광산 가동을 확대해 수입 의존을 줄이려 하고 있어 리튬·희토류 등 공급원 다변화 요인이 될 수 있음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 3016,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:20:05+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 4줄)"
+    ],
+    "retry_tails": [
+     "\"phrase\": \"operationalisation\", \"meaning\": \"광산을 실제 가동 단계로 전환함\"}\n  ],\n  \"implication\": \"인도가 핵심·전략광물 블록 경매와 가동을 늘려 수입 의존을 낮추려 하고 있어 리튬·희토류 등 공급원 구도에 변화 가능성이 있음\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "8dd9844100",
+     "v1_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOLV9MWWowSzZYVkE2Z2dTU3pXalpQVXQxUmNjTHIxOEJBVTdmUnVSWWlFdVpOUk9PVGtxS0tSUUlKY0FQN3BSaDUyM2QwRTdrdUFiWG9wX1ctbF9LbnpvS0loTGYzbzJxY1pxcURHSDE1VVZCWURuMlVvdFNoX25vU0RuVHYtSy1GZGlPeTZRQ0xhVlZ4OHhBNjIydXEwb0prZ2QzaUY0dzJfUWVVYjhha2QyUmZtWXJXTVNURlg0dFJhdVhlSXp2Q3M2Zy1pNndBendtU0dwNkd4V0HSAeABQVVfeXFMTUFCWUZIMmlLbmZpSkJ4MHZhQkdqR0loWUxKTWVKZFZhcEU3aTlmNHdzOWVmNUZPcXNCSVlRSldkMVZFX1V4NWpPRWx5UGR4QkFNQ0dlZnpUenRFN2xYMzBxT2Fwdk8zRGZqMG5PdXV0X0kzaUxDdUlhYUtJZlF4YjBXRzJySDFkTkpLNVdaQW01RTFKZWFpQzdPMWtGSE1wdjJ0SUxUMDN3UzI4dFRIbjRWYWxpR3VScF9kRWQ5NkVtTjNzc01qMDhCR1BpbG05dnJuVHRlNXN3REliUUdqZUw?oc=5",
+     "summary_raw": "Govt pushes faster mining projects to secure lithium, rare earths and other critical minerals&nbsp;&nbsp;CNBC TV18"
+    }
+   },
+   "v1": {
+    "korean_summary": "정부가 리튬, 희토류 등 핵심광물의 안정적 공급 확보를 위해 광산 프로젝트의 신속화를 추진 중인 것으로 확인되었음. 이는 전 지구적 에너지 전환 및 첨단기술 산업의 핵심광물 수요 급증에 대응하기 위한 전략적 조치로 평가됨. 채광 규제 완화와 프로젝트 승인 절차 개선을 통해 핵심광물 자급률 제고 및 글로벌 공급망 안정성 확보를 목표로 할 전망임.",
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "희토류",
+     "광산정책"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "accelerate mining projects",
+      "meaning": "광산 개발 프로젝트의 진행 속도를 높이다"
+     },
+     {
+      "phrase": "secure critical mineral supply chains",
+      "meaning": "핵심광물 공급망의 안정성을 확보하다"
+     },
+     {
+      "phrase": "streamline permitting processes",
+      "meaning": "채광 허가 절차를 간소화하다"
+     },
+     {
+      "phrase": "lithium and rare earth elements (REEs)",
+      "meaning": "리튬과 희토류 원소"
+     },
+     {
+      "phrase": "domestic mineral resource development",
+      "meaning": "국내 광물자원 개발"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "8dd9844100",
+    "title": "Govt pushes faster mining projects to secure lithium, rare earths and other critical minerals - CNBC TV18",
+    "url": "https://cnbctv18.com/economy/govt-pushes-faster-mining-projects-to-secure-lithium-rare-earths-and-other-critical-minerals-ws-l-19913018.htm",
+    "source": "Google News - Critical Minerals Exploration",
+    "tier_weight": 1,
+    "score": 7,
+    "published": "2026-05-25",
+    "korean_summary": [
+     "인도 석탄·광업부 장관이 광업·탐사 기관에 보류 중인 사업을 미션 모드로 신속 추진하라고 지시했음",
+     "FY26에 광물 블록 212개가 경매되어 단일 연도 최다였고, 이 중 22개가 핵심·전략광물 블록이었음",
+     "수입 의존을 줄여 광물 안보를 강화하려는 취지이며 구체적 후속 일정은 확인 불가임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "인도",
+     "핵심광물",
+     "광물 블록 경매",
+     "희토류",
+     "리튬"
+    ],
+    "ai_processed": true,
+    "card_id": "f49b00659af1",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "212 mineral blocks",
+     "22 critical and strategic mineral blocks",
+     "48,000 sq km"
+    ],
+    "quotes": [
+     "Govt pushes faster mining projects to secure lithium, rare earths and other critical minerals",
+     "The government has asked mining agencies to speed up exploration and auctions of critical minerals needed for electric vehicles, batteries, solar panels and clean energy."
+    ],
+    "summary_raw": "Govt pushes faster mining projects to secure lithium, rare earths and other critical minerals&nbsp;&nbsp;CNBC TV18",
+    "english_phrases": [
+     {
+      "phrase": "mission mode",
+      "meaning": "목표 달성을 위해 집중적으로 추진하는 방식"
+     },
+     {
+      "phrase": "fast-track",
+      "meaning": "절차를 앞당겨 신속히 처리함"
+     },
+     {
+      "phrase": "mineral security",
+      "meaning": "광물 안보, 광물의 안정적 확보"
+     },
+     {
+      "phrase": "operationalisation",
+      "meaning": "광산을 실제 가동 단계로 전환함"
+     }
+    ],
+    "implication": "인도가 핵심·전략광물 블록 경매와 광산 가동을 확대해 수입 의존을 줄이려 하고 있어 리튬·희토류 등 공급원 다변화 요인이 될 수 있음",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "b23d86d76563",
+   "title": "Grit Metals Completes Maiden Drilling Campaign at Two High Priority Central Finland Lithium Targets - StreetInsider",
+   "title_norm": "grit metals completes maiden drilling campaign at two high priority central finland lithium targets",
+   "url": "https://streetinsider.com/Newsfile/Grit+Metals+Completes+Maiden+Drilling+Campaign+at+Two+High+Priority+Central+Finland+Lithium+Targets/26554617.html",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOc2JIZkxSY1RMVzZ2anBkeWhiNEVoSmk1Xy00WG5icG9WOWE2RGJiUUVmQ056Ul84clhBYlBoZlFQMk42NFNXb082el92dVpKWlViYS1UekFETG1YYktFNzNDb05HUTNYSTBrcTFDSzJoOWtyZGl3V3BPRGJkdHBOeFRzMTNfQTl2cGFCWldwbXRodkprMEFyRUNxY3hvRXAtVmtIT3RnTkJ1OWFObFpvOGFSU2NTZ2FRVU9FalFOdnY0U1FIWElFUFNNVktFUTJkZmRLQ2l0YWpOTmpiYXlMVXVsT2N4VWc?oc=5",
+   "source": {
+    "name": "Google News - Lithium Discovery",
+    "domain": "streetinsider.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-05-28",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:20:05+00:00",
+   "score": 10,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "bot_block",
+    "http_status": 403,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.streetinsider.com/Newsfile/Grit+Metals+Completes+Maiden+Drilling+Campaign+at+Two+High+Priority+Central+Finland+Lithium+Targets/26554617.html",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Grit Metals, 핀란드 중부 우선순위 높은 리튬 타깃 2곳에서 첫 시추 캠페인을 완료했음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "exploration_tech",
+    "tags": [
+     "리튬",
+     "시추",
+     "탐사",
+     "핀란드"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Maiden Drilling Campaign",
+      "meaning": "첫 시추 캠페인"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:20:07+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "1a6f57ded7",
+     "v1_url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOc2JIZkxSY1RMVzZ2anBkeWhiNEVoSmk1Xy00WG5icG9WOWE2RGJiUUVmQ056Ul84clhBYlBoZlFQMk42NFNXb082el92dVpKWlViYS1UekFETG1YYktFNzNDb05HUTNYSTBrcTFDSzJoOWtyZGl3V3BPRGJkdHBOeFRzMTNfQTl2cGFCWldwbXRodkprMEFyRUNxY3hvRXAtVmtIT3RnTkJ1OWFObFpvOGFSU2NTZ2FRVU9FalFOdnY0U1FIWElFUFNNVktFUTJkZmRLQ2l0YWpOTmpiYXlMVXVsT2N4VWc?oc=5",
+     "summary_raw": "Grit Metals Completes Maiden Drilling Campaign at Two High Priority Central Finland Lithium Targets&nbsp;&nbsp;StreetInsider"
+    }
+   },
+   "v1": {
+    "korean_summary": "핀란드 중부 지역의 두 개 고우선순위 리튬 탐사지에서 Grit Metals가 초기 시추 캠페인을 완료했으며, 이는 유럽 내 핵심광물 공급망 다원화의 중요한 진전으로 평가되고 있습니다. 본 탐사 성과는 EU의 핵심광물 수급 안정화 전략과 북유럽 지역의 리튬 개발 잠재력을 재확인하는 계기가 될 것으로 전망됩니다. 향후 광물화 특성 분석 및 자원량 추정을 통해 상업화 가능성이 검증될 예정입니다.",
+    "category": "exploration_tech",
+    "tags": [
+     "리튬",
+     "시추탐사",
+     "핀란드"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "maiden drilling campaign",
+      "meaning": "초기 시추 캠페인, 첫 번째 탐사 시추 작업"
+     },
+     {
+      "phrase": "high priority exploration targets",
+      "meaning": "고우선순위 탐사 대상지, 우선적으로 개발할 가치가 있는 광상"
+     },
+     {
+      "phrase": "critical minerals supply chain diversification",
+      "meaning": "핵심광물 공급망 다원화, 단일 공급처 의존도 감소 전략"
+     },
+     {
+      "phrase": "mineralization characterization",
+      "meaning": "광물화 특성 분석, 광상의 광물학적 특징 규명"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "1a6f57ded7",
+    "title": "Grit Metals Completes Maiden Drilling Campaign at Two High Priority Central Finland Lithium Targets - StreetInsider",
+    "url": "https://streetinsider.com/Newsfile/Grit+Metals+Completes+Maiden+Drilling+Campaign+at+Two+High+Priority+Central+Finland+Lithium+Targets/26554617.html",
+    "source": "Google News - Lithium Discovery",
+    "tier_weight": 1,
+    "score": 10,
+    "published": "2026-05-28",
+    "korean_summary": [
+     "[제목 기반] Grit Metals, 핀란드 중부 우선순위 높은 리튬 타깃 2곳에서 첫 시추 캠페인을 완료했음"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "리튬",
+     "시추",
+     "탐사",
+     "핀란드"
+    ],
+    "ai_processed": true,
+    "card_id": "b23d86d76563",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Grit Metals Completes Maiden Drilling Campaign at Two High Priority Central Finland Lithium Targets&nbsp;&nbsp;StreetInsider",
+    "english_phrases": [
+     {
+      "phrase": "Maiden Drilling Campaign",
+      "meaning": "첫 시추 캠페인"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "e85d9c1af2c1",
+   "title": "Dalaroo plots Greenland critical minerals exploration blitz - The West Australian",
+   "title_norm": "dalaroo plots greenland critical minerals exploration blitz",
+   "url": "https://thewest.com.au/business/bulls-n-bears/dalaroo-plots-greenland-critical-minerals-exploration-blitz-c-22332443",
+   "gnews_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbElZUExWdFhIOGZnajEtU21abUdkU0JxYVdTZEJLTGh2SFVqbjVmR2NGZTdGdERhSXlEMDg0S3BNQjhTTkFWc3E4QUtHNnh6Ul9aWlNYRHhZSXBoTkl0VHdGQ2dxYTNkTUp6akhSNHVRS3JsMmVpRlZjaGNkWjZxQlBtaHhRUGk1T290bHhmSHJjQ1hlZk1yb21TXzVTc25veDBoWDU3NEphNE1PRy1Ed3doMnpGWGvSAbwBQVVfeXFMTVFQdnlpNzJpeTZQSkZoRUxDSEVwdjZ4cXphdlBCa2Nndl9kU1pPM0RkOGtrdE1TNzY2OV9fNjZMR2Y3dktYLTFUdW9vMjFobDdna3A3bTlYR3ItN0s3eFFVUmcwcTQ3ZGtiWW9LbUtydXAxY1o3dXVtalRja3JaaTJoZzVBcDhsanV3N0lVM0JwRkdxeHRGaG9sTEVseEl1Q2lOUl9yYjg5Y0pUZjR1SlpBWkNPVWp6WVRkS0w?oc=5",
+   "source": {
+    "name": "Google News - Critical Minerals Exploration",
+    "domain": "thewest.com.au",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-05-25",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:20:08+00:00",
+   "score": 7,
+   "body": {
+    "status": "full",
+    "chars": 3681,
+    "sha256": "14233a89d7735697c67d64bd70a3e25ebedc954f568a6103d4df1593248a107f",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-05-25",
+    "quotes": [
+     "Dalaroo Metals has wrapped up planning and mobilisation activities for a highly anticipated 2026 exploration season at the company’s Blue Lagoon critical minerals project in southern Greenland."
+    ],
+    "final_url": "https://thewest.com.au/business/bulls-n-bears/dalaroo-plots-greenland-critical-minerals-exploration-blitz-c-22332443",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Dalaroo Metals가 그린란드 남부 Blue Lagoon 핵심광물 프로젝트의 2026년 탐사 준비를 마쳤음",
+     "현장 캠페인은 mid-June부터 mid-July까지이며 육상 auger drilling과 해상 Van Veen grab sampling을 병행함",
+     "현장 조사 후 육상·해상 데이터를 통합해 우선 타깃을 정하고 최초 시추 캠페인에 대비할 계획임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "2.7 kilometres of strike",
+     "4.42 per cent zirconium oxide",
+     "0.81 per cent"
+    ],
+    "quotes": [
+     "Dalaroo Metals has wrapped up planning and mobilisation activities for a highly anticipated 2026 exploration season at the company’s Blue Lagoon critical minerals project in southern Greenland."
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "지르코늄",
+     "하프늄",
+     "희토류",
+     "탐사",
+     "그린란드"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Van Veen grab sampling",
+      "meaning": "해저 퇴적물을 집게형 장비로 채취하는 시료 채취 방식"
+     },
+     {
+      "phrase": "auger drilling",
+      "meaning": "나선형 날로 얕은 지층을 뚫는 오거 시추"
+     },
+     {
+      "phrase": "maiden drilling campaign",
+      "meaning": "해당 프로젝트에서 처음 실시하는 시추 캠페인"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 3681,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:20:20+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 4줄)"
+    ],
+    "retry_tails": [
+     "illing\", \"meaning\": \"나선형 날로 얕은 지층을 뚫는 오거 시추\"},\n    {\"phrase\": \"maiden drilling campaign\", \"meaning\": \"해당 프로젝트에서 처음 실시하는 시추 캠페인\"}\n  ],\n  \"implication\": \"해당 없음\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "cd98c139d5",
+     "v1_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbElZUExWdFhIOGZnajEtU21abUdkU0JxYVdTZEJLTGh2SFVqbjVmR2NGZTdGdERhSXlEMDg0S3BNQjhTTkFWc3E4QUtHNnh6Ul9aWlNYRHhZSXBoTkl0VHdGQ2dxYTNkTUp6akhSNHVRS3JsMmVpRlZjaGNkWjZxQlBtaHhRUGk1T290bHhmSHJjQ1hlZk1yb21TXzVTc25veDBoWDU3NEphNE1PRy1Ed3doMnpGWGvSAbwBQVVfeXFMTVFQdnlpNzJpeTZQSkZoRUxDSEVwdjZ4cXphdlBCa2Nndl9kU1pPM0RkOGtrdE1TNzY2OV9fNjZMR2Y3dktYLTFUdW9vMjFobDdna3A3bTlYR3ItN0s3eFFVUmcwcTQ3ZGtiWW9LbUtydXAxY1o3dXVtalRja3JaaTJoZzVBcDhsanV3N0lVM0JwRkdxeHRGaG9sTEVseEl1Q2lOUl9yYjg5Y0pUZjR1SlpBWkNPVWp6WVRkS0w?oc=5",
+     "summary_raw": "Dalaroo plots Greenland critical minerals exploration blitz&nbsp;&nbsp;The West Australian"
+    }
+   },
+   "v1": {
+    "korean_summary": "덴마크 자원개발사 달라루(Dalaroo)가 그린란드의 핵심광물 탐사 사업을 적극 추진하고 있으며, 이는 북극 지역의 전략적 자원 확보 경쟁이 심화되고 있음을 시사합니다. 그린란드는 희토류, 우라늄 등 산업 필수 핵심광물의 주요 매장지로서 글로벌 공급망 다양화의 중요한 거점으로 기능할 것으로 전망됩니다. 이러한 북극권 탐사 활동은 향후 한국 자원외교 및 핵심광물 확보 전략에 있어 그린란드 등 비전통 광산지역으로의 투자 다각화 필요성을 강조합니다.",
+    "category": "exploration_tech",
+    "tags": [
+     "희토류·우라늄",
+     "극지탐사",
+     "그린란드"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals exploration blitz",
+      "meaning": "핵심광물 탐사의 집중적 추진 또는 탐사 속도 가속화"
+     },
+     {
+      "phrase": "Arctic supply chain diversification",
+      "meaning": "북극 지역을 활용한 핵심광물 공급망 다각화 전략"
+     },
+     {
+      "phrase": "exploration portfolio in Greenland",
+      "meaning": "그린란드 내 탐사 프로젝트 포트폴리오 또는 탐사광구 구성"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "cd98c139d5",
+    "title": "Dalaroo plots Greenland critical minerals exploration blitz - The West Australian",
+    "url": "https://thewest.com.au/business/bulls-n-bears/dalaroo-plots-greenland-critical-minerals-exploration-blitz-c-22332443",
+    "source": "Google News - Critical Minerals Exploration",
+    "tier_weight": 1,
+    "score": 7,
+    "published": "2026-05-25",
+    "korean_summary": [
+     "Dalaroo Metals가 그린란드 남부 Blue Lagoon 핵심광물 프로젝트의 2026년 탐사 준비를 마쳤음",
+     "현장 캠페인은 mid-June부터 mid-July까지이며 육상 auger drilling과 해상 Van Veen grab sampling을 병행함",
+     "현장 조사 후 육상·해상 데이터를 통합해 우선 타깃을 정하고 최초 시추 캠페인에 대비할 계획임"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "지르코늄",
+     "하프늄",
+     "희토류",
+     "탐사",
+     "그린란드"
+    ],
+    "ai_processed": true,
+    "card_id": "e85d9c1af2c1",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "2.7 kilometres of strike",
+     "4.42 per cent zirconium oxide",
+     "0.81 per cent"
+    ],
+    "quotes": [
+     "Dalaroo Metals has wrapped up planning and mobilisation activities for a highly anticipated 2026 exploration season at the company’s Blue Lagoon critical minerals project in southern Greenland."
+    ],
+    "summary_raw": "Dalaroo plots Greenland critical minerals exploration blitz&nbsp;&nbsp;The West Australian",
+    "english_phrases": [
+     {
+      "phrase": "Van Veen grab sampling",
+      "meaning": "해저 퇴적물을 집게형 장비로 채취하는 시료 채취 방식"
+     },
+     {
+      "phrase": "auger drilling",
+      "meaning": "나선형 날로 얕은 지층을 뚫는 오거 시추"
+     },
+     {
+      "phrase": "maiden drilling campaign",
+      "meaning": "해당 프로젝트에서 처음 실시하는 시추 캠페인"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "c9270cbd73a5",
+   "title": "Tungsten unwrought metal bar, 99.8% min W, spot price, cif main ports Europe, US, Japan, $/kg - Fastmarkets",
+   "title_norm": "tungsten unwrought metal bar 99 8 min w spot price cif main ports europe us japan kg",
+   "url": "https://fastmarkets.com/commodity-prices/tungsten-unwrought-metal-bar-99-8-min-w-spot-price-cif-main-ports-europe-us-japan-dollar-kg-mb-w-0006",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQR0l1TG9aR1o5bE81eG5KdmRvcEtSUmZKTFY4ODlLRjE3RkNyWkF0UDBIWGR3WEJCWWlDMi1HRkl1YmVuT0ZRVVF2ZTlrZDVxbHZIb2otMUhCaWdDQ0g4YnIzRW91NTVubHZ3TUtueVFvWVAxaHJ3Ri0weFc3MENaU1FMNm13LUdQQXlOWjQxNnBITHdzdGV5U2JxWFJ6NzVXY0pWOWROTTdGNjJsTmRqQXBYM2lLMVJSYnlPN0NxWEl1VnBFd3VvODQyUXkyN1J1NUdLYW9qOWViclJKOEtR?oc=5",
+   "source": {
+    "name": "Fastmarkets - via Google News",
+    "domain": "fastmarkets.com",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-05-31",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:20:23+00:00",
+   "score": 9,
+   "body": {
+    "status": "lead_only",
+    "chars": 93,
+    "sha256": "b9aae3666fe542daec5407e0109d61a734b608128bb0b2fa898ec04317022c2e",
+    "source": "og_description",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [
+     "Tungsten unwrought metal bar, 99.8% min W, spot price, cif main ports Europe, US, Japan, $/kg"
+    ],
+    "final_url": "https://www.fastmarkets.com/commodity-prices/tungsten-unwrought-metal-bar-99-8-min-w-spot-price-cif-main-ports-europe-us-japan-dollar-kg-mb-w-0006/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "텅스텐 미가공 금속 바(W 99.8% 이상) 현물가격, 유럽·미국·일본 주요 항구 cif 기준, $/kg 발표됐음",
+     "리드에는 제목과 같은 가격 항목 명칭만 있고 구체적인 가격 수치나 추가 내용은 확인 불가임"
+    ],
+    "basis": "lead",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "텍스텐",
+     "현물가격",
+     "Fastmarkets",
+     "유럽",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "unwrought metal bar",
+      "meaning": "미가공 금속 바"
+     },
+     {
+      "phrase": "cif main ports",
+      "meaning": "주요 항구 운임·보험료 포함 인도 조건"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "lead_only",
+    "input_chars": 93,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:20:26+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "95370ef14a",
+     "v1_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQR0l1TG9aR1o5bE81eG5KdmRvcEtSUmZKTFY4ODlLRjE3RkNyWkF0UDBIWGR3WEJCWWlDMi1HRkl1YmVuT0ZRVVF2ZTlrZDVxbHZIb2otMUhCaWdDQ0g4YnIzRW91NTVubHZ3TUtueVFvWVAxaHJ3Ri0weFc3MENaU1FMNm13LUdQQXlOWjQxNnBITHdzdGV5U2JxWFJ6NzVXY0pWOWROTTdGNjJsTmRqQXBYM2lLMVJSYnlPN0NxWEl1VnBFd3VvODQyUXkyN1J1NUdLYW9qOWViclJKOEtR?oc=5",
+     "summary_raw": "Tungsten unwrought metal bar, 99.8% min W, spot price, cif main ports Europe, US, Japan, $/kg&nbsp;&nbsp;Fastmarkets"
+    }
+   },
+   "v1": {
+    "korean_summary": "Fastmarkets의 현물 시세 데이터에 따르면, 순도 99.8% 이상의 텅스텐 언래프드 금속봉(unwrought metal bar)이 유럽, 미국, 일본의 주요 항구 기준으로 거래되고 있음이 확인되었습니다. 텅스텐은 반도체, 경공구, 항공우주 산업 등에 필수적인 핵심광물로서 글로벌 공급망에서의 가격 변동성이 높음으로 알려져 있습니다. 주요 선진국의 산업 경쟁력 확보를 위해 텅스텐 등 핵심광물의 안정적 수급 확보가 전략적 과제로 대두되고 있습니다.",
+    "category": "supply_chain",
+    "tags": [
+     "텅스텐",
+     "현물시세",
+     "유럽·미국·일본"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "unwrought metal bar, 99.8% min W",
+      "meaning": "순도 99.8% 이상의 텅스텐 언래프드 금속봉(미가공 금속 주괴)"
+     },
+     {
+      "phrase": "spot price, cif main ports",
+      "meaning": "주요 항구 기준 현물 가격(운송료 및 보험료 포함, Cost, Insurance and Freight)"
+     },
+     {
+      "phrase": "critical mineral for advanced manufacturing",
+      "meaning": "첨단 제조산업을 위한 핵심광물"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "95370ef14a",
+    "title": "Tungsten unwrought metal bar, 99.8% min W, spot price, cif main ports Europe, US, Japan, $/kg - Fastmarkets",
+    "url": "https://fastmarkets.com/commodity-prices/tungsten-unwrought-metal-bar-99-8-min-w-spot-price-cif-main-ports-europe-us-japan-dollar-kg-mb-w-0006",
+    "source": "Fastmarkets - via Google News",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-05-31",
+    "korean_summary": [
+     "[본문 미확보] 텅스텐 미가공 금속 바(W 99.8% 이상) 현물가격, 유럽·미국·일본 주요 항구 cif 기준, $/kg 발표됐음",
+     "리드에는 제목과 같은 가격 항목 명칭만 있고 구체적인 가격 수치나 추가 내용은 확인 불가임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "텍스텐",
+     "현물가격",
+     "Fastmarkets",
+     "유럽",
+     "미국"
+    ],
+    "ai_processed": true,
+    "card_id": "c9270cbd73a5",
+    "basis": "lead",
+    "body_status": "lead_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Tungsten unwrought metal bar, 99.8% min W, spot price, cif main ports Europe, US, Japan, $/kg&nbsp;&nbsp;Fastmarkets",
+    "english_phrases": [
+     {
+      "phrase": "unwrought metal bar",
+      "meaning": "미가공 금속 바"
+     },
+     {
+      "phrase": "cif main ports",
+      "meaning": "주요 항구 운임·보험료 포함 인도 조건"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "b794c5c2a836",
+   "title": "Brazil rare earths miner Viridis to sell to US, European buyers, not China, CEO says - Reuters",
+   "title_norm": "brazil rare earths miner viridis to sell to us european buyers not china ceo says",
+   "url": "https://reuters.com/world/china/brazil-rare-earths-miner-viridis-sell-us-european-buyers-not-china-ceo-says-2026-05-28",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZzREZnkxTEUtSVNjaVJ3eTRYMjMydnhERnJrb3RWX01uVVdJVjJneEU5VEtNVk10dWFSS25lVk9uemtKcEdKd0NrdG1kTzV1VXZ1YnJfZHU1S0xoSTdCbFZXMEFUcXc2NFRmMDFyY0hGRzRKM3RpYWhXNHpacUFTdVV0NzBCWm9BdjM5b24zYmlVUGk4ZXVGMTJuUlA2M3RqOW5acjRNMVl5Q2ExdHYwS25oWW5WNVNaNEZpeW1GRmM?oc=5",
+   "source": {
+    "name": "Reuters - via Google News",
+    "domain": "reuters.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-05-28",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:20:26+00:00",
+   "score": 7,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "skipped",
+    "http_status": null,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": null,
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "브라질 희토류 광산업체 비리디스, 중국이 아닌 미국·유럽 구매자에게 판매할 예정이라고 CEO가 밝혔음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "브라질",
+     "비리디스",
+     "미국",
+     "유럽"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "rare earths miner",
+      "meaning": "희토류 광산업체"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:20:28+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "f3ca659e70",
+     "v1_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZzREZnkxTEUtSVNjaVJ3eTRYMjMydnhERnJrb3RWX01uVVdJVjJneEU5VEtNVk10dWFSS25lVk9uemtKcEdKd0NrdG1kTzV1VXZ1YnJfZHU1S0xoSTdCbFZXMEFUcXc2NFRmMDFyY0hGRzRKM3RpYWhXNHpacUFTdVV0NzBCWm9BdjM5b24zYmlVUGk4ZXVGMTJuUlA2M3RqOW5acjRNMVl5Q2ExdHYwS25oWW5WNVNaNEZpeW1GRmM?oc=5",
+     "summary_raw": "Brazil rare earths miner Viridis to sell to US, European buyers, not China, CEO says&nbsp;&nbsp;Reuters"
+    }
+   },
+   "v1": {
+    "korean_summary": "브라질의 희토류 광산업체 비리디스(Viridis)가 미국 및 유럽 바이어들을 주요 판매처로 선정하고 중국으로의 수출을 제한하는 전략을 추진 중인 것으로 확인되었습니다. 이는 핵심광물의 공급망 다원화와 지정학적 위험 회피라는 글로벌 추세를 반영하고 있습니다. 브라질 희토류 자원의 대서양 시장 편입은 향후 글로벌 핵심광물 수급 구조 개편에 상당한 영향을 미칠 전망입니다.",
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "공급망 다원화",
+     "브라질"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "supply chain diversification",
+      "meaning": "공급망 다원화"
+     },
+     {
+      "phrase": "rare earth elements (REE) extraction and refining capacity",
+      "meaning": "희토류 원소 채굴 및 정련 능력"
+     },
+     {
+      "phrase": "geopolitical risk mitigation in critical mineral sourcing",
+      "meaning": "핵심광물 조달 시 지정학적 위험 완화"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "f3ca659e70",
+    "title": "Brazil rare earths miner Viridis to sell to US, European buyers, not China, CEO says - Reuters",
+    "url": "https://reuters.com/world/china/brazil-rare-earths-miner-viridis-sell-us-european-buyers-not-china-ceo-says-2026-05-28",
+    "source": "Reuters - via Google News",
+    "tier_weight": 3,
+    "score": 7,
+    "published": "2026-05-28",
+    "korean_summary": [
+     "[제목 기반] 브라질 희토류 광산업체 비리디스, 중국이 아닌 미국·유럽 구매자에게 판매할 예정이라고 CEO가 밝혔음"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "브라질",
+     "비리디스",
+     "미국",
+     "유럽"
+    ],
+    "ai_processed": true,
+    "card_id": "b794c5c2a836",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Brazil rare earths miner Viridis to sell to US, European buyers, not China, CEO says&nbsp;&nbsp;Reuters",
+    "english_phrases": [
+     {
+      "phrase": "rare earths miner",
+      "meaning": "희토류 광산업체"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "4e33debed937",
+   "title": "The rush is on: How Mines is positioned to lead the critical minerals conversation from exploration and processing to economics and end use - Mines Newsroom",
+   "title_norm": "the rush is on how mines is positioned to lead the critical minerals conversation from exploration and processing to economics and end use",
+   "url": "https://minesnewsroom.com/news/rush-how-mines-positioned-lead-critical-minerals-conversation-exploration-and-processing",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeUZKV3NiTWREaUMwWkFyVGhUeTl2YU80dnUtU3BjazJMc0xXZm03eXpVblJRYVVPWGFFNi1xMWh3V3hQYS1PakJSYjdOZVdxZ1VxOEJ0anBRSW9oU19KaEhaY0xzd01qTWhia2dQU2Z3OTlUUUQxZlBxSGNHSGtvaUZBbUhCT05TdGNydFZKci1JWUpLc3lRMmE2a09KNmpTVkEzY2tpaXBWcXBZdmE0Vm1nQ0t0SWNtck1TRnlDSVI?oc=5",
+   "source": {
+    "name": "Google News - Critical Minerals Exploration",
+    "domain": "minesnewsroom.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-05-26",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:20:28+00:00",
+   "score": 7,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "http_error",
+    "http_status": 404,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.minesnewsroom.com/news/rush-how-mines-positioned-lead-critical-minerals-conversation-exploration-and-processing",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "서두르는 분위기: Mines, 탐사·가공부터 경제성·최종 용도까지 핵심광물 논의를 이끌 위치에 섰음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "research",
+    "tags": [
+     "핵심광물",
+     "탐사",
+     "가공",
+     "경제성",
+     "최종 용도"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "The rush is on",
+      "meaning": "쟁탈전(경쟁)이 시작됐다, 서두르는 분위기다"
+     },
+     {
+      "phrase": "critical minerals conversation",
+      "meaning": "핵심광물을 둘러싼 논의"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:20:30+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "ba4ce9ba51",
+     "v1_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeUZKV3NiTWREaUMwWkFyVGhUeTl2YU80dnUtU3BjazJMc0xXZm03eXpVblJRYVVPWGFFNi1xMWh3V3hQYS1PakJSYjdOZVdxZ1VxOEJ0anBRSW9oU19KaEhaY0xzd01qTWhia2dQU2Z3OTlUUUQxZlBxSGNHSGtvaUZBbUhCT05TdGNydFZKci1JWUpLc3lRMmE2a09KNmpTVkEzY2tpaXBWcXBZdmE0Vm1nQ0t0SWNtck1TRnlDSVI?oc=5",
+     "summary_raw": "The rush is on: How Mines is positioned to lead the critical minerals conversation from exploration and processing to economics and end use&nbsp;&nbsp;Mines Newsroom"
+    }
+   },
+   "v1": {
+    "korean_summary": "Mines 기관이 핵심광물의 탐사, 처리, 경제성 평가, 최종 사용처에 이르기까지 전 가치사슬에 걸친 통합적 논의를 주도할 위치에 있음이 확인되었습니다. 핵심광물 수급 경쟁이 심화되는 글로벌 환경에서 자원개발 초기 단계부터 산업 응용까지 포괄적 접근의 필요성이 대두되고 있습니다. 광물 탐사, 정련 기술, 경제성 분석, 최종 사용자 수요를 연계하는 통합 연구 체계가 향후 핵심광물 공급 안정화의 핵심이 될 전망입니다.",
+    "category": "supply_chain",
+    "tags": [
+     "핵심광물",
+     "밸류체인",
+     "자원탐사"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals conversation",
+      "meaning": "핵심광물에 관한 전략적 논의 및 협력 체계"
+     },
+     {
+      "phrase": "from exploration and processing to economics and end use",
+      "meaning": "탐사·처리부터 경제성 평가·최종 사용처까지의 밸류체인 전과정"
+     },
+     {
+      "phrase": "positioned to lead",
+      "meaning": "주도적 역할을 수행할 위치에 있다"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "ba4ce9ba51",
+    "title": "The rush is on: How Mines is positioned to lead the critical minerals conversation from exploration and processing to economics and end use - Mines Newsroom",
+    "url": "https://minesnewsroom.com/news/rush-how-mines-positioned-lead-critical-minerals-conversation-exploration-and-processing",
+    "source": "Google News - Critical Minerals Exploration",
+    "tier_weight": 1,
+    "score": 7,
+    "published": "2026-05-26",
+    "korean_summary": [
+     "[제목 기반] 서두르는 분위기: Mines, 탐사·가공부터 경제성·최종 용도까지 핵심광물 논의를 이끌 위치에 섰음"
+    ],
+    "category": "research",
+    "tags": [
+     "핵심광물",
+     "탐사",
+     "가공",
+     "경제성",
+     "최종 용도"
+    ],
+    "ai_processed": true,
+    "card_id": "4e33debed937",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "The rush is on: How Mines is positioned to lead the critical minerals conversation from exploration and processing to economics and end use&nbsp;&nbsp;Mines Newsroom",
+    "english_phrases": [
+     {
+      "phrase": "The rush is on",
+      "meaning": "쟁탈전(경쟁)이 시작됐다, 서두르는 분위기다"
+     },
+     {
+      "phrase": "critical minerals conversation",
+      "meaning": "핵심광물을 둘러싼 논의"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  }
+ ],
+ "excluded": [],
+ "v1_file": "week-2026-06-01.json",
+ "v1_metrics": {
+  "articles": 12,
+  "original_link": 0,
+  "body_based": 0,
+  "failed": 0
+ },
+ "trial": false
+}

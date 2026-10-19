@@ -1,0 +1,1964 @@
+{
+ "schema_version": "card.v1",
+ "service": "cmw",
+ "week_of": "2026-06-22",
+ "generated_at": "2026-10-19T05:23:45+00:00",
+ "mincore_version": "0.3.6",
+ "model": "claude-sonnet-5-5",
+ "prompt_version": "v2.2",
+ "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+ "stats": {
+  "v1_articles": 12,
+  "cards": 12,
+  "excluded": 0,
+  "body_got": 5,
+  "body_rate": 0.417,
+  "original_link": 12,
+  "reader_proxy_used": 0,
+  "line_len": {
+   "lines": 27,
+   "median": 46,
+   "max": 65,
+   "over60": 4,
+   "over100": 0
+  },
+  "oda_filled": 2,
+  "usage": {
+   "claude-sonnet-5-5": {
+    "calls": 13,
+    "in": 28550,
+    "out": 7317
+   }
+  },
+  "cost_usd": 0.1954,
+  "body_status": {
+   "full": 4,
+   "lead_only": 5,
+   "title_only": 2,
+   "partial": 1
+  },
+  "body_source": {
+   "presscorner_api": 2,
+   "og_description": 5,
+   "trafilatura": 3,
+   "none": 2
+  },
+  "resolve": {
+   "direct": 2,
+   "decoder": 10
+  },
+  "fail_reason": {},
+  "basis": {
+   "body": 5,
+   "lead": 5,
+   "title": 2
+  },
+  "retry_reason": {
+   "lines는 3줄이어야 함 (현재 4줄)": 1
+  },
+  "flags": {},
+  "model_used": {
+   "claude-sonnet-5-5": 12
+  }
+ },
+ "total": 12,
+ "cards": [
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "0b4863e1d404",
+   "title": "Daily News 19 / 06 / 2026",
+   "title_norm": "daily news 19 06 2026",
+   "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1396",
+   "gnews_url": null,
+   "source": {
+    "name": "European Commission - Energy",
+    "domain": "ec.europa.eu",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-06-19",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:22:38+00:00",
+   "score": 12,
+   "body": {
+    "status": "full",
+    "chars": 14655,
+    "sha256": "c6853ed62345fa4cff023f6d47d8991760c700add1b25d386d6ea74434d91724",
+    "source": "presscorner_api",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [
+     "In the Western Balkans, support is strongest in Albania (92%) and Kosovo (83%).",
+     "More than 60% of respondents in Montenegro, North Macedonia and Bosnia and Herzegovina are also in favour of joining the EU, while support in Serbia stands at 31%."
+    ],
+    "final_url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1396",
+    "strategies_tried": [
+     "presscorner_api"
+    ]
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "유럽연합 집행위원회가 불가리아의 네 번째 회복복원기금(RRF) 지급 요청을 승인했음",
+     "불가리아는 이사회 이행결정상 26개 이정표·목표 중 23개를 충족한 것으로 평가됐음",
+     "에너지 부문에서는 불가리아에너지홀딩(BEH) 구조조정과 국가 탈탄소 기금 설립이 포함됐음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "23 out of 26 milestones and targets",
+     "almost 1,400 solar domestic hot water systems"
+    ],
+    "quotes": [
+     "In the Western Balkans, support is strongest in Albania (92%) and Kosovo (83%).",
+     "More than 60% of respondents in Montenegro, North Macedonia and Bosnia and Herzegovina are also in favour of joining the EU, while support in Serbia stands at 31%."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "불가리아",
+     "회복복원기금",
+     "탈탄소",
+     "재생에너지",
+     "유럽연합"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Recovery and Resilience Facility (RRF)",
+      "meaning": "회복복원기금"
+     },
+     {
+      "phrase": "NextGenerationEU",
+      "meaning": "EU의 코로나19 이후 회복 지원 프로그램(넥스트제너레이션EU)"
+     },
+     {
+      "phrase": "Bulgarian Energy Holding (BEH)",
+      "meaning": "불가리아 국영 에너지 지주회사"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:22:46+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "d4af2a7e35",
+     "v1_url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1396",
+     "summary_raw": "European Commission Daily news Brussels, 19 Jun 2026 Commission greenlights Bulgaria's fourth payment request under NextGenerationEU\nToday, the European Commission greenlighted Bulgaria's fourth payment request un..."
+    }
+   },
+   "v1": {
+    "korean_summary": "유럽연합 집행위원회는 2026년 6월 19일 불가리아의 NextGenerationEU 차용금 네 번째 지급 요청을 승인했으며, 이는 유럽의 녹색전환과 에너지 자립을 위한 핵심광물 확보 전략의 일환으로 평가되고 있습니다. 불가리아는 구리, 납, 아연 등 핵심광물의 주요 매장국으로서 EU의 순환경제 및 전략적 자원 공급망 강화에 중요한 역할을 담당하게 될 것으로 전망됩니다. 해당 자금 지원은 불가리아의 광물 채취·정제 기술 현대화 및 환경 규제 준수 인프라 개선에 투자되어 EU 내 핵심광물 자급률 제고에 기여할 것으로 기대됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "구리·납·아연",
+     "핵심광물 공급망",
+     "불가리아·EU"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "greenlights payment request under NextGenerationEU",
+      "meaning": "차용금 지급 요청을 승인하다; EU 재정 지원 프로그램의 일부로 자금 승인"
+     },
+     {
+      "phrase": "critical raw materials supply chain resilience",
+      "meaning": "핵심광물 공급망 회복력; 전략적 자원의 안정적 수급 체계"
+     },
+     {
+      "phrase": "circular economy transition and green industrial policy",
+      "meaning": "순환경제 전환 및 녹색산업 정책; 자원 효율성과 지속가능성 기반의 산업 구조 전환"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "d4af2a7e35",
+    "title": "Daily News 19 / 06 / 2026",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1396",
+    "source": "European Commission - Energy",
+    "tier_weight": 5,
+    "score": 12,
+    "published": "2026-06-19",
+    "korean_summary": [
+     "유럽연합 집행위원회가 불가리아의 네 번째 회복복원기금(RRF) 지급 요청을 승인했음",
+     "불가리아는 이사회 이행결정상 26개 이정표·목표 중 23개를 충족한 것으로 평가됐음",
+     "에너지 부문에서는 불가리아에너지홀딩(BEH) 구조조정과 국가 탈탄소 기금 설립이 포함됐음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "불가리아",
+     "회복복원기금",
+     "탈탄소",
+     "재생에너지",
+     "유럽연합"
+    ],
+    "ai_processed": true,
+    "card_id": "0b4863e1d404",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "23 out of 26 milestones and targets",
+     "almost 1,400 solar domestic hot water systems"
+    ],
+    "quotes": [
+     "In the Western Balkans, support is strongest in Albania (92%) and Kosovo (83%).",
+     "More than 60% of respondents in Montenegro, North Macedonia and Bosnia and Herzegovina are also in favour of joining the EU, while support in Serbia stands at 31%."
+    ],
+    "summary_raw": "European Commission Daily news Brussels, 19 Jun 2026 Commission greenlights Bulgaria's fourth payment request under NextGenerationEU\nToday, the European Commission greenlighted Bulgaria's fourth payment request un...",
+    "english_phrases": [
+     {
+      "phrase": "Recovery and Resilience Facility (RRF)",
+      "meaning": "회복복원기금"
+     },
+     {
+      "phrase": "NextGenerationEU",
+      "meaning": "EU의 코로나19 이후 회복 지원 프로그램(넥스트제너레이션EU)"
+     },
+     {
+      "phrase": "Bulgarian Energy Holding (BEH)",
+      "meaning": "불가리아 국영 에너지 지주회사"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "712945da2244",
+   "title": "Commission greenlights Bulgaria's fourth payment request under NextGenerationEU",
+   "title_norm": "commission greenlights bulgaria s fourth payment request under nextgenerationeu",
+   "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1392",
+   "gnews_url": null,
+   "source": {
+    "name": "European Commission - Energy",
+    "domain": "ec.europa.eu",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-06-19",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:22:48+00:00",
+   "score": 12,
+   "body": {
+    "status": "full",
+    "chars": 4750,
+    "sha256": "9ca24dcca0de363152fcf5f703cb091180662ef680860ee996cd3b2db7fe4214",
+    "source": "presscorner_api",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [
+     "Background Bulgaria submitted its fourth payment request for €1.1 billion on 2 April 2026.",
+     "Bulgaria's Recovery and Resilience Plan includes a wide range of investment and reform measures, financed by €6.17 billion in grants."
+    ],
+    "final_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1392",
+    "strategies_tried": [
+     "presscorner_api"
+    ]
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "유럽집행위원회가 불가리아의 회복·복원력기금(RRF) 4차 지급 요청을 승인했음",
+     "Council Implementing Decision상 26개 이정표·목표 중 23개를 충족했다고 평가했음",
+     "경제금융위원회(EFC)가 집행위의 예비 평가에 대해 4주 내 의견을 낼 예정임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "23 out of 26 milestones and targets",
+     "almost 1,400 solar domestic hot water systems",
+     "€1.1 billion"
+    ],
+    "quotes": [
+     "Background Bulgaria submitted its fourth payment request for €1.1 billion on 2 April 2026.",
+     "Bulgaria's Recovery and Resilience Plan includes a wide range of investment and reform measures, financed by €6.17 billion in grants."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "불가리아",
+     "NextGenerationEU",
+     "회복복원력기금",
+     "에너지 탈탄소",
+     "EU 집행위원회"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Recovery and Resilience Facility",
+      "meaning": "회복·복원력기금"
+     },
+     {
+      "phrase": "milestones and targets",
+      "meaning": "이정표와 목표"
+     },
+     {
+      "phrase": "partial payment",
+      "meaning": "부분 지급"
+     },
+     {
+      "phrase": "payment decision",
+      "meaning": "지급 결정"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:23:00+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 4줄)"
+    ],
+    "retry_tails": [
+     "ning\": \"이정표와 목표\"},\n    {\"phrase\": \"partial payment\", \"meaning\": \"부분 지급\"},\n    {\"phrase\": \"payment decision\", \"meaning\": \"지급 결정\"}\n  ],\n  \"implication\": \"해당 없음\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "3b10d701cd",
+     "v1_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1392",
+     "summary_raw": "European Commission Press release Brussels, 19 Jun 2026 Today, the European Commission greenlighted Bulgaria's fourth payment request under the Recovery and Resilience Facility (RRF), the centrepiece of NextGenerationEU."
+    }
+   },
+   "v1": {
+    "korean_summary": "유럽연합 집행위원회는 2026년 6월 19일 불가리아의 차세대유럽기금(NextGenerationEU) 기반 회복‧회복력 기금(RRF) 제4차 지급 요청을 승인하였습니다. 이는 유럽의 경제 회복과 산업 경쟁력 강화를 위한 핵심 재정 지원 체계로서의 역할을 재확인하는 조치입니다. 핵심광물 확보와 에너지 전환 등 유럽의 전략적 자립을 위한 투자가 지속적으로 추진되고 있음을 시사합니다.",
+    "category": "policy_market",
+    "tags": [
+     "불가리아",
+     "NextGenerationEU 재정지원",
+     "EU 에너지 정책"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Recovery and Resilience Facility (RRF)",
+      "meaning": "회복‧회복력 기금 (경제 위기 극복 및 산업 구조 전환을 위한 EU의 재정 지원 메커니즘)"
+     },
+     {
+      "phrase": "payment request under NextGenerationEU",
+      "meaning": "차세대유럽기금 하에서의 지급 청구 (EU 회원국의 개혁·투자 이행에 따른 재정 지원 신청)"
+     },
+     {
+      "phrase": "greenlighted (approved)",
+      "meaning": "승인하다, 허가하다 (공식적으로 진행을 승인함)"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "3b10d701cd",
+    "title": "Commission greenlights Bulgaria's fourth payment request under NextGenerationEU",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1392",
+    "source": "European Commission - Energy",
+    "tier_weight": 5,
+    "score": 12,
+    "published": "2026-06-19",
+    "korean_summary": [
+     "유럽집행위원회가 불가리아의 회복·복원력기금(RRF) 4차 지급 요청을 승인했음",
+     "Council Implementing Decision상 26개 이정표·목표 중 23개를 충족했다고 평가했음",
+     "경제금융위원회(EFC)가 집행위의 예비 평가에 대해 4주 내 의견을 낼 예정임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "불가리아",
+     "NextGenerationEU",
+     "회복복원력기금",
+     "에너지 탈탄소",
+     "EU 집행위원회"
+    ],
+    "ai_processed": true,
+    "card_id": "712945da2244",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "23 out of 26 milestones and targets",
+     "almost 1,400 solar domestic hot water systems",
+     "€1.1 billion"
+    ],
+    "quotes": [
+     "Background Bulgaria submitted its fourth payment request for €1.1 billion on 2 April 2026.",
+     "Bulgaria's Recovery and Resilience Plan includes a wide range of investment and reform measures, financed by €6.17 billion in grants."
+    ],
+    "summary_raw": "European Commission Press release Brussels, 19 Jun 2026 Today, the European Commission greenlighted Bulgaria's fourth payment request under the Recovery and Resilience Facility (RRF), the centrepiece of NextGenerationEU.",
+    "english_phrases": [
+     {
+      "phrase": "Recovery and Resilience Facility",
+      "meaning": "회복·복원력기금"
+     },
+     {
+      "phrase": "milestones and targets",
+      "meaning": "이정표와 목표"
+     },
+     {
+      "phrase": "partial payment",
+      "meaning": "부분 지급"
+     },
+     {
+      "phrase": "payment decision",
+      "meaning": "지급 결정"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "cf91db9d0694",
+   "title": "Global talking points ahead of Fastmarkets' Lithium, Battery & Critical Materials 2026 conference - Fastmarkets",
+   "title_norm": "global talking points ahead of fastmarkets lithium battery critical materials 2026 conference",
+   "url": "https://fastmarkets.com/insights/global-talking-points-ahead-of-lithium-conference-2026",
+   "gnews_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQ1huSHAya2ZQRGl0eE5HbDRzd0gyMU0yVjRYcS1OSEN0NlEzTVRWaHFVVFpXa292cDB5QUhDa2sxZVd2NUR5Q2FCLXZwdU83N1dsazhrSDRuVVVXMjdSMDEwVFRGT0tHbjh2MFZLWVh4S0dNVDloZ3ZySVJGTTJUc21tVFNzTlhaMG50VFNWY09pWjhLb2Nj?oc=5",
+   "source": {
+    "name": "Fastmarkets - via Google News",
+    "domain": "fastmarkets.com",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-06-21",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:23:03+00:00",
+   "score": 9,
+   "body": {
+    "status": "lead_only",
+    "chars": 122,
+    "sha256": "e49bfda6ce936459b14221150a90401dd27e2cf39d86d7a8b2a5854a37eed119",
+    "source": "og_description",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [
+     "Explore the dynamics of lithium hydroxide prices fueled by EV sales and market supply challenges."
+    ],
+    "final_url": "https://www.fastmarkets.com/insights/global-talking-points-ahead-of-lithium-conference-2026/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Fastmarkets 리튬·배터리·핵심광물 2026 콘퍼런스를 앞둔 글로벌 주요 논점임",
+     "전기차 판매와 시장 공급 과제가 이끄는 수산화리튬 가격 동향을 다룬다고 소개했음"
+    ],
+    "basis": "lead",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "수산화리튬",
+     "전기차",
+     "배터리",
+     "공급 과제"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "lithium hydroxide prices",
+      "meaning": "수산화리튬 가격"
+     },
+     {
+      "phrase": "market supply challenges",
+      "meaning": "시장 공급 과제"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "lead_only",
+    "input_chars": 122,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:23:06+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "f31e7d7e75",
+     "v1_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQ1huSHAya2ZQRGl0eE5HbDRzd0gyMU0yVjRYcS1OSEN0NlEzTVRWaHFVVFpXa292cDB5QUhDa2sxZVd2NUR5Q2FCLXZwdU83N1dsazhrSDRuVVVXMjdSMDEwVFRGT0tHbjh2MFZLWVh4S0dNVDloZ3ZySVJGTTJUc21tVFNzTlhaMG50VFNWY09pWjhLb2Nj?oc=5",
+     "summary_raw": "Global talking points ahead of Fastmarkets' Lithium, Battery & Critical Materials 2026 conference&nbsp;&nbsp;Fastmarkets"
+    }
+   },
+   "v1": {
+    "korean_summary": "Fastmarkets가 2026년 리튬·배터리·핵심광물 컨퍼런스 개최를 앞두고 글로벌 산업의 주요 화두들을 정리한 것으로 확인되었습니다. 에너지 전환과 전기차 수요 증가에 따른 핵심광물의 공급망 재편과 가격 변동성이 중심 논의 사항으로 예상됩니다. 각국의 핵심광물 확보 전략과 광산 개발, 재활용 기술 혁신이 향후 산업의 경쟁력을 좌우할 것으로 전망됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "배터리·공급망",
+     "글로벌 시장"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals supply chain resilience",
+      "meaning": "핵심광물 공급망의 회복력·안정성"
+     },
+     {
+      "phrase": "battery technology advancement and raw material demand",
+      "meaning": "배터리 기술 발전과 광물 수요의 연계"
+     },
+     {
+      "phrase": "global talking points on mining and circular economy",
+      "meaning": "채광 및 순환경제에 대한 국제적 논의 사항"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "f31e7d7e75",
+    "title": "Global talking points ahead of Fastmarkets' Lithium, Battery & Critical Materials 2026 conference - Fastmarkets",
+    "url": "https://fastmarkets.com/insights/global-talking-points-ahead-of-lithium-conference-2026",
+    "source": "Fastmarkets - via Google News",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-06-21",
+    "korean_summary": [
+     "[본문 미확보] Fastmarkets 리튬·배터리·핵심광물 2026 콘퍼런스를 앞둔 글로벌 주요 논점임",
+     "전기차 판매와 시장 공급 과제가 이끄는 수산화리튬 가격 동향을 다룬다고 소개했음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "수산화리튬",
+     "전기차",
+     "배터리",
+     "공급 과제"
+    ],
+    "ai_processed": true,
+    "card_id": "cf91db9d0694",
+    "basis": "lead",
+    "body_status": "lead_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Global talking points ahead of Fastmarkets' Lithium, Battery & Critical Materials 2026 conference&nbsp;&nbsp;Fastmarkets",
+    "english_phrases": [
+     {
+      "phrase": "lithium hydroxide prices",
+      "meaning": "수산화리튬 가격"
+     },
+     {
+      "phrase": "market supply challenges",
+      "meaning": "시장 공급 과제"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "0858cf2dfedc",
+   "title": "Rare Earths Could Become Iran’s Next Mining Frontier - Financial Tribune",
+   "title_norm": "rare earths could become iran s next mining frontier",
+   "url": "https://financialtribune.com/node/119743",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9sN21kdHJEalhzM3RsQkxIQ1l2ZVIzWnFTb1N1dXJibVpPNmRfNGhCQjdfY2lIVXZaTE1USHlEc2VKMEJ0LW5BSzk5RHVSamJrSEE?oc=5",
+   "source": {
+    "name": "Google News - Rare Earth Elements",
+    "domain": "financialtribune.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-06-21",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:23:06+00:00",
+   "score": 9,
+   "body": {
+    "status": "lead_only",
+    "chars": 79,
+    "sha256": "0bab94593f1304489d5041183317a20e617b360d6083414d65aefbc8b1668a18",
+    "source": "trafilatura",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": "2000-01-01",
+    "quotes": [],
+    "final_url": "https://financialtribune.com/node/119743",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "희토류가 이란의 다음 광업 개척 분야가 될 수 있음",
+     "리드가 깨진 문자로만 제공되어 내용은 확인 불가임"
+    ],
+    "basis": "lead",
+    "key_figures": [],
+    "quotes": [],
+    "category": "exploration_tech",
+    "tags": [
+     "희토류",
+     "이란",
+     "광업"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "mining frontier",
+      "meaning": "광업의 새로운 개척 분야"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "lead_only",
+    "input_chars": 79,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:23:11+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "2afe8279c4",
+     "v1_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9sN21kdHJEalhzM3RsQkxIQ1l2ZVIzWnFTb1N1dXJibVpPNmRfNGhCQjdfY2lIVXZaTE1USHlEc2VKMEJ0LW5BSzk5RHVSamJrSEE?oc=5",
+     "summary_raw": "Rare Earths Could Become Iran’s Next Mining Frontier&nbsp;&nbsp;Financial Tribune"
+    }
+   },
+   "v1": {
+    "korean_summary": "이란이 풍부한 희토류 매장량을 바탕으로 광물 채굴의 새로운 영역으로 진출할 가능성이 높아지고 있습니다. 글로벌 핵심광물 수급 불안정 속에서 이란의 희토류 개발은 국제 광물 시장의 공급 다원화 전략으로 주목받고 있습니다. 향후 이란의 희토류 산업화 진전은 세계 핵심광물 수급 체계에 실질적 영향을 미칠 전망입니다.",
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "핵심광물 공급망",
+     "이란"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals supply chain diversification",
+      "meaning": "핵심광물 공급망 다원화"
+     },
+     {
+      "phrase": "rare earth element (REE) exploration and development",
+      "meaning": "희토류 광물의 탐사 및 개발"
+     },
+     {
+      "phrase": "emerging mining frontier",
+      "meaning": "신흥 광물 채굴 영역"
+     },
+     {
+      "phrase": "geopolitical implications in mineral resources",
+      "meaning": "광물자원의 지정학적 함의"
+     },
+     {
+      "phrase": "domestic mineral endowment assessment",
+      "meaning": "국내 광물 매장량 평가"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "2afe8279c4",
+    "title": "Rare Earths Could Become Iran’s Next Mining Frontier - Financial Tribune",
+    "url": "https://financialtribune.com/node/119743",
+    "source": "Google News - Rare Earth Elements",
+    "tier_weight": 1,
+    "score": 9,
+    "published": "2026-06-21",
+    "korean_summary": [
+     "[본문 미확보] 희토류가 이란의 다음 광업 개척 분야가 될 수 있음",
+     "리드가 깨진 문자로만 제공되어 내용은 확인 불가임"
+    ],
+    "category": "exploration_tech",
+    "tags": [
+     "희토류",
+     "이란",
+     "광업"
+    ],
+    "ai_processed": true,
+    "card_id": "0858cf2dfedc",
+    "basis": "lead",
+    "body_status": "lead_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Rare Earths Could Become Iran’s Next Mining Frontier&nbsp;&nbsp;Financial Tribune",
+    "english_phrases": [
+     {
+      "phrase": "mining frontier",
+      "meaning": "광업의 새로운 개척 분야"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "a0bee73c409f",
+   "title": "Critical Mineral Supply Chains Need Securing, say G7 Leaders - Supply Chain Digital",
+   "title_norm": "critical mineral supply chains need securing say g7 leaders",
+   "url": "https://supplychaindigital.com/news/critical-mineral-supply-chains-need-securing-say-g7-leaders",
+   "gnews_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSkhuSjlISk5QRXlpaUlBMlRqR2VJOFptQzhRQkM3SUFkZGxLVWpvdnFVYUhLVTFFZWx4U1RTV18yb0hJOVBPZVc4Z2l0NnJlanZ4MmY2Q2pGN3ZOX3N6NVZ5WTNDTHdyRWM3bEE0Q1RiMVA1dWd4QklpS0NkYV9JOFlrY0ExbFFIT2VGUEJIZXIzbmthcTZvZFl3dw?oc=5",
+   "source": {
+    "name": "Google News - IRA CRMA Policy",
+    "domain": "supplychaindigital.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-06-21",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:23:12+00:00",
+   "score": 8,
+   "body": {
+    "status": "full",
+    "chars": 4025,
+    "sha256": "c9da3a646dd20c6e342b583929cd9dfe5231eaf399d931dea75079dfa5a3b248",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-06-21",
+    "quotes": [
+     "The proposed agreement is for sourcing from non-G7 suppliers to fall to less than 60% by 2030, with a long-term goal of 50%.",
+     "International Energy Agency (IEA) data shows that it accounts for over 90% of global rare earth refining capacity."
+    ],
+    "final_url": "https://supplychaindigital.com/news/critical-mineral-supply-chains-need-securing-say-g7-leaders",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "G7 정상들이 프랑스 에비앙 정상회의에서 희토류·영구자석 의존도를 줄이기로 합의했음",
+     "2030년까지 비G7 공급처 조달 비중을 60% 미만으로 낮추고 장기 목표는 50%로 정했음",
+     "다른 핵심광물의 유사 목표는 2026년 말까지 정하고, 비구속적 G7 핵심광물 복원력·생산 연합도 출범했음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "less than 60% by 2030",
+     "50%",
+     "over 90%"
+    ],
+    "quotes": [
+     "The proposed agreement is for sourcing from non-G7 suppliers to fall to less than 60% by 2030, with a long-term goal of 50%.",
+     "International Energy Agency (IEA) data shows that it accounts for over 90% of global rare earth refining capacity."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "G7",
+     "희토류",
+     "영구자석",
+     "비축",
+     "추적성"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "price-gap subsidies",
+      "meaning": "가격 격차 보조금"
+     },
+     {
+      "phrase": "joint procurement instruments",
+      "meaning": "공동 조달 수단"
+     },
+     {
+      "phrase": "digital traceability",
+      "meaning": "디지털 추적성"
+     },
+     {
+      "phrase": "buyers' club",
+      "meaning": "구매자 연합"
+     },
+     {
+      "phrase": "extended producer responsibility schemes",
+      "meaning": "생산자 책임 확대 제도"
+     }
+    ],
+    "implication": "G7이 수치 목표와 비축·공동조달·가격하한 등 직접 시장 개입 수단을 검토하며 중국 중심 희토류 공급망 재편을 제도화하는 단계로 이동하고 있음."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:23:16+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "f2ebf52413",
+     "v1_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSkhuSjlISk5QRXlpaUlBMlRqR2VJOFptQzhRQkM3SUFkZGxLVWpvdnFVYUhLVTFFZWx4U1RTV18yb0hJOVBPZVc4Z2l0NnJlanZ4MmY2Q2pGN3ZOX3N6NVZ5WTNDTHdyRWM3bEE0Q1RiMVA1dWd4QklpS0NkYV9JOFlrY0ExbFFIT2VGUEJIZXIzbmthcTZvZFl3dw?oc=5",
+     "summary_raw": "Critical Mineral Supply Chains Need Securing, say G7 Leaders&nbsp;&nbsp;Supply Chain Digital"
+    }
+   },
+   "v1": {
+    "korean_summary": "G7 지도자들이 핵심광물 공급망의 안정화 필요성을 강조하며 글로벌 수급 체계 구축의 중요성을 제기하였습니다. 지정학적 리스크와 단일국가 의존도 심화에 따른 공급 불안정성이 주요 의제로 논의되었습니다. 선진국 간 협력 강화 및 대체 공급원 개발이 핵심광물 산업의 장기 지속가능성을 담보하기 위한 전략으로 모색되고 있습니다.",
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "공급망 안정화",
+     "G7"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Critical mineral supply chain security",
+      "meaning": "핵심광물 공급망 안정성/보안"
+     },
+     {
+      "phrase": "Supply chain diversification and resilience",
+      "meaning": "공급망 다변화 및 복원력 강화"
+     },
+     {
+      "phrase": "Geopolitical risk mitigation in raw material sourcing",
+      "meaning": "원료 수급에서의 지정학적 리스크 완화"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "f2ebf52413",
+    "title": "Critical Mineral Supply Chains Need Securing, say G7 Leaders - Supply Chain Digital",
+    "url": "https://supplychaindigital.com/news/critical-mineral-supply-chains-need-securing-say-g7-leaders",
+    "source": "Google News - IRA CRMA Policy",
+    "tier_weight": 1,
+    "score": 8,
+    "published": "2026-06-21",
+    "korean_summary": [
+     "G7 정상들이 프랑스 에비앙 정상회의에서 희토류·영구자석 의존도를 줄이기로 합의했음",
+     "2030년까지 비G7 공급처 조달 비중을 60% 미만으로 낮추고 장기 목표는 50%로 정했음",
+     "다른 핵심광물의 유사 목표는 2026년 말까지 정하고, 비구속적 G7 핵심광물 복원력·생산 연합도 출범했음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "G7",
+     "희토류",
+     "영구자석",
+     "비축",
+     "추적성"
+    ],
+    "ai_processed": true,
+    "card_id": "a0bee73c409f",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "less than 60% by 2030",
+     "50%",
+     "over 90%"
+    ],
+    "quotes": [
+     "The proposed agreement is for sourcing from non-G7 suppliers to fall to less than 60% by 2030, with a long-term goal of 50%.",
+     "International Energy Agency (IEA) data shows that it accounts for over 90% of global rare earth refining capacity."
+    ],
+    "summary_raw": "Critical Mineral Supply Chains Need Securing, say G7 Leaders&nbsp;&nbsp;Supply Chain Digital",
+    "english_phrases": [
+     {
+      "phrase": "price-gap subsidies",
+      "meaning": "가격 격차 보조금"
+     },
+     {
+      "phrase": "joint procurement instruments",
+      "meaning": "공동 조달 수단"
+     },
+     {
+      "phrase": "digital traceability",
+      "meaning": "디지털 추적성"
+     },
+     {
+      "phrase": "buyers' club",
+      "meaning": "구매자 연합"
+     },
+     {
+      "phrase": "extended producer responsibility schemes",
+      "meaning": "생산자 책임 확대 제도"
+     }
+    ],
+    "implication": "G7이 수치 목표와 비축·공동조달·가격하한 등 직접 시장 개입 수단을 검토하며 중국 중심 희토류 공급망 재편을 제도화하는 단계로 이동하고 있음.",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "7f6136384812",
+   "title": "US Firm Titan Lithium Expands Operations in Tanzania, Finds Lithium Deposits with High Grades near Mt Kilimanjaro - The Kenyan Wallstreet",
+   "title_norm": "us firm titan lithium expands operations in tanzania finds lithium deposits with high grades near mt kilimanjaro",
+   "url": "https://kenyanwallstreet.com/us-firm-titan-lithium-expands-operations-in-tanzania-finds-lithium-deposits-with-high-grades-near-mt-kilimanjaro",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNakl2MDZMZ1plVGI3SUVBMUJJNmgwTTd4MVRqdWpwRzl1QjNTQ0tQdU56Q0RhcFNoN1k5cFFDcjBtcDhJclpIaWR6UTNHdVRpYWNyekxYYXByYkVCN1BOaXZBNFRYYVdBMlg1bFI0Ri1Mbm1QaFJDZ0g3eDZlUVZuVVJOeGFjUWlQNDJkaWdrVEF4VU55SUNYRmx3Mmp6R0E4cTNoUHZrekpxZ3JpUXdVd090MHBxTUlZbU9xb3pObmRzSzZzbXFQMGhEY2N0anJUMnBTMTFDRmg?oc=5",
+   "source": {
+    "name": "Google News - Lithium Discovery",
+    "domain": "kenyanwallstreet.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-06-20",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:23:16+00:00",
+   "score": 10,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "bot_block",
+    "http_status": 403,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://kenyanwallstreet.com/us-firm-titan-lithium-expands-operations-in-tanzania-finds-lithium-deposits-with-high-grades-near-mt-kilimanjaro",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "미국 기업 Titan Lithium이 탄자니아에서 사업을 확대하고 킬리만자로산 인근에서 고품위 리튬 매장지를 발견했음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "discovery",
+    "tags": [
+     "리튬",
+     "광물 발견",
+     "탐사",
+     "탄자니아",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Titan Lithium",
+      "meaning": "미국 리튬 기업 Titan Lithium(기업명)"
+     },
+     {
+      "phrase": "high grades",
+      "meaning": "고품위(광석 품위가 높음)"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:23:19+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "706feca3b8",
+     "v1_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNakl2MDZMZ1plVGI3SUVBMUJJNmgwTTd4MVRqdWpwRzl1QjNTQ0tQdU56Q0RhcFNoN1k5cFFDcjBtcDhJclpIaWR6UTNHdVRpYWNyekxYYXByYkVCN1BOaXZBNFRYYVdBMlg1bFI0Ri1Mbm1QaFJDZ0g3eDZlUVZuVVJOeGFjUWlQNDJkaWdrVEF4VU55SUNYRmx3Mmp6R0E4cTNoUHZrekpxZ3JpUXdVd090MHBxTUlZbU9xb3pObmRzSzZzbXFQMGhEY2N0anJUMnBTMTFDRmg?oc=5",
+     "summary_raw": "US Firm Titan Lithium Expands Operations in Tanzania, Finds Lithium Deposits with High Grades near Mt Kilimanjaro&nbsp;&nbsp;The Kenyan Wallstreet"
+    }
+   },
+   "v1": {
+    "korean_summary": "미국의 타이탄 리튬(Titan Lithium)이 탄자니아에서 킬리만자로 근처 고품위 리튬 광상을 발견하며 동아프리카 지역의 핵심광물 탐사를 확대하고 있습니다. 이번 발견은 글로벌 리튬 수급 안정화와 함께 아프리카 대륙의 핵심광물 개발 잠재력을 재조명하는 사례로 평가됩니다. 동아프리카 지역의 지질학적 우위성이 확인됨에 따라 향후 국제 자원개발 전략의 재편이 예상됩니다.",
+    "category": "discovery",
+    "tags": [
+     "리튬",
+     "탐사개발",
+     "탄자니아"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "high-grade lithium deposits",
+      "meaning": "고품위 리튬 광상 (경제성 높은 광석)"
+     },
+     {
+      "phrase": "expand operations",
+      "meaning": "사업 영역 확대/운영 확장"
+     },
+     {
+      "phrase": "critical mineral exploration",
+      "meaning": "핵심광물 탐사"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "706feca3b8",
+    "title": "US Firm Titan Lithium Expands Operations in Tanzania, Finds Lithium Deposits with High Grades near Mt Kilimanjaro - The Kenyan Wallstreet",
+    "url": "https://kenyanwallstreet.com/us-firm-titan-lithium-expands-operations-in-tanzania-finds-lithium-deposits-with-high-grades-near-mt-kilimanjaro",
+    "source": "Google News - Lithium Discovery",
+    "tier_weight": 1,
+    "score": 10,
+    "published": "2026-06-20",
+    "korean_summary": [
+     "[제목 기반] 미국 기업 Titan Lithium이 탄자니아에서 사업을 확대하고 킬리만자로산 인근에서 고품위 리튬 매장지를 발견했음"
+    ],
+    "category": "discovery",
+    "tags": [
+     "리튬",
+     "광물 발견",
+     "탐사",
+     "탄자니아",
+     "미국"
+    ],
+    "ai_processed": true,
+    "card_id": "7f6136384812",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "US Firm Titan Lithium Expands Operations in Tanzania, Finds Lithium Deposits with High Grades near Mt Kilimanjaro&nbsp;&nbsp;The Kenyan Wallstreet",
+    "english_phrases": [
+     {
+      "phrase": "Titan Lithium",
+      "meaning": "미국 리튬 기업 Titan Lithium(기업명)"
+     },
+     {
+      "phrase": "high grades",
+      "meaning": "고품위(광석 품위가 높음)"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "9f6028ab2049",
+   "title": "Natural graphite is cheaper, greener, more supply chain resilient alternative in wake of Chinese graphite dominance: Westwater Resources [update] - Fastmarkets",
+   "title_norm": "natural graphite is cheaper greener more supply chain resilient alternative in wake of chinese graphite dominance westwater resources update",
+   "url": "https://fastmarkets.com/insights/natural-graphite-cheaper-alternative-westwater-resources",
+   "gnews_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUldVNmFqTEtDc2xMQnpsaDVvUkMwbDY2OWNBbTNoQ01VN0pWOFdZbG04SFdielhzcndXZHA5a0VqVlI3d3I0bGM5cklQWDlMdnJ3LUNUWWg2NDU2SlVIVFI2TFRrNmtMWkdFODhoWXM4dWkyRDhuVkNwYVZnbmRfaDFLUldLVms5TnVscl9JenBXYmk2cG5tX3h3?oc=5",
+   "source": {
+    "name": "Fastmarkets - via Google News",
+    "domain": "fastmarkets.com",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-06-16",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:23:20+00:00",
+   "score": 12,
+   "body": {
+    "status": "partial",
+    "chars": 368,
+    "sha256": "e3424d2bf2934c4a70e47555b73acf786d0582552c133a764b8f7e1a0c8da16f",
+    "source": "og_description",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.fastmarkets.com/insights/natural-graphite-cheaper-alternative-westwater-resources/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "미국 Westwater Resources의 Jon Jacobs COO가 천연흑연을 대안으로 제시했음",
+     "Thursday June 4 Fastmarkets 단독 인터뷰에서 더 저렴하고 공급망이 안정적이라 설명했음",
+     "중국의 시장 지배 우려로 구매자들이 다른 공급처를 찾게 됐다고 밝혔음"
+    ],
+    "basis": "body",
+    "key_figures": [],
+    "quotes": [],
+    "category": "supply_chain",
+    "tags": [
+     "천연흑연",
+     "배터리",
+     "공급망",
+     "중국",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Chinese dominance",
+      "meaning": "중국의 시장 지배"
+     },
+     {
+      "phrase": "supply-chain stable alternative",
+      "meaning": "공급망이 안정적인 대안"
+     },
+     {
+      "phrase": "chief operating officer",
+      "meaning": "최고운영책임자(COO)"
+     }
+    ],
+    "implication": "중국 지배에 대한 우려로 구매자들이 대체 공급처를 찾고 있어, 비중국산 천연흑연 공급원에 대한 관심이 커지고 있음."
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "partial",
+    "input_chars": 368,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:23:30+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "ccda220f5e",
+     "v1_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUldVNmFqTEtDc2xMQnpsaDVvUkMwbDY2OWNBbTNoQ01VN0pWOFdZbG04SFdielhzcndXZHA5a0VqVlI3d3I0bGM5cklQWDlMdnJ3LUNUWWg2NDU2SlVIVFI2TFRrNmtMWkdFODhoWXM4dWkyRDhuVkNwYVZnbmRfaDFLUldLVms5TnVscl9JenBXYmk2cG5tX3h3?oc=5",
+     "summary_raw": "Natural graphite is cheaper, greener, more supply chain resilient alternative in wake of Chinese graphite dominance: Westwater Resources [update]&nbsp;&nbsp;Fastmarkets"
+    }
+   },
+   "v1": {
+    "korean_summary": "중국의 그래핏 공급 지배에 대응하여 천연 그래핏이 합성 그래핏 대비 경제성, 환경성, 공급망 회복력 측면에서 우수한 대안으로 평가되고 있음. Westwater Resources 등 기업들은 천연 그래핏의 저비용 채굴과 녹색 생산 공정을 강조하며 시장 확대를 추진 중임. 핵심광물 공급망 다각화 전략으로서 북미 등의 천연 그래핏 개발이 지정학적 리스크 완화 및 순환경제 구현의 핵심 수단으로 인식되고 있음.",
+    "category": "supply_chain",
+    "tags": [
+     "그래핏",
+     "공급망 안정화",
+     "북미"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "supply chain resilience",
+      "meaning": "공급망 회복력 (지정학적 위험에 대응한 안정적 공급 능력)"
+     },
+     {
+      "phrase": "natural graphite vs. synthetic graphite trade-off analysis",
+      "meaning": "천연 그래핏 대 합성 그래핏의 비교 분석 (경제성·환경성·공급 안정성 고려)"
+     },
+     {
+      "phrase": "critical mineral supply diversification strategy",
+      "meaning": "핵심광물 공급원 다각화 전략 (단일국 의존도 감소)"
+     },
+     {
+      "phrase": "carbon footprint reduction in graphite production",
+      "meaning": "그래핏 생산 공정의 탄소발자국 저감 (녹색채광)"
+     },
+     {
+      "phrase": "geopolitical risk mitigation in supply chains",
+      "meaning": "공급망 지정학적 리스크 경감 (전략광물 확보 안정성 강화)"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "ccda220f5e",
+    "title": "Natural graphite is cheaper, greener, more supply chain resilient alternative in wake of Chinese graphite dominance: Westwater Resources [update] - Fastmarkets",
+    "url": "https://fastmarkets.com/insights/natural-graphite-cheaper-alternative-westwater-resources",
+    "source": "Fastmarkets - via Google News",
+    "tier_weight": 5,
+    "score": 12,
+    "published": "2026-06-16",
+    "korean_summary": [
+     "미국 Westwater Resources의 Jon Jacobs COO가 천연흑연을 대안으로 제시했음",
+     "Thursday June 4 Fastmarkets 단독 인터뷰에서 더 저렴하고 공급망이 안정적이라 설명했음",
+     "중국의 시장 지배 우려로 구매자들이 다른 공급처를 찾게 됐다고 밝혔음"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "천연흑연",
+     "배터리",
+     "공급망",
+     "중국",
+     "미국"
+    ],
+    "ai_processed": true,
+    "card_id": "9f6028ab2049",
+    "basis": "body",
+    "body_status": "partial",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Natural graphite is cheaper, greener, more supply chain resilient alternative in wake of Chinese graphite dominance: Westwater Resources [update]&nbsp;&nbsp;Fastmarkets",
+    "english_phrases": [
+     {
+      "phrase": "Chinese dominance",
+      "meaning": "중국의 시장 지배"
+     },
+     {
+      "phrase": "supply-chain stable alternative",
+      "meaning": "공급망이 안정적인 대안"
+     },
+     {
+      "phrase": "chief operating officer",
+      "meaning": "최고운영책임자(COO)"
+     }
+    ],
+    "implication": "중국 지배에 대한 우려로 구매자들이 대체 공급처를 찾고 있어, 비중국산 천연흑연 공급원에 대한 관심이 커지고 있음.",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "1b4a29ede693",
+   "title": "Fastmarkets to amend frequency of CIF Japan, Korea nickel sulfate assessments - Fastmarkets",
+   "title_norm": "fastmarkets to amend frequency of cif japan korea nickel sulfate assessments",
+   "url": "https://fastmarkets.com/insights/fastmarkets-to-amend-frequency-of-cif-japan-korea-nickel-sulfate-assessments",
+   "gnews_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQjEybHlrdElsVlJ2TFpHYzU5eF93RjV0ZEcwc2tCRjRVcm1JWThQZEhBeUMzQzAzYjdZMG9nUnZwMnRCcHIxcHdtX2ROMXU1cWFxamFLZmZGNW5ERFRMZXZxN3pWR1RHMFZ0bU9CS2FwLVBKVDB5WEctMlExcXpLZXF1dGJzNk5lb1JjNWkxRnRnMUJjWGFGQkNHVEhpSHdjWVcybTVxeDVzZTNnb3lZTnF2b3k?oc=5",
+   "source": {
+    "name": "Fastmarkets - via Google News",
+    "domain": "fastmarkets.com",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-06-18",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:23:30+00:00",
+   "score": 9,
+   "body": {
+    "status": "lead_only",
+    "chars": 226,
+    "sha256": "3b100639b8168f8716bc08908d468e8f2a8760fd161ebd61c10f4e15515d040f",
+    "source": "og_description",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.fastmarkets.com/insights/fastmarkets-to-amend-frequency-of-cif-japan-korea-nickel-sulfate-assessments/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Fastmarkets가 CIF 일본·한국 니켈 황산염 평가 주기를 변경할 예정임",
+     "MB-NI-0246, MB-NI-0247 평가를 주간에서 격주로 줄이며 6월 26일 금요일부터 적용된다고 밝혔음"
+    ],
+    "basis": "lead",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "니켈",
+     "황산니켈",
+     "가격평가",
+     "일본",
+     "한국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Nickel sulfate, cif Japan and Korea",
+      "meaning": "일본·한국 CIF 기준 황산니켈"
+     },
+     {
+      "phrase": "fortnightly",
+      "meaning": "격주로"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "lead_only",
+    "input_chars": 226,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:23:33+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "b6442fc9e6",
+     "v1_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQjEybHlrdElsVlJ2TFpHYzU5eF93RjV0ZEcwc2tCRjRVcm1JWThQZEhBeUMzQzAzYjdZMG9nUnZwMnRCcHIxcHdtX2ROMXU1cWFxamFLZmZGNW5ERFRMZXZxN3pWR1RHMFZ0bU9CS2FwLVBKVDB5WEctMlExcXpLZXF1dGJzNk5lb1JjNWkxRnRnMUJjWGFGQkNHVEhpSHdjWVcybTVxeDVzZTNnb3lZTnF2b3k?oc=5",
+     "summary_raw": "Fastmarkets to amend frequency of CIF Japan, Korea nickel sulfate assessments&nbsp;&nbsp;Fastmarkets"
+    }
+   },
+   "v1": {
+    "korean_summary": "Fastmarkets는 일본 및 한국의 황산니켈(nickel sulfate) CIF 가격 평가 빈도를 조정하기로 결정했으며, 이는 동아시아 배터리 및 전기자동차 산업의 핵심광물 수급 정보 공시 체계 개선을 의미합니다. 이러한 평가 빈도 변경은 니켈 시장의 투명성 강화 및 가격 발견 기능 개선에 기여할 전망입니다. 한국 등 주요 수입국의 핵심광물 조달 전략 수립에 필요한 시장 데이터의 신뢰성이 한층 강화될 것으로 확인되었습니다.",
+    "category": "supply_chain",
+    "tags": [
+     "니켈",
+     "가격평가제도",
+     "한국·일본"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "amend frequency of CIF assessments",
+      "meaning": "CIF(본선인도가격) 평가의 공시 빈도 조정"
+     },
+     {
+      "phrase": "nickel sulfate market transparency",
+      "meaning": "황산니켈 시장의 가격 투명성 및 정보 공개"
+     },
+     {
+      "phrase": "critical mineral supply chain intelligence",
+      "meaning": "핵심광물 공급망 모니터링 및 시장 정보 수집"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "b6442fc9e6",
+    "title": "Fastmarkets to amend frequency of CIF Japan, Korea nickel sulfate assessments - Fastmarkets",
+    "url": "https://fastmarkets.com/insights/fastmarkets-to-amend-frequency-of-cif-japan-korea-nickel-sulfate-assessments",
+    "source": "Fastmarkets - via Google News",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-06-18",
+    "korean_summary": [
+     "[본문 미확보] Fastmarkets가 CIF 일본·한국 니켈 황산염 평가 주기를 변경할 예정임",
+     "MB-NI-0246, MB-NI-0247 평가를 주간에서 격주로 줄이며 6월 26일 금요일부터 적용된다고 밝혔음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "니켈",
+     "황산니켈",
+     "가격평가",
+     "일본",
+     "한국"
+    ],
+    "ai_processed": true,
+    "card_id": "1b4a29ede693",
+    "basis": "lead",
+    "body_status": "lead_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Fastmarkets to amend frequency of CIF Japan, Korea nickel sulfate assessments&nbsp;&nbsp;Fastmarkets",
+    "english_phrases": [
+     {
+      "phrase": "Nickel sulfate, cif Japan and Korea",
+      "meaning": "일본·한국 CIF 기준 황산니켈"
+     },
+     {
+      "phrase": "fortnightly",
+      "meaning": "격주로"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "0cbd4a745e2a",
+   "title": "Clarification of methodology for nickel sulfate min 21%, max 22.5%; cobalt 10ppm max, exw China - Fastmarkets",
+   "title_norm": "clarification of methodology for nickel sulfate min 21 max 22 5 cobalt 10ppm max exw china",
+   "url": "https://fastmarkets.com/insights/clarification-of-methodology-for-nickel-sulfate-min-21-max-22-5-cobalt-10ppm-max-exw-china",
+   "gnews_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcGpyRGE2M0w0cFplemlLWTBvSVBvVkxPM3pFZzRFYXRmZ3NzUjVmUlFEdjdZTzIxRmNzYjdZcDVTakdXMHJUanZSRTBNVE11NVBncXhMTnpMY0F5UUdJV2VyQjBXc0k4THRkenViZ1RfRE0xLWtJRERYdkhkYXpKV1YtSzAwOV9yNENwdUNRQ1k2VFAxMGlmb3NnQjdsTWQtS2FNWFRPaFllSXp1bFFDYkpHTDlmMjlnYW1UWGlTZjBscXZFdG1J?oc=5",
+   "source": {
+    "name": "Fastmarkets - via Google News",
+    "domain": "fastmarkets.com",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-06-15",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:23:34+00:00",
+   "score": 9,
+   "body": {
+    "status": "lead_only",
+    "chars": 172,
+    "sha256": "cb1832f557c2c5b293053442a650e0c0183d6fbf690c6ae322e5fa74ee6f1ac7",
+    "source": "og_description",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [
+     "Fastmarkets wishes to clarify details around the following aspects of the pricing methodology for MB-NI-0244 nickel sulfate min 21%, max 22.5%; cobalt 10ppm max, exw China."
+    ],
+    "final_url": "https://www.fastmarkets.com/insights/clarification-of-methodology-for-nickel-sulfate-min-21-max-22-5-cobalt-10ppm-max-exw-china/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "니켈 황산염 최소 21%, 최대 22.5%, 코발트 최대 10ppm, 중국 exw 가격 방법론 명확화를 발표했음",
+     "Fastmarkets가 MB-NI-0244 가격 산정 방법론의 일부 측면에 대한 세부 내용을 명확히 하겠다고 밝혔음"
+    ],
+    "basis": "lead",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "니켈",
+     "황산니켈",
+     "코발트",
+     "가격 방법론",
+     "중국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "pricing methodology",
+      "meaning": "가격 산정 방법론"
+     },
+     {
+      "phrase": "exw China",
+      "meaning": "중국 공장 인도 조건(EXW) 기준"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "lead_only",
+    "input_chars": 172,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:23:36+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "6cd8b3f705",
+     "v1_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcGpyRGE2M0w0cFplemlLWTBvSVBvVkxPM3pFZzRFYXRmZ3NzUjVmUlFEdjdZTzIxRmNzYjdZcDVTakdXMHJUanZSRTBNVE11NVBncXhMTnpMY0F5UUdJV2VyQjBXc0k4THRkenViZ1RfRE0xLWtJRERYdkhkYXpKV1YtSzAwOV9yNENwdUNRQ1k2VFAxMGlmb3NnQjdsTWQtS2FNWFRPaFllSXp1bFFDYkpHTDlmMjlnYW1UWGlTZjBscXZFdG1J?oc=5",
+     "summary_raw": "Clarification of methodology for nickel sulfate min 21%, max 22.5%; cobalt 10ppm max, exw China&nbsp;&nbsp;Fastmarkets"
+    }
+   },
+   "v1": {
+    "korean_summary": "Fastmarkets에서 중국 현지인도(exw China) 기준 니켈황산염의 품질 규격을 명확히 하였으며, 니켈 함량 21~22.5%, 코발트 최대 10ppm의 기준이 제시되었음. 이는 배터리 및 전기차 산업용 핵심광물의 국제 거래 표준화를 통해 공급망 투명성을 강화하려는 움직임으로 평가됨. 니켈과 코발트 같은 핵심광물의 규격 통일은 글로벌 수급 안정화 및 가격 발견 메커니즘 개선에 기여할 것으로 예상됨.",
+    "category": "supply_chain",
+    "tags": [
+     "니켈",
+     "코발트",
+     "공급망 표준화"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Clarification of methodology",
+      "meaning": "방법론의 명확화/규격 기준의 명시"
+     },
+     {
+      "phrase": "nickel sulfate specifications",
+      "meaning": "니켈황산염 품질 규격"
+     },
+     {
+      "phrase": "exw China (ex works China)",
+      "meaning": "중국 현지인도 기준 (무역 조건)"
+     },
+     {
+      "phrase": "cobalt impurity threshold",
+      "meaning": "코발트 불순물 한계값"
+     },
+     {
+      "phrase": "battery-grade material standardization",
+      "meaning": "배터리급 물질의 표준화"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "6cd8b3f705",
+    "title": "Clarification of methodology for nickel sulfate min 21%, max 22.5%; cobalt 10ppm max, exw China - Fastmarkets",
+    "url": "https://fastmarkets.com/insights/clarification-of-methodology-for-nickel-sulfate-min-21-max-22-5-cobalt-10ppm-max-exw-china",
+    "source": "Fastmarkets - via Google News",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-06-15",
+    "korean_summary": [
+     "[본문 미확보] 니켈 황산염 최소 21%, 최대 22.5%, 코발트 최대 10ppm, 중국 exw 가격 방법론 명확화를 발표했음",
+     "Fastmarkets가 MB-NI-0244 가격 산정 방법론의 일부 측면에 대한 세부 내용을 명확히 하겠다고 밝혔음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "니켈",
+     "황산니켈",
+     "코발트",
+     "가격 방법론",
+     "중국"
+    ],
+    "ai_processed": true,
+    "card_id": "0cbd4a745e2a",
+    "basis": "lead",
+    "body_status": "lead_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Clarification of methodology for nickel sulfate min 21%, max 22.5%; cobalt 10ppm max, exw China&nbsp;&nbsp;Fastmarkets",
+    "english_phrases": [
+     {
+      "phrase": "pricing methodology",
+      "meaning": "가격 산정 방법론"
+     },
+     {
+      "phrase": "exw China",
+      "meaning": "중국 공장 인도 조건(EXW) 기준"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "e6018f0f38a4",
+   "title": "From battery boom to surplus: The changing fundamentals of lithium hydroxide - Fastmarkets",
+   "title_norm": "from battery boom to surplus the changing fundamentals of lithium hydroxide",
+   "url": "https://fastmarkets.com/insights/from-battery-boom-to-surplus-the-changing-fundamentals-of-lithium-hydroxide",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQd05odzNvOEFMVUpTT1dZYzhnM3ExWEdVcWg1UldRVjlUWHIya243TjhndGZhYkVQdmhrVWdYQ3pNNHpkMGtTYzVKM1JEbnJzc1FkZTR0NUJiSnRZeDBkeWFZWnMzU2dYcEpobTVucnVzeHhfNXJCR0FVb2JWbFJQcUU1LU5pS0lBMFMyWWl0aVBJS1o5bHI0aGlSUWRXemw4RVhNcnZheGlwcVRUMzJoRXA5dw?oc=5",
+   "source": {
+    "name": "Fastmarkets - via Google News",
+    "domain": "fastmarkets.com",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-06-19",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:23:37+00:00",
+   "score": 9,
+   "body": {
+    "status": "lead_only",
+    "chars": 122,
+    "sha256": "e49bfda6ce936459b14221150a90401dd27e2cf39d86d7a8b2a5854a37eed119",
+    "source": "og_description",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [
+     "Explore the dynamics of lithium hydroxide prices fueled by EV sales and market supply challenges."
+    ],
+    "final_url": "https://www.fastmarkets.com/insights/from-battery-boom-to-surplus-the-changing-fundamentals-of-lithium-hydroxide/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "배터리 붐에서 공급 과잉으로: 수산화리튬의 변화하는 펀더멘털(Fastmarkets)임",
+     "전기차 판매와 시장 공급 문제가 이끄는 수산화리튬 가격 동학을 다룬다고 소개했음"
+    ],
+    "basis": "lead",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "수산화리튬",
+     "가격 동향",
+     "전기차",
+     "공급 과잉"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "lithium hydroxide",
+      "meaning": "수산화리튬"
+     },
+     {
+      "phrase": "surplus",
+      "meaning": "공급 과잉, 잉여"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "lead_only",
+    "input_chars": 122,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:23:39+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "58905c6dc2",
+     "v1_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQd05odzNvOEFMVUpTT1dZYzhnM3ExWEdVcWg1UldRVjlUWHIya243TjhndGZhYkVQdmhrVWdYQ3pNNHpkMGtTYzVKM1JEbnJzc1FkZTR0NUJiSnRZeDBkeWFZWnMzU2dYcEpobTVucnVzeHhfNXJCR0FVb2JWbFJQcUU1LU5pS0lBMFMyWWl0aVBJS1o5bHI0aGlSUWRXemw4RVhNcnZheGlwcVRUMzJoRXA5dw?oc=5",
+     "summary_raw": "From battery boom to surplus: The changing fundamentals of lithium hydroxide&nbsp;&nbsp;Fastmarkets"
+    }
+   },
+   "v1": {
+    "korean_summary": "리튬 수산화물 시장이 배터리 수요 급증에서 공급 과잉으로 전환되고 있으며, 이는 핵심광물 공급망의 구조적 변화를 시사하고 있습니다. 전 지구적 리튬 채산성이 악화되고 있으며, 특히 수산화물 형태의 가격 하락이 심화되어 업계 재편이 예상됩니다. 이러한 시장 변동성은 핵심광물 확보 전략과 장기 수급 계획의 재검토를 촉구하고 있습니다.",
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "배터리 소재",
+     "시장수급"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "changing fundamentals of lithium hydroxide",
+      "meaning": "수산화 리튬의 근본적인 시장 수급 구조 변화"
+     },
+     {
+      "phrase": "battery boom to surplus transition",
+      "meaning": "배터리 수요 호황에서 공급 과잉으로의 전환"
+     },
+     {
+      "phrase": "critical minerals supply chain dynamics",
+      "meaning": "핵심광물 공급망의 동적 변화"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "58905c6dc2",
+    "title": "From battery boom to surplus: The changing fundamentals of lithium hydroxide - Fastmarkets",
+    "url": "https://fastmarkets.com/insights/from-battery-boom-to-surplus-the-changing-fundamentals-of-lithium-hydroxide",
+    "source": "Fastmarkets - via Google News",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-06-19",
+    "korean_summary": [
+     "[본문 미확보] 배터리 붐에서 공급 과잉으로: 수산화리튬의 변화하는 펀더멘털(Fastmarkets)임",
+     "전기차 판매와 시장 공급 문제가 이끄는 수산화리튬 가격 동학을 다룬다고 소개했음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "수산화리튬",
+     "가격 동향",
+     "전기차",
+     "공급 과잉"
+    ],
+    "ai_processed": true,
+    "card_id": "e6018f0f38a4",
+    "basis": "lead",
+    "body_status": "lead_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "From battery boom to surplus: The changing fundamentals of lithium hydroxide&nbsp;&nbsp;Fastmarkets",
+    "english_phrases": [
+     {
+      "phrase": "lithium hydroxide",
+      "meaning": "수산화리튬"
+     },
+     {
+      "phrase": "surplus",
+      "meaning": "공급 과잉, 잉여"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "b2ebc0df2c60",
+   "title": "As Global EV Adoption Reaches Record Levels and Demand for Critical Minerals Expands, Growing Investor Interest Continues to Highlight ELEKTROS Inc.’s Vision for Lithium Mining, Rare Earth Resources, and Patented Multi‑Plug EV Charging Innovation - Yahoo Finance",
+   "title_norm": "as global ev adoption reaches record levels and demand for critical minerals expands growing investor interest continues to highlight elektros inc s vision for lithium mining rare earth resources and patented multi plug ev charging innovation",
+   "url": "https://finance.yahoo.com/energy/articles/global-ev-adoption-reaches-record-021000552.html",
+   "gnews_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPLTZ4UmRHcWJZRG42bjM0MnVrcWZUajhQdDFDZU1JcDlEUkE4T3pPeVhmYm9DMEdIWWpkOGY0TktaS0FOTkpPU3ZBRmRpc1dzYkl0N1VFMWJEM3VRQVVJeWp4Tk5ISVp0UmlBRWxXeVpTb3JhTWRtMUdrTHVZUjhnVzBVQUlCRkZDWUQzdjhYS0ZteXlv?oc=5",
+   "source": {
+    "name": "Google News - Rare Earth Elements",
+    "domain": "finance.yahoo.com",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-06-21",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:23:40+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 2985,
+    "sha256": "715e8a3925cc7904dd1621e32e47b5813610a6ccdf6b2579596c60f423e2df35",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-06-21",
+    "quotes": [
+     "\"This is an exciting chapter in the continued evolution of our Company,\" stated Shlomo Bleier, Chief Executive Officer of ELEKTROS Inc.",
+     "Management believes the long-term importance of lithium continues to support growing interest in the sector."
+    ],
+    "final_url": "https://finance.yahoo.com/energy/articles/global-ev-adoption-reaches-record-021000552.html",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "ELEKTROS Inc.가 주주와 투자자에게 감사를 표하는 보도자료를 June 20, 2026에 냈음",
+     "회사는 하드록 리튬 채굴과 특허 전기차 충전 기술에 대한 장기 비전을 강조했음",
+     "리튬·핵심광물·에너지 인프라·전기차 분야의 전략적 기회를 검토하겠다고 밝혔음"
+    ],
+    "basis": "body",
+    "key_figures": [],
+    "quotes": [
+     "\"This is an exciting chapter in the continued evolution of our Company,\" stated Shlomo Bleier, Chief Executive Officer of ELEKTROS Inc.",
+     "Management believes the long-term importance of lithium continues to support growing interest in the sector."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "하드록",
+     "전기차 충전",
+     "핵심광물",
+     "투자자"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "hard rock lithium mining",
+      "meaning": "하드록 리튬 채굴"
+     },
+     {
+      "phrase": "Forward-Looking Statements",
+      "meaning": "미래예측 진술(실제 결과가 다를 수 있다는 고지)"
+     },
+     {
+      "phrase": "independent due diligence",
+      "meaning": "투자자가 직접 수행하는 독립적 실사·검토"
+     },
+     {
+      "phrase": "long-term shareholder value",
+      "meaning": "장기 주주가치"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 2985,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:23:43+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "38f99ce3f4",
+     "v1_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPLTZ4UmRHcWJZRG42bjM0MnVrcWZUajhQdDFDZU1JcDlEUkE4T3pPeVhmYm9DMEdIWWpkOGY0TktaS0FOTkpPU3ZBRmRpc1dzYkl0N1VFMWJEM3VRQVVJeWp4Tk5ISVp0UmlBRWxXeVpTb3JhTWRtMUdrTHVZUjhnVzBVQUlCRkZDWUQzdjhYS0ZteXlv?oc=5",
+     "summary_raw": "As Global EV Adoption Reaches Record Levels and Demand for Critical Minerals Expands, Growing Investor Interest Continues to Highlight ELEKTROS Inc.’s Vision for Lithium Mining, Rare Earth Resources, and Patented Multi‑Plug EV Charging Innovation&nbsp;&nbsp;Yahoo Finance"
+    }
+   },
+   "v1": {
+    "korean_summary": "글로벌 전기자동차 채택이 사상 최고 수준에 도달함에 따라 핵심광물에 대한 수요가 급증하고 있으며, 이러한 추세가 리튬 광산 개발과 희토류 자원 확보에 대한 투자자 관심을 크게 증대시키고 있는 것으로 확인되었습니다. ELEKTROS Inc.의 다중 충전 포트 기술 등 혁신적인 EV 충전 솔루션과 함께 핵심광물 공급망 최적화가 주목받고 있습니다. 향후 전기자동차 산업의 지속적 성장에 대응하기 위한 핵심광물의 안정적 수급 확보가 자원 정책의 핵심 과제로 대두될 전망입니다.",
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "희토류",
+     "EV 충전 인프라"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical mineral supply chain",
+      "meaning": "핵심광물 공급망"
+     },
+     {
+      "phrase": "global EV adoption at record levels",
+      "meaning": "글로벌 전기자동차 채택이 사상 최고 수준에 도달"
+     },
+     {
+      "phrase": "rare earth resources and lithium mining expansion",
+      "meaning": "희토류 자원과 리튬 광산 개발 확대"
+     },
+     {
+      "phrase": "patented multi-plug EV charging infrastructure",
+      "meaning": "특허받은 다중 포트 전기자동차 충전 인프라"
+     },
+     {
+      "phrase": "investor interest in critical mineral sectors",
+      "meaning": "핵심광물 분야에 대한 투자자의 관심 증대"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "38f99ce3f4",
+    "title": "As Global EV Adoption Reaches Record Levels and Demand for Critical Minerals Expands, Growing Investor Interest Continues to Highlight ELEKTROS Inc.’s Vision for Lithium Mining, Rare Earth Resources, and Patented Multi‑Plug EV Charging Innovation - Yahoo Finance",
+    "url": "https://finance.yahoo.com/energy/articles/global-ev-adoption-reaches-record-021000552.html",
+    "source": "Google News - Rare Earth Elements",
+    "tier_weight": 1,
+    "score": 9,
+    "published": "2026-06-21",
+    "korean_summary": [
+     "ELEKTROS Inc.가 주주와 투자자에게 감사를 표하는 보도자료를 June 20, 2026에 냈음",
+     "회사는 하드록 리튬 채굴과 특허 전기차 충전 기술에 대한 장기 비전을 강조했음",
+     "리튬·핵심광물·에너지 인프라·전기차 분야의 전략적 기회를 검토하겠다고 밝혔음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "하드록",
+     "전기차 충전",
+     "핵심광물",
+     "투자자"
+    ],
+    "ai_processed": true,
+    "card_id": "b2ebc0df2c60",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [],
+    "quotes": [
+     "\"This is an exciting chapter in the continued evolution of our Company,\" stated Shlomo Bleier, Chief Executive Officer of ELEKTROS Inc.",
+     "Management believes the long-term importance of lithium continues to support growing interest in the sector."
+    ],
+    "summary_raw": "As Global EV Adoption Reaches Record Levels and Demand for Critical Minerals Expands, Growing Investor Interest Continues to Highlight ELEKTROS Inc.’s Vision for Lithium Mining, Rare Earth Resources, and Patented Multi‑Plug EV Charging Innovation&nbsp;&nbsp;Yahoo Finance",
+    "english_phrases": [
+     {
+      "phrase": "hard rock lithium mining",
+      "meaning": "하드록 리튬 채굴"
+     },
+     {
+      "phrase": "Forward-Looking Statements",
+      "meaning": "미래예측 진술(실제 결과가 다를 수 있다는 고지)"
+     },
+     {
+      "phrase": "independent due diligence",
+      "meaning": "투자자가 직접 수행하는 독립적 실사·검토"
+     },
+     {
+      "phrase": "long-term shareholder value",
+      "meaning": "장기 주주가치"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "6618891437a9",
+   "title": "Ontario Secures Critical Mineral Agreement with United Kingdom to Strengthen Allied Supply Chains - ontario.ca",
+   "title_norm": "ontario secures critical mineral agreement with united kingdom to strengthen allied supply chains",
+   "url": "https://news.ontario.ca/en/release/1007603/ontario-secures-critical-mineral-agreement-with-united-kingdom-to-strengthen-allied-supply-chains",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRmxyZlhYTjdnWGk0NGNQM0RHNXFtTzg1a2paTlJyODEyeHpGSXZiMXZ3YUFzRF9KbDFyV0QzOG9HX0lSVzltOG5GMFp4NE5sWHYySEFwbWhzcXFLX0RkenZsMlpqR1c3TnRYcXRMdjlITS0wNWt5Z1JCQ3FRZTBpZjJ4M1ZscDI0WmRzMVNPNnV0UWV4Rm9JaHlGbE83NkFmVnpOUVItckVIVmktS19mOEZBUW1oVXFVQ0VTZXJuOVZMc3hwdk1oVUQ2Yi02cDV2OGVURWlITQ?oc=5",
+   "source": {
+    "name": "Google News - Critical Minerals Exploration",
+    "domain": "news.ontario.ca",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-06-15",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:23:44+00:00",
+   "score": 8,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://news.ontario.ca/en/release/1007603/ontario-secures-critical-mineral-agreement-with-united-kingdom-to-strengthen-allied-supply-chains",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "온타리오주가 동맹국 공급망 강화를 위해 영국과 핵심광물 협정을 체결했음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "공급망",
+     "온타리오",
+     "영국",
+     "협정"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Allied Supply Chains",
+      "meaning": "동맹국 공급망"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:23:45+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "87444f2af9",
+     "v1_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRmxyZlhYTjdnWGk0NGNQM0RHNXFtTzg1a2paTlJyODEyeHpGSXZiMXZ3YUFzRF9KbDFyV0QzOG9HX0lSVzltOG5GMFp4NE5sWHYySEFwbWhzcXFLX0RkenZsMlpqR1c3TnRYcXRMdjlITS0wNWt5Z1JCQ3FRZTBpZjJ4M1ZscDI0WmRzMVNPNnV0UWV4Rm9JaHlGbE83NkFmVnpOUVItckVIVmktS19mOEZBUW1oVXFVQ0VTZXJuOVZMc3hwdk1oVUQ2Yi02cDV2OGVURWlITQ?oc=5",
+     "summary_raw": "Ontario Secures Critical Mineral Agreement with United Kingdom to Strengthen Allied Supply Chains&nbsp;&nbsp;ontario.ca"
+    }
+   },
+   "v1": {
+    "korean_summary": "온타리오주가 영국과 핵심광물 공급망 강화를 위한 협약을 체결하였으며, 이는 동맹국 간 자원 안보 확보를 위한 전략적 파트너십으로 평가됨. 양국은 핵심광물 탐사, 개발, 가공 및 재활용 분야에서 협력 체계를 구축하여 공급망 취약성을 해소할 전망임. 이러한 협력은 북미 지역 내 핵심광물 자급 능력 강화 및 지정학적 리스크 완화에 기여할 것으로 예상됨.",
+    "category": "supply_chain",
+    "tags": [
+     "핵심광물",
+     "국제협력·공급망",
+     "캐나다·영국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical mineral supply chain security",
+      "meaning": "핵심광물 공급망 안보"
+     },
+     {
+      "phrase": "allied partnership framework",
+      "meaning": "동맹국 간 협력 체계"
+     },
+     {
+      "phrase": "mineral exploration and development cooperation",
+      "meaning": "광물 탐사 및 개발 협력"
+     },
+     {
+      "phrase": "circular economy in mineral recycling",
+      "meaning": "광물 재활용에 있어 순환경제 구축"
+     },
+     {
+      "phrase": "geopolitical resilience of supply chains",
+      "meaning": "공급망의 지정학적 복원력"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "87444f2af9",
+    "title": "Ontario Secures Critical Mineral Agreement with United Kingdom to Strengthen Allied Supply Chains - ontario.ca",
+    "url": "https://news.ontario.ca/en/release/1007603/ontario-secures-critical-mineral-agreement-with-united-kingdom-to-strengthen-allied-supply-chains",
+    "source": "Google News - Critical Minerals Exploration",
+    "tier_weight": 1,
+    "score": 8,
+    "published": "2026-06-15",
+    "korean_summary": [
+     "[제목 기반] 온타리오주가 동맹국 공급망 강화를 위해 영국과 핵심광물 협정을 체결했음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "공급망",
+     "온타리오",
+     "영국",
+     "협정"
+    ],
+    "ai_processed": true,
+    "card_id": "6618891437a9",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Ontario Secures Critical Mineral Agreement with United Kingdom to Strengthen Allied Supply Chains&nbsp;&nbsp;ontario.ca",
+    "english_phrases": [
+     {
+      "phrase": "Allied Supply Chains",
+      "meaning": "동맹국 공급망"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  }
+ ],
+ "excluded": [],
+ "v1_file": "week-2026-06-22.json",
+ "v1_metrics": {
+  "articles": 12,
+  "original_link": 2,
+  "body_based": 0,
+  "failed": 0
+ },
+ "trial": false
+}

@@ -1,0 +1,1973 @@
+{
+ "schema_version": "card.v1",
+ "service": "cmw",
+ "week_of": "2026-06-29",
+ "generated_at": "2026-10-19T05:24:55+00:00",
+ "mincore_version": "0.3.6",
+ "model": "claude-sonnet-5-5",
+ "prompt_version": "v2.2",
+ "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+ "stats": {
+  "v1_articles": 12,
+  "cards": 12,
+  "excluded": 0,
+  "body_got": 5,
+  "body_rate": 0.417,
+  "original_link": 12,
+  "reader_proxy_used": 0,
+  "line_len": {
+   "lines": 24,
+   "median": 58.5,
+   "max": 86,
+   "over60": 10,
+   "over100": 0
+  },
+  "oda_filled": 3,
+  "usage": {
+   "claude-sonnet-5-5": {
+    "calls": 13,
+    "in": 27152,
+    "out": 5902
+   }
+  },
+  "cost_usd": 0.17,
+  "body_status": {
+   "title_only": 5,
+   "full": 4,
+   "partial": 1,
+   "lead_only": 2
+  },
+  "body_source": {
+   "none": 5,
+   "presscorner_api": 2,
+   "trafilatura": 3,
+   "og_description": 2
+  },
+  "resolve": {
+   "decoder": 10,
+   "direct": 2
+  },
+  "fail_reason": {},
+  "basis": {
+   "title": 5,
+   "body": 5,
+   "lead": 2
+  },
+  "retry_reason": {
+   "lines는 3줄이어야 함 (현재 4줄)": 1
+  },
+  "flags": {},
+  "model_used": {
+   "claude-sonnet-5-5": 12
+  }
+ },
+ "total": 12,
+ "cards": [
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "4053a8caaf9d",
+   "title": "Search - Introducing the Critical Minerals Policy Tracker - Reports - IEA – International Energy Agency",
+   "title_norm": "search introducing the critical minerals policy tracker reports iea",
+   "url": "https://iea.org/search/reports?q=Introducing+the+Critical+Minerals+Policy+Tracker",
+   "gnews_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORzltNjUzdmFScjJMMVVXNk1aT05BMjZKdXRvbHl3RXl0bnhSRk91bnlFb0RpRXhtbjZIS0FPRUxGbnl1R0VhLWVJc3hKcDVqOE8xckYySnp4VlhjeFdHYmplWDRla3FqZ1BJYWNSWE91X0xpNmdmcDViQkZTczdTUEk2N3FCWXZhYlZlbnBIcnhBRU9oeGY4Vjc0RQ?oc=5",
+   "source": {
+    "name": "IEA - via Google News",
+    "domain": "iea.org",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-06-28",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:23:51+00:00",
+   "score": 9,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "bot_block",
+    "http_status": 403,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.iea.org/search/reports?q=Introducing%20the%20Critical%20Minerals%20Policy%20Tracker",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "IEA, 핵심광물 정책 트래커(Critical Minerals Policy Tracker)를 소개하는 보고서를 공개했음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "정책 트래커",
+     "IEA",
+     "보고서"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Critical Minerals Policy Tracker",
+      "meaning": "핵심광물 정책 트래커"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:23:53+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "0c5c85fef4",
+     "v1_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORzltNjUzdmFScjJMMVVXNk1aT05BMjZKdXRvbHl3RXl0bnhSRk91bnlFb0RpRXhtbjZIS0FPRUxGbnl1R0VhLWVJc3hKcDVqOE8xckYySnp4VlhjeFdHYmplWDRla3FqZ1BJYWNSWE91X0xpNmdmcDViQkZTczdTUEk2N3FCWXZhYlZlbnBIcnhBRU9oeGY4Vjc0RQ?oc=5",
+     "summary_raw": "Search - Introducing the Critical Minerals Policy Tracker - Reports&nbsp;&nbsp;IEA – International Energy Agency"
+    }
+   },
+   "v1": {
+    "korean_summary": "국제에너지기구(IEA)가 핵심광물 정책 추적 시스템을 새롭게 도입하여 전 지구적 핵심광물 정책 동향을 체계적으로 모니터링할 수 있는 기반을 마련하였습니다. 이 플랫폼은 에너지 전환 및 산업 경쟁력 확보에 필수적인 핵심광물 수급 안정성 강화를 목표로 하고 있습니다. 우리나라를 포함한 주요국들의 핵심광물 정책 변화를 실시간 추적함으로써 자원 외교 및 산업 전략 수립에 중요한 정보 자원이 될 것으로 예상됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "정책 모니터링",
+     "에너지 전환"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Critical Minerals Policy Tracker",
+      "meaning": "핵심광물 정책 추적 시스템/플랫폼"
+     },
+     {
+      "phrase": "energy transition and decarbonization",
+      "meaning": "에너지 전환 및 탄소중립"
+     },
+     {
+      "phrase": "supply chain resilience",
+      "meaning": "공급망 강건성/안정성"
+     },
+     {
+      "phrase": "policy landscape analysis",
+      "meaning": "정책 환경 분석"
+     },
+     {
+      "phrase": "mineral security",
+      "meaning": "광물 자원 안보"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "0c5c85fef4",
+    "title": "Search - Introducing the Critical Minerals Policy Tracker - Reports - IEA – International Energy Agency",
+    "url": "https://iea.org/search/reports?q=Introducing+the+Critical+Minerals+Policy+Tracker",
+    "source": "IEA - via Google News",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-06-28",
+    "korean_summary": [
+     "[제목 기반] IEA, 핵심광물 정책 트래커(Critical Minerals Policy Tracker)를 소개하는 보고서를 공개했음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "핵심광물",
+     "정책 트래커",
+     "IEA",
+     "보고서"
+    ],
+    "ai_processed": true,
+    "card_id": "4053a8caaf9d",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Search - Introducing the Critical Minerals Policy Tracker - Reports&nbsp;&nbsp;IEA – International Energy Agency",
+    "english_phrases": [
+     {
+      "phrase": "Critical Minerals Policy Tracker",
+      "meaning": "핵심광물 정책 트래커"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "fd0a42bfb75c",
+   "title": "Doorstep Statement by Commissioner Lahbib at Budapest Pride",
+   "title_norm": "doorstep statement by commissioner lahbib at budapest pride",
+   "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1474",
+   "gnews_url": null,
+   "source": {
+    "name": "European Commission - Energy",
+    "domain": "ec.europa.eu",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-06-27",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:23:54+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 3303,
+    "sha256": "bff90e9a57af745abb2e697db7ddb024514b005b1f0a06c5a182ccd11bc8c553",
+    "source": "presscorner_api",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [
+     "In our next EU budget, we have proposed more than doubling funding for equality and civil society, up to €3.6 billion.",
+     "Yesterday I met with members of the new government."
+    ],
+    "final_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1474",
+    "strategies_tried": [
+     "presscorner_api"
+    ]
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "라흐비브 EU 집행위원이 부다페스트 프라이드 현장에서 성명을 발표했음.",
+     "다음 EU 예산에서 평등·시민사회 지원 자금을 €3.6 billion까지 두 배 이상 늘리자고 제안했음.",
+     "전환 치료 금지 권고안을 준비 중이며, 새 5년 LGBTIQ+ 전략에 온라인 폭력 대응도 포함된다고 밝혔음."
+    ],
+    "basis": "body",
+    "key_figures": [
+     "€3.6 billion",
+     "two hundred thousand",
+     "thirty countries"
+    ],
+    "quotes": [
+     "In our next EU budget, we have proposed more than doubling funding for equality and civil society, up to €3.6 billion.",
+     "Yesterday I met with members of the new government."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "헝가리",
+     "부다페스트 프라이드",
+     "EU",
+     "LGBTIQ+ 전략"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Child Protection Law",
+      "meaning": "아동보호법(헝가리 법률 명칭)"
+     },
+     {
+      "phrase": "LGBTIQ+ Strategy",
+      "meaning": "EU의 LGBTIQ+ 전략"
+     },
+     {
+      "phrase": "conversion practices",
+      "meaning": "전환 치료 관행"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 3303,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:24:01+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "124d6d6024",
+     "v1_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1474",
+     "summary_raw": "European Commission Statement Budapest, 27 Jun 2026 Last year we stood together in this city when Pride was banned, when people faced prosecution just for walking in the streets. Yet, you marched anyway, two hund..."
+    }
+   },
+   "v1": {
+    "korean_summary": "제공하신 기사는 2026년 6월 27일 부다페스트에서 개최된 Pride 행사에 관한 유럽위원회 성명서로, 핵심광물 분야와 직접적인 관련성이 없는 것으로 확인됩니다. 해당 기사는 인권 및 사회 정책 영역의 내용이므로, 자원공학 연구자 대상의 주간 카드뉴스로 적절하지 않습니다. 핵심광물 관련 정책, 공급망, 탐사기술 등의 자원공학 주제를 다룬 기사의 제공을 요청드립니다.",
+    "category": "policy_market",
+    "tags": [
+     "해당없음",
+     "정책검토",
+     "적절성검증"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Not applicable to critical minerals domain",
+      "meaning": "핵심광물 분야와 무관"
+     },
+     {
+      "phrase": "Article scope: human rights and social policy",
+      "meaning": "기사 범위: 인권 및 사회정책"
+     },
+     {
+      "phrase": "Request resource engineering related materials",
+      "meaning": "자원공학 관련 자료 요청"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "124d6d6024",
+    "title": "Doorstep Statement by Commissioner Lahbib at Budapest Pride",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1474",
+    "source": "European Commission - Energy",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-06-27",
+    "korean_summary": [
+     "라흐비브 EU 집행위원이 부다페스트 프라이드 현장에서 성명을 발표했음.",
+     "다음 EU 예산에서 평등·시민사회 지원 자금을 €3.6 billion까지 두 배 이상 늘리자고 제안했음.",
+     "전환 치료 금지 권고안을 준비 중이며, 새 5년 LGBTIQ+ 전략에 온라인 폭력 대응도 포함된다고 밝혔음."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "헝가리",
+     "부다페스트 프라이드",
+     "EU",
+     "LGBTIQ+ 전략"
+    ],
+    "ai_processed": true,
+    "card_id": "fd0a42bfb75c",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "€3.6 billion",
+     "two hundred thousand",
+     "thirty countries"
+    ],
+    "quotes": [
+     "In our next EU budget, we have proposed more than doubling funding for equality and civil society, up to €3.6 billion.",
+     "Yesterday I met with members of the new government."
+    ],
+    "summary_raw": "European Commission Statement Budapest, 27 Jun 2026 Last year we stood together in this city when Pride was banned, when people faced prosecution just for walking in the streets. Yet, you marched anyway, two hund...",
+    "english_phrases": [
+     {
+      "phrase": "Child Protection Law",
+      "meaning": "아동보호법(헝가리 법률 명칭)"
+     },
+     {
+      "phrase": "LGBTIQ+ Strategy",
+      "meaning": "EU의 LGBTIQ+ 전략"
+     },
+     {
+      "phrase": "conversion practices",
+      "meaning": "전환 치료 관행"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "cc04819330f5",
+   "title": "First-ever EU tripartite agreement signed to boost energy storage",
+   "title_norm": "first ever eu tripartite agreement signed to boost energy storage",
+   "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1426",
+   "gnews_url": null,
+   "source": {
+    "name": "European Commission - Energy",
+    "domain": "ec.europa.eu",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-06-25",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:24:03+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 5360,
+    "sha256": "f7e0a126994b15f991becc3027c48455b74cc8ccd64023f6a28a96d3e3ccde8f",
+    "source": "presscorner_api",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [
+     "Taken together, these pledges account to between 30-35 GW of storage capacity.",
+     "Background It is estimated that the EU requires around 200 GW of storage capacity by 2030 to meet the needs of its energy system, compared with around 55 GW installed at the beginning of this year."
+    ],
+    "final_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1426",
+    "strategies_tried": [
+     "presscorner_api"
+    ]
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "유럽위원회가 에너지 저장에 관한 EU 최초의 3자 협정(tripartite agreement)을 체결했다고 밝혔음",
+     "22 EU Member States가 향후 2년간 에너지 저장 확대를 약속했으며 합산 규모는 30-35 GW임",
+     "위원회가 협정 이행을 총괄하며 2028년까지 매년 진척 상황을 점검할 예정임"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "22 EU Member States",
+     "30-35 GW",
+     "2028"
+    ],
+    "quotes": [
+     "Taken together, these pledges account to between 30-35 GW of storage capacity.",
+     "Background It is estimated that the EU requires around 200 GW of storage capacity by 2030 to meet the needs of its energy system, compared with around 55 GW installed at the beginning of this year."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "에너지 저장",
+     "3자 협정",
+     "EU",
+     "재생에너지",
+     "전력망 유연성"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "tripartite agreement",
+      "meaning": "정부·산업·금융 등 세 주체가 참여하는 3자 협정"
+     },
+     {
+      "phrase": "cost-reflective and non-discriminatory network tariffs",
+      "meaning": "비용을 반영하고 차별 없는 전력망 요금"
+     },
+     {
+      "phrase": "Clean Industrial State Aid Framework (CISAF)",
+      "meaning": "청정산업 국가보조금 프레임워크"
+     },
+     {
+      "phrase": "Industrial Decarbonisation Bank",
+      "meaning": "산업 탈탄소화 은행"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:24:06+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "0a94f42eae",
+     "v1_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1426",
+     "summary_raw": "European Commission Press release Brussels, 26 Jun 2026 The European Commission has rallied a number of EU energy ministers, storage developers and manufacturers, renewable energy developers, energy-consuming industries and financial institutions around the first-ever EU tripartite agreement on energy storage."
+    }
+   },
+   "v1": {
+    "korean_summary": "유럽연합이 에너지 저장 분야의 첫 번째 삼자협약을 체결하여 에너지 전환을 가속화할 전망입니다. 본 협약에는 EU 에너지 장관, 저장 및 제조업체, 재생에너지 개발사, 에너지 소비 산업체 및 금융기관이 참여하여 다층적 협력 체계를 구축하였습니다. 이는 핵심광물 수급 안정성과 에너지 저장 기술 고도화를 통해 유럽의 에너지 자립도를 강화하는 전략적 의의를 갖습니다.",
+    "category": "policy_market",
+    "tags": [
+     "에너지저장",
+     "핵심광물 공급망",
+     "EU 에너지정책"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "tripartite agreement on energy storage",
+      "meaning": "에너지 저장에 관한 삼자협약 (정부·산업·금융의 삼각 협력)"
+     },
+     {
+      "phrase": "energy storage deployment",
+      "meaning": "에너지 저장 시설의 구축·배치"
+     },
+     {
+      "phrase": "stakeholder coordination framework",
+      "meaning": "이해관계자 간 협력 체계"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "0a94f42eae",
+    "title": "First-ever EU tripartite agreement signed to boost energy storage",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1426",
+    "source": "European Commission - Energy",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-06-25",
+    "korean_summary": [
+     "유럽위원회가 에너지 저장에 관한 EU 최초의 3자 협정(tripartite agreement)을 체결했다고 밝혔음",
+     "22 EU Member States가 향후 2년간 에너지 저장 확대를 약속했으며 합산 규모는 30-35 GW임",
+     "위원회가 협정 이행을 총괄하며 2028년까지 매년 진척 상황을 점검할 예정임"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "에너지 저장",
+     "3자 협정",
+     "EU",
+     "재생에너지",
+     "전력망 유연성"
+    ],
+    "ai_processed": true,
+    "card_id": "cc04819330f5",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "22 EU Member States",
+     "30-35 GW",
+     "2028"
+    ],
+    "quotes": [
+     "Taken together, these pledges account to between 30-35 GW of storage capacity.",
+     "Background It is estimated that the EU requires around 200 GW of storage capacity by 2030 to meet the needs of its energy system, compared with around 55 GW installed at the beginning of this year."
+    ],
+    "summary_raw": "European Commission Press release Brussels, 26 Jun 2026 The European Commission has rallied a number of EU energy ministers, storage developers and manufacturers, renewable energy developers, energy-consuming industries and financial institutions around the first-ever EU tripartite agreement on energy storage.",
+    "english_phrases": [
+     {
+      "phrase": "tripartite agreement",
+      "meaning": "정부·산업·금융 등 세 주체가 참여하는 3자 협정"
+     },
+     {
+      "phrase": "cost-reflective and non-discriminatory network tariffs",
+      "meaning": "비용을 반영하고 차별 없는 전력망 요금"
+     },
+     {
+      "phrase": "Clean Industrial State Aid Framework (CISAF)",
+      "meaning": "청정산업 국가보조금 프레임워크"
+     },
+     {
+      "phrase": "Industrial Decarbonisation Bank",
+      "meaning": "산업 탈탄소화 은행"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "5db7b64899c1",
+   "title": "China targets US rare earth and defence-linked entities with dual-use export ban - Benchmark Mineral Intelligence",
+   "title_norm": "china targets us rare earth and defence linked entities with dual use export ban",
+   "url": "https://source.benchmarkminerals.com/article/china-targets-us-rare-earth-and-defence-linked-entities-with-dual-use-export-ban",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMEtnMWdIYV80b05mY1JKTmY3ODRnRW1CT3ZxN0ZNdjAzSGhaMjFOdE5vN0h5ZFNCbDRYRmwyQ0dSVWlIdFNCUTJJalBZZUhQQUlyTXVvc3E4RzMta1FnaVppSUNIcWhSazdFY2J5eFZzU2xPZEptam9uVllGNV90ZV9IYWZkSzM3aDU0akJwYUtoNXgzQ3VJVnJSZ09JeTRQMFBtOFJUajJyRlkyLWduc2E2ODBaYnhaaFlZb2lUM3BPeUk?oc=5",
+   "source": {
+    "name": "Benchmark Mineral Intelligence - via Google News",
+    "domain": "source.benchmarkminerals.com",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-06-25",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:24:06+00:00",
+   "score": 9,
+   "body": {
+    "status": "partial",
+    "chars": 713,
+    "sha256": "80318ad7e210f46cc2bb8bb6bcef27a513dde98f46669d5124d62d3b188c9fe9",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-06-25",
+    "quotes": [
+     "The Ministry of Commerce named rare earth and magnet developers MP Materials and USA Rare Earth in addition to eight other companies in defence-related industries.",
+     "The measure is entity-specific rather than a blanket restriction on rare earth exports to the US."
+    ],
+    "final_url": "https://source.benchmarkminerals.com/article/china-targets-us-rare-earth-and-defence-linked-entities-with-dual-use-export-ban",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "중국이 미국 기업 10곳을 수출통제 명단에 올려 이중용도 품목 수출을 금지했음",
+     "상무부가 MP Materials, USA Rare Earth 등을 지정했고 2026년 6월 22일 즉시 발효됐음",
+     "중국은 미 국방부 1260H 명단 추가 등 최근 미국 조치에 대한 대응이라고 밝혔음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "10 US entities",
+     "22 June 2026",
+     "eight other companies"
+    ],
+    "quotes": [
+     "The Ministry of Commerce named rare earth and magnet developers MP Materials and USA Rare Earth in addition to eight other companies in defence-related industries.",
+     "The measure is entity-specific rather than a blanket restriction on rare earth exports to the US."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "수출통제",
+     "이중용도",
+     "중국",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "dual-use items",
+      "meaning": "민간·군사 양쪽에 쓰일 수 있는 이중용도 품목"
+     },
+     {
+      "phrase": "export control list",
+      "meaning": "수출통제 명단"
+     },
+     {
+      "phrase": "1260H list",
+      "meaning": "미 국방부가 관리하는 중국 군 연계 기업 명단"
+     }
+    ],
+    "implication": "전면 규제는 아니나 기존 허가 통제가 지정 기업 대상 전면 금지로 격상돼, MP Materials 등 미국 희토류 개발사의 중국산 이중용도 품목 조달이 막히게 됨"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "partial",
+    "input_chars": 713,
+    "attempts": 2,
+    "summarized_at": "2026-10-19T05:24:20+00:00",
+    "retry_reasons": [
+     "lines는 3줄이어야 함 (현재 4줄)"
+    ],
+    "retry_tails": [
+     "rase\": \"1260H list\", \"meaning\": \"미 국방부의 중국 군 연계 기업 명단\"}\n  ],\n  \"implication\": \"기존 허가 중심 통제가 지정 기업 대상 전면 금지로 강화되어, 미국 희토류·자석 개발사의 중국산 이중용도 품목 조달 불확실성이 커질 수 있음\"\n}"
+    ]
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "54daf4f914",
+     "v1_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMEtnMWdIYV80b05mY1JKTmY3ODRnRW1CT3ZxN0ZNdjAzSGhaMjFOdE5vN0h5ZFNCbDRYRmwyQ0dSVWlIdFNCUTJJalBZZUhQQUlyTXVvc3E4RzMta1FnaVppSUNIcWhSazdFY2J5eFZzU2xPZEptam9uVllGNV90ZV9IYWZkSzM3aDU0akJwYUtoNXgzQ3VJVnJSZ09JeTRQMFBtOFJUajJyRlkyLWduc2E2ODBaYnhaaFlZb2lUM3BPeUk?oc=5",
+     "summary_raw": "China targets US rare earth and defence-linked entities with dual-use export ban&nbsp;&nbsp;Benchmark Mineral Intelligence"
+    }
+   },
+   "v1": {
+    "korean_summary": "중국이 미국의 희토류 및 방위산업 관련 기업을 대상으로 이중용도 물품의 수출 금지 조치를 단행한 것으로 확인되었습니다. 이는 핵심광물을 둘러싼 미중 간 기술패권 경쟁이 수출 규제 차원으로 확대되고 있음을 의미합니다. 향후 글로벌 핵심광물 공급망 재편과 우리나라의 안정적 확보 전략 수립이 시급할 전망입니다.",
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "수출규제·통상정책",
+     "미국·중국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "dual-use export ban",
+      "meaning": "이중용도 물품 수출 금지 (민수용과 군사용 모두에 사용 가능한 물품의 수출 규제)"
+     },
+     {
+      "phrase": "rare earth entities",
+      "meaning": "희토류 관련 기업 또는 사업체"
+     },
+     {
+      "phrase": "defence-linked",
+      "meaning": "방위산업 관련의, 국방 연계형의"
+     },
+     {
+      "phrase": "critical minerals supply chain",
+      "meaning": "핵심광물 공급망"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "54daf4f914",
+    "title": "China targets US rare earth and defence-linked entities with dual-use export ban - Benchmark Mineral Intelligence",
+    "url": "https://source.benchmarkminerals.com/article/china-targets-us-rare-earth-and-defence-linked-entities-with-dual-use-export-ban",
+    "source": "Benchmark Mineral Intelligence - via Google News",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-06-25",
+    "korean_summary": [
+     "중국이 미국 기업 10곳을 수출통제 명단에 올려 이중용도 품목 수출을 금지했음",
+     "상무부가 MP Materials, USA Rare Earth 등을 지정했고 2026년 6월 22일 즉시 발효됐음",
+     "중국은 미 국방부 1260H 명단 추가 등 최근 미국 조치에 대한 대응이라고 밝혔음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "수출통제",
+     "이중용도",
+     "중국",
+     "미국"
+    ],
+    "ai_processed": true,
+    "card_id": "5db7b64899c1",
+    "basis": "body",
+    "body_status": "partial",
+    "key_figures": [
+     "10 US entities",
+     "22 June 2026",
+     "eight other companies"
+    ],
+    "quotes": [
+     "The Ministry of Commerce named rare earth and magnet developers MP Materials and USA Rare Earth in addition to eight other companies in defence-related industries.",
+     "The measure is entity-specific rather than a blanket restriction on rare earth exports to the US."
+    ],
+    "summary_raw": "China targets US rare earth and defence-linked entities with dual-use export ban&nbsp;&nbsp;Benchmark Mineral Intelligence",
+    "english_phrases": [
+     {
+      "phrase": "dual-use items",
+      "meaning": "민간·군사 양쪽에 쓰일 수 있는 이중용도 품목"
+     },
+     {
+      "phrase": "export control list",
+      "meaning": "수출통제 명단"
+     },
+     {
+      "phrase": "1260H list",
+      "meaning": "미 국방부가 관리하는 중국 군 연계 기업 명단"
+     }
+    ],
+    "implication": "전면 규제는 아니나 기존 허가 통제가 지정 기업 대상 전면 금지로 격상돼, MP Materials 등 미국 희토류 개발사의 중국산 이중용도 품목 조달이 막히게 됨",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "b28eeec038d3",
+   "title": "EU Critical Minerals Policy and the Case for a Lithium Price Floor - Discovery Alert",
+   "title_norm": "eu critical minerals policy and the case for a lithium price floor",
+   "url": "https://discoveryalert.com.au/eu-critical-minerals-policy-lithium-price-floor-2026",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTjNnd2NuM0dzSFppNko5dTNVT053QnJjSUVuc0x3a1VpbWpRMWstalA5Zmk4RWYxYkNjemF4b0dVMXUtb1poTUZIdlladmJjaUlVbkhvVXFNYVozX2lnY1NxSjRYWFFsYkU3MjNkM2Ywb3l1dnVGT3BZV1dHRTJDb21XZUJJdVFabFI0?oc=5",
+   "source": {
+    "name": "Google News - IRA CRMA Policy",
+    "domain": "discoveryalert.com.au",
+    "tier": null,
+    "tier_weight": 1,
+    "language": null
+   },
+   "published": "2026-06-22",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:24:32+00:00",
+   "score": 9,
+   "body": {
+    "status": "full",
+    "chars": 20969,
+    "sha256": "ecc18bc1d09a677bc978704aa0cf021782104ddf9abd5463b128d1ee4242c7f8",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-06-22",
+    "quotes": [
+     "- 10% of annual EU consumption to be met through domestic extraction by 2030",
+     "- 40% of annual consumption to be processed within EU borders by 2030"
+    ],
+    "final_url": "https://discoveryalert.com/eu-critical-minerals-policy-lithium-price-floor-2026/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Discovery Alert가 EU 핵심광물 정책에 리튬 가격 하한제가 필요한지를 따지는 분석 기사를 게재했음",
+     "2024년 채택된 CRMA는 2030년까지 역내 채굴 10%, 역내 가공 40%, 재활용 25%를 목표로 제시했음",
+     "기사는 이 정책이 공급망 구조만 다루고 가격 경제성은 다루지 않는다고 지적했음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "10%",
+     "40%",
+     "25%"
+    ],
+    "quotes": [
+     "- 10% of annual EU consumption to be met through domestic extraction by 2030",
+     "- 40% of annual consumption to be processed within EU borders by 2030"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "가격 하한제",
+     "CRMA",
+     "EU",
+     "핵심광물"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "lithium price floor",
+      "meaning": "리튬 가격 하한제"
+     },
+     {
+      "phrase": "Strategic Projects",
+      "meaning": "CRMA의 전략 프로젝트 지정 절차"
+     },
+     {
+      "phrase": "joint procurement",
+      "meaning": "공동 조달"
+     },
+     {
+      "phrase": "ReSourceEU",
+      "meaning": "민관 투자를 촉진하기 위한 EU 자금 지원 체계"
+     }
+    ],
+    "implication": "EU의 CRMA는 구조 개혁 중심이어서 리튬 가격 변동 위험이 남아 있으며, 가격 하한제가 투자 유인책으로 논의되고 있음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:24:36+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "90f9d5cff1",
+     "v1_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTjNnd2NuM0dzSFppNko5dTNVT053QnJjSUVuc0x3a1VpbWpRMWstalA5Zmk4RWYxYkNjemF4b0dVMXUtb1poTUZIdlladmJjaUlVbkhvVXFNYVozX2lnY1NxSjRYWFFsYkU3MjNkM2Ywb3l1dnVGT3BZV1dHRTJDb21XZUJJdVFabFI0?oc=5",
+     "summary_raw": "EU Critical Minerals Policy and the Case for a Lithium Price Floor&nbsp;&nbsp;Discovery Alert"
+    }
+   },
+   "v1": {
+    "korean_summary": "EU는 핵심광물 공급망 확보를 위한 정책을 강화하고 있으며, 리튬 가격 하한제 도입이 시장 안정성과 공급 다각화의 핵심 수단으로 제시되고 있습니다. 이러한 정책적 개입은 광물 채굴국과 소비국 간의 공급망 재편을 촉진할 것으로 전망됩니다. 향후 핵심광물의 가격 메커니즘과 전략적 비축 강화가 글로벌 에너지 전환의 성패를 좌우할 것으로 예상됩니다.",
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "EU 핵심광물 정책",
+     "공급망 안정성"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Critical minerals policy framework",
+      "meaning": "핵심광물 정책 체계"
+     },
+     {
+      "phrase": "Price floor mechanism",
+      "meaning": "가격 하한제 메커니즘"
+     },
+     {
+      "phrase": "Supply chain diversification",
+      "meaning": "공급망 다각화"
+     },
+     {
+      "phrase": "Strategic mineral security",
+      "meaning": "전략광물 보안(공급 안정성)"
+     },
+     {
+      "phrase": "Market stabilization through policy intervention",
+      "meaning": "정책적 개입을 통한 시장 안정화"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "90f9d5cff1",
+    "title": "EU Critical Minerals Policy and the Case for a Lithium Price Floor - Discovery Alert",
+    "url": "https://discoveryalert.com.au/eu-critical-minerals-policy-lithium-price-floor-2026",
+    "source": "Google News - IRA CRMA Policy",
+    "tier_weight": 1,
+    "score": 9,
+    "published": "2026-06-22",
+    "korean_summary": [
+     "Discovery Alert가 EU 핵심광물 정책에 리튬 가격 하한제가 필요한지를 따지는 분석 기사를 게재했음",
+     "2024년 채택된 CRMA는 2030년까지 역내 채굴 10%, 역내 가공 40%, 재활용 25%를 목표로 제시했음",
+     "기사는 이 정책이 공급망 구조만 다루고 가격 경제성은 다루지 않는다고 지적했음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "가격 하한제",
+     "CRMA",
+     "EU",
+     "핵심광물"
+    ],
+    "ai_processed": true,
+    "card_id": "b28eeec038d3",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "10%",
+     "40%",
+     "25%"
+    ],
+    "quotes": [
+     "- 10% of annual EU consumption to be met through domestic extraction by 2030",
+     "- 40% of annual consumption to be processed within EU borders by 2030"
+    ],
+    "summary_raw": "EU Critical Minerals Policy and the Case for a Lithium Price Floor&nbsp;&nbsp;Discovery Alert",
+    "english_phrases": [
+     {
+      "phrase": "lithium price floor",
+      "meaning": "리튬 가격 하한제"
+     },
+     {
+      "phrase": "Strategic Projects",
+      "meaning": "CRMA의 전략 프로젝트 지정 절차"
+     },
+     {
+      "phrase": "joint procurement",
+      "meaning": "공동 조달"
+     },
+     {
+      "phrase": "ReSourceEU",
+      "meaning": "민관 투자를 촉진하기 위한 EU 자금 지원 체계"
+     }
+    ],
+    "implication": "EU의 CRMA는 구조 개혁 중심이어서 리튬 가격 변동 위험이 남아 있으며, 가격 하한제가 투자 유인책으로 논의되고 있음",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "f8e2e36401a5",
+   "title": "Critical rare earth race to accelerate as China tightens grip - S&P Global",
+   "title_norm": "critical rare earth race to accelerate as china tightens grip",
+   "url": "https://spglobal.com/market-intelligence/en/news-insights/research/2026/06/critical-rare-earth-race-to-accelerate-as-china-tightens-grip",
+   "gnews_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQUHdFdU5uOGFfSFltcXRtdHpQUmtyTHRZN281OS1FSS1jRC1qNGtPMVV2SlVXcTVVczhLWTFuT1JHWTM2WUowR2tCVUhXdDBuQy11M2VCRThFTVBVZUtoYlRzNnE5RzhZTXQtRVMxMl9wY2xpcFpfcEtnS0JEYzFYVU9ET1l4Sl9WdjhKRkN6X1Q0YlVLY3M2SDM4MVFqazZnbHpLTUhsUWI5ZWZuaHM3TktBTXNTUzF6VU5QNV9YNF9sb1VoRnJDcWJXRjJabllINXhnZTFwcw?oc=5",
+   "source": {
+    "name": "S&P Global - via Google News",
+    "domain": "spglobal.com",
+    "tier": null,
+    "tier_weight": 4,
+    "language": null
+   },
+   "published": "2026-06-27",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:24:36+00:00",
+   "score": 8,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "bot_block",
+    "http_status": 403,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/06/critical-rare-earth-race-to-accelerate-as-china-tightens-grip",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "중국이 장악력을 강화하면서 핵심 희토류 확보 경쟁이 가속화될 전망임"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "핵심광물",
+     "공급망",
+     "중국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "tightens grip",
+      "meaning": "장악력을 강화하다"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:24:38+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "0e0313cf7d",
+     "v1_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQUHdFdU5uOGFfSFltcXRtdHpQUmtyTHRZN281OS1FSS1jRC1qNGtPMVV2SlVXcTVVczhLWTFuT1JHWTM2WUowR2tCVUhXdDBuQy11M2VCRThFTVBVZUtoYlRzNnE5RzhZTXQtRVMxMl9wY2xpcFpfcEtnS0JEYzFYVU9ET1l4Sl9WdjhKRkN6X1Q0YlVLY3M2SDM4MVFqazZnbHpLTUhsUWI5ZWZuaHM3TktBTXNTUzF6VU5QNV9YNF9sb1VoRnJDcWJXRjJabllINXhnZTFwcw?oc=5",
+     "summary_raw": "Critical rare earth race to accelerate as China tightens grip&nbsp;&nbsp;S&amp;P Global"
+    }
+   },
+   "v1": {
+    "korean_summary": "중국의 핵심광물 공급망 장악이 심화되면서 희토류 확보 경쟁이 가속화될 전망으로 확인되었습니다. 글로벌 공급망 재편 및 자급률 강화에 대한 국제적 수요가 증대될 것으로 예상되며, 이는 비(非)중국계 핵심광물 개발 프로젝트의 전략적 중요성을 높이고 있습니다. 우리나라를 포함한 주요 산업국들의 핵심광물 수급 안정화 및 공급처 다변화 전략 수립이 시급한 상황입니다.",
+    "category": "policy_market",
+    "tags": [
+     "희토류",
+     "공급망 안보",
+     "중국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical rare earth race to accelerate",
+      "meaning": "핵심 희토류 확보 경쟁이 가속화되다"
+     },
+     {
+      "phrase": "China tightens grip on supply chain",
+      "meaning": "중국이 공급망에 대한 장악을 강화하다"
+     },
+     {
+      "phrase": "non-Chinese rare earth sourcing",
+      "meaning": "중국 외부의 희토류 소싱/공급원 확보"
+     },
+     {
+      "phrase": "supply chain diversification strategy",
+      "meaning": "공급망 다변화 전략"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "0e0313cf7d",
+    "title": "Critical rare earth race to accelerate as China tightens grip - S&P Global",
+    "url": "https://spglobal.com/market-intelligence/en/news-insights/research/2026/06/critical-rare-earth-race-to-accelerate-as-china-tightens-grip",
+    "source": "S&P Global - via Google News",
+    "tier_weight": 4,
+    "score": 8,
+    "published": "2026-06-27",
+    "korean_summary": [
+     "[제목 기반] 중국이 장악력을 강화하면서 핵심 희토류 확보 경쟁이 가속화될 전망임"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "희토류",
+     "핵심광물",
+     "공급망",
+     "중국"
+    ],
+    "ai_processed": true,
+    "card_id": "f8e2e36401a5",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Critical rare earth race to accelerate as China tightens grip&nbsp;&nbsp;S&amp;P Global",
+    "english_phrases": [
+     {
+      "phrase": "tightens grip",
+      "meaning": "장악력을 강화하다"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "901109d8e8ce",
+   "title": "Lithium producers bet on battery storage as demand shifts beyond EVs - Reuters",
+   "title_norm": "lithium producers bet on battery storage as demand shifts beyond evs",
+   "url": "https://reuters.com/world/asia-pacific/lithium-producers-bet-battery-storage-demand-shifts-beyond-evs-2026-06-24",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVktHRHFqOC1kcUtVTjVhcGZEYklxNWtwc2Q4aGlNWTZ1dHpvTU1heFRYelZSY00yT0R1OV9VVTNZNUZfVHdIRHhvdHI4eTJCU0FGYVZqVWo3bkFBNnRvalBLcFF0MWhXZUI0YU1vTTBSNWNGRVZBWEQzdjNXRS10X2lEMjFNMkZuUmtjdkppeVlueXZ3NFFuTkp1SV9uZEUxaFpsVnZhbjIxYmp3UEJEVGpPa05BdUVB?oc=5",
+   "source": {
+    "name": "Reuters - via Google News",
+    "domain": "reuters.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-06-26",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:24:38+00:00",
+   "score": 7,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "skipped",
+    "http_status": null,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": null,
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "리튬 생산업체들, 수요가 전기차를 넘어 이동하면서 배터리 저장장치에 베팅함"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "배터리 저장장치",
+     "전기차",
+     "수요 변화"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "battery storage",
+      "meaning": "배터리 저장장치"
+     },
+     {
+      "phrase": "demand shifts beyond EVs",
+      "meaning": "수요가 전기차를 넘어 이동함"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:24:40+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "18a5f912ed",
+     "v1_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVktHRHFqOC1kcUtVTjVhcGZEYklxNWtwc2Q4aGlNWTZ1dHpvTU1heFRYelZSY00yT0R1OV9VVTNZNUZfVHdIRHhvdHI4eTJCU0FGYVZqVWo3bkFBNnRvalBLcFF0MWhXZUI0YU1vTTBSNWNGRVZBWEQzdjNXRS10X2lEMjFNMkZuUmtjdkppeVlueXZ3NFFuTkp1SV9uZEUxaFpsVnZhbjIxYmp3UEJEVGpPa05BdUVB?oc=5",
+     "summary_raw": "Lithium producers bet on battery storage as demand shifts beyond EVs&nbsp;&nbsp;Reuters"
+    }
+   },
+   "v1": {
+    "korean_summary": "리튬 생산업체들이 전기자동차(EV) 수요 중심에서 벗어나 에너지저장장치(ESS) 및 그리드 저장 시장으로의 다각화 전략을 추진 중으로 확인되었습니다. 재생에너지 확대에 따른 장시간 배터리 저장 솔루션 수요 증가로 핵심광물로서의 리튬의 용도가 점진적으로 확대될 전망입니다. 이는 향후 핵심광물 수급 전략 및 장기 광물자원 정책 수립에 있어 EV 외 산업용 수요를 적극 고려할 필요성을 시사합니다.",
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "에너지저장장치(ESS)",
+     "재생에너지 연계"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "battery storage as demand shifts beyond EVs",
+      "meaning": "전기자동차 이외의 영역으로 수요가 이동함에 따른 배터리 저장 시장의 확대"
+     },
+     {
+      "phrase": "grid-scale energy storage",
+      "meaning": "계통 규모의 에너지저장장치 (재생에너지 통합 시스템)"
+     },
+     {
+      "phrase": "diversification of lithium applications",
+      "meaning": "리튬 용도의 다각화 (산업용 및 에너지 인프라 확대)"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "18a5f912ed",
+    "title": "Lithium producers bet on battery storage as demand shifts beyond EVs - Reuters",
+    "url": "https://reuters.com/world/asia-pacific/lithium-producers-bet-battery-storage-demand-shifts-beyond-evs-2026-06-24",
+    "source": "Reuters - via Google News",
+    "tier_weight": 3,
+    "score": 7,
+    "published": "2026-06-26",
+    "korean_summary": [
+     "[제목 기반] 리튬 생산업체들, 수요가 전기차를 넘어 이동하면서 배터리 저장장치에 베팅함"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "배터리 저장장치",
+     "전기차",
+     "수요 변화"
+    ],
+    "ai_processed": true,
+    "card_id": "901109d8e8ce",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Lithium producers bet on battery storage as demand shifts beyond EVs&nbsp;&nbsp;Reuters",
+    "english_phrases": [
+     {
+      "phrase": "battery storage",
+      "meaning": "배터리 저장장치"
+     },
+     {
+      "phrase": "demand shifts beyond EVs",
+      "meaning": "수요가 전기차를 넘어 이동함"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "b518900566b6",
+   "title": "European lithium miner eyes secondary listing as interest grows - Mining Weekly",
+   "title_norm": "european lithium miner eyes secondary listing as interest grows",
+   "url": "https://miningweekly.com/article/european-lithium-miner-eyes-secondary-listing-as-interest-grows-2026-06-26",
+   "gnews_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOR1VtYVNiY180ZmRnVnUtNzdCbC1tb25XdEhnMGNISXBXdG1NdVZaR3g4eGpxSmt6TzRxSUN1UktxQUIycXVaS3Zjd29Rbmh0TGt0TXJqcUhnSFdRak9GaElGWXlna1l1Y3NmaVJGV0t0bGRmUElmTGxiNE4zZnprRTRTbGRVemV1cl9wZjQ4RTRSanBJZ19OTEhIc2czUmJjay0zclJPeHBoSU8zYzdCdQ?oc=5",
+   "source": {
+    "name": "Mining Weekly - via Google News",
+    "domain": "miningweekly.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-06-26",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:24:41+00:00",
+   "score": 7,
+   "body": {
+    "status": "full",
+    "chars": 4455,
+    "sha256": "b13b6996a8b76926c53aac0f7f8d88dc36aadcfc1fdfb3a636cec441fcc3f209",
+    "source": "trafilatura",
+    "block_type": null,
+    "http_status": 200,
+    "extracted_date": "2026-06-26",
+    "quotes": [
+     "Lithium prices have rebounded more than 150% over the past year.",
+     "The company, which has a market capitalization of £160-million ($210-million), is working on a range of capital-raising options including offtake-related finance, Proença said."
+    ],
+    "final_url": "https://www.miningweekly.com/article/european-lithium-miner-eyes-secondary-listing-as-interest-grows-2026-06-26",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "런던 상장 리튬 개발사 Savannah Resources가 리스본 또는 호주에서 2차 상장을 추진하고 있음",
+     "Euronext 또는 ASX 상장을 검토 중이며, 시가총액은 £160-million($210-million)이고 오프테이크 연계 금융 등 자금조달을 논의함",
+     "Barroso 프로젝트는 2027년 착공, 2028년 말 생산 개시 예정이며 AMG Lithium BV와 오프테이크를 체결했음"
+    ],
+    "basis": "body",
+    "key_figures": [
+     "£160-million",
+     "150%",
+     "2028"
+    ],
+    "quotes": [
+     "Lithium prices have rebounded more than 150% over the past year.",
+     "The company, which has a market capitalization of £160-million ($210-million), is working on a range of capital-raising options including offtake-related finance, Proença said."
+    ],
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "2차 상장",
+     "Barroso",
+     "포르투갈",
+     "유럽연합"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "secondary listing",
+      "meaning": "2차 상장"
+     },
+     {
+      "phrase": "offtake agreement",
+      "meaning": "생산물 인수 계약"
+     },
+     {
+      "phrase": "strategic project status",
+      "meaning": "전략 프로젝트 지위"
+     },
+     {
+      "phrase": "feasibility study",
+      "meaning": "타당성 조사"
+     }
+    ],
+    "implication": "유럽 리튬 프로젝트가 Euronext나 ASX 상장으로 투자자 기반을 넓히려 하며, 자금조달이 어려웠던 유럽 광산 개발에 새 금융 경로가 열릴 수 있음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "full",
+    "input_chars": 4000,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:24:45+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "96c9995576",
+     "v1_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOR1VtYVNiY180ZmRnVnUtNzdCbC1tb25XdEhnMGNISXBXdG1NdVZaR3g4eGpxSmt6TzRxSUN1UktxQUIycXVaS3Zjd29Rbmh0TGt0TXJqcUhnSFdRak9GaElGWXlna1l1Y3NmaVJGV0t0bGRmUElmTGxiNE4zZnprRTRTbGRVemV1cl9wZjQ4RTRSanBJZ19OTEhIc2czUmJjay0zclJPeHBoSU8zYzdCdQ?oc=5",
+     "summary_raw": "European lithium miner eyes secondary listing as interest grows&nbsp;&nbsp;Mining Weekly"
+    }
+   },
+   "v1": {
+    "korean_summary": "유럽의 핵심광물 채굴사가 글로벌 시장에서의 수요 증가에 대응하여 추가 상장(이중상장)을 추진 중인 것으로 확인되었습니다. 이는 유럽의 핵심광물 공급망 강화와 전략적 자립도 제고를 위한 중요한 신호로 평가됩니다. 향후 유럽 핵심광물 채굴 산업의 투자 확대와 기술 고도화가 가속될 전망입니다.",
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "핵심광물 공급망",
+     "유럽"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "secondary listing",
+      "meaning": "추가 상장 (기존 상장 거래소 외 다른 거래소에 재상장)"
+     },
+     {
+      "phrase": "critical minerals supply chain",
+      "meaning": "핵심광물 공급망"
+     },
+     {
+      "phrase": "European lithium miner",
+      "meaning": "유럽 리튬 채굴사"
+     },
+     {
+      "phrase": "strategic autonomy in raw materials",
+      "meaning": "원료광물의 전략적 자립도"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "96c9995576",
+    "title": "European lithium miner eyes secondary listing as interest grows - Mining Weekly",
+    "url": "https://miningweekly.com/article/european-lithium-miner-eyes-secondary-listing-as-interest-grows-2026-06-26",
+    "source": "Mining Weekly - via Google News",
+    "tier_weight": 3,
+    "score": 7,
+    "published": "2026-06-26",
+    "korean_summary": [
+     "런던 상장 리튬 개발사 Savannah Resources가 리스본 또는 호주에서 2차 상장을 추진하고 있음",
+     "Euronext 또는 ASX 상장을 검토 중이며, 시가총액은 £160-million($210-million)이고 오프테이크 연계 금융 등 자금조달을 논의함",
+     "Barroso 프로젝트는 2027년 착공, 2028년 말 생산 개시 예정이며 AMG Lithium BV와 오프테이크를 체결했음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "2차 상장",
+     "Barroso",
+     "포르투갈",
+     "유럽연합"
+    ],
+    "ai_processed": true,
+    "card_id": "b518900566b6",
+    "basis": "body",
+    "body_status": "full",
+    "key_figures": [
+     "£160-million",
+     "150%",
+     "2028"
+    ],
+    "quotes": [
+     "Lithium prices have rebounded more than 150% over the past year.",
+     "The company, which has a market capitalization of £160-million ($210-million), is working on a range of capital-raising options including offtake-related finance, Proença said."
+    ],
+    "summary_raw": "European lithium miner eyes secondary listing as interest grows&nbsp;&nbsp;Mining Weekly",
+    "english_phrases": [
+     {
+      "phrase": "secondary listing",
+      "meaning": "2차 상장"
+     },
+     {
+      "phrase": "offtake agreement",
+      "meaning": "생산물 인수 계약"
+     },
+     {
+      "phrase": "strategic project status",
+      "meaning": "전략 프로젝트 지위"
+     },
+     {
+      "phrase": "feasibility study",
+      "meaning": "타당성 조사"
+     }
+    ],
+    "implication": "유럽 리튬 프로젝트가 Euronext나 ASX 상장으로 투자자 기반을 넓히려 하며, 자금조달이 어려웠던 유럽 광산 개발에 새 금융 경로가 열릴 수 있음",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "45e67e704d48",
+   "title": "Geopolitics of critical minerals supply chains a tailwind to lithium market - Fastmarkets",
+   "title_norm": "geopolitics of critical minerals supply chains a tailwind to lithium market",
+   "url": "https://fastmarkets.com/insights/china-midstream-supply-chain-tailwinds-lithium-battery-critical-materials-2026",
+   "gnews_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdXB6NEF6U1hfYnVnN1QtV2N6ZGVYWFRZNTlPSkhYQmpsWlRRVEtxckVDaWVVNHU0NjU0Ui13Y0ppM2pGYlVPRDJCWi1YU0xTZUpHTF80S1QtNmVIaktaNmo3RDV0SWE4YmVPM2x1YWZvY3djNGpQb29Ta25INEZGQmlucFVEbE9fRmNsZXVMUXZKd2Nyekh4d0pmNHpneloxSDdlN2ZiX2pmMUhpUDV3LVZkbnlLNlk?oc=5",
+   "source": {
+    "name": "Fastmarkets - via Google News",
+    "domain": "fastmarkets.com",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-06-26",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:24:46+00:00",
+   "score": 14,
+   "body": {
+    "status": "lead_only",
+    "chars": 214,
+    "sha256": "0c1ecec0d63b2098baabc577dbff5bcfbded5158dbb9cb4dccf3ecf2acfc2b35",
+    "source": "og_description",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [
+     "The geopolitics-led diversification of critical minerals supply chains is a tailwind to the lithium market, said senior executives at Fastmarkets’ Global Lithium, Battery and Critical Materials, Las Vegas, June 23."
+    ],
+    "final_url": "https://www.fastmarkets.com/insights/china-midstream-supply-chain-tailwinds-lithium-battery-critical-materials-2026/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "핵심광물 공급망의 지정학이 리튬 시장에 순풍으로 작용한다는 Fastmarkets 보도임",
+     "6월 23일 라스베이거스 Fastmarkets 콘퍼런스에서 업계 고위 임원들이 공급망 다변화가 리튬 시장에 순풍이라고 밝혔음"
+    ],
+    "basis": "lead",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "핵심광물",
+     "공급망 다변화",
+     "지정학",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "tailwind",
+      "meaning": "순풍, 시장에 유리하게 작용하는 요인"
+     },
+     {
+      "phrase": "geopolitics-led diversification",
+      "meaning": "지정학 주도의 (공급망) 다변화"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "lead_only",
+    "input_chars": 214,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:24:48+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "2bbe0c5477",
+     "v1_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdXB6NEF6U1hfYnVnN1QtV2N6ZGVYWFRZNTlPSkhYQmpsWlRRVEtxckVDaWVVNHU0NjU0Ui13Y0ppM2pGYlVPRDJCWi1YU0xTZUpHTF80S1QtNmVIaktaNmo3RDV0SWE4YmVPM2x1YWZvY3djNGpQb29Ta25INEZGQmlucFVEbE9fRmNsZXVMUXZKd2Nyekh4d0pmNHpneloxSDdlN2ZiX2pmMUhpUDV3LVZkbnlLNlk?oc=5",
+     "summary_raw": "Geopolitics of critical minerals supply chains a tailwind to lithium market&nbsp;&nbsp;Fastmarkets"
+    }
+   },
+   "v1": {
+    "korean_summary": "지정학적 리스크가 핵심광물 공급망의 다변화 필요성을 강조하면서 리튬 시장의 성장을 견인할 것으로 예상되고 있습니다. 공급 불안정성과 수요 증가로 인해 기존 주요 생산국 중심의 의존도 감소와 신규 광원 개발의 중요성이 부각되고 있습니다. 이러한 흐름은 리튬 가격 상승과 투자 확대로 이어져 글로벌 에너지 전환 산업의 가속화를 촉진할 전망입니다.",
+    "category": "supply_chain",
+    "tags": [
+     "리튬",
+     "핵심광물 공급망",
+     "지정학적 리스크"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "geopolitics of critical minerals supply chains",
+      "meaning": "핵심광물 공급망의 지정학적 요인"
+     },
+     {
+      "phrase": "supply chain diversification",
+      "meaning": "공급망 다변화"
+     },
+     {
+      "phrase": "tailwind to the market",
+      "meaning": "시장 성장을 견인하는 긍정적 요인"
+     },
+     {
+      "phrase": "supply security concerns",
+      "meaning": "공급 보안 우려사항"
+     },
+     {
+      "phrase": "emerging sources of critical minerals",
+      "meaning": "신규 핵심광물 광원"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "2bbe0c5477",
+    "title": "Geopolitics of critical minerals supply chains a tailwind to lithium market - Fastmarkets",
+    "url": "https://fastmarkets.com/insights/china-midstream-supply-chain-tailwinds-lithium-battery-critical-materials-2026",
+    "source": "Fastmarkets - via Google News",
+    "tier_weight": 5,
+    "score": 14,
+    "published": "2026-06-26",
+    "korean_summary": [
+     "[본문 미확보] 핵심광물 공급망의 지정학이 리튬 시장에 순풍으로 작용한다는 Fastmarkets 보도임",
+     "6월 23일 라스베이거스 Fastmarkets 콘퍼런스에서 업계 고위 임원들이 공급망 다변화가 리튬 시장에 순풍이라고 밝혔음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "리튬",
+     "핵심광물",
+     "공급망 다변화",
+     "지정학",
+     "미국"
+    ],
+    "ai_processed": true,
+    "card_id": "45e67e704d48",
+    "basis": "lead",
+    "body_status": "lead_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Geopolitics of critical minerals supply chains a tailwind to lithium market&nbsp;&nbsp;Fastmarkets",
+    "english_phrases": [
+     {
+      "phrase": "tailwind",
+      "meaning": "순풍, 시장에 유리하게 작용하는 요인"
+     },
+     {
+      "phrase": "geopolitics-led diversification",
+      "meaning": "지정학 주도의 (공급망) 다변화"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "a2699117f868",
+   "title": "US Army selects Titan, REalloys to build critical mineral processing sites - Reuters",
+   "title_norm": "us army selects titan realloys to build critical mineral processing sites",
+   "url": "https://reuters.com/world/china/titan-mining-signs-lease-with-us-army-graphite-processing-2026-06-25",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWERTU2NaMjJWVU5lX29mY3ZLellxV3h5YjgtY08teFhrcDRNMEtVcGxfc3d3dFU3RkNlZTdscGtKTG51WkdjUDVWd3RxWHF4eTR5R3M1QmFWUHExQzI5ZmJGRHpXa0lydWpFR3FBN281MjJwdGlNZENUTUg2M01xSGhSb19yQm1WMnY4VU5SRjdOUWRUQkRYRndsdnlNcHE1a2VuMW40YV8?oc=5",
+   "source": {
+    "name": "Reuters - via Google News",
+    "domain": "reuters.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-06-25",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:24:48+00:00",
+   "score": 9,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "skipped",
+    "http_status": null,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": null,
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "미 육군이 핵심광물 가공 시설 건설 사업자로 Titan과 REalloys를 선정했음"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "supply_chain",
+    "tags": [
+     "핵심광물",
+     "가공시설",
+     "미국 육군",
+     "공급망"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical mineral processing sites",
+      "meaning": "핵심광물 가공 시설"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:24:50+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "c8ded26eaf",
+     "v1_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWERTU2NaMjJWVU5lX29mY3ZLellxV3h5YjgtY08teFhrcDRNMEtVcGxfc3d3dFU3RkNlZTdscGtKTG51WkdjUDVWd3RxWHF4eTR5R3M1QmFWUHExQzI5ZmJGRHpXa0lydWpFR3FBN281MjJwdGlNZENUTUg2M01xSGhSb19yQm1WMnY4VU5SRjdOUWRUQkRYRndsdnlNcHE1a2VuMW40YV8?oc=5",
+     "summary_raw": "US Army selects Titan, REalloys to build critical mineral processing sites&nbsp;&nbsp;Reuters"
+    }
+   },
+   "v1": {
+    "korean_summary": "미 육군이 Titan과 REalloys를 선정하여 핵심광물 처리시설 건설을 추진하고 있으며, 이는 미국 내 핵심광물의 공급망 자립화 전략의 일환으로 확인되었습니다. 본 사업을 통해 희토류 원소 및 기타 전략적 중요 광물의 국내 처리 역량 강화가 이루어질 전망입니다. 이러한 정책적 움직임은 글로벌 핵심광물 수급 경쟁에서 자주권 확보의 중요성을 재차 강조하는 신호로 해석됩니다.",
+    "category": "supply_chain",
+    "tags": [
+     "희토류원소(REE)",
+     "광물처리·정련기술",
+     "미국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical mineral processing site",
+      "meaning": "핵심광물 처리시설"
+     },
+     {
+      "phrase": "supply chain resilience",
+      "meaning": "공급망 회복력/강건성"
+     },
+     {
+      "phrase": "domestic refining capability",
+      "meaning": "국내 정련 역량"
+     },
+     {
+      "phrase": "rare earth element (REE) separation",
+      "meaning": "희토류원소 분리"
+     },
+     {
+      "phrase": "vertical integration in mineral processing",
+      "meaning": "광물 처리의 수직통합"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "c8ded26eaf",
+    "title": "US Army selects Titan, REalloys to build critical mineral processing sites - Reuters",
+    "url": "https://reuters.com/world/china/titan-mining-signs-lease-with-us-army-graphite-processing-2026-06-25",
+    "source": "Reuters - via Google News",
+    "tier_weight": 3,
+    "score": 9,
+    "published": "2026-06-25",
+    "korean_summary": [
+     "[제목 기반] 미 육군이 핵심광물 가공 시설 건설 사업자로 Titan과 REalloys를 선정했음"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "핵심광물",
+     "가공시설",
+     "미국 육군",
+     "공급망"
+    ],
+    "ai_processed": true,
+    "card_id": "a2699117f868",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "US Army selects Titan, REalloys to build critical mineral processing sites&nbsp;&nbsp;Reuters",
+    "english_phrases": [
+     {
+      "phrase": "critical mineral processing sites",
+      "meaning": "핵심광물 가공 시설"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "9ab6fc57c6ae",
+   "title": "Fastmarkets amends frequency of CIF Japan, Korea nickel sulfate assessments - Fastmarkets",
+   "title_norm": "fastmarkets amends frequency of cif japan korea nickel sulfate assessments",
+   "url": "https://fastmarkets.com/insights/fastmarkets-amends-frequency-of-cif-japan-korea-nickel-sulfate-assessments",
+   "gnews_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQU0hQZjdWelUyaHJQTDN5MnNaZG1hWXA3bTk0TVMwdEtkN1lITkFwOVgwRXk0SlRMbU92M3dSaC15dVlseFFhdVJEZmtIUks0N2pzMGdZY1ZWalNyd3V1Zkl2MkYwdFlMdGI4MmdPV3AxN1dycEVuWUx5R2h6WWdKTUxMbDlMNFh3Zk5oVVZwWjQza0tXbm1DTUFpZFNLWEtXRGhTVFdCZW5KdWV6dXdzMUFR?oc=5",
+   "source": {
+    "name": "Fastmarkets - via Google News",
+    "domain": "fastmarkets.com",
+    "tier": null,
+    "tier_weight": 5,
+    "language": null
+   },
+   "published": "2026-06-26",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:24:51+00:00",
+   "score": 9,
+   "body": {
+    "status": "lead_only",
+    "chars": 217,
+    "sha256": "8f3bdd13f95ff1842ecb43b8d46d723bed78e14ed041ad335420ecdd456ee41b",
+    "source": "og_description",
+    "block_type": "parse_fail",
+    "http_status": 200,
+    "extracted_date": null,
+    "quotes": [
+     "Fastmarkets has amended the frequency of its MB-NI-0246 Nickel sulfate, cif Japan and Korea, and MB-NI-0247 Nickel sulfate premium, cif Japan and Korea assessments to fortnightly from weekly, effective Friday June 26."
+    ],
+    "final_url": "https://www.fastmarkets.com/insights/fastmarkets-amends-frequency-of-cif-japan-korea-nickel-sulfate-assessments/",
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "Fastmarkets가 CIF 일본·한국 황산니켈 평가 주기를 변경했음",
+     "MB-NI-0246, MB-NI-0247 평가를 주간에서 격주로 바꾸며 6월 26일(금)부터 적용한다고 밝혔음"
+    ],
+    "basis": "lead",
+    "key_figures": [],
+    "quotes": [],
+    "category": "policy_market",
+    "tags": [
+     "니켈",
+     "황산니켈",
+     "가격평가",
+     "일본",
+     "한국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "Nickel sulfate, cif Japan and Korea",
+      "meaning": "CIF 일본·한국 기준 황산니켈"
+     },
+     {
+      "phrase": "fortnightly from weekly",
+      "meaning": "주간에서 격주로"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "lead_only",
+    "input_chars": 217,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:24:54+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "4af2a6f5a5",
+     "v1_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQU0hQZjdWelUyaHJQTDN5MnNaZG1hWXA3bTk0TVMwdEtkN1lITkFwOVgwRXk0SlRMbU92M3dSaC15dVlseFFhdVJEZmtIUks0N2pzMGdZY1ZWalNyd3V1Zkl2MkYwdFlMdGI4MmdPV3AxN1dycEVuWUx5R2h6WWdKTUxMbDlMNFh3Zk5oVVZwWjQza0tXbm1DTUFpZFNLWEtXRGhTVFdCZW5KdWV6dXdzMUFR?oc=5",
+     "summary_raw": "Fastmarkets amends frequency of CIF Japan, Korea nickel sulfate assessments&nbsp;&nbsp;Fastmarkets"
+    }
+   },
+   "v1": {
+    "korean_summary": "Fastmarkets는 일본과 한국의 황산니켈(nickel sulfate) 가격 평가 빈도를 조정하였으며, 이는 동아시아 지역의 니켈 시장 투명성 강화를 목표로 함을 확인되었습니다. 해당 조정은 배터리 및 전기자동차 산업의 핵심광물인 니켈의 가격 지표 신뢰도 제고에 기여할 전망입니다. 이러한 변화는 글로벌 핵심광물 공급망 관리 강화 추세와 맞물려 있으며, 우리나라 니켈 기반 소재산업의 경쟁력 평가에 중요한 역할을 할 것으로 예상됩니다.",
+    "category": "supply_chain",
+    "tags": [
+     "니켈",
+     "가격지표·벤치마킹",
+     "일본·한국"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "amends frequency of CIF assessments",
+      "meaning": "CIF(Cost, Insurance and Freight) 기반 가격 평가 빈도 조정"
+     },
+     {
+      "phrase": "nickel sulfate market transparency",
+      "meaning": "황산니켈 시장 투명성"
+     },
+     {
+      "phrase": "price assessment methodology",
+      "meaning": "가격 평가 방법론"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "4af2a6f5a5",
+    "title": "Fastmarkets amends frequency of CIF Japan, Korea nickel sulfate assessments - Fastmarkets",
+    "url": "https://fastmarkets.com/insights/fastmarkets-amends-frequency-of-cif-japan-korea-nickel-sulfate-assessments",
+    "source": "Fastmarkets - via Google News",
+    "tier_weight": 5,
+    "score": 9,
+    "published": "2026-06-26",
+    "korean_summary": [
+     "[본문 미확보] Fastmarkets가 CIF 일본·한국 황산니켈 평가 주기를 변경했음",
+     "MB-NI-0246, MB-NI-0247 평가를 주간에서 격주로 바꾸며 6월 26일(금)부터 적용한다고 밝혔음"
+    ],
+    "category": "policy_market",
+    "tags": [
+     "니켈",
+     "황산니켈",
+     "가격평가",
+     "일본",
+     "한국"
+    ],
+    "ai_processed": true,
+    "card_id": "9ab6fc57c6ae",
+    "basis": "lead",
+    "body_status": "lead_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Fastmarkets amends frequency of CIF Japan, Korea nickel sulfate assessments&nbsp;&nbsp;Fastmarkets",
+    "english_phrases": [
+     {
+      "phrase": "Nickel sulfate, cif Japan and Korea",
+      "meaning": "CIF 일본·한국 기준 황산니켈"
+     },
+     {
+      "phrase": "fortnightly from weekly",
+      "meaning": "주간에서 격주로"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  },
+  {
+   "schema_version": "card.v1",
+   "service": "cmw",
+   "card_id": "622db1a83c1f",
+   "title": "Canada, Japan consider critical minerals joint stockpiling in hunt for China alternatives - Reuters",
+   "title_norm": "canada japan consider critical minerals joint stockpiling in hunt for china alternatives",
+   "url": "https://reuters.com/world/asia-pacific/canada-japan-consider-critical-minerals-joint-stockpiling-hunt-china-2026-06-26",
+   "gnews_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWmc4a0xZSXBfR3l1UWFqeGN6eW9FU0VjYUoxanR1MnhiVFhIdzlXWS05cU5iT0oxcWdEZGJfanNySEFibDZZWXhxdldzVlN4YzZtLWtHX01RSFpDVk1YamlfeldmeGd4RVFoWmFia1FxSWU3elhzNFF6dEk2RkoyWkhoNHRMMFY0VWJNalozRFFZbFlFQi1FdElyX1I3TTdaOGcxS1JrdkkwNktmSk8xRHBINFhUdlNtUW15WU8zUGo?oc=5",
+   "source": {
+    "name": "Reuters - via Google News",
+    "domain": "reuters.com",
+    "tier": null,
+    "tier_weight": 3,
+    "language": null
+   },
+   "published": "2026-06-26",
+   "published_from": "rss",
+   "collected_at": "2026-10-19T05:24:54+00:00",
+   "score": 7,
+   "body": {
+    "status": "title_only",
+    "chars": 0,
+    "sha256": null,
+    "source": "none",
+    "block_type": "skipped",
+    "http_status": null,
+    "extracted_date": null,
+    "quotes": [],
+    "final_url": null,
+    "strategies_tried": []
+   },
+   "summary_input_max_chars": 4000,
+   "summary": {
+    "lines": [
+     "캐나다·일본, 중국 대안 모색 속 핵심광물 공동 비축 검토 중임"
+    ],
+    "basis": "title",
+    "key_figures": [],
+    "quotes": [],
+    "category": "supply_chain",
+    "tags": [
+     "핵심광물",
+     "공동 비축",
+     "공급망",
+     "캐나다",
+     "일본"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "joint stockpiling",
+      "meaning": "공동 비축"
+     },
+     {
+      "phrase": "China alternatives",
+      "meaning": "중국을 대체할 공급처·대안"
+     }
+    ],
+    "implication": "해당 없음"
+   },
+   "provenance": {
+    "model": "claude-sonnet-5-5",
+    "prompt_file": "prompts/summarize_v2.md",
+    "prompt_version": "v2.2",
+    "prompt_sha256": "eaf7589991120bfc071d0534339bf5276d3863f9aed037a922982cf98f472132",
+    "input_body_status": "title_only",
+    "input_chars": 0,
+    "attempts": 1,
+    "summarized_at": "2026-10-19T05:24:55+00:00"
+   },
+   "ext": {
+    "cmw": {
+     "legacy_id": "1c68c9859c",
+     "v1_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWmc4a0xZSXBfR3l1UWFqeGN6eW9FU0VjYUoxanR1MnhiVFhIdzlXWS05cU5iT0oxcWdEZGJfanNySEFibDZZWXhxdldzVlN4YzZtLWtHX01RSFpDVk1YamlfeldmeGd4RVFoWmFia1FxSWU3elhzNFF6dEk2RkoyWkhoNHRMMFY0VWJNalozRFFZbFlFQi1FdElyX1I3TTdaOGcxS1JrdkkwNktmSk8xRHBINFhUdlNtUW15WU8zUGo?oc=5",
+     "summary_raw": "Canada, Japan consider critical minerals joint stockpiling in hunt for China alternatives&nbsp;&nbsp;Reuters"
+    }
+   },
+   "v1": {
+    "korean_summary": "캐나다와 일본이 중국에 대한 의존도 감소를 목표로 핵심광물의 공동 비축 협력을 검토하고 있는 것으로 확인되었습니다. 양국은 공급망 안정성을 강화하고 전략적 자율성을 확보하기 위해 핵심광물 확보 및 저장 체계를 구축할 전망입니다. 이는 글로벌 핵심광물 시장에서 중국 중심의 공급망 구조 개편 움직임이 가속화되고 있음을 시사합니다.",
+    "category": "supply_chain",
+    "tags": [
+     "핵심광물",
+     "공급망 안정성",
+     "캐나다·일본"
+    ],
+    "english_phrases": [
+     {
+      "phrase": "critical minerals joint stockpiling",
+      "meaning": "핵심광물 공동 비축"
+     },
+     {
+      "phrase": "supply chain diversification",
+      "meaning": "공급망 다변화"
+     },
+     {
+      "phrase": "strategic autonomy in raw materials",
+      "meaning": "원료광물에 대한 전략적 자율성"
+     },
+     {
+      "phrase": "China alternatives",
+      "meaning": "중국 의존도 감소를 위한 대체 경로"
+     },
+     {
+      "phrase": "bilateral cooperation framework",
+      "meaning": "양국 간 협력 체계"
+     }
+    ],
+    "ai_processed": true
+   },
+   "legacy": {
+    "id": "1c68c9859c",
+    "title": "Canada, Japan consider critical minerals joint stockpiling in hunt for China alternatives - Reuters",
+    "url": "https://reuters.com/world/asia-pacific/canada-japan-consider-critical-minerals-joint-stockpiling-hunt-china-2026-06-26",
+    "source": "Reuters - via Google News",
+    "tier_weight": 3,
+    "score": 7,
+    "published": "2026-06-26",
+    "korean_summary": [
+     "[제목 기반] 캐나다·일본, 중국 대안 모색 속 핵심광물 공동 비축 검토 중임"
+    ],
+    "category": "supply_chain",
+    "tags": [
+     "핵심광물",
+     "공동 비축",
+     "공급망",
+     "캐나다",
+     "일본"
+    ],
+    "ai_processed": true,
+    "card_id": "622db1a83c1f",
+    "basis": "title",
+    "body_status": "title_only",
+    "key_figures": [],
+    "quotes": [],
+    "summary_raw": "Canada, Japan consider critical minerals joint stockpiling in hunt for China alternatives&nbsp;&nbsp;Reuters",
+    "english_phrases": [
+     {
+      "phrase": "joint stockpiling",
+      "meaning": "공동 비축"
+     },
+     {
+      "phrase": "China alternatives",
+      "meaning": "중국을 대체할 공급처·대안"
+     }
+    ],
+    "implication": "",
+    "trial": false
+   },
+   "trial": false
+  }
+ ],
+ "excluded": [],
+ "v1_file": "week-2026-06-29.json",
+ "v1_metrics": {
+  "articles": 12,
+  "original_link": 2,
+  "body_based": 0,
+  "failed": 0
+ },
+ "trial": false
+}
