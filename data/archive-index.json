@@ -1,7 +1,27 @@
 {
-  "total_weeks": 29,
-  "latest_week": "2026-10-19",
+  "total_weeks": 30,
+  "latest_week": "2026-10-26",
   "weeks": [
+    {
+      "week_of": "2026-10-26",
+      "filename": "week-2026-10-26.json",
+      "total_cards": 12,
+      "category_counts": {
+        "policy_market": 3,
+        "exploration_tech": 2,
+        "discovery": 2,
+        "supply_chain": 4,
+        "research": 1
+      },
+      "top_tags": [
+        "리튬",
+        "핵심광물 공급망",
+        "텅스텐",
+        "안티모니",
+        "초기단계탐사"
+      ],
+      "generated_at": "2026-10-26T00:56:40.208285+00:00"
+    },
     {
       "week_of": "2026-10-19",
       "filename": "week-2026-10-19.json",

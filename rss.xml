@@ -6,138 +6,140 @@
     <atom:link href="https://dolmudaddy.github.io/critical-minerals/rss.xml" rel="self" type="application/rss+xml"/>
     <description>조성준 박사 (KIGAM, 한국자원공학회장) 큐레이션. 핵심광물 탐사·정책·시장 주간 동향.</description>
     <language>ko-KR</language>
-    <lastBuildDate>Mon, 19 Oct 2026 00:41:41 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 00:56:40 +0000</lastBuildDate>
     <generator>GitHub Actions + Claude API</generator>
     <managingEditor>dolmudaddy@gmail.com (조성준)</managingEditor>
     <item>
-      <title>Major development banks step up support for critical minerals value chains - Reuters</title>
-      <link>https://news.google.com/rss/articles/CBMiwwFBVV95cUxPc3h2ZF9YVG81ZVh6OXlpVnhDWEdKMVJGMDZjZGkzM2ZGRml0bHZHdjN3UkFQRGRzWWp0SlA1eks2TnR0LUw4SEpDTE1TR180Z0EwVDhYb0N0U1pBSWpUNHdEVDlYc05LNDF3Rk9OeVBXTDJOMmNmcnpyTUhyeHZ2QXFJZHQwbk9xVlNUMnlxUkV4Q2ZNRnNrRmd0V1JHQU9jOGJTZWlXY1did0d3TUZKMTRlNEhjOGY0WVFpSmpBeHhjNHM?oc=5</link>
-      <guid isPermaLink="false">b48e0ffd9d</guid>
-      <pubDate>Sat, 17 Oct 2026 04:14:00 +0000</pubDate>
-      <source url="https://dolmudaddy.github.io/critical-minerals">Reuters - via Google News</source>
-      <category>리튬·코발트·니켈</category>
-      <category>공급망 안정화</category>
-      <category>개발금융기관</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Reuters - via Google News&lt;/p&gt;&lt;p&gt;주요 개발금융기관들이 핵심광물 밸류체인 구축에 대한 지원을 강화하고 있는 것으로 확인되었습니다. 이는 에너지 전환과 전기차 산업 확대에 따른 핵심광물 수요 증가에 대응하기 위한 전략적 조치로 평가됩니다. 향후 채광에서 정제·가공에 이르는 전주기적 공급망 안정화가 글로벌 경제 회복의 핵심 과제가 될 전망입니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;critical minerals value chains&lt;/em&gt; — 핵심광물 가치사슬 (채광·정제·가공·활용의 전 단계)&lt;/li&gt;&lt;li&gt;&lt;em&gt;development banks stepping up support&lt;/em&gt; — 개발금융기관의 지원 확대·강화&lt;/li&gt;&lt;li&gt;&lt;em&gt;supply chain resilience&lt;/em&gt; — 공급망 회복력 및 안정성&lt;/li&gt;&lt;li&gt;&lt;em&gt;upstream to downstream integration&lt;/em&gt; — 채광 상류부터 최종 제품 하류까지의 통합&lt;/li&gt;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Greenland to introduce ban on seabed mining</title>
-      <link>https://www.mining.com/greenland-to-introduce-ban-on-seabed-mining/</link>
-      <guid isPermaLink="false">877c3a702c</guid>
-      <pubDate>Fri, 16 Oct 2026 22:19:25 +0000</pubDate>
-      <source url="https://dolmudaddy.github.io/critical-minerals">Mining.com</source>
-      <category>북극광물자원</category>
-      <category>해저채굴정책</category>
-      <category>그린란드</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Mining.com&lt;/p&gt;&lt;p&gt;그린란드가 해저광물 채굴을 금지하는 정책을 도입할 예정으로 확인되었습니다. 이는 트럼프 미국 대통령이 덴마크령 북극 지역에서 대규모 석유·가스·광물 탐사를 추진하겠다고 발표한 직후 발표된 것으로, 국제적 자원개발 정책의 상충을 보여주는 사례입니다. 북극 지역 핵심광물 자원 개발을 둘러싼 지정학적 긴장이 심화될 전망입니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;seabed mining ban&lt;/em&gt; — 해저광물 채굴 금지&lt;/li&gt;&lt;li&gt;&lt;em&gt;massive mineral exploration&lt;/em&gt; — 대규모 광물 탐사&lt;/li&gt;&lt;li&gt;&lt;em&gt;Arctic jurisdiction&lt;/em&gt; — 북극 지역 관할권&lt;/li&gt;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Greenland-focused miners welcome Trump's plans for major mineral exploration - Mining Weekly</title>
-      <link>https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbHNRNjZYRWNSZTBLdldFQ21DNlFBZTNVcGoyMnYxYlQ2b0lEOG9QdVE5WDJ5bHlnb2FHcDhqZjJEUlQ4OTNfQ1hINkJYN2x6RWVVZlZyQnAzWlEwTjVjM1BBZlBfd3JabV9BWXNCTVlCTUJnLWF1UWlrQk16YXpSWnp3TG52UC1UcTEtTlNWaG9hVHhRTGJRZ3Y2UGR4UzJBMFNucVA1MDF1c3lkQVA2anhFNnhBSW1YOFRvQzBPN1c?oc=5</link>
-      <guid isPermaLink="false">f727bd2d84</guid>
-      <pubDate>Thu, 15 Oct 2026 07:50:00 +0000</pubDate>
-      <source url="https://dolmudaddy.github.io/critical-minerals">Mining Weekly - via Google News</source>
-      <category>희토류·우라늄</category>
-      <category>탐사 정책</category>
-      <category>그린란드</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Mining Weekly - via Google News&lt;/p&gt;&lt;p&gt;트럼프 행정부가 그린란드의 대규모 광물 탐사 계획을 추진함에 따라 그린란드 지역에 집중된 광업 기업들이 긍정적 반응을 보이고 있습니다. 이는 북대서양 지역의 핵심광물 공급 확보를 위한 지정학적 전략으로 평가되고 있습니다. 그린란드의 풍부한 희토류, 우라늄, 철광석 등 핵심광물 매장량이 글로벌 공급망 재편의 중심으로 떠오르고 있습니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;critical mineral exploration in Greenland&lt;/em&gt; — 그린란드의 핵심광물 탐사&lt;/li&gt;&lt;li&gt;&lt;em&gt;mineral supply chain diversification&lt;/em&gt; — 광물 공급망의 다변화&lt;/li&gt;&lt;li&gt;&lt;em&gt;geopolitical strategic interests in Arctic resources&lt;/em&gt; — 북극 자원에 대한 지정학적 전략 이해관계&lt;/li&gt;&lt;li&gt;&lt;em&gt;major mineral deposits assessment&lt;/em&gt; — 주요 광물 매장량 평가&lt;/li&gt;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>EU adds four rare earth projects to strategic list to support recycling, processing goals - Fastmarkets</title>
-      <link>https://news.google.com/rss/articles/CBMixAFBVV95cUxNeTAzUDhUX1lyY21nbzdmOFlfbG4zNmhVZF9ULVFtMTdnOHhTOHN5bjJ5dGRBUmhvZ3VlUXpzLThaVFU3QzdlbU0yc25wU3N5NC1aeUVkSkJyY2QwOHluWHItUml1V05HeHVKejFTSTZZbUF6eTIzNWdzOWlhTVRmbm01ZVNya0F3YzdYQmZ2RkNTSlhiRHprSUJaczRIdVkwbTMzUHFEaGhvT0hZeHhvbGkzSV84TmlKN1lFQ3FTOVZ1OHdH?oc=5</link>
-      <guid isPermaLink="false">0ec50b7d81</guid>
-      <pubDate>Wed, 14 Oct 2026 09:59:50 +0000</pubDate>
-      <source url="https://dolmudaddy.github.io/critical-minerals">Fastmarkets - via Google News</source>
-      <category>희토류</category>
-      <category>순환경제·재활용</category>
-      <category>EU·유럽</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Fastmarkets - via Google News&lt;/p&gt;&lt;p&gt;EU가 희토류 재활용 및 가공 목표 달성을 지원하기 위해 4개의 희토류 프로젝트를 전략광물 목록에 추가했음이 확인되었습니다. 이는 EU의 핵심광물 공급망 자립화 전략의 일환으로, 유럽 내 희토류 자체 처리 능력 강화를 목표로 하고 있습니다. 해당 프로젝트들의 지정은 순환경제 기반의 희토류 확보 체계 구축에 중요한 정책적 신호를 제공할 것으로 전망됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;rare earth projects on strategic list&lt;/em&gt; — 전략광물 목록에 등재된 희토류 프로젝트&lt;/li&gt;&lt;li&gt;&lt;em&gt;recycling and processing goals&lt;/em&gt; — 재활용 및 가공 목표&lt;/li&gt;&lt;li&gt;&lt;em&gt;critical mineral supply chain autonomy&lt;/em&gt; — 핵심광물 공급망 자립화&lt;/li&gt;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>AuKing Mining Touts US Support for Critical Minerals Exploration in Greenland - marketscreener.com</title>
-      <link>https://news.google.com/rss/articles/CBMiygFBVV95cUxQYVBSODBwQ1dpZm5GMEoyLUVrMmRGS2g4b0xjZU9vNUJFcnNZemNaUEhnMFRrRnJOYnFMYXMzQXQtQzUtYWltZDU4bUpBZzBzV0FWNUt3UVBrTnVUenhDR0hWNWREdWc2dEw3UXVybXVsR1lYMzhpZ0EzVEdUUGRSZzhvQXExYXdCcHNycTBiR3FmdEhSQkFEb1lKLVV1RXZTZWNCWmJ5c0tSYlJGNjdFQnU4THU4SEwtdUUtZEFrRmlnR3V3TWVXRUF3?oc=5</link>
-      <guid isPermaLink="false">59436c83c6</guid>
-      <pubDate>Thu, 15 Oct 2026 06:12:15 +0000</pubDate>
-      <source url="https://dolmudaddy.github.io/critical-minerals">Google News - Critical Minerals Exploration</source>
-      <category>희토류/희유금속</category>
-      <category>탐사정책</category>
-      <category>그린란드/북극권</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Google News - Critical Minerals Exploration&lt;/p&gt;&lt;p&gt;AuKing Mining이 그린란드에서의 핵심광물 탐사에 대한 미국의 지원 확보를 발표하였으며, 이는 북극권 지역의 전략적 자원 확보 경쟁이 심화되고 있음을 시사합니다. 미국의 핵심광물 공급망 다원화 정책에 따라 그린란드와 같은 비전통적 지역의 탐사 활동이 가속화될 것으로 전망됩니다. 이는 글로벌 핵심광물 수급 불균형 해소 및 지정학적 공급 리스크 완화를 위한 국제협력의 중요성을 강조하는 바입니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;critical minerals exploration&lt;/em&gt; — 핵심광물 탐사&lt;/li&gt;&lt;li&gt;&lt;em&gt;supply chain diversification&lt;/em&gt; — 공급망 다원화&lt;/li&gt;&lt;li&gt;&lt;em&gt;geopolitical risk mitigation&lt;/em&gt; — 지정학적 리스크 완화&lt;/li&gt;&lt;li&gt;&lt;em&gt;Arctic minerals strategy&lt;/em&gt; — 북극권 광물 전략&lt;/li&gt;&lt;li&gt;&lt;em&gt;non-traditional sources&lt;/em&gt; — 비전통적 공급원&lt;/li&gt;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Krait Critical Minerals Shares Retreat 6.60% as Antimony Portfolio Expansion and Early-Stage Exploration Pacing Challenge Investor Sentiment - kalkine.ca</title>
-      <link>https://news.google.com/rss/articles/CBMi_gFBVV95cUxQZHU2VlhzNDBNU3dPeVZQbUt2MXR0ZmNzZnFqSC1iazdzWVY5cXJyRHo5S1puLWdGcEVtWmxsRG92WjQybGhLZmlpYU1yYWVzdy1TXzdJZGJBVnk2OU5XQWVGUTYwQW0zRUhqbjBKS041bVNLOXBUbEtXRWdhY0ZyV3VBbkc4Q1RNTkQ3azJMaGI1SDd6eUlQLW1XRm9SS2FpSEQtOVZCZW0tY2dLYnpVN2hEc3k3ZHVfTDBKNHRKUWx3ZzlZcl9IVmRlRVhpWWcxVjJxeUVuUVRaSFg4TVJsM1VBdm9wcVBzcnRTUzNzXzZpd042VkxqR2lNS2pzZw?oc=5</link>
-      <guid isPermaLink="false">a89fc8bcc6</guid>
-      <pubDate>Thu, 15 Oct 2026 06:53:41 +0000</pubDate>
+      <title>Krait Critical Minerals Corp. Dips as Early-Stage Antimony and Ontario Exploration Story Meets Speculative Caution - kalkine.ca</title>
+      <link>https://news.google.com/rss/articles/CBMi3AFBVV95cUxOVjJHdW9VVFZtWE53V2wyRlZzMkJSNHJoVUoxWFZYTG9wZV9DMGIxbHpTUlA1T19qRzV4UnFJcTl4V2o3eklLOTd0bFJjbTFBQlBDWjJHSVc1V2F0MXp5VVlQWnFNSmlGNF9NbWdYQ1V3LW0wbUgxMEprUGgySUJGWjh3QlZhdTlaVnl5cWwxYVU1REZQdHpSNE94VU5tMDY0bEFpdkVDdzBNWkwtUDhyOW9rVlNlNmNBWWE4WkViQXQyWlZoQmNDSnE2YUVzNkJXZkpDMnBhNDF4cURa?oc=5</link>
+      <guid isPermaLink="false">687342956e</guid>
+      <pubDate>Thu, 22 Oct 2026 08:54:00 +0000</pubDate>
       <source url="https://dolmudaddy.github.io/critical-minerals">Google News - Critical Minerals Exploration</source>
       <category>안티모니</category>
-      <category>핵심광물 탐사</category>
-      <category>상장사 주가</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Google News - Critical Minerals Exploration&lt;/p&gt;&lt;p&gt;크라이트 핵심광물(Krait Critical Minerals)의 주가가 안티모니 포트폴리오 확대 및 초기 단계 탐사 진행 지연으로 인해 6.60% 하락한 것으로 확인되었습니다. 투자자 심리가 초기 탐사 단계의 불확실성과 포트폴리오 다각화 속도에 대한 우려로 영향받은 것으로 분석됩니다. 이는 핵심광물 탐사 부문에서 초기 단계 프로젝트의 가시적 성과 창출이 투자자 신뢰 확보에 중요함을 시사하고 있습니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;Portfolio expansion&lt;/em&gt; — 포트폴리오 확대 / 탐사 자산의 다각화&lt;/li&gt;&lt;li&gt;&lt;em&gt;Early-stage exploration pacing&lt;/em&gt; — 초기 단계 탐사의 진행 속도 / 탐사 진도&lt;/li&gt;&lt;li&gt;&lt;em&gt;Investor sentiment challenge&lt;/em&gt; — 투자자 심리 악화 요인 / 투자심리 상실&lt;/li&gt;&lt;/ul&gt;</description>
+      <category>초기단계탐사</category>
+      <category>캐나다(온타리오주)</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Google News - Critical Minerals Exploration&lt;/p&gt;&lt;p&gt;캐나다 온타리오주의 초기 단계 안티모니 탐사 프로젝트를 진행 중인 Krait Critical Minerals Corp.의 주가가 시장의 투기적 신중론으로 인해 하락세를 보이고 있는 것으로 확인되었음. 핵심광물 탐사 기업의 초기 단계 프로젝트는 상당한 기술적·경제적 불확실성에 직면해 있으며, 이는 후기 단계 프로젝트 대비 투자자 심리에 부정적 영향을 미치고 있음. 안티모니와 같은 핵심광물의 공급 안정성 강화를 위해서는 탐사 단계부터 기술성 입증 및 경제성 평가가 중요함이 재확인되었음.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;early-stage exploration&lt;/em&gt; — 초기 단계 탐사 (광상 확인 전 조사 단계)&lt;/li&gt;&lt;li&gt;&lt;em&gt;speculative caution&lt;/em&gt; — 투기적 신중론 (위험 자산에 대한 보수적 시장 심리)&lt;/li&gt;&lt;li&gt;&lt;em&gt;antimony exploration story&lt;/em&gt; — 안티모니 탐사 프로젝트의 기술적·상업적 전개 과정&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
     <item>
-      <title>Vinland Lithium Commences Fall Ground Exploration Program for Lithium-Cesium-Tungsten Targets - StreetInsider</title>
-      <link>https://news.google.com/rss/articles/CBMi3wFBVV95cUxOckM0U0xDOVREUEZqaGJteVVxZkMyQmtxY2drYzRJa21pN2tNUnU1RFRRU3E0cmY4OS12OUNmWlV4UEhpNlNVZkt5NDRYUU9pUFZqLWFMdWduWUVtdFFzeUZVVE0wOEhwcVJsWVdkR0d1SEJveGNSYUNpUEV3cmFIMHEwTWtEajllVEFfcTFBbkZhS2hBSVJRT2kyTEZrR1lxSmdkdTU5dlU4eWk3ZXViSGFNTHNBSFc2M2hPYzlwS0hZOHF5aWVISm9rTDY4SE15LTJyZGotMnVkMUhITTZZ?oc=5</link>
-      <guid isPermaLink="false">eedb7b9e73</guid>
-      <pubDate>Thu, 15 Oct 2026 11:56:23 +0000</pubDate>
-      <source url="https://dolmudaddy.github.io/critical-minerals">Google News - Lithium Discovery</source>
-      <category>리튬·세슘·텅스텐</category>
-      <category>지표탐사·다중광물 회수</category>
-      <category>북미</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Google News - Lithium Discovery&lt;/p&gt;&lt;p&gt;Vinland Lithium이 리튬-세슘-텅스텐 복합 광화대를 대상으로 가을 지표 탐사 프로그램을 개시하였으며, 이는 핵심광물의 다원화된 수급 전략을 반영하는 사례로 평가됨. 세슘과 텅스텐 같은 부산물 광종의 동시 회수는 단일 광종 개발 대비 경제성 향상과 광물 자급률 개선에 기여할 것으로 전망됨. 본 탐사는 북미 지역의 핵심광물 공급망 다각화 노력의 일환으로서 전략적 의의가 있음.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;ground exploration program&lt;/em&gt; — 지표 탐사 프로그램 (원격탐사에 대비되는 현장 기반 탐광활동)&lt;/li&gt;&lt;li&gt;&lt;em&gt;lithium-cesium-tungsten targets&lt;/em&gt; — 리튬-세슘-텅스텐 복합 탐광 대상 (다중 핵심광물 동시 부존)&lt;/li&gt;&lt;li&gt;&lt;em&gt;polymetallic mineralization&lt;/em&gt; — 복합 광화작용 (여러 광종이 동시에 광화되는 지질학적 현상)&lt;/li&gt;&lt;/ul&gt;</description>
+      <title>Webinar | Critical Minerals at a Crossroads: What’s Next for Prices and Supply? - S&amp;P Global</title>
+      <link>https://news.google.com/rss/articles/CBMihwFBVV95cUxPcDV1TEF2bGZ4ZlBBLWZJdlNyZVU3T05wOVFMUXBOSmtkck55aDd3M2kzUnpKQjg4NVhyLXMzRmExYzJDY2xINkRDRXNOdXgzU1dyNHE2N3RBbjNKcUJGdlhodi1wOEFEbnFLREdSMVZpYkl2RFZ6VFhnb0hrR1hfLWloSWN1Vjg?oc=5</link>
+      <guid isPermaLink="false">c9fb7551bc</guid>
+      <pubDate>Fri, 23 Oct 2026 13:33:38 +0000</pubDate>
+      <source url="https://dolmudaddy.github.io/critical-minerals">S&amp;P Global - via Google News</source>
+      <category>리튬·코발트·니켈</category>
+      <category>핵심광물 시장·공급망 전략</category>
+      <category>글로벌</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: S&amp;amp;P Global - via Google News&lt;/p&gt;&lt;p&gt;S&amp;amp;P Global 웨비나에서는 핵심광물 시장이 기로에 서 있는 가운데 향후 가격 변동성과 공급 안정성에 대한 전망을 제시하고 있습니다. 글로벌 에너지 전환과 첨단산업 수요 증가로 인한 핵심광물의 전략적 중요성이 재조명되고 있음을 확인할 수 있습니다. 향후 공급망 다각화 및 가격 예측 전략이 광업 및 자원 정책 수립의 핵심 과제로 대두될 것으로 판단됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;critical minerals at a crossroads&lt;/em&gt; — 기로에 선 핵심광물 시장; 핵심광물의 전환점&lt;/li&gt;&lt;li&gt;&lt;em&gt;supply chain dynamics&lt;/em&gt; — 공급망 역학; 공급망 변동 메커니즘&lt;/li&gt;&lt;li&gt;&lt;em&gt;price volatility and market outlook&lt;/em&gt; — 가격 변동성과 시장 전망&lt;/li&gt;&lt;li&gt;&lt;em&gt;energy transition demand&lt;/em&gt; — 에너지 전환 수요&lt;/li&gt;&lt;li&gt;&lt;em&gt;strategic mineral sourcing&lt;/em&gt; — 전략적 핵심광물 확보&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
     <item>
-      <title>Energy transition faces critical minerals crunch by 2035: report</title>
-      <link>https://www.mining.com/energy-transition-faces-critical-minerals-crunch-by-2035-report/</link>
-      <guid isPermaLink="false">67f8c8908e</guid>
-      <pubDate>Thu, 15 Oct 2026 14:19:00 +0000</pubDate>
+      <title>Op-Ed: Nicaragua mining – the golden bridgehead threatening US national security</title>
+      <link>https://www.mining.com/op-ed-nicaragua-mining-the-golden-bridgehead-threatening-us-national-security/</link>
+      <guid isPermaLink="false">0e218c5c51</guid>
+      <pubDate>Fri, 23 Oct 2026 19:09:48 +0000</pubDate>
+      <source url="https://dolmudaddy.github.io/critical-minerals">Mining.com</source>
+      <category>금(Au)</category>
+      <category>핵심광물 안보 전략</category>
+      <category>니카라과</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Mining.com&lt;/p&gt;&lt;p&gt;핵심광물 수급 안보는 순수한 지질학적 요소만으로는 결정되지 않으며, 정치·지정학적 위험요소가 광물 안보에 미치는 영향이 상당함을 제시하고 있습니다. 니카라과의 금 채광 활동이 미국의 국가안보에 위협이 될 수 있는 지정학적 리스크로 평가되고 있습니다. 핵심광물 전략 수립 시 지질학적 부존량뿐만 아니라 정치적 안정성, 지정학적 동향, 지역의 산업 통제권 등을 종합적으로 고려해야 함을 강조합니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;critical minerals debate has become obsessed with pure geology&lt;/em&gt; — 핵심광물 논의가 순수 지질학적 측면에 과도하게 집중되어 있다&lt;/li&gt;&lt;li&gt;&lt;em&gt;mineral security is not determined by geology alone&lt;/em&gt; — 광물 안보는 지질학적 요인만으로 결정되지 않는다&lt;/li&gt;&lt;li&gt;&lt;em&gt;geopolitical risk factor&lt;/em&gt; — 지정학적 위험요소&lt;/li&gt;&lt;li&gt;&lt;em&gt;supply chain vulnerability assessment&lt;/em&gt; — 공급망 취약성 평가&lt;/li&gt;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Kodal targets Ghana lithium growth beyond Mali mine</title>
+      <link>https://www.mining.com/kodal-targets-ghana-lithium-growth-beyond-mali-mine/</link>
+      <guid isPermaLink="false">8dd4fdc377</guid>
+      <pubDate>Fri, 23 Oct 2026 10:59:00 +0000</pubDate>
       <source url="https://dolmudaddy.github.io/critical-minerals">Mining.com</source>
       <category>리튬</category>
-      <category>에너지 전환</category>
-      <category>공급망·중국</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Mining.com&lt;/p&gt;&lt;p&gt;2035년까지 에너지 전환 과정에서 핵심광물의 심각한 공급 부족이 예상되고 있으며, 특히 리튬이 가장 큰 물리적 결핍을 직면할 전망입니다. 중국의 정제·가공 부문 지배력이 심화되면서 다른 광물 공급망이 구조적 위험에 노출되어 있음이 확인되었습니다. 이는 글로벌 에너지 전환의 성공을 위해 다층적 공급망 다각화 및 정제 역량 강화가 시급함을 시사합니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;critical minerals crunch&lt;/em&gt; — 핵심광물 공급 부족 사태&lt;/li&gt;&lt;li&gt;&lt;em&gt;physical shortfall&lt;/em&gt; — 물리적 공급 결핍 (수요 대비 생산 능력 부족)&lt;/li&gt;&lt;li&gt;&lt;em&gt;refining dominance&lt;/em&gt; — 정제·가공 부문의 지배적 위치&lt;/li&gt;&lt;li&gt;&lt;em&gt;mineral supply chain resilience&lt;/em&gt; — 광물 공급망 안정성·회복력&lt;/li&gt;&lt;li&gt;&lt;em&gt;energy transition vulnerability&lt;/em&gt; — 에너지 전환의 취약성·위험 노출&lt;/li&gt;&lt;/ul&gt;</description>
+      <category>탐사개발투자</category>
+      <category>가나/말리</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Mining.com&lt;/p&gt;&lt;p&gt;코달(Kodal) 광업사는 말리의 부고우니(Bougouni) 광산 운영에서 창출된 현금흐름을 바탕으로 서아프리카 지역 리튬 탐사에 1,300만 달러를 투자할 계획으로 확인되었음. 이는 가나를 중심으로 한 핵심광물 확보 전략의 일환으로, 말리 광산 외 추가 리튬 자원 개발을 목표로 함. 서아프리카 지역의 리튬 공급망 다변화가 진행되고 있으며, 핵심광물 확보 경쟁이 심화될 전망임.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;cash flow from its operation&lt;/em&gt; — 광산 운영으로부터 창출되는 현금흐름&lt;/li&gt;&lt;li&gt;&lt;em&gt;exploration push&lt;/em&gt; — 탐사 강화 전략 또는 집중 탐사 활동&lt;/li&gt;&lt;li&gt;&lt;em&gt;critical minerals security in West Africa&lt;/em&gt; — 서아프리카 지역 핵심광물 공급 안정성 확보&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
     <item>
-      <title>EnergyX signs an offtake agreement with Trafigura for 100,000 metric tons of battery-grade lithium - AutoTechInsight</title>
-      <link>https://news.google.com/rss/articles/CBMi4AFBVV95cUxPRDBNTG9SSzE3ZDhwbHc2ODVaY2RiNVlHUkw5cko5ZVBBZ1Zvbk1SS2ppSUIwdHJLTEw2YXhlakstaGxOZklSVkhYbUFtM1c5dHRCcTVuNFFycENiS0hWbC03MGZNRExVOFU5UXJnV3FUMF9Mc2dqaC1pUHFZR29LVjBrbWlpa2J4V3FtUE1GUVhpcllXX1JRcDFUY1VHb0p1eVVHNnB4S3lTTmZJYWhCZGh3RHhHbHZFNm5Icmt5ZVVhYTRtOHltWFlTR0V6Yl9wS1k5TFNBTy05Z0RtSnJ1bg?oc=5</link>
-      <guid isPermaLink="false">4c4e32ce18</guid>
-      <pubDate>Thu, 15 Oct 2026 10:16:46 +0000</pubDate>
-      <source url="https://dolmudaddy.github.io/critical-minerals">S&amp;P Global - via Google News</source>
+      <title>Kodal Minerals targets Ghana lithium discovery as prices recover - GhanaWeb</title>
+      <link>https://news.google.com/rss/articles/CBMiygFBVV95cUxQa1BTRVp1SFk2dlNZZkI5V2hiZXA5V2xhOFEwOTQ5OFpVMW9LamJnOHZ6VG1oVEVnY0tvVUI2eUpPdmItYmxra3BSWEc0T3lOTThWZnNCNW9oMVk5bHZNRUMtYTNoRllEZVJDaVBfaGZ1R1ViTlFkT0YzU2c3WmZEWlpsdmxHTnR1a3BURlIzZEZKelhUam80Nm9hbWhGMG1BRnJkbnU0VXNBTHJTeUtQQ09oazRBUF9EME1UZ24wN2ZYY1lfTktjYU1R?oc=5</link>
+      <guid isPermaLink="false">3b0144ea70</guid>
+      <pubDate>Sun, 25 Oct 2026 12:43:13 +0000</pubDate>
+      <source url="https://dolmudaddy.github.io/critical-minerals">Google News - Lithium Discovery</source>
       <category>리튬</category>
-      <category>배터리 공급망</category>
-      <category>에너지 전환</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: S&amp;amp;P Global - via Google News&lt;/p&gt;&lt;p&gt;미국의 리튬 추출 기업 EnergyX가 글로벌 상품 거래사 Trafigura와 배터리급 리튬 10만 톤에 대한 선물 구매 계약을 체결했음이 확인되었습니다. 본 계약은 전기차 배터리 수요 증가에 대응한 핵심광물 공급망 안정화의 중요한 사례로 평가됩니다. 장기적 안정적 공급 확보를 통해 글로벌 에너지 전환 가속화에 기여할 것으로 전망됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;offtake agreement&lt;/em&gt; — 선물 구매 계약; 생산자가 장기간 일정량의 광물·제품을 구매자에게 공급하기로 합의한 계약&lt;/li&gt;&lt;li&gt;&lt;em&gt;battery-grade lithium&lt;/em&gt; — 배터리급 리튬; 전기차 배터리 제조에 필요한 고순도의 리튬&lt;/li&gt;&lt;li&gt;&lt;em&gt;supply chain security for critical minerals&lt;/em&gt; — 핵심광물 공급망 보안(안정화); 핵심광물의 안정적이고 신뢰할 수 있는 공급 확보&lt;/li&gt;&lt;/ul&gt;</description>
+      <category>자원탐사</category>
+      <category>가나</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Google News - Lithium Discovery&lt;/p&gt;&lt;p&gt;코달 미네랄스(Kodal Minerals)가 리튬 가격 회복에 따라 가나 지역의 리튬 광상 개발을 적극 추진 중인 것으로 확인되었습니다. 글로벌 핵심광물 수급 불균형 속에서 아프리카 신규 리튬 매장지 개발이 전략적 중요성을 갖고 있을 전망입니다. 이는 핵심광물의 공급 다각화 및 전 지구적 에너지 전환 목표 달성에 기여할 것으로 예상됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;critical minerals supply chain diversification&lt;/em&gt; — 핵심광물 공급망 다각화&lt;/li&gt;&lt;li&gt;&lt;em&gt;lithium resource exploration and development&lt;/em&gt; — 리튬 자원 탐사 및 개발&lt;/li&gt;&lt;li&gt;&lt;em&gt;commodity price recovery driven by energy transition demand&lt;/em&gt; — 에너지 전환 수요에 의한 광물 가격 회복&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
     <item>
-      <title>Australia's PLS greenlights $1.3bn expansion to lift Pilgangoora lithium output - Mining Weekly</title>
-      <link>https://news.google.com/rss/articles/CBMiwgFBVV95cUxOd1B0X2pUM1dqaVVnVjFnWDFfdTB0MDY3VER6TWo0Wi1oRXlFZF9DbEtqODI5VzQxcEdaazEzNWJhZTV1UU1YWkhHZ3JseWF1YmlmZDE1RmRnMmQ2WTBMbFRZSUFrZGlmOEtTNjVQQXphUFZIaXBNM1cwNjU4MzI2Z1duRHQzU2dLMGJxaVNMcjRLWmg3SzFiRDJ2Yjh2MFNFYThKMF9OR2ZyMWw3OW9lZWxwT3hSVzZHUlptbzBBSE5yQQ?oc=5</link>
-      <guid isPermaLink="false">cc0f8e81c1</guid>
-      <pubDate>Fri, 16 Oct 2026 06:47:00 +0000</pubDate>
-      <source url="https://dolmudaddy.github.io/critical-minerals">Mining Weekly - via Google News</source>
+      <title>Nevada Antimony Deal Targets Historic Grades as High as 54% in US Critical Minerals Expansion - Streetwise Reports</title>
+      <link>https://news.google.com/rss/articles/CBMi5AFBVV95cUxQMnNvelhFblpIMUZianR3OE1RbUVhRVFXMUt3QW9wMjNUbHlqQzd3c0ZIN09hbW95VzJzSVpJUWdFMGR0RkQ0TGdLRVJHZ3lHcnBDVmRSRVh4cUI0aDV1c2FjWlFLZmNlNjJxTXR1ZVVCS0dfdWxSR25rVkt6c0I2bzNkZXlKTWpVUG9zMVBiS3p6aURGNVBfQXJCWHBhVGlOeVhOOE5NVkdpa2hEejV2aW5KaThCTmdoNnZhQTB1WDMzeDZZUWJDQTBSMmo5QzVIR1IzSG10bi1FT0l5ZEhfc2NQYzM?oc=5</link>
+      <guid isPermaLink="false">f3bcfd7681</guid>
+      <pubDate>Sat, 24 Oct 2026 10:29:33 +0000</pubDate>
+      <source url="https://dolmudaddy.github.io/critical-minerals">Google News - Critical Minerals Exploration</source>
+      <category>안티몬(Sb)</category>
+      <category>핵심광물 공급망</category>
+      <category>미국 네바다주</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Google News - Critical Minerals Exploration&lt;/p&gt;&lt;p&gt;미국 네바다주에서 추진 중인 안티몬(Sb) 개발 프로젝트가 역사적 수준인 54% 고품위 광석을 대상으로 핵심광물 공급망 다각화를 가속화할 전망입니다. 미국의 핵심광물 자급화 전략 차원에서 국내 안티몬 매장량 개발이 에너지 및 방위산업 수요 충족에 기여할 것으로 예상됩니다. 해당 프로젝트는 북미 지역 핵심광물 탐사·개발의 벤치마크 사례로서 기술적·정책적 시사점을 제공할 수 있습니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;historic grades&lt;/em&gt; — 역사적 수준의 고품위 광석(높은 광물 함유도)&lt;/li&gt;&lt;li&gt;&lt;em&gt;critical minerals expansion&lt;/em&gt; — 핵심광물 공급원 확대 전략&lt;/li&gt;&lt;li&gt;&lt;em&gt;domestic supply chain diversification&lt;/em&gt; — 국내 공급망 다각화&lt;/li&gt;&lt;li&gt;&lt;em&gt;antimony deposit development&lt;/em&gt; — 안티몬 광상 개발&lt;/li&gt;&lt;li&gt;&lt;em&gt;mineral resource security&lt;/em&gt; — 광물 자원 안보&lt;/li&gt;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Moon River lifts Davidson value to $879M, tungsten output jumps</title>
+      <link>https://www.mining.com/moon-river-lifts-davidson-value-to-879m-tungsten-output-jumps/</link>
+      <guid isPermaLink="false">59da632c5f</guid>
+      <pubDate>Fri, 23 Oct 2026 19:55:00 +0000</pubDate>
+      <source url="https://dolmudaddy.github.io/critical-minerals">Mining.com</source>
+      <category>텅스텐</category>
+      <category>광물자원평가</category>
+      <category>캐나다</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Mining.com&lt;/p&gt;&lt;p&gt;문(Moon) 강 프로젝트가 Davidson 광상의 경제성 평가를 8억 7,900만 달러로 상향 조정하였으며, 텅스텐 생산량이 대폭 증가할 것으로 전망되고 있습니다. 동 프로젝트는 현재 예비 타당성 조사(Preliminary Assessment) 단계에 있으며 확정 광물자원량은 아직 미보유 상태입니다. 이는 핵심광물 공급 다변화 전략 차원에서 텅스텐과 같은 고부가 핵심광물의 개발 가능성을 시사하는 사례로 평가됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;preliminary assessment stage&lt;/em&gt; — 예비 타당성 조사 단계 (광물 개발 프로젝트 초기 평가 단계)&lt;/li&gt;&lt;li&gt;&lt;em&gt;mineral reserves&lt;/em&gt; — 확정 광물자원량 (경제성이 입증된 광물 매장량)&lt;/li&gt;&lt;li&gt;&lt;em&gt;tungsten output&lt;/em&gt; — 텅스텐 생산량 (핵심광물의 연간 생산 규모)&lt;/li&gt;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Kodal plans West Africa lithium expansion, CEO says - Reuters</title>
+      <link>https://news.google.com/rss/articles/CBMioAFBVV95cUxPQ1VfUEJVRnlkUTNsN1dlQWk1TWpWQUdfT1dQQ0tuMGtWQ3Iwb1pDbXM1T1Mybjc3MUZHVVhHMVpGVjhtZE1ISXh1X3RETkpGWXo5ZnprV0xoVE9QY1k5UUlQOVRwWWFCQ3h4WkhjMkpiQ1liNjRfcEhnb3hndmw3RFFKdUtneHhIOG9HT3p5cmNKa0tHai1xWENvVHZ1Y252?oc=5</link>
+      <guid isPermaLink="false">a7d50bb8a0</guid>
+      <pubDate>Fri, 23 Oct 2026 12:29:26 +0000</pubDate>
+      <source url="https://dolmudaddy.github.io/critical-minerals">Reuters - via Google News</source>
       <category>리튬</category>
-      <category>광산개발</category>
-      <category>호주</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Mining Weekly - via Google News&lt;/p&gt;&lt;p&gt;호주의 광업 기업 PLS가 필강고라(Pilgangoora) 리튬 광산의 산출량 확대를 위해 13억 달러 규모의 확장 사업을 승인했음이 확인되었습니다. 본 프로젝트는 글로벌 리튬 공급망에서 호주의 핵심광물 생산 기지로서의 역할을 강화할 것으로 전망됩니다. 이는 전기자동차 배터리 수요 증가에 대응하기 위한 주요 생산 확대 사례로 평가됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;greenlight an expansion project&lt;/em&gt; — 확장 사업을 승인하다&lt;/li&gt;&lt;li&gt;&lt;em&gt;lift output capacity&lt;/em&gt; — 생산 능력을 증대하다&lt;/li&gt;&lt;li&gt;&lt;em&gt;lithium supply chain security&lt;/em&gt; — 리튬 공급망 안정성&lt;/li&gt;&lt;/ul&gt;</description>
+      <category>광구개발</category>
+      <category>서아프리카</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Reuters - via Google News&lt;/p&gt;&lt;p&gt;코달(Kodal)이 서아프리카 리튬 사업의 확대 계획을 추진 중인 것으로 확인되었습니다. 동사 CEO의 발언을 통해 핵심광물인 리튬의 공급 확보를 위한 적극적인 광구 개발 전략이 드러났습니다. 이는 글로벌 핵심광물 수급 불균형 심화 속에서 주요 생산국의 생산량 확대 노력이 지속될 것임을 시사합니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;lithium expansion strategy&lt;/em&gt; — 리튬 생산 확대 전략&lt;/li&gt;&lt;li&gt;&lt;em&gt;West Africa mineral resource development&lt;/em&gt; — 서아프리카 핵심광물 자원 개발&lt;/li&gt;&lt;li&gt;&lt;em&gt;critical mineral supply chain&lt;/em&gt; — 핵심광물 공급망&lt;/li&gt;&lt;li&gt;&lt;em&gt;CEO guidance on mineral portfolio&lt;/em&gt; — 경영진의 광물 포트폴리오 지침&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
     <item>
-      <title>Correction to cobalt hydroxide payable indicator, min 30% Co, cif China, % payable; inferred price - Fastmarkets</title>
-      <link>https://news.google.com/rss/articles/CBMiyAFBVV95cUxPY25qY2N6VTg5RjF4X2w4UlRBSExTM3VzYUxUcU53SE91Q000MURPRi1vT3Z6ZDRnVnFpaGp4T3N1M1JwZ09xMVFoY1U3MnF1MkxQdGE0RjNIa3htWkJCOHVoSEFIbktsN2NtUHZQVDNFNzZUYXdWaU9STUdnNzUxcE1KSmphLUYzeHhWYmF6amtzbFdLS3JkZ1hldDFaU0dHa2FQR2dwSWlaNWVzbjVwV0paTFhlRGpPRm9UNmhJd2ZvY3UwNWdmdQ?oc=5</link>
-      <guid isPermaLink="false">5d933b28d9</guid>
-      <pubDate>Fri, 16 Oct 2026 18:20:56 +0000</pubDate>
+      <title>H.C. Starck presses ahead with Goslar recycling expansion as tungsten supply chains face China risk - Fastmarkets</title>
+      <link>https://news.google.com/rss/articles/CBMi0gFBVV95cUxOS0tCRHF1V09Ya2ZLWGl4TlRjMXBtYkNaU2JLT09UeXBqblB1b0s0My1MVTltWG9hU3JJSkd6ckpzTGZUTk1TQUU4VURkVEV5bVZqZlJOSXJDZzVrbjZ5Z1JCQW5NTXg0c05xQk9FeHdmdGQ5WTVtS0hhUDk1RGt1OHBFalJhVnlVZEZuSGx0U0drQ3FPU1MwalI0OTR6N0FEbUNySFloN3diTUlhSUY4ajA3b2FKanBUWHFycWV2Q0ZPS01iWGFRX3FmcmdLMXRZN3c?oc=5</link>
+      <guid isPermaLink="false">a8d8d85710</guid>
+      <pubDate>Wed, 21 Oct 2026 10:55:10 +0000</pubDate>
       <source url="https://dolmudaddy.github.io/critical-minerals">Fastmarkets - via Google News</source>
-      <category>코발트</category>
-      <category>가격 지표·공급망</category>
-      <category>중국</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Fastmarkets - via Google News&lt;/p&gt;&lt;p&gt;Fastmarkets가 중국 CIF 기준 최소 30% 코발트 함유 코발트 수산화물의 지불 가능 지표(payable indicator)를 수정 발표했습니다. 본 지표는 핵심광물인 코발트의 국제 시장 가격 형성 및 거래 기준점으로 활용되고 있습니다. 이러한 정정은 핵심광물 공급망의 투명성과 거래 신뢰성을 강화하는 데 중요한 역할을 할 것으로 예상됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;payable indicator&lt;/em&gt; — 지불 가능 지표 (광물 품질 및 함량에 따른 실제 지불 가격 산정 기준)&lt;/li&gt;&lt;li&gt;&lt;em&gt;cobalt hydroxide, min 30% Co&lt;/em&gt; — 코발트 수산화물, 최소 30% 코발트 함량 (핵심광물 거래의 표준 규격)&lt;/li&gt;&lt;li&gt;&lt;em&gt;inferred price, cif China&lt;/em&gt; — 중국 CIF(운임·보험료 포함) 기준 추정 가격 (국제 핵심광물 거래 지표)&lt;/li&gt;&lt;/ul&gt;</description>
+      <category>텅스텐</category>
+      <category>재활용·공급망 안정화</category>
+      <category>독일·중국</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Fastmarkets - via Google News&lt;/p&gt;&lt;p&gt;H.C. Starck는 중국의 텅스텐 공급망 지배에 따른 수급 리스크에 대응하기 위해 독일 고슬라 재활용 시설의 확장을 추진 중으로 확인되었습니다. 이는 핵심광물인 텅스텐의 공급망 다원화 및 순환경제 전환의 필요성을 보여주는 사례입니다. 주요 선진국들이 중국 의존도 탈피를 위해 재활용 및 2차 자원 활용을 전략적으로 확대할 전망입니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;supply chain diversification&lt;/em&gt; — 공급망 다원화&lt;/li&gt;&lt;li&gt;&lt;em&gt;recycling expansion&lt;/em&gt; — 재활용 시설 확장&lt;/li&gt;&lt;li&gt;&lt;em&gt;China risk in critical mineral supply&lt;/em&gt; — 핵심광물 공급에서의 중국 리스크&lt;/li&gt;&lt;li&gt;&lt;em&gt;circular economy for rare metals&lt;/em&gt; — 희유금속의 순환경제&lt;/li&gt;&lt;li&gt;&lt;em&gt;secondary raw materials&lt;/em&gt; — 2차 원료(재활용 광물)&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
     <item>
-      <title>Vanadium in May 2026</title>
-      <link>https://www.usgs.gov/centers/national-minerals-information-center/vanadium-statistics-and-information</link>
-      <guid isPermaLink="false">09030afc89</guid>
-      <pubDate>Thu, 15 Oct 2026 19:24:43 +0000</pubDate>
-      <source url="https://dolmudaddy.github.io/critical-minerals">USGS Minerals Periodicals</source>
-      
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: USGS Minerals Periodicals&lt;/p&gt;&lt;p&gt;(요약 생성 실패 — 원문 참조)&lt;/p&gt;</description>
+      <title>Fastmarkets proposes calculated FOB South America lithium carbonate, hydroxide prices - Fastmarkets</title>
+      <link>https://news.google.com/rss/articles/CBMivwFBVV95cUxQOTlaYlFvRXJDdGQzZDRIbU5nUE4zSUlSY3JKNHhGUUh1ZXFsN2pYTkhTcmQyWGpzRHB2RWJobHFyZ0lERzVUM21XekEzZUFnTnF0NUVxRWtUSFNuMUFiNVJVUEI4WTJwMGdSRnZ3TEF6SmswVlNrVFhyd2xwV0JzQ2hfNTQ3eW1lcHBKTUo0MWlhak1JY2ZMTnBYU3c3V1k1YWpoMGR4cFMxVE9aZmEzMjVHbWl3LU9hUG41bmNZUQ?oc=5</link>
+      <guid isPermaLink="false">1a38bcc11d</guid>
+      <pubDate>Fri, 23 Oct 2026 20:03:57 +0000</pubDate>
+      <source url="https://dolmudaddy.github.io/critical-minerals">Fastmarkets - via Google News</source>
+      <category>리튬</category>
+      <category>가격 지표</category>
+      <category>남미(칠레·아르헨티나·볼리비아)</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Fastmarkets - via Google News&lt;/p&gt;&lt;p&gt;Fastmarkets는 남미 지역의 탄산리튬 및 수산화리튬에 대한 FOB(본선인도) 기준 계산 가격을 새로이 제시함으로써 핵심광물 시장의 가격 투명성 강화에 나섰습니다. 이는 리튬 수급 구조의 변화와 남미의 글로벌 공급망 내 위상 제고를 반영하는 조치로 평가됩니다. 향후 리튬 관련 국제 거래의 기준 가격 형성에 영향을 미칠 것으로 전망됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;FOB South America lithium carbonate, hydroxide prices&lt;/em&gt; — 남미 기점 탄산리튬, 수산화리튬의 본선인도 가격&lt;/li&gt;&lt;li&gt;&lt;em&gt;calculated pricing methodology&lt;/em&gt; — 계산된 가격 산정 방식&lt;/li&gt;&lt;li&gt;&lt;em&gt;critical minerals market transparency&lt;/em&gt; — 핵심광물 시장의 가격 투명성&lt;/li&gt;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>China’s Argentina mining footprint smaller than it looks</title>
+      <link>https://www.mining.com/chinas-argentina-mining-footprint-smaller-than-it-looks/</link>
+      <guid isPermaLink="false">6410e602c0</guid>
+      <pubDate>Sun, 25 Oct 2026 12:00:00 +0000</pubDate>
+      <source url="https://dolmudaddy.github.io/critical-minerals">Mining.com</source>
+      <category>리튬</category>
+      <category>핵심광물 공급망</category>
+      <category>아르헨티나·중국</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Mining.com&lt;/p&gt;&lt;p&gt;중국의 아르헨티나 광산 투자 규모는 공식 수치보다 작은 것으로 확인되었으며, 지분 기반 계산으로는 승인된 광산 투자의 9.2%에 불과한 것으로 나타났습니다. 다만 새로운 리튬 프로젝트들이 향후 중국의 투자 지분을 상당히 증가시킬 것으로 전망됩니다. 이는 핵심광물 확보를 위한 글로벌 공급망 경쟁에서 중국의 실제 영향력 평가에 중요한 함의를 제공합니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;equity-based calculation&lt;/em&gt; — 지분 기반 계산(실제 소유권 지분에 따른 투자 규모 산정)&lt;/li&gt;&lt;li&gt;&lt;em&gt;approved mining investment&lt;/em&gt; — 허가된 광산 투자 규모&lt;/li&gt;&lt;li&gt;&lt;em&gt;mining footprint&lt;/em&gt; — 광산 개발 영향력 또는 투자 점유율&lt;/li&gt;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Precompetitive critical mineral geoscience - Geoscience Australia</title>
+      <link>https://news.google.com/rss/articles/CBMirgFBVV95cUxORDRjQ29LMktVRWNXamJxeU1oSlVXcTFCQVFqZzNMcTZXRjYtWmZkMGdwV21WTXBXaWd4RnpkVEF0M1JHeVN3cG1SWFhtck5ta3E4U1NCZ04yYUdfaDhRU2R0TXJSem5sVndWbTNnQUNoZTZoMmhYb2Ztb2hfb2dHSW5ROC1rUzhaLWRjMUFMdDM4bFBIRGl6UlpTcFVET0dGQWFqVmVJamx0V3ZQSXc?oc=5</link>
+      <guid isPermaLink="false">291ae34862</guid>
+      <pubDate>Mon, 19 Oct 2026 05:58:13 +0000</pubDate>
+      <source url="https://dolmudaddy.github.io/critical-minerals">Geoscience Australia - via Google News</source>
+      <category>핵심광물</category>
+      <category>지질탐사</category>
+      <category>호주</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Geoscience Australia - via Google News&lt;/p&gt;&lt;p&gt;호주 지질조사소(Geoscience Australia)는 핵심광물 확보를 위한 경쟁 전 단계의 지구과학 연구를 추진하고 있으며, 이는 국가 차원의 광물 자원 안보 강화를 목표로 하고 있습니다. 기초·응용 지질과학 연구를 통해 미발견 광상의 탐사 가능성을 높이고 채산성 있는 핵심광물 자원 개발을 지원하는 전략입니다. 한국의 자원 공급망 다원화 및 해외 광물 자원 개발 사업에 있어 선제적 지구과학 기반 조사의 중요성을 시사하고 있습니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;precompetitive critical mineral geoscience&lt;/em&gt; — 핵심광물 확보를 위한 경쟁 전 단계 지구과학 연구&lt;/li&gt;&lt;li&gt;&lt;em&gt;mineral resource security&lt;/em&gt; — 광물 자원 안보&lt;/li&gt;&lt;li&gt;&lt;em&gt;undiscovered mineral deposits&lt;/em&gt; — 미발견 광상&lt;/li&gt;&lt;li&gt;&lt;em&gt;geoscience-based exploration framework&lt;/em&gt; — 지구과학 기반 탐사 체계&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
