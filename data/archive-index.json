@@ -1,7 +1,24 @@
 {
-  "total_weeks": 31,
-  "latest_week": "2026-11-02",
+  "total_weeks": 32,
+  "latest_week": "2026-11-09",
   "weeks": [
+    {
+      "week_of": "2026-11-09",
+      "filename": "week-2026-11-09.json",
+      "total_cards": 12,
+      "category_counts": {
+        "policy_market": 10,
+        "supply_chain": 2
+      },
+      "top_tags": [
+        "핵심광물",
+        "희토류",
+        "인도",
+        "공급망 안보",
+        "EU 에너지 정책"
+      ],
+      "generated_at": "2026-11-09T02:18:29.013172+00:00"
+    },
     {
       "week_of": "2026-11-02",
       "filename": "week-2026-11-02.json",
