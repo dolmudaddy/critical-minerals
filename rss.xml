@@ -6,143 +6,141 @@
     <atom:link href="https://dolmudaddy.github.io/critical-minerals/rss.xml" rel="self" type="application/rss+xml"/>
     <description>조성준 박사 (KIGAM, 한국자원공학회장) 큐레이션. 핵심광물 탐사·정책·시장 주간 동향.</description>
     <language>ko-KR</language>
-    <lastBuildDate>Mon, 09 Nov 2026 02:18:29 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 02:31:46 +0000</lastBuildDate>
     <generator>GitHub Actions + Claude API</generator>
     <managingEditor>dolmudaddy@gmail.com (조성준)</managingEditor>
     <item>
-      <title>Speech by Commissioner Hoekstra at the 22nd Athens Tax Forum</title>
-      <link>https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2370</link>
-      <guid isPermaLink="false">cfd8e24f93</guid>
-      <pubDate>Fri, 06 Nov 2026 13:25:32 +0000</pubDate>
+      <title>Commission sends Supplementary Statement of Objections to PPC over predatory pricing in the Greek wholesale electricity market</title>
+      <link>https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2422</link>
+      <guid isPermaLink="false">e356594908</guid>
+      <pubDate>Thu, 12 Nov 2026 23:00:00 +0000</pubDate>
       <source url="https://dolmudaddy.github.io/critical-minerals">European Commission - Energy</source>
-      <category>핵심광물</category>
-      <category>공급망 안보</category>
-      <category>EU 에너지 정책</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: European Commission - Energy&lt;/p&gt;&lt;p&gt;유럽연합 에너지 정책의 핵심 의제로서 핵심광물 확보의 중요성이 재조명되고 있음을 확인할 수 있습니다. 에너지 전환과 산업 경쟁력 확보를 위해 핵심광물의 안정적 공급망 구축이 필수적임을 강조하고 있습니다. EU 차원의 통합적 정책 추진과 국제 협력을 통한 핵심광물 확보 전략이 향후 자원 외교의 중요한 화두가 될 전망입니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;critical minerals supply chain&lt;/em&gt; — 핵심광물 공급망&lt;/li&gt;&lt;li&gt;&lt;em&gt;energy transition and industrial competitiveness&lt;/em&gt; — 에너지 전환 및 산업 경쟁력&lt;/li&gt;&lt;li&gt;&lt;em&gt;strategic resource security&lt;/em&gt; — 전략적 자원 보안&lt;/li&gt;&lt;li&gt;&lt;em&gt;international cooperation on raw materials&lt;/em&gt; — 원자재 국제 협력&lt;/li&gt;&lt;/ul&gt;</description>
+      <category>전력산업</category>
+      <category>시장규제·경쟁정책</category>
+      <category>그리스·유럽연합</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: European Commission - Energy&lt;/p&gt;&lt;p&gt;유럽연합 집행위원회가 그리스 전력공급업체 PPC(Public Power Corporation S.A.)에 대해 그리스 도매 전력시장에서의 약탈적 가격 책정 혐의로 추가 이의 진술서(Supplementary Statement of Objections)를 송부하였음이 확인되었습니다. 이는 에너지 전환 과정에서 전력시장의 공정경쟁과 투명성 확보가 얼마나 중요한지를 보여주는 사례입니다. 에너지 인프라와 핵심광물 수급의 안정성을 위해서는 시장 감시 체계의 강화가 필수적일 것으로 전망됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;Supplementary Statement of Objections&lt;/em&gt; — 추가 이의 진술서 (EU 경쟁법 위반 혐의 통보 단계)&lt;/li&gt;&lt;li&gt;&lt;em&gt;predatory pricing&lt;/em&gt; — 약탈적 가격 책정 (시장지배적 지위를 이용한 부당 저가 판매)&lt;/li&gt;&lt;li&gt;&lt;em&gt;wholesale electricity market&lt;/em&gt; — 도매 전력시장 (발전사업자와 전력거래소 간의 거래 시장)&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
     <item>
-      <title>Commission greenlights Finland's final payment request for €331 million under NextGenerationEU</title>
-      <link>https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2362</link>
-      <guid isPermaLink="false">3090106644</guid>
-      <pubDate>Fri, 06 Nov 2026 08:53:49 +0000</pubDate>
-      <source url="https://dolmudaddy.github.io/critical-minerals">European Commission - Energy</source>
-      <category>핵심광물</category>
-      <category>EU 에너지안보</category>
-      <category>핀란드</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: European Commission - Energy&lt;/p&gt;&lt;p&gt;유럽연합 집행위원회는 2026년 11월 6일 핀란드의 NextGenerationEU 기금에 따른 회복력강화기금(RRF) 최종 지급 신청 3억 3,100만 유로를 승인함으로써 핀란드의 자금 지원을 완료하였습니다. 이는 유럽의 전략적 자립화 및 그린에너지 전환을 위한 EU의 재정 지원 체계가 정상 운영 중임을 의미합니다. 유럽이 핵심광물 확보 및 에너지 안보 강화에 투자하는 것으로 확인되었습니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;Recovery and Resilience Facility (RRF)&lt;/em&gt; — 회복력강화기금 - EU의 재정 지원 메커니즘으로, 회원국의 경제 회복 및 구조 개혁을 지원&lt;/li&gt;&lt;li&gt;&lt;em&gt;NextGenerationEU&lt;/em&gt; — 차세대유럽펀드 - 유럽 그린딜 및 디지털 전환, 에너지 안보를 위한 EU의 종합 재정 지원 프로그램&lt;/li&gt;&lt;li&gt;&lt;em&gt;payment request&lt;/em&gt; — 지급 신청 - 회원국이 수행한 개혁 및 투자 사업에 대한 EU 자금 지급을 요청하는 절차&lt;/li&gt;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Brazil picks 27 critical minerals in push for local supply chain</title>
-      <link>https://www.mining.com/brazil-picks-27-critical-minerals-in-push-for-local-supply-chain/</link>
-      <guid isPermaLink="false">ea020d1755</guid>
-      <pubDate>Sun, 08 Nov 2026 18:37:01 +0000</pubDate>
-      <source url="https://dolmudaddy.github.io/critical-minerals">Mining.com</source>
-      <category>리튬·코발트·니켈 등 27개 광종</category>
-      <category>공급망 정책·국내 가공산업</category>
-      <category>브라질</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Mining.com&lt;/p&gt;&lt;p&gt;브라질이 27개 핵심광물을 공식 지정하여 국내 공급망 구축과 지역 광물 가공산업 육성에 나섬을 확인했습니다. 이번 분류는 국가 재정 지원을 국내 광물 처리 및 산업 성장의 필수 사업으로 간주되는 프로젝트에 집중하는 기제로 작용할 전망입니다. 라틴아메리카 최대 광물 부국인 브라질의 이러한 정책 결정은 핵심광물 가치사슬의 지역 통합화 추진으로 평가됨을 알려드립니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;critical minerals classification&lt;/em&gt; — 핵심광물 분류 체계&lt;/li&gt;&lt;li&gt;&lt;em&gt;domestic processing and value-added industry&lt;/em&gt; — 국내 가공 및 부가가치 산업&lt;/li&gt;&lt;li&gt;&lt;em&gt;public funding allocation mechanism&lt;/em&gt; — 공공자금 배분 메커니즘&lt;/li&gt;&lt;li&gt;&lt;em&gt;local supply chain development&lt;/em&gt; — 지역 공급망 구축&lt;/li&gt;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Keynote speech by Commissioner Síkela at the International Partnership Conference</title>
-      <link>https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2367</link>
-      <guid isPermaLink="false">3d5775e54c</guid>
-      <pubDate>Fri, 06 Nov 2026 11:06:25 +0000</pubDate>
-      <source url="https://dolmudaddy.github.io/critical-minerals">European Commission - Energy</source>
-      <category>핵심광물</category>
-      <category>공급망 복원력</category>
-      <category>유럽연합</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: European Commission - Energy&lt;/p&gt;&lt;p&gt;유럽연합 집행위원회는 리투아니아에서 개최된 국제 파트너십 회의에서 핵심광물 공급망 복원력 강화의 중요성을 강조하였습니다. 이번 회의는 지정학적 불확실성 속에서 민주주의 국가 간 핵심광물 협력체계 구축의 필요성을 부각하고 있습니다. 글로벌 핵심광물 수급 안정성 확보가 에너지 전환 및 산업 경쟁력 유지를 위한 전략적 과제로 도출되었습니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;resilience in critical mineral supply chains&lt;/em&gt; — 핵심광물 공급망 복원력&lt;/li&gt;&lt;li&gt;&lt;em&gt;international partnership framework for strategic cooperation&lt;/em&gt; — 국제 파트너십을 통한 전략적 협력 체계&lt;/li&gt;&lt;li&gt;&lt;em&gt;diversification of supply sources and de-risking strategies&lt;/em&gt; — 공급원 다변화 및 리스크 저감 전략&lt;/li&gt;&lt;li&gt;&lt;em&gt;critical minerals diplomacy&lt;/em&gt; — 핵심광물 외교&lt;/li&gt;&lt;li&gt;&lt;em&gt;democratic countries' consortium for mineral security&lt;/em&gt; — 민주주의 국가 간 광물 안보 컨소시엄&lt;/li&gt;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Canada’s budget extends tax relief but leaves mineral explorers wanting</title>
-      <link>https://www.mining.com/budget-extends-tax-relief-but-leaves-explorers-wanting/</link>
-      <guid isPermaLink="false">e515e399ec</guid>
-      <pubDate>Fri, 06 Nov 2026 16:33:43 +0000</pubDate>
-      <source url="https://dolmudaddy.github.io/critical-minerals">Mining.com</source>
-      <category>핵심광물</category>
-      <category>세제정책</category>
-      <category>캐나다</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Mining.com&lt;/p&gt;&lt;p&gt;캐나다 정부가 갱신한 핵심광물 전략은 광물 채굴 및 처리 기술, 연구개발, 사업 펀딩을 지원하는 세제 혜택을 연장하기로 결정하였습니다. 다만 광물 탐사업체들은 현 지원 수준이 충분하지 않다는 입장을 표명하고 있으며, 추가적인 정책 강화가 필요한 상황으로 평가되고 있습니다. 이는 북미 지역의 핵심광물 공급망 확보 경쟁에서 캐나다의 경쟁력 유지에 중대한 영향을 미칠 전망입니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;critical minerals strategy&lt;/em&gt; — 핵심광물 전략/정책&lt;/li&gt;&lt;li&gt;&lt;em&gt;tax relief for mineral explorers&lt;/em&gt; — 광물 탐사업체를 위한 세제 지원/감면&lt;/li&gt;&lt;li&gt;&lt;em&gt;mining and processing technology development&lt;/em&gt; — 채광 및 처리 기술 개발&lt;/li&gt;&lt;li&gt;&lt;em&gt;funding for exploration projects&lt;/em&gt; — 탐사 사업에 대한 자금 조성&lt;/li&gt;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>India approves $297 million incentive policy for lithium, nickel processing - Reuters</title>
-      <link>https://news.google.com/rss/articles/CBMitAFBVV95cUxNdDNwR3BmbWpnSk5wa25BMUViMHYxenJ3ek1vRkh3MnRQb3p4TzhMeWMzSll0QzVDRXA5VThpYWJwa3pKSmdsaS01ODRJQ3dUcjAwak03N1JVQVR6RVc3dGh0Vkl5ZTY4M2x5YWpMcjZQTm83a1N2RUtwMVlWTHZHQ0haMGZaZktUdDZLSkpLcFVLVy1NTVZKNWp4Sl8yUmxrNVVPU2FnSHJibWhwU3NEQTlIVmI?oc=5</link>
-      <guid isPermaLink="false">8884ea66af</guid>
-      <pubDate>Wed, 04 Nov 2026 16:45:36 +0000</pubDate>
-      <source url="https://dolmudaddy.github.io/critical-minerals">Reuters - via Google News</source>
-      <category>리튬·니켈</category>
-      <category>정책·인센티브</category>
-      <category>인도</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Reuters - via Google News&lt;/p&gt;&lt;p&gt;인도가 리튬 및 니켈 처리 산업 육성을 위해 2억 9,700만 달러 규모의 인센티브 정책을 승인했으며, 이는 핵심광물 공급망 다층화 전략의 일환으로 평가됨. 인도는 배터리 제조 및 전기차 산업 고도화를 통해 글로벌 핵심광물 가치사슬에서의 전략적 지위 강화를 추진 중. 이러한 정책은 중국 의존도 경감과 아시아 태평양 지역 핵심광물 처리 산업 재편의 촉발점이 될 것으로 전망됨.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;incentive policy for mineral processing&lt;/em&gt; — 광물 처리 산업 육성을 위한 인센티브 정책&lt;/li&gt;&lt;li&gt;&lt;em&gt;supply chain diversification&lt;/em&gt; — 공급망 다층화/다원화&lt;/li&gt;&lt;li&gt;&lt;em&gt;downstream value addition&lt;/em&gt; — 하류 산업 부가가치 창출&lt;/li&gt;&lt;li&gt;&lt;em&gt;critical mineral independence&lt;/em&gt; — 핵심광물 자립도 강화&lt;/li&gt;&lt;li&gt;&lt;em&gt;lithium-ion battery ecosystem&lt;/em&gt; — 리튬이온 배터리 산업 생태계&lt;/li&gt;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Fastmarkets proposes to amend names, specifications of nickel pig iron prices, proposes to launch Ni 12-14% NPI cif China price - Fastmarkets</title>
-      <link>https://news.google.com/rss/articles/CBMi9AFBVV95cUxQSkwweWNpRjFtRkNMVHRvb1UtaDFnQnFFZGZLc3phZ0FvQnZjUDdPSnhrY09McUVpZVhGT3dZSU84bWZrbllsYVUwWW5HMmJuWTNlSGc0UUhyNGhPTlR0LVlaZUpsLVB2N3JsS2dtX3RISG52WXpkVUNyam03RW5IeURZbDRseWFESVFpaF9HSkFDcDFjXzhieWkzSzkzdlVubGJ0aFNBY2JIXzVOb2JUUTE2OXFoVXM1czJHZ2FuNG5MbW4wbXlNOW5KUmh0SFBpb1NYYVZzRFM5MFdlVFNZRGhyMWhnZGZJdVpQbnNzTHRqbEpI?oc=5</link>
-      <guid isPermaLink="false">abe85cf843</guid>
-      <pubDate>Thu, 05 Nov 2026 09:18:03 +0000</pubDate>
-      <source url="https://dolmudaddy.github.io/critical-minerals">Fastmarkets - via Google News</source>
-      <category>니켈</category>
-      <category>선철(NPI)</category>
-      <category>가격지수·시장정보</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Fastmarkets - via Google News&lt;/p&gt;&lt;p&gt;Fastmarkets가 니켈 선철(NPI) 가격 지수의 명칭과 규격을 개정하고 중국 CIF 기준 12-14% 니켈 함유 NPI 가격 지수 신규 출범을 제안하였음. 이는 저품위 니켈 자원의 가격 투명성 강화 및 시장 세분화를 목표로 함. 해당 개정안은 니켈 공급망 및 핵심광물 시장의 가격 발견 기능 개선에 기여할 전망임.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;amend names and specifications of nickel pig iron prices&lt;/em&gt; — 니켈 선철 가격 지수의 명칭과 규격을 개정하다&lt;/li&gt;&lt;li&gt;&lt;em&gt;Ni 12-14% NPI cif China price&lt;/em&gt; — 중국 CIF 기준 니켈 함유 12-14% 니켈 선철 가격&lt;/li&gt;&lt;li&gt;&lt;em&gt;price discovery mechanism in critical mineral markets&lt;/em&gt; — 핵심광물 시장의 가격 발견 메커니즘&lt;/li&gt;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Rare earths to tungsten: Which critical minerals are up for auction in govt’s latest round? - The Financial Express</title>
-      <link>https://news.google.com/rss/articles/CBMi6AFBVV95cUxObFRTLTJWWEZKQ2Vya3dDMUtzb3BORGdsRjR4N3RuNlROdEw5N3BSajh1bG05VHdWWUw3bDdkSWJFMlFOVGpyWHJXU1RVN0pzb3JZd1dqdVFoWDdXV0JJeDZYcGw5cjZVRzVBbUpfTWRjdGFWOWlJQWN6QjVSRDh1ZHdJWXk0VENTUFJaTEdDRWE5UEJ4ZGxVVjVpT0VsZW9fZk5fUHZhazRPVndhOEk5STYtT2hqd2t5dUN1bFM1T1pkU3c3WFZySUprWjVLT3E5dWtCcTJFVzJCLVNjdjN4RnRvLVN3dGgt0gHvAUFVX3lxTFBTNEVUSzc3aHY4YlgwZjktT3NGQkhpWlJkSXZnYkNOQ1UxV1ZsY3dJLWotQkNiOF9sR1FxaWh0ZkxfNkdKTkFNUkFJdDl0cTlaUHk0Q2VMUW5SS25yYlhDMHpab3NjUHJ0MEp0ZHZpa3pseXFYVUVWZkdkenRRc3JlTmtwVGZlLUtJWVNnRVVacTNVVk9FRFI1OUlORGNTT292bkZCcS0wU3A2RHp5aldsOWpsWnVhWWliQ1Fiam1ibmpkWGNuQnlLd1JRUU9vZnVzeS1mNFpSUUNmcW9EY0dzOFdicTUyXzNFVUYtdEc0?oc=5</link>
-      <guid isPermaLink="false">eeab0b44a5</guid>
-      <pubDate>Sun, 08 Nov 2026 09:42:07 +0000</pubDate>
-      <source url="https://dolmudaddy.github.io/critical-minerals">Google News - Critical Minerals Exploration</source>
-      <category>희토류</category>
-      <category>텅스텐</category>
-      <category>인도</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Google News - Critical Minerals Exploration&lt;/p&gt;&lt;p&gt;인도 정부가 희토류부터 텅스텐까지 다양한 핵심광물에 대한 경매를 추진 중으로 확인되었음. 본 경매는 국내 핵심광물 자급률 제고 및 공급망 안정화를 목표로 하고 있음. 이는 글로벌 핵심광물 확보 경쟁이 심화되는 가운데 주요 광물자원 보유국의 전략적 대응 사례로 주목할 가치가 있음.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;critical minerals auction&lt;/em&gt; — 핵심광물 경매&lt;/li&gt;&lt;li&gt;&lt;em&gt;rare earth elements (REEs)&lt;/em&gt; — 희토류원소&lt;/li&gt;&lt;li&gt;&lt;em&gt;supply chain security for strategic minerals&lt;/em&gt; — 전략광물의 공급망 보안&lt;/li&gt;&lt;li&gt;&lt;em&gt;domestic resource availability&lt;/em&gt; — 국내 자원 확보&lt;/li&gt;&lt;li&gt;&lt;em&gt;mineral exploration and licensing round&lt;/em&gt; — 광물탐사 및 채광권 입찰 라운드&lt;/li&gt;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>The Rare Earth Pricing Paradox: How State Intervention Distorts Market Signals - S&amp;P Global</title>
-      <link>https://news.google.com/rss/articles/CBMi8AFBVV95cUxNb0NyVFJmVGNIbDJ0cHJ3bFdfMUlGa09rb0FLZDMxZXpZamNmNURkaW94YzhZRTZwZWs2NmdKeTlXdEdjS09HSzZhQndkWkhNS1JBRUhMTkt3R21oNlpHdGFnQWNZM0owZ01LQWh3QVZ3d1Y4Ql9OWVRnXzRaMDJNR1lDcmZZME5Pcmpvdk9wWVNxQkQwdkxVMEZvYmNBYjdtWWFGUWpwemdBM3pHVFlzWG94S3RhSkR2NTFDcTJ3UnU1WDJjVXE3LXZsOFJsekctNFJfbnRqVkk3VW0xdFA0M2hLSlZKTS1iOGJsZlV2aXk?oc=5</link>
-      <guid isPermaLink="false">be5f752d7b</guid>
-      <pubDate>Sun, 08 Nov 2026 12:43:11 +0000</pubDate>
+      <title>Senoir Consultant – Critical Minerals in Multiple Locations - S&amp;P Global</title>
+      <link>https://news.google.com/rss/articles/CBMiYEFVX3lxTE1peVBacnJMOWdNSGZOWU5xTkxuOFBhVXFPZlB6VUpsSUs0VXBoV2xQXzl0eUZ0N21yR1lKbEJGVjlnYWFiWTZYaFI3TGQyR0JKcGZiZGVvWTdxaHl3bjRJeg?oc=5</link>
+      <guid isPermaLink="false">59be11c54a</guid>
+      <pubDate>Sun, 15 Nov 2026 21:36:31 +0000</pubDate>
       <source url="https://dolmudaddy.github.io/critical-minerals">S&amp;P Global - via Google News</source>
-      <category>희토류</category>
-      <category>시장가격 신호</category>
-      <category>공급망 정책</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: S&amp;amp;P Global - via Google News&lt;/p&gt;&lt;p&gt;국가 개입에 의한 희토류 가격 통제가 시장 신호를 왜곡하여 공급망 안정성을 위협하는 것으로 확인되었습니다. 정부의 수출 제한, 가격 규제, 비축 정책 등이 실제 수급 상황을 반영하지 못한 왜곡된 가격 신호를 생성함으로써 장기 투자 의사결정을 저해할 전망입니다. 핵심광물의 안정적 공급을 위해서는 투명한 시장 메커니즘과 국가 정책 간의 균형 조정이 필요함을 시사합니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;state intervention distorts market signals&lt;/em&gt; — 국가 개입이 시장 신호를 왜곡함&lt;/li&gt;&lt;li&gt;&lt;em&gt;rare earth pricing paradox&lt;/em&gt; — 희토류 가격 역설(공급 제약에도 불구하고 가격이 예상과 다르게 움직이는 현상)&lt;/li&gt;&lt;li&gt;&lt;em&gt;supply chain resilience&lt;/em&gt; — 공급망 회복력/안정성&lt;/li&gt;&lt;li&gt;&lt;em&gt;price controls on strategic commodities&lt;/em&gt; — 전략광물에 대한 가격 규제&lt;/li&gt;&lt;li&gt;&lt;em&gt;transparent market mechanism&lt;/em&gt; — 투명한 시장 메커니즘&lt;/li&gt;&lt;/ul&gt;</description>
+      <category>핵심광물</category>
+      <category>인력수요</category>
+      <category>글로벌공급망</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: S&amp;amp;P Global - via Google News&lt;/p&gt;&lt;p&gt;S&amp;amp;P Global에서 핵심광물 분야의 선임 컨설턴트(Senior Consultant) 채용공고를 게재하였으며, 복수 지역에서의 근무가 예상되고 있습니다. 본 채용은 글로벌 핵심광물 수급 불안정성이 심화되는 가운데 전문 인력 수요가 급증하고 있음을 반영하는 것으로 판단됩니다. 에너지 전환 및 첨단산업 고도화에 따른 핵심광물 전략적 중요성이 국제 에너지·자원 평가기관에서도 중대 이슈로 인식되고 있음을 보여줍니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;Senior Consultant – Critical Minerals&lt;/em&gt; — 핵심광물 분야 선임 컨설턴트/전문가&lt;/li&gt;&lt;li&gt;&lt;em&gt;Multiple Locations deployment&lt;/em&gt; — 복수 지역 근무 배치/국제 순회 업무&lt;/li&gt;&lt;li&gt;&lt;em&gt;Global critical minerals market analysis&lt;/em&gt; — 글로벌 핵심광물 시장 분석&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
     <item>
-      <title>America's Rare Earth Reckoning Is Less Than 60 Days Away - Crude Oil Prices Today | OilPrice.com</title>
-      <link>https://news.google.com/rss/articles/CBMipgFBVV95cUxOY2tIRW1YemR3bFNtdHBRN2JlR2ZQX09IbEJTM3lzbGNuQXRGYkxTMEphbGdQTUw0NEpkOUlLUzBkLUdaY0RfRFljaXE4WUMyR21GMVRtckQ0Rk90a0xhTTFUdkNUWXV4aFRGR3BISElVSWQ0LTlobU42bWtnVVpwcDVEd0xPTWNRRGZ3aElMNmJrZGU0RVEzOS1jRWVyU1p0Y19qMERR0gGrAUFVX3lxTE9ZcjFTVEh5N2R0d0x1bTBCS3ozb25XSzFUNUcyUmZoZk9HZ1hJcHdySE9TTUFQaFNfSDhoRWpVOE9wb0pBelE3LXhncUl1OHJYdi1jaU9zWnRLTjV5d2UtcjV5YVRNSXRwSFlXTTRfankxdDgySm1QUXRpdzNrMDdDV1J4bUFKWmI5eEoxRU1TVkZjVVpBV0hhUGg2Nlh1UkZqUWx5YncxejN5Zw?oc=5</link>
-      <guid isPermaLink="false">00f2e83ab2</guid>
-      <pubDate>Fri, 06 Nov 2026 02:00:00 +0000</pubDate>
+      <title>Patagonia Lithium (ASX:PL3) Share Price in Focus After Today's Drop - Kalkine</title>
+      <link>https://news.google.com/rss/articles/CBMinwFBVV95cUxONkl1TmNienE4dlJWSkRwSG9wU3g1RWloVGRlbV9FZU5LVlJDbHFUV2tfSndoNWU2Y3doNE1IWDlwYWNvUTVnUXFpekVqbVFiY0tXd2NtcUctYlVJbHg5Tk5MaG9RMkR2dG5wa19VV3FwNkRkb3hHaW1FMlNIelg3X09BVXNLdWtDU1p1YWxWZV81b1pSOVZmU3ZRS1VpdTQ?oc=5</link>
+      <guid isPermaLink="false">620fd90e9a</guid>
+      <pubDate>Thu, 12 Nov 2026 10:16:00 +0000</pubDate>
+      <source url="https://dolmudaddy.github.io/critical-minerals">Google News - Lithium Discovery</source>
+      <category>리튬</category>
+      <category>주가변동성</category>
+      <category>호주</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Google News - Lithium Discovery&lt;/p&gt;&lt;p&gt;파타고니아 리튬(ASX:PL3)의 주가가 당일 하락세를 보이며 시장의 주목을 받고 있습니다. 본 사건은 리튬 등 핵심광물 개발 프로젝트의 시장 변동성을 반영하는 사례로 평가됩니다. 호주 상장사의 성과는 핵심광물 공급망 안정화를 위한 탐사 및 개발 부문의 중요성을 재확인시켜줍니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;critical minerals supply chain stabilization&lt;/em&gt; — 핵심광물 공급망 안정화&lt;/li&gt;&lt;li&gt;&lt;em&gt;lithium exploration and development project&lt;/em&gt; — 리튬 탐사 및 개발 프로젝트&lt;/li&gt;&lt;li&gt;&lt;em&gt;market volatility in mineral commodities&lt;/em&gt; — 광물 상품의 시장 변동성&lt;/li&gt;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Op-Ed: Europe is stockpiling critical minerals. Wonderful. Can anyone actually use them?</title>
+      <link>https://www.mining.com/op-ed-europe-is-stockpiling-critical-minerals-wonderful-can-anyone-actually-use-them/</link>
+      <guid isPermaLink="false">380e22c201</guid>
+      <pubDate>Fri, 13 Nov 2026 19:43:07 +0000</pubDate>
+      <source url="https://dolmudaddy.github.io/critical-minerals">Mining.com</source>
+      <category>핵심광물</category>
+      <category>공급망 정책</category>
+      <category>유럽</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Mining.com&lt;/p&gt;&lt;p&gt;유럽이 핵심광물 비축을 추진하고 있으나, 확보된 광물을 실제로 활용할 수 있는 역량 구축이 별개의 과제로 제기되고 있습니다. 광물 자체의 확보와 이를 활용 가능한 형태로 전환하는 능력은 근본적으로 다른 성취이며, 전략적 비축만으로는 불충분함을 시사합니다. 따라서 핵심광물의 전주기적 공급망 통합과 산업 활용 역량 강화가 동시에 이루어져야 할 것으로 확인되었습니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;Securing a mineral and securing the ability to use that mineral are two entirely different achievements&lt;/em&gt; — 광물 확보와 광물 활용 능력 확보는 완전히 상이한 과제&lt;/li&gt;&lt;li&gt;&lt;em&gt;stockpiling critical minerals&lt;/em&gt; — 핵심광물 비축·전략비축&lt;/li&gt;&lt;li&gt;&lt;em&gt;end-use capability&lt;/em&gt; — 최종 사용 가능성·산업 활용 역량&lt;/li&gt;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>North America Lithium and Gold Corp. Commences Property-Wide Field Exploration to Evaluate Access and Drilling Targets at Midnight Owl - TradingView</title>
+      <link>https://news.google.com/rss/articles/CBMiogJBVV95cUxOZkRDN2pkV0xRdjNsdVlFZE9MSGlCVlZHSWVQczlZc3UzMzBOZk1zSnV0NUVGR1A2aVhwanJIZy1vZExCdklkbzh3eUJoOGpBQWhXSU5PR3A0Mkl1dFpRMzJlUFJqby0xS0VtU0xmZFNFSl9BTS1ESlhoZWNka0R4Q1FoTFZzRmtzTzVlQ3NXZ1prWVJsdlFtUlVFdE1CT0VEb1piUTdxZjE4U0x0WXNxT1Rjb3lhbUR2R0plcUlobEFfXzYzNF94cGdjS0N0ck5iQl9zWFhRYTBuZnNBdEkzRXlEWjBRTHNZcXkwckRwV2hjclU4MFpMaHV0U2xEeDZzSGhZQmtOeFZZX3dRV2VWdzNNRS1VYlRoSlVPU0x6ODUwdw?oc=5</link>
+      <guid isPermaLink="false">45156a126d</guid>
+      <pubDate>Thu, 12 Nov 2026 14:15:00 +0000</pubDate>
+      <source url="https://dolmudaddy.github.io/critical-minerals">Google News - Critical Minerals Exploration</source>
+      <category>리튬</category>
+      <category>시추탐사</category>
+      <category>캐나다</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Google News - Critical Minerals Exploration&lt;/p&gt;&lt;p&gt;북미 리튬·금 공사가 캐나다 미드나잇 아울 광구에서 전사적 현장탐사를 개시하여 접근성 평가 및 시추 대상을 선정하고 있음이 확인되었습니다. 본 프로젝트는 리튬과 금이라는 두 가지 핵심광물의 동시 개발을 통해 에너지 전환과 첨단산업 수요에 대응하는 전략적 의의를 가집니다. 체계적인 필드 탐사와 시추 계획 수립은 북미 지역의 핵심광물 공급 기반 강화에 기여할 전망입니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;property-wide field exploration&lt;/em&gt; — 광구 전역에 걸친 현장탐사 또는 통합 야외조사&lt;/li&gt;&lt;li&gt;&lt;em&gt;evaluate access and drilling targets&lt;/em&gt; — 접근성을 평가하고 시추 목표물을 선정하다&lt;/li&gt;&lt;li&gt;&lt;em&gt;commences exploration program&lt;/em&gt; — 탐사 프로그램을 개시하다 또는 착수하다&lt;/li&gt;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Technology drives rare earth exploration near Prince George - CKPG Today</title>
+      <link>https://news.google.com/rss/articles/CBMilwFBVV95cUxPSmVoVWE0M3lPLXd2YTFzU1NCZnlxSjV2M1RpNHlrdVprcWdPZzVISk95THA5bmNObDFCSWRMNF90cFFVOU5UcTFoeGNtNTEzSFA3dXVBVmkydnRBTFVqaFhZeWh6WFRoZW9INEJmVENMMFVJWGdfSWZ1ZENoaTJRQzRlZ2xlSEV2YVNJM3V2SW1ua1ByQU9n?oc=5</link>
+      <guid isPermaLink="false">de48c8ea2a</guid>
+      <pubDate>Fri, 13 Nov 2026 23:39:00 +0000</pubDate>
       <source url="https://dolmudaddy.github.io/critical-minerals">Google News - Rare Earth Elements</source>
       <category>희토류원소</category>
-      <category>핵심광물 정책</category>
-      <category>미국</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Google News - Rare Earth Elements&lt;/p&gt;&lt;p&gt;미국의 핵심광물 자급률 개선을 위한 정책 결정이 60일 이내에 임박한 상황으로 확인되었습니다. 현재 미국은 희토류 원소를 포함한 핵심광물의 대다수를 해외 수입에 의존하고 있어 공급망 취약성이 지적되고 있습니다. 향후 국내 채굴 확대 및 전략광물 개발 정책의 구체적 추진 여부가 결정될 것으로 전망됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;rare earth reckoning&lt;/em&gt; — 희토류 원소 관련 정책 결정의 시점 또는 미국의 희토류 자급 현황에 대한 평가&lt;/li&gt;&lt;li&gt;&lt;em&gt;critical minerals supply chain vulnerability&lt;/em&gt; — 핵심광물 공급망의 취약성 및 의존도 문제&lt;/li&gt;&lt;li&gt;&lt;em&gt;domestic production capacity&lt;/em&gt; — 국내 채굴 및 생산 역량&lt;/li&gt;&lt;/ul&gt;</description>
+      <category>탐사기술</category>
+      <category>캐나다</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Google News - Rare Earth Elements&lt;/p&gt;&lt;p&gt;캐나다 프린스조지 인근에서 첨단 탐사 기술을 활용한 희토류원소 탐사가 활발히 진행 중으로 확인되었음. 지구물리탐사, 드론 매핑, 인공지능 분석 등의 신기술 적용으로 핵심광물 발견 효율이 대폭 향상될 전망임. 이러한 기술 기반 탐사는 북미의 핵심광물 공급 다변화 전략의 핵심 수단이 될 것으로 예상됨.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;rare earth element exploration&lt;/em&gt; — 희토류원소 탐사&lt;/li&gt;&lt;li&gt;&lt;em&gt;technology-driven mineral discovery&lt;/em&gt; — 기술 기반 광물 발견&lt;/li&gt;&lt;li&gt;&lt;em&gt;geophysical survey and AI-assisted mapping&lt;/em&gt; — 지구물리탐사 및 인공지능 기반 매핑&lt;/li&gt;&lt;li&gt;&lt;em&gt;critical mineral supply security&lt;/em&gt; — 핵심광물 공급 안정성 확보&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
     <item>
-      <title>Sibanye cuts US output forecast after five-week strike</title>
-      <link>https://www.mining.com/sibanye-cuts-us-output-forecast-after-five-week-strike/</link>
-      <guid isPermaLink="false">96b78a7a43</guid>
-      <pubDate>Thu, 05 Nov 2026 10:44:00 +0000</pubDate>
-      <source url="https://dolmudaddy.github.io/critical-minerals">Mining.com</source>
-      <category>백금족금속(PGM)</category>
-      <category>노동분쟁/공급 안정성</category>
-      <category>미국·핀란드</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Mining.com&lt;/p&gt;&lt;p&gt;시반예(Sibanye)사가 5주간의 노동분쟁으로 인한 백금족금속 생산 차질로 미국 사업장의 생산량 전망을 하향조정했습니다. 동사는 생산 차질을 만회하기 위한 대응 방안을 검토 중이며, 핵심광물 공급 체인의 안정성 문제가 대두되고 있습니다. 또한 핀란드 리튬 프로젝트의 추진 여부를 판단하는 과정에서 글로벌 광물 수급 불균형이 심화될 우려가 제기되고 있습니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;labour dispute disrupted platinum group metals output&lt;/em&gt; — 노동분쟁이 백금족금속 생산을 중단시키다&lt;/li&gt;&lt;li&gt;&lt;em&gt;cuts output forecast&lt;/em&gt; — 생산 전망을 하향 조정하다&lt;/li&gt;&lt;li&gt;&lt;em&gt;weighs its next move&lt;/em&gt; — 다음 전략적 조치를 검토·판단하다&lt;/li&gt;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Critical Minerals Markets &amp; Supply Chains - S&amp;P Global</title>
-      <link>https://news.google.com/rss/articles/CBMijwFBVV95cUxOS3BKWkM5azJVbjhmcEhBTGZQYzdtczZka0t6dUE4RzhjQVdZRVhucjJfRzc0UnRoNEsyUVNNeFZ0ajAxV25kQTRHREFuTWJsNERqdy10cFdCQ2FXQlpiYTN6RlNfWmR1VkRENXJlZ09hUl9qeVRfdWZUYW9CTU5uMUxqS3gzdXU1TnVsbEdySQ?oc=5</link>
-      <guid isPermaLink="false">05a2afab16</guid>
-      <pubDate>Tue, 03 Nov 2026 17:35:04 +0000</pubDate>
-      <source url="https://dolmudaddy.github.io/critical-minerals">S&amp;P Global - via Google News</source>
-      <category>리튬</category>
-      <category>코발트</category>
+      <title>Steadright Critical Minerals Begins Exploration at Péribonka REE-Niobium Carbonatite Target in Quebec's Niobium District - Junior Mining Network</title>
+      <link>https://news.google.com/rss/articles/CBMiogJBVV95cUxPSklrWUprZkg4bUxUaUhBa29hYy16TGVidUhOdE40WnhwUmE1UVMtWnlwWWhCQkJLTTkwNDRnYkhjNk40Y05zdHR2WlhFazNCN2RsVGFZclpDbWNzM0FwR2Q3NXJYdDEyeVhidVByOGFpcXFGU2YzMjQ1blBmRzlFUFlPV0pQYkJib05NZi0tZ0ppX1ZTbGVWUW1BX3ZZYWpBY2tBbHZFU1FlWDJJQTRfdXdRdUhVcXd0WWJDdXpFN1lXaERtR2xIdnNmU2NMaTVEcDBtcU9BS3JlakNyQml1MFpXVk1PMmx6SWVYVEVOT1Z6cXRKYUpOOFBuLWo3Wjk0UHBUcEw3MThNRndNWUhpODREZjhFaHRxdkV2MldIZlljdw?oc=5</link>
+      <guid isPermaLink="false">cd2e15d077</guid>
+      <pubDate>Thu, 12 Nov 2026 13:42:07 +0000</pubDate>
+      <source url="https://dolmudaddy.github.io/critical-minerals">Google News - Critical Minerals Exploration</source>
+      <category>니오븀</category>
       <category>희토류</category>
-      <category>공급망</category>
-      <category>에너지전환</category>
-      <category>글로벌시장</category>
-      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: S&amp;amp;P Global - via Google News&lt;/p&gt;&lt;p&gt;S&amp;amp;P Global의 보고서에서는 전 지구적 에너지 전환과 디지털화에 따른 핵심광물 수요의 급증을 분석하고 있으며, 이에 따른 공급망 다원화와 위험 관리의 중요성이 강조되고 있습니다. 리튬, 코발트, 희토류 등 주요 핵심광물의 시장 변동성과 지역별 공급 편중 현상이 글로벌 에너지 안보에 미치는 영향을 평가하고 있습니다. 따라서 장기적 자원 안정성 확보를 위한 전략적 비축, 재활용 기술 개발, 그리고 다원화된 광물 확보 전략이 필요한 것으로 제시되고 있습니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;critical minerals supply chain diversification&lt;/em&gt; — 핵심광물 공급망 다원화&lt;/li&gt;&lt;li&gt;&lt;em&gt;supply chain resilience and vulnerability assessment&lt;/em&gt; — 공급망 회복력 및 취약성 평가&lt;/li&gt;&lt;li&gt;&lt;em&gt;market dynamics and price volatility in critical mineral sectors&lt;/em&gt; — 핵심광물 부문의 시장 역학 및 가격 변동성&lt;/li&gt;&lt;li&gt;&lt;em&gt;geographic concentration risk&lt;/em&gt; — 지리적 공급 편중 위험&lt;/li&gt;&lt;li&gt;&lt;em&gt;circular economy and recycling strategies for critical minerals&lt;/em&gt; — 핵심광물의 순환경제 및 재활용 전략&lt;/li&gt;&lt;/ul&gt;</description>
+      <category>카보나타이트 광상</category>
+      <category>캐나다 퀘벡</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Google News - Critical Minerals Exploration&lt;/p&gt;&lt;p&gt;캐나다 퀘벡주 니오븀 지구의 Péribonka 지역에서 Steadright Critical Minerals가 희토류-니오븀 카보나타이트 광상에 대한 탐사를 개시한 것으로 확인되었습니다. 본 프로젝트는 북미의 핵심광물 공급 다원화 전략의 일환으로 추진되고 있으며, 향후 니오븀 및 희토류 자급능력 강화에 기여할 것으로 전망됩니다. 카보나타이트형 광상의 효율적 탐사 및 개발은 핵심광물 확보 경쟁에서 전략적 중요성을 가질 것으로 예상됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;REE-Niobium Carbonatite Target&lt;/em&gt; — 희토류-니오븀 카보나타이트 광상&lt;/li&gt;&lt;li&gt;&lt;em&gt;exploration program&lt;/em&gt; — 탐사 프로젝트 또는 탐사 계획&lt;/li&gt;&lt;li&gt;&lt;em&gt;critical minerals district&lt;/em&gt; — 핵심광물 광구역 또는 핵심광물 밀집지역&lt;/li&gt;&lt;li&gt;&lt;em&gt;Niobium District of Quebec&lt;/em&gt; — 퀘벡 니오븀 지구&lt;/li&gt;&lt;li&gt;&lt;em&gt;junior mining company&lt;/em&gt; — 중소규모 광업회사 또는 탐사 중심 광업회사&lt;/li&gt;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Rare Earths Americas doubles mineralized zone at Homer project in Brazil</title>
+      <link>https://www.mining.com/rare-earths-americas-doubles-mineralized-zone-at-homer-project-in-brazil/</link>
+      <guid isPermaLink="false">69a07976c7</guid>
+      <pubDate>Thu, 12 Nov 2026 22:58:35 +0000</pubDate>
+      <source url="https://dolmudaddy.github.io/critical-minerals">Mining.com</source>
+      <category>희토류(REE)</category>
+      <category>탐광/광체평가</category>
+      <category>브라질</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Mining.com&lt;/p&gt;&lt;p&gt;레어어스 아메리카스(Rare Earths Americas)가 브라질 호머(Homer) 프로젝트에서 최신 분석 결과를 토대로 광물화대를 60% 이상 확대하여 약 3.5km²에 달하는 것으로 확인되었습니다. 이는 희토류 핵심광물 탐사의 중요한 진전으로, 광체의 규모 확대가 향후 개발 타당성 평가에 긍정적 영향을 미칠 전망입니다. 브라질의 풍부한 광물 자원과 지정학적 중요성을 고려할 때, 본 프로젝트는 글로벌 핵심광물 공급망 다각화에 기여할 수 있을 것으로 예상됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;mineralized zone expansion&lt;/em&gt; — 광물화대 확대/광체 규모 확장&lt;/li&gt;&lt;li&gt;&lt;em&gt;assay results&lt;/em&gt; — 분석 결과/검정 결과&lt;/li&gt;&lt;li&gt;&lt;em&gt;mineralized footprint&lt;/em&gt; — 광물화 지표/광체 분포 범위&lt;/li&gt;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Nemaska pause clouds Rio Tinto’s Quebec lithium plans</title>
+      <link>https://www.mining.com/nemaska-pause-clouds-quebec-lithium-plans/</link>
+      <guid isPermaLink="false">9366c914c5</guid>
+      <pubDate>Thu, 12 Nov 2026 22:25:00 +0000</pubDate>
+      <source url="https://dolmudaddy.github.io/critical-minerals">Mining.com</source>
+      <category>리튬</category>
+      <category>공급망 통합</category>
+      <category>캐나다</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Mining.com&lt;/p&gt;&lt;p&gt;캐나다 네마스카 리튬 프로젝트의 일시 중단으로 리오 틴토의 퀘벡주 핵심광물 공급망 구축 계획에 차질이 생기고 있습니다. 베캉쿠르 프로젝트는 현지에서 채광한 핵심광물을 고부가가치 배터리 소재로 전환하려는 퀘벡주의 전략적 공급망 구축 계획의 핵심 사업으로 평가됩니다. 선진국들의 리튬 수직통합 시도 및 지역 기반 공급망 확보 움직임이 가속화되고 있으며, 이는 우리나라의 핵심광물 확보 전략에도 중요한 시사점을 제공합니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;critical minerals supply chain&lt;/em&gt; — 핵심광물 공급망&lt;/li&gt;&lt;li&gt;&lt;em&gt;value-added processing of locally mined minerals&lt;/em&gt; — 지역 채광 광물의 부가가치 가공&lt;/li&gt;&lt;li&gt;&lt;em&gt;vertically integrated battery supply chain&lt;/em&gt; — 수직통합형 배터리 공급망&lt;/li&gt;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Freeport strikes $77M deal for BC copper stake</title>
+      <link>https://www.mining.com/freeport-strikes-110m-deal-for-bc-copper-stake/</link>
+      <guid isPermaLink="false">d86931ce4e</guid>
+      <pubDate>Fri, 13 Nov 2026 23:00:00 +0000</pubDate>
+      <source url="https://dolmudaddy.github.io/critical-minerals">Mining.com</source>
+      <category>구리</category>
+      <category>탐사투자</category>
+      <category>캐나다</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Mining.com&lt;/p&gt;&lt;p&gt;프리포트사가 캐나다 브리티시컬럼비아주의 구리 광산 지분 취득을 위해 7,700만 달러 규모의 계약을 체결했으며, 이 중 3년 내 3,000만 달러를 탐사에 투자하기로 약정했습니다. 본 거래는 북미 지역의 핵심광물 공급망 확보 전략의 일환으로 평가되고 있습니다. 구리는 에너지전환 및 전기차 산업의 필수 핵심광물로서 전 지구적 수요 증가에 대응하기 위한 핵심 프로젝트입니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;exploration commitment within three years of closing&lt;/em&gt; — 거래 체결 후 3년 내 탐사 투자 약정&lt;/li&gt;&lt;li&gt;&lt;em&gt;copper stake acquisition&lt;/em&gt; — 구리 광산 지분 취득&lt;/li&gt;&lt;li&gt;&lt;em&gt;critical mineral supply chain security&lt;/em&gt; — 핵심광물 공급망 보안&lt;/li&gt;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>EverMetal acquires UK critical metals recycler Advanced Alloys</title>
+      <link>https://www.mining.com/evermetal-acquires-uk-critical-metals-recycler-advanced-alloys/</link>
+      <guid isPermaLink="false">6d552f110e</guid>
+      <pubDate>Wed, 11 Nov 2026 14:05:00 +0000</pubDate>
+      <source url="https://dolmudaddy.github.io/critical-minerals">Mining.com</source>
+      <category>니켈·코발트</category>
+      <category>핵심광물 재활용·순환경제</category>
+      <category>영국</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: Mining.com&lt;/p&gt;&lt;p&gt;EverMetal이 영국의 핵심광물 재활용 기업 Advanced Alloys를 인수하여 니켈, 코발트 및 특수금속 처리 역량을 확보했습니다. 본 인수는 글로벌 산업을 지원하는 재활용 네트워크 확대 전략의 일환으로 평가되고 있습니다. 순환경제 기반 핵심광물 공급망 다각화의 중요한 사례로 주목할 만합니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;critical metals recycling&lt;/em&gt; — 핵심광물 재활용&lt;/li&gt;&lt;li&gt;&lt;em&gt;specialty metals processing capabilities&lt;/em&gt; — 특수금속 처리 역량&lt;/li&gt;&lt;li&gt;&lt;em&gt;growing recycling network&lt;/em&gt; — 확대되는 재활용 네트워크&lt;/li&gt;&lt;li&gt;&lt;em&gt;supply chain diversification&lt;/em&gt; — 공급망 다각화&lt;/li&gt;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Vanadium in August 2026</title>
+      <link>https://www.usgs.gov/centers/national-minerals-information-center/vanadium-statistics-and-information</link>
+      <guid isPermaLink="false">09030afc89</guid>
+      <pubDate>Tue, 10 Nov 2026 20:56:30 +0000</pubDate>
+      <source url="https://dolmudaddy.github.io/critical-minerals">USGS Minerals Periodicals</source>
+      <category>바나듐</category>
+      <category>핵심광물 공급망</category>
+      <category>에너지저장</category>
+      <description>&lt;p&gt;&lt;strong&gt;출처&lt;/strong&gt;: USGS Minerals Periodicals&lt;/p&gt;&lt;p&gt;바나듐은 철강 합금, 배터리, 촉매 등 첨단산업에서 수요가 증가하고 있는 핵심광물로, 2026년 8월 현물 가격과 생산량 동향을 분석한 USGS 자료임이 확인되었습니다. 중국, 러시아, 남아프리카 등 주요 생산국의 공급 현황과 함께 에너지저장장치(VRFB) 등 신규 응용분야의 성장이 수요 전망을 좌우할 것으로 판단됩니다. 배터리 및 신재생에너지 산업의 확대에 따라 바나듐의 전략적 중요성이 더욱 높아질 것으로 전망됩니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;핵심 영어 표현&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;critical mineral supply chain&lt;/em&gt; — 핵심광물 공급망&lt;/li&gt;&lt;li&gt;&lt;em&gt;vanadium redox flow battery (VRFB)&lt;/em&gt; — 바나듐 산화-환원 흐름 배터리&lt;/li&gt;&lt;li&gt;&lt;em&gt;primary vanadium production&lt;/em&gt; — 1차 바나듐 생산&lt;/li&gt;&lt;li&gt;&lt;em&gt;ferrovanadium alloy&lt;/em&gt; — 페로바나듐 합금&lt;/li&gt;&lt;li&gt;&lt;em&gt;strategic material assessment&lt;/em&gt; — 전략광물 평가&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
