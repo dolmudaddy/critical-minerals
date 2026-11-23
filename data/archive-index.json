@@ -1,7 +1,25 @@
 {
-  "total_weeks": 33,
-  "latest_week": "2026-11-16",
+  "total_weeks": 34,
+  "latest_week": "2026-11-23",
   "weeks": [
+    {
+      "week_of": "2026-11-23",
+      "filename": "week-2026-11-23.json",
+      "total_cards": 12,
+      "category_counts": {
+        "policy_market": 7,
+        "exploration_tech": 2,
+        "supply_chain": 3
+      },
+      "top_tags": [
+        "핵심광물",
+        "핵심광물 공급망",
+        "희토류",
+        "텅스텐",
+        "니켈"
+      ],
+      "generated_at": "2026-11-23T03:26:05.873072+00:00"
+    },
     {
       "week_of": "2026-11-16",
       "filename": "week-2026-11-16.json",
